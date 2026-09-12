@@ -9,8 +9,23 @@ import {
   useTransform,
   type Transition,
 } from "motion/react";
+import dynamic from "next/dynamic";
 import { useEffect, useRef, useState, type RefObject } from "react";
 import { Icon } from "@/components/ui/Sprite";
+import { PANEL_WAVE_FIELD, PANEL_WAVE_PHASES } from "@/components/webgl/WaveGridField";
+
+/**
+ * The particle grid behind the card is owned by another module. Load it
+ * lazily and fall back to nothing, so the stage's boxes are identical whether
+ * or not the field is present.
+ */
+const WaveGridField = dynamic(
+  () =>
+    import("@/components/webgl/WaveGridField")
+      .then((m) => m.WaveGridField)
+      .catch(() => () => null),
+  { ssr: false },
+);
 
 /* ------------------------------------------------------------------------- *
  * Conversation
@@ -109,21 +124,23 @@ const QUICK_ACTIONS = [
 const FIELD_MASK = "linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 22%)";
 
 /**
- * The four uniforms the particle field swaps per phase. These are hard swaps,
- * not tweens: the field gets choppier and about six times faster while the card
- * is thinking and showing results, and moderately faster the moment the query
- * lands. Everything else about the field is constant.
+ * Which of the field's four documented phase override sets each phase of the
+ * card's loop selects. Primary and Loop Reset sit on the base props; the query
+ * landing speeds the drift up; thinking and reading out make the wave choppier
+ * and roughly six times faster. The field is mounted in every phase.
  */
-const FIELD_BY_PHASE: Record<
-  Phase,
-  { noiseFrequency: number; noiseLayerSpread: number; timeScale: number; waveHeightScale: number }
-> = {
-  primary: { noiseFrequency: 2, noiseLayerSpread: 0.005, timeScale: 0.05, waveHeightScale: 0.1 },
-  chatStart: { noiseFrequency: 2, noiseLayerSpread: 0.005, timeScale: 0.25, waveHeightScale: 0.1 },
-  thinking: { noiseFrequency: 3, noiseLayerSpread: 0.01, timeScale: 0.31, waveHeightScale: 0.14 },
-  results: { noiseFrequency: 3, noiseLayerSpread: 0.01, timeScale: 0.31, waveHeightScale: 0.14 },
-  loopReset: { noiseFrequency: 2, noiseLayerSpread: 0.005, timeScale: 0.05, waveHeightScale: 0.1 },
+const FIELD_PHASE: Record<Phase, keyof typeof PANEL_WAVE_PHASES> = {
+  primary: "base",
+  chatStart: "chatStart",
+  thinking: "thinking",
+  results: "results",
+  loopReset: "base",
 };
+
+/** Point size: 2 everywhere, 4 on phone. The panel's own prop. */
+const POINT_SIZE = 2;
+const POINT_SIZE_PHONE = 4;
+const PHONE_QUERY = "(max-width: 809.98px)";
 
 /* --------------------------------------------------------------------- */
 
@@ -379,6 +396,16 @@ export function Conversation() {
   const { scrollY } = useScroll();
   const parallaxY = useTransform(scrollY, (v) => v * 0.05);
 
+  /* The field's points are one step bigger on phone. */
+  const [pointSize, setPointSize] = useState(POINT_SIZE);
+  useEffect(() => {
+    const mq = window.matchMedia(PHONE_QUERY);
+    const sync = () => setPointSize(mq.matches ? POINT_SIZE_PHONE : POINT_SIZE);
+    sync();
+    mq.addEventListener("change", sync);
+    return () => mq.removeEventListener("change", sync);
+  }, []);
+
   return (
     <section className="cv-section" data-section="Conversation">
       <div className="cv-container">
@@ -594,20 +621,12 @@ export function Conversation() {
               </motion.div>
             </motion.div>
             {/*
-              The particle grid that sits behind the card. Container values are
-              exact: absolute inset 0, opacity 0.3, and the bottom-out mask.
-              In Results the canvas takes order 1, which is inert here because
-              an absolutely positioned child is not a flex item; it is kept so
-              the declaration matches the source.
-
-              TODO(webgl): the field itself is `WaveGridField`, a flat point
-              grid displaced by fractal noise, which another module owns and
-              which has not landed yet. When it does, render it inside the
-              inner box below at 100% x 100% and pass, on top of its own base
-              props, the four live values in FIELD_BY_PHASE[phase]: they are
-              per-phase hard swaps, not tweens. Nothing else about this slot
-              changes, and the field is absolutely positioned so it can never
-              move the stage height.
+              The particle grid behind the card. The container carries the
+              0.3 opacity and the bottom-out mask; the field supplies its own
+              relative, clipped box. In Results the canvas takes order 1, which
+              is inert here because an absolutely positioned child is not a
+              flex item, but it is kept so the declaration matches the source.
+              The field is out of flow, so it cannot move the stage height.
             */}
             <div
               className="cv-field"
@@ -620,12 +639,12 @@ export function Conversation() {
                 WebkitMaskImage: FIELD_MASK,
                 maskImage: FIELD_MASK,
               }}
-              data-field-noise-frequency={FIELD_BY_PHASE[phase].noiseFrequency}
-              data-field-noise-layer-spread={FIELD_BY_PHASE[phase].noiseLayerSpread}
-              data-field-time-scale={FIELD_BY_PHASE[phase].timeScale}
-              data-field-wave-height-scale={FIELD_BY_PHASE[phase].waveHeightScale}
             >
-              <div style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden" }} />
+              <WaveGridField
+                {...PANEL_WAVE_FIELD}
+                {...PANEL_WAVE_PHASES[FIELD_PHASE[phase]]}
+                pointSize={pointSize}
+              />
             </div>
           </div>
         </div>

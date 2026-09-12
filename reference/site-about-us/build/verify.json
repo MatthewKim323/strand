@@ -1,0 +1,149 @@
+{
+ "url": "http://localhost:3799/about-us",
+ "ref": "reference/site-about-us",
+ "at": "2026-09-12T11:38:35.963Z",
+ "viewports": {
+  "desktop": {
+   "width": 1440,
+   "docHeight": {
+    "ref": 3764,
+    "build": 3764,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "About us",
+     "y": 68,
+     "ref": 2078,
+     "build": 2078,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 2146,
+     "ref": 1618,
+     "build": 1618,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet": {
+   "width": 1024,
+   "docHeight": {
+    "ref": 3696,
+    "build": 3696,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "About us",
+     "y": 68,
+     "ref": 2004,
+     "build": 2004,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 2072,
+     "ref": 1624,
+     "build": 1624,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet-810": {
+   "width": 810,
+   "docHeight": {
+    "ref": 3641,
+    "build": 3641,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "About us",
+     "y": 68,
+     "ref": 2004,
+     "build": 2004,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 2072,
+     "ref": 1569,
+     "build": 1569,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "mobile": {
+   "width": 390,
+   "docHeight": {
+    "ref": 4409,
+    "build": 4409,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -776,
+     "ref": 844,
+     "build": 844,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "About us",
+     "y": 68,
+     "ref": 2626,
+     "build": 2626,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 2694,
+     "ref": 1715,
+     "build": 1715,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  }
+ },
+ "pass": true,
+ "blackout": true
+}

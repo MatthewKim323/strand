@@ -450,7 +450,7 @@ function Sparkline({
 }) {
   // The source seeds this with Math.random(); useId keeps it stable across the
   // server and client render instead.
-  const gradientId = `chart-gradient-${useId().replace(/:/g, "")}`;
+  const gradientId = `chart-gradient-${useId().replace(/[^a-zA-Z0-9]/g, "")}`;
 
   const max = Math.max(...points.map((p) => p.y));
   const height = max + (topPadding / 100) * max;
