@@ -27,6 +27,10 @@ const TOGGLE_TWEEN = { duration: 0.2, ease: [0.44, 0, 0.56, 1] as const };
 type Plan = {
   name: string;
   price: string;
+  /** shown while the billing toggle is on Yearly */
+  yearlyPrice?: string;
+  /** the saving badge beside the yearly figure, where the plan has one */
+  discount?: string;
   period?: string;
   previous?: [string, string, string];
   features: string[];
@@ -38,6 +42,7 @@ const PLANS: Plan[] = [
   {
     name: "Starter",
     price: "$0",
+    yearlyPrice: "$0",
     period: "/month",
     features: [
       "Up to 5 data sources",
@@ -52,6 +57,8 @@ const PLANS: Plan[] = [
   {
     name: "Pro",
     price: "$79",
+    yearlyPrice: "$63",
+    discount: "-10%",
     period: "/month",
     previous: ["Everything from", "Starter,", "and:"],
     features: [
@@ -68,6 +75,7 @@ const PLANS: Plan[] = [
   {
     name: "Enterprise",
     price: "Custom",
+    yearlyPrice: "Custom",
     previous: ["Everything from", "Pro,", "and:"],
     features: [
       "Unlimited data sources",
@@ -251,6 +259,14 @@ const CSS = `
   gap: 6px; width: 1px; height: min-content; padding: 0;
 }
 .pr-price { position: relative; white-space: pre; flex: none; width: auto; height: auto; }
+.pr-discount {
+  position: relative; flex: none; width: min-content; height: min-content;
+  display: flex; align-items: center; justify-content: center;
+  padding: 4px 8px; border-radius: 6px; white-space: pre;
+  background-color: var(--token-5ede7ff4-9baf-4919-b9da-b4753e2a0dcd, #10ec9033);
+  color: var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, #10ec90);
+}
+.pr-discount p { color: inherit; }
 .pr-period {
   position: relative; white-space: pre-wrap; word-break: break-word;
   overflow-wrap: break-word; flex: 1 0 0; width: 1px; height: auto;
@@ -533,7 +549,7 @@ function Edge({ cls }: { cls: string }) {
   return <span className={`pr-edge ${cls}`} aria-hidden="true" />;
 }
 
-function PlanCard({ plan }: { plan: Plan }) {
+function PlanCard({ plan, yearly }: { plan: Plan; yearly: boolean }) {
   return (
     <div className="pr-card-slot">
       <div className="pr-card">
@@ -548,7 +564,7 @@ function PlanCard({ plan }: { plan: Plan }) {
               <div className="pr-pricemain">
                 <div className="pr-price">
                   <h3 className="pr-t-price" style={{ color: BRIGHT }}>
-                    {plan.price}
+                    {yearly && plan.yearlyPrice ? plan.yearlyPrice : plan.price}
                   </h3>
                 </div>
                 {plan.period ? (
@@ -559,6 +575,11 @@ function PlanCard({ plan }: { plan: Plan }) {
                   </div>
                 ) : null}
               </div>
+              {yearly && plan.discount ? (
+                <div className="pr-discount">
+                  <p className="t-micro">{plan.discount}</p>
+                </div>
+              ) : null}
             </div>
           </div>
           <div className="pr-features">
@@ -735,12 +756,9 @@ export function PricingBlock() {
               </div>
             </div>
 
-            {/* TODO(spec): the yearly prices are not present anywhere in the
-                captured reference (they live in a collection the capture did
-                not include), so the toggle moves but the figures hold. */}
             <div className="pr-grid">
               {PLANS.map((p) => (
-                <PlanCard key={p.name} plan={p} />
+                <PlanCard key={p.name} plan={p} yearly={yearly} />
               ))}
               <div className="pr-fill">
                 <Edge cls="pr-e-lrb" />

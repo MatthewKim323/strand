@@ -1,8 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
 import { Icon } from "@/components/ui/Sprite";
+import { BENTO_DOT_GRID, DotGridField } from "@/components/webgl/DotGridField";
 import {
   C_AMBER,
   C_CARD,
@@ -250,7 +249,7 @@ function ScoreCard() {
             </div>
             <div className="pu-pre">
               <p className="t-mono-s" style={{ color: C_MUTED_2 }}>
-                / 100
+                {" / 100"}
               </p>
             </div>
           </div>
@@ -324,26 +323,20 @@ function ScoreCard() {
 
 /**
  * The dotted field behind each visual. The reference draws it with a WebGL
- * point grid down to 810 and swaps to a flat SVG lattice on phones; only the
- * phone half of that pair exists here, so the wider breakpoints leave the
- * correctly sized container empty rather than faking the field.
+ * point grid from 810 up and swaps to a flat SVG lattice on phones. Both are
+ * rendered and a media query picks one, which is what the page owns; the
+ * field itself is absolutely positioned and never changes a height.
  */
 function VisualField() {
-  const [phone, setPhone] = useState(false);
-  useEffect(() => {
-    const query = window.matchMedia("(max-width: 809.98px)");
-    const sync = () => setPhone(query.matches);
-    sync();
-    query.addEventListener("change", sync);
-    return () => query.removeEventListener("change", sync);
-  }, []);
-
   return (
-    <div style={{ flex: "none", position: "absolute", inset: 0 }}>
-      {/* TODO(spec): the >=810 field is a WebGL point grid (dotsX 78, dotsY 64,
-          dotSize 2, spacing 8, decay 4) that is not among the ported graphics. */}
-      {phone ? <DotPattern weight={2} space={4} /> : null}
-    </div>
+    <>
+      <div className="pu-bento-gl" style={{ flex: "none", position: "absolute", inset: 0, overflow: "hidden" }}>
+        <DotGridField {...BENTO_DOT_GRID} />
+      </div>
+      <div className="pu-bento-pattern" style={{ flex: "none", position: "absolute", inset: 0 }}>
+        <DotPattern weight={2} space={4} />
+      </div>
+    </>
   );
 }
 
@@ -371,6 +364,7 @@ const CSS = UTIL_CSS + `
   width: 100%; height: 440px; padding: 0; overflow: visible;
 }
 .pu-bento-scale { position: relative; }
+.pu-bento-pattern { display: none; }
 .pu-bento-text {
   position: relative; display: flex; flex-flow: column nowrap; flex: none;
   place-content: flex-start center; align-items: flex-start; gap: 8px;
@@ -504,6 +498,8 @@ const CSS = UTIL_CSS + `
   .pu-bento-graph { height: min-content; }
   .pu-bento-graph .pu-bento-visual { height: 411px; }
   .pu-bento-scale { transform: scale(0.9); }
+  .pu-bento-gl { display: none; }
+  .pu-bento-pattern { display: block; }
 }
 `;
 

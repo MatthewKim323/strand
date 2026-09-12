@@ -1,6 +1,7 @@
 import type { CSSProperties, ReactNode } from "react";
 
 import { Icon } from "@/components/ui/Sprite";
+import { DotGridField, BENTO_DOT_GRID } from "@/components/webgl/DotGridField";
 
 const HAIRLINE = "var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38))";
 const BRIGHT = "var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))";
@@ -32,11 +33,8 @@ const ring = (color = HAIRLINE) => <span style={overlay({ borderWidth: 1, border
  * The phone-only backdrop: a 1px-unit dot grid drawn as an SVG pattern, weight
  * 2 on a 4px lattice, tinted with the surface token. Taken straight from the
  * reference's own pattern component, which is plain SVG.
- *
- * TODO(spec): at the two wider breakpoints the reference swaps this for a
- * WebGL dot field (a fifth graphic component, not one of the four ported into
- * `components/webgl/`). The slot is rendered at the right size and left empty
- * rather than approximated.
+ * Above 810 the reference swaps this for the WebGL dot field instead; both
+ * are rendered and the breakpoint decides which one is visible.
  */
 function AkDotPattern() {
   const space = 4;
@@ -61,7 +59,9 @@ function AkDotPattern() {
 function Backdrop() {
   return (
     <>
-      <div className="ak-bento-gl" />
+      <div className="ak-bento-gl">
+        <DotGridField {...BENTO_DOT_GRID} />
+      </div>
       <div className="ak-bento-pattern">
         <AkDotPattern />
       </div>

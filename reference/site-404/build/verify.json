@@ -1,16 +1,24 @@
 {
  "url": "http://localhost:3799/this-route-does-not-exist",
  "ref": "reference/site-404",
- "at": "2026-09-12T13:06:00.652Z",
+ "at": "2026-09-12T13:17:47.552Z",
  "viewports": {
-  "desktop": {
-   "width": 1440,
+  "tablet-810": {
+   "width": 810,
    "docHeight": {
-    "ref": 1909,
-    "build": 1909,
+    "ref": 1860,
+    "build": 1860,
     "ok": true
    },
    "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
     {
      "name": "Light / MD",
      "y": 68,
@@ -22,8 +30,8 @@
     {
      "name": "Footer Container",
      "y": 968,
-     "ref": 941,
-     "build": 941,
+     "ref": 892,
+     "build": 892,
      "delta": 0,
      "ok": true
     }
@@ -35,6 +43,5 @@
    "pass": false
   }
  },
- "pass": false,
- "blackout": true
+ "pass": false
 }

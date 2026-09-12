@@ -6,6 +6,7 @@ import {
   BufferGeometry,
   Color,
   HalfFloatType,
+  LinearSRGBColorSpace,
   Mesh,
   NearestFilter,
   OrthographicCamera,
@@ -41,6 +42,25 @@ import { createGuardedRenderer, useWebGLGuard } from "./guard"
  * laid out in CSS pixels under an orthographic camera, which is why `spacing`
  * and `dotSize` read as pixel values.
  */
+
+/**
+ * Stores a CSS colour on `target` without the sRGB-to-linear transform.
+ *
+ * The dot shader writes its colour straight to the default framebuffer and no
+ * output transform is appended to a custom `ShaderMaterial`, so whatever sits
+ * in the uniform is what lands on screen. Parsing the string into the
+ * renderer's linear working space would therefore darken it by roughly a
+ * factor of ten. Declaring the input as already-linear skips the conversion
+ * and puts the literal triple the caller typed on the pixel.
+ */
+function setLiteralColor(target: Color, value: string): Color {
+  return target.setStyle(value, LinearSRGBColorSpace)
+}
+
+/** A `Color` holding the literal triple of `value`. See `setLiteralColor`. */
+function literalColor(value: string): Color {
+  return setLiteralColor(new Color(), value)
+}
 
 /** Still image shown when the GPU cannot run the grid. */
 const GRID_FALLBACK_IMAGE = "/img/img-bc0283b7c9.png"
@@ -245,13 +265,13 @@ export function DotGridField({
     dotSizeRef.current = dotSize
   }, [dotSize])
 
-  const dotColorRef = useRef(new Color(dotColor))
-  const glowColorRef = useRef(new Color(glowColor))
+  const dotColorRef = useRef(literalColor(dotColor))
+  const glowColorRef = useRef(literalColor(glowColor))
   useEffect(() => {
-    dotColorRef.current.set(dotColor)
+    setLiteralColor(dotColorRef.current, dotColor)
   }, [dotColor])
   useEffect(() => {
-    glowColorRef.current.set(glowColor)
+    setLiteralColor(glowColorRef.current, glowColor)
   }, [glowColor])
 
   useEffect(() => {
@@ -392,7 +412,9 @@ export function DotGridField({
 
       // The previous pointer position is the one the simulation saw last
       // frame, so the swept band always spans the whole gap.
-      simMaterial.uniforms.uMousePrev.value.copy(simMaterial.uniforms.uMouse.value)
+      simMaterial.uniforms.uMousePrev.value.copy(
+        simMaterial.uniforms.uMouse.value,
+      )
       simMaterial.uniforms.uMouse.value.copy(uniforms.uMouse.value)
       simMaterial.uniforms.tPrev.value = simRead.texture
       simMaterial.uniforms.uDelta.value = delta
@@ -412,7 +434,10 @@ export function DotGridField({
 
     const onMouseMove = (event: MouseEvent) => {
       const rect = mount.getBoundingClientRect()
-      uniforms.uMouse.value.set(event.clientX - rect.left, event.clientY - rect.top)
+      uniforms.uMouse.value.set(
+        event.clientX - rect.left,
+        event.clientY - rect.top,
+      )
     }
     const onMouseLeave = () =>
       uniforms.uMouse.value.set(POINTER_AWAY, POINTER_AWAY)

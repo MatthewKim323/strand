@@ -4,6 +4,7 @@ import type { CSSProperties, ReactNode } from "react";
 import { Border, CxIcon, DotPattern, Hairline, LiveDot, Pill, T } from "./ui";
 import { CX_MARKS } from "./marks";
 import { EndDivider } from "./EndDivider";
+import { DotGridField, BENTO_DOT_GRID } from "@/components/webgl/DotGridField";
 
 const SHADOW = "0 1px 6px 1px rgba(0, 0, 0, 0.25)";
 
@@ -128,6 +129,7 @@ const CSS = `
   border-radius: 12px; background-color: ${T.panel}; overflow: visible;
 }
 .cx-dotgrid { position: absolute; inset: 0; z-index: 1; flex: none; display: none; }
+.cx-dotgl { position: absolute; inset: 0; z-index: 1; flex: none; overflow: hidden; }
 .cx-mono-m { font-family: var(--font-code); font-weight: 500; font-size: 14px; line-height: 20px; }
 @media (min-width: 1200px) { .cx-chain { transform: none; } }
 @media (max-width: 1199.98px) {
@@ -147,6 +149,7 @@ const CSS = `
   .cx-row2-text-phone { display: flex; order: 2; }
   .cx-graph, .cx-feed { transform: scale(0.9); }
   .cx-dotgrid { display: block; }
+  .cx-dotgl { display: none; }
 }
 `;
 
@@ -660,6 +663,7 @@ export function CortexBento() {
               <Border />
               <div className="cx-visual">
                 <EntityGraph />
+                <div className="cx-dotgl"><DotGridField {...BENTO_DOT_GRID} /></div>
                 <div className="cx-dotgrid"><DotPattern id="cx-dots-entity" /></div>
               </div>
               <CellText
@@ -671,6 +675,7 @@ export function CortexBento() {
               <Border />
               <div className="cx-visual cx-visual-b">
                 <Feed />
+                <div className="cx-dotgl"><DotGridField {...BENTO_DOT_GRID} /></div>
                 <div className="cx-dotgrid"><DotPattern id="cx-dots-feed" /></div>
               </div>
               <CellText
@@ -707,7 +712,8 @@ export function CortexBento() {
             </div>
             <div className="cx-visual2">
               <Chain />
-              <div className="cx-dotgrid"><DotPattern id="cx-dots-chain" /></div>
+              <div className="cx-dotgl"><DotGridField {...BENTO_DOT_GRID} /></div>
+                <div className="cx-dotgrid"><DotPattern id="cx-dots-chain" /></div>
             </div>
           </div>
           <EndDivider />

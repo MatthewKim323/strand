@@ -1,0 +1,149 @@
+{
+ "url": "http://localhost:3799/terms-of-service",
+ "ref": "reference/site-terms-of-service",
+ "at": "2026-09-12T13:09:15.247Z",
+ "viewports": {
+  "desktop": {
+   "width": 1440,
+   "docHeight": {
+    "ref": 2201,
+    "build": 2201,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Terms and Conditions",
+     "y": 68,
+     "ref": 1192,
+     "build": 1192,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 1260,
+     "ref": 941,
+     "build": 941,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet": {
+   "width": 1024,
+   "docHeight": {
+    "ref": 2267,
+    "build": 2267,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Terms and Conditions",
+     "y": 68,
+     "ref": 1252,
+     "build": 1252,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 1320,
+     "ref": 947,
+     "build": 947,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet-810": {
+   "width": 810,
+   "docHeight": {
+    "ref": 2392,
+    "build": 2392,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Terms and Conditions",
+     "y": 68,
+     "ref": 1432,
+     "build": 1432,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 1500,
+     "ref": 892,
+     "build": 892,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "mobile": {
+   "width": 390,
+   "docHeight": {
+    "ref": 2730,
+    "build": 2730,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -776,
+     "ref": 844,
+     "build": 844,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Terms and Conditions",
+     "y": 68,
+     "ref": 1624,
+     "build": 1624,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 1692,
+     "ref": 1038,
+     "build": 1038,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  }
+ },
+ "pass": true,
+ "blackout": true
+}

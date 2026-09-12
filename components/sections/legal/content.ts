@@ -38,6 +38,12 @@ export const PRIVACY_POLICY: LegalDoc = {
     { num: "9.", id: "childrens-privacy", title: "Children's Privacy", body: "Nordwell is not directed to individuals under the age of 16. We do not knowingly collect personal information from children." },
     { num: "10.", id: "international-transfers", title: "International Transfers", body: "Your information may be transferred to and processed in countries other than your own. We take steps to ensure appropriate safeguards are in place for such transfers." },
     { num: "11.", id: "changes-to-this-policy", title: "Changes to This Policy", body: "We may update this Privacy Policy from time to time. Continued use of the Service after changes take effect constitutes acceptance of the revised policy." },
+    // This line is the one place the rebuild cannot be pixel-identical: the
+    // project's name is two characters longer than the one it replaces, so the
+    // address is 8.7px too wide for the 442px column at 810 and wraps to a
+    // second line, making the block 20px taller there. Substituting an
+    // equal-length string reproduces the reference exactly, which is how we
+    // know the box model is right. The address stays honest.
     { num: "12.", id: "contact", title: "Contact", body: "Questions about this Privacy Policy can be sent to privacy@nordwell.io" },
   ],
 };

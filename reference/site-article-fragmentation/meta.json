@@ -1,0 +1,53 @@
+{
+  "name": "site-article-fragmentation",
+  "capturedAt": "2026-09-12T13:17:51.595Z",
+  "brand": "Nordwell",
+  "stack": {
+    "framework": "framer",
+    "framer": true,
+    "framerMotion": true,
+    "webflow": true,
+    "lenis": true,
+    "gsap": false,
+    "three": true,
+    "spline": false,
+    "notes": [
+      "Built with Framer: appear ids, data-framer-name, framerusercontent modules. Use `1to1 prep` + `1to1 rip`.",
+      "Lenis smooth scroll present: window.scrollTo may be overridden, rigs fall back to wheel events.",
+      "1 canvas element(s): WebGL / 2D drawing to port (find the module that draws it)."
+    ]
+  },
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "tablet",
+      "width": 1024,
+      "height": 900
+    },
+    {
+      "name": "tablet-810",
+      "width": 810,
+      "height": 900
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "docHeights": {
+    "desktop": 3123,
+    "tablet": 3123,
+    "tablet-810": 3068,
+    "mobile": 3341
+  },
+  "revealMethod": "scrollTo",
+  "unrevealed": 0,
+  "animationCount": 162,
+  "assetCount": 12,
+  "errors": []
+}

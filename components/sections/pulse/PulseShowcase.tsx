@@ -5,12 +5,14 @@ import { motion } from "motion/react";
 
 import { SPRING } from "@/lib/motion";
 import {
+  C_AMBER,
   C_CARD,
   C_DIM,
   C_GREEN,
   C_LINE,
   C_MUTED,
   C_MUTED_2,
+  C_RED,
   C_TEXT,
   C_TEXT_2,
   C_WELL,
@@ -102,18 +104,123 @@ function BaselineGraph() {
   );
 }
 
+/* ------------------------------------------------------------- alert panel */
+
+/* Each row's props, verbatim from the three instances in the source. */
+const ALERTS: Array<{
+  score: number;
+  title: string;
+  metric: string;
+  info: string;
+  impact: string;
+  tint: string;
+  wash: string;
+}> = [
+  {
+    score: 82,
+    title: "Conversion rate drop",
+    metric: "-34% from baseline",
+    info: "peak traffic window",
+    impact: "Critical",
+    tint: C_RED,
+    wash: "var(--token-3a95eaa6-e51b-4092-9cd6-e78e24a17dd1, rgba(229, 72, 77, 0.2))",
+  },
+  {
+    score: 58,
+    title: "API response time",
+    metric: "+12% above baseline",
+    info: "off-peak hours",
+    impact: "Medium",
+    tint: C_AMBER,
+    wash: "var(--token-aace3d5f-06f1-4eda-b5c4-3a57d2e8e178, rgba(249, 171, 0, 0.2))",
+  },
+  {
+    score: 24,
+    title: "Conversion rate drop",
+    metric: "+12% above baseline",
+    info: "Sunday pattern",
+    impact: "Low",
+    tint: C_GREEN,
+    wash: "var(--token-5ede7ff4-9baf-4919-b9da-b4753e2a0dcd, rgba(16, 236, 144, 0.2))",
+  },
+];
+
+function AlertList() {
+  return (
+    <div className="pu-sc-alerts">
+      <div className="pu-w100">
+        <p className="t-mono">
+          <span style={{ color: C_MUTED }}>Active alerts</span>{" "}
+          <span style={{ color: C_DIM }}>&middot; Ranked by impact</span>
+        </p>
+      </div>
+      <div className="pu-sc-alert-stack">
+        {ALERTS.map((a, i) => (
+          <div key={i} style={{ flex: "none", width: "100%", height: "auto", position: "relative" }}>
+            <div className="pu-sc-alert" style={{ backgroundColor: C_CARD }}>
+              <span style={overlay({ borderWidth: 1, borderColor: C_LINE, borderRadius: 12 })} />
+              <div className="pu-sc-alert-score" style={{ backgroundColor: a.wash }}>
+                <div className="pu-pre">
+                  <p className="pu-t-mono-l" style={{ color: a.tint }}>
+                    {a.score}
+                  </p>
+                </div>
+              </div>
+              <div className="pu-sc-alert-stats">
+                <div className="pu-sc-alert-row">
+                  <div className="pu-clamp1">
+                    <p className="t-label" style={{ color: C_TEXT }}>
+                      {a.title}
+                    </p>
+                  </div>
+                  <div className="pu-sc-alert-impact" style={{ backgroundColor: a.wash }}>
+                    <div className="pu-pre">
+                      <p className="t-micro" style={{ color: a.tint }}>
+                        {a.impact}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="pu-sc-alert-metrics">
+                  <div className="pu-pre">
+                    <p className="t-xs" style={{ color: C_MUTED_2 }}>
+                      {a.metric}
+                    </p>
+                  </div>
+                  <div className="pu-pre">
+                    <p className="t-xs" style={{ color: C_MUTED_2 }}>
+                      &middot;
+                    </p>
+                  </div>
+                  <div className="pu-clamp1">
+                    <p className="t-micro" style={{ color: C_DIM }}>
+                      {a.info}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 /**
- * The showcase panel for the open section. Only the first panel's graph is
- * built; the other two are authored in the source as a ranked alert list and a
- * routing rule builder, neither of which is visible in any rest state.
+ * The showcase panel for the open section. The third panel is a routing rule
+ * builder assembled from three further source components (Rule, Drop down,
+ * Logic Operator) and is not visible in any captured rest state, so its
+ * container is left correctly sized and empty rather than approximated.
  */
 function Showcase({ index }: { index: number }) {
   return (
     <div className="pu-sc-slot">
       <div style={{ height: "100%", width: "100%" }}>
         <div className="pu-sc-fit">
-          {/* TODO(spec): panels 2 (Alert Container) and 3 (Routing Rule). */}
           {index === 0 ? <BaselineGraph /> : null}
+          {index === 1 ? <AlertList /> : null}
+          {/* TODO(spec): panel 3, the Routing Rule builder. */}
         </div>
       </div>
     </div>
@@ -319,6 +426,60 @@ const CSS = UTIL_CSS + `
   position: relative; display: flex; flex-flow: row nowrap; flex: none;
   place-content: center; align-items: center; gap: 8px;
   width: min-content; height: min-content; padding: 0; overflow: clip;
+}
+
+.pu-sc-alerts {
+  position: relative; display: flex; flex-flow: column nowrap;
+  place-content: center; align-items: center; gap: 24px;
+  width: 479px; height: min-content; padding: 0; overflow: visible;
+}
+.pu-sc-alert-stack {
+  position: relative; display: flex; flex-flow: column nowrap; flex: none;
+  place-content: center; align-items: center; gap: 4px;
+  width: 100%; height: min-content; padding: 0; overflow: clip;
+}
+.pu-sc-alert {
+  position: relative; display: flex; flex-flow: row nowrap;
+  place-content: flex-start; align-items: flex-start; gap: 12px;
+  width: 100%; height: min-content; padding: 12px;
+  border-radius: 12px; overflow: clip;
+}
+.pu-sc-alert-score {
+  position: relative; display: flex; flex-flow: column nowrap; flex: none;
+  place-content: center; align-items: center; gap: 16px;
+  width: 48px; height: 48px; aspect-ratio: 1; padding: 0;
+  border-radius: 6px; overflow: clip;
+}
+.pu-sc-alert-stats {
+  position: relative; display: flex; flex-flow: column nowrap; flex: 1 0 0;
+  place-content: center; align-items: center; gap: 6px;
+  width: 1px; height: 45px; padding: 0; overflow: clip;
+}
+.pu-sc-alert-row {
+  position: relative; display: flex; flex-flow: row nowrap; flex: none;
+  place-content: center; align-items: center; gap: 16px;
+  width: 100%; height: min-content; padding: 0; overflow: visible;
+}
+.pu-sc-alert-impact {
+  position: relative; display: flex; flex-flow: column nowrap; flex: none;
+  place-content: center; align-items: center; gap: 16px;
+  width: min-content; height: min-content; padding: 2px 8px;
+  border-radius: 6px; overflow: clip;
+}
+.pu-sc-alert-metrics {
+  position: relative; display: flex; flex-flow: row nowrap; flex: none;
+  place-content: center; align-items: center; gap: 8px;
+  width: 100%; height: min-content; padding: 0; overflow: clip;
+}
+.pu-clamp1 {
+  position: relative; flex: 1 0 0; width: 1px; height: auto; overflow: clip;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;
+  white-space: pre-line; word-break: break-word; word-wrap: break-word;
+}
+/* The score numeral's own preset: mono 500, 14 / 20. */
+.pu-t-mono-l {
+  font-family: var(--font-code); font-weight: 500;
+  font-size: 14px; line-height: 20px; text-align: start;
 }
 
 .pu-eq { position: relative; width: 32px; height: 32px; overflow: clip; }

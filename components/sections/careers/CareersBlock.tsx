@@ -560,6 +560,11 @@ const CSS = `
   .cr-p1 { letter-spacing: -0.01em; }
 }
 
+@media (min-width: 810px) and (max-width: 1199.98px) {
+  /* The middle band carries its own ratio: measured 1024 -> 683.25 and 810 -> 540.45. */
+  .cr-hero { aspect-ratio: 1.498735; }
+}
+
 @media (max-width: 1199.98px) {
   .cr-root { padding: 0; }
   .cr-container, .cr-col, .cr-hero { box-shadow: none; }

@@ -1,7 +1,7 @@
 "use client";
 
-import { useId } from "react";
-import { motion } from "motion/react";
+import { useId, useRef } from "react";
+import { motion, useInView } from "motion/react";
 import type { CSSProperties } from "react";
 
 import { EASE, SPRING } from "@/lib/motion";
@@ -156,9 +156,17 @@ function RuleHalf({ bars, side }: { bars: BarSpec[]; side: "left" | "right" }) {
   );
 }
 
+/**
+ * Motion spec section D: a plain in-view observer on the element itself,
+ * `amount: 1` (the whole 1px box must be on screen), `once: true`, six tweens
+ * of 0.4s on EASE with mirrored 0 / 0.02 / 0.04 delays.
+ */
 export function ChromaticRule() {
+  const ref = useRef<HTMLDivElement>(null);
+  const inView = useInView(ref, { amount: 1, once: true });
+
   return (
-    <div style={{ position: "relative", flex: "none", width: "100%", height: "auto" }}>
+    <div ref={ref} style={{ position: "relative", flex: "none", width: "100%", height: "auto" }}>
       <div
         style={{
           height: "min-content",
@@ -173,8 +181,17 @@ export function ChromaticRule() {
           position: "relative",
         }}
       >
-        <RuleHalf bars={RULE_LEFT} side="left" />
-        <RuleHalf bars={RULE_RIGHT} side="right" />
+        {inView ? (
+          <>
+            <RuleHalf bars={RULE_LEFT} side="left" />
+            <RuleHalf bars={RULE_RIGHT} side="right" />
+          </>
+        ) : (
+          <>
+            <div style={HALF} />
+            <div style={HALF} />
+          </>
+        )}
       </div>
     </div>
   );

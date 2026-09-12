@@ -1,7 +1,7 @@
 {
  "url": "http://localhost:3799/careers",
  "ref": "reference/site-careers",
- "at": "2026-09-12T13:06:21.955Z",
+ "at": "2026-09-12T13:08:01.641Z",
  "viewports": {
   "desktop": {
    "width": 1440,
@@ -36,8 +36,8 @@
    "width": 1024,
    "docHeight": {
     "ref": 3185,
-    "build": 3184,
-    "ok": false
+    "build": 3185,
+    "ok": true
    },
    "sections": [
     {
@@ -67,7 +67,7 @@
    ],
    "consoleErrors": [],
    "diff": null,
-   "pass": false
+   "pass": true
   },
   "tablet-810": {
    "width": 810,
@@ -144,6 +144,6 @@
    "pass": true
   }
  },
- "pass": false,
+ "pass": true,
  "blackout": true
 }
