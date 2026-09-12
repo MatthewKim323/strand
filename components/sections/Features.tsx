@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { Icon } from "@/components/ui/Sprite";
 import {
@@ -143,8 +143,32 @@ function BlockBody({ block }: { block: Block }) {
   );
 }
 
+
+/**
+ * Which breakpoint tree is live. Both trees stay in the DOM so their boxes
+ * measure the same, but only the visible one may mount a particle field: a
+ * field inside a `display: none` box would size its canvas to 0x0 and still
+ * run a render loop, which is a whole GPU context and an animation frame spent
+ * drawing nothing. The reference mounts the hidden breakpoint's graphic lazily
+ * for the same reason, and renders exactly one field here.
+ *
+ * Returns null until mounted so the server and the first client render agree.
+ */
+function useIsPhone(): boolean | null {
+  const [phone, setPhone] = useState<boolean | null>(null);
+  useEffect(() => {
+    const q = window.matchMedia("(max-width: 809.98px)");
+    const sync = () => setPhone(q.matches);
+    sync();
+    q.addEventListener("change", sync);
+    return () => q.removeEventListener("change", sync);
+  }, []);
+  return phone;
+}
+
 export function Features() {
   const [tab, setTab] = useState(0);
+  const phone = useIsPhone();
 
   const graphics = [
     <SourcesPanel key="sources" width={289} gap={8} />,
@@ -185,12 +209,14 @@ export function Features() {
           <div className="ft-rcart">
             <div className="ft-visual">
               <div className="ft-field">
+                {phone === false && (
                 <ScrollShapeStage
                   {...FEATURE_STAGE_FIELD}
                   sectionId="products-swap-scroll"
                 >
                   {graphics}
                 </ScrollShapeStage>
+                )}
               </div>
             </div>
             <div className="ft-progress">
@@ -255,7 +281,7 @@ export function Features() {
 
             <div className="ft-graphics">
               <div className="ft-mfield">
-                <PointMorphField {...PANEL_GRAPHIC_FIELD} currentShape={tab} />
+                {phone === true && <PointMorphField {...PANEL_GRAPHIC_FIELD} currentShape={tab} />}
               </div>
               {/* The three cards cross-fade on the carousel's own spring; only
                   opacity is driven, the boxes never move. */}

@@ -465,6 +465,7 @@ export function Conversation() {
                           back to the chat container's inherited 0.3s tween. */}
                       <motion.div
                         className="cv-chipwrap cv-chip-thinking"
+                        layout
                         animate={{ opacity: phase === "thinking" ? 1 : 0 }}
                         transition={
                           phase === "thinking" ? T_CHIP_B : phase === "results" ? T_CHAT : T_CHIP_A
@@ -474,6 +475,7 @@ export function Conversation() {
                       </motion.div>
                       <motion.div
                         className="cv-chipwrap cv-chip-results"
+                        layout
                         animate={{ opacity: phase === "results" ? 1 : 0 }}
                         transition={phase === "results" ? T_CHAT : T_CHIP_C}
                       >
@@ -486,6 +488,7 @@ export function Conversation() {
                       0.3s tween, not the root spring. */}
                   <motion.div
                     className="cv-buttons"
+                    layout
                     animate={{ opacity: panelOpen ? 0 : 1 }}
                     transition={T_CHAT}
                   >
@@ -519,6 +522,7 @@ export function Conversation() {
               {/* Quick actions */}
               <motion.div
                 className="cv-quickbar"
+                layout
                 style={{ borderRadius: 16 }}
                 animate={{ opacity: panelOpen ? 0 : 1 }}
                 transition={phase === "loopReset" ? SPRING_D2 : SPRING}
@@ -538,6 +542,7 @@ export function Conversation() {
               {shareBarMounted && (
                 <motion.div
                   className="cv-sharebar"
+                  layout
                   style={{ borderRadius: 16 }}
                   animate={{ opacity: phase === "results" ? 1 : 0 }}
                   transition={SPRING}
@@ -564,6 +569,7 @@ export function Conversation() {
               {/* Results panel */}
               <motion.div
                 className="cv-results"
+                layout
                 style={{ backgroundColor: C_PANEL, borderRadius: 16, boxShadow: RING }}
                 animate={{ opacity: panelOpen ? 1 : 0 }}
                 transition={phase === "thinking" ? SPRING_D2 : SPRING}
@@ -577,7 +583,7 @@ export function Conversation() {
                 </motion.div>
 
                 {rowsOpen && (
-                  <div className="cv-rows">
+                  <motion.div className="cv-rows" layout transition={SPRING}>
                     <motion.div
                       className="cv-rowwrap"
                       initial={{ opacity: HIDDEN, x: 20 }}
@@ -616,7 +622,7 @@ export function Conversation() {
                     >
                       <ResultRow {...ROWS[2]} showRisk />
                     </motion.div>
-                  </div>
+                  </motion.div>
                 )}
               </motion.div>
             </motion.div>
@@ -840,7 +846,7 @@ const CSS = `
   position: absolute;
   bottom: -32px;
   left: 49%;
-  transform: translateX(-50%);
+  translate: -50% 0;
   z-index: 1;
   flex: none;
   width: auto;
@@ -890,7 +896,7 @@ const CSS = `
   position: absolute;
   bottom: -48px;
   left: 50%;
-  transform: translateX(-50%);
+  margin-left: -230px;
   width: 460px;
   z-index: 1;
 }
@@ -898,7 +904,7 @@ const CSS = `
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
+  margin-left: -230px;
   width: 460px;
   z-index: 1;
 }
@@ -1005,6 +1011,7 @@ const CSS = `
 /* The readout is per-letter: each letter flips in on X and runs its own
    colour loop, so the line needs nothing but its metrics and a rest colour. */
 .cv-readout-text {
+  position: relative;
   margin: 0;
   line-height: 20px;
   color: rgb(115, 115, 115);
