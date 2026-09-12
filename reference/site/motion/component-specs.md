@@ -1216,3 +1216,426 @@ icon components are single-variant with no `enabledGestures`. Nothing in the Con
 responds to the pointer.
 
 ---
+
+## 4. Features (`#features`, desktop y 1827 h 2700)
+
+Three stacked feature blocks (Cortex, Ask, Pulse) in a left column, with a sticky right column holding
+a WebGL shape that morphs as you scroll and a numbered progress rail.
+
+### 4.1 Tree
+
+```
+Features  .framer-e37e89  #features
+└─ Container  .framer-2wq6o  data-border
+   ├─ Left Stack  .framer-11wxjj4  #products-swap-scroll   [hidden-wc1e1l -> hidden on phone]
+   │  ├─ Scroll Progress Section  .framer-ongoh1  #products-scroll
+   │  │  ├─ Rail  .framer-g1gjpv  data-border
+   │  │  │  └─ Rail Cart  .framer-8cz25g  #features-cortex
+   │  │  │     └─ Cortex  .framer-qdle9s-container -> Feature Section (.framer-5Y2Hx .framer-tnjwra)
+   │  │  └─ Rail  .framer-1mqiqes  data-border
+   │  │     └─ Rail Cart  .framer-1ilx1em  #features-ask
+   │  │        └─ Ask  .framer-1d5ij2n-container -> Feature Section
+   │  └─ Rail  .framer-gw12jb
+   │     └─ Rail Cart  .framer-1s7z65x  #features-pulse
+   │        └─ Pulse  .framer-zggyi1-container -> Feature Section
+   ├─ Right Stack  .framer-z2pejt
+   │  ├─ Rail Cart  .framer-iejl6p
+   │  │  └─ Container  .framer-12nzhvt
+   │  │     └─ .framer-1apm31s-container  (nodeId Dr7s_qOFh)  -> shape-swapper WebGL + slot
+   │  │        ├─ canvas (649x508 at 1440)
+   │  │        └─ AnimatePresence slot child (one of three)
+   │  │           └─ .framer-iyty47-container -> Cortex Stats (.framer-AhJf9 .framer-1txctdx)
+   │  │              ├─ .framer-1ctfs4x-container  appear=1ctfs4x  -> Status card "Scaleforce"
+   │  │              ├─ .framer-zatbru-container   appear=zatbru   -> Status card "Strive"
+   │  │              ├─ .framer-17bslm8-container  appear=17bslm8  -> Status card "PostgridDB"
+   │  │              └─ .framer-18u74t1-container  appear=18u74t1  -> Status card "HotSpot"
+   │  └─ Progress  .framer-1ak0sa5
+   │     └─ .framer-i0hju5-container  (nodeId gaH8OTWcR)  -> scroll progress rail
+   └─ .framer-jbnu5j-container  [hidden-72rtr7 hidden-uuxm6n -> PHONE ONLY]
+      └─ Mobile Carousel (.framer-PlXiw)
+```
+
+Each `Rail` is 900px tall. `#products-scroll` (1800px) covers rails 1 and 2;
+`#products-swap-scroll` (2700px) is the whole Left Stack, covering all three.
+
+Each `Feature Section` (`framer-5Y2Hx`) has breakpoint variants
+`Fq1EJYEOR` Desktop / `HbdczjDkY` Tablet / `uVgwvxKpm` Mobile, transition **`SPRING_A`**, and
+contains Context (title + description), a 3-up `Features` grid of `Product Feature` cards, and a
+`Circular Button With Text` link. **The Feature Section itself has no appear animation and no
+scroll link.**
+
+### 4.2 Appear animations
+
+Four, on the Cortex Stats cards inside the shader slot. All on-mount (of the slot child), identical
+across breakpoints, on the **sine** curve:
+
+| appear id | card | initial | animate | transition |
+|---|---|---|---|---|
+| `1ctfs4x` | "Scaleforce" | `{opacity:0.001, x:100, y:0}` | `{opacity:1, x:0, y:0}` | `{type:'tween', duration:0.2, ease:[0.44,0,0.56,1], delay:0}` |
+| `zatbru` | "Strive" | `{opacity:0.001, x:100}` | `{opacity:1, x:0}` | `delay:0.05` |
+| `17bslm8` | "PostgridDB" | `{opacity:0.001, x:100}` | `{opacity:1, x:0}` | `delay:0.1` |
+| `18u74t1` | "HotSpot" | `{opacity:0.001, x:100}` | `{opacity:1, x:0}` | `delay:0.15` |
+
+```tsx
+initial={{opacity:0.001, x:100}} animate={{opacity:1, x:0}}
+transition={{type:'tween', duration:0.2, ease:[0.44,0,0.56,1], delay: 0 | 0.05 | 0.1 | 0.15}}
+```
+
+Because the cards live inside an `AnimatePresence` slot, these replay every time the shader swaps
+back to slot child 0.
+
+### 4.3 The Status cards and their ping loops
+
+`Cortex Stats` (`framer-AhJf9`) is a column of four `Status` cards, `gap: var(--1o2x40t)` =
+`bRG9OLk6M` (**8** in the desktop slot, **4** in the phone carousel). Width 344px.
+
+`Status` (`framer-9bYeO`), single variant `SqtsxgsfE`, transition **`SPRING_A`**, no hover.
+Chrome: `border 1px solid var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38,38,38));
+background var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20,18,16)); border-radius 16`.
+
+| card | title | stat | status | tint | `animatePing` | ping transition |
+|---|---|---|---|---|---|---|
+| `1ctfs4x` | Scaleforce | 14,203 entities | **Live** | `var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144))` | **true** | `{type:'tween', duration:0.3, ease:[0.44,0,0.56,1], delay:0}` |
+| `zatbru` | Strive | 8,847 entities | **Live** | same green | **true** | `delay:0.1` |
+| `17bslm8` | PostgridDB | 52,091 entities | **Syncing** | `var(--token-5e110c3f-82c1-4736-86cd-104cc5e3bfff, rgb(54, 197, 240))` | **false** | `delay:0.3` |
+| `18u74t1` | HotSpot | 52,091 entities | **Pending** | `var(--token-d5c4dbc3-b3ce-4d57-8583-5c04401312ab, rgb(249, 171, 0))` | **false** | `delay:0.4` |
+
+So only the two **Live** dots pulse. The other two render a static dot.
+
+`StatusPingV2`, with the card's values (`size: 8`, `pingSize: 16`, `pingWeight: 2`, `repeatDelay: 1`):
+
+```tsx
+// the dot
+<div style={{ width: 8, height: 8, borderRadius: 9999, backgroundColor: tint, position: 'relative' }}>
+  {animatePing && (
+    <motion.div
+      initial={{ width: 4,  height: 4,  opacity: 1 }}   // startSize = max(size - pingWeight*2, 1) = 4
+      animate={{ width: 20, height: 20, opacity: 0 }}   // endSize   = startSize + pingSize    = 20
+      style={{ borderRadius: 9999, outline: `2px solid ${tint}`,
+               position: 'absolute', top: '50%', left: '50%', x: '-50%', y: '-50%' }}
+      transition={{ type: 'tween', duration: 0.3, ease: [0.44, 0, 0.56, 1],
+                    delay: 0 /* or 0.1 */, repeat: Infinity, repeatDelay: 1 }} />
+  )}
+</div>
+```
+
+Cycle: 0.3s expand-and-fade, then 1s idle, forever. The captured DOM confirms it: card 1's ring reads
+`width: 20px; opacity: 0` (settled) and card 2's reads `width: 18.9717px; opacity: 0.0646`
+(mid-flight, 0.1s behind).
+
+### 4.4 The scroll progress rail (custom code component)
+
+`.framer-i0hju5-container`, nodeId `gaH8OTWcR`. Props on this page:
+
+```js
+{ sectionName: 'products-scroll',
+  sections: 3,
+  numLines: 8,
+  lineGap: 10,
+  lineWeight: 1,
+  primaryColor: 'rgb(250, 250, 250)',
+  secondaryColor: 'rgb(115, 115, 115)',
+  fade: 0.05,
+  font: { fontFamily: '"Geist Mono", "Geist Mono Placeholder", monospace', fontSize: '12px',
+          fontStyle: 'normal', fontWeight: 400, letterSpacing: '0em', lineHeight: '31px',
+          textAlign: 'left' } }
+```
+
+Implementation, verbatim:
+
+```tsx
+const target = useRef<HTMLElement|null>(null);
+useEffect(() => { target.current = document.getElementById(sectionName); }, []);
+const { scrollYProgress } = useScroll({ target, offset: ['start start', 'end start'] });
+const progress = useSpring(scrollYProgress, { stiffness: 300, damping: 30 });
+const y = useTransform(progress, [0, 1], ['50%', '-50%']);
+
+<div style={{ height: '100%', display: 'flex', alignItems: 'center',
+              maskImage: 'linear-gradient(0deg, #0000, #000 10%, #000 90%, #0000)' }}>
+  <motion.div style={{ display:'flex', flexDirection:'column', position:'relative',
+                       marginBottom: `calc(${font.lineHeight})`, y }}>
+    {sections.map((_, n) => <Section index={n+1} range={[n/(sections-1), (n+1)/(sections-1)]}
+                                    progress={progress} isLast={n === sections-1} .../>)}
+  </motion.div>
+  <div style={{ width: 5, height: lineWeight, marginLeft: 4,
+                borderTopLeftRadius: 9999, borderBottomLeftRadius: 9999,
+                backgroundColor: primaryColor }} />
+</div>
+```
+
+Per section (index label `01` / `02` / `03`, zero padded):
+
+```tsx
+// the number, colour interpolated across the section boundary
+const color = useTransform(progress,
+  [r0 - fade*2, r0 - fade, r0, r0 + fade, r0 + fade*2],
+  [secondaryColor, primaryColor, primaryColor, primaryColor, secondaryColor]);
+// wrapper: position: isLast ? 'absolute' : 'relative'; top: '100%'
+// lines container: display:flex; flex-direction:column; gap: lineGap (10); align-items: end
+```
+
+Per tick line (`numLines` = 8 per section, skipped on the last section):
+
+```tsx
+const pos = (r1 - r0) / (numLines + 1) * (i + 1) + r0;
+const stops = [pos - fade*2, pos - fade, pos, pos + fade, pos + fade*2];
+const color = useTransform(progress, stops, [secondaryColor, primaryColor, primaryColor, primaryColor, secondaryColor]);
+const width = useTransform(progress, stops, ['40%', '65%', '65%', '65%', '40%']);
+<motion.div style={{ width, height: lineWeight, borderRadius: 9999, backgroundColor: color }} />
+```
+
+With `sections: 3`, section ranges are `[0, 0.5]` and `[0.5, 1]` and `[1, 1.5]`
+(`n/(sections-1)` with `sections-1 = 2`).
+
+**UNCERTAIN:** with `sections: 3` the third range starts at 1.0, past the end of `scrollYProgress`, so
+its number only lights at the very end. That is what the arithmetic gives; verify against
+`capture/frames/scroll-features`.
+
+### 4.5 The rail-cart shape swapper (custom code component + WebGL)
+
+`.framer-1apm31s-container`, nodeId `Dr7s_qOFh`. Scroll props:
+
+```js
+{ sectionName: 'products-swap-scroll', previewShape: 0, refresh: false, debugMode: false,
+  shapes: [ {points:'...', threshold:..., scale:...}, ... ],   // three outline shapes
+  slot: [ /* 3 children */ ] }
+```
+
+The three slot children, in order:
+
+| # | container | size | component |
+|---|---|---|---|
+| 0 | `.framer-iyty47-container` (`qC1md0qrO`) | 289 x 336 | `Cortex Stats` with `bRG9OLk6M: 8` |
+| 1 | `.framer-egpkas-container` (`maoqKGyWe`) | 401 x 428 | `Ask Chat Anim` at `variant: MPeNLgoLm` (Standalone, static), `ltWGnHZW1: false, PSTJiG3p8: 2, Pwl_s00am: 3, ugG8YyQe7: '16px'` |
+| 2 | `.framer-ssv5r4-container` (`uP3bEb_QB`) | 297 x 289 | a third visual component |
+
+Scroll logic, verbatim:
+
+```tsx
+const target = useRef<HTMLElement|null>(null);
+useEffect(() => { target.current = document.getElementById(sectionName) ?? null; }, [sectionName]);
+const { scrollYProgress } = useScroll({ target, offset: ['start center', 'end center'] });
+
+const f = children.length;                       // 3
+const [index, setIndex] = useState(0);
+useEffect(() => scrollYProgress.on('change', v => {
+  setIndex(Math.min(Math.max(Math.floor(v * f), 0), f - 1));
+}), [scrollYProgress, f]);
+
+// visibility gate: a triangle wave that dips at each swap boundary
+const S = 1 / (f * 2);                           // 1/6
+const gate = useTransform(useTransform(scrollYProgress, v => clamp(S, 1 - S, v)),
+                          v => triangle(v, f) * 0.5 + 0.3 > 0);
+// triangle(e, t) with n=1, r=0:
+//   i = 1/t;  a = ((e % i) + i) % i / i;  return a < .5 ? 4a - 1 : 3 - 4a
+const [visible, setVisible] = useState(true);
+useMotionValueEvent(gate, 'change', setVisible);
+```
+
+Presence animation on the slot child:
+
+```tsx
+<AnimatePresence mode="wait" initial={false}>
+  {visible && (
+    <motion.div key={index}
+      initial={{ opacity: 0, scale: 0.95, filter: 'blur(8px)' }}
+      animate={{ opacity: 1, scale: 1, filter: 'blur(0px)',
+                 transition: { duration: 0.1, ease: 'easeOut',
+                               filter: { duration: 0.3, ease: 'easeOut' },
+                               scale:  { duration: 0.3, ease: 'easeOut' } } }}
+      exit={{ opacity: 0, scale: 0.95, filter: 'blur(8px)',
+              transition: { duration: 0.15, ease: 'easeIn' } }}
+      style={{ width: '100%', height: '100%' }}>
+      <div style={{ pointerEvents:'none', userSelect:'none', width:'100%', height:'100%',
+                    display:'flex', justifyContent:'center', alignItems:'center', padding:'0px 12px' }}>
+        {children[index]}
+      </div>
+    </motion.div>
+  )}
+</AnimatePresence>
+```
+
+The CDP capture corroborates: `100ms ease-out` x2, `300ms ease-out` x2, `150ms ease-in` x4.
+
+The shader itself takes `currentShape = index` and morphs its outline. Props (owned by another agent):
+`cameraFov: 34, cameraPosition: {x:0, y:0, z:1.8}, dispersion: 0.8, dispersionBand: 0.9,
+dispersionOffset: 0.05, opacitySpeed: 5.3, springVariance: 22.6, tipLayers: 8, tipRadius: 0.003,
+tipTexture: 'https://framerusercontent.com/images/uMNT221vEn5naMu3VgNputh9yZU.png?width=256&height=256',
+fallbackImage: 'https://framerusercontent.com/images/SqLdVKcP2FReuGdnVp855FcnJM8.png?width=1200&height=1200',
+fallbackFit: 'contain'`. **No motion wrapper, no appear id, no variant wrapper.**
+
+### 4.6 Phone only: the Mobile Carousel
+
+`.framer-jbnu5j-container` carries `hidden-72rtr7 hidden-uuxm6n`, i.e. it renders **only on phone**.
+`Mobile Carousel` (`framer-PlXiw`), transition **`SPRING_A`**, variants:
+
+| variant | title | classname |
+|---|---|---|
+| `eLMkAwc3x` | Cortex (default) | `framer-v-nl0bhk` |
+| `zHyFerOUH` | Ask | `framer-v-1ae4yg9` |
+| `E0V3DdRup` | Pulse | `framer-v-1e454dn` |
+
+Three `Tab Button` instances (`framer-V3qmg`, also phone only) tap to `setVariant`. Per carousel
+variant the slot cards cross-fade (`style:{opacity:1}` with `{other: {opacity: 0}}` overrides) and the
+shader's `currentShape` goes 0 / 1 / 2.
+
+`Tab Button` (`framer-V3qmg`), transition **`SPRING_A`**, variants `clkwCB8KL` Default (with
+`{hover: true, pressed: true}`) and `pcuDVrfxv` Selected:
+
+```tsx
+// root <a>, border-bottom 1px solid var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41, 37, 36))
+rest (clkwCB8KL):    { backgroundColor: 'var(--token-7f40e4a1-2b83-444e-8765-465c7d3596ab, rgb(17, 15, 13))' }
+whileHover:          { backgroundColor: 'var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(18, 16, 14))' }
+whileTap:            { backgroundColor: 'var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23))' }
+selected (pcuDVrfxv):{ '--border-color': 'var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60))' }
+
+// label colour  (--extracted-r6o4lv)
+rest:      'var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(120, 113, 108))'
+hover:     'var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))'
+pressed:   'var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))'
+selected:  'var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))'
+transition={{type:'spring', bounce:0.2, duration:0.4}}
+```
+
+**This is the only Cortex / Ask / Pulse tab control on the page, and it does not exist at desktop or
+tablet.** At those widths the three feature blocks are simply stacked.
+
+---
+
+## 5. Integrations (`#integrations`, desktop y 4527 h 723)
+
+### 5.1 Tree
+
+```
+Integrations  .framer-65i7ss  #integrations       <- also the scroll-target marker (ref)
+└─ Container  .framer-vedlvf  data-border
+   ├─ .framer-ixio0v-container -> Chromatic Border divider (nodeId j9EHuYhM7)   [see section D]
+   ├─ Context  .framer-19csyfa
+   │  └─ Context  .framer-mjvzh3
+   │     ├─ Title  .framer-5t78lj   h2
+   │     ├─ Description  .framer-1i3vsvd
+   │     └─ Variant 1  (.framer-z2KqL) -> Circular Button With Text "View integrations"
+   └─ Visual  .framer-n9voe3                       <- in-view opacity fade
+      └─ .framer-6okzgi-container  (nodeId FTLhHUANj)   <- the x:120 -> 0 scroll target
+         └─ Desktop  (.framer-kdORT .framer-gdrllt)  -> Integrations visual
+            ├─ Top Container  .framer-185hq2g
+            ├─ Content  .framer-83tgt0
+            │  ├─ 11 x Integration Single  (.framer-7anIQ)  Chatdock / VaultDB / Stride / ThreadBase / Pipecloud, repeated
+            │  └─ Right Column Grid  .framer-8euj4w   15 x Integration Single Tile (.framer-DXDHz)
+            └─ Bottom Container  .framer-15nwmy8
+               ├─ Stats  .framer-1mlkfvk   2 x Stat (.framer-6SsJm)
+               └─ Stats  .framer-4279vg    -> Circular Button (Light / XS)
+```
+
+### 5.2 The one style-appear (in-view opacity fade)
+
+The `Visual` wrapper is the page's only `__framer__styleAppearEffectEnabled`:
+
+```js
+{ __framer__styleAppearEffectEnabled: true,
+  __framer__enter:  { opacity: 0, x: 0, y: 0, scale: 1, rotate: 0, rotateX: 0, rotateY: 0, skewX: 0, skewY: 0 },
+  __framer__exit:   { opacity: 0, ..., transition: SPRING_A },
+  __framer__animate:{ transition: SPRING_A },
+  __framer__threshold: 0.5,
+  __framer__animateOnce: true,
+  __targetOpacity: 1,
+  className: 'framer-n9voe3', 'data-framer-name': 'Visual' }
+```
+
+Runtime: an in-view observer with `amount: 0.5`, `once: true`. On entry it resets to `enter` and
+animates every transform key to its rest default, which for this object means **opacity 0 -> 1 only**.
+
+```tsx
+const ref = useRef(null);
+const inView = useInView(ref, { amount: 0.5, once: true });
+<motion.div ref={ref}
+  initial={{ opacity: 0 }}
+  animate={inView ? { opacity: 1 } : { opacity: 0 }}
+  transition={{ type: 'spring', bounce: 0.2, duration: 0.4 }} />
+```
+
+### 5.3 The scroll-target effect (the page's only one)
+
+On `.framer-6okzgi-container` (nodeId `FTLhHUANj`), **inside** the `Visual` wrapper:
+
+```js
+{ __framer__styleTransformEffectEnabled: true,
+  __framer__transformTrigger: 'onScrollTarget',
+  __framer__transformViewportThreshold: 1,
+  __framer__transformTargets: [
+    { target: { opacity:1, x:120, y:0, scale:1, rotate:0, rotateX:0, rotateY:0, skewX:0, skewY:0 } },
+    { ref: <the Integrations section element>,
+      target: { opacity:1, x:0,   y:0, scale:1, rotate:0, rotateX:0, rotateY:0, skewX:0, skewY:0 } }
+  ],
+  __targetOpacity: 1, __perspectiveFX: false }
+```
+
+**The marker ref is the `Integrations` section itself** (`.framer-65i7ss`, `id="integrations"`,
+the element the page component creates with `ref: X`). There is **no `__framer__spring`**, so the
+transform follows scroll one to one with no chase spring.
+
+Runtime range math (`Ul` / `Zl` / `$l` in `framer.Dy0MSJwM.mjs`, verified):
+
+```
+start = max( offsetTopToDocument(marker) - 1 - threshold * viewportHeight , 0 )
+end   = max( start + marker.clientHeight , 0 )
+x     = interpolate(scrollY, [start, end], [120, 0])     // clamped
+```
+
+with `threshold = 1`, so the offset is exactly one viewport height. The `- 1` is a runtime constant.
+Only `x` differs between the two targets, so nothing else animates.
+
+Concrete input ranges at the captured viewport heights:
+
+| breakpoint | marker y | marker h | viewport h | input range (scrollY) | output |
+|---|---|---|---|---|---|
+| desktop 1440 | 4527 | 723 | 900 | `[3626, 4349]` | `x: 120 -> 0` |
+| tablet 1024 | 4445 | 554 | 900 | `[3544, 4098]` | `x: 120 -> 0` |
+| tablet 810 | 4475 | 554 | 900 | `[3574, 4128]` | `x: 120 -> 0` |
+| phone 390 | 3053 | 678 | 844 | `[2208, 2886]` | `x: 120 -> 0` |
+
+Rebuild (measure, do not hardcode):
+
+```tsx
+'use client';
+import { useScroll, useTransform, motion } from 'motion/react';
+
+function IntegrationsVisual() {
+  const sectionRef = useRef<HTMLDivElement>(null);   // the #integrations section element
+  const { scrollY } = useScroll();
+  const [range, setRange] = useState<[number, number]>([0, 1]);
+
+  useLayoutEffect(() => {
+    const measure = () => {
+      const el = sectionRef.current;
+      if (!el) return;
+      let top = 0;
+      let n: HTMLElement | null = el;
+      while (n) { top += n.offsetTop; n = n.offsetParent as HTMLElement | null; }
+      const start = Math.max(top - 1 - window.innerHeight, 0);
+      const end = Math.max(start + el.clientHeight, 0);
+      setRange([start, end]);
+    };
+    measure();
+    window.addEventListener('resize', measure);
+    return () => window.removeEventListener('resize', measure);
+  }, []);
+
+  const x = useTransform(scrollY, range, [120, 0], { clamp: true });
+
+  return (
+    <section ref={sectionRef} id="integrations">
+      {/* ... */}
+      <motion.div style={{ x }}>{/* the integrations visual */}</motion.div>
+    </section>
+  );
+}
+```
+
+Under Lenis this works unchanged: Lenis writes real `window.scrollY`.
+
+Breakpoint overrides on the inner component: phone gets `boRManxAv: 4` and
+`variant: 'm29m57BbI'`; desktop passes `boRManxAv: 3` and `variant: 'hgluiL7kw'`. The `Visual`
+wrapper gets `height: 360` and `width: calc(min(100vw, 1400px) - 32px)` on phone.
+
+---

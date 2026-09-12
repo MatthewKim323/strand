@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useSpring, useTransform, type MotionValue } from "motion/react";
-import { useEffect, useRef, type CSSProperties } from "react";
+import { useRef, type CSSProperties } from "react";
 
 /**
  * The thin numbered rail down the right edge of the section.
@@ -46,9 +46,10 @@ export function ProgressRail({
   const target = useRef<HTMLElement | null>(null);
   // The rail lives inside the sticky column, so it cannot simply measure its
   // own parent: it reads the scroll progress of a named section instead.
-  useEffect(() => {
+  // Resolved during render so the scroll listener sees it on the first pass.
+  if (typeof document !== "undefined" && !target.current) {
     target.current = document.getElementById(sectionName);
-  }, [sectionName]);
+  }
 
   const { scrollYProgress } = useScroll({
     target: target as React.RefObject<HTMLElement>,

@@ -82,7 +82,7 @@ function shapePoint(shape: number, i: number, out: { x: number; y: number }) {
   out.y = s.points[k + 1] * s.scale;
 }
 
-function ParticleField({ currentShape }: { currentShape: number }) {
+export function ParticleField({ currentShape }: { currentShape: number }) {
   const hostRef = useRef<HTMLDivElement>(null);
   const shapeRef = useRef({ from: currentShape, to: currentShape, at: 0 });
 
@@ -208,11 +208,13 @@ export function ShapeField({
   children: ReactNode[];
 }) {
   const target = useRef<HTMLElement | null>(null);
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => {
+  // Resolved during render so the scroll listener below sees it on first pass;
+  // the element is already in the document by the time the client runs.
+  if (typeof document !== "undefined" && !target.current) {
     target.current = document.getElementById(sectionName);
-    setMounted(true);
-  }, [sectionName]);
+  }
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
 
   const count = children.length;
   const { scrollYProgress } = useScroll({

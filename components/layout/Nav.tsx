@@ -191,7 +191,7 @@ export function Nav() {
       <style>{`
         .nv-bar a { text-decoration: none; }
         @media (max-width: 1199.98px) {
-          .nv-bar { padding: 0; }
+          .nv-bar { padding: 0 !important; }
           .nv-stack { padding: 16px 30px 16px 40px !important; box-shadow: inset 0 -1px 0 0 ${LINE} !important; }
           .nv-links { display: none !important; }
           .nv-burger { display: flex !important; }
