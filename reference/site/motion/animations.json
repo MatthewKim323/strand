@@ -1,0 +1,6467 @@
+{
+ "capturedAt": "2026-09-12T09:55:33.457Z",
+ "stack": {
+  "framework": "framer",
+  "framer": true,
+  "framerMotion": true,
+  "webflow": true,
+  "lenis": true,
+  "gsap": false,
+  "three": false,
+  "spline": false,
+  "notes": [
+   "Built with Framer: appear ids, data-framer-name, framerusercontent modules. Use `1to1 prep` + `1to1 rip`.",
+   "Lenis smooth scroll present: window.scrollTo may be overridden, rigs fall back to wheel events.",
+   "4 canvas element(s): WebGL / 2D drawing to port (find the module that draws it)."
+  ]
+ },
+ "computed": [
+  {
+   "selector": "html.lenis.lenis-autoToggle",
+   "tag": "html",
+   "text": "Strand - AI Data Intelligence Platform\n    \n    \n    \n    \n ",
+   "transition": "overflow 0.001s ease 0s",
+   "framer": {}
+  },
+  {
+   "selector": "html.lenis.lenis-autoToggle > head > style",
+   "tag": "style",
+   "text": "html,body,#main{box-sizing:border-box;margin:0;padding:0}:ro",
+   "framer": {
+    "framerComponents": "framer-lib-cursors-host framer-2U5dV PropertyOverrides framer-Ixlxu framer-lib-combinedCSSRules framer-Hi6IO framer-YfD1"
+   }
+  },
+  {
+   "selector": "html.lenis.lenis-autoToggle > head > style",
+   "tag": "style",
+   "framer": {
+    "framerCss": "true"
+   }
+  },
+  {
+   "selector": "div",
+   "tag": "div",
+   "text": ":root body { background: var(--token-7f40e4a1-2b83-444e-8765",
+   "framer": {
+    "framerHydrateV2": "{\"routeId\":\"augiA20Il\",\"localeId\":\"default\",\"breakpoints\":[{\"hash\":\"72rtr7\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\":",
+    "framerSsrReleasedAt": "2026-08-24T09:50:12.472Z",
+    "framerPageOptimizedAt": "2026-08-25T15:19:48.277Z"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerAppearId": "w6pet3"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerName": "Details"
+   }
+  },
+  {
+   "selector": "div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrand",
+   "framer": {
+    "framerName": "Purchase Template"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l",
+   "tag": "div",
+   "text": "StrandTemplate",
+   "framer": {
+    "framerName": "Template Name"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l > div.framer-1y4sdjl",
+   "tag": "div",
+   "text": "Strand",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l > div.framer-1dltf4q",
+   "tag": "div",
+   "text": "Template",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6",
+   "tag": "div",
+   "text": "PurchaseStrand",
+   "framer": {
+    "framerName": "Template Name"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6 > div.framer-1nwln5j",
+   "tag": "div",
+   "text": "Purchase",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6 > div.framer-xmkk33",
+   "tag": "div",
+   "text": "Strand",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w",
+   "tag": "div",
+   "text": "from$109",
+   "framer": {
+    "framerName": "Starting from"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w > div.framer-a14xbr",
+   "tag": "div",
+   "text": "from",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w > div.framer-5r25d2",
+   "tag": "div",
+   "text": "$109",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-dkby0a",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-dkby0a > div.framer-15d7y5z > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-gu3ill",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Navigation"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-gu3ill > div.framer-2zulxl",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-gu3ill > div.framer-2zulxl > div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-2zulxl > div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Nav Stack"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAbout",
+   "framer": {
+    "framerName": "Main Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > a.framer-tfxiwl.framer-1nrg7n2",
+   "tag": "a",
+   "framer": {
+    "framerName": "Logo",
+    "framerPageLinkCurrent": "true"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > a.framer-tfxiwl.framer-1nrg7n2 > div.framer-6rl07u",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG",
+    "framerName": "Union"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAbout",
+   "framer": {
+    "framerName": "Navigation Menu"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Features",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Right Icon"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerName": "Resources"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Resources",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Right Icon"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1jhb7w3-container",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Pricing"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1jhb7w3-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-1jhb7w3-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1fx5otc-container",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerName": "About"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1fx5otc-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "About",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-1fx5otc-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Buttons"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0 > div.framer-ttq5lt-container",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Sign up"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0 > div.framer-ttq5lt-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / LG"
+   }
+  },
+  {
+   "selector": "div.framer-rq3bc0 > div.framer-ttq5lt-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-1w7wuhd",
+   "tag": "div",
+   "text": "NewIntroducing Ask: Query your entire stack in plain languag",
+   "framer": {
+    "framerName": "Hero"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-1w7wuhd > div.framer-jurjgy",
+   "tag": "div",
+   "text": "NewIntroducing Ask: Query your entire stack in plain languag",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-1w7wuhd > div.framer-jurjgy > div.framer-dp7izi",
+   "tag": "div",
+   "text": "NewIntroducing Ask: Query your entire stack in plain languag",
+   "framer": {
+    "framerAppearId": "dp7izi",
+    "framerName": "New Container"
+   }
+  },
+  {
+   "selector": "div.framer-jurjgy > div.framer-dp7izi > div.ssr-variant.hidden-wc1e1l > div.framer-r7yxnk-container > a.framer-QjZ00.framer-1hpvfsx",
+   "tag": "a",
+   "text": "NewIntroducing Ask: Query your entire stack in plain languag",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-r7yxnk-container > a.framer-QjZ00.framer-1hpvfsx > div.framer-viz05f-container > div.framer-mEJFY.framer-jhxgU",
+   "tag": "div",
+   "text": "New",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-r7yxnk-container > a.framer-QjZ00.framer-1hpvfsx > div.framer-viz05f-container > div.framer-mEJFY.framer-jhxgU > div.framer-6ojv5w",
+   "tag": "div",
+   "text": "New",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-dp7izi > div.ssr-variant.hidden-wc1e1l > div.framer-r7yxnk-container > a.framer-QjZ00.framer-1hpvfsx > div.framer-10o8lwh",
+   "tag": "div",
+   "text": "Introducing Ask: Query your entire stack in plain language",
+   "framer": {
+    "framerName": "Message"
+   }
+  },
+  {
+   "selector": "div.framer-r7yxnk-container > a.framer-QjZ00.framer-1hpvfsx > div.framer-10o8lwh > div.framer-1m0muau-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "a.framer-QjZ00.framer-1hpvfsx > div.framer-10o8lwh > div.framer-1m0muau-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "a.framer-QjZ00.framer-1hpvfsx > div.framer-10o8lwh > div.framer-1m0muau-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "a.framer-QjZ00.framer-1hpvfsx > div.framer-10o8lwh > div.framer-1m0muau-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "a.framer-QjZ00.framer-1hpvfsx > div.framer-10o8lwh > div.framer-1m0muau-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "a.framer-QjZ00.framer-1hpvfsx > div.framer-10o8lwh > div.framer-1m0muau-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "a.framer-QjZ00.framer-1hpvfsx > div.framer-10o8lwh > div.framer-1m0muau-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-1w7wuhd > div.framer-jurjgy > div.framer-qcgctf",
+   "tag": "div",
+   "text": "The missing connection layerStrand builds a living knowledge",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div.framer-1w7wuhd > div.framer-jurjgy > div.framer-qcgctf > div.ssr-variant.hidden-wc1e1l > div.framer-133zkvp",
+   "tag": "div",
+   "text": "The missing connection layerStrand builds a living knowledge",
+   "framer": {
+    "framerName": "Main Title"
+   }
+  },
+  {
+   "selector": "div.framer-jurjgy > div.framer-qcgctf > div.ssr-variant.hidden-wc1e1l > div.framer-133zkvp > div.framer-1gdcm2d",
+   "tag": "div",
+   "text": "The missing connection layerStrand builds a living knowledge",
+   "framer": {
+    "framerName": "Title Container"
+   }
+  },
+  {
+   "selector": "div.framer-qcgctf > div.ssr-variant.hidden-wc1e1l > div.framer-133zkvp > div.framer-1gdcm2d > div.framer-1akirha",
+   "tag": "div",
+   "text": "The missing connection layerStrand builds a living knowledge",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-133zkvp > div.framer-1gdcm2d > div.framer-1akirha > div.framer-1jsercw",
+   "tag": "div",
+   "text": "The missing connection layer",
+   "framer": {
+    "framerAppearId": "1jsercw",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-133zkvp > div.framer-1gdcm2d > div.framer-1akirha > div.framer-1b2lh6y",
+   "tag": "div",
+   "text": "Strand builds a living knowledge graph across every tool in ",
+   "framer": {
+    "framerAppearId": "1b2lh6y",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-qcgctf > div.ssr-variant.hidden-wc1e1l > div.framer-133zkvp > div.framer-1gdcm2d > div.framer-13ye9y3",
+   "tag": "div",
+   "text": "Connect a sourceBook a demo",
+   "framer": {
+    "framerAppearId": "13ye9y3",
+    "framerName": "CTAs"
+   }
+  },
+  {
+   "selector": "div.framer-133zkvp > div.framer-1gdcm2d > div.framer-13ye9y3 > div.framer-122b7gn-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Connect a source",
+   "framer": {
+    "framerName": "Primary / XL"
+   }
+  },
+  {
+   "selector": "div.framer-13ye9y3 > div.framer-122b7gn-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Connect a source",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-133zkvp > div.framer-1gdcm2d > div.framer-13ye9y3 > div.framer-1yjtgfi-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Book a demo",
+   "framer": {
+    "framerName": "Secondary / XL"
+   }
+  },
+  {
+   "selector": "div.framer-13ye9y3 > div.framer-1yjtgfi-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Book a demo",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-1w7wuhd > div.framer-jurjgy > div.framer-qcgctf > div.framer-14ucdac",
+   "tag": "div",
+   "framer": {
+    "framerName": "Main Graphic"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-1ye9oqd",
+   "tag": "div",
+   "text": "1.ConnectPlug in your tools. 240+ integrations out of the bo",
+   "framer": {
+    "framerName": "Steps"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-1ye9oqd > div.framer-170t0as",
+   "tag": "div",
+   "text": "1.ConnectPlug in your tools. 240+ integrations out of the bo",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-1ye9oqd > div.framer-170t0as > div.framer-fkx45e-container",
+   "tag": "div",
+   "text": "1.ConnectPlug in your tools. 240+ integrations out of the bo",
+   "framer": {
+    "framerAppearId": "fkx45e",
+    "framerName": "Connect"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-1ye9oqd > div.framer-170t0as > div.framer-fkx45e-container > div.framer-BDiiR.framer-cUeIE",
+   "tag": "div",
+   "text": "1.ConnectPlug in your tools. 240+ integrations out of the bo",
+   "framer": {
+    "framerName": "Visible"
+   }
+  },
+  {
+   "selector": "div.framer-170t0as > div.framer-fkx45e-container > div.framer-BDiiR.framer-cUeIE > div.framer-9y91v8 > div.framer-18ix66j",
+   "tag": "div",
+   "text": "1.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-170t0as > div.framer-fkx45e-container > div.framer-BDiiR.framer-cUeIE > div.framer-9y91v8 > div.framer-fbfp6c",
+   "tag": "div",
+   "text": "Connect",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1ye9oqd > div.framer-170t0as > div.framer-fkx45e-container > div.framer-BDiiR.framer-cUeIE > div.framer-1s1qb3c",
+   "tag": "div",
+   "text": "Plug in your tools. 240+ integrations out of the box.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-1ye9oqd > div.framer-170t0as > div.framer-1scv7sf-container",
+   "tag": "div",
+   "text": "2.MapCortex automatically builds your knowledge graph.",
+   "framer": {
+    "framerAppearId": "1scv7sf",
+    "framerName": "Map"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-1ye9oqd > div.framer-170t0as > div.framer-1scv7sf-container > div.framer-BDiiR.framer-cUeIE",
+   "tag": "div",
+   "text": "2.MapCortex automatically builds your knowledge graph.",
+   "framer": {
+    "framerName": "Visible"
+   }
+  },
+  {
+   "selector": "div.framer-170t0as > div.framer-1scv7sf-container > div.framer-BDiiR.framer-cUeIE > div.framer-9y91v8 > div.framer-18ix66j",
+   "tag": "div",
+   "text": "2.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-170t0as > div.framer-1scv7sf-container > div.framer-BDiiR.framer-cUeIE > div.framer-9y91v8 > div.framer-fbfp6c",
+   "tag": "div",
+   "text": "Map",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1ye9oqd > div.framer-170t0as > div.framer-1scv7sf-container > div.framer-BDiiR.framer-cUeIE > div.framer-1s1qb3c",
+   "tag": "div",
+   "text": "Cortex automatically builds your knowledge graph.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-1ye9oqd > div.framer-170t0as > div.framer-16yp3wb-container",
+   "tag": "div",
+   "text": "3.AskQuery in plain language. Share results with your team.",
+   "framer": {
+    "framerAppearId": "16yp3wb",
+    "framerName": "Ask"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-1ye9oqd > div.framer-170t0as > div.framer-16yp3wb-container > div.framer-BDiiR.framer-cUeIE",
+   "tag": "div",
+   "text": "3.AskQuery in plain language. Share results with your team.",
+   "framer": {
+    "framerName": "Visible"
+   }
+  },
+  {
+   "selector": "div.framer-170t0as > div.framer-16yp3wb-container > div.framer-BDiiR.framer-cUeIE > div.framer-9y91v8 > div.framer-18ix66j",
+   "tag": "div",
+   "text": "3.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-170t0as > div.framer-16yp3wb-container > div.framer-BDiiR.framer-cUeIE > div.framer-9y91v8 > div.framer-fbfp6c",
+   "tag": "div",
+   "text": "Ask",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1ye9oqd > div.framer-170t0as > div.framer-16yp3wb-container > div.framer-BDiiR.framer-cUeIE > div.framer-1s1qb3c",
+   "tag": "div",
+   "text": "Query in plain language. Share results with your team.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-vpqdy2",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerName": "Partners"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-vpqdy2 > div.framer-1o566ps",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-vpqdy2 > div.framer-1o566ps > div.framer-643cw9",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerName": "Partners title"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-vpqdy2 > div.framer-1o566ps > div.framer-643cw9 > div.framer-lrjd3c",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerName": "Title"
+   }
+  },
+  {
+   "selector": "div.framer-vpqdy2 > div.framer-1o566ps > div.framer-643cw9 > div.framer-lrjd3c > div.framer-1hltyaa",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-vpqdy2 > div.framer-1o566ps > div.framer-149ica6",
+   "tag": "div",
+   "framer": {
+    "framerName": "Ticker Container"
+   }
+  },
+  {
+   "selector": "div.framer-1o566ps > div.framer-149ica6 > div.ssr-variant > div.framer-17vu96m-container > div.framer-kEcQz.framer-bd4w60",
+   "tag": "div",
+   "framer": {
+    "framerName": "End"
+   }
+  },
+  {
+   "selector": "div.framer-149ica6 > div.ssr-variant > div.framer-17vu96m-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Left"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17vu96m-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-u6zm30",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17vu96m-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1s7vawm",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17vu96m-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1ndw0of",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-149ica6 > div.ssr-variant > div.framer-17vu96m-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17vu96m-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-ddlp53",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17vu96m-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1is7c6b",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17vu96m-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1j63n4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-r08n9p",
+   "tag": "div",
+   "text": "Your team wastes hours pulling data from scattered tools. St",
+   "framer": {
+    "framerName": "Conversation"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-r08n9p > div.framer-12x5o77",
+   "tag": "div",
+   "text": "Your team wastes hours pulling data from scattered tools. St",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-r08n9p > div.framer-12x5o77 > div.framer-ca5wfl",
+   "tag": "div",
+   "text": "Your team wastes hours pulling data from scattered tools. St",
+   "framer": {
+    "framerName": "Tagline"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-r08n9p > div.framer-12x5o77 > div.framer-ca5wfl > div.framer-13wrhsn",
+   "tag": "div",
+   "text": "Your team wastes hours pulling data from scattered tools. St",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-r08n9p > div.framer-12x5o77 > div.framer-r0uhuf",
+   "tag": "div",
+   "text": "How can I help today?Thinking3 ResultsAnalyze CompareMonitor",
+   "framer": {
+    "framerName": "Example"
+   }
+  },
+  {
+   "selector": "div.framer-12x5o77 > div.framer-r0uhuf > div.ssr-variant.hidden-wc1e1l > div.framer-11tggmb-container > div.framer-JcDMh.framer-NXcw2",
+   "tag": "div",
+   "text": "How can I help today?Thinking3 ResultsAnalyze CompareMonitor",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-11tggmb-container > div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-19qsf6k",
+   "tag": "div",
+   "text": "How can I help today?Thinking3 Results",
+   "framer": {
+    "framerName": "Chat Container"
+   }
+  },
+  {
+   "selector": "div.framer-11tggmb-container > div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-19qsf6k > div.framer-1bvs57s",
+   "tag": "div",
+   "text": "How can I help today?Thinking3 Results",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-19qsf6k > div.framer-1bvs57s > div.framer-2xhl4y",
+   "tag": "div",
+   "text": "How can I help today?Thinking3 Results",
+   "framer": {
+    "framerName": "Top container"
+   }
+  },
+  {
+   "selector": "div.framer-19qsf6k > div.framer-1bvs57s > div.framer-2xhl4y > div.framer-984o4f > div.framer-1gf4w1f",
+   "tag": "div",
+   "text": "How can I help today?",
+   "framer": {
+    "framerName": "Placeholder",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1oh8dd5 > div.framer-19qsf6k > div.framer-1bvs57s > div.framer-2xhl4y > div.framer-5rfih0",
+   "tag": "div",
+   "text": "Thinking3 Results",
+   "framer": {
+    "framerName": "Status Container"
+   }
+  },
+  {
+   "selector": "div.framer-19qsf6k > div.framer-1bvs57s > div.framer-2xhl4y > div.framer-5rfih0 > div.framer-1cbnqjk-container",
+   "tag": "div",
+   "text": "Thinking",
+   "framer": {
+    "framerName": "Thinking"
+   }
+  },
+  {
+   "selector": "div.framer-1bvs57s > div.framer-2xhl4y > div.framer-5rfih0 > div.framer-1cbnqjk-container > div.framer-3VM4T.framer-jhxgU",
+   "tag": "div",
+   "text": "Thinking",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-2xhl4y > div.framer-5rfih0 > div.framer-1cbnqjk-container > div.framer-3VM4T.framer-jhxgU > div.framer-10gt4py",
+   "tag": "div",
+   "text": "Thinking",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-19qsf6k > div.framer-1bvs57s > div.framer-2xhl4y > div.framer-5rfih0 > div.framer-g8q9cy-container",
+   "tag": "div",
+   "text": "3 Results",
+   "framer": {
+    "framerName": "3 Results"
+   }
+  },
+  {
+   "selector": "div.framer-1bvs57s > div.framer-2xhl4y > div.framer-5rfih0 > div.framer-g8q9cy-container > div.framer-3VM4T.framer-jhxgU",
+   "tag": "div",
+   "text": "3 Results",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-2xhl4y > div.framer-5rfih0 > div.framer-g8q9cy-container > div.framer-3VM4T.framer-jhxgU > div.framer-10gt4py",
+   "tag": "div",
+   "text": "3 Results",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-19qsf6k > div.framer-1bvs57s > div.framer-1hnulot",
+   "tag": "div",
+   "framer": {
+    "framerName": "Buttons Container"
+   }
+  },
+  {
+   "selector": "div.framer-1oh8dd5 > div.framer-19qsf6k > div.framer-1bvs57s > div.framer-1hnulot > div.framer-1umbp4q",
+   "tag": "div",
+   "framer": {
+    "framerName": "Button"
+   }
+  },
+  {
+   "selector": "div.framer-1oh8dd5 > div.framer-19qsf6k > div.framer-1bvs57s > div.framer-1hnulot > div.framer-1q7wox5",
+   "tag": "div",
+   "framer": {
+    "framerName": "Button"
+   }
+  },
+  {
+   "selector": "div.framer-11tggmb-container > div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-19qsf6k > div.framer-5xg612",
+   "tag": "div",
+   "framer": {
+    "framerName": "Background"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-11tggmb-container > div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-t1zk3n",
+   "tag": "div",
+   "text": "Analyze CompareMonitorReport",
+   "framer": {
+    "framerName": "Quick Action Bar"
+   }
+  },
+  {
+   "selector": "div.framer-11tggmb-container > div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-t1zk3n > div.framer-n00lzi-container",
+   "tag": "div",
+   "text": "Analyze",
+   "framer": {
+    "framerAppearId": "n00lzi"
+   }
+  },
+  {
+   "selector": "div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-t1zk3n > div.framer-n00lzi-container > div.framer-MvRYe.framer-jhxgU",
+   "tag": "div",
+   "text": "Analyze",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1oh8dd5 > div.framer-t1zk3n > div.framer-n00lzi-container > div.framer-MvRYe.framer-jhxgU > div.framer-w22r5q",
+   "tag": "div",
+   "text": "Analyze",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11tggmb-container > div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-t1zk3n > div.framer-17bqj0-container",
+   "tag": "div",
+   "text": "Compare",
+   "framer": {
+    "framerAppearId": "17bqj0"
+   }
+  },
+  {
+   "selector": "div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-t1zk3n > div.framer-17bqj0-container > div.framer-MvRYe.framer-jhxgU",
+   "tag": "div",
+   "text": "Compare",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1oh8dd5 > div.framer-t1zk3n > div.framer-17bqj0-container > div.framer-MvRYe.framer-jhxgU > div.framer-w22r5q",
+   "tag": "div",
+   "text": "Compare",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11tggmb-container > div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-t1zk3n > div.framer-10q9li8-container",
+   "tag": "div",
+   "text": "Monitor",
+   "framer": {
+    "framerAppearId": "10q9li8"
+   }
+  },
+  {
+   "selector": "div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-t1zk3n > div.framer-10q9li8-container > div.framer-MvRYe.framer-jhxgU",
+   "tag": "div",
+   "text": "Monitor",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1oh8dd5 > div.framer-t1zk3n > div.framer-10q9li8-container > div.framer-MvRYe.framer-jhxgU > div.framer-w22r5q",
+   "tag": "div",
+   "text": "Monitor",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11tggmb-container > div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-t1zk3n > div.framer-1ysxh9n-container",
+   "tag": "div",
+   "text": "Report",
+   "framer": {
+    "framerAppearId": "1ysxh9n"
+   }
+  },
+  {
+   "selector": "div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-t1zk3n > div.framer-1ysxh9n-container > div.framer-MvRYe.framer-jhxgU",
+   "tag": "div",
+   "text": "Report",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1oh8dd5 > div.framer-t1zk3n > div.framer-1ysxh9n-container > div.framer-MvRYe.framer-jhxgU > div.framer-w22r5q",
+   "tag": "div",
+   "text": "Report",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-11tggmb-container > div.framer-JcDMh.framer-NXcw2 > div.framer-1oh8dd5 > div.framer-4ig9li",
+   "tag": "div",
+   "text": "3 accounts flagged",
+   "framer": {
+    "framerName": "Results Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-e37e89",
+   "tag": "div",
+   "text": "CortexConnect every data source. Strand maps relationships a",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-e37e89 > div.framer-2wq6o",
+   "tag": "div",
+   "text": "CortexConnect every data source. Strand maps relationships a",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-e37e89 > div.framer-2wq6o > div.framer-11wxjj4.hidden-wc1e1l",
+   "tag": "div",
+   "text": "CortexConnect every data source. Strand maps relationships a",
+   "framer": {
+    "framerName": "Left Stack"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-e37e89 > div.framer-2wq6o > div.framer-11wxjj4.hidden-wc1e1l > div.framer-ongoh1",
+   "tag": "div",
+   "text": "CortexConnect every data source. Strand maps relationships a",
+   "framer": {
+    "framerName": "Scroll Progress Section"
+   }
+  },
+  {
+   "selector": "div.framer-e37e89 > div.framer-2wq6o > div.framer-11wxjj4.hidden-wc1e1l > div.framer-ongoh1 > div.framer-g1gjpv",
+   "tag": "div",
+   "text": "CortexConnect every data source. Strand maps relationships a",
+   "framer": {
+    "framerName": "Rail"
+   }
+  },
+  {
+   "selector": "div.framer-2wq6o > div.framer-11wxjj4.hidden-wc1e1l > div.framer-ongoh1 > div.framer-g1gjpv > div.framer-8cz25g",
+   "tag": "div",
+   "text": "CortexConnect every data source. Strand maps relationships a",
+   "framer": {
+    "framerName": "Rail Cart"
+   }
+  },
+  {
+   "selector": "div.framer-ongoh1 > div.framer-g1gjpv > div.framer-8cz25g > div.ssr-variant.hidden-uuxm6n > div.framer-qdle9s-container",
+   "tag": "div",
+   "text": "CortexConnect every data source. Strand maps relationships a",
+   "framer": {
+    "framerName": "Cortex"
+   }
+  },
+  {
+   "selector": "div.framer-g1gjpv > div.framer-8cz25g > div.ssr-variant.hidden-uuxm6n > div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO",
+   "tag": "div",
+   "text": "CortexConnect every data source. Strand maps relationships a",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-8cz25g > div.ssr-variant.hidden-uuxm6n > div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1x26bi8",
+   "tag": "div",
+   "text": "CortexConnect every data source. Strand maps relationships a",
+   "framer": {
+    "framerName": "Context"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1x26bi8 > div.framer-1q2f6xz",
+   "tag": "div",
+   "text": "Cortex",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1x26bi8 > div.framer-1id2k7l",
+   "tag": "div",
+   "text": "Connect every data source. Strand maps relationships automat",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8cz25g > div.ssr-variant.hidden-uuxm6n > div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam",
+   "tag": "div",
+   "text": "Resolves entities across every source.Updates in real time, ",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-dsjfne-container",
+   "tag": "div",
+   "text": "Resolves entities across every source.",
+   "framer": {
+    "framerName": "Source Resolution"
+   }
+  },
+  {
+   "selector": "div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-dsjfne-container > div.framer-nbXXU.framer-95lQp",
+   "tag": "div",
+   "text": "Resolves entities across every source.",
+   "framer": {
+    "framerName": "Vertical"
+   }
+  },
+  {
+   "selector": "div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-dsjfne-container > div.framer-nbXXU.framer-95lQp > div.framer-18uhzsg",
+   "tag": "div",
+   "text": "Resolves entities across every source.",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1lxtxpn-container",
+   "tag": "div",
+   "text": "Updates in real time, no rebuilds.",
+   "framer": {
+    "framerName": "Updates"
+   }
+  },
+  {
+   "selector": "div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1lxtxpn-container > div.framer-nbXXU.framer-95lQp",
+   "tag": "div",
+   "text": "Updates in real time, no rebuilds.",
+   "framer": {
+    "framerName": "Vertical"
+   }
+  },
+  {
+   "selector": "div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1lxtxpn-container > div.framer-nbXXU.framer-95lQp > div.framer-18uhzsg",
+   "tag": "div",
+   "text": "Updates in real time, no rebuilds.",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1owzeh0-container",
+   "tag": "div",
+   "text": "Visual graph explorer for every team.",
+   "framer": {
+    "framerName": "Graphs"
+   }
+  },
+  {
+   "selector": "div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1owzeh0-container > div.framer-nbXXU.framer-95lQp",
+   "tag": "div",
+   "text": "Visual graph explorer for every team.",
+   "framer": {
+    "framerName": "Vertical"
+   }
+  },
+  {
+   "selector": "div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1owzeh0-container > div.framer-nbXXU.framer-95lQp > div.framer-18uhzsg",
+   "tag": "div",
+   "text": "Visual graph explorer for every team.",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-2f6409-container > a.framer-z2KqL.framer-95lQp",
+   "tag": "a",
+   "text": "Explore more",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-2f6409-container > a.framer-z2KqL.framer-95lQp > div.framer-unk2by",
+   "tag": "div",
+   "text": "Explore more",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-qdle9s-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-2f6409-container > a.framer-z2KqL.framer-95lQp > button.framer-1bs23ii",
+   "tag": "button",
+   "framer": {
+    "framerName": "Circular Button"
+   }
+  },
+  {
+   "selector": "div.framer-e37e89 > div.framer-2wq6o > div.framer-11wxjj4.hidden-wc1e1l > div.framer-ongoh1 > div.framer-1mqiqes",
+   "tag": "div",
+   "text": "AskStop writing SQL for simple questions. Ask \"Which enterpr",
+   "framer": {
+    "framerName": "Rail"
+   }
+  },
+  {
+   "selector": "div.framer-2wq6o > div.framer-11wxjj4.hidden-wc1e1l > div.framer-ongoh1 > div.framer-1mqiqes > div.framer-1ilx1em",
+   "tag": "div",
+   "text": "AskStop writing SQL for simple questions. Ask \"Which enterpr",
+   "framer": {
+    "framerName": "Rail Cart"
+   }
+  },
+  {
+   "selector": "div.framer-ongoh1 > div.framer-1mqiqes > div.framer-1ilx1em > div.ssr-variant.hidden-uuxm6n > div.framer-1d5ij2n-container",
+   "tag": "div",
+   "text": "AskStop writing SQL for simple questions. Ask \"Which enterpr",
+   "framer": {
+    "framerName": "Ask"
+   }
+  },
+  {
+   "selector": "div.framer-1mqiqes > div.framer-1ilx1em > div.ssr-variant.hidden-uuxm6n > div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO",
+   "tag": "div",
+   "text": "AskStop writing SQL for simple questions. Ask \"Which enterpr",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-1ilx1em > div.ssr-variant.hidden-uuxm6n > div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1x26bi8",
+   "tag": "div",
+   "text": "AskStop writing SQL for simple questions. Ask \"Which enterpr",
+   "framer": {
+    "framerName": "Context"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1x26bi8 > div.framer-1q2f6xz",
+   "tag": "div",
+   "text": "Ask",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1x26bi8 > div.framer-1id2k7l",
+   "tag": "div",
+   "text": "Stop writing SQL for simple questions. Ask \"Which enterprise",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1ilx1em > div.ssr-variant.hidden-uuxm6n > div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam",
+   "tag": "div",
+   "text": "Understands your exact data model.Suggests smart follow-up q",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-dsjfne-container",
+   "tag": "div",
+   "text": "Understands your exact data model.",
+   "framer": {
+    "framerName": "Source Resolution"
+   }
+  },
+  {
+   "selector": "div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-dsjfne-container > div.framer-nbXXU.framer-95lQp",
+   "tag": "div",
+   "text": "Understands your exact data model.",
+   "framer": {
+    "framerName": "Vertical"
+   }
+  },
+  {
+   "selector": "div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-dsjfne-container > div.framer-nbXXU.framer-95lQp > div.framer-18uhzsg",
+   "tag": "div",
+   "text": "Understands your exact data model.",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1lxtxpn-container",
+   "tag": "div",
+   "text": "Suggests smart follow-up questions.",
+   "framer": {
+    "framerName": "Updates"
+   }
+  },
+  {
+   "selector": "div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1lxtxpn-container > div.framer-nbXXU.framer-95lQp",
+   "tag": "div",
+   "text": "Suggests smart follow-up questions.",
+   "framer": {
+    "framerName": "Vertical"
+   }
+  },
+  {
+   "selector": "div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1lxtxpn-container > div.framer-nbXXU.framer-95lQp > div.framer-18uhzsg",
+   "tag": "div",
+   "text": "Suggests smart follow-up questions.",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1owzeh0-container",
+   "tag": "div",
+   "text": "Exports to Slack, CSV, or JSON.",
+   "framer": {
+    "framerName": "Graphs"
+   }
+  },
+  {
+   "selector": "div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1owzeh0-container > div.framer-nbXXU.framer-95lQp",
+   "tag": "div",
+   "text": "Exports to Slack, CSV, or JSON.",
+   "framer": {
+    "framerName": "Vertical"
+   }
+  },
+  {
+   "selector": "div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1owzeh0-container > div.framer-nbXXU.framer-95lQp > div.framer-18uhzsg",
+   "tag": "div",
+   "text": "Exports to Slack, CSV, or JSON.",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-2f6409-container > a.framer-z2KqL.framer-95lQp",
+   "tag": "a",
+   "text": "Explore more",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-2f6409-container > a.framer-z2KqL.framer-95lQp > div.framer-unk2by",
+   "tag": "div",
+   "text": "Explore more",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1d5ij2n-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-2f6409-container > a.framer-z2KqL.framer-95lQp > button.framer-1bs23ii",
+   "tag": "button",
+   "framer": {
+    "framerName": "Circular Button"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-e37e89 > div.framer-2wq6o > div.framer-11wxjj4.hidden-wc1e1l > div.framer-gw12jb",
+   "tag": "div",
+   "text": "PulseNot another dashboard with 47 alerts. Pulse learns what",
+   "framer": {
+    "framerName": "Rail"
+   }
+  },
+  {
+   "selector": "div.framer-e37e89 > div.framer-2wq6o > div.framer-11wxjj4.hidden-wc1e1l > div.framer-gw12jb > div.framer-1s7z65x",
+   "tag": "div",
+   "text": "PulseNot another dashboard with 47 alerts. Pulse learns what",
+   "framer": {
+    "framerName": "Rail Cart"
+   }
+  },
+  {
+   "selector": "div.framer-11wxjj4.hidden-wc1e1l > div.framer-gw12jb > div.framer-1s7z65x > div.ssr-variant.hidden-uuxm6n > div.framer-zggyi1-container",
+   "tag": "div",
+   "text": "PulseNot another dashboard with 47 alerts. Pulse learns what",
+   "framer": {
+    "framerName": "Pulse"
+   }
+  },
+  {
+   "selector": "div.framer-gw12jb > div.framer-1s7z65x > div.ssr-variant.hidden-uuxm6n > div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO",
+   "tag": "div",
+   "text": "PulseNot another dashboard with 47 alerts. Pulse learns what",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-1s7z65x > div.ssr-variant.hidden-uuxm6n > div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1x26bi8",
+   "tag": "div",
+   "text": "PulseNot another dashboard with 47 alerts. Pulse learns what",
+   "framer": {
+    "framerName": "Context"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1x26bi8 > div.framer-1q2f6xz",
+   "tag": "div",
+   "text": "Pulse",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1x26bi8 > div.framer-1id2k7l",
+   "tag": "div",
+   "text": "Not another dashboard with 47 alerts. Pulse learns what norm",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1s7z65x > div.ssr-variant.hidden-uuxm6n > div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam",
+   "tag": "div",
+   "text": "Adaptive baselines, zero config. Severity scoring by busines",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-dsjfne-container",
+   "tag": "div",
+   "text": "Adaptive baselines, zero config.",
+   "framer": {
+    "framerName": "Source Resolution"
+   }
+  },
+  {
+   "selector": "div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-dsjfne-container > div.framer-nbXXU.framer-95lQp",
+   "tag": "div",
+   "text": "Adaptive baselines, zero config.",
+   "framer": {
+    "framerName": "Vertical"
+   }
+  },
+  {
+   "selector": "div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-dsjfne-container > div.framer-nbXXU.framer-95lQp > div.framer-18uhzsg",
+   "tag": "div",
+   "text": "Adaptive baselines, zero config.",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1lxtxpn-container",
+   "tag": "div",
+   "text": "Severity scoring by business impact.",
+   "framer": {
+    "framerName": "Updates"
+   }
+  },
+  {
+   "selector": "div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1lxtxpn-container > div.framer-nbXXU.framer-95lQp",
+   "tag": "div",
+   "text": "Severity scoring by business impact.",
+   "framer": {
+    "framerName": "Vertical"
+   }
+  },
+  {
+   "selector": "div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1lxtxpn-container > div.framer-nbXXU.framer-95lQp > div.framer-18uhzsg",
+   "tag": "div",
+   "text": "Severity scoring by business impact.",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1owzeh0-container",
+   "tag": "div",
+   "text": "Routes alerts to the right channel.",
+   "framer": {
+    "framerName": "Graphs"
+   }
+  },
+  {
+   "selector": "div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1owzeh0-container > div.framer-nbXXU.framer-95lQp",
+   "tag": "div",
+   "text": "Routes alerts to the right channel.",
+   "framer": {
+    "framerName": "Vertical"
+   }
+  },
+  {
+   "selector": "div.framer-5Y2Hx.framer-dbBSO > div.framer-1drnpam > div.framer-1owzeh0-container > div.framer-nbXXU.framer-95lQp > div.framer-18uhzsg",
+   "tag": "div",
+   "text": "Routes alerts to the right channel.",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-2f6409-container > a.framer-z2KqL.framer-95lQp",
+   "tag": "a",
+   "text": "Explore more",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-2f6409-container > a.framer-z2KqL.framer-95lQp > div.framer-unk2by",
+   "tag": "div",
+   "text": "Explore more",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-zggyi1-container > div.framer-5Y2Hx.framer-dbBSO > div.framer-2f6409-container > a.framer-z2KqL.framer-95lQp > button.framer-1bs23ii",
+   "tag": "button",
+   "framer": {
+    "framerName": "Circular Button"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-e37e89 > div.framer-2wq6o > div.framer-z2pejt.hidden-wc1e1l",
+   "tag": "div",
+   "text": "High severity2 min agoEU activation rate dropped 12%Activati",
+   "framer": {
+    "framerName": "Right Stack"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-e37e89 > div.framer-2wq6o > div.framer-z2pejt.hidden-wc1e1l > div.framer-iejl6p",
+   "tag": "div",
+   "text": "High severity2 min agoEU activation rate dropped 12%Activati",
+   "framer": {
+    "framerName": "Rail Cart"
+   }
+  },
+  {
+   "selector": "div.framer-e37e89 > div.framer-2wq6o > div.framer-z2pejt.hidden-wc1e1l > div.framer-iejl6p > div.framer-12nzhvt",
+   "tag": "div",
+   "text": "High severity2 min agoEU activation rate dropped 12%Activati",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div > div > div > div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ",
+   "tag": "div",
+   "text": "High severity2 min agoEU activation rate dropped 12%Activati",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ > div.framer-5jqard",
+   "tag": "div",
+   "text": "High severity2 min ago",
+   "framer": {
+    "framerName": "Top"
+   }
+  },
+  {
+   "selector": "div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ > div.framer-5jqard > div.framer-1fyu1mw-container > div.framer-022zo.framer-jhxgU",
+   "tag": "div",
+   "text": "High severity",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-U3LFO.framer-LKFMZ > div.framer-5jqard > div.framer-1fyu1mw-container > div.framer-022zo.framer-jhxgU > div.framer-hszfpk",
+   "tag": "div",
+   "text": "High severity",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ > div.framer-5jqard > div.framer-31xg5l",
+   "tag": "div",
+   "text": "2 min ago",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ > div.framer-diuqkq",
+   "tag": "div",
+   "text": "EU activation rate dropped 12%Activation in EU markets fell ",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ > div.framer-diuqkq > div.framer-1fe92ak",
+   "tag": "div",
+   "text": "EU activation rate dropped 12%",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ > div.framer-diuqkq > div.framer-fe8oxv",
+   "tag": "div",
+   "text": "Activation in EU markets fell from 34% to 22% over the past ",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ > div.framer-9le6ar",
+   "tag": "div",
+   "text": "BaselineAnomaly",
+   "framer": {
+    "framerName": "Graph Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ > div.framer-9le6ar > div.framer-53s2fi",
+   "tag": "div",
+   "text": "Baseline",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ > div.framer-9le6ar > div.framer-pcf3dc",
+   "tag": "div",
+   "text": "Anomaly",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ > div.framer-9h9hlu",
+   "tag": "div",
+   "text": "Sent to #product-alertsDelivered 1m ago",
+   "framer": {
+    "framerName": "Bottom"
+   }
+  },
+  {
+   "selector": "div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ > div.framer-9h9hlu > div.framer-1qai5yf > div.framer-1pj9aaw",
+   "tag": "div",
+   "text": "Sent to #product-alerts",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-ssv5r4-container > div.framer-U3LFO.framer-LKFMZ > div.framer-9h9hlu > div.framer-1yhzv4n",
+   "tag": "div",
+   "text": "Delivered 1m ago",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-e37e89 > div.framer-2wq6o > div.framer-z2pejt.hidden-wc1e1l > div.framer-iejl6p > div.framer-1ak0sa5",
+   "tag": "div",
+   "text": "010203",
+   "framer": {
+    "framerName": "Progress"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-65i7ss",
+   "tag": "div",
+   "text": "Connect your stackMonitoring, code, observability, cloud, CI",
+   "framer": {
+    "framerName": "Integrations"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-65i7ss > div.framer-vedlvf",
+   "tag": "div",
+   "text": "Connect your stackMonitoring, code, observability, cloud, CI",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-65i7ss > div.framer-vedlvf > div.ssr-variant > div.framer-ixio0v-container > div.framer-kEcQz.framer-bd4w60",
+   "tag": "div",
+   "framer": {
+    "framerName": "End"
+   }
+  },
+  {
+   "selector": "div.framer-vedlvf > div.ssr-variant > div.framer-ixio0v-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Left"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-ixio0v-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-u6zm30",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-ixio0v-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1s7vawm",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-ixio0v-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1ndw0of",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-vedlvf > div.ssr-variant > div.framer-ixio0v-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-ixio0v-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-ddlp53",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-ixio0v-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1is7c6b",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-ixio0v-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1j63n4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-65i7ss > div.framer-vedlvf > div.framer-19csyfa",
+   "tag": "div",
+   "text": "Connect your stackMonitoring, code, observability, cloud, CI",
+   "framer": {
+    "framerName": "Context"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-65i7ss > div.framer-vedlvf > div.framer-19csyfa > div.framer-mjvzh3",
+   "tag": "div",
+   "text": "Connect your stackMonitoring, code, observability, cloud, CI",
+   "framer": {
+    "framerName": "Context"
+   }
+  },
+  {
+   "selector": "div.framer-65i7ss > div.framer-vedlvf > div.framer-19csyfa > div.framer-mjvzh3 > div.framer-5t78lj",
+   "tag": "div",
+   "text": "Connect your stack",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-65i7ss > div.framer-vedlvf > div.framer-19csyfa > div.framer-mjvzh3 > div.framer-1i3vsvd",
+   "tag": "div",
+   "text": "Monitoring, code, observability, cloud, CI/CD systems, messa",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-65i7ss > div.framer-vedlvf > div.framer-19csyfa > div.framer-1419ixl-container > a.framer-z2KqL.framer-95lQp",
+   "tag": "a",
+   "text": "View integrations",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-vedlvf > div.framer-19csyfa > div.framer-1419ixl-container > a.framer-z2KqL.framer-95lQp > div.framer-unk2by",
+   "tag": "div",
+   "text": "View integrations",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vedlvf > div.framer-19csyfa > div.framer-1419ixl-container > a.framer-z2KqL.framer-95lQp > button.framer-1bs23ii",
+   "tag": "button",
+   "framer": {
+    "framerName": "Circular Button"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-65i7ss > div.framer-vedlvf > div.framer-n9voe3",
+   "tag": "div",
+   "text": "Connected sourcesStride$2.4 MMR1,204 subscriptionsThreadBase",
+   "framer": {
+    "framerName": "Visual"
+   }
+  },
+  {
+   "selector": "div.framer-vedlvf > div.framer-n9voe3 > div.ssr-variant.hidden-wc1e1l > div.framer-6okzgi-container > div.framer-kdORT.framer-LKFMZ",
+   "tag": "div",
+   "text": "Connected sourcesStride$2.4 MMR1,204 subscriptionsThreadBase",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-n9voe3 > div.ssr-variant.hidden-wc1e1l > div.framer-6okzgi-container > div.framer-kdORT.framer-LKFMZ > div.framer-185hq2g",
+   "tag": "div",
+   "text": "Connected sources",
+   "framer": {
+    "framerName": "Top Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-6okzgi-container > div.framer-kdORT.framer-LKFMZ > div.framer-185hq2g > div.framer-17ojuzp",
+   "tag": "div",
+   "text": "Connected sources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-n9voe3 > div.ssr-variant.hidden-wc1e1l > div.framer-6okzgi-container > div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0",
+   "tag": "div",
+   "text": "Stride$2.4 MMR1,204 subscriptionsThreadBase42 channelsalerts",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div.framer-83tgt0 > div.framer-gh3cms-container > div > div > div.framer-1uvcff0-container",
+   "tag": "div",
+   "text": "Stride$2.4 MMR1,204 subscriptions",
+   "framer": {
+    "framerName": "Stride"
+   }
+  },
+  {
+   "selector": "div.framer-gh3cms-container > div > div > div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2",
+   "tag": "div",
+   "text": "Stride$2.4 MMR1,204 subscriptions",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u",
+   "tag": "div",
+   "text": "Stride$2.4 MMR1,204 subscriptions",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-c89zoz",
+   "tag": "div",
+   "text": "Stride",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9",
+   "tag": "div",
+   "text": "$2.4 MMR1,204 subscriptions",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1fv4oxa",
+   "tag": "div",
+   "text": "$2.4 MMR",
+   "framer": {
+    "framerName": "Main Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1tnyczv",
+   "tag": "div",
+   "text": "1,204 subscriptions",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-83tgt0 > div.framer-gh3cms-container > div > div > div.framer-h8xx6f-container",
+   "tag": "div",
+   "text": "ThreadBase42 channelsalerts enabled",
+   "framer": {
+    "framerName": "ThreadBase"
+   }
+  },
+  {
+   "selector": "div.framer-gh3cms-container > div > div > div.framer-h8xx6f-container > div.framer-7anIQ.framer-NXcw2",
+   "tag": "div",
+   "text": "ThreadBase42 channelsalerts enabled",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-h8xx6f-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u",
+   "tag": "div",
+   "text": "ThreadBase42 channelsalerts enabled",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > div.framer-h8xx6f-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-c89zoz",
+   "tag": "div",
+   "text": "ThreadBase",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-h8xx6f-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9",
+   "tag": "div",
+   "text": "42 channelsalerts enabled",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-h8xx6f-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1fv4oxa",
+   "tag": "div",
+   "text": "42 channels",
+   "framer": {
+    "framerName": "Main Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-h8xx6f-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1tnyczv",
+   "tag": "div",
+   "text": "alerts enabled",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-83tgt0 > div.framer-gh3cms-container > div > div > div.framer-1ylbtto-container",
+   "tag": "div",
+   "text": "Pipecloud874 accounts12,400 records",
+   "framer": {
+    "framerName": "Pipecloud"
+   }
+  },
+  {
+   "selector": "div.framer-gh3cms-container > div > div > div.framer-1ylbtto-container > div.framer-7anIQ.framer-NXcw2",
+   "tag": "div",
+   "text": "Pipecloud874 accounts12,400 records",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1ylbtto-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u",
+   "tag": "div",
+   "text": "Pipecloud874 accounts12,400 records",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > div.framer-1ylbtto-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-c89zoz",
+   "tag": "div",
+   "text": "Pipecloud",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-1ylbtto-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9",
+   "tag": "div",
+   "text": "874 accounts12,400 records",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-1ylbtto-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1fv4oxa",
+   "tag": "div",
+   "text": "874 accounts",
+   "framer": {
+    "framerName": "Main Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1ylbtto-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1tnyczv",
+   "tag": "div",
+   "text": "12,400 records",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-83tgt0 > div.framer-gh3cms-container > div > div > div.framer-6xdufh-container",
+   "tag": "div",
+   "text": "Chatdock9.841 conversations204 open",
+   "framer": {
+    "framerName": "Chatdock"
+   }
+  },
+  {
+   "selector": "div.framer-gh3cms-container > div > div > div.framer-6xdufh-container > div.framer-7anIQ.framer-NXcw2",
+   "tag": "div",
+   "text": "Chatdock9.841 conversations204 open",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-6xdufh-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u",
+   "tag": "div",
+   "text": "Chatdock9.841 conversations204 open",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > div.framer-6xdufh-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-c89zoz",
+   "tag": "div",
+   "text": "Chatdock",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-6xdufh-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9",
+   "tag": "div",
+   "text": "9.841 conversations204 open",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-6xdufh-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1fv4oxa",
+   "tag": "div",
+   "text": "9.841 conversations",
+   "framer": {
+    "framerName": "Main Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-6xdufh-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1tnyczv",
+   "tag": "div",
+   "text": "204 open",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-83tgt0 > div.framer-gh3cms-container > div > div > div.framer-i8p0sv-container",
+   "tag": "div",
+   "text": "VaultDB38 schemes6.4M rows",
+   "framer": {
+    "framerName": "VaultDB"
+   }
+  },
+  {
+   "selector": "div.framer-gh3cms-container > div > div > div.framer-i8p0sv-container > div.framer-7anIQ.framer-NXcw2",
+   "tag": "div",
+   "text": "VaultDB38 schemes6.4M rows",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-i8p0sv-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u",
+   "tag": "div",
+   "text": "VaultDB38 schemes6.4M rows",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > div.framer-i8p0sv-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-c89zoz",
+   "tag": "div",
+   "text": "VaultDB",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-i8p0sv-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9",
+   "tag": "div",
+   "text": "38 schemes6.4M rows",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-i8p0sv-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1fv4oxa",
+   "tag": "div",
+   "text": "38 schemes",
+   "framer": {
+    "framerName": "Main Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8p0sv-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1tnyczv",
+   "tag": "div",
+   "text": "6.4M rows",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-83tgt0 > div.framer-gh3cms-container > div > div > div.framer-1uvcff0-container",
+   "tag": "div",
+   "text": "Stride$2.4 MMR1,204 subscriptions",
+   "framer": {
+    "framerName": "Stride"
+   }
+  },
+  {
+   "selector": "div.framer-gh3cms-container > div > div > div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2",
+   "tag": "div",
+   "text": "Stride$2.4 MMR1,204 subscriptions",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u",
+   "tag": "div",
+   "text": "Stride$2.4 MMR1,204 subscriptions",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-c89zoz",
+   "tag": "div",
+   "text": "Stride",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9",
+   "tag": "div",
+   "text": "$2.4 MMR1,204 subscriptions",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1fv4oxa",
+   "tag": "div",
+   "text": "$2.4 MMR",
+   "framer": {
+    "framerName": "Main Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1tnyczv",
+   "tag": "div",
+   "text": "1,204 subscriptions",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-83tgt0 > div.framer-gh3cms-container > div > div > div.framer-h8xx6f-container",
+   "tag": "div",
+   "text": "ThreadBase42 channelsalerts enabled",
+   "framer": {
+    "framerName": "ThreadBase"
+   }
+  },
+  {
+   "selector": "div.framer-gh3cms-container > div > div > div.framer-h8xx6f-container > div.framer-7anIQ.framer-NXcw2",
+   "tag": "div",
+   "text": "ThreadBase42 channelsalerts enabled",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-h8xx6f-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u",
+   "tag": "div",
+   "text": "ThreadBase42 channelsalerts enabled",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > div.framer-h8xx6f-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-c89zoz",
+   "tag": "div",
+   "text": "ThreadBase",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-h8xx6f-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9",
+   "tag": "div",
+   "text": "42 channelsalerts enabled",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-h8xx6f-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1fv4oxa",
+   "tag": "div",
+   "text": "42 channels",
+   "framer": {
+    "framerName": "Main Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-h8xx6f-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1tnyczv",
+   "tag": "div",
+   "text": "alerts enabled",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-83tgt0 > div.framer-gh3cms-container > div > div > div.framer-1ylbtto-container",
+   "tag": "div",
+   "text": "Pipecloud874 accounts12,400 records",
+   "framer": {
+    "framerName": "Pipecloud"
+   }
+  },
+  {
+   "selector": "div.framer-gh3cms-container > div > div > div.framer-1ylbtto-container > div.framer-7anIQ.framer-NXcw2",
+   "tag": "div",
+   "text": "Pipecloud874 accounts12,400 records",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1ylbtto-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u",
+   "tag": "div",
+   "text": "Pipecloud874 accounts12,400 records",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > div.framer-1ylbtto-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-c89zoz",
+   "tag": "div",
+   "text": "Pipecloud",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-1ylbtto-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9",
+   "tag": "div",
+   "text": "874 accounts12,400 records",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-1ylbtto-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1fv4oxa",
+   "tag": "div",
+   "text": "874 accounts",
+   "framer": {
+    "framerName": "Main Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1ylbtto-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1tnyczv",
+   "tag": "div",
+   "text": "12,400 records",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-83tgt0 > div.framer-gh3cms-container > div > div > div.framer-6xdufh-container",
+   "tag": "div",
+   "text": "Chatdock9.841 conversations204 open",
+   "framer": {
+    "framerName": "Chatdock"
+   }
+  },
+  {
+   "selector": "div.framer-gh3cms-container > div > div > div.framer-6xdufh-container > div.framer-7anIQ.framer-NXcw2",
+   "tag": "div",
+   "text": "Chatdock9.841 conversations204 open",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-6xdufh-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u",
+   "tag": "div",
+   "text": "Chatdock9.841 conversations204 open",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > div.framer-6xdufh-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-c89zoz",
+   "tag": "div",
+   "text": "Chatdock",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-6xdufh-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9",
+   "tag": "div",
+   "text": "9.841 conversations204 open",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-6xdufh-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1fv4oxa",
+   "tag": "div",
+   "text": "9.841 conversations",
+   "framer": {
+    "framerName": "Main Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-6xdufh-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1tnyczv",
+   "tag": "div",
+   "text": "204 open",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-83tgt0 > div.framer-gh3cms-container > div > div > div.framer-i8p0sv-container",
+   "tag": "div",
+   "text": "VaultDB38 schemes6.4M rows",
+   "framer": {
+    "framerName": "VaultDB"
+   }
+  },
+  {
+   "selector": "div.framer-gh3cms-container > div > div > div.framer-i8p0sv-container > div.framer-7anIQ.framer-NXcw2",
+   "tag": "div",
+   "text": "VaultDB38 schemes6.4M rows",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-i8p0sv-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u",
+   "tag": "div",
+   "text": "VaultDB38 schemes6.4M rows",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > div.framer-i8p0sv-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-c89zoz",
+   "tag": "div",
+   "text": "VaultDB",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-i8p0sv-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9",
+   "tag": "div",
+   "text": "38 schemes6.4M rows",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-i8p0sv-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1fv4oxa",
+   "tag": "div",
+   "text": "38 schemes",
+   "framer": {
+    "framerName": "Main Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8p0sv-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1tnyczv",
+   "tag": "div",
+   "text": "6.4M rows",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-83tgt0 > div.framer-gh3cms-container > div > div > div.framer-1uvcff0-container",
+   "tag": "div",
+   "text": "Stride$2.4 MMR1,204 subscriptions",
+   "framer": {
+    "framerName": "Stride"
+   }
+  },
+  {
+   "selector": "div.framer-gh3cms-container > div > div > div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2",
+   "tag": "div",
+   "text": "Stride$2.4 MMR1,204 subscriptions",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u",
+   "tag": "div",
+   "text": "Stride$2.4 MMR1,204 subscriptions",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-c89zoz",
+   "tag": "div",
+   "text": "Stride",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9",
+   "tag": "div",
+   "text": "$2.4 MMR1,204 subscriptions",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1fv4oxa",
+   "tag": "div",
+   "text": "$2.4 MMR",
+   "framer": {
+    "framerName": "Main Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1uvcff0-container > div.framer-7anIQ.framer-NXcw2 > div.framer-9xyj0u > div.framer-1k1wxa9 > div.framer-1tnyczv",
+   "tag": "div",
+   "text": "1,204 subscriptions",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-6okzgi-container > div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Column Grid"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-cylrhc-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-1i883q6-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-ty9win-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-46yqfj-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-1ee5na3-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-13lh168-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-1ttgjgi-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-pq2rio-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-1wyi2ic-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-jd2sxu-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-1d0aftb-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-l327az-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-32528q-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-tifjbr-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-83tgt0 > div.framer-8euj4w > div.framer-18e99bp-container > div.framer-DXDHz.framer-1x8w27f",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-n9voe3 > div.ssr-variant.hidden-wc1e1l > div.framer-6okzgi-container > div.framer-kdORT.framer-LKFMZ > div.framer-15nwmy8",
+   "tag": "div",
+   "text": "41.2Mrecords indexed0errorsAdd integration",
+   "framer": {
+    "framerName": "Bottom Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-6okzgi-container > div.framer-kdORT.framer-LKFMZ > div.framer-15nwmy8 > div.framer-1mlkfvk",
+   "tag": "div",
+   "text": "41.2Mrecords indexed0errors",
+   "framer": {
+    "framerName": "Stats"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-15nwmy8 > div.framer-1mlkfvk > div.framer-1cs5ouk-container > div.framer-6SsJm.framer-dlOWH",
+   "tag": "div",
+   "text": "41.2Mrecords indexed",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-15nwmy8 > div.framer-1mlkfvk > div.framer-1cs5ouk-container > div.framer-6SsJm.framer-dlOWH > div.framer-5mjxua",
+   "tag": "div",
+   "text": "41.2M",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15nwmy8 > div.framer-1mlkfvk > div.framer-1cs5ouk-container > div.framer-6SsJm.framer-dlOWH > div.framer-5s556i",
+   "tag": "div",
+   "text": "records indexed",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-15nwmy8 > div.framer-1mlkfvk > div.framer-faln48-container > div.framer-6SsJm.framer-dlOWH",
+   "tag": "div",
+   "text": "0errors",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-15nwmy8 > div.framer-1mlkfvk > div.framer-faln48-container > div.framer-6SsJm.framer-dlOWH > div.framer-5mjxua",
+   "tag": "div",
+   "text": "0",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15nwmy8 > div.framer-1mlkfvk > div.framer-faln48-container > div.framer-6SsJm.framer-dlOWH > div.framer-5s556i",
+   "tag": "div",
+   "text": "errors",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-6okzgi-container > div.framer-kdORT.framer-LKFMZ > div.framer-15nwmy8 > div.framer-4279vg",
+   "tag": "div",
+   "framer": {
+    "framerName": "Stats"
+   }
+  },
+  {
+   "selector": "div.framer-6okzgi-container > div.framer-kdORT.framer-LKFMZ > div.framer-15nwmy8 > div.framer-tkr0va > div.framer-cdt6p",
+   "tag": "div",
+   "text": "Add integration",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-kdORT.framer-LKFMZ > div.framer-15nwmy8 > div.framer-tkr0va > div.framer-923ush-container > a.framer-ssUFK.framer-1qc2red",
+   "tag": "a",
+   "framer": {
+    "framerName": "Light / XS"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-141n56s",
+   "tag": "div",
+   "text": "12 hourssaved per week across the ops team\"Pulse caught a ch",
+   "framer": {
+    "framerName": "Testimonials"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-141n56s > div.framer-10ev3ja",
+   "tag": "div",
+   "text": "12 hourssaved per week across the ops team\"Pulse caught a ch",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-141n56s > div.framer-10ev3ja > div.ssr-variant.hidden-uuxm6n > div.framer-1rn4xk5-container > div.framer-eo5xJ.framer-q6DkR",
+   "tag": "div",
+   "text": "12 hourssaved per week across the ops team\"Pulse caught a ch",
+   "framer": {
+    "framerName": "Desktop 1"
+   }
+  },
+  {
+   "selector": "div.framer-10ev3ja > div.ssr-variant.hidden-uuxm6n > div.framer-1rn4xk5-container > div.framer-eo5xJ.framer-q6DkR > div.framer-h6gs46",
+   "tag": "div",
+   "text": "12 hourssaved per week across the ops team\"Pulse caught a ch",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-1rn4xk5-container > div.framer-eo5xJ.framer-q6DkR > div.framer-h6gs46 > div.framer-11otw6d",
+   "tag": "div",
+   "text": "12 hourssaved per week across the ops team",
+   "framer": {
+    "framerName": "Headline"
+   }
+  },
+  {
+   "selector": "div.framer-1rn4xk5-container > div.framer-eo5xJ.framer-q6DkR > div.framer-h6gs46 > div.framer-11otw6d > div.framer-1s1w1lk",
+   "tag": "div",
+   "text": "12 hours",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1rn4xk5-container > div.framer-eo5xJ.framer-q6DkR > div.framer-h6gs46 > div.framer-11otw6d > div.framer-12x9vft",
+   "tag": "div",
+   "text": "saved per week across the ops team",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-1rn4xk5-container > div.framer-eo5xJ.framer-q6DkR > div.framer-h6gs46 > div.framer-it7gdu",
+   "tag": "div",
+   "text": "\"Pulse caught a churn spike three weeks before our dashboard",
+   "framer": {
+    "framerName": "Testimonial and name"
+   }
+  },
+  {
+   "selector": "div.framer-1rn4xk5-container > div.framer-eo5xJ.framer-q6DkR > div.framer-h6gs46 > div.framer-it7gdu > div.framer-r2x26v",
+   "tag": "div",
+   "text": "\"Pulse caught a churn spike three weeks before our dashboard",
+   "framer": {
+    "framerName": "Testimonial"
+   }
+  },
+  {
+   "selector": "div.framer-eo5xJ.framer-q6DkR > div.framer-h6gs46 > div.framer-it7gdu > div.framer-r2x26v > div.framer-ekmnq7",
+   "tag": "div",
+   "framer": {
+    "framerName": "Filler"
+   }
+  },
+  {
+   "selector": "div.framer-eo5xJ.framer-q6DkR > div.framer-h6gs46 > div.framer-it7gdu > div.framer-r2x26v > div.framer-10oe2xi",
+   "tag": "div",
+   "text": "\"Pulse caught a churn spike three weeks before our dashboard",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div.framer-h6gs46 > div.framer-it7gdu > div.framer-r2x26v > div.framer-10oe2xi > div.framer-9s1s2w",
+   "tag": "div",
+   "text": "\"Pulse caught a churn spike three weeks before our dashboard",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1rn4xk5-container > div.framer-eo5xJ.framer-q6DkR > div.framer-h6gs46 > div.framer-it7gdu > div.framer-1x84j35",
+   "tag": "div",
+   "text": "Priya NairHead of Customer Success @ Fieldstone",
+   "framer": {
+    "framerName": "Navigation and name"
+   }
+  },
+  {
+   "selector": "div.framer-eo5xJ.framer-q6DkR > div.framer-h6gs46 > div.framer-it7gdu > div.framer-1x84j35 > div.framer-1bgiywn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Navigation"
+   }
+  },
+  {
+   "selector": "div.framer-h6gs46 > div.framer-it7gdu > div.framer-1x84j35 > div.framer-1bgiywn > div.framer-187vqs7-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "Previous"
+   }
+  },
+  {
+   "selector": "div.framer-it7gdu > div.framer-1x84j35 > div.framer-1bgiywn > div.framer-187vqs7-container > a.framer-ssUFK.framer-1qc2red",
+   "tag": "a",
+   "framer": {
+    "framerName": "Disabled / SM"
+   }
+  },
+  {
+   "selector": "div.framer-h6gs46 > div.framer-it7gdu > div.framer-1x84j35 > div.framer-1bgiywn > div.framer-1y81spb-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "Next"
+   }
+  },
+  {
+   "selector": "div.framer-it7gdu > div.framer-1x84j35 > div.framer-1bgiywn > div.framer-1y81spb-container > a.framer-ssUFK.framer-1qc2red",
+   "tag": "a",
+   "framer": {
+    "framerName": "Light / SM"
+   }
+  },
+  {
+   "selector": "div.framer-eo5xJ.framer-q6DkR > div.framer-h6gs46 > div.framer-it7gdu > div.framer-1x84j35 > div.framer-ml0o2b",
+   "tag": "div",
+   "text": "Priya NairHead of Customer Success @ Fieldstone",
+   "framer": {
+    "framerName": "Name"
+   }
+  },
+  {
+   "selector": "div.framer-h6gs46 > div.framer-it7gdu > div.framer-1x84j35 > div.framer-ml0o2b > div.framer-1ixlru9",
+   "tag": "div",
+   "text": "Priya Nair",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-h6gs46 > div.framer-it7gdu > div.framer-1x84j35 > div.framer-ml0o2b > div.framer-dbcwti",
+   "tag": "div",
+   "text": "Head of Customer Success @ Fieldstone",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-10ev3ja > div.ssr-variant.hidden-uuxm6n > div.framer-1rn4xk5-container > div.framer-eo5xJ.framer-q6DkR > div.framer-ezoypn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-uuxm6n > div.framer-1rn4xk5-container > div.framer-eo5xJ.framer-q6DkR > div.framer-ezoypn > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.framer-141n56s > div.framer-10ev3ja > div.ssr-variant > div.framer-1bxf2yj-container > div.framer-kEcQz.framer-bd4w60",
+   "tag": "div",
+   "framer": {
+    "framerName": "End"
+   }
+  },
+  {
+   "selector": "div.framer-10ev3ja > div.ssr-variant > div.framer-1bxf2yj-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Left"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1bxf2yj-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-u6zm30",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1bxf2yj-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1s7vawm",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1bxf2yj-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1ndw0of",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-10ev3ja > div.ssr-variant > div.framer-1bxf2yj-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1bxf2yj-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-ddlp53",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1bxf2yj-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1is7c6b",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1bxf2yj-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1j63n4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-1ycn8bz",
+   "tag": "div",
+   "text": "Your team already has the data. Strand gives you the answers",
+   "framer": {
+    "framerName": "Statistics"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-1ycn8bz > div.framer-74z6vi",
+   "tag": "div",
+   "text": "Your team already has the data. Strand gives you the answers",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-1ycn8bz > div.framer-74z6vi > div.framer-fjarzo > div.framer-1907mw0",
+   "tag": "div",
+   "text": "Your team already has the data. Strand gives you the answers",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-1ycn8bz > div.framer-74z6vi > div.framer-1apfvab > div.framer-n9q4h9",
+   "tag": "div",
+   "text": "16xFaster time-to-answer",
+   "framer": {
+    "framerName": "Stat"
+   }
+  },
+  {
+   "selector": "div.framer-1ycn8bz > div.framer-74z6vi > div.framer-1apfvab > div.framer-n9q4h9 > div.framer-l2pcl2-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "Stat1 Animation"
+   }
+  },
+  {
+   "selector": "div.framer-1ycn8bz > div.framer-74z6vi > div.framer-1apfvab > div.framer-n9q4h9 > div.framer-l7k635",
+   "tag": "div",
+   "text": "16xFaster time-to-answer",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-74z6vi > div.framer-1apfvab > div.framer-n9q4h9 > div.framer-l7k635 > div.framer-1woxgo9",
+   "tag": "div",
+   "text": "16x",
+   "framer": {
+    "framerName": "Stat Number",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-74z6vi > div.framer-1apfvab > div.framer-n9q4h9 > div.framer-l7k635 > div.framer-1qqta5d",
+   "tag": "div",
+   "text": "Faster time-to-answer",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-1ycn8bz > div.framer-74z6vi > div.framer-1apfvab > div.framer-n3di6v",
+   "tag": "div",
+   "text": "47%Fewer tools needed",
+   "framer": {
+    "framerName": "Stat"
+   }
+  },
+  {
+   "selector": "div.framer-1ycn8bz > div.framer-74z6vi > div.framer-1apfvab > div.framer-n3di6v > div.framer-q5w0ul-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "Stat2 Animation"
+   }
+  },
+  {
+   "selector": "div.framer-1ycn8bz > div.framer-74z6vi > div.framer-1apfvab > div.framer-n3di6v > div.framer-xi68tu",
+   "tag": "div",
+   "text": "47%Fewer tools needed",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-74z6vi > div.framer-1apfvab > div.framer-n3di6v > div.framer-xi68tu > div.framer-jso7b9",
+   "tag": "div",
+   "text": "47%",
+   "framer": {
+    "framerName": "Stat Number",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-74z6vi > div.framer-1apfvab > div.framer-n3di6v > div.framer-xi68tu > div.framer-1eajc11",
+   "tag": "div",
+   "text": "Fewer tools needed",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-1ycn8bz > div.framer-74z6vi > div.framer-1apfvab > div.framer-1nhhc37",
+   "tag": "div",
+   "text": "80%Less time building reports",
+   "framer": {
+    "framerName": "Stat"
+   }
+  },
+  {
+   "selector": "div.framer-1ycn8bz > div.framer-74z6vi > div.framer-1apfvab > div.framer-1nhhc37 > div.framer-vb4ntv-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "Stat3 Animation"
+   }
+  },
+  {
+   "selector": "div.framer-1ycn8bz > div.framer-74z6vi > div.framer-1apfvab > div.framer-1nhhc37 > div.framer-n3a516",
+   "tag": "div",
+   "text": "80%Less time building reports",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-74z6vi > div.framer-1apfvab > div.framer-1nhhc37 > div.framer-n3a516 > div.framer-qhodmf",
+   "tag": "div",
+   "text": "80%",
+   "framer": {
+    "framerName": "Stat Number",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-74z6vi > div.framer-1apfvab > div.framer-1nhhc37 > div.framer-n3a516 > div.framer-17vmnuj",
+   "tag": "div",
+   "text": "Less time building reports",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-1ycn8bz > div.framer-74z6vi > div.framer-1apfvab > div.framer-ddxb04",
+   "tag": "div",
+   "text": "4.2hrsSaved per team per week",
+   "framer": {
+    "framerName": "Stat"
+   }
+  },
+  {
+   "selector": "div.framer-1ycn8bz > div.framer-74z6vi > div.framer-1apfvab > div.framer-ddxb04 > div.framer-13nl88v-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "Stat4 Animation"
+   }
+  },
+  {
+   "selector": "div.framer-1ycn8bz > div.framer-74z6vi > div.framer-1apfvab > div.framer-ddxb04 > div.framer-qbbwz8",
+   "tag": "div",
+   "text": "4.2hrsSaved per team per week",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.framer-74z6vi > div.framer-1apfvab > div.framer-ddxb04 > div.framer-qbbwz8 > div.framer-1xcn1by",
+   "tag": "div",
+   "text": "4.2hrs",
+   "framer": {
+    "framerName": "Stat Number",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-74z6vi > div.framer-1apfvab > div.framer-ddxb04 > div.framer-qbbwz8 > div.framer-1nu5b4j",
+   "tag": "div",
+   "text": "Saved per team per week",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1ycn8bz > div.framer-74z6vi > div.ssr-variant > div.framer-qwko6a-container > div.framer-kEcQz.framer-bd4w60",
+   "tag": "div",
+   "framer": {
+    "framerName": "End"
+   }
+  },
+  {
+   "selector": "div.framer-74z6vi > div.ssr-variant > div.framer-qwko6a-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Left"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-qwko6a-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-u6zm30",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-qwko6a-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1s7vawm",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-qwko6a-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1ndw0of",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-74z6vi > div.ssr-variant > div.framer-qwko6a-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-qwko6a-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-ddlp53",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-qwko6a-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1is7c6b",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-qwko6a-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1j63n4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-ao75xt",
+   "tag": "div",
+   "text": "Frequently Asked QuestionsDo you want to learn more about us",
+   "framer": {
+    "framerName": "FAQ"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-ao75xt > div.framer-1l77w07",
+   "tag": "div",
+   "text": "Frequently Asked QuestionsDo you want to learn more about us",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-KmWmf.framer-Hl0ue > div.framer-ao75xt > div.framer-1l77w07 > div.framer-1qqompg",
+   "tag": "div",
+   "text": "Frequently Asked QuestionsDo you want to learn more about us",
+   "framer": {
+    "framerName": "Label Stack"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-ao75xt > div.framer-1l77w07 > div.framer-1qqompg > div.framer-1mboeyr",
+   "tag": "div",
+   "text": "Frequently Asked Questions",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-KmWmf.framer-Hl0ue > div.framer-ao75xt > div.framer-1l77w07 > div.framer-1qqompg > div.framer-1pmcp6q",
+   "tag": "div",
+   "text": "Do you want to learn more about us, let’s go the blog page.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-ao75xt > div.framer-1l77w07 > div.ssr-variant.hidden-wc1e1l > div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw",
+   "tag": "div",
+   "text": "What is an AI Agent?An AI Agent is a task-specific assistant",
+   "framer": {
+    "framerName": "Closed"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw > div.framer-h5e7md-container > div.framer-Bi957.framer-CZBut",
+   "tag": "div",
+   "text": "What is an AI Agent?An AI Agent is a task-specific assistant",
+   "framer": {
+    "framerName": "Closed"
+   }
+  },
+  {
+   "selector": "div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw > div.framer-h5e7md-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l",
+   "tag": "div",
+   "text": "What is an AI Agent?An AI Agent is a task-specific assistant",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-uLM4K.framer-19006hw > div.framer-h5e7md-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm",
+   "tag": "div",
+   "text": "What is an AI Agent?",
+   "framer": {
+    "framerName": "Question Stack"
+   }
+  },
+  {
+   "selector": "div.framer-h5e7md-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm > div.framer-107e5o5",
+   "tag": "div",
+   "text": "What is an AI Agent?",
+   "framer": {
+    "framerName": "Center Question"
+   }
+  },
+  {
+   "selector": "div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm > div.framer-107e5o5 > div.framer-1jfysh1",
+   "tag": "div",
+   "text": "What is an AI Agent?",
+   "framer": {
+    "framerName": "Question",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm > div.framer-aauvgk-container > div.framer-EOMkT.framer-1lhq47p",
+   "tag": "div",
+   "framer": {
+    "framerName": "Neutral"
+   }
+  },
+  {
+   "selector": "div.framer-uLM4K.framer-19006hw > div.framer-h5e7md-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-1jm0egw",
+   "tag": "div",
+   "text": "An AI Agent is a task-specific assistant that automates work",
+   "framer": {
+    "framerName": "Answer Stack"
+   }
+  },
+  {
+   "selector": "div.framer-h5e7md-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-1jm0egw > div.framer-qajgrr",
+   "tag": "div",
+   "text": "An AI Agent is a task-specific assistant that automates work",
+   "framer": {
+    "framerName": "Answer",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw > div.framer-h5e7md-container > div.framer-Bi957.framer-CZBut > div.framer-177fnaj",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Padding"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw > div.framer-ogwfmp-container > div.framer-Bi957.framer-CZBut",
+   "tag": "div",
+   "text": "Can I use multiple agents at the same time?An AI Agent is a ",
+   "framer": {
+    "framerName": "Closed"
+   }
+  },
+  {
+   "selector": "div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw > div.framer-ogwfmp-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l",
+   "tag": "div",
+   "text": "Can I use multiple agents at the same time?An AI Agent is a ",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-uLM4K.framer-19006hw > div.framer-ogwfmp-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm",
+   "tag": "div",
+   "text": "Can I use multiple agents at the same time?",
+   "framer": {
+    "framerName": "Question Stack"
+   }
+  },
+  {
+   "selector": "div.framer-ogwfmp-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm > div.framer-107e5o5",
+   "tag": "div",
+   "text": "Can I use multiple agents at the same time?",
+   "framer": {
+    "framerName": "Center Question"
+   }
+  },
+  {
+   "selector": "div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm > div.framer-107e5o5 > div.framer-1jfysh1",
+   "tag": "div",
+   "text": "Can I use multiple agents at the same time?",
+   "framer": {
+    "framerName": "Question",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm > div.framer-aauvgk-container > div.framer-EOMkT.framer-1lhq47p",
+   "tag": "div",
+   "framer": {
+    "framerName": "Neutral"
+   }
+  },
+  {
+   "selector": "div.framer-uLM4K.framer-19006hw > div.framer-ogwfmp-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-1jm0egw",
+   "tag": "div",
+   "text": "An AI Agent is a task-specific assistant that automates work",
+   "framer": {
+    "framerName": "Answer Stack"
+   }
+  },
+  {
+   "selector": "div.framer-ogwfmp-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-1jm0egw > div.framer-qajgrr",
+   "tag": "div",
+   "text": "An AI Agent is a task-specific assistant that automates work",
+   "framer": {
+    "framerName": "Answer",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw > div.framer-ogwfmp-container > div.framer-Bi957.framer-CZBut > div.framer-177fnaj",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Padding"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw > div.framer-1pskg02-container > div.framer-Bi957.framer-CZBut",
+   "tag": "div",
+   "text": "How customizable are the agents?An AI Agent is a task-specif",
+   "framer": {
+    "framerName": "Closed"
+   }
+  },
+  {
+   "selector": "div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw > div.framer-1pskg02-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l",
+   "tag": "div",
+   "text": "How customizable are the agents?An AI Agent is a task-specif",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-uLM4K.framer-19006hw > div.framer-1pskg02-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm",
+   "tag": "div",
+   "text": "How customizable are the agents?",
+   "framer": {
+    "framerName": "Question Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1pskg02-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm > div.framer-107e5o5",
+   "tag": "div",
+   "text": "How customizable are the agents?",
+   "framer": {
+    "framerName": "Center Question"
+   }
+  },
+  {
+   "selector": "div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm > div.framer-107e5o5 > div.framer-1jfysh1",
+   "tag": "div",
+   "text": "How customizable are the agents?",
+   "framer": {
+    "framerName": "Question",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm > div.framer-aauvgk-container > div.framer-EOMkT.framer-1lhq47p",
+   "tag": "div",
+   "framer": {
+    "framerName": "Neutral"
+   }
+  },
+  {
+   "selector": "div.framer-uLM4K.framer-19006hw > div.framer-1pskg02-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-1jm0egw",
+   "tag": "div",
+   "text": "An AI Agent is a task-specific assistant that automates work",
+   "framer": {
+    "framerName": "Answer Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1pskg02-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-1jm0egw > div.framer-qajgrr",
+   "tag": "div",
+   "text": "An AI Agent is a task-specific assistant that automates work",
+   "framer": {
+    "framerName": "Answer",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw > div.framer-1pskg02-container > div.framer-Bi957.framer-CZBut > div.framer-177fnaj",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Padding"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-wc1e1l > div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw > div.framer-14v6e1s-container > div.framer-Bi957.framer-CZBut",
+   "tag": "div",
+   "text": "What tools do the agents integrate with?An AI Agent is a tas",
+   "framer": {
+    "framerName": "Closed"
+   }
+  },
+  {
+   "selector": "div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw > div.framer-14v6e1s-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l",
+   "tag": "div",
+   "text": "What tools do the agents integrate with?An AI Agent is a tas",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-uLM4K.framer-19006hw > div.framer-14v6e1s-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm",
+   "tag": "div",
+   "text": "What tools do the agents integrate with?",
+   "framer": {
+    "framerName": "Question Stack"
+   }
+  },
+  {
+   "selector": "div.framer-14v6e1s-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm > div.framer-107e5o5",
+   "tag": "div",
+   "text": "What tools do the agents integrate with?",
+   "framer": {
+    "framerName": "Center Question"
+   }
+  },
+  {
+   "selector": "div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm > div.framer-107e5o5 > div.framer-1jfysh1",
+   "tag": "div",
+   "text": "What tools do the agents integrate with?",
+   "framer": {
+    "framerName": "Question",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-z5btwm > div.framer-aauvgk-container > div.framer-EOMkT.framer-1lhq47p",
+   "tag": "div",
+   "framer": {
+    "framerName": "Neutral"
+   }
+  },
+  {
+   "selector": "div.framer-uLM4K.framer-19006hw > div.framer-14v6e1s-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-1jm0egw",
+   "tag": "div",
+   "text": "An AI Agent is a task-specific assistant that automates work",
+   "framer": {
+    "framerName": "Answer Stack"
+   }
+  },
+  {
+   "selector": "div.framer-14v6e1s-container > div.framer-Bi957.framer-CZBut > div.framer-ictz1l > div.framer-1jm0egw > div.framer-qajgrr",
+   "tag": "div",
+   "text": "An AI Agent is a task-specific assistant that automates work",
+   "framer": {
+    "framerName": "Answer",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-s3f1c3-container > div.framer-uLM4K.framer-19006hw > div.framer-14v6e1s-container > div.framer-Bi957.framer-CZBut > div.framer-177fnaj",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Padding"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89",
+   "tag": "div",
+   "text": "Your data, finally connectedGet startedFeaturesCortexAskPuls",
+   "framer": {
+    "framerName": "Footer Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1aeo38i",
+   "tag": "div",
+   "text": "Your data, finally connectedGet started",
+   "framer": {
+    "framerName": "CTA"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls",
+   "tag": "div",
+   "text": "Your data, finally connectedGet started",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls > div.framer-1w558nd-container > div.framer-zhkea.framer-sm5shs",
+   "tag": "div",
+   "framer": {
+    "framerName": "Hidden"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls > div.framer-qr3vrw > div.framer-o9bwxk",
+   "tag": "div",
+   "text": "Your data, finally connected",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1aeo38i > div.framer-9aqjls > div.framer-qr3vrw > div.framer-cq6zkv-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / XL"
+   }
+  },
+  {
+   "selector": "div.framer-qr3vrw > div.framer-cq6zkv-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Footer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Links"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulse",
+   "framer": {
+    "framerName": "Features Column"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-10jdoq8",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p",
+   "tag": "div",
+   "text": "CortexAskPulse",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-1iyk8rt",
+   "tag": "div",
+   "text": "Cortex",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-1iyk8rt > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Cortex",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-t46ej0",
+   "tag": "div",
+   "text": "Ask",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-t46ej0 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Ask",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-1exanjx",
+   "tag": "div",
+   "text": "Pulse",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-1exanjx > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Pulse",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2",
+   "tag": "div",
+   "text": "CompanyPricingAboutCareersBlog",
+   "framer": {
+    "framerName": "Company"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-ankizt",
+   "tag": "div",
+   "text": "Company",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he",
+   "tag": "div",
+   "text": "PricingAboutCareersBlog",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-ep2gyo",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-ep2gyo > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Pricing",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1pjilpz",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1pjilpz > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "About",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-q2vdhe",
+   "tag": "div",
+   "text": "Careers",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-q2vdhe > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Careers",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1odzm45",
+   "tag": "div",
+   "text": "Blog",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1odzm45 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Blog",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d",
+   "tag": "div",
+   "text": "ResourcesIntegrationsChangelogDeveloper docsHelp Center404",
+   "framer": {
+    "framerName": "Resources"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1mlm0tb",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt",
+   "tag": "div",
+   "text": "IntegrationsChangelogDeveloper docsHelp Center404",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-iig8n7",
+   "tag": "div",
+   "text": "Integrations",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-iig8n7 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Integrations",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-te0pfw",
+   "tag": "div",
+   "text": "Changelog",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-te0pfw > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Changelog",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-nc7hme",
+   "tag": "div",
+   "text": "Developer docs",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-nc7hme > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Developer docs",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-uv8dt",
+   "tag": "div",
+   "text": "Help Center",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-uv8dt > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Help Center",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-66qyph",
+   "tag": "div",
+   "text": "404",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-66qyph > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "404",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1",
+   "tag": "div",
+   "text": "ConnectXLinkedInGitHub",
+   "framer": {
+    "framerName": "Connect"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1 > div.framer-qk2vom",
+   "tag": "div",
+   "text": "Connect",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1 > div.framer-vz9imr",
+   "tag": "div",
+   "text": "XLinkedInGitHub",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "X",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "X",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "LinkedIn",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "LinkedIn",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "GitHub",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "GitHub",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve",
+   "tag": "div",
+   "text": "All systems operational99.98% UPTIMEUpdates on new features ",
+   "framer": {
+    "framerName": "Uptime Newsletter"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry",
+   "tag": "div",
+   "text": "All systems operational99.98% UPTIME",
+   "framer": {
+    "framerName": "Uptime"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry > div.framer-d8ia8i > div.framer-1qrftu8",
+   "tag": "div",
+   "text": "All systems operational",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry > div.framer-5jvd8e",
+   "tag": "div",
+   "text": "99.98% UPTIME",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-fqk3g9",
+   "tag": "div",
+   "text": "Updates on new features and releases.Subscribe",
+   "framer": {
+    "framerName": "Newsletter"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-fqk3g9 > div.framer-27d16y",
+   "tag": "div",
+   "text": "Updates on new features and releases.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1p5h1ve > div.framer-fqk3g9 > div.ssr-variant > div.framer-1exlpg3-container > form.framer-e9zZI.framer-19cj0jd",
+   "tag": "form",
+   "text": "Subscribe",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-1exlpg3-container > form.framer-e9zZI.framer-19cj0jd > label.framer-s4lpcw > div.framer-1jl1owp-container > button.framer-DAIlr.framer-95lQp",
+   "tag": "button",
+   "text": "Subscribe",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "form.framer-e9zZI.framer-19cj0jd > label.framer-s4lpcw > div.framer-1jl1owp-container > button.framer-DAIlr.framer-95lQp > div.framer-1efjez1",
+   "tag": "div",
+   "text": "Subscribe",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-138v7uv",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-138v7uv > div.ssr-variant > div.framer-1oxx1b4 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2",
+   "tag": "div",
+   "text": "© 2026 Strand. All rights reserved.Terms and Conditions/Priv",
+   "framer": {
+    "framerName": "Copyright"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-868d6s",
+   "tag": "div",
+   "text": "© 2026 Strand. All rights reserved.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2",
+   "tag": "div",
+   "text": "Terms and Conditions/Privacy Policy",
+   "framer": {
+    "framerName": "Terms / Privacy"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-psm4bz",
+   "tag": "div",
+   "text": "Terms and Conditions",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-psm4bz > p.framer-text.framer-styles-preset-1unq4w > a.framer-text.framer-styles-preset-656phd",
+   "tag": "a",
+   "text": "Terms and Conditions",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-16ek34v",
+   "tag": "div",
+   "text": "/",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-123xktd",
+   "tag": "div",
+   "text": "Privacy Policy",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-123xktd > p.framer-text.framer-styles-preset-1unq4w > a.framer-text.framer-styles-preset-656phd",
+   "tag": "a",
+   "text": "Privacy Policy",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk",
+   "tag": "a",
+   "text": "Create a free website with Framer, the website builder loved",
+   "framer": {
+    "framerAppearId": "n0ccwk",
+    "framerName": "Light"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-13yxzio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Backdrop"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm",
+   "tag": "div",
+   "text": "Create a free website with Framer, the website builder loved",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm > div.framer-1kflzx5 > div.framer-hcsc7.framer-e50co",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm > div.framer-g7oZR.framer-1um7t9d",
+   "tag": "div",
+   "framer": {
+    "framerName": "Text"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-j4ugry",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-jnuwbw",
+   "tag": "div",
+   "framer": {
+    "framerName": "Border"
+   }
+  },
+  {
+   "selector": "script",
+   "tag": "script",
+   "text": "(()=>{function c(i,o,s){if(window.__framer_disable_appear_ef",
+   "framer": {
+    "framerAppearAnimation": "reduce"
+   }
+  },
+  {
+   "selector": "script",
+   "tag": "script",
+   "framer": {
+    "framerBundle": "main"
+   }
+  }
+ ],
+ "cdp": [
+  {
+   "id": "214",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "215",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 20,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "216",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 40,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "217",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 60,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "218",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 80,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "219",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 100,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "220",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 120,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "221",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 140,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "222",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 160,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "223",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 180,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "224",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 200,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "225",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 220,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "226",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 240,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "227",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 260,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "228",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 280,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "229",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 300,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "230",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 320,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "231",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 340,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "232",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 360,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "233",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 380,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "234",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 400,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "235",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 420,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "236",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 440,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "237",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 460,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "238",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 480,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "239",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 500,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "240",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 520,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "241",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 540,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "242",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 560,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "243",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 580,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "244",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "245",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 20,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "246",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 40,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "247",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 60,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "248",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 80,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "249",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 100,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "250",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 120,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "251",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 140,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "252",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 160,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "253",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 180,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "254",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 200,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "255",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 220,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "256",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 240,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "257",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 260,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "258",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 280,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "259",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 300,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "260",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 320,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "261",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 340,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "262",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "263",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "264",
+   "type": "WebAnimation",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear(0 0%, 0.0235 2.5641025641025643%, 0.083 5.128205128205128%, 0.1647 7.692307692307692%, 0.2582 10.256410256410255%, 0.3557 12.82051282051282%, 0.4517 15.384615384615383%, 0.5423 17.94871794871795%, 0.6252 20.51282051282051%, 0.6991 23.076923076923077%, 0.7636 25.641025641025642%, 0.8186 28.205128205128208%, 0.8647 30.769230769230774%, 0.9025 33.333333333333336%, 0.933 35.8974358974359%, 0.9571 38.46153846153846%, 0.9756 41.02564102564102%, 0.9895 43.589743589743584%, 0.9996 46.153846153846146%, 1.0065 48.71794871794871%, 1.0111 51.28205128205127%, 1.0137 53.84615384615383%, 1.0149 56.410256410256395%, 1.0151 58.97435897435896%, 1.0146 61.53846153846152%, 1.0136 64.10256410256409%, 1.0123 66.66666666666666%, 1.0108 69.23076923076923%, 1.0093 71.7948717948718%, 1.0079 74.35897435897436%, 1.0066 76.92307692307693%, 1.0053 79.4871794871795%, 1.0043 82.05128205128207%, 1.0033 84.61538461538463%, 1.0025 87.17948717948718%, 1.0019 89.74358974358975%, 1.0013 92.30769230769232%, 1.0009 94.87179487179488%, 1.0006 97.43589743589743%, 1 100%)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "265",
+   "type": "WebAnimation",
+   "duration": 150,
+   "delay": 0,
+   "easing": "ease-in",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "266",
+   "type": "WebAnimation",
+   "duration": 150,
+   "delay": 0,
+   "easing": "ease-in",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "267",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "268",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 20,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "269",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 40,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "270",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 60,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "271",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 80,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "272",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 100,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "273",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 120,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "274",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 140,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "275",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 160,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "276",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 180,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "277",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 200,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "278",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 220,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "279",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 240,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "280",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 260,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "281",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 280,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "282",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 300,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "283",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 320,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "284",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 340,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "285",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 360,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "286",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "287",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "288",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 100,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "289",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 100,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "290",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 125,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "291",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 125,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "292",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 150.00000000000003,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "293",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 150.00000000000003,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "294",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 175.00000000000003,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "295",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 175.00000000000003,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "296",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 200,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "297",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 200,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "298",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 225,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "299",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 225,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "300",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 250,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "301",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 250,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "302",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 275,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "303",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 275,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "304",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 300.00000000000006,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "305",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 300.00000000000006,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "306",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 325,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "307",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 325,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "308",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 350,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "309",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 350,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "310",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 375,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "311",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 375,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "312",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 400,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "313",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 400,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "314",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 425.00000000000006,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "315",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 425.00000000000006,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "316",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 450.00000000000006,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "317",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 450.00000000000006,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "318",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 475,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "319",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 475,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "320",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 500,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "321",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 500,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "322",
+   "type": "WebAnimation",
+   "duration": 400,
+   "delay": 0,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "323",
+   "type": "WebAnimation",
+   "duration": 150,
+   "delay": 0,
+   "easing": "ease-in",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "324",
+   "type": "WebAnimation",
+   "duration": 150,
+   "delay": 0,
+   "easing": "ease-in",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "325",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "326",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "327",
+   "type": "WebAnimation",
+   "duration": 400,
+   "delay": 0,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "328",
+   "type": "WebAnimation",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear(0 0%, 0.0235 2.5641025641025643%, 0.083 5.128205128205128%, 0.1647 7.692307692307692%, 0.2582 10.256410256410255%, 0.3557 12.82051282051282%, 0.4517 15.384615384615383%, 0.5423 17.94871794871795%, 0.6252 20.51282051282051%, 0.6991 23.076923076923077%, 0.7636 25.641025641025642%, 0.8186 28.205128205128208%, 0.8647 30.769230769230774%, 0.9025 33.333333333333336%, 0.933 35.8974358974359%, 0.9571 38.46153846153846%, 0.9756 41.02564102564102%, 0.9895 43.589743589743584%, 0.9996 46.153846153846146%, 1.0065 48.71794871794871%, 1.0111 51.28205128205127%, 1.0137 53.84615384615383%, 1.0149 56.410256410256395%, 1.0151 58.97435897435896%, 1.0146 61.53846153846152%, 1.0136 64.10256410256409%, 1.0123 66.66666666666666%, 1.0108 69.23076923076923%, 1.0093 71.7948717948718%, 1.0079 74.35897435897436%, 1.0066 76.92307692307693%, 1.0053 79.4871794871795%, 1.0043 82.05128205128207%, 1.0033 84.61538461538463%, 1.0025 87.17948717948718%, 1.0019 89.74358974358975%, 1.0013 92.30769230769232%, 1.0009 94.87179487179488%, 1.0006 97.43589743589743%, 1 100%)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "329",
+   "type": "WebAnimation",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear(0 0%, 0.0235 2.5641025641025643%, 0.083 5.128205128205128%, 0.1647 7.692307692307692%, 0.2582 10.256410256410255%, 0.3557 12.82051282051282%, 0.4517 15.384615384615383%, 0.5423 17.94871794871795%, 0.6252 20.51282051282051%, 0.6991 23.076923076923077%, 0.7636 25.641025641025642%, 0.8186 28.205128205128208%, 0.8647 30.769230769230774%, 0.9025 33.333333333333336%, 0.933 35.8974358974359%, 0.9571 38.46153846153846%, 0.9756 41.02564102564102%, 0.9895 43.589743589743584%, 0.9996 46.153846153846146%, 1.0065 48.71794871794871%, 1.0111 51.28205128205127%, 1.0137 53.84615384615383%, 1.0149 56.410256410256395%, 1.0151 58.97435897435896%, 1.0146 61.53846153846152%, 1.0136 64.10256410256409%, 1.0123 66.66666666666666%, 1.0108 69.23076923076923%, 1.0093 71.7948717948718%, 1.0079 74.35897435897436%, 1.0066 76.92307692307693%, 1.0053 79.4871794871795%, 1.0043 82.05128205128207%, 1.0033 84.61538461538463%, 1.0025 87.17948717948718%, 1.0019 89.74358974358975%, 1.0013 92.30769230769232%, 1.0009 94.87179487179488%, 1.0006 97.43589743589743%, 1 100%)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "330",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "331",
+   "type": "WebAnimation",
+   "duration": 400,
+   "delay": 200,
+   "easing": "linear(0 0%, 0.0235 2.5641025641025643%, 0.083 5.128205128205128%, 0.1647 7.692307692307692%, 0.2582 10.256410256410255%, 0.3557 12.82051282051282%, 0.4517 15.384615384615383%, 0.5423 17.94871794871795%, 0.6252 20.51282051282051%, 0.6991 23.076923076923077%, 0.7636 25.641025641025642%, 0.8186 28.205128205128208%, 0.8647 30.769230769230774%, 0.9025 33.333333333333336%, 0.933 35.8974358974359%, 0.9571 38.46153846153846%, 0.9756 41.02564102564102%, 0.9895 43.589743589743584%, 0.9996 46.153846153846146%, 1.0065 48.71794871794871%, 1.0111 51.28205128205127%, 1.0137 53.84615384615383%, 1.0149 56.410256410256395%, 1.0151 58.97435897435896%, 1.0146 61.53846153846152%, 1.0136 64.10256410256409%, 1.0123 66.66666666666666%, 1.0108 69.23076923076923%, 1.0093 71.7948717948718%, 1.0079 74.35897435897436%, 1.0066 76.92307692307693%, 1.0053 79.4871794871795%, 1.0043 82.05128205128207%, 1.0033 84.61538461538463%, 1.0025 87.17948717948718%, 1.0019 89.74358974358975%, 1.0013 92.30769230769232%, 1.0009 94.87179487179488%, 1.0006 97.43589743589743%, 1 100%)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "332",
+   "type": "WebAnimation",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear(0 0%, 0.0235 2.5641025641025643%, 0.083 5.128205128205128%, 0.1647 7.692307692307692%, 0.2582 10.256410256410255%, 0.3557 12.82051282051282%, 0.4517 15.384615384615383%, 0.5423 17.94871794871795%, 0.6252 20.51282051282051%, 0.6991 23.076923076923077%, 0.7636 25.641025641025642%, 0.8186 28.205128205128208%, 0.8647 30.769230769230774%, 0.9025 33.333333333333336%, 0.933 35.8974358974359%, 0.9571 38.46153846153846%, 0.9756 41.02564102564102%, 0.9895 43.589743589743584%, 0.9996 46.153846153846146%, 1.0065 48.71794871794871%, 1.0111 51.28205128205127%, 1.0137 53.84615384615383%, 1.0149 56.410256410256395%, 1.0151 58.97435897435896%, 1.0146 61.53846153846152%, 1.0136 64.10256410256409%, 1.0123 66.66666666666666%, 1.0108 69.23076923076923%, 1.0093 71.7948717948718%, 1.0079 74.35897435897436%, 1.0066 76.92307692307693%, 1.0053 79.4871794871795%, 1.0043 82.05128205128207%, 1.0033 84.61538461538463%, 1.0025 87.17948717948718%, 1.0019 89.74358974358975%, 1.0013 92.30769230769232%, 1.0009 94.87179487179488%, 1.0006 97.43589743589743%, 1 100%)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "333",
+   "type": "WebAnimation",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear(0 0%, 0.0235 2.5641025641025643%, 0.083 5.128205128205128%, 0.1647 7.692307692307692%, 0.2582 10.256410256410255%, 0.3557 12.82051282051282%, 0.4517 15.384615384615383%, 0.5423 17.94871794871795%, 0.6252 20.51282051282051%, 0.6991 23.076923076923077%, 0.7636 25.641025641025642%, 0.8186 28.205128205128208%, 0.8647 30.769230769230774%, 0.9025 33.333333333333336%, 0.933 35.8974358974359%, 0.9571 38.46153846153846%, 0.9756 41.02564102564102%, 0.9895 43.589743589743584%, 0.9996 46.153846153846146%, 1.0065 48.71794871794871%, 1.0111 51.28205128205127%, 1.0137 53.84615384615383%, 1.0149 56.410256410256395%, 1.0151 58.97435897435896%, 1.0146 61.53846153846152%, 1.0136 64.10256410256409%, 1.0123 66.66666666666666%, 1.0108 69.23076923076923%, 1.0093 71.7948717948718%, 1.0079 74.35897435897436%, 1.0066 76.92307692307693%, 1.0053 79.4871794871795%, 1.0043 82.05128205128207%, 1.0033 84.61538461538463%, 1.0025 87.17948717948718%, 1.0019 89.74358974358975%, 1.0013 92.30769230769232%, 1.0009 94.87179487179488%, 1.0006 97.43589743589743%, 1 100%)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "334",
+   "type": "WebAnimation",
+   "duration": 400,
+   "delay": 0,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  }
+ ]
+}

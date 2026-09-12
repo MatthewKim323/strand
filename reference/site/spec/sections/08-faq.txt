@@ -1,0 +1,179 @@
+##### TREE #####
+        div [FAQ] .framer-ao75xt
+          div [Container] .framer-1l77w07 data-border
+            div [Label Stack] .framer-1qqompg
+              div .framer-1mboeyr {transform:none}
+                h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Frequently Asked Questions"
+              div .framer-1pmcp6q {transform:none}
+                p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Do you want to learn more about us, let’s go the blog page."
+            div
+              div .framer-s3f1c3-container {height: 352px}
+                div [Closed] .framer-uLM4K.framer-19006hw {width: 100%; opacity: 1}
+                  div .framer-1gsrymb-container {opacity: 1}
+                    div
+                  div .framer-h5e7md-container {opacity: 1}
+                    div [Closed] .framer-Bi957.framer-CZBut.framer-NXcw2.framer-18wxj0v data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; width: 100%; opacity: 1}
+                      div [Container] .framer-ictz1l {opacity: 1}
+                        div [Question Stack] .framer-z5btwm {opacity: 1}
+                          div [Center Question] .framer-107e5o5 {opacity: 1}
+                            div [Question] .framer-1jfysh1 {transform: none; opacity: 1}
+                              h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--extracted-a0htzi, var(--variable-reference-HTB2qJsvu-I971YUurv))} "What is an AI Agent?"
+                          div .framer-aauvgk-container {opacity: 1}
+                            div [Neutral] .framer-EOMkT.framer-1lhq47p {height: 100%; width: 100%; opacity: 1}
+                              div .framer-x6wdaz {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-1sbrqk7 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-ozn1zi {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-k9j781 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-v7vv1u {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                        div [Answer Stack] .framer-1jm0egw {opacity: 1}
+                          div [Answer] .framer-qajgrr {opacity:0; transform:none}
+                            p .framer-text.framer-styles-preset-1tsnca "An AI Agent is a task-specific assistant that automates workflows like scheduling, content creation, data processing, and more—without requiring any code."
+                      div [Right Padding] .framer-177fnaj {opacity: 1}
+                  div .framer-ogwfmp-container {opacity: 1}
+                    div [Closed] .framer-Bi957.framer-CZBut.framer-NXcw2.framer-18wxj0v data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; width: 100%; opacity: 1}
+                      div [Container] .framer-ictz1l {opacity: 1}
+                        div [Question Stack] .framer-z5btwm {opacity: 1}
+                          div [Center Question] .framer-107e5o5 {opacity: 1}
+                            div [Question] .framer-1jfysh1 {transform: none; opacity: 1}
+                              h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--extracted-a0htzi, var(--variable-reference-HTB2qJsvu-I971YUurv))} "Can I use multiple agents at the same time?"
+                          div .framer-aauvgk-container {opacity: 1}
+                            div [Neutral] .framer-EOMkT.framer-1lhq47p {height: 100%; width: 100%; opacity: 1}
+                              div .framer-x6wdaz {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-1sbrqk7 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-ozn1zi {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-k9j781 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-v7vv1u {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                        div [Answer Stack] .framer-1jm0egw {opacity: 1}
+                          div [Answer] .framer-qajgrr {opacity:0; transform:none}
+                            p .framer-text.framer-styles-preset-1tsnca "An AI Agent is a task-specific assistant that automates workflows like scheduling, content creation, data processing, and more—without requiring any code."
+                      div [Right Padding] .framer-177fnaj {opacity: 1}
+                  div .framer-1pskg02-container {opacity: 1}
+                    div [Closed] .framer-Bi957.framer-CZBut.framer-NXcw2.framer-18wxj0v data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; width: 100%; opacity: 1}
+                      div [Container] .framer-ictz1l {opacity: 1}
+                        div [Question Stack] .framer-z5btwm {opacity: 1}
+                          div [Center Question] .framer-107e5o5 {opacity: 1}
+                            div [Question] .framer-1jfysh1 {transform: none; opacity: 1}
+                              h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--extracted-a0htzi, var(--variable-reference-HTB2qJsvu-I971YUurv))} "How customizable are the agents?"
+                          div .framer-aauvgk-container {opacity: 1}
+                            div [Neutral] .framer-EOMkT.framer-1lhq47p {height: 100%; width: 100%; opacity: 1}
+                              div .framer-x6wdaz {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-1sbrqk7 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-ozn1zi {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-k9j781 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-v7vv1u {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                        div [Answer Stack] .framer-1jm0egw {opacity: 1}
+                          div [Answer] .framer-qajgrr {opacity:0; transform:none}
+                            p .framer-text.framer-styles-preset-1tsnca "An AI Agent is a task-specific assistant that automates workflows like scheduling, content creation, data processing, and more—without requiring any code."
+                      div [Right Padding] .framer-177fnaj {opacity: 1}
+                  div .framer-14v6e1s-container {opacity: 1}
+                    div [Closed] .framer-Bi957.framer-CZBut.framer-NXcw2.framer-18wxj0v data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; width: 100%; opacity: 1}
+                      div [Container] .framer-ictz1l {opacity: 1}
+                        div [Question Stack] .framer-z5btwm {opacity: 1}
+                          div [Center Question] .framer-107e5o5 {opacity: 1}
+                            div [Question] .framer-1jfysh1 {transform: none; opacity: 1}
+                              h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--extracted-a0htzi, var(--variable-reference-HTB2qJsvu-I971YUurv))} "What tools do the agents integrate with?"
+                          div .framer-aauvgk-container {opacity: 1}
+                            div [Neutral] .framer-EOMkT.framer-1lhq47p {height: 100%; width: 100%; opacity: 1}
+                              div .framer-x6wdaz {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-1sbrqk7 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-ozn1zi {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-k9j781 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-v7vv1u {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                        div [Answer Stack] .framer-1jm0egw {opacity: 1}
+                          div [Answer] .framer-qajgrr {opacity:0; transform:none}
+                            p .framer-text.framer-styles-preset-1tsnca "An AI Agent is a task-specific assistant that automates workflows like scheduling, content creation, data processing, and more—without requiring any code."
+                      div [Right Padding] .framer-177fnaj {opacity: 1}
+
+##### CSS #####
+@base | .framer-KmWmf .framer-ao75xt
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:0;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-KmWmf .framer-1mboeyr, .framer-KmWmf .framer-1pmcp6q
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-KmWmf .framer-1l77w07
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex:none;grid-template-rows:repeat(1,minmax(0,1fr));grid-template-columns:repeat(2,minmax(50px,1fr));grid-auto-rows:minmax(0,1fr);justify-content:center;gap:0;width:100%;padding:80px 0;display:grid;position:relative
+@base | .framer-KmWmf .framer-1qqompg
+    height:100%;overflow:clip;flex-flow:column;flex:none;place-content:center flex-start;place-self:start;align-items:center;gap:24px;width:100%;padding:40px;display:flex;position:relative
+@media (min-width:810px) and (max-width:1199.98px) | .framer-KmWmf .framer-ao75xt
+    padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-KmWmf .framer-1l77w07
+    flex-flow:column;align-content:center;align-items:center;padding:40px;display:flex
+@media (min-width:810px) and (max-width:1199.98px) | .framer-KmWmf .framer-1qqompg
+    align-self:unset;height:min-content;padding:40px 0
+@media (max-width:809.98px) | .framer-KmWmf .framer-ao75xt
+    padding:0
+@media (max-width:809.98px) | .framer-KmWmf .framer-1l77w07
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;flex-flow:column;align-content:center;align-items:center;gap:20px;padding:40px 20px;display:flex
+@media (max-width:809.98px) | .framer-KmWmf .framer-1qqompg
+    align-self:unset;gap:12px;height:min-content;padding:0
+@base | .framer-uLM4K.framer-146apqi, .framer-uLM4K .framer-146apqi
+    display:block
+@base | .framer-uLM4K.framer-19006hw
+    height:min-content;overflow:clip;flex-flow:column;place-content:center;align-items:center;gap:0;width:602px;padding:0;display:flex;position:relative
+@base | .framer-uLM4K .framer-1gsrymb-container
+    flex:none;width:auto;height:auto;position:relative
+@base | .framer-uLM4K .framer-h5e7md-container, .framer-uLM4K .framer-ogwfmp-container, .framer-uLM4K .framer-1pskg02-container, .framer-uLM4K .framer-14v6e1s-container
+    flex:none;width:100%;height:auto;position:relative
+@base | .framer-Bi957.framer-pe1czx, .framer-Bi957 .framer-pe1czx
+    display:block
+@base | .framer-Bi957.framer-18wxj0v
+    height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:0;width:532px;padding:16px 0;display:flex;position:relative
+@base | .framer-Bi957 .framer-ictz1l
+    flex-flow:column;flex:1 0 0;place-content:center flex-start;align-items:center;gap:0;width:1px;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-Bi957 .framer-z5btwm
+    cursor:pointer;flex-flow:row;flex:none;place-content:flex-start center;align-items:flex-start;gap:24px;width:100%;height:min-content;padding:12px 0;display:flex;position:relative;overflow:visible
+@base | .framer-Bi957 .framer-107e5o5
+    flex-flow:row;flex:1 0 0;place-content:center;align-self:stretch;align-items:center;gap:16px;width:1px;height:auto;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-Bi957 .framer-1jfysh1, .framer-Bi957 .framer-qajgrr
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:1 0 0;width:1px;height:auto;position:relative
+@base | .framer-Bi957 .framer-aauvgk-container
+    flex:none;width:32px;height:32px;position:relative
+@base | .framer-Bi957 .framer-1jm0egw
+    flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:100%;height:min-content;padding:4px 0;display:flex;position:relative;overflow:visible
+@base | .framer-Bi957 .framer-177fnaj
+    flex:none;align-self:stretch;width:40px;height:auto;position:relative;overflow:visible
+@base | .framer-Bi957.framer-v-qxmct8.framer-18wxj0v
+    cursor:pointer;align-content:flex-start;align-items:flex-start;height:88px
+@base | .framer-Bi957.framer-v-qxmct8 .framer-ictz1l
+    gap:22px
+@base | .framer-Bi957.framer-v-qxmct8 .framer-177fnaj
+    align-self:unset;height:100%
+@base | .framer-Bi957.framer-v-qxmct8.hover .framer-z5btwm
+    padding:12px 0 12px 12px
+@base | .framer-Bi957.framer-v-qxmct8.hover .framer-177fnaj
+    align-self:unset
+@base | .framer-CZBut .framer-styles-preset-1b45yw5:not(.rich-text-wrapper), .framer-CZBut .framer-styles-preset-1b45yw5.rich-text-wrapper h3
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:18px;--framer-font-weight:600;--framer-letter-spacing:0em;--framer-line-height:24px;--framer-text-alignment:start;--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070,#fafafa);--framer-text-transform:none
+@media (max-width:1199px) and (min-width:810px) | .framer-CZBut .framer-styles-preset-1b45yw5:not(.rich-text-wrapper), .framer-CZBut .framer-styles-preset-1b45yw5.rich-text-wrapper h3
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:18px;--framer-font-weight:600;--framer-letter-spacing:0em;--framer-line-height:24px;--framer-text-alignment:start;--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070,#fafafa);--framer-text-transform:none
+@media (max-width:809px) and (min-width:0) | .framer-CZBut .framer-styles-preset-1b45yw5:not(.rich-text-wrapper), .framer-CZBut .framer-styles-preset-1b45yw5.rich-text-wrapper h3
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:16px;--framer-font-weight:600;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070,#fafafa);--framer-text-transform:none
+@base | .framer-Bi957[data-border=true]:after, .framer-Bi957 [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-EOMkT.framer-1obwmxg, .framer-EOMkT .framer-1obwmxg
+    display:block
+@base | .framer-EOMkT.framer-1lhq47p
+    height:32px;overflow:clip;width:32px;position:relative
+@base | .framer-EOMkT .framer-x6wdaz
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,2px);flex:none;width:2px;position:absolute;top:50%;left:7px;overflow:visible
+@base | .framer-EOMkT .framer-1sbrqk7
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,2px);flex:none;width:2px;position:absolute;top:50%;left:11px;overflow:visible
+@base | .framer-EOMkT .framer-ozn1zi
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,2px);flex:none;width:2px;position:absolute;top:50%;left:15px;overflow:visible
+@base | .framer-EOMkT .framer-k9j781
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,2px);flex:none;width:2px;position:absolute;top:50%;left:19px;overflow:visible
+@base | .framer-EOMkT .framer-v7vv1u
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,2px);flex:none;width:2px;position:absolute;top:50%;left:23px;overflow:visible
+@base | .framer-EOMkT.framer-v-6um8c9 .framer-1sbrqk7
+    bottom:13px;top:unset
+@base | .framer-EOMkT.framer-v-6um8c9 .framer-ozn1zi
+    top:63%
+@base | .framer-EOMkT.framer-v-6um8c9 .framer-k9j781
+    top:56%
+@base | .framer-EOMkT.framer-v-i9zyb8 .framer-1sbrqk7
+    top:13px
+@base | .framer-EOMkT.framer-v-i9zyb8 .framer-ozn1zi
+    top:38%
+@base | .framer-EOMkT.framer-v-i9zyb8 .framer-k9j781
+    top:44%
+@base | .framer-NXcw2 .framer-styles-preset-1tsnca:not(.rich-text-wrapper), .framer-NXcw2 .framer-styles-preset-1tsnca.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:16px;--framer-font-weight:400;--framer-letter-spacing:0em;--framer-line-height:24px;--framer-text-alignment:start;--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d,#a1a1a1);--framer-text-transform:none

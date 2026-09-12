@@ -1,0 +1,3462 @@
+{
+ "capturedAt": "2026-09-12T09:57:29.292Z",
+ "stack": {
+  "framework": "framer",
+  "framer": true,
+  "framerMotion": true,
+  "webflow": true,
+  "lenis": true,
+  "gsap": false,
+  "three": false,
+  "spline": false,
+  "notes": [
+   "Built with Framer: appear ids, data-framer-name, framerusercontent modules. Use `1to1 prep` + `1to1 rip`.",
+   "Lenis smooth scroll present: window.scrollTo may be overridden, rigs fall back to wheel events."
+  ]
+ },
+ "computed": [
+  {
+   "selector": "html.lenis.lenis-autoToggle",
+   "tag": "html",
+   "text": "Strand - AI Data Intelligence Platform\n    \n    \n    \n    \n ",
+   "transition": "overflow 0.001s ease 0s",
+   "framer": {}
+  },
+  {
+   "selector": "html.lenis.lenis-autoToggle > head > style",
+   "tag": "style",
+   "text": "html,body,#main{box-sizing:border-box;margin:0;padding:0}:ro",
+   "framer": {
+    "framerComponents": "framer-lib-cursors-host framer-2U5dV PropertyOverrides framer-Ixlxu framer-lib-combinedCSSRules framer-Hi6IO framer-YfD1"
+   }
+  },
+  {
+   "selector": "html.lenis.lenis-autoToggle > head > style",
+   "tag": "style",
+   "framer": {
+    "framerCss": "true"
+   }
+  },
+  {
+   "selector": "div",
+   "tag": "div",
+   "text": ":root body { background: var(--token-7f40e4a1-2b83-444e-8765",
+   "framer": {
+    "framerHydrateV2": "{\"routeId\":\"NnflE2YZi\",\"localeId\":\"default\",\"breakpoints\":[{\"hash\":\"67zeil\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\":",
+    "framerSsrReleasedAt": "2026-08-24T09:50:12.472Z",
+    "framerPageOptimizedAt": "2026-08-25T15:19:47.694Z"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerAppearId": "w6pet3"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerName": "Details"
+   }
+  },
+  {
+   "selector": "div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrand",
+   "framer": {
+    "framerName": "Purchase Template"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l",
+   "tag": "div",
+   "text": "StrandTemplate",
+   "framer": {
+    "framerName": "Template Name"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l > div.framer-1y4sdjl",
+   "tag": "div",
+   "text": "Strand",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l > div.framer-1dltf4q",
+   "tag": "div",
+   "text": "Template",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6",
+   "tag": "div",
+   "text": "PurchaseStrand",
+   "framer": {
+    "framerName": "Template Name"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6 > div.framer-1nwln5j",
+   "tag": "div",
+   "text": "Purchase",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6 > div.framer-xmkk33",
+   "tag": "div",
+   "text": "Strand",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w",
+   "tag": "div",
+   "text": "from$109",
+   "framer": {
+    "framerName": "Starting from"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w > div.framer-a14xbr",
+   "tag": "div",
+   "text": "from",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w > div.framer-5r25d2",
+   "tag": "div",
+   "text": "$109",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-dkby0a",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-dkby0a > div.framer-15d7y5z > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-gu3ill",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Navigation"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-gu3ill > div.framer-2zulxl",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-gu3ill > div.framer-2zulxl > div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-2zulxl > div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Nav Stack"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAbout",
+   "framer": {
+    "framerName": "Main Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > a.framer-tfxiwl.framer-1nrg7n2",
+   "tag": "a",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > a.framer-tfxiwl.framer-1nrg7n2 > div.framer-6rl07u",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG",
+    "framerName": "Union"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAbout",
+   "framer": {
+    "framerName": "Navigation Menu"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Features",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Right Icon"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerName": "Resources"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Resources",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Right Icon"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1jhb7w3-container",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Pricing"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1jhb7w3-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Ghost / LG",
+    "framerPageLinkCurrent": "true"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-1jhb7w3-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1fx5otc-container",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerName": "About"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1fx5otc-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "About",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-1fx5otc-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Buttons"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0 > div.framer-ttq5lt-container",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Sign up"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0 > div.framer-ttq5lt-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / LG",
+    "framerPageLinkCurrent": "true"
+   }
+  },
+  {
+   "selector": "div.framer-rq3bc0 > div.framer-ttq5lt-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-b0lIu.framer-95lQp > div.framer-1m3ebvu",
+   "tag": "div",
+   "text": "PricingMonthlyYearlyStarter$0/monthUp to 5 data sources1,000",
+   "framer": {
+    "framerName": "Pricing"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-b0lIu.framer-95lQp > div.framer-1m3ebvu > div.framer-kuyh8t",
+   "tag": "div",
+   "text": "PricingMonthlyYearlyStarter$0/monthUp to 5 data sources1,000",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-b0lIu.framer-95lQp > div.framer-1m3ebvu > div.framer-kuyh8t > div.framer-16cqnks",
+   "tag": "div",
+   "text": "PricingMonthlyYearlyStarter$0/monthUp to 5 data sources1,000",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div.framer-kuyh8t > div.framer-16cqnks > div.ssr-variant.hidden-ommfpu > div.framer-12xknng-container > div.framer-HSqeq.framer-vPIT1",
+   "tag": "div",
+   "text": "PricingMonthlyYearlyStarter$0/monthUp to 5 data sources1,000",
+   "framer": {
+    "framerName": "Desktop Monthly"
+   }
+  },
+  {
+   "selector": "div.framer-16cqnks > div.ssr-variant.hidden-ommfpu > div.framer-12xknng-container > div.framer-HSqeq.framer-vPIT1 > div.framer-1rsqal0",
+   "tag": "div",
+   "text": "PricingMonthlyYearly",
+   "framer": {
+    "framerName": "Title Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-ommfpu > div.framer-12xknng-container > div.framer-HSqeq.framer-vPIT1 > div.framer-1rsqal0 > div.framer-13ucva6",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-12xknng-container > div.framer-HSqeq.framer-vPIT1 > div.framer-1rsqal0 > div.framer-1d12lfq-container > div.framer-K9DEe.framer-95lQp",
+   "tag": "div",
+   "text": "MonthlyYearly",
+   "framer": {
+    "framerName": "First"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1rsqal0 > div.framer-1d12lfq-container > div.framer-K9DEe.framer-95lQp > div.framer-1lwsrmb",
+   "tag": "div",
+   "framer": {
+    "framerName": "Toggle Button Container"
+   }
+  },
+  {
+   "selector": "div.framer-1rsqal0 > div.framer-1d12lfq-container > div.framer-K9DEe.framer-95lQp > div.framer-1lwsrmb > div.framer-2ea1g9",
+   "tag": "div",
+   "framer": {
+    "framerName": "Toggle Button"
+   }
+  },
+  {
+   "selector": "div.framer-1rsqal0 > div.framer-1d12lfq-container > div.framer-K9DEe.framer-95lQp > div.framer-1lwsrmb > div.framer-wjnkx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Space"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1rsqal0 > div.framer-1d12lfq-container > div.framer-K9DEe.framer-95lQp > div.framer-1gkvkry",
+   "tag": "div",
+   "text": "Monthly",
+   "framer": {
+    "framerName": "First Text Container"
+   }
+  },
+  {
+   "selector": "div.framer-1rsqal0 > div.framer-1d12lfq-container > div.framer-K9DEe.framer-95lQp > div.framer-1gkvkry > div.framer-14f8ufy",
+   "tag": "div",
+   "text": "Monthly",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1rsqal0 > div.framer-1d12lfq-container > div.framer-K9DEe.framer-95lQp > div.framer-vzh73z",
+   "tag": "div",
+   "text": "Yearly",
+   "framer": {
+    "framerName": "Second Text Container"
+   }
+  },
+  {
+   "selector": "div.framer-1rsqal0 > div.framer-1d12lfq-container > div.framer-K9DEe.framer-95lQp > div.framer-vzh73z > div.framer-19n19bq",
+   "tag": "div",
+   "text": "Yearly",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-12xknng-container > div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut",
+   "tag": "div",
+   "text": "Starter$0/monthUp to 5 data sources1,000 queries per monthCo",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y",
+   "tag": "div",
+   "text": "Starter$0/monthUp to 5 data sources1,000 queries per monthCo",
+   "framer": {
+    "framerName": "Upper Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1j2r9ka",
+   "tag": "div",
+   "text": "Starter$0/month",
+   "framer": {
+    "framerName": "Main"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-164gamo",
+   "tag": "div",
+   "text": "Starter",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-1atzpxp",
+   "tag": "div",
+   "text": "$0/month",
+   "framer": {
+    "framerName": "Price"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-1atzpxp > div.framer-zc4ibm",
+   "tag": "div",
+   "text": "$0/month",
+   "framer": {
+    "framerName": "Main Price"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-1atzpxp > div.framer-zc4ibm > div.framer-mutxma",
+   "tag": "div",
+   "text": "$0",
+   "framer": {
+    "framerName": "Price",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-1atzpxp > div.framer-zc4ibm > div.framer-14frfgi",
+   "tag": "div",
+   "text": "/month",
+   "framer": {
+    "framerName": "Period",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty",
+   "tag": "div",
+   "text": "Up to 5 data sources1,000 queries per monthCortex knowledge ",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1pob1vw-container",
+   "tag": "div",
+   "text": "Up to 5 data sources",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1pob1vw-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Up to 5 data sources",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1pob1vw-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1pob1vw-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Up to 5 data sources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-o5itlp-container",
+   "tag": "div",
+   "text": "1,000 queries per month",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-o5itlp-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "1,000 queries per month",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-o5itlp-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-o5itlp-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "1,000 queries per month",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1cqbmp2-container",
+   "tag": "div",
+   "text": "Cortex knowledge graph",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1cqbmp2-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Cortex knowledge graph",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1cqbmp2-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1cqbmp2-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Cortex knowledge graph",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-icng5f-container",
+   "tag": "div",
+   "text": "Ask natural language queries",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-icng5f-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Ask natural language queries",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-icng5f-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-icng5f-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Ask natural language queries",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1g03z0-container",
+   "tag": "div",
+   "text": "Community support",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1g03z0-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Community support",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1g03z0-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1g03z0-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Community support",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-1godqpw",
+   "tag": "div",
+   "framer": {
+    "framerName": "Gap"
+   }
+  },
+  {
+   "selector": "div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-p5a7e2-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started free",
+   "framer": {
+    "framerName": "Secondary / LG"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-p5a7e2-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started free",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-tdeslb",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-1ks30sn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-12xknng-container > div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut",
+   "tag": "div",
+   "text": "Pro$79/monthEverything fromStarter,and:Up to 25 data sources",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y",
+   "tag": "div",
+   "text": "Pro$79/monthEverything fromStarter,and:Up to 25 data sources",
+   "framer": {
+    "framerName": "Upper Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1j2r9ka",
+   "tag": "div",
+   "text": "Pro$79/month",
+   "framer": {
+    "framerName": "Main"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-164gamo",
+   "tag": "div",
+   "text": "Pro",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-1atzpxp",
+   "tag": "div",
+   "text": "$79/month",
+   "framer": {
+    "framerName": "Price"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-1atzpxp > div.framer-zc4ibm",
+   "tag": "div",
+   "text": "$79/month",
+   "framer": {
+    "framerName": "Main Price"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-1atzpxp > div.framer-zc4ibm > div.framer-mutxma",
+   "tag": "div",
+   "text": "$79",
+   "framer": {
+    "framerName": "Price",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-1atzpxp > div.framer-zc4ibm > div.framer-14frfgi",
+   "tag": "div",
+   "text": "/month",
+   "framer": {
+    "framerName": "Period",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty",
+   "tag": "div",
+   "text": "Everything fromStarter,and:Up to 25 data sourcesUnlimited qu",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-7tmsw8",
+   "tag": "div",
+   "text": "Everything fromStarter,and:",
+   "framer": {
+    "framerName": "Previous"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-7tmsw8 > div.framer-y2ss30",
+   "tag": "div",
+   "text": "Everything from",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-7tmsw8 > div.framer-1sve45p",
+   "tag": "div",
+   "text": "Starter,",
+   "framer": {
+    "framerName": "Previous",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-7tmsw8 > div.framer-rhrwzq",
+   "tag": "div",
+   "text": "and:",
+   "framer": {
+    "framerName": "Previous",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1pob1vw-container",
+   "tag": "div",
+   "text": "Up to 25 data sources",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1pob1vw-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Up to 25 data sources",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1pob1vw-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1pob1vw-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Up to 25 data sources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-o5itlp-container",
+   "tag": "div",
+   "text": "Unlimited queries",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-o5itlp-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Unlimited queries",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-o5itlp-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-o5itlp-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Unlimited queries",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1cqbmp2-container",
+   "tag": "div",
+   "text": "Pulse anomaly detection",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1cqbmp2-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Pulse anomaly detection",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1cqbmp2-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1cqbmp2-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Pulse anomaly detection",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-icng5f-container",
+   "tag": "div",
+   "text": "Recall pattern recognition",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-icng5f-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Recall pattern recognition",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-icng5f-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-icng5f-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Recall pattern recognition",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1g03z0-container",
+   "tag": "div",
+   "text": "Slack and email integrations",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1g03z0-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Slack and email integrations",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1g03z0-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1g03z0-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Slack and email integrations",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-18du7yy-container",
+   "tag": "div",
+   "text": "Priority support",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-18du7yy-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Priority support",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-18du7yy-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-18du7yy-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Priority support",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-1godqpw",
+   "tag": "div",
+   "framer": {
+    "framerName": "Gap"
+   }
+  },
+  {
+   "selector": "div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-p5a7e2-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Start 14-day trial",
+   "framer": {
+    "framerName": "Primary / LG"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-p5a7e2-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Start 14-day trial",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-tdeslb",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-1ks30sn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-12xknng-container > div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut",
+   "tag": "div",
+   "text": "EnterpriseCustomEverything fromPro,and:Unlimited data source",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y",
+   "tag": "div",
+   "text": "EnterpriseCustomEverything fromPro,and:Unlimited data source",
+   "framer": {
+    "framerName": "Upper Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1j2r9ka",
+   "tag": "div",
+   "text": "EnterpriseCustom",
+   "framer": {
+    "framerName": "Main"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-164gamo",
+   "tag": "div",
+   "text": "Enterprise",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-1atzpxp",
+   "tag": "div",
+   "text": "Custom",
+   "framer": {
+    "framerName": "Price"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-1atzpxp > div.framer-zc4ibm",
+   "tag": "div",
+   "text": "Custom",
+   "framer": {
+    "framerName": "Main Price"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1j2r9ka > div.framer-1atzpxp > div.framer-zc4ibm > div.framer-mutxma",
+   "tag": "div",
+   "text": "Custom",
+   "framer": {
+    "framerName": "Price",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty",
+   "tag": "div",
+   "text": "Everything fromPro,and:Unlimited data sourcesNucleus develop",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-7tmsw8",
+   "tag": "div",
+   "text": "Everything fromPro,and:",
+   "framer": {
+    "framerName": "Previous"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-7tmsw8 > div.framer-y2ss30",
+   "tag": "div",
+   "text": "Everything from",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-7tmsw8 > div.framer-1sve45p",
+   "tag": "div",
+   "text": "Pro,",
+   "framer": {
+    "framerName": "Previous",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-7tmsw8 > div.framer-rhrwzq",
+   "tag": "div",
+   "text": "and:",
+   "framer": {
+    "framerName": "Previous",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1pob1vw-container",
+   "tag": "div",
+   "text": "Unlimited data sources",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1pob1vw-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Unlimited data sources",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1pob1vw-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1pob1vw-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Unlimited data sources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-o5itlp-container",
+   "tag": "div",
+   "text": "Nucleus developer toolkit",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-o5itlp-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Nucleus developer toolkit",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-o5itlp-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-o5itlp-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Nucleus developer toolkit",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1cqbmp2-container",
+   "tag": "div",
+   "text": "Custom Pathways pipelines",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1cqbmp2-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Custom Pathways pipelines",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1cqbmp2-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1cqbmp2-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Custom Pathways pipelines",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-icng5f-container",
+   "tag": "div",
+   "text": "SSO and SAML",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-icng5f-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "SSO and SAML",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-icng5f-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-icng5f-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "SSO and SAML",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1g03z0-container",
+   "tag": "div",
+   "text": "Dedicated account manager",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1g03z0-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "Dedicated account manager",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1g03z0-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-1g03z0-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "Dedicated account manager",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-18du7yy-container",
+   "tag": "div",
+   "text": "99.99% uptime SLA",
+   "framer": {
+    "framerName": "Feature"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-ivjd0y > div.framer-1hlgjty > div.framer-18du7yy-container > div.framer-f7wNQ.framer-95lQp",
+   "tag": "div",
+   "text": "99.99% uptime SLA",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-18du7yy-container > div.framer-f7wNQ.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-ivjd0y > div.framer-1hlgjty > div.framer-18du7yy-container > div.framer-f7wNQ.framer-95lQp > div.framer-jeicdz",
+   "tag": "div",
+   "text": "99.99% uptime SLA",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-1godqpw",
+   "tag": "div",
+   "framer": {
+    "framerName": "Gap"
+   }
+  },
+  {
+   "selector": "div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-p5a7e2-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Talk to sales",
+   "framer": {
+    "framerName": "Secondary / LG"
+   }
+  },
+  {
+   "selector": "div.framer-9Rk3P.framer-CZBut > div.framer-p5a7e2-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Talk to sales",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-HSqeq.framer-vPIT1 > div.framer-1pmy3l9 > div.framer-1qpuriw-container > div.framer-9Rk3P.framer-CZBut > div.framer-1ks30sn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-b0lIu.framer-95lQp > div.framer-1m3ebvu > div.framer-kuyh8t > div.framer-16cqnks > div.framer-1sztyn8",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerName": "Partners"
+   }
+  },
+  {
+   "selector": "div.framer-1m3ebvu > div.framer-kuyh8t > div.framer-16cqnks > div.framer-1sztyn8 > div.framer-1g3dpo7",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-kuyh8t > div.framer-16cqnks > div.framer-1sztyn8 > div.framer-1g3dpo7 > div.framer-8wlqzs",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerName": "Partners title"
+   }
+  },
+  {
+   "selector": "div.framer-16cqnks > div.framer-1sztyn8 > div.framer-1g3dpo7 > div.framer-8wlqzs > div.framer-1653c5b",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerName": "Title"
+   }
+  },
+  {
+   "selector": "div.framer-1sztyn8 > div.framer-1g3dpo7 > div.framer-8wlqzs > div.framer-1653c5b > div.framer-f75vm2",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-kuyh8t > div.framer-16cqnks > div.framer-1sztyn8 > div.framer-1g3dpo7 > div.framer-1m03sxf",
+   "tag": "div",
+   "framer": {
+    "framerName": "Ticker Container"
+   }
+  },
+  {
+   "selector": "div.framer-1g3dpo7 > div.framer-1m03sxf > div.ssr-variant > div.framer-j69iyt-container > div.framer-kEcQz.framer-bd4w60",
+   "tag": "div",
+   "framer": {
+    "framerName": "End"
+   }
+  },
+  {
+   "selector": "div.framer-1m03sxf > div.ssr-variant > div.framer-j69iyt-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Left"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-j69iyt-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-u6zm30",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-j69iyt-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1s7vawm",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-j69iyt-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1ndw0of",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-1m03sxf > div.ssr-variant > div.framer-j69iyt-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-j69iyt-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-ddlp53",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-j69iyt-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1is7c6b",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-j69iyt-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1j63n4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-b0lIu.framer-95lQp > div.framer-1m3ebvu > div.framer-kuyh8t > div.framer-16cqnks > div.framer-1kbxby5",
+   "tag": "div",
+   "text": "StarterProEnterpriseData sources525UnlimitedQueries per mont",
+   "framer": {
+    "framerName": "Price Tiers Table"
+   }
+  },
+  {
+   "selector": "div.framer-1m3ebvu > div.framer-kuyh8t > div.framer-16cqnks > div.framer-1kbxby5 > div.framer-1dm3yr8",
+   "tag": "div",
+   "text": "StarterProEnterprise",
+   "framer": {
+    "framerName": "Labels"
+   }
+  },
+  {
+   "selector": "div.framer-kuyh8t > div.framer-16cqnks > div.framer-1kbxby5 > div.framer-1dm3yr8 > div.framer-14mr73l.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Space"
+   }
+  },
+  {
+   "selector": "div.framer-kuyh8t > div.framer-16cqnks > div.framer-1kbxby5 > div.framer-1dm3yr8 > div.framer-m8xyqm",
+   "tag": "div",
+   "text": "StarterProEnterprise",
+   "framer": {
+    "framerName": "Labels"
+   }
+  },
+  {
+   "selector": "div.framer-1dm3yr8 > div.framer-m8xyqm > div.framer-19a98cx.hidden-ommfpu > div.framer-ese5jb > div.framer-i2drw2",
+   "tag": "div",
+   "text": "Starter",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1dm3yr8 > div.framer-m8xyqm > div.framer-19a98cx.hidden-ommfpu > div.framer-ese5jb > div.framer-i2drw2",
+   "tag": "div",
+   "text": "Pro",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1dm3yr8 > div.framer-m8xyqm > div.framer-19a98cx.hidden-ommfpu > div.framer-ese5jb > div.framer-i2drw2",
+   "tag": "div",
+   "text": "Enterprise",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1m3ebvu > div.framer-kuyh8t > div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb",
+   "tag": "div",
+   "text": "Data sources525UnlimitedQueries per month1,000UnlimitedUnlim",
+   "framer": {
+    "framerName": "Features list"
+   }
+  },
+  {
+   "selector": "div.framer-kuyh8t > div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-49lqv9",
+   "tag": "div",
+   "text": "Data sources525UnlimitedQueries per month1,000UnlimitedUnlim",
+   "framer": {
+    "framerName": "Limits"
+   }
+  },
+  {
+   "selector": "div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-49lqv9 > div.framer-nrxbzm",
+   "tag": "div",
+   "text": "Data sources525Unlimited",
+   "framer": {
+    "framerName": "Data Sources"
+   }
+  },
+  {
+   "selector": "div.framer-49lqv9 > div.framer-nrxbzm > div.ssr-variant > div.framer-bhm2vf-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Data sources",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-nrxbzm > div.ssr-variant > div.framer-bhm2vf-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Data sources",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-49lqv9 > div.framer-nrxbzm > div.framer-v9qcni.hidden-ommfpu",
+   "tag": "div",
+   "text": "525Unlimited",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-nrxbzm > div.framer-v9qcni.hidden-ommfpu > div.ssr-variant > div.framer-1k8adv5-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "text": "5",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-v9qcni.hidden-ommfpu > div.ssr-variant > div.framer-1k8adv5-container > div.framer-AroAs.framer-95lQp > div.framer-11larq2",
+   "tag": "div",
+   "text": "5",
+   "framer": {
+    "framerName": "Enabled",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-nrxbzm > div.framer-v9qcni.hidden-ommfpu > div.ssr-variant > div.framer-1k8adv5-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "text": "25",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-v9qcni.hidden-ommfpu > div.ssr-variant > div.framer-1k8adv5-container > div.framer-AroAs.framer-95lQp > div.framer-11larq2",
+   "tag": "div",
+   "text": "25",
+   "framer": {
+    "framerName": "Enabled",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-nrxbzm > div.framer-v9qcni.hidden-ommfpu > div.ssr-variant > div.framer-1k8adv5-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "text": "Unlimited",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-v9qcni.hidden-ommfpu > div.ssr-variant > div.framer-1k8adv5-container > div.framer-AroAs.framer-95lQp > div.framer-11larq2",
+   "tag": "div",
+   "text": "Unlimited",
+   "framer": {
+    "framerName": "Enabled",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-49lqv9 > div.framer-5ge289",
+   "tag": "div",
+   "text": "Queries per month1,000UnlimitedUnlimited",
+   "framer": {
+    "framerName": "Queries per month"
+   }
+  },
+  {
+   "selector": "div.framer-49lqv9 > div.framer-5ge289 > div.ssr-variant > div.framer-1854lig-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Queries per month",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-5ge289 > div.ssr-variant > div.framer-1854lig-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Queries per month",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-49lqv9 > div.framer-5ge289 > div.framer-pg6fyb.hidden-ommfpu",
+   "tag": "div",
+   "text": "1,000UnlimitedUnlimited",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-5ge289 > div.framer-pg6fyb.hidden-ommfpu > div.ssr-variant > div.framer-fxl2f9-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "text": "1,000",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-pg6fyb.hidden-ommfpu > div.ssr-variant > div.framer-fxl2f9-container > div.framer-AroAs.framer-95lQp > div.framer-11larq2",
+   "tag": "div",
+   "text": "1,000",
+   "framer": {
+    "framerName": "Enabled",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-5ge289 > div.framer-pg6fyb.hidden-ommfpu > div.ssr-variant > div.framer-fxl2f9-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "text": "Unlimited",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-pg6fyb.hidden-ommfpu > div.ssr-variant > div.framer-fxl2f9-container > div.framer-AroAs.framer-95lQp > div.framer-11larq2",
+   "tag": "div",
+   "text": "Unlimited",
+   "framer": {
+    "framerName": "Enabled",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-5ge289 > div.framer-pg6fyb.hidden-ommfpu > div.ssr-variant > div.framer-fxl2f9-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "text": "Unlimited",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-pg6fyb.hidden-ommfpu > div.ssr-variant > div.framer-fxl2f9-container > div.framer-AroAs.framer-95lQp > div.framer-11larq2",
+   "tag": "div",
+   "text": "Unlimited",
+   "framer": {
+    "framerName": "Enabled",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-49lqv9 > div.framer-1yc40g3",
+   "tag": "div",
+   "text": "Team membersUnlimitedUnlimitedUnlimited",
+   "framer": {
+    "framerName": "Team members"
+   }
+  },
+  {
+   "selector": "div.framer-49lqv9 > div.framer-1yc40g3 > div.ssr-variant > div.framer-wxmjri-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Team members",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1yc40g3 > div.ssr-variant > div.framer-wxmjri-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Team members",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-49lqv9 > div.framer-1yc40g3 > div.framer-agxs23.hidden-ommfpu",
+   "tag": "div",
+   "text": "UnlimitedUnlimitedUnlimited",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-1yc40g3 > div.framer-agxs23.hidden-ommfpu > div.ssr-variant > div.framer-2h011a-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "text": "Unlimited",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-agxs23.hidden-ommfpu > div.ssr-variant > div.framer-2h011a-container > div.framer-AroAs.framer-95lQp > div.framer-11larq2",
+   "tag": "div",
+   "text": "Unlimited",
+   "framer": {
+    "framerName": "Enabled",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1yc40g3 > div.framer-agxs23.hidden-ommfpu > div.ssr-variant > div.framer-2h011a-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "text": "Unlimited",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-agxs23.hidden-ommfpu > div.ssr-variant > div.framer-2h011a-container > div.framer-AroAs.framer-95lQp > div.framer-11larq2",
+   "tag": "div",
+   "text": "Unlimited",
+   "framer": {
+    "framerName": "Enabled",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1yc40g3 > div.framer-agxs23.hidden-ommfpu > div.ssr-variant > div.framer-2h011a-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "text": "Unlimited",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-agxs23.hidden-ommfpu > div.ssr-variant > div.framer-2h011a-container > div.framer-AroAs.framer-95lQp > div.framer-11larq2",
+   "tag": "div",
+   "text": "Unlimited",
+   "framer": {
+    "framerName": "Enabled",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-kuyh8t > div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-rqgr2u",
+   "tag": "div",
+   "text": "CoreCortex knowledge graphAsk natural language queriesPathwa",
+   "framer": {
+    "framerName": "Core"
+   }
+  },
+  {
+   "selector": "div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-rqgr2u > div.framer-1gp28ti",
+   "tag": "div",
+   "text": "Core",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-rqgr2u > div.framer-1aysws",
+   "tag": "div",
+   "text": "Cortex knowledge graphAsk natural language queriesPathways d",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-rqgr2u > div.framer-1aysws > div.framer-248qhv",
+   "tag": "div",
+   "text": "Cortex knowledge graph",
+   "framer": {
+    "framerName": "Cortex knowledge graph"
+   }
+  },
+  {
+   "selector": "div.framer-1aysws > div.framer-248qhv > div.ssr-variant > div.framer-9gbwlt-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Cortex knowledge graph",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-248qhv > div.ssr-variant > div.framer-9gbwlt-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Cortex knowledge graph",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-rqgr2u > div.framer-1aysws > div.framer-248qhv > div.framer-3bs014.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-248qhv > div.framer-3bs014.hidden-ommfpu > div.ssr-variant > div.framer-1uylff9-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-248qhv > div.framer-3bs014.hidden-ommfpu > div.ssr-variant > div.framer-1uylff9-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-248qhv > div.framer-3bs014.hidden-ommfpu > div.ssr-variant > div.framer-1uylff9-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-rqgr2u > div.framer-1aysws > div.framer-q08pp1",
+   "tag": "div",
+   "text": "Ask natural language queries",
+   "framer": {
+    "framerName": "Ask natural language queries"
+   }
+  },
+  {
+   "selector": "div.framer-1aysws > div.framer-q08pp1 > div.ssr-variant > div.framer-1929hs1-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Ask natural language queries",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-q08pp1 > div.ssr-variant > div.framer-1929hs1-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Ask natural language queries",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-rqgr2u > div.framer-1aysws > div.framer-q08pp1 > div.framer-13r3leh.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-q08pp1 > div.framer-13r3leh.hidden-ommfpu > div.ssr-variant > div.framer-2ntong-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-q08pp1 > div.framer-13r3leh.hidden-ommfpu > div.ssr-variant > div.framer-2ntong-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-q08pp1 > div.framer-13r3leh.hidden-ommfpu > div.ssr-variant > div.framer-2ntong-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-rqgr2u > div.framer-1aysws > div.framer-1eknzpb",
+   "tag": "div",
+   "text": "Pathways data pipelines",
+   "framer": {
+    "framerName": "Pathways data pipelines"
+   }
+  },
+  {
+   "selector": "div.framer-1aysws > div.framer-1eknzpb > div.ssr-variant > div.framer-xanwlt-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Pathways data pipelines",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1eknzpb > div.ssr-variant > div.framer-xanwlt-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Pathways data pipelines",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-rqgr2u > div.framer-1aysws > div.framer-1eknzpb > div.framer-p2szl.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-1eknzpb > div.framer-p2szl.hidden-ommfpu > div.ssr-variant > div.framer-vb0ocr-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1eknzpb > div.framer-p2szl.hidden-ommfpu > div.ssr-variant > div.framer-vb0ocr-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1eknzpb > div.framer-p2szl.hidden-ommfpu > div.ssr-variant > div.framer-vb0ocr-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-rqgr2u > div.framer-1aysws > div.framer-1e8bdwd",
+   "tag": "div",
+   "text": "Exportable results (CSV, JSON, Slack)",
+   "framer": {
+    "framerName": "Exportable results"
+   }
+  },
+  {
+   "selector": "div.framer-1aysws > div.framer-1e8bdwd > div.ssr-variant > div.framer-1lnl487-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Exportable results (CSV, JSON, Slack)",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1e8bdwd > div.ssr-variant > div.framer-1lnl487-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Exportable results (CSV, JSON, Slack)",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-rqgr2u > div.framer-1aysws > div.framer-1e8bdwd > div.framer-1toh12v.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-1e8bdwd > div.framer-1toh12v.hidden-ommfpu > div.ssr-variant > div.framer-1xe4dix-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1e8bdwd > div.framer-1toh12v.hidden-ommfpu > div.ssr-variant > div.framer-1xe4dix-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1e8bdwd > div.framer-1toh12v.hidden-ommfpu > div.ssr-variant > div.framer-1xe4dix-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-rqgr2u > div.framer-1aysws > div.framer-c7kxgl",
+   "tag": "div",
+   "text": "Visual graph explorer",
+   "framer": {
+    "framerName": "Visual graph explorer"
+   }
+  },
+  {
+   "selector": "div.framer-1aysws > div.framer-c7kxgl > div.ssr-variant > div.framer-b3pnnl-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Visual graph explorer",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-c7kxgl > div.ssr-variant > div.framer-b3pnnl-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Visual graph explorer",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-rqgr2u > div.framer-1aysws > div.framer-c7kxgl > div.framer-2wzkk1.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-c7kxgl > div.framer-2wzkk1.hidden-ommfpu > div.ssr-variant > div.framer-1l1spbg-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-c7kxgl > div.framer-2wzkk1.hidden-ommfpu > div.ssr-variant > div.framer-1l1spbg-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-c7kxgl > div.framer-2wzkk1.hidden-ommfpu > div.ssr-variant > div.framer-1l1spbg-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kuyh8t > div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1a3u6ia",
+   "tag": "div",
+   "text": "IntelligencePulse anomaly detectionRecall pattern recognitio",
+   "framer": {
+    "framerName": "Intelligence"
+   }
+  },
+  {
+   "selector": "div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1a3u6ia > div.framer-1g8pkx4",
+   "tag": "div",
+   "text": "Intelligence",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1a3u6ia > div.framer-18czag6",
+   "tag": "div",
+   "text": "Pulse anomaly detectionRecall pattern recognitionAdaptive ba",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1a3u6ia > div.framer-18czag6 > div.framer-xvbs7f",
+   "tag": "div",
+   "text": "Pulse anomaly detection",
+   "framer": {
+    "framerName": "Pulse anomaly detection"
+   }
+  },
+  {
+   "selector": "div.framer-18czag6 > div.framer-xvbs7f > div.ssr-variant > div.framer-1ylqpyq-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Pulse anomaly detection",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-xvbs7f > div.ssr-variant > div.framer-1ylqpyq-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Pulse anomaly detection",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-1a3u6ia > div.framer-18czag6 > div.framer-xvbs7f > div.framer-h5tg41.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-xvbs7f > div.framer-h5tg41.hidden-ommfpu > div.ssr-variant > div.framer-10li720-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-xvbs7f > div.framer-h5tg41.hidden-ommfpu > div.ssr-variant > div.framer-10li720-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-xvbs7f > div.framer-h5tg41.hidden-ommfpu > div.ssr-variant > div.framer-10li720-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1a3u6ia > div.framer-18czag6 > div.framer-i4aler",
+   "tag": "div",
+   "text": "Recall pattern recognition",
+   "framer": {
+    "framerName": "Recall pattern recognition"
+   }
+  },
+  {
+   "selector": "div.framer-18czag6 > div.framer-i4aler > div.ssr-variant > div.framer-daiwfy-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Recall pattern recognition",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-i4aler > div.ssr-variant > div.framer-daiwfy-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Recall pattern recognition",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-1a3u6ia > div.framer-18czag6 > div.framer-i4aler > div.framer-1q6wkyc.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-i4aler > div.framer-1q6wkyc.hidden-ommfpu > div.ssr-variant > div.framer-1sduurc-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-i4aler > div.framer-1q6wkyc.hidden-ommfpu > div.ssr-variant > div.framer-1sduurc-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-i4aler > div.framer-1q6wkyc.hidden-ommfpu > div.ssr-variant > div.framer-1sduurc-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1a3u6ia > div.framer-18czag6 > div.framer-czbelu",
+   "tag": "div",
+   "text": "Adaptive baselines per metric",
+   "framer": {
+    "framerName": "Adaptive baselines per metric"
+   }
+  },
+  {
+   "selector": "div.framer-18czag6 > div.framer-czbelu > div.ssr-variant > div.framer-lko4cd-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Adaptive baselines per metric",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-czbelu > div.ssr-variant > div.framer-lko4cd-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Adaptive baselines per metric",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-1a3u6ia > div.framer-18czag6 > div.framer-czbelu > div.framer-1qsayob.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-czbelu > div.framer-1qsayob.hidden-ommfpu > div.ssr-variant > div.framer-1wi9kl1-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-czbelu > div.framer-1qsayob.hidden-ommfpu > div.ssr-variant > div.framer-1wi9kl1-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-czbelu > div.framer-1qsayob.hidden-ommfpu > div.ssr-variant > div.framer-1wi9kl1-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1a3u6ia > div.framer-18czag6 > div.framer-1fkq448",
+   "tag": "div",
+   "text": "Automated insight reportsWeeklyWeekly + on-demand",
+   "framer": {
+    "framerName": "Automated insight reports"
+   }
+  },
+  {
+   "selector": "div.framer-18czag6 > div.framer-1fkq448 > div.ssr-variant > div.framer-6w5lz6-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Automated insight reports",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1fkq448 > div.ssr-variant > div.framer-6w5lz6-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Automated insight reports",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-1a3u6ia > div.framer-18czag6 > div.framer-1fkq448 > div.framer-1xgapqj.hidden-ommfpu",
+   "tag": "div",
+   "text": "WeeklyWeekly + on-demand",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-1fkq448 > div.framer-1xgapqj.hidden-ommfpu > div.ssr-variant > div.framer-d8rfb5-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1fkq448 > div.framer-1xgapqj.hidden-ommfpu > div.ssr-variant > div.framer-d8rfb5-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "text": "Weekly",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1xgapqj.hidden-ommfpu > div.ssr-variant > div.framer-d8rfb5-container > div.framer-AroAs.framer-95lQp > div.framer-11larq2",
+   "tag": "div",
+   "text": "Weekly",
+   "framer": {
+    "framerName": "Enabled",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1fkq448 > div.framer-1xgapqj.hidden-ommfpu > div.ssr-variant > div.framer-d8rfb5-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "text": "Weekly + on-demand",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1xgapqj.hidden-ommfpu > div.ssr-variant > div.framer-d8rfb5-container > div.framer-AroAs.framer-95lQp > div.framer-11larq2",
+   "tag": "div",
+   "text": "Weekly + on-demand",
+   "framer": {
+    "framerName": "Enabled",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1a3u6ia > div.framer-18czag6 > div.framer-1q18lad",
+   "tag": "div",
+   "text": "Cross-source correlation analysis",
+   "framer": {
+    "framerName": "Cross-source correlation analysis"
+   }
+  },
+  {
+   "selector": "div.framer-18czag6 > div.framer-1q18lad > div.ssr-variant > div.framer-mmvnq2-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Cross-source correlation analysis",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1q18lad > div.ssr-variant > div.framer-mmvnq2-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Cross-source correlation analysis",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-1a3u6ia > div.framer-18czag6 > div.framer-1q18lad > div.framer-9flax9.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-1q18lad > div.framer-9flax9.hidden-ommfpu > div.ssr-variant > div.framer-lhhunw-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1q18lad > div.framer-9flax9.hidden-ommfpu > div.ssr-variant > div.framer-lhhunw-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1q18lad > div.framer-9flax9.hidden-ommfpu > div.ssr-variant > div.framer-lhhunw-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-kuyh8t > div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1g0oscv",
+   "tag": "div",
+   "text": "Security and adminSSO and SAMLFull pipeline audit logsCustom",
+   "framer": {
+    "framerName": "Security and admin"
+   }
+  },
+  {
+   "selector": "div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1g0oscv > div.framer-1bga9xf",
+   "tag": "div",
+   "text": "Security and admin",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-16cqnks > div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r",
+   "tag": "div",
+   "text": "SSO and SAMLFull pipeline audit logsCustom Pathways pipeline",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r > div.framer-vy45hy",
+   "tag": "div",
+   "text": "SSO and SAML",
+   "framer": {
+    "framerName": "SSO and SAML"
+   }
+  },
+  {
+   "selector": "div.framer-pq2h8r > div.framer-vy45hy > div.ssr-variant > div.framer-dv41ws-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "SSO and SAML",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-vy45hy > div.ssr-variant > div.framer-dv41ws-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "SSO and SAML",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r > div.framer-vy45hy > div.framer-sdwikb.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-vy45hy > div.framer-sdwikb.hidden-ommfpu > div.ssr-variant > div.framer-1co9bqs-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-vy45hy > div.framer-sdwikb.hidden-ommfpu > div.ssr-variant > div.framer-1co9bqs-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-vy45hy > div.framer-sdwikb.hidden-ommfpu > div.ssr-variant > div.framer-1co9bqs-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r > div.framer-1z01e2u",
+   "tag": "div",
+   "text": "Full pipeline audit logs",
+   "framer": {
+    "framerName": "Full pipeline audit logs"
+   }
+  },
+  {
+   "selector": "div.framer-pq2h8r > div.framer-1z01e2u > div.ssr-variant > div.framer-1u3iv7q-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Full pipeline audit logs",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1z01e2u > div.ssr-variant > div.framer-1u3iv7q-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Full pipeline audit logs",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r > div.framer-1z01e2u > div.framer-1xunvyl.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-1z01e2u > div.framer-1xunvyl.hidden-ommfpu > div.ssr-variant > div.framer-1g69w8n-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1z01e2u > div.framer-1xunvyl.hidden-ommfpu > div.ssr-variant > div.framer-1g69w8n-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1z01e2u > div.framer-1xunvyl.hidden-ommfpu > div.ssr-variant > div.framer-1g69w8n-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r > div.framer-5n2o10",
+   "tag": "div",
+   "text": "Custom Pathways pipelines",
+   "framer": {
+    "framerName": "Custom Pathways pipelines"
+   }
+  },
+  {
+   "selector": "div.framer-pq2h8r > div.framer-5n2o10 > div.ssr-variant > div.framer-1k634me-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Custom Pathways pipelines",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-5n2o10 > div.ssr-variant > div.framer-1k634me-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Custom Pathways pipelines",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r > div.framer-5n2o10 > div.framer-12e88z2.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-5n2o10 > div.framer-12e88z2.hidden-ommfpu > div.ssr-variant > div.framer-eo93d8-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-5n2o10 > div.framer-12e88z2.hidden-ommfpu > div.ssr-variant > div.framer-eo93d8-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-5n2o10 > div.framer-12e88z2.hidden-ommfpu > div.ssr-variant > div.framer-eo93d8-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r > div.framer-1ehoggx",
+   "tag": "div",
+   "text": "Nucleus developer toolkit",
+   "framer": {
+    "framerName": "Nucleus developer toolkit"
+   }
+  },
+  {
+   "selector": "div.framer-pq2h8r > div.framer-1ehoggx > div.ssr-variant > div.framer-tldsvk-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Nucleus developer toolkit",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1ehoggx > div.ssr-variant > div.framer-tldsvk-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Nucleus developer toolkit",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r > div.framer-1ehoggx > div.framer-9yj06q.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-1ehoggx > div.framer-9yj06q.hidden-ommfpu > div.ssr-variant > div.framer-117e5xj-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1ehoggx > div.framer-9yj06q.hidden-ommfpu > div.ssr-variant > div.framer-117e5xj-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1ehoggx > div.framer-9yj06q.hidden-ommfpu > div.ssr-variant > div.framer-117e5xj-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r > div.framer-2dj6gd",
+   "tag": "div",
+   "text": "Dedicated account manager",
+   "framer": {
+    "framerName": "Dedicated account manager"
+   }
+  },
+  {
+   "selector": "div.framer-pq2h8r > div.framer-2dj6gd > div.ssr-variant > div.framer-1kwjswf-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "Dedicated account manager",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-2dj6gd > div.ssr-variant > div.framer-1kwjswf-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "Dedicated account manager",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r > div.framer-2dj6gd > div.framer-1m4osy0.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-2dj6gd > div.framer-1m4osy0.hidden-ommfpu > div.ssr-variant > div.framer-1klnrdv-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-2dj6gd > div.framer-1m4osy0.hidden-ommfpu > div.ssr-variant > div.framer-1klnrdv-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-2dj6gd > div.framer-1m4osy0.hidden-ommfpu > div.ssr-variant > div.framer-1klnrdv-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kbxby5 > div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r > div.framer-ahs5jm",
+   "tag": "div",
+   "text": "99.99% uptime SLA",
+   "framer": {
+    "framerName": "99.99% uptime SLA"
+   }
+  },
+  {
+   "selector": "div.framer-pq2h8r > div.framer-ahs5jm > div.ssr-variant > div.framer-liggdn-container > div.framer-Xxg3d.framer-95lQp",
+   "tag": "div",
+   "text": "99.99% uptime SLA",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ahs5jm > div.ssr-variant > div.framer-liggdn-container > div.framer-Xxg3d.framer-95lQp > div.framer-1dkih5b",
+   "tag": "div",
+   "text": "99.99% uptime SLA",
+   "framer": {
+    "framerName": "Label",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-a2hsxb > div.framer-1g0oscv > div.framer-pq2h8r > div.framer-ahs5jm > div.framer-qtmqup.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Values"
+   }
+  },
+  {
+   "selector": "div.framer-ahs5jm > div.framer-qtmqup.hidden-ommfpu > div.ssr-variant > div.framer-1e9kd7h-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ahs5jm > div.framer-qtmqup.hidden-ommfpu > div.ssr-variant > div.framer-1e9kd7h-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-ahs5jm > div.framer-qtmqup.hidden-ommfpu > div.ssr-variant > div.framer-1e9kd7h-container > div.framer-AroAs.framer-95lQp",
+   "tag": "div",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1m3ebvu > div.framer-kuyh8t > div.framer-16cqnks > div.framer-1kbxby5 > div.framer-om30zi",
+   "tag": "div",
+   "text": "Get started freeStart 14-day trialTalk to sales",
+   "framer": {
+    "framerName": "CTA Buttons"
+   }
+  },
+  {
+   "selector": "div.framer-kuyh8t > div.framer-16cqnks > div.framer-1kbxby5 > div.framer-om30zi > div.framer-pdztex.hidden-ommfpu",
+   "tag": "div",
+   "framer": {
+    "framerName": "Space"
+   }
+  },
+  {
+   "selector": "div.framer-kuyh8t > div.framer-16cqnks > div.framer-1kbxby5 > div.framer-om30zi > div.framer-dw9ivs",
+   "tag": "div",
+   "text": "Get started freeStart 14-day trialTalk to sales",
+   "framer": {
+    "framerName": "Buttons"
+   }
+  },
+  {
+   "selector": "div.framer-5pfd1x.hidden-ommfpu > div.framer-s8p5j7 > div.ssr-variant > div.framer-iyagp7-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started free",
+   "framer": {
+    "framerName": "Secondary / LG"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-iyagp7-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started free",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-5pfd1x.hidden-ommfpu > div.framer-s8p5j7 > div.ssr-variant > div.framer-iyagp7-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Start 14-day trial",
+   "framer": {
+    "framerName": "Primary / LG"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-iyagp7-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Start 14-day trial",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-5pfd1x.hidden-ommfpu > div.framer-s8p5j7 > div.ssr-variant > div.framer-iyagp7-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Talk to sales",
+   "framer": {
+    "framerName": "Secondary / LG"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-iyagp7-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Talk to sales",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Footer Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Footer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Links"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulse",
+   "framer": {
+    "framerName": "Features Column"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-10jdoq8",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p",
+   "tag": "div",
+   "text": "CortexAskPulse",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-1iyk8rt",
+   "tag": "div",
+   "text": "Cortex",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-1iyk8rt > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Cortex",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-t46ej0",
+   "tag": "div",
+   "text": "Ask",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-t46ej0 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Ask",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-1exanjx",
+   "tag": "div",
+   "text": "Pulse",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-1exanjx > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Pulse",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2",
+   "tag": "div",
+   "text": "CompanyPricingAboutCareersBlog",
+   "framer": {
+    "framerName": "Company"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-ankizt",
+   "tag": "div",
+   "text": "Company",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he",
+   "tag": "div",
+   "text": "PricingAboutCareersBlog",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-ep2gyo",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-ep2gyo > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Pricing",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {
+    "framerPageLinkCurrent": "true"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1pjilpz",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1pjilpz > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "About",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-q2vdhe",
+   "tag": "div",
+   "text": "Careers",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-q2vdhe > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Careers",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1odzm45",
+   "tag": "div",
+   "text": "Blog",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1odzm45 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Blog",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d",
+   "tag": "div",
+   "text": "ResourcesIntegrationsChangelogDeveloper docsHelp Center404",
+   "framer": {
+    "framerName": "Resources"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1mlm0tb",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt",
+   "tag": "div",
+   "text": "IntegrationsChangelogDeveloper docsHelp Center404",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-iig8n7",
+   "tag": "div",
+   "text": "Integrations",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-iig8n7 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Integrations",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-te0pfw",
+   "tag": "div",
+   "text": "Changelog",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-te0pfw > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Changelog",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-nc7hme",
+   "tag": "div",
+   "text": "Developer docs",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-nc7hme > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Developer docs",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-uv8dt",
+   "tag": "div",
+   "text": "Help Center",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-uv8dt > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Help Center",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-66qyph",
+   "tag": "div",
+   "text": "404",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-66qyph > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "404",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1",
+   "tag": "div",
+   "text": "ConnectXLinkedInGitHub",
+   "framer": {
+    "framerName": "Connect"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1 > div.framer-qk2vom",
+   "tag": "div",
+   "text": "Connect",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1 > div.framer-vz9imr",
+   "tag": "div",
+   "text": "XLinkedInGitHub",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "X",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "X",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "LinkedIn",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "LinkedIn",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "GitHub",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "GitHub",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve",
+   "tag": "div",
+   "text": "All systems operational99.98% UPTIMEUpdates on new features ",
+   "framer": {
+    "framerName": "Uptime Newsletter"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry",
+   "tag": "div",
+   "text": "All systems operational99.98% UPTIME",
+   "framer": {
+    "framerName": "Uptime"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry > div.framer-d8ia8i > div.framer-1qrftu8",
+   "tag": "div",
+   "text": "All systems operational",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry > div.framer-5jvd8e",
+   "tag": "div",
+   "text": "99.98% UPTIME",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-fqk3g9",
+   "tag": "div",
+   "text": "Updates on new features and releases.Subscribe",
+   "framer": {
+    "framerName": "Newsletter"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-fqk3g9 > div.framer-27d16y",
+   "tag": "div",
+   "text": "Updates on new features and releases.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1p5h1ve > div.framer-fqk3g9 > div.ssr-variant > div.framer-1exlpg3-container > form.framer-e9zZI.framer-19cj0jd",
+   "tag": "form",
+   "text": "Subscribe",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-1exlpg3-container > form.framer-e9zZI.framer-19cj0jd > label.framer-s4lpcw > div.framer-1jl1owp-container > button.framer-DAIlr.framer-95lQp",
+   "tag": "button",
+   "text": "Subscribe",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "form.framer-e9zZI.framer-19cj0jd > label.framer-s4lpcw > div.framer-1jl1owp-container > button.framer-DAIlr.framer-95lQp > div.framer-1efjez1",
+   "tag": "div",
+   "text": "Subscribe",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-138v7uv",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-138v7uv > div.ssr-variant > div.framer-1oxx1b4 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2",
+   "tag": "div",
+   "text": "© 2026 Strand. All rights reserved.Terms and Conditions/Priv",
+   "framer": {
+    "framerName": "Copyright"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-868d6s",
+   "tag": "div",
+   "text": "© 2026 Strand. All rights reserved.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2",
+   "tag": "div",
+   "text": "Terms and Conditions/Privacy Policy",
+   "framer": {
+    "framerName": "Terms / Privacy"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-psm4bz",
+   "tag": "div",
+   "text": "Terms and Conditions",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-psm4bz > p.framer-text.framer-styles-preset-1unq4w > a.framer-text.framer-styles-preset-656phd",
+   "tag": "a",
+   "text": "Terms and Conditions",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-16ek34v",
+   "tag": "div",
+   "text": "/",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-123xktd",
+   "tag": "div",
+   "text": "Privacy Policy",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-123xktd > p.framer-text.framer-styles-preset-1unq4w > a.framer-text.framer-styles-preset-656phd",
+   "tag": "a",
+   "text": "Privacy Policy",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk",
+   "tag": "a",
+   "text": "Create a free website with Framer, the website builder loved",
+   "framer": {
+    "framerAppearId": "n0ccwk",
+    "framerName": "Light"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-13yxzio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Backdrop"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm",
+   "tag": "div",
+   "text": "Create a free website with Framer, the website builder loved",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm > div.framer-1kflzx5 > div.framer-hcsc7.framer-e50co",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm > div.framer-g7oZR.framer-1um7t9d",
+   "tag": "div",
+   "framer": {
+    "framerName": "Text"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-j4ugry",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-jnuwbw",
+   "tag": "div",
+   "framer": {
+    "framerName": "Border"
+   }
+  },
+  {
+   "selector": "script",
+   "tag": "script",
+   "text": "(()=>{function c(i,o,s){if(window.__framer_disable_appear_ef",
+   "framer": {
+    "framerAppearAnimation": "reduce"
+   }
+  },
+  {
+   "selector": "script",
+   "tag": "script",
+   "framer": {
+    "framerBundle": "main"
+   }
+  }
+ ],
+ "cdp": []
+}

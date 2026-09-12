@@ -1,0 +1,1701 @@
+body
+  div #main
+    div .framer-2U5dV.framer-q6DkR.framer-NXcw2.framer-Dk1W5.framer-jhxgU.framer-QXjqX.framer-099aC {width:auto}
+      div
+        div appear=w6pet3 .framer-w6pet3-container {opacity: 1; transform: none; will-change: transform}
+          div
+            div [Desktop] .framer-Ixlxu.framer-1gkvrwn data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41, 37, 36)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23)); border-radius: 12px; opacity: 1}
+              div [Details] .framer-1rktaa5 {opacity: 1}
+                div [Purchase Template] .framer-34ef9s {opacity: 1}
+                  div [Template Name] .framer-1cbou7l {opacity: 1}
+                    div .framer-1y4sdjl {transform: none; opacity: 1}
+                      p .framer-text {--framer-font-family:"Geist", "Geist Placeholder", sans-serif; --framer-font-open-type-features:'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size:12px; --framer-font-weight:500; --framer-line-height:16px; --framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249)))} "Nordwell"
+                    div .framer-1dltf4q {transform: none; opacity: 1}
+                      p .framer-text {--framer-font-family:"Geist", "Geist Placeholder", sans-serif; --framer-font-open-type-features:'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size:12px; --framer-font-weight:500; --framer-line-height:16px; --framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249)))} "Template"
+                  div [Template Name] .framer-1cuave6 {opacity: 1}
+                    div .framer-1nwln5j {transform: none; opacity: 1}
+                      p .framer-text {--framer-font-family:"Geist", "Geist Placeholder", sans-serif; --framer-font-open-type-features:'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size:12px; --framer-font-weight:500; --framer-line-height:16px; --framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249)))} "Purchase"
+                    div .framer-xmkk33 {transform: none; opacity: 1}
+                      p .framer-text {--framer-font-family:"Geist", "Geist Placeholder", sans-serif; --framer-font-open-type-features:'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size:12px; --framer-font-weight:500; --framer-line-height:16px; --framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249)))} "Nordwell"
+                div [Starting from] .framer-19kr23w {opacity: 1}
+                  div .framer-a14xbr {transform: none; opacity: 1}
+                    p .framer-text {--framer-font-family:"Geist", "Geist Placeholder", sans-serif; --framer-font-open-type-features:'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size:12px; --framer-font-weight:500; --framer-line-height:16px; --framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(166, 160, 155)))} "from"
+                  div .framer-5r25d2 {transform: none; opacity: 1}
+                    p .framer-text {--framer-font-family:"Geist Mono", monospace; --framer-font-open-type-features:'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size:12px; --framer-font-weight:500; --framer-line-height:16px; --framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249)))} "$109"
+              div [Image Container] .framer-dkby0a data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41, 37, 36)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; border-radius: 8px; opacity: 1}
+                div .framer-15d7y5z {height: auto; aspect-ratio: 0.78125 / 1; opacity: 1}
+                  div {position:absolute; border-radius:inherit; top:0; right:0; bottom:0; left:0}
+                    img src=https://framerusercontent.com/images/GBjHpEIYOMQ4OX3KkbWMP40QU.png?width=100&height=128  {width:100%; height:100%; border-radius:inherit; object-fit:cover}
+      div .framer-uz5b0i-container
+      div [Navigation] .framer-gu3ill data-border
+        div [Container] .framer-2zulxl data-border
+          div
+            div .framer-1j6v7h8-container
+              div [Desktop] .framer-Hi6IO.framer-QXjqX.framer-128zegt {width: 100%; opacity: 1}
+                div [Nav Stack] .framer-15x7pvg data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41, 37, 36)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-7f40e4a1-2b83-444e-8765-465c7d3596ab, rgb(12, 10, 9)); opacity: 1}
+                  div [Main Stack] .framer-4q76zg {opacity: 1}
+                    a [Logo] .framer-tfxiwl.framer-1nrg7n2 href=./ {opacity: 1}
+                      img .framer-YfD14.framer-ilyc80 src=data:image/svg+xml,<svg display="block" id="1524428453" role="presentation" viewBox="0 0 3  {opacity: 1}
+                      div [Union] .framer-6rl07u {flex-shrink: 0; color: rgb(0, 0, 0); opacity: 1}
+                        div {width:100%; height:100%; aspect-ratio:inherit}
+                          svg viewBox=0 0 68 17 {width:100%; height:100%}
+                            use href=#svg989859101_6374
+                    div [Navigation Menu] .framer-llwb19 {opacity: 1}
+                      div [Features] #undefined-12dyuiv .framer-12dyuiv-container {opacity: 1}
+                        a [Ghost / LG] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href= {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: rgba(0, 0, 0, 0); border-radius: 8px; opacity: 1}
+                          div .framer-1mqy83k {opacity: 1}
+                            div .framer-1fuw16a {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-5d8f23dc-92a7-4ff0-acf1-4f5feb4637ee, rgb(245, 245, 245)))} "Features"
+                          svg [Right Icon] .framer-rjFuH.framer-10czdf1 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#4024583230
+                      div [Resources] #undefined-9sm63 .framer-9sm63-container {opacity: 1}
+                        a [Ghost / LG] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href= {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: rgba(0, 0, 0, 0); border-radius: 8px; opacity: 1}
+                          div .framer-1mqy83k {opacity: 1}
+                            div .framer-1fuw16a {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-5d8f23dc-92a7-4ff0-acf1-4f5feb4637ee, rgb(245, 245, 245)))} "Resources"
+                          svg [Right Icon] .framer-rjFuH.framer-10czdf1 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#4024583230
+                      div [Pricing] .framer-1jhb7w3-container {opacity: 1}
+                        a [Ghost / LG] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=./pricing {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: rgba(0, 0, 0, 0); border-radius: 8px; opacity: 1}
+                          div .framer-1mqy83k {opacity: 1}
+                            div .framer-1fuw16a {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-5d8f23dc-92a7-4ff0-acf1-4f5feb4637ee, rgb(245, 245, 245)))} "Pricing"
+                      div [About] .framer-1fx5otc-container {opacity: 1}
+                        a [Ghost / LG] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=./about-us {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: rgba(0, 0, 0, 0); border-radius: 8px; opacity: 1}
+                          div .framer-1mqy83k {opacity: 1}
+                            div .framer-1fuw16a {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-5d8f23dc-92a7-4ff0-acf1-4f5feb4637ee, rgb(245, 245, 245)))} "About"
+                  div [Buttons] .framer-rq3bc0 {opacity: 1}
+                    div [Sign up] .framer-ttq5lt-container {opacity: 1}
+                      a [Primary / LG] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=./pricing {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 245)); border-radius: 8px; opacity: 1}
+                        div .framer-1mqy83k {opacity: 1}
+                          div .framer-1fuw16a {transform: none; opacity: 1}
+                            p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-52462940-c15c-4103-9816-370bb3c11bfa, rgb(23, 23, 23)))} "Get started"
+      div .framer-KmWmf.framer-Hl0ue.framer-NXcw2.framer-95lQp.framer-dbBSO.framer-snjYD.framer-72rtr {width:auto}
+        div [Hero] #hero .framer-1w7wuhd
+          div [Container] .framer-jurjgy data-border
+            div [New Container] appear=dp7izi .framer-dp7izi data-border {opacity: 1; transform: none; will-change: transform}
+              div
+                div .framer-r7yxnk-container
+                  a [Variant 1] .framer-QjZ00.framer-1hpvfsx.framer-102di93 href=./blog/introducing-ask-query-your-entire-stack-in-plain-language {width: 100%; opacity: 1}
+                    div .framer-viz05f-container {opacity: 1}
+                      div [Primary] .framer-mEJFY.framer-jhxgU.framer-LKFMZ.framer-x4g6b3 data-border {--border-bottom-width: 1px; --border-color: var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 321px; opacity: 1}
+                        div .framer-6ojv5w {transform: none; opacity: 1}
+                          p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "New"
+                    div [Message] .framer-10o8lwh {opacity: 1}
+                      div .framer-1m0muau-container {transform: translateY(-50%); opacity: 1}
+                        div [Primary] .framer-AfnJr.framer-17evz1o {mask: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 10%, rgb(0, 0, 0) 90%, rgba(0, 0, 0, 0) 100%); opacity: 1}
+                          div [Set 2 -3] .framer-gogk9y {background-color:var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); opacity:0}
+                          div [Set 2 -2] .framer-1xm8b4i {background-color:var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); opacity:0}
+                          div [Set 3 -1] .framer-14d3uid {background-color:var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); opacity:0}
+                          div [Set 1 -3] .framer-1s74r8s {background-color:var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); opacity:1}
+                          div [Set 1 -2] .framer-mweelx {background-color:var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); opacity:1}
+                          div [Set 1 -1] .framer-1597kz4 {background-color:var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); opacity:1}
+                      div .framer-18d75j4-container {opacity: 1}
+                        div {overflow:hidden; mask-image:none}
+                          div {flex-shrink:0; color:white; width:max-content}
+                            p {padding:0px 40px 0px 0px; transform:none} "Introducing Ask: Query your entire stack in plain language"
+            div [Content] .framer-qcgctf
+              div
+                div [Main Title] .framer-133zkvp
+                  div [Title Container] .framer-1gdcm2d
+                    div [Container] .framer-1akirha
+                      div appear=1jsercw .framer-1jsercw {opacity: 1; transform: none; will-change: transform}
+                        h1 .framer-text.framer-styles-preset-19ingv {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "The missing connection layer"
+                      div appear=1b2lh6y .framer-1b2lh6y {opacity: 1; transform: none; will-change: transform}
+                        p .framer-text.framer-styles-preset-1tsnca {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Nordwell builds a living knowledge graph across every tool in your stack. Ask questions in plain language. Get answers no single source could provide alone."
+                    div [CTAs] appear=13ye9y3 .framer-13ye9y3 {opacity: 1; transform: none; will-change: transform}
+                      div .framer-122b7gn-container
+                        a [Primary / XL] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=./pricing {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 245)); height: 100%; border-radius: 8px; opacity: 1}
+                          div .framer-1mqy83k {opacity: 1}
+                            div .framer-1fuw16a {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-52462940-c15c-4103-9816-370bb3c11bfa, rgb(23, 23, 23)))} "Connect a source"
+                      div .framer-1yjtgfi-container
+                        a [Secondary / XL] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=./contact-us data-border {--border-bottom-width: 1px; --border-color: var(--token-d77c8f0f-067e-4a45-ac82-2913bb2aee68, rgb(34, 34, 34)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-49f482bf-7282-4f8a-9849-f4d6c5f1f94c, rgb(38, 38, 38)); height: 100%; border-radius: 8px; opacity: 1}
+                          div .framer-1mqy83k {opacity: 1}
+                            div .framer-1fuw16a {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-d374d93c-0fe8-421f-a111-c491a4a873a6, rgb(245, 245, 245)))} "Book a demo"
+              div [Main Graphic] .framer-14ucdac
+                div .framer-1t7pn02-container
+                  div
+                    div {position:relative; width:100%; height:100%; overflow:hidden}
+                      div {position:absolute; top:0; left:0; width:100%; height:100%; opacity:1}
+                        canvas {width: 562px; height: 643px}
+        div [Steps] .framer-1ye9oqd
+          div [Container] .framer-170t0as data-border
+            div [Connect] appear=fkx45e .framer-fkx45e-container {opacity: 1; transform: none; will-change: transform}
+              div [Visible] .framer-BDiiR.framer-cUeIE.framer-hlXus.framer-6ytqww {width: 100%; opacity: 1}
+                div .framer-9y91v8 {opacity: 1}
+                  div .framer-18ix66j {transform: none; opacity: 1}
+                    h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "1."
+                  div .framer-fbfp6c {transform: none; opacity: 1}
+                    h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Connect"
+                div .framer-1s1qb3c {transform: none; opacity: 1}
+                  p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Plug in your tools. 240+ integrations out of the box."
+            div [Map] appear=1scv7sf .framer-1scv7sf-container {opacity: 1; transform: none; will-change: transform}
+              div [Visible] .framer-BDiiR.framer-cUeIE.framer-hlXus.framer-6ytqww {width: 100%; opacity: 1}
+                div .framer-9y91v8 {opacity: 1}
+                  div .framer-18ix66j {transform: none; opacity: 1}
+                    h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "2."
+                  div .framer-fbfp6c {transform: none; opacity: 1}
+                    h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Map"
+                div .framer-1s1qb3c {transform: none; opacity: 1}
+                  p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Cortex automatically builds your knowledge graph."
+            div [Ask] appear=16yp3wb .framer-16yp3wb-container {opacity: 1; transform: none; will-change: transform}
+              div [Visible] .framer-BDiiR.framer-cUeIE.framer-hlXus.framer-6ytqww {width: 100%; opacity: 1}
+                div .framer-9y91v8 {opacity: 1}
+                  div .framer-18ix66j {transform: none; opacity: 1}
+                    h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "3."
+                  div .framer-fbfp6c {transform: none; opacity: 1}
+                    h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Ask"
+                div .framer-1s1qb3c {transform: none; opacity: 1}
+                  p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Query in plain language. Share results with your team."
+        div [Partners] .framer-vpqdy2
+          div [Container] .framer-1o566ps data-border
+            div [Partners title] .framer-643cw9
+              div [Title] .framer-lrjd3c data-border
+                div .framer-1hltyaa {transform:none}
+                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Trusted by 56+ teams who are tired of tab-switching"
+            div [Ticker Container] .framer-149ica6 data-border
+              div .framer-1qbqem3 {overflow-x:clip; position:relative}
+                ul {position: relative; padding: 0px; flex-direction: row; gap: 46px; opacity: 1; width: 100%; height: 100%; transform: translateX(-264.595px); will-change: transform}
+                  li {flex-grow: 0; flex-shrink: 0; position: relative; height: fit-content; width: fit-content; transform: translateX(2196px)}
+                    div .framer-ywcy7.framer-9jncga
+                  li {flex-grow: 0; flex-shrink: 0; position: relative; height: fit-content; width: fit-content; transform: none}
+                    div .framer-Iwohq.framer-1vynhgh
+                  li {flex-grow: 0; flex-shrink: 0; position: relative; height: fit-content; width: fit-content; transform: none}
+                    div .framer-OWogs.framer-123r8k1
+                  li {flex-grow: 0; flex-shrink: 0; position: relative; height: fit-content; width: fit-content; transform: none}
+                    div .framer-HQQM6.framer-bo08ni
+                  li {flex-grow: 0; flex-shrink: 0; position: relative; height: fit-content; width: fit-content; transform: none}
+                    div .framer-pnjIA.framer-10wb9cu
+                  li {flex-grow: 0; flex-shrink: 0; position: relative; height: fit-content; width: fit-content; transform: none}
+                    div .framer-WxnZN.framer-10v9rg4
+                  li {flex-grow: 0; flex-shrink: 0; position: relative; height: fit-content; width: fit-content; transform: none}
+                    div .framer-ywcy7.framer-9jncga
+                  li {flex-grow: 0; flex-shrink: 0; position: relative; height: fit-content; width: fit-content; transform: none}
+                    div .framer-Iwohq.framer-1vynhgh
+                  li {flex-grow: 0; flex-shrink: 0; position: relative; height: fit-content; width: fit-content; transform: none}
+                    div .framer-OWogs.framer-123r8k1
+                  li {flex-grow: 0; flex-shrink: 0; position: relative; height: fit-content; width: fit-content; transform: none}
+                    div .framer-HQQM6.framer-bo08ni
+                  li {flex-grow: 0; flex-shrink: 0; position: relative; height: fit-content; width: fit-content; transform: none}
+                    div .framer-pnjIA.framer-10wb9cu
+                  li {flex-grow: 0; flex-shrink: 0; position: relative; height: fit-content; width: fit-content; transform: none}
+                    div .framer-WxnZN.framer-10v9rg4
+              div
+                div .framer-17vu96m-container
+                  div [End] .framer-kEcQz.framer-bd4w60 {width: 100%; opacity: 1}
+                    div [Left] .framer-t5arn {opacity: 1}
+                      div [b] .framer-u6zm30 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                      div [g] .framer-1s7vawm {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                      div [r] .framer-1ndw0of {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [Right] .framer-12bx2ig {opacity: 1}
+                      div [b] .framer-ddlp53 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                      div [g] .framer-1is7c6b {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                      div [r] .framer-1j63n4i {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+        div [Conversation] .framer-r08n9p
+          div [Container] .framer-12x5o77 data-border
+            div [Tagline] .framer-ca5wfl
+              div .framer-13wrhsn {transform:none}
+                h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Your team wastes hours pulling data from scattered tools."
+                  span .framer-text {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Nordwell turns that into one conversation."
+            div [Example] .framer-r0uhuf
+              div
+                div .framer-11tggmb-container
+                  div [Thinking] .framer-JcDMh.framer-NXcw2.framer-1b5ogf8 {height: 100%; width: 100%; opacity: 1}
+                    div .framer-1oh8dd5 {will-change: transform; opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                      div [Chat Container] .framer-19qsf6k {background: linear-gradient(111deg, var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60)) 0%, var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41, 37, 36)) 35.13513513513514%, var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)) 73%, var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60)) 100%); border-radius: 16px; transform: none; transform-origin: 50% }
+                        div [Container] .framer-1bvs57s {transform: none; transform-origin: 50% 50% 0px}
+                          div [Top container] .framer-2xhl4y {transform: none; transform-origin: 50% 50% 0px}
+                            div .framer-984o4f {transform: none; transform-origin: 50% 50% 0px}
+                              div [Message] .framer-642k88 {transform: none; transform-origin: 50% 50% 0px}
+                                p .framer-text.framer-styles-preset-1tsnca {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))}
+                                  span {white-space: nowrap}
+                                    span {will-change: transform} "W"
+                                    span {will-change: transform} "h"
+                                    span {will-change: transform} "i"
+                                    span {will-change: transform} "c"
+                                    span {will-change: transform} "h"
+                                  span {white-space: nowrap}
+                                    span {will-change: transform} "a"
+                                    span {will-change: transform} "c"
+                                    span {will-change: transform} "c"
+                                    span {will-change: transform} "o"
+                                    span {will-change: transform} "u"
+                                    span {will-change: transform} "n"
+                                    span {will-change: transform} "t"
+                                    span {will-change: transform} "s"
+                                  span {white-space: nowrap}
+                                    span {will-change: transform} "a"
+                                    span {will-change: transform} "r"
+                                    span {will-change: transform} "e"
+                                  span {white-space: nowrap}
+                                    span {will-change: transform} "a"
+                                    span {will-change: transform} "t"
+                                  span {white-space: nowrap}
+                                    span {will-change: transform} "r"
+                                    span {will-change: transform} "i"
+                                    span {will-change: transform} "s"
+                                    span {will-change: transform} "k"
+                                  span {white-space: nowrap}
+                                    span {will-change: transform} "t"
+                                    span {will-change: transform} "h"
+                                    span {will-change: transform} "i"
+                                    span {will-change: transform} "s"
+                                  span {white-space: nowrap}
+                                    span {will-change: transform} "q"
+                                    span {will-change: transform} "u"
+                                    span {will-change: transform} "a"
+                                    span {will-change: transform} "r"
+                                    span {will-change: transform} "t"
+                                    span {will-change: transform} "e"
+                                    span {will-change: transform} "r"
+                                    span {will-change: transform} "?"
+                            div [Status Container] .framer-5rfih0 {transform: none; transform-origin: 50% 50% 0px}
+                              div [Thinking] .framer-1cbnqjk-container {opacity: 1; transform: none; transform-origin: 50% 50% 0px; will-change: transform}
+                                div [Variant 1] .framer-3VM4T.framer-jhxgU.framer-m82cj data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; transform: none; transform-origin: 50% 50% 0px}
+                                  div .framer-10gt4py {transform: none; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Thinking"
+                              div [3 Results] .framer-g8q9cy-container {opacity: 0; transform: translateX(-50%); transform-origin: 50% 50% 0px}
+                                div [Variant 1] .framer-3VM4T.framer-jhxgU.framer-m82cj data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; transform: none; transform-origin: 50% 50% 0px}
+                                  div .framer-10gt4py {transform: none; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "3 Results"
+                          div [Buttons Container] .framer-1hnulot {opacity: 0; transform: translateX(-50%); transform-origin: 50% 50% 0px; will-change: transform}
+                            div [Button] .framer-1umbp4q {transform: none; transform-origin: 50% 50% 0px}
+                              svg .framer-K11hZ.framer-68pznj viewBox=0 0 24 24 {transform: none; transform-origin: 50% 50% 0px}
+                                use href=#3356954461
+                            div [Button] .framer-1q7wox5 {background-color: rgb(38, 38, 38); border-radius: 12px; will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                              svg .framer-ab47M.framer-1o60zur viewBox=0 0 24 24 {transform: none; transform-origin: 50% 50% 0px}
+                                use href=#2903821725
+                        div [Background] .framer-5xg612 {background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(17, 15, 13)); border-radius: 15px; transform: none; transform-origin: 50% 50% 0px}
+                      div [Quick Action Bar] .framer-t1zk3n {border-radius: 16px; opacity: 0; transform: none; transform-origin: 50% 50% 0px; will-change: transform}
+                        div appear=n00lzi .framer-n00lzi-container {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                          div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; transform: none; transform-origin: 50% 50% 0px}
+                            svg .framer-kIZlk.framer-12miy56 viewBox=0 0 24 24 {transform: none; transform-origin: 50% 50% 0px}
+                              use href=#89488612
+                            div .framer-w22r5q {transform: none; transform-origin: 50% 50% 0px}
+                              p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Analyze"
+                        div appear=17bqj0 .framer-17bqj0-container {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                          div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; transform: none; transform-origin: 50% 50% 0px}
+                            svg .framer-ENWIm.framer-12miy56 viewBox=0 0 24 24 {transform: none; transform-origin: 50% 50% 0px}
+                              use href=#3092554709
+                            div .framer-w22r5q {transform: none; transform-origin: 50% 50% 0px}
+                              p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Compare"
+                        div appear=10q9li8 .framer-10q9li8-container {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                          div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; transform: none; transform-origin: 50% 50% 0px}
+                            svg .framer-Mv0fb.framer-12miy56 viewBox=0 0 24 24 {transform: none; transform-origin: 50% 50% 0px}
+                              use href=#3261614140
+                            div .framer-w22r5q {transform: none; transform-origin: 50% 50% 0px}
+                              p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Monitor"
+                        div appear=1ysxh9n .framer-1ysxh9n-container {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                          div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; transform: none; transform-origin: 50% 50% 0px}
+                            svg .framer-T13M8.framer-12miy56 viewBox=0 0 24 24 {transform: none; transform-origin: 50% 50% 0px}
+                              use href=#2932616460
+                            div .framer-w22r5q {transform: none; transform-origin: 50% 50% 0px}
+                              p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Report"
+                      div [Quick Action Bar] .framer-vams9e {border-radius: 16px; opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                        div appear=3kyhfb .framer-3kyhfb-container {will-change: transform; opacity: 1; transform: none}
+                          div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                            svg .framer-50oIK.framer-12miy56 viewBox=0 0 24 24 {opacity: 1}
+                              use href=#1683057900
+                            div .framer-w22r5q {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Export CSV"
+                        div appear=7k78ji .framer-7k78ji-container {will-change: transform; opacity: 1; transform: none}
+                          div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                            svg .framer-qIgAD.framer-12miy56 viewBox=0 0 24 24 {opacity: 1}
+                              use href=#3129714398
+                            div .framer-w22r5q {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Share with team"
+                      div [Results Container] .framer-4ig9li data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 16px; opacity: 1; transform: none; transform-origin: 50% 50% 0px; will-change: transfo}
+                        div .framer-1vwlie1-container {opacity: 1; transform: none; transform-origin: 50% 50% 0px; will-change: transform}
+                          div
+                            p {width:fit-content; position:relative}
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(153, 21, 173); opacity: 1; transform: none; will-change: transform} "S"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(107, 18, 199); opacity: 1; transform: none; will-change: transform} "c"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(0, 28, 221); opacity: 1; transform: none; will-change: transform} "o"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(0, 110, 229); opacity: 1; transform: none; will-change: transform} "r"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(0, 153, 236); opacity: 1; transform: none; will-change: transform} "i"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(0, 186, 242); opacity: 1; transform: none; will-change: transform} "n"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(0, 214, 249); opacity: 1; transform: none; will-change: transform} "g"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(12, 237, 254); opacity: 1; transform: none; will-change: transform}
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(53, 218, 233); opacity: 1; transform: none; will-change: transform} "b"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(74, 197, 209); opacity: 1; transform: none; will-change: transform} "y"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(90, 174, 183); opacity: 1; transform: none; will-change: transform}
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(104, 147, 152); opacity: 1; transform: none; will-change: transform} "c"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "h"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "u"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "r"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "n"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform}
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "s"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "i"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "g"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "n"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "a"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "l"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform}
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "w"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "e"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "i"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "g"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "h"
+                              span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "t"
+                    div .framer-1ykvmaj-container {mask:linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 22%) add; opacity:0.3}
+                      div {position:relative; width:100%; height:100%; overflow:hidden}
+                        div {position:absolute; top:0; left:0; width:100%; height:100%; opacity:1}
+                          canvas {width: 1297px; height: 517px}
+        div [Features] #features .framer-e37e89
+          div [Container] .framer-2wq6o data-border
+            div [Left Stack] #products-swap-scroll .framer-11wxjj4
+              div [Scroll Progress Section] #products-scroll .framer-ongoh1
+                div [Rail] .framer-g1gjpv data-border
+                  div [Rail Cart] #features-cortex .framer-8cz25g
+                    div
+                      div [Cortex] .framer-qdle9s-container
+                        div [Desktop] .framer-5Y2Hx.framer-dbBSO.framer-NXcw2.framer-tnjwra {width: 100%; opacity: 1}
+                          div [Context] .framer-1x26bi8 {opacity: 1}
+                            div [Title] .framer-1q2f6xz {transform: none; opacity: 1}
+                              h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-color:var(--extracted-1of0zx5, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Cortex"
+                            div [Description] .framer-1id2k7l {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Connect every data source. Nordwell maps relationships automatically — customers to revenue, usage to churn signals, support tickets to product gaps. One graph."
+                          div [Features] .framer-1drnpam {opacity: 1}
+                            div [Source Resolution] .framer-dsjfne-container {opacity: 1}
+                              div [Vertical] .framer-nbXXU.framer-95lQp.framer-19sutiv {width: 100%; opacity: 1}
+                                svg .framer-PQmMh.framer-1a1y0j8 viewBox=0 0 24 24 {opacity: 1}
+                                  use href=#1916995349
+                                div [Description] .framer-18uhzsg {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Resolves entities across every source."
+                            div [Updates] .framer-1lxtxpn-container {opacity: 1}
+                              div [Vertical] .framer-nbXXU.framer-95lQp.framer-19sutiv {width: 100%; opacity: 1}
+                                svg .framer-teLFS.framer-1a1y0j8 viewBox=0 0 24 24 {opacity: 1}
+                                  use href=#2876127492
+                                div [Description] .framer-18uhzsg {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Updates in real time, no rebuilds."
+                            div [Graphs] .framer-1owzeh0-container {opacity: 1}
+                              div [Vertical] .framer-nbXXU.framer-95lQp.framer-19sutiv {width: 100%; opacity: 1}
+                                svg .framer-QIJ8C.framer-1a1y0j8 viewBox=0 0 24 24 {opacity: 1}
+                                  use href=#2119597464
+                                div [Description] .framer-18uhzsg {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Visual graph explorer for every team."
+                          div .framer-2f6409-container {opacity: 1}
+                            a [Variant 1] .framer-z2KqL.framer-95lQp.framer-15dzpeo.framer-6dl3ic href=./features/cortex {opacity: 1}
+                              div [Title] .framer-unk2by {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "Explore more"
+                              button [Circular Button] .framer-1bs23ii {background-color: var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38)); border-radius: 52px; opacity: 1}
+                                svg .framer-ab47M.framer-ycs1mn viewBox=0 0 24 24 {opacity: 1}
+                                  use href=#2903821725
+                div [Rail] .framer-1mqiqes data-border
+                  div [Rail Cart] #features-ask .framer-1ilx1em
+                    div
+                      div [Ask] .framer-1d5ij2n-container
+                        div [Desktop] .framer-5Y2Hx.framer-dbBSO.framer-NXcw2.framer-tnjwra {width: 100%; opacity: 1}
+                          div [Context] .framer-1x26bi8 {opacity: 1}
+                            div [Title] .framer-1q2f6xz {transform: none; opacity: 1}
+                              h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-color:var(--extracted-1of0zx5, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Ask"
+                            div [Description] .framer-1id2k7l {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Stop writing SQL for simple questions. Ask "Which enterprise accounts haven't logged in this month?" and get an answer in seconds. Nordwell translates intent in"
+                          div [Features] .framer-1drnpam {opacity: 1}
+                            div [Source Resolution] .framer-dsjfne-container {opacity: 1}
+                              div [Vertical] .framer-nbXXU.framer-95lQp.framer-19sutiv {width: 100%; opacity: 1}
+                                svg .framer-0KIoe.framer-1a1y0j8 viewBox=0 0 24 24 {opacity: 1}
+                                  use href=#1954469862
+                                div [Description] .framer-18uhzsg {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Understands your exact data model."
+                            div [Updates] .framer-1lxtxpn-container {opacity: 1}
+                              div [Vertical] .framer-nbXXU.framer-95lQp.framer-19sutiv {width: 100%; opacity: 1}
+                                svg .framer-bEAlb.framer-1a1y0j8 viewBox=0 0 24 24 {opacity: 1}
+                                  use href=#3349784521
+                                div [Description] .framer-18uhzsg {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Suggests smart follow-up questions."
+                            div [Graphs] .framer-1owzeh0-container {opacity: 1}
+                              div [Vertical] .framer-nbXXU.framer-95lQp.framer-19sutiv {width: 100%; opacity: 1}
+                                svg .framer-c1n2a.framer-1a1y0j8 viewBox=0 0 24 24 {opacity: 1}
+                                  use href=#1964716429
+                                div [Description] .framer-18uhzsg {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Exports to Slack, CSV, or JSON."
+                          div .framer-2f6409-container {opacity: 1}
+                            a [Variant 1] .framer-z2KqL.framer-95lQp.framer-15dzpeo.framer-6dl3ic href=./features/ask {opacity: 1}
+                              div [Title] .framer-unk2by {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "Explore more"
+                              button [Circular Button] .framer-1bs23ii {background-color: var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38)); border-radius: 52px; opacity: 1}
+                                svg .framer-ab47M.framer-ycs1mn viewBox=0 0 24 24 {opacity: 1}
+                                  use href=#2903821725
+              div [Rail] .framer-gw12jb
+                div [Rail Cart] #features-pulse .framer-1s7z65x
+                  div
+                    div [Pulse] .framer-zggyi1-container
+                      div [Desktop] .framer-5Y2Hx.framer-dbBSO.framer-NXcw2.framer-tnjwra {width: 100%; opacity: 1}
+                        div [Context] .framer-1x26bi8 {opacity: 1}
+                          div [Title] .framer-1q2f6xz {transform: none; opacity: 1}
+                            h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-color:var(--extracted-1of0zx5, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Pulse"
+                          div [Description] .framer-1id2k7l {transform: none; opacity: 1}
+                            p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Not another dashboard with 47 alerts. Pulse learns what normal looks like for your business and only surfaces what's genuinely unusual. Less noise, more signal."
+                        div [Features] .framer-1drnpam {opacity: 1}
+                          div [Source Resolution] .framer-dsjfne-container {opacity: 1}
+                            div [Vertical] .framer-nbXXU.framer-95lQp.framer-19sutiv {width: 100%; opacity: 1}
+                              svg .framer-Mv0fb.framer-1a1y0j8 viewBox=0 0 24 24 {opacity: 1}
+                                use href=#3261614140
+                              div [Description] .framer-18uhzsg {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Adaptive baselines, zero config."
+                          div [Updates] .framer-1lxtxpn-container {opacity: 1}
+                            div [Vertical] .framer-nbXXU.framer-95lQp.framer-19sutiv {width: 100%; opacity: 1}
+                              svg .framer-bpHoo.framer-1a1y0j8 viewBox=0 0 24 24 {opacity: 1}
+                                use href=#3286913657
+                              div [Description] .framer-18uhzsg {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Severity scoring by business impact."
+                          div [Graphs] .framer-1owzeh0-container {opacity: 1}
+                            div [Vertical] .framer-nbXXU.framer-95lQp.framer-19sutiv {width: 100%; opacity: 1}
+                              svg .framer-i0sw1.framer-1a1y0j8 viewBox=0 0 24 24 {opacity: 1}
+                                use href=#1875504585
+                              div [Description] .framer-18uhzsg {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Routes alerts to the right channel."
+                        div .framer-2f6409-container {opacity: 1}
+                          a [Variant 1] .framer-z2KqL.framer-95lQp.framer-15dzpeo.framer-6dl3ic href=./features/pulse {opacity: 1}
+                            div [Title] .framer-unk2by {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "Explore more"
+                            button [Circular Button] .framer-1bs23ii {background-color: var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38)); border-radius: 52px; opacity: 1}
+                              svg .framer-ab47M.framer-ycs1mn viewBox=0 0 24 24 {opacity: 1}
+                                use href=#2903821725
+            div [Right Stack] .framer-z2pejt
+              div [Rail Cart] .framer-iejl6p
+                div [Container] .framer-12nzhvt
+                  div .framer-1apm31s-container
+                    div {width:100%; height:100%}
+                      div {position:absolute; width:100%; height:100%; overflow:hidden; top:50%; left:50%; transform:translate(-50%, -50%)}
+                        div {position:absolute; top:0; left:0; width:100%; height:100%; opacity:1}
+                          canvas {width: 649px; height: 508px}
+                        div {width: 100%; height: 100%; padding: 0px 12px}
+                          div .framer-iyty47-container
+                            div [Visible] .framer-AhJf9.framer-1txctdx {width: 100%; opacity: 1}
+                              div appear=1ctfs4x .framer-1ctfs4x-container {will-change: transform; opacity: 1; transform: none}
+                                div [Variant 1] .framer-9bYeO.framer-NXcw2.framer-QXjqX.framer-3EFGW.framer-g1xn9f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; border-radius: 16px; opacity: 1}
+                                  div .framer-1oiw6wg {opacity: 1}
+                                    div .framer-87gscl {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-1tsnca {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Scaleforce"
+                                    div .framer-1tkin3c {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-hwasvf {--framer-text-color: var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "14,203 entities"
+                                  div .framer-f9xi3y {opacity: 1}
+                                    div .framer-1f4g78s-container {opacity: 1}
+                                      div {width: 8px; height: 8px; border-radius: 9999px; background-color: var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)); position: relative}
+                                        div {border-radius: 9999px; position: absolute; top: 50%; left: 50%; width: 20px; height: 20px; opacity: 0; transform: translateX(-50%) translateY(-50%); will-change: transform}
+                                    div .framer-1thuluh {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Live"
+                              div appear=zatbru .framer-zatbru-container {will-change: transform; opacity: 1; transform: none}
+                                div [Variant 1] .framer-9bYeO.framer-NXcw2.framer-QXjqX.framer-3EFGW.framer-g1xn9f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; border-radius: 16px; opacity: 1}
+                                  div .framer-1oiw6wg {opacity: 1}
+                                    div .framer-87gscl {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-1tsnca {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Strive"
+                                    div .framer-1tkin3c {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-hwasvf {--framer-text-color: var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "8,847 entities"
+                                  div .framer-f9xi3y {opacity: 1}
+                                    div .framer-1f4g78s-container {opacity: 1}
+                                      div {width: 8px; height: 8px; border-radius: 9999px; background-color: var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)); position: relative}
+                                        div {border-radius: 9999px; position: absolute; top: 50%; left: 50%; width: 18.9717px; height: 18.9717px; opacity: 0.064267; transform: translateX(-50%) translateY(-50%); will-change: transform}
+                                    div .framer-1thuluh {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Live"
+                              div appear=17bslm8 .framer-17bslm8-container {will-change: transform; opacity: 1; transform: none}
+                                div [Variant 1] .framer-9bYeO.framer-NXcw2.framer-QXjqX.framer-3EFGW.framer-g1xn9f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; border-radius: 16px; opacity: 1}
+                                  div .framer-1oiw6wg {opacity: 1}
+                                    div .framer-87gscl {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-1tsnca {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "PostgridDB"
+                                    div .framer-1tkin3c {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-hwasvf {--framer-text-color: var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "52,091 entities"
+                                  div .framer-f9xi3y {opacity: 1}
+                                    div .framer-1f4g78s-container {opacity: 1}
+                                      div {width: 8px; height: 8px; border-radius: 9999px; background-color: var(--token-5e110c3f-82c1-4736-86cd-104cc5e3bfff, rgb(54, 197, 240)); position: relative}
+                                    div .framer-1thuluh {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Syncing"
+                              div appear=18u74t1 .framer-18u74t1-container {will-change: transform; opacity: 0.998899; transform: translateX(0.110163px)}
+                                div [Variant 1] .framer-9bYeO.framer-NXcw2.framer-QXjqX.framer-3EFGW.framer-g1xn9f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; border-radius: 16px; opacity: 1}
+                                  div .framer-1oiw6wg {opacity: 1}
+                                    div .framer-87gscl {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-1tsnca {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "HotSpot"
+                                    div .framer-1tkin3c {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-hwasvf {--framer-text-color: var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "52,091 entities"
+                                  div .framer-f9xi3y {opacity: 1}
+                                    div .framer-1f4g78s-container {opacity: 1}
+                                      div {width: 8px; height: 8px; border-radius: 9999px; background-color: var(--token-d5c4dbc3-b3ce-4d57-8583-5c04401312ab, rgb(249, 171, 0)); position: relative}
+                                    div .framer-1thuluh {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Pending"
+                div [Progress] .framer-1ak0sa5
+                  div .framer-i0hju5-container
+                    div {height:100%; mask-image:linear-gradient(0deg, #0000, #000 10%, #000 90%, #0000)}
+                      div {flex-direction: column; position: relative; transform: translateY(50%)}
+                        div {position:relative; top:100%}
+                          p {color: rgb(250, 250, 250)} "01"
+                          div {flex-direction:column; gap:10px}
+                            div {height: 1px; border-radius: 9999px; width: 61.7092%; background-color: rgb(237, 237, 237)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                        div {position:relative; top:100%}
+                          p {color: rgb(115, 115, 115)} "02"
+                          div {flex-direction:column; gap:10px}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                            div {height: 1px; border-radius: 9999px; width: 40%; background-color: rgb(115, 115, 115)}
+                        div {position:absolute; top:100%}
+                          p {color: rgb(115, 115, 115)} "03"
+                          div {flex-direction:column; gap:10px}
+                      div {width:5px; height:1px; background-color:rgb(250, 250, 250)}
+        div [Integrations] #integrations .framer-65i7ss
+          div [Container] .framer-vedlvf data-border
+            div
+              div .framer-ixio0v-container
+                div [End] .framer-kEcQz.framer-bd4w60 {width: 100%; opacity: 1}
+                  div [Left] .framer-t5arn {opacity: 1}
+                    div [b] .framer-u6zm30 {background-color: rgb(0, 0, 36); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                    div [g] .framer-1s7vawm {background-color: rgb(0, 37, 0); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                    div [r] .framer-1ndw0of {background-color: rgb(41, 0, 0); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                  div [Right] .framer-12bx2ig {opacity: 1}
+                    div [b] .framer-ddlp53 {background-color: rgb(0, 0, 36); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                    div [g] .framer-1is7c6b {background-color: rgb(0, 37, 0); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                    div [r] .framer-1j63n4i {background-color: rgb(41, 0, 0); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+            div [Context] .framer-19csyfa
+              div [Context] .framer-mjvzh3
+                div [Title] .framer-5t78lj {transform:none}
+                  h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Connect your stack"
+                div [Description] .framer-1i3vsvd {transform:none}
+                  p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Monitoring, code, observability, cloud, CI/CD systems, messaging, and even homegrown tooling."
+              div .framer-1419ixl-container
+                a [Variant 1] .framer-z2KqL.framer-95lQp.framer-15dzpeo.framer-6dl3ic href=./integrations {opacity: 1}
+                  div [Title] .framer-unk2by {transform: none; opacity: 1}
+                    p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "View integrations"
+                  button [Circular Button] .framer-1bs23ii {background-color: var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38)); border-radius: 52px; opacity: 1}
+                    svg .framer-ab47M.framer-ycs1mn viewBox=0 0 24 24 {opacity: 1}
+                      use href=#2903821725
+            div [Visual] .framer-n9voe3 {will-change: transform; opacity: 1; transform: none}
+              div
+                div .framer-6okzgi-container {will-change: transform; opacity: 1; transform: translateX(120px)}
+                  div [Desktop] .framer-kdORT.framer-LKFMZ.framer-jhxgU.framer-gdrllt data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                    div [Top Container] .framer-185hq2g data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; opacity: 1}
+                      div .framer-17ojuzp {transform: none; opacity: 1}
+                        p .framer-text.framer-styles-preset-hlupby {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "Connected sources"
+                    div [Content] .framer-83tgt0 {opacity: 1}
+                      div .framer-gh3cms-container {mask: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 22.0721%); opacity: 1}
+                        div {flex-direction:column; width:100%; height:100%; overflow:clip}
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [Chatdock] .framer-6xdufh-container {width: 100%; opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-OtoXu.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; opacity: 1; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Chatdock"
+                                  div [Info] .framer-1k1wxa9 {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; opacity: 1; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "9.841 conversations"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; opacity: 1; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "204 open"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [VaultDB] .framer-i8p0sv-container {width: 100%; opacity: 0; transform: translate3d(0px, 360px, 0px); transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; opacity: 0; transform: translate3d(0px, 69.585px, 0px); transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-VAmFs.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "VaultDB"
+                                  div [Info] .framer-1k1wxa9 {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "38 schemes"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "6.4M rows"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [Stride] .framer-1uvcff0-container {width: 100%; opacity: 0; transform: translate3d(0px, 360px, 0px); transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; opacity: 0; transform: translate3d(0px, 69.585px, 0px); transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-zS0tf.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Stride"
+                                  div [Info] .framer-1k1wxa9 {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "$2.4 MMR"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "1,204 subscriptions"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [ThreadBase] .framer-h8xx6f-container {width: 100%; opacity: 0; transform: translate3d(0px, 360px, 0px); transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; opacity: 0; transform: translate3d(0px, 69.585px, 0px); transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-TvQhD.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "ThreadBase"
+                                  div [Info] .framer-1k1wxa9 {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "42 channels"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "alerts enabled"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [Pipecloud] .framer-1ylbtto-container {width: 100%; transform: translate3d(0px, 360px, 0px); transform-origin: 50% 50% 0px; opacity: 0}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; transform: translate3d(0px, 69.585px, 0px); transform-origin: 50% 50% 0px; opacity: 0}
+                                div .framer-13c4gue {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                  img .framer-bqZNq.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                div [Content] .framer-9xyj0u {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                  div [Name] .framer-c89zoz {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Pipecloud"
+                                  div [Info] .framer-1k1wxa9 {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "874 accounts"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "12,400 records"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [Chatdock] .framer-6xdufh-container {width: 100%; transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                div .framer-13c4gue {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                  img .framer-OtoXu.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                div [Content] .framer-9xyj0u {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                  div [Name] .framer-c89zoz {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Chatdock"
+                                  div [Info] .framer-1k1wxa9 {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "9.841 conversations"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "204 open"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [VaultDB] .framer-i8p0sv-container {width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-VAmFs.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "VaultDB"
+                                  div [Info] .framer-1k1wxa9 {transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "38 schemes"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "6.4M rows"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [Stride] .framer-1uvcff0-container {width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-zS0tf.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Stride"
+                                  div [Info] .framer-1k1wxa9 {transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "$2.4 MMR"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "1,204 subscriptions"
+                          div {opacity: 1; transform: none; will-change: transform; transform-origin: 50% 50% 0px}
+                            div [ThreadBase] .framer-h8xx6f-container {width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-TvQhD.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "ThreadBase"
+                                  div [Info] .framer-1k1wxa9 {transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "42 channels"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "alerts enabled"
+                          div {opacity: 1; transform: none; will-change: transform; transform-origin: 50% 50% 0px}
+                            div [Pipecloud] .framer-1ylbtto-container {width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-bqZNq.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Pipecloud"
+                                  div [Info] .framer-1k1wxa9 {transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "874 accounts"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "12,400 records"
+                          div {opacity: 1; transform: none; will-change: transform}
+                            div [Chatdock] .framer-6xdufh-container {width: 100%; opacity: 1}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; opacity: 1}
+                                div .framer-13c4gue {opacity: 1}
+                                  img .framer-OtoXu.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {opacity: 1}
+                                div [Content] .framer-9xyj0u {opacity: 1}
+                                  div [Name] .framer-c89zoz {transform: none; opacity: 1}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Chatdock"
+                                  div [Info] .framer-1k1wxa9 {opacity: 1}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "9.841 conversations"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; opacity: 1}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "204 open"
+                      div [Right Column Grid] .framer-8euj4w data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; opacity: 1}
+                        div .framer-cylrhc-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-SGmg3.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-1i883q6-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-ymZ8h.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-ty9win-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-TvQhD.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-46yqfj-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-phRX5.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-1ee5na3-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-OtoXu.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-13lh168-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-wLgrk.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-1ttgjgi-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-zS0tf.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-pq2rio-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-Sb2xs.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-1wyi2ic-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-iCtWw.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-jd2sxu-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-OtoXu.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-1d0aftb-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-YfD14.framer-10j4wre src=data:image/svg+xml,<svg display="block" id="1524428453" role="presentation" viewBox="0 0 3  {filter:grayscale(1); opacity:0.5}
+                        div .framer-l327az-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-VAmFs.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-32528q-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-YfD14.framer-10j4wre src=data:image/svg+xml,<svg display="block" id="1524428453" role="presentation" viewBox="0 0 3  {filter:grayscale(1); opacity:0.5}
+                        div .framer-tifjbr-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-YfD14.framer-10j4wre src=data:image/svg+xml,<svg display="block" id="1524428453" role="presentation" viewBox="0 0 3  {filter:grayscale(1); opacity:0.5}
+                        div .framer-18e99bp-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-YfD14.framer-10j4wre src=data:image/svg+xml,<svg display="block" id="1524428453" role="presentation" viewBox="0 0 3  {filter:grayscale(1); opacity:0.5}
+                    div [Bottom Container] .framer-15nwmy8 data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; opacity: 1}
+                      div [Stats] .framer-1mlkfvk {opacity: 1}
+                        div .framer-1cs5ouk-container {opacity: 1}
+                          div [Variant 1] .framer-6SsJm.framer-dlOWH.framer-xwp0c1 {opacity: 1}
+                            div .framer-5mjxua {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "41.2M"
+                            div .framer-5s556i {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "records indexed"
+                        div .framer-faln48-container {opacity: 1}
+                          div [Variant 1] .framer-6SsJm.framer-dlOWH.framer-xwp0c1 {opacity: 1}
+                            div .framer-5mjxua {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "0"
+                            div .framer-5s556i {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "errors"
+                      div [Stats] .framer-4279vg {opacity: 1}
+                      div .framer-tkr0va {opacity: 1}
+                        div .framer-cdt6p {transform: none; opacity: 1}
+                          p .framer-text.framer-styles-preset-1unq4w "Add integration"
+                        div .framer-923ush-container {opacity: 1}
+                          a [Light / XS] .framer-ssUFK.framer-1qc2red.framer-1cr0tx1 href= {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38)); border-radius: 52px; opacity: 1}
+                            svg .framer-K11hZ.framer-3o11qm viewBox=0 0 24 24 {opacity: 1}
+                              use href=#3356954461
+        div [Testimonials] .framer-141n56s
+          div [Container] .framer-10ev3ja data-border
+            div
+              div .framer-1rn4xk5-container
+                div [Desktop 1] .framer-eo5xJ.framer-q6DkR.framer-snjYD.framer-bUi3T.framer-NXcw2.framer-3EFGW.framer-1jsvu {background-color: var(--token-7f40e4a1-2b83-444e-8765-465c7d3596ab, rgb(17, 15, 13)); width: 100%; opacity: 1}
+                  div [Content] .framer-h6gs46 {opacity: 1}
+                    div [Headline] .framer-11otw6d data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; opacity: 1}
+                      div .framer-1s1w1lk {transform: none; opacity: 1}
+                        h2 .framer-text.framer-styles-preset-1gn15j8 {--framer-text-color:var(--extracted-1of0zx5, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "12 hours"
+                      div .framer-12x9vft {transform: none; opacity: 1}
+                        p .framer-text.framer-styles-preset-onxyg3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "saved per week across the ops team"
+                    div [Testimonial and name] .framer-it7gdu {opacity: 1}
+                      div [Testimonial] .framer-r2x26v {opacity: 1}
+                        div [Filler] .framer-ekmnq7 {opacity: 1}
+                        div [Content] .framer-10oe2xi data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41, 37, 36)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; opacity: 1}
+                          div .framer-9s1s2w {transform: none; opacity: 1}
+                            p .framer-text.framer-styles-preset-onxyg3 {--framer-text-alignment:right; --framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249)))} ""Pulse caught a churn spike three weeks before our dashboards would have shown it. That gap used to cost us accounts.""
+                      div [Navigation and name] .framer-1x84j35 {opacity: 1}
+                        div [Navigation] .framer-1bgiywn {opacity: 1}
+                          div [Previous] .framer-187vqs7-container {opacity: 1}
+                            a [Disabled / SM] .framer-ssUFK.framer-1qc2red.framer-1cr0tx1 href= {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-5f5af133-2080-4ffb-a775-1ed7714f667c, rgb(68, 64, 59)); border-radius: 52px; opacity: 1}
+                              svg .framer-4rnSx.framer-3o11qm viewBox=0 0 24 24 {opacity: 1}
+                                use href=#3938257237
+                          div [Next] .framer-1y81spb-container {opacity: 1}
+                            a [Light / SM] .framer-ssUFK.framer-1qc2red.framer-1cr0tx1 href= {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38)); border-radius: 52px; opacity: 1}
+                              svg .framer-ab47M.framer-3o11qm viewBox=0 0 24 24 {opacity: 1}
+                                use href=#2903821725
+                        div [Name] .framer-ml0o2b {opacity: 1}
+                          div .framer-1ixlru9 {transform: none; opacity: 1}
+                            p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Priya Nair"
+                          div .framer-dbcwti {transform: none; opacity: 1}
+                            p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Head of Customer Success @ Fieldstone"
+                  div [Image] .framer-ezoypn {opacity: 1}
+                    div {position:absolute; border-radius:inherit; top:0; right:0; bottom:0; left:0}
+                      img src=https://framerusercontent.com/images/ydiaCWUrza6Xgn2ss3YWI3IFX7Y.png?lossless=1&width=560& (min-width: 1200px) 500px, (min-width: 8 {width:100%; height:100%; border-radius:inherit; object-fit:contain}
+            div
+              div .framer-1bxf2yj-container
+                div [End] .framer-kEcQz.framer-bd4w60 {width: 100%; opacity: 1}
+                  div [Left] .framer-t5arn {opacity: 1}
+                    div [b] .framer-u6zm30 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1s7vawm {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1ndw0of {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                  div [Right] .framer-12bx2ig {opacity: 1}
+                    div [b] .framer-ddlp53 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1is7c6b {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1j63n4i {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+        div [Statistics] #statistics .framer-1ycn8bz
+          div [Container] .framer-74z6vi data-border
+            div .framer-fjarzo
+              div .framer-1907mw0 {transform:none}
+                h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-alignment:start}
+                  span .framer-text {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Your team already has the data."
+                  span .framer-text {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Nordwell gives you the answers."
+            div .framer-1apfvab
+              div [Stat] .framer-n9q4h9
+                div [Stat1 Animation] .framer-l2pcl2-container
+                  div {height:100%; width:100%}
+                    svg viewBox=0 0 64 64 {width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px)}
+                      defs
+                        clippath #__lottie_element_2
+                          rect
+                      g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                div [Info] .framer-l7k635
+                  div [Stat Number] .framer-1woxgo9 {transform:none}
+                    h3 .framer-text.framer-styles-preset-4ysld2 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "16x"
+                  div [Description] .framer-1qqta5d {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Faster time-to-answer"
+              div [Stat] .framer-n3di6v
+                div [Stat2 Animation] .framer-q5w0ul-container
+                  div {height:100%; width:100%}
+                    svg viewBox=0 0 64 64 {width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px)}
+                      defs
+                        clippath #__lottie_element_35
+                          rect
+                      g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                            path
+                        g
+                          g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                            path
+                        g
+                          g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                div [Info] .framer-xi68tu
+                  div [Stat Number] .framer-jso7b9 {transform:none}
+                    h3 .framer-text.framer-styles-preset-4ysld2 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "47%"
+                  div [Description] .framer-1eajc11 {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Fewer tools needed"
+              div [Stat] .framer-1nhhc37
+                div [Stat3 Animation] .framer-vb4ntv-container
+                  div {height:100%; width:100%}
+                    svg viewBox=0 0 64 64 {width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px)}
+                      defs
+                        clippath #__lottie_element_98
+                          rect
+                      g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                div [Info] .framer-n3a516
+                  div [Stat Number] .framer-qhodmf {transform:none}
+                    h3 .framer-text.framer-styles-preset-4ysld2 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "80%"
+                  div [Description] .framer-17vmnuj {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Less time building reports"
+              div [Stat] .framer-ddxb04
+                div [Stat4 Animation] .framer-13nl88v-container
+                  div {height:100%; width:100%}
+                    svg viewBox=0 0 64 64 {width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px)}
+                      defs
+                        clippath #__lottie_element_176
+                          rect
+                      g
+                        g
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                div [Info] .framer-qbbwz8
+                  div [Stat Number] .framer-1xcn1by {transform:none}
+                    h3 .framer-text.framer-styles-preset-4ysld2 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "4.2hrs"
+                  div [Description] .framer-1nu5b4j {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Saved per team per week"
+            div
+              div .framer-qwko6a-container
+                div [End] .framer-kEcQz.framer-bd4w60 {width: 100%; opacity: 1}
+                  div [Left] .framer-t5arn {opacity: 1}
+                    div [b] .framer-u6zm30 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1s7vawm {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1ndw0of {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                  div [Right] .framer-12bx2ig {opacity: 1}
+                    div [b] .framer-ddlp53 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1is7c6b {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1j63n4i {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+        div [FAQ] .framer-ao75xt
+          div [Container] .framer-1l77w07 data-border
+            div [Label Stack] .framer-1qqompg
+              div .framer-1mboeyr {transform:none}
+                h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Frequently Asked Questions"
+              div .framer-1pmcp6q {transform:none}
+                p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Do you want to learn more about us, let’s go the blog page."
+            div
+              div .framer-s3f1c3-container {height: 352px}
+                div [Closed] .framer-uLM4K.framer-19006hw {width: 100%; opacity: 1}
+                  div .framer-1gsrymb-container {opacity: 1}
+                    div
+                  div .framer-h5e7md-container {opacity: 1}
+                    div [Closed] .framer-Bi957.framer-CZBut.framer-NXcw2.framer-18wxj0v data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; width: 100%; opacity: 1}
+                      div [Container] .framer-ictz1l {opacity: 1}
+                        div [Question Stack] .framer-z5btwm {opacity: 1}
+                          div [Center Question] .framer-107e5o5 {opacity: 1}
+                            div [Question] .framer-1jfysh1 {transform: none; opacity: 1}
+                              h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--extracted-a0htzi, var(--variable-reference-HTB2qJsvu-I971YUurv))} "What is an AI Agent?"
+                          div .framer-aauvgk-container {opacity: 1}
+                            div [Neutral] .framer-EOMkT.framer-1lhq47p {height: 100%; width: 100%; opacity: 1}
+                              div .framer-x6wdaz {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-1sbrqk7 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-ozn1zi {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-k9j781 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-v7vv1u {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                        div [Answer Stack] .framer-1jm0egw {opacity: 1}
+                          div [Answer] .framer-qajgrr {opacity:0; transform:none}
+                            p .framer-text.framer-styles-preset-1tsnca "An AI Agent is a task-specific assistant that automates workflows like scheduling, content creation, data processing, and more—without requiring any code."
+                      div [Right Padding] .framer-177fnaj {opacity: 1}
+                  div .framer-ogwfmp-container {opacity: 1}
+                    div [Closed] .framer-Bi957.framer-CZBut.framer-NXcw2.framer-18wxj0v data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; width: 100%; opacity: 1}
+                      div [Container] .framer-ictz1l {opacity: 1}
+                        div [Question Stack] .framer-z5btwm {opacity: 1}
+                          div [Center Question] .framer-107e5o5 {opacity: 1}
+                            div [Question] .framer-1jfysh1 {transform: none; opacity: 1}
+                              h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--extracted-a0htzi, var(--variable-reference-HTB2qJsvu-I971YUurv))} "Can I use multiple agents at the same time?"
+                          div .framer-aauvgk-container {opacity: 1}
+                            div [Neutral] .framer-EOMkT.framer-1lhq47p {height: 100%; width: 100%; opacity: 1}
+                              div .framer-x6wdaz {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-1sbrqk7 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-ozn1zi {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-k9j781 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-v7vv1u {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                        div [Answer Stack] .framer-1jm0egw {opacity: 1}
+                          div [Answer] .framer-qajgrr {opacity:0; transform:none}
+                            p .framer-text.framer-styles-preset-1tsnca "An AI Agent is a task-specific assistant that automates workflows like scheduling, content creation, data processing, and more—without requiring any code."
+                      div [Right Padding] .framer-177fnaj {opacity: 1}
+                  div .framer-1pskg02-container {opacity: 1}
+                    div [Closed] .framer-Bi957.framer-CZBut.framer-NXcw2.framer-18wxj0v data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; width: 100%; opacity: 1}
+                      div [Container] .framer-ictz1l {opacity: 1}
+                        div [Question Stack] .framer-z5btwm {opacity: 1}
+                          div [Center Question] .framer-107e5o5 {opacity: 1}
+                            div [Question] .framer-1jfysh1 {transform: none; opacity: 1}
+                              h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--extracted-a0htzi, var(--variable-reference-HTB2qJsvu-I971YUurv))} "How customizable are the agents?"
+                          div .framer-aauvgk-container {opacity: 1}
+                            div [Neutral] .framer-EOMkT.framer-1lhq47p {height: 100%; width: 100%; opacity: 1}
+                              div .framer-x6wdaz {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-1sbrqk7 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-ozn1zi {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-k9j781 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-v7vv1u {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                        div [Answer Stack] .framer-1jm0egw {opacity: 1}
+                          div [Answer] .framer-qajgrr {opacity:0; transform:none}
+                            p .framer-text.framer-styles-preset-1tsnca "An AI Agent is a task-specific assistant that automates workflows like scheduling, content creation, data processing, and more—without requiring any code."
+                      div [Right Padding] .framer-177fnaj {opacity: 1}
+                  div .framer-14v6e1s-container {opacity: 1}
+                    div [Closed] .framer-Bi957.framer-CZBut.framer-NXcw2.framer-18wxj0v data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; width: 100%; opacity: 1}
+                      div [Container] .framer-ictz1l {opacity: 1}
+                        div [Question Stack] .framer-z5btwm {opacity: 1}
+                          div [Center Question] .framer-107e5o5 {opacity: 1}
+                            div [Question] .framer-1jfysh1 {transform: none; opacity: 1}
+                              h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--extracted-a0htzi, var(--variable-reference-HTB2qJsvu-I971YUurv))} "What tools do the agents integrate with?"
+                          div .framer-aauvgk-container {opacity: 1}
+                            div [Neutral] .framer-EOMkT.framer-1lhq47p {height: 100%; width: 100%; opacity: 1}
+                              div .framer-x6wdaz {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-1sbrqk7 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-ozn1zi {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-k9j781 {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                              div .framer-v7vv1u {background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); border-radius: 1px; transform: translateY(-50%); opacity: 1}
+                        div [Answer Stack] .framer-1jm0egw {opacity: 1}
+                          div [Answer] .framer-qajgrr {opacity:0; transform:none}
+                            p .framer-text.framer-styles-preset-1tsnca "An AI Agent is a task-specific assistant that automates workflows like scheduling, content creation, data processing, and more—without requiring any code."
+                      div [Right Padding] .framer-177fnaj {opacity: 1}
+      div #overlay
+      div .framer-1lxel46
+      div .framer-13yx5bq-container
+        div {position:relative; height:100%; overflow:hidden}
+          svg viewBox= {position:absolute}
+            defs
+              filter #cr-0-5-6-6--4-0
+                fegaussianblur
+                feoffset
+                fecolormatrix
+                fecolormatrix
+                fecolormatrix
+                feoffset
+                feoffset
+                feoffset
+                feblend
+                feblend
+              filter #cr-1-5-6-6--4-0
+                fegaussianblur
+                feoffset
+                fecolormatrix
+                fecolormatrix
+                fecolormatrix
+                feoffset
+                feoffset
+                feoffset
+                feblend
+                feblend
+              filter #cr-2-5-6-6--4-0
+                fegaussianblur
+                feoffset
+                fecolormatrix
+                fecolormatrix
+                fecolormatrix
+                feoffset
+                feoffset
+                feoffset
+                feblend
+                feblend
+              filter #cr-3-5-6-6--4-0
+                fegaussianblur
+                feoffset
+                fecolormatrix
+                fecolormatrix
+                fecolormatrix
+                feoffset
+                feoffset
+                feoffset
+                feblend
+                feblend
+              filter #cr-4-5-6-6--4-0
+                fegaussianblur
+                feoffset
+                fecolormatrix
+                fecolormatrix
+                fecolormatrix
+                feoffset
+                feoffset
+                feoffset
+                feblend
+                feblend
+          div {position:absolute; transform:scaleX(1); backdrop-filter:url(#cr-0-5-6-6--4-0); mask-image:linear-gradient(to bottom, transparent 0%, black 20%, black 40%, transparent 60%)}
+          div {position:absolute; transform:scaleX(1); backdrop-filter:url(#cr-1-5-6-6--4-0); mask-image:linear-gradient(to bottom, transparent 20%, black 40%, black 60%, transparent 80%)}
+          div {position:absolute; transform:scaleX(1); backdrop-filter:url(#cr-2-5-6-6--4-0); mask-image:linear-gradient(to bottom, transparent 40%, black 60%, black 80%, transparent 100%)}
+          div {position:absolute; transform:scaleX(1); backdrop-filter:url(#cr-3-5-6-6--4-0); mask-image:linear-gradient(to bottom, transparent 60%, black 80%, black 100%, transparent 120%)}
+          div {position:absolute; transform:scaleX(1); backdrop-filter:url(#cr-4-5-6-6--4-0); mask-image:linear-gradient(to bottom, transparent 80%, black 100%, black 120%, transparent 140%)}
+      div [Footer Container] .framer-vjqi89 data-border
+        div [CTA] .framer-1aeo38i
+          div [Container] .framer-9aqjls
+            div .framer-1w558nd-container
+              div [Hidden] .framer-zhkea.framer-sm5shs {height: 100%; width: 100%; opacity: 1}
+                div .framer-17womtx-container {opacity: 1}
+                  div {position:relative; width:100%; height:100%; overflow:hidden}
+                    div {position:absolute; top:0; left:0; width:100%; height:100%; opacity:1}
+                      canvas {width: 1400px; height: 677px}
+            div .framer-qr3vrw
+              div .framer-o9bwxk {transform:none}
+                h2 .framer-text.framer-styles-preset-1gn15j8 {--framer-text-alignment:center; --framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Your data, finally connected"
+              div .framer-cq6zkv-container
+                a [Primary / XL] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=./pricing {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 245)); border-radius: 8px; opacity: 1}
+                  div .framer-1mqy83k {opacity: 1}
+                    div .framer-1fuw16a {transform: none; opacity: 1}
+                      p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-52462940-c15c-4103-9816-370bb3c11bfa, rgb(23, 23, 23)))} "Get started"
+        div [Footer] .framer-1xetojl
+          div [Container] .framer-66k0md
+            div [Links] .framer-wyzuea
+              div [Features Column] .framer-11jzkye
+                div .framer-10jdoq8 {transform:none}
+                  p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))} "Features"
+                div [Link Stack] .framer-htlo9p
+                  div .framer-1iyk8rt {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))}
+                      a .framer-text.framer-styles-preset-1ybqtif href=./features/cortex "Cortex"
+                  div .framer-t46ej0 {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./features/ask "Ask"
+                  div .framer-1exanjx {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./features/pulse "Pulse"
+              div [Company] .framer-i8ygc2
+                div .framer-ankizt {transform:none}
+                  p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))} "Company"
+                div [Link Stack] .framer-v9s6he
+                  div .framer-ep2gyo {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./pricing "Pricing"
+                  div .framer-1pjilpz {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./about-us "About"
+                  div .framer-q2vdhe {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./careers "Careers"
+                  div .framer-1odzm45 {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./blog "Blog"
+              div [Resources] .framer-1q8s67d
+                div .framer-1mlm0tb {transform:none}
+                  p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))} "Resources"
+                div [Link Stack] .framer-1giplbt
+                  div .framer-iig8n7 {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./integrations "Integrations"
+                  div .framer-te0pfw {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./changelog "Changelog"
+                  div .framer-nc7hme {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=https://www.framer.com/developers/ "Developer docs"
+                  div .framer-uv8dt {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=https://www.framer.com/help/ "Help Center"
+                  div .framer-66qyph {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./404 "404"
+              div [Connect] .framer-17009n1
+                div .framer-qk2vom {transform:none}
+                  p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))} "Connect"
+                div [Link Stack] .framer-vz9imr
+                  div
+                    div .framer-17izv7n-container
+                      a [Default] .framer-TbQBv.framer-NXcw2.framer-19ohtj.framer-16gc4hp href=https://x.com/kreativnik_ {opacity: 1}
+                        div .framer-15bmuku {transform: none; opacity: 1}
+                          p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "X"
+                        div .framer-l3hlb4 {opacity: 1}
+                          svg [Arrow hovered] .framer-HfmfX.framer-jd7xak viewBox=0 0 24 24 {opacity: 1}
+                            use href=#1475982494
+                          svg [Arrow default] .framer-HfmfX.framer-1o6fma8 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#1475982494
+                  div
+                    div .framer-17atud0-container
+                      a [Default] .framer-TbQBv.framer-NXcw2.framer-19ohtj.framer-16gc4hp href=https://linkedin.com/ {opacity: 1}
+                        div .framer-15bmuku {transform: none; opacity: 1}
+                          p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "LinkedIn"
+                        div .framer-l3hlb4 {opacity: 1}
+                          svg [Arrow hovered] .framer-HfmfX.framer-jd7xak viewBox=0 0 24 24 {opacity: 1}
+                            use href=#1475982494
+                          svg [Arrow default] .framer-HfmfX.framer-1o6fma8 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#1475982494
+                  div
+                    div .framer-1qtby9m-container
+                      a [Default] .framer-TbQBv.framer-NXcw2.framer-19ohtj.framer-16gc4hp href=https://github.com/ {opacity: 1}
+                        div .framer-15bmuku {transform: none; opacity: 1}
+                          p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "GitHub"
+                        div .framer-l3hlb4 {opacity: 1}
+                          svg [Arrow hovered] .framer-HfmfX.framer-jd7xak viewBox=0 0 24 24 {opacity: 1}
+                            use href=#1475982494
+                          svg [Arrow default] .framer-HfmfX.framer-1o6fma8 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#1475982494
+            div [Uptime Newsletter] .framer-1p5h1ve
+              div [Uptime] .framer-j8ngry data-border
+                div .framer-d8ia8i
+                  div .framer-ic5mpm-container
+                    div {width:6px; height:6px; border-radius:9999px; background-color:var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)); position:relative}
+                      div {border-radius: 9999px; position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; opacity: 0; transform: translateX(-50%) translateY(-50%); will-change: transform}
+                  div .framer-1qrftu8 {transform:none}
+                    p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "All systems operational"
+                div .framer-1rrzwpy data-border
+                div .framer-5jvd8e {transform:none}
+                  p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "99.98% UPTIME"
+              div [Newsletter] .framer-fqk3g9
+                div .framer-27d16y {transform:none}
+                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Updates on new features and releases."
+                div
+                  div .framer-1exlpg3-container
+                    form [Primary] .framer-e9zZI.framer-19cj0jd data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(18, 16, 14)); width: 100%; border-radius: 12px; opacity: 1}
+                      label .framer-s4lpcw {opacity: 1}
+                        div .framer-form-text-input.framer-form-input-wrapper.framer-rr54o1 {opacity: 1}
+                          input .framer-form-input.framer-form-input-empty
+                        div .framer-1jl1owp-container {opacity: 1}
+                          button [Default] .framer-DAIlr.framer-95lQp.framer-8aqxp0 {--border-bottom-width:0px; --border-color:rgba(0, 0, 0, 0); --border-left-width:0px; --border-right-width:0px; --border-style:solid; --border-top-width:0px; background-color:var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 244)); opacity:1}
+                            div .framer-1efjez1 {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-35e0c09c-bfbb-4fb7-9f38-c4d8879499d6, rgb(28, 25, 23)))} "Subscribe"
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+            div [Logo] .framer-138v7uv
+              div
+                div .framer-1oxx1b4 {height:auto; aspect-ratio:3.888235294117647}
+                  div {position:absolute; border-radius:inherit; top:0; right:0; bottom:0; left:0}
+                    img src=https://framerusercontent.com/images/lTfnHgIzLW7AyATpM5FEmbfm7Y.svg?width=1322&height=340 (min-width: 1200px) max(min(100vw - 128p {width:100%; height:100%; border-radius:inherit; object-fit:cover}
+            div [Copyright] .framer-15v4uw2
+              div .framer-868d6s {transform:none}
+                p .framer-text.framer-styles-preset-1unq4w {--framer-text-alignment:start; --framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))} "© 2026 Nordwell. All rights reserved."
+              div [Terms / Privacy] .framer-hllgs2
+                div .framer-psm4bz {transform:none}
+                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))}
+                    a .framer-text.framer-styles-preset-656phd href=./terms-of-service "Terms and Conditions"
+                div .framer-16ek34v {transform:none}
+                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))} "/"
+                div .framer-123xktd {transform:none}
+                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))}
+                    a .framer-text.framer-styles-preset-656phd href=./privacy-policy "Privacy Policy"
+    div #template-overlay
+  div #__framer-badge-container
+    a [Light] appear=n0ccwk .framer-6jWyo.framer-n0ccwk.framer-bmpgw8 href=https://www.framer.com {will-change: transform; opacity: 1; transform: none}
+      div [Backdrop] .framer-13yxzio {background-color: rgb(255, 255, 255); border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.17) 0px 0.602187px 1.56569px -1.5px, rgba(0, 0, 0, 0.14) 0px 2.28853px 5.95019px -3px, rgba(0, 0, 0, 0.02) 0px 10px 26px -4.5px; opacity: 1}
+      div [Content] .framer-19yaanm {transform: translate(-50%, -50%); opacity: 1}
+        div .framer-1kflzx5 {opacity: 1}
+          div [Logo] .framer-hcsc7.framer-e50co {transform: translateX(-50%); opacity: 1}
+        p {position:absolute; transform:scale(0.001)} "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+        div [Text] .framer-g7oZR.framer-1um7t9d {opacity: 1}
+      div [Bottom] .framer-j4ugry {mask:linear-gradient(180deg, rgba(0,0,0,0) 65%, rgba(0,0,0,1) 100%) add; box-shadow:inset 0px 0px 0px 1px rgb(0, 0, 0); opacity:0.06}
+      div [Border] .framer-jnuwbw {box-shadow:inset 0px 0px 0px 1px rgb(0, 0, 0); opacity:0.04}
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  div #svg-templates {position: absolute; overflow: hidden; bottom: 0; left: 0; width: 0; height: 0; z-index: 0}
+    svg #svg989859101_6374 viewBox=0 0 68 17
+      path
+    svg #4024583230 viewBox=0 0 24 24
+      path #HLE2KBXxw
+    svg #2652311070 viewBox=0 0 32 32
+      g #U7BR8rZvF
+        path #xGo_4W79J
+        path #RDIRdGsh1
+    svg #1081822090 viewBox=0 0 32 32
+      path #vAqN5IvED
+    svg #3915734215 viewBox=0 0 32 32
+      path #LiN_EWVIo
+    svg #894405547 viewBox=0 0 24 24
+      path #qgjqa0E2f
+      path #zX2BwIxyc
+      path #NhXbVmzAP
+      path #Ech_qkGQt
+    svg #168667647 viewBox=0 0 24 24
+      path #TwTaqyrYl
+      path #aqyRdduov
+      path #vcsAzj6gy
+    svg #3467097230 viewBox=0 0 24 24
+      path #YnobPTYMb
+      path #Cb0Gao21R
+      path #oPtuyu4df
+    svg #1475982494 viewBox=0 0 24 24
+      path #eMA3WLRa2
+      path #GBl_xBBAR
+    svg #2994208654 viewBox=0 0 24 24
+      path #DCz_eKU1_
+      path #UefoekZNv
+    svg #3338047389 viewBox=0 0 24 24
+      path #RhWX5SVPv
+    svg #2710857035 viewBox=0 0 24 24
+      path #qMvRy61Gj
+      path #YX0AMSC6b
+    svg #1175957644 viewBox=0 0 24 24
+      path #h3fQSrHEV
+      path #DAe82Eor1
+    svg #1683057900 viewBox=0 0 24 24
+      path #H0e0DY6wX
+      path #lyEbIwhdl
+      path #u8veTH5VY
+      path #zVB7Jt0M5
+      path #cmU_6vqjH
+      path #syKHH9hYm
+    svg #3596125116 viewBox=0 0 24 24
+      path #re4On3fjR
+      path #v8z1jiP7Q
+    svg #3356954461 viewBox=0 0 24 24
+      path #For6a1EEX
+      path #TzsgOXd8_
+    svg #89488612 viewBox=0 0 24 24
+      path #sQebFYBmq
+      path #cOmxC0ewm
+    svg #3092554709 viewBox=0 0 24 24
+      path #TmLtxFDZF
+      path #aMXHiOKfR
+      path #iZJ75j7x2
+    svg #3261614140 viewBox=0 0 24 24
+      path #grXgRGRwT
+    svg #2932616460 viewBox=0 0 24 24
+      path #XEjDMegtD
+      path #zWuobGV0h
+      path #VbFmdcJ5s
+      path #RlWX3ZVBC
+      path #pWNSw4YsW
+      path #k_KiBUvYK
+    svg #264992356 viewBox=0 0 24 24
+      path #orezxny2k
+      path #dwplQdo2L
+      path #YeZkzjb36
+      path #ApXt90oBQ
+    svg #213763526 viewBox=0 0 24 24
+      path #aa0_kl39i
+      path #W_Daewqtr
+      path #YKTpx3UnI
+      path #izswKZrxa
+    svg #884851057 viewBox=0 0 24 24
+      path #amheqqsnq
+      path #QmGujlnTx
+      path #Y6G69eNbx
+      path #XWiYSrJ5V
+      path #LOgRbYhoN
+      path #ZNEZNunWe
+    svg #53866765 viewBox=0 0 24 24
+      path #ukvWaYjrN
+      path #D7xKZoPgF
+      path #mqenzy8XA
+    svg #1401005312 viewBox=0 0 24 24
+      path #aP5zdXwmI
+      path #ncwMIv6Me
+      path #ikSTP5JZE
+    svg #3408069395 viewBox=0 0 24 24
+      path #e9aJn0Y5L
+    svg #1916995349 viewBox=0 0 24 24
+      path #bXmwfIzRh
+      path #UxuEmzpw0
+      path #YOIcUFfyp
+      path #ncQ1ZfAOz
+      path #rPUYiOoVD
+    svg #2876127492 viewBox=0 0 24 24
+      path #ZxjJRoZxm
+      path #PjpBQCqv7
+      path #mVN5CaRn4
+      path #mwuSxJ4l6
+    svg #2119597464 viewBox=0 0 24 24
+      path #i3V_jWw03
+      path #gummO5dPs
+      path #TDCapEb9E
+    svg #2903821725 viewBox=0 0 24 24
+      path #sVN6YVZ9m
+    svg #1954469862 viewBox=0 0 24 24
+      path #lRa5aMIvl
+    svg #3349784521 viewBox=0 0 24 24
+      path #qVhBgUD6j
+      path #Miz7vjleD
+      path #sH1zH94Y0
+    svg #1964716429 viewBox=0 0 24 24
+      path #hcHA2C5st
+      path #ZAqD2RINr
+      path #MNtNfZHrB
+      path #I67De7qxl
+      path #RIPlADMlw
+    svg #3286913657 viewBox=0 0 24 24
+      path #pZ75QlU3d
+      path #eABNb348d
+    svg #1875504585 viewBox=0 0 24 24
+      path #kJIhrzQQc
+      path #jnwMZpt68
+      path #HsVIFjffY
+    svg #2166604194 viewBox=0 0 24 24
+      path #U6QRG3DEX
+      path #buDqUFGrc
+      path #BuSa4Tsbc
+      path #FbqLuQ_Tn
+    svg #3938257237 viewBox=0 0 24 24
+      path #rhFEz5mBN
+    svg #3129714398 viewBox=0 0 24 24
+      path #QQF7l1mpC
+      path #vyifHs41F
+      path #s5itKx3lG
+  iframe #__framer-editorbar

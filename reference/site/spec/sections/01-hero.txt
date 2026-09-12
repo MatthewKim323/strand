@@ -1,0 +1,174 @@
+##### TREE #####
+        div [Hero] #hero .framer-1w7wuhd
+          div [Container] .framer-jurjgy data-border
+            div [New Container] appear=dp7izi .framer-dp7izi data-border {opacity: 1; transform: none; will-change: transform}
+              div
+                div .framer-r7yxnk-container
+                  a [Variant 1] .framer-QjZ00.framer-1hpvfsx.framer-102di93 href=./blog/introducing-ask-query-your-entire-stack-in-plain-language {width: 100%; opacity: 1}
+                    div .framer-viz05f-container {opacity: 1}
+                      div [Primary] .framer-mEJFY.framer-jhxgU.framer-LKFMZ.framer-x4g6b3 data-border {--border-bottom-width: 1px; --border-color: var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 321px; opacity: 1}
+                        div .framer-6ojv5w {transform: none; opacity: 1}
+                          p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "New"
+                    div [Message] .framer-10o8lwh {opacity: 1}
+                      div .framer-1m0muau-container {transform: translateY(-50%); opacity: 1}
+                        div [Primary] .framer-AfnJr.framer-17evz1o {mask: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 10%, rgb(0, 0, 0) 90%, rgba(0, 0, 0, 0) 100%); opacity: 1}
+                          div [Set 2 -3] .framer-gogk9y {background-color:var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); opacity:0}
+                          div [Set 2 -2] .framer-1xm8b4i {background-color:var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); opacity:0}
+                          div [Set 3 -1] .framer-14d3uid {background-color:var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); opacity:0}
+                          div [Set 1 -3] .framer-1s74r8s {background-color:var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); opacity:1}
+                          div [Set 1 -2] .framer-mweelx {background-color:var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); opacity:1}
+                          div [Set 1 -1] .framer-1597kz4 {background-color:var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161)); opacity:1}
+                      div .framer-18d75j4-container {opacity: 1}
+                        div {overflow:hidden; mask-image:none}
+                          div {flex-shrink:0; color:white; width:max-content}
+                            p {padding:0px 40px 0px 0px; transform:none} "Introducing Ask: Query your entire stack in plain language"
+            div [Content] .framer-qcgctf
+              div
+                div [Main Title] .framer-133zkvp
+                  div [Title Container] .framer-1gdcm2d
+                    div [Container] .framer-1akirha
+                      div appear=1jsercw .framer-1jsercw {opacity: 1; transform: none; will-change: transform}
+                        h1 .framer-text.framer-styles-preset-19ingv {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "The missing connection layer"
+                      div appear=1b2lh6y .framer-1b2lh6y {opacity: 1; transform: none; will-change: transform}
+                        p .framer-text.framer-styles-preset-1tsnca {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Nordwell builds a living knowledge graph across every tool in your stack. Ask questions in plain language. Get answers no single source could provide alone."
+                    div [CTAs] appear=13ye9y3 .framer-13ye9y3 {opacity: 1; transform: none; will-change: transform}
+                      div .framer-122b7gn-container
+                        a [Primary / XL] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=./pricing {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 245)); height: 100%; border-radius: 8px; opacity: 1}
+                          div .framer-1mqy83k {opacity: 1}
+                            div .framer-1fuw16a {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-52462940-c15c-4103-9816-370bb3c11bfa, rgb(23, 23, 23)))} "Connect a source"
+                      div .framer-1yjtgfi-container
+                        a [Secondary / XL] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=./contact-us data-border {--border-bottom-width: 1px; --border-color: var(--token-d77c8f0f-067e-4a45-ac82-2913bb2aee68, rgb(34, 34, 34)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-49f482bf-7282-4f8a-9849-f4d6c5f1f94c, rgb(38, 38, 38)); height: 100%; border-radius: 8px; opacity: 1}
+                          div .framer-1mqy83k {opacity: 1}
+                            div .framer-1fuw16a {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-d374d93c-0fe8-421f-a111-c491a4a873a6, rgb(245, 245, 245)))} "Book a demo"
+              div [Main Graphic] .framer-14ucdac
+                div .framer-1t7pn02-container
+                  div
+                    div {position:relative; width:100%; height:100%; overflow:hidden}
+                      div {position:absolute; top:0; left:0; width:100%; height:100%; opacity:1}
+                        canvas {width: 562px; height: 643px}
+
+##### CSS #####
+@base | .framer-nnJOX.framer-m5ryuf, .framer-nnJOX .framer-m5ryuf
+    display:block
+@base | .framer-nnJOX.framer-dfxefx
+    cursor:pointer;height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:4px;width:min-content;padding:10px;text-decoration:none;display:flex;position:relative
+@base | .framer-nnJOX .framer-mn890o
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,24px);flex:none;width:16px;position:relative
+@base | .framer-nnJOX .framer-1mqy83k
+    flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:min-content;height:min-content;padding:0 6px;display:flex;position:relative;overflow:visible
+@base | .framer-nnJOX .framer-1fuw16a
+    -webkit-user-select:none;user-select:none;white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-nnJOX .framer-10czdf1
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,16px);flex:none;width:16px;position:relative
+@base | .framer-nnJOX.framer-v-1njn1iu.framer-dfxefx, .framer-nnJOX.framer-v-1pdy1bv.framer-dfxefx, .framer-nnJOX.framer-v-1m7eu8f.framer-dfxefx, .framer-nnJOX.framer-v-184kbnb.framer-dfxefx
+    padding:8px
+@base | .framer-nnJOX.framer-v-1sdqvh4.framer-dfxefx, .framer-nnJOX.framer-v-1prbrrf.framer-dfxefx, .framer-nnJOX.framer-v-8fxu37.framer-dfxefx, .framer-nnJOX.framer-v-mso3yc.framer-dfxefx
+    padding:6px
+@base | .framer-nnJOX[data-border=true]:after, .framer-nnJOX [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-KmWmf .framer-1w7wuhd
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-KmWmf .framer-jurjgy
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#222);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:flex-start;align-items:flex-start;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-KmWmf .framer-dp7izi
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:0px;height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center flex-start;align-items:center;gap:0;width:50%;padding:0;display:flex;position:relative
+@base | .framer-KmWmf .framer-qcgctf
+    flex:none;grid-template-rows:repeat(1,minmax(0,1fr));grid-template-columns:repeat(2,minmax(50px,1fr));grid-auto-rows:minmax(0,1fr);justify-content:center;gap:0;width:100%;height:578px;padding:0;display:grid;position:relative;overflow:visible
+@base | .framer-KmWmf .framer-133zkvp
+    height:100%;overflow:clip;flex-flow:column;flex:none;place-content:center;place-self:start;align-items:center;gap:0;width:100%;padding:40px;display:flex;position:relative
+@base | .framer-KmWmf .framer-1gdcm2d
+    flex-flow:column;flex:none;place-content:center;align-items:center;gap:40px;width:100%;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-KmWmf .framer-1akirha
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:20px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-KmWmf .framer-1jsercw, .framer-KmWmf .framer-1b2lh6y
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-KmWmf .framer-13ye9y3
+    flex-flow:row;flex:none;place-content:center flex-start;align-items:center;gap:12px;width:100%;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-KmWmf .framer-14ucdac
+    flex-flow:column;flex:none;place-content:center flex-end;place-self:start;align-items:center;gap:16px;width:100%;height:100%;padding:0;display:flex;position:relative;overflow:visible
+@media (min-width:810px) and (max-width:1199.98px) | .framer-KmWmf .framer-1w7wuhd
+    padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-KmWmf .framer-jurjgy
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (min-width:810px) and (max-width:1199.98px) | .framer-KmWmf .framer-1gdcm2d
+    gap:32px
+@media (min-width:810px) and (max-width:1199.98px) | .framer-KmWmf .framer-14ucdac
+    justify-content:center
+@media (max-width:809.98px) | .framer-KmWmf .framer-1w7wuhd
+    padding:0
+@media (max-width:809.98px) | .framer-KmWmf .framer-jurjgy
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (max-width:809.98px) | .framer-KmWmf .framer-dp7izi
+    width:100%
+@media (max-width:809.98px) | .framer-KmWmf .framer-qcgctf
+    flex-flow:column;align-content:center;align-items:center;height:min-content;display:flex
+@media (max-width:809.98px) | .framer-KmWmf .framer-133zkvp
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#292524);--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:0px;align-self:unset;order:1;height:min-content;padding:40px 20px
+@media (max-width:809.98px) | .framer-KmWmf .framer-1gdcm2d
+    gap:32px
+@media (max-width:809.98px) | .framer-KmWmf .framer-1akirha
+    gap:12px
+@media (max-width:809.98px) | .framer-KmWmf .framer-13ye9y3
+    justify-content:center
+@media (max-width:809.98px) | .framer-KmWmf .framer-14ucdac
+    align-self:unset;order:0;justify-content:center;height:484px
+@base | .framer-95lQp .framer-styles-preset-1h9i0d0:not(.rich-text-wrapper), .framer-95lQp .framer-styles-preset-1h9i0d0.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:14px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-QjZ00.framer-102di93, .framer-QjZ00 .framer-102di93
+    display:block
+@base | .framer-QjZ00.framer-1hpvfsx
+    cursor:pointer;height:min-content;overflow:clip;padding:var(--37nty6);flex-flow:row;place-content:center;align-items:center;gap:8px;width:536px;text-decoration:none;display:flex;position:relative
+@base | .framer-QjZ00 .framer-viz05f-container
+    flex:none;width:auto;height:auto;position:relative
+@base | .framer-QjZ00 .framer-10o8lwh
+    flex-flow:row;flex:1 0 0;place-content:center flex-start;align-items:center;gap:8px;width:1px;height:24px;padding:0 0 0 24px;display:flex;position:relative;overflow:visible
+@base | .framer-QjZ00 .framer-1m0muau-container
+    z-index:1;flex:none;width:auto;height:auto;position:absolute;top:50%;left:0
+@base | .framer-QjZ00 .framer-18d75j4-container
+    flex:1 0 0;width:1px;height:auto;position:relative
+@base | .framer-QjZ00.framer-v-1hpvfsx.hover .framer-1m0muau-container
+    left:4px
+@base | .framer-mEJFY.framer-p3rkaa, .framer-mEJFY .framer-p3rkaa
+    display:block
+@base | .framer-mEJFY.framer-x4g6b3
+    height:min-content;overflow:clip;flex-flow:column;place-content:center;align-items:center;gap:16px;width:min-content;padding:4px 8px;display:flex;position:relative
+@base | .framer-mEJFY .framer-6ojv5w
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-mEJFY.framer-v-12uk5iq.framer-x4g6b3
+    padding:4px 16px
+@base | .framer-mEJFY.framer-v-2pt6sq.framer-x4g6b3
+    padding:2px 8px
+@base | .framer-jhxgU .framer-styles-preset-1unq4w:not(.rich-text-wrapper), .framer-jhxgU .framer-styles-preset-1unq4w.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:12px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:16px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-LKFMZ .framer-styles-preset-hlupby:not(.rich-text-wrapper), .framer-LKFMZ .framer-styles-preset-hlupby.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:11px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:15px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-mEJFY[data-border=true]:after, .framer-mEJFY [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-AfnJr.framer-mcwv44, .framer-AfnJr .framer-mcwv44
+    display:block
+@base | .framer-AfnJr.framer-17evz1o
+    width:16px;height:16px;position:relative;overflow:visible
+@base | .framer-AfnJr .framer-gogk9y
+    height:2px;overflow:clip;flex:none;width:2px;position:absolute;top:4px;left:-10px
+@base | .framer-AfnJr .framer-1xm8b4i
+    height:2px;overflow:clip;flex:none;width:2px;position:absolute;top:10px;left:-10px
+@base | .framer-AfnJr .framer-14d3uid
+    height:2px;overflow:clip;flex:none;width:2px;position:absolute;top:7px;left:-7px
+@base | .framer-AfnJr .framer-1s74r8s
+    height:2px;overflow:clip;flex:none;width:2px;position:absolute;top:4px;left:6px
+@base | .framer-AfnJr .framer-mweelx
+    height:2px;overflow:clip;flex:none;width:2px;position:absolute;top:10px;left:6px
+@base | .framer-AfnJr .framer-1597kz4
+    height:2px;overflow:clip;flex:none;width:2px;position:absolute;top:7px;left:9px
+@base | .framer-AfnJr.framer-v-113rvo7 .framer-gogk9y, .framer-AfnJr.framer-v-113rvo7 .framer-1xm8b4i
+    left:6px
+@base | .framer-AfnJr.framer-v-113rvo7 .framer-14d3uid
+    left:9px
+@base | .framer-AfnJr.framer-v-113rvo7 .framer-1s74r8s
+    left:unset;right:-8px
+@base | .framer-AfnJr.framer-v-113rvo7 .framer-mweelx
+    left:22px
+@base | .framer-AfnJr.framer-v-113rvo7 .framer-1597kz4
+    left:25px

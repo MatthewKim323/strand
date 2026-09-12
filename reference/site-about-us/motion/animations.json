@@ -1,0 +1,1959 @@
+{
+ "capturedAt": "2026-09-12T09:57:36.741Z",
+ "stack": {
+  "framework": "framer",
+  "framer": true,
+  "framerMotion": true,
+  "webflow": true,
+  "lenis": true,
+  "gsap": false,
+  "three": false,
+  "spline": false,
+  "notes": [
+   "Built with Framer: appear ids, data-framer-name, framerusercontent modules. Use `1to1 prep` + `1to1 rip`.",
+   "Lenis smooth scroll present: window.scrollTo may be overridden, rigs fall back to wheel events.",
+   "1 canvas element(s): WebGL / 2D drawing to port (find the module that draws it)."
+  ]
+ },
+ "computed": [
+  {
+   "selector": "html.lenis.lenis-autoToggle",
+   "tag": "html",
+   "text": "Strand - AI Data Intelligence Platform\n    \n    \n    \n    \n ",
+   "transition": "overflow 0.001s ease 0s",
+   "framer": {}
+  },
+  {
+   "selector": "html.lenis.lenis-autoToggle > head > style",
+   "tag": "style",
+   "text": "html,body,#main{box-sizing:border-box;margin:0;padding:0}:ro",
+   "framer": {
+    "framerComponents": "framer-lib-cursors-host framer-2U5dV PropertyOverrides framer-Ixlxu framer-lib-combinedCSSRules framer-Hi6IO framer-YfD1"
+   }
+  },
+  {
+   "selector": "html.lenis.lenis-autoToggle > head > style",
+   "tag": "style",
+   "framer": {
+    "framerCss": "true"
+   }
+  },
+  {
+   "selector": "div",
+   "tag": "div",
+   "text": ":root body { background: var(--token-7f40e4a1-2b83-444e-8765",
+   "framer": {
+    "framerHydrateV2": "{\"routeId\":\"whgjrDZk6\",\"localeId\":\"default\",\"breakpoints\":[{\"hash\":\"1twg9ya\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\"",
+    "framerSsrReleasedAt": "2026-08-24T09:50:12.472Z",
+    "framerPageOptimizedAt": "2026-08-25T15:19:48.017Z"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerAppearId": "w6pet3"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerName": "Details"
+   }
+  },
+  {
+   "selector": "div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrand",
+   "framer": {
+    "framerName": "Purchase Template"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l",
+   "tag": "div",
+   "text": "StrandTemplate",
+   "framer": {
+    "framerName": "Template Name"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l > div.framer-1y4sdjl",
+   "tag": "div",
+   "text": "Strand",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l > div.framer-1dltf4q",
+   "tag": "div",
+   "text": "Template",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6",
+   "tag": "div",
+   "text": "PurchaseStrand",
+   "framer": {
+    "framerName": "Template Name"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6 > div.framer-1nwln5j",
+   "tag": "div",
+   "text": "Purchase",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6 > div.framer-xmkk33",
+   "tag": "div",
+   "text": "Strand",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w",
+   "tag": "div",
+   "text": "from$109",
+   "framer": {
+    "framerName": "Starting from"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w > div.framer-a14xbr",
+   "tag": "div",
+   "text": "from",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w > div.framer-5r25d2",
+   "tag": "div",
+   "text": "$109",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-dkby0a",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-dkby0a > div.framer-15d7y5z > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-gu3ill",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Navigation"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-gu3ill > div.framer-2zulxl",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-gu3ill > div.framer-2zulxl > div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-2zulxl > div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Nav Stack"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAbout",
+   "framer": {
+    "framerName": "Main Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > a.framer-tfxiwl.framer-1nrg7n2",
+   "tag": "a",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > a.framer-tfxiwl.framer-1nrg7n2 > div.framer-6rl07u",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG",
+    "framerName": "Union"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAbout",
+   "framer": {
+    "framerName": "Navigation Menu"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Features",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Right Icon"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerName": "Resources"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Resources",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Right Icon"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1jhb7w3-container",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Pricing"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1jhb7w3-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-1jhb7w3-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1fx5otc-container",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerName": "About"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1fx5otc-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "About",
+   "framer": {
+    "framerName": "Ghost / LG",
+    "framerPageLinkCurrent": "true"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-1fx5otc-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Buttons"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0 > div.framer-ttq5lt-container",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Sign up"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0 > div.framer-ttq5lt-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / LG"
+   }
+  },
+  {
+   "selector": "div.framer-rq3bc0 > div.framer-ttq5lt-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-zXrFn.framer-vPIT1 > div.framer-121fy2c",
+   "tag": "div",
+   "text": "About usOriginsWe came from companies where the data existed",
+   "framer": {
+    "framerName": "About us"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-zXrFn.framer-vPIT1 > div.framer-121fy2c > div.framer-1juuju8",
+   "tag": "div",
+   "text": "About usOriginsWe came from companies where the data existed",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-zXrFn.framer-vPIT1 > div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l",
+   "tag": "div",
+   "text": "About usOriginsWe came from companies where the data existed",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div.framer-zXrFn.framer-vPIT1 > div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-19xwfye",
+   "tag": "div",
+   "text": "About us",
+   "framer": {
+    "framerName": "Title Container"
+   }
+  },
+  {
+   "selector": "div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-19xwfye > div.framer-100a7vg",
+   "tag": "div",
+   "text": "About us",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-zXrFn.framer-vPIT1 > div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-x5u0qu",
+   "tag": "div",
+   "text": "OriginsWe came from companies where the data existed but the",
+   "framer": {
+    "framerName": "Origins"
+   }
+  },
+  {
+   "selector": "div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-x5u0qu > div.framer-17cibnu",
+   "tag": "div",
+   "text": "Origins",
+   "framer": {
+    "framerName": "Title Container"
+   }
+  },
+  {
+   "selector": "div.framer-1juuju8 > div.framer-1o55p0l > div.framer-x5u0qu > div.framer-17cibnu > div.framer-u2hvbr",
+   "tag": "div",
+   "text": "Origins",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-x5u0qu > div.framer-1l67s3",
+   "tag": "div",
+   "text": "We came from companies where the data existed but the answer",
+   "framer": {
+    "framerName": "Origins Text"
+   }
+  },
+  {
+   "selector": "div.framer-1juuju8 > div.framer-1o55p0l > div.framer-x5u0qu > div.framer-1l67s3 > div.framer-18igv24",
+   "tag": "div",
+   "text": "We came from companies where the data existed but the answer",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-x5u0qu > div.framer-p8e62m",
+   "tag": "div",
+   "text": "$12MFunding raisedFounded:2025Location:San Francisco, CATeam",
+   "framer": {
+    "framerName": "Stats"
+   }
+  },
+  {
+   "selector": "div.framer-1juuju8 > div.framer-1o55p0l > div.framer-x5u0qu > div.framer-p8e62m > div.framer-cq1kb",
+   "tag": "div",
+   "text": "$12MFunding raised",
+   "framer": {
+    "framerName": "Funds Raised"
+   }
+  },
+  {
+   "selector": "div.framer-1o55p0l > div.framer-x5u0qu > div.framer-p8e62m > div.framer-cq1kb > div.framer-11zuolz",
+   "tag": "div",
+   "text": "$12M",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1o55p0l > div.framer-x5u0qu > div.framer-p8e62m > div.framer-cq1kb > div.framer-5sfrwj",
+   "tag": "div",
+   "text": "Funding raised",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1juuju8 > div.framer-1o55p0l > div.framer-x5u0qu > div.framer-p8e62m > div.framer-15pjxej",
+   "tag": "div",
+   "text": "Founded:2025Location:San Francisco, CATeam size:7 people",
+   "framer": {
+    "framerName": "Team Facts"
+   }
+  },
+  {
+   "selector": "div.framer-1o55p0l > div.framer-x5u0qu > div.framer-p8e62m > div.framer-15pjxej > div.framer-1c9zzcd",
+   "tag": "div",
+   "text": "Founded:2025",
+   "framer": {
+    "framerName": "Founded"
+   }
+  },
+  {
+   "selector": "div.framer-x5u0qu > div.framer-p8e62m > div.framer-15pjxej > div.framer-1c9zzcd > div.framer-1kymr94",
+   "tag": "div",
+   "text": "Founded:",
+   "framer": {
+    "framerName": "Founded:",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-x5u0qu > div.framer-p8e62m > div.framer-15pjxej > div.framer-1c9zzcd > div.framer-2e4ma5",
+   "tag": "div",
+   "text": "2025",
+   "framer": {
+    "framerName": "2025",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1o55p0l > div.framer-x5u0qu > div.framer-p8e62m > div.framer-15pjxej > div.framer-oyjbo7",
+   "tag": "div",
+   "text": "Location:San Francisco, CA",
+   "framer": {
+    "framerName": "Location"
+   }
+  },
+  {
+   "selector": "div.framer-x5u0qu > div.framer-p8e62m > div.framer-15pjxej > div.framer-oyjbo7 > div.framer-118ih5j",
+   "tag": "div",
+   "text": "Location:",
+   "framer": {
+    "framerName": "Location:",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-x5u0qu > div.framer-p8e62m > div.framer-15pjxej > div.framer-oyjbo7 > div.framer-12nmt09",
+   "tag": "div",
+   "text": "San Francisco, CA",
+   "framer": {
+    "framerName": "San Francisco, CA",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1o55p0l > div.framer-x5u0qu > div.framer-p8e62m > div.framer-15pjxej > div.framer-1elq0s3",
+   "tag": "div",
+   "text": "Team size:7 people",
+   "framer": {
+    "framerName": "Team Size"
+   }
+  },
+  {
+   "selector": "div.framer-x5u0qu > div.framer-p8e62m > div.framer-15pjxej > div.framer-1elq0s3 > div.framer-10l06w",
+   "tag": "div",
+   "text": "Team size:",
+   "framer": {
+    "framerName": "Team size:",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-x5u0qu > div.framer-p8e62m > div.framer-15pjxej > div.framer-1elq0s3 > div.framer-1y8h0em",
+   "tag": "div",
+   "text": "7 people",
+   "framer": {
+    "framerName": "7 people",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-zXrFn.framer-vPIT1 > div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-sk9zzh",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerName": "Partners"
+   }
+  },
+  {
+   "selector": "div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-sk9zzh > div.framer-3rehfc",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerName": "Title Container"
+   }
+  },
+  {
+   "selector": "div.framer-1juuju8 > div.framer-1o55p0l > div.framer-sk9zzh > div.framer-3rehfc > div.framer-nb4qt5",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerName": "Title"
+   }
+  },
+  {
+   "selector": "div.framer-1o55p0l > div.framer-sk9zzh > div.framer-3rehfc > div.framer-nb4qt5 > div.framer-gm3m9r",
+   "tag": "div",
+   "text": "Trusted by 56+ teams who are tired of tab-switching",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-sk9zzh > div.framer-1mgerka",
+   "tag": "div",
+   "framer": {
+    "framerName": "Ticker Container"
+   }
+  },
+  {
+   "selector": "div.framer-sk9zzh > div.framer-1mgerka > div.ssr-variant > div.framer-knmy79-container > div.framer-kEcQz.framer-bd4w60",
+   "tag": "div",
+   "framer": {
+    "framerName": "End"
+   }
+  },
+  {
+   "selector": "div.framer-1mgerka > div.ssr-variant > div.framer-knmy79-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Left"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-knmy79-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-u6zm30",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-knmy79-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1s7vawm",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-knmy79-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1ndw0of",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-1mgerka > div.ssr-variant > div.framer-knmy79-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-knmy79-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-ddlp53",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-knmy79-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1is7c6b",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-knmy79-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1j63n4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-zXrFn.framer-vPIT1 > div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-1cgvprt",
+   "tag": "div",
+   "text": "MilestonesJanuary 2023Strand foundedJune 2023Cortex v1 shipp",
+   "framer": {
+    "framerName": "Milestones"
+   }
+  },
+  {
+   "selector": "div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-1cgvprt > div.framer-ztmqmh",
+   "tag": "div",
+   "text": "Milestones",
+   "framer": {
+    "framerName": "Title Container"
+   }
+  },
+  {
+   "selector": "div.framer-1juuju8 > div.framer-1o55p0l > div.framer-1cgvprt > div.framer-ztmqmh > div.framer-1sdolyv",
+   "tag": "div",
+   "text": "Milestones",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-1cgvprt > div.framer-1k39pj1",
+   "tag": "div",
+   "text": "January 2023Strand foundedJune 2023Cortex v1 shippedSeptembe",
+   "framer": {
+    "framerName": "Milestones Timeline"
+   }
+  },
+  {
+   "selector": "div.framer-1cgvprt > div.framer-1k39pj1 > div.ssr-variant > div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU",
+   "tag": "div",
+   "text": "January 2023Strand foundedJune 2023Cortex v1 shippedSeptembe",
+   "framer": {
+    "framerName": "Milestone 1"
+   }
+  },
+  {
+   "selector": "div.framer-1k39pj1 > div.ssr-variant > div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917",
+   "tag": "div",
+   "text": "January 2023Strand foundedJune 2023Cortex v1 shippedSeptembe",
+   "framer": {
+    "framerName": "Milestones"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-r0aaei",
+   "tag": "div",
+   "text": "January 2023Strand founded",
+   "framer": {
+    "framerName": "Milestone 1"
+   }
+  },
+  {
+   "selector": "div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-r0aaei > div.framer-sc3hjf",
+   "tag": "div",
+   "framer": {
+    "framerName": "Timeline"
+   }
+  },
+  {
+   "selector": "div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-r0aaei > div.framer-sc3hjf > div.framer-1pszo9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Milestone"
+   }
+  },
+  {
+   "selector": "div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-r0aaei > div.framer-1seqgqy",
+   "tag": "div",
+   "text": "January 2023Strand founded",
+   "framer": {
+    "framerName": "Text Container"
+   }
+  },
+  {
+   "selector": "div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-r0aaei > div.framer-1seqgqy > div.framer-9bv6rn",
+   "tag": "div",
+   "text": "January 2023",
+   "framer": {
+    "framerName": "Time",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-r0aaei > div.framer-1seqgqy > div.framer-179bcqs",
+   "tag": "div",
+   "text": "Strand founded",
+   "framer": {
+    "framerName": "Milestone",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-1zq55m",
+   "tag": "div",
+   "text": "June 2023Cortex v1 shipped",
+   "framer": {
+    "framerName": "Milestone 2"
+   }
+  },
+  {
+   "selector": "div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-1zq55m > div.framer-1lshoqh",
+   "tag": "div",
+   "framer": {
+    "framerName": "Timeline"
+   }
+  },
+  {
+   "selector": "div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-1zq55m > div.framer-1lshoqh > div.framer-nweys5",
+   "tag": "div",
+   "framer": {
+    "framerName": "Milestone"
+   }
+  },
+  {
+   "selector": "div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-1zq55m > div.framer-18vqmwn",
+   "tag": "div",
+   "text": "June 2023Cortex v1 shipped",
+   "framer": {
+    "framerName": "Text Container"
+   }
+  },
+  {
+   "selector": "div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-1zq55m > div.framer-18vqmwn > div.framer-7svv0u",
+   "tag": "div",
+   "text": "June 2023",
+   "framer": {
+    "framerName": "Time",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-1zq55m > div.framer-18vqmwn > div.framer-1okltnp",
+   "tag": "div",
+   "text": "Cortex v1 shipped",
+   "framer": {
+    "framerName": "Milestone",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-18wyiyw",
+   "tag": "div",
+   "text": "September 2023First 100 teams onboarded",
+   "framer": {
+    "framerName": "Milestone 3"
+   }
+  },
+  {
+   "selector": "div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-18wyiyw > div.framer-1bnrxi5",
+   "tag": "div",
+   "framer": {
+    "framerName": "Timeline"
+   }
+  },
+  {
+   "selector": "div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-18wyiyw > div.framer-1bnrxi5 > div.framer-ksebzf",
+   "tag": "div",
+   "framer": {
+    "framerName": "Milestone"
+   }
+  },
+  {
+   "selector": "div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-18wyiyw > div.framer-15em0gi",
+   "tag": "div",
+   "text": "September 2023First 100 teams onboarded",
+   "framer": {
+    "framerName": "Text Container"
+   }
+  },
+  {
+   "selector": "div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-18wyiyw > div.framer-15em0gi > div.framer-tm27lq",
+   "tag": "div",
+   "text": "September 2023",
+   "framer": {
+    "framerName": "Time",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-18wyiyw > div.framer-15em0gi > div.framer-1hl956n",
+   "tag": "div",
+   "text": "First 100 teams onboarded",
+   "framer": {
+    "framerName": "Milestone",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-ets1ak",
+   "tag": "div",
+   "text": "The futureHelp shape the future of Strand",
+   "framer": {
+    "framerName": "Future"
+   }
+  },
+  {
+   "selector": "div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-ets1ak > div.framer-8nct8r",
+   "tag": "div",
+   "framer": {
+    "framerName": "Timeline"
+   }
+  },
+  {
+   "selector": "div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-ets1ak > div.framer-8nct8r > div.framer-6ih106",
+   "tag": "div",
+   "framer": {
+    "framerName": "Milestone"
+   }
+  },
+  {
+   "selector": "div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-ets1ak > div.framer-fyo2iz",
+   "tag": "div",
+   "text": "The futureHelp shape the future of Strand",
+   "framer": {
+    "framerName": "Text Container"
+   }
+  },
+  {
+   "selector": "div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-ets1ak > div.framer-fyo2iz > div.framer-1vwrbyl",
+   "tag": "div",
+   "text": "The future",
+   "framer": {
+    "framerName": "Time",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ii7Oy.framer-jhxgU > div.framer-6vf917 > div.framer-ets1ak > div.framer-fyo2iz > div.framer-1hn2nsn",
+   "tag": "div",
+   "text": "Help shape the future of Strand",
+   "framer": {
+    "framerName": "Milestone",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1k39pj1 > div.ssr-variant > div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-xc01we",
+   "tag": "div",
+   "framer": {
+    "framerName": "Buttons Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-xc01we > div.framer-aaj0bc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "Previous"
+   }
+  },
+  {
+   "selector": "div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-xc01we > div.framer-aaj0bc-container > a.framer-ssUFK.framer-1qc2red",
+   "tag": "a",
+   "framer": {
+    "framerName": "Light / SM"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-xc01we > div.framer-cljdbx-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "Next"
+   }
+  },
+  {
+   "selector": "div.framer-1426u8r-container > div.framer-Ii7Oy.framer-jhxgU > div.framer-xc01we > div.framer-cljdbx-container > a.framer-ssUFK.framer-1qc2red",
+   "tag": "a",
+   "framer": {
+    "framerName": "Light / SM"
+   }
+  },
+  {
+   "selector": "div.framer-zXrFn.framer-vPIT1 > div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-17edhg1",
+   "tag": "div",
+   "text": "The teamMarcus WebbBackend EngineerClaire FontaineCustomer S",
+   "framer": {
+    "framerName": "The Team"
+   }
+  },
+  {
+   "selector": "div.framer-121fy2c > div.framer-1juuju8 > div.framer-1o55p0l > div.framer-17edhg1 > div.framer-1gverk5",
+   "tag": "div",
+   "text": "The team",
+   "framer": {
+    "framerName": "Title Container"
+   }
+  },
+  {
+   "selector": "div.framer-1juuju8 > div.framer-1o55p0l > div.framer-17edhg1 > div.framer-1gverk5 > div.framer-a2wyj8",
+   "tag": "div",
+   "text": "The team",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-17edhg1 > div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2",
+   "tag": "div",
+   "text": "Marcus WebbBackend Engineer",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi > div.framer-vmwxn0 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-1o3hy7k",
+   "tag": "div",
+   "text": "Marcus Webb",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-ue03qq",
+   "tag": "div",
+   "text": "Backend Engineer",
+   "framer": {
+    "framerName": "Position",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-17edhg1 > div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2",
+   "tag": "div",
+   "text": "Claire FontaineCustomer Success",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi > div.framer-vmwxn0 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-1o3hy7k",
+   "tag": "div",
+   "text": "Claire Fontaine",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-ue03qq",
+   "tag": "div",
+   "text": "Customer Success",
+   "framer": {
+    "framerName": "Position",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-17edhg1 > div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2",
+   "tag": "div",
+   "text": "Daniel ReyesProduct Designer",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi > div.framer-vmwxn0 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-1o3hy7k",
+   "tag": "div",
+   "text": "Daniel Reyes",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-ue03qq",
+   "tag": "div",
+   "text": "Product Designer",
+   "framer": {
+    "framerName": "Position",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-17edhg1 > div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2",
+   "tag": "div",
+   "text": "Jordan OseiMachine Learning",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi > div.framer-vmwxn0 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-1o3hy7k",
+   "tag": "div",
+   "text": "Jordan Osei",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-ue03qq",
+   "tag": "div",
+   "text": "Machine Learning",
+   "framer": {
+    "framerName": "Position",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-17edhg1 > div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2",
+   "tag": "div",
+   "text": "Ravi MenonFull Stack Engineer",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi > div.framer-vmwxn0 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-1o3hy7k",
+   "tag": "div",
+   "text": "Ravi Menon",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-ue03qq",
+   "tag": "div",
+   "text": "Full Stack Engineer",
+   "framer": {
+    "framerName": "Position",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-17edhg1 > div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2",
+   "tag": "div",
+   "text": "Kevin LiangDeveloper Relations",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi > div.framer-vmwxn0 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-1o3hy7k",
+   "tag": "div",
+   "text": "Kevin Liang",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-ue03qq",
+   "tag": "div",
+   "text": "Developer Relations",
+   "framer": {
+    "framerName": "Position",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-17edhg1 > div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2",
+   "tag": "div",
+   "text": "Zara MitchellSales",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi > div.framer-vmwxn0 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-1o3hy7k",
+   "tag": "div",
+   "text": "Zara Mitchell",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-1jnksjk-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-ue03qq",
+   "tag": "div",
+   "text": "Sales",
+   "framer": {
+    "framerName": "Position",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-17edhg1 > div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-cuv7ok-container > div.framer-ruMKu.framer-NXcw2",
+   "tag": "div",
+   "text": "Could be youView careers",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1qq2eno > div.ssr-variant.hidden-dff3ef > div.framer-cuv7ok-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.framer-cuv7ok-container > div.framer-ruMKu.framer-NXcw2 > div.framer-15hvjdi > div.framer-vmwxn0 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-cuv7ok-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-1o3hy7k",
+   "tag": "div",
+   "text": "Could be you",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-dff3ef > div.framer-cuv7ok-container > div.framer-ruMKu.framer-NXcw2 > div.framer-2tf5hh > div.framer-ue03qq",
+   "tag": "div",
+   "text": "View careers",
+   "framer": {
+    "framerName": "Position",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89",
+   "tag": "div",
+   "text": "Your data, finally connectedGet startedFeaturesCortexAskPuls",
+   "framer": {
+    "framerName": "Footer Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1aeo38i",
+   "tag": "div",
+   "text": "Your data, finally connectedGet started",
+   "framer": {
+    "framerName": "CTA"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls",
+   "tag": "div",
+   "text": "Your data, finally connectedGet started",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls > div.framer-1w558nd-container > div.framer-zhkea.framer-sm5shs",
+   "tag": "div",
+   "framer": {
+    "framerName": "Hidden"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls > div.framer-qr3vrw > div.framer-o9bwxk",
+   "tag": "div",
+   "text": "Your data, finally connected",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1aeo38i > div.framer-9aqjls > div.framer-qr3vrw > div.framer-cq6zkv-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / XL"
+   }
+  },
+  {
+   "selector": "div.framer-qr3vrw > div.framer-cq6zkv-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Footer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Links"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulse",
+   "framer": {
+    "framerName": "Features Column"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-10jdoq8",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p",
+   "tag": "div",
+   "text": "CortexAskPulse",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-1iyk8rt",
+   "tag": "div",
+   "text": "Cortex",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-1iyk8rt > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Cortex",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-t46ej0",
+   "tag": "div",
+   "text": "Ask",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-t46ej0 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Ask",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-1exanjx",
+   "tag": "div",
+   "text": "Pulse",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-1exanjx > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Pulse",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2",
+   "tag": "div",
+   "text": "CompanyPricingAboutCareersBlog",
+   "framer": {
+    "framerName": "Company"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-ankizt",
+   "tag": "div",
+   "text": "Company",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he",
+   "tag": "div",
+   "text": "PricingAboutCareersBlog",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-ep2gyo",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-ep2gyo > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Pricing",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1pjilpz",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1pjilpz > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "About",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {
+    "framerPageLinkCurrent": "true"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-q2vdhe",
+   "tag": "div",
+   "text": "Careers",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-q2vdhe > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Careers",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1odzm45",
+   "tag": "div",
+   "text": "Blog",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1odzm45 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Blog",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d",
+   "tag": "div",
+   "text": "ResourcesIntegrationsChangelogDeveloper docsHelp Center404",
+   "framer": {
+    "framerName": "Resources"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1mlm0tb",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt",
+   "tag": "div",
+   "text": "IntegrationsChangelogDeveloper docsHelp Center404",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-iig8n7",
+   "tag": "div",
+   "text": "Integrations",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-iig8n7 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Integrations",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-te0pfw",
+   "tag": "div",
+   "text": "Changelog",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-te0pfw > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Changelog",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-nc7hme",
+   "tag": "div",
+   "text": "Developer docs",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-nc7hme > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Developer docs",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-uv8dt",
+   "tag": "div",
+   "text": "Help Center",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-uv8dt > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Help Center",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-66qyph",
+   "tag": "div",
+   "text": "404",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-66qyph > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "404",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1",
+   "tag": "div",
+   "text": "ConnectXLinkedInGitHub",
+   "framer": {
+    "framerName": "Connect"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1 > div.framer-qk2vom",
+   "tag": "div",
+   "text": "Connect",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1 > div.framer-vz9imr",
+   "tag": "div",
+   "text": "XLinkedInGitHub",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "X",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "X",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "LinkedIn",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "LinkedIn",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "GitHub",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "GitHub",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve",
+   "tag": "div",
+   "text": "All systems operational99.98% UPTIMEUpdates on new features ",
+   "framer": {
+    "framerName": "Uptime Newsletter"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry",
+   "tag": "div",
+   "text": "All systems operational99.98% UPTIME",
+   "framer": {
+    "framerName": "Uptime"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry > div.framer-d8ia8i > div.framer-1qrftu8",
+   "tag": "div",
+   "text": "All systems operational",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry > div.framer-5jvd8e",
+   "tag": "div",
+   "text": "99.98% UPTIME",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-fqk3g9",
+   "tag": "div",
+   "text": "Updates on new features and releases.Subscribe",
+   "framer": {
+    "framerName": "Newsletter"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-fqk3g9 > div.framer-27d16y",
+   "tag": "div",
+   "text": "Updates on new features and releases.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1p5h1ve > div.framer-fqk3g9 > div.ssr-variant > div.framer-1exlpg3-container > form.framer-e9zZI.framer-19cj0jd",
+   "tag": "form",
+   "text": "Subscribe",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-1exlpg3-container > form.framer-e9zZI.framer-19cj0jd > label.framer-s4lpcw > div.framer-1jl1owp-container > button.framer-DAIlr.framer-95lQp",
+   "tag": "button",
+   "text": "Subscribe",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "form.framer-e9zZI.framer-19cj0jd > label.framer-s4lpcw > div.framer-1jl1owp-container > button.framer-DAIlr.framer-95lQp > div.framer-1efjez1",
+   "tag": "div",
+   "text": "Subscribe",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-138v7uv",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-138v7uv > div.ssr-variant > div.framer-1oxx1b4 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2",
+   "tag": "div",
+   "text": "© 2026 Strand. All rights reserved.Terms and Conditions/Priv",
+   "framer": {
+    "framerName": "Copyright"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-868d6s",
+   "tag": "div",
+   "text": "© 2026 Strand. All rights reserved.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2",
+   "tag": "div",
+   "text": "Terms and Conditions/Privacy Policy",
+   "framer": {
+    "framerName": "Terms / Privacy"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-psm4bz",
+   "tag": "div",
+   "text": "Terms and Conditions",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-psm4bz > p.framer-text.framer-styles-preset-1unq4w > a.framer-text.framer-styles-preset-656phd",
+   "tag": "a",
+   "text": "Terms and Conditions",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-16ek34v",
+   "tag": "div",
+   "text": "/",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-123xktd",
+   "tag": "div",
+   "text": "Privacy Policy",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-123xktd > p.framer-text.framer-styles-preset-1unq4w > a.framer-text.framer-styles-preset-656phd",
+   "tag": "a",
+   "text": "Privacy Policy",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk",
+   "tag": "a",
+   "text": "Create a free website with Framer, the website builder loved",
+   "framer": {
+    "framerAppearId": "n0ccwk",
+    "framerName": "Light"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-13yxzio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Backdrop"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm",
+   "tag": "div",
+   "text": "Create a free website with Framer, the website builder loved",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm > div.framer-1kflzx5 > div.framer-hcsc7.framer-e50co",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm > div.framer-g7oZR.framer-1um7t9d",
+   "tag": "div",
+   "framer": {
+    "framerName": "Text"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-j4ugry",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-jnuwbw",
+   "tag": "div",
+   "framer": {
+    "framerName": "Border"
+   }
+  },
+  {
+   "selector": "script",
+   "tag": "script",
+   "text": "(()=>{function c(i,o,s){if(window.__framer_disable_appear_ef",
+   "framer": {
+    "framerAppearAnimation": "reduce"
+   }
+  },
+  {
+   "selector": "script",
+   "tag": "script",
+   "framer": {
+    "framerBundle": "main"
+   }
+  }
+ ],
+ "cdp": []
+}

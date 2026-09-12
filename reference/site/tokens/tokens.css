@@ -1,0 +1,45 @@
+:root {
+  --color-1: rgb(0, 0, 0); /* used 1426x */
+  --color-2: rgb(250, 250, 249); /* used 117x */
+  --color-3: rgb(166, 160, 155); /* used 90x */
+  --color-4: rgb(0, 0, 238); /* used 73x */
+  --color-5: rgb(115, 115, 115); /* used 33x */
+  --color-6: rgb(20, 18, 16); /* used 27x */
+  --color-7: rgb(87, 83, 78); /* used 25x */
+  --color-8: rgb(121, 113, 107); /* used 15x */
+  --color-9: rgb(255, 255, 255); /* used 14x */
+  --color-10: rgb(16, 236, 144); /* used 14x */
+  --color-11: rgb(118, 118, 118); /* used 11x */
+  --color-12: rgb(245, 245, 244); /* used 9x */
+  --color-13: rgb(28, 25, 23); /* used 8x */
+  --color-14: rgb(0, 0, 36); /* used 8x */
+  --color-15: rgb(0, 37, 0); /* used 8x */
+  --color-16: rgb(41, 0, 0); /* used 8x */
+  --color-17: rgb(17, 15, 13); /* used 7x */
+  --color-18: rgb(41, 37, 36); /* used 6x */
+  --color-19: rgb(250, 250, 250); /* used 2x */
+  --color-20: rgb(38, 38, 38); /* used 1x */
+  --color-21: rgb(209, 26, 115); /* used 1x */
+  --color-22: rgb(178, 23, 152); /* used 1x */
+  --color-23: rgb(141, 20, 181); /* used 1x */
+  --color-24: rgb(88, 17, 206); /* used 1x */
+  --color-25: rgb(0, 64, 224); /* used 1x */
+  --color-26: rgb(0, 124, 231); /* used 1x */
+  --color-27: rgb(0, 163, 238); /* used 1x */
+  --color-28: rgb(0, 195, 244); /* used 1x */
+  --color-29: rgb(0, 222, 251); /* used 1x */
+  --color-30: rgb(30, 232, 248); /* used 1x */
+  --color-31: rgb(60, 212, 226); /* used 1x */
+  --color-32: rgb(79, 190, 202); /* used 1x */
+  --color-33: rgb(94, 166, 174); /* used 1x */
+  --color-34: rgb(107, 137, 141); /* used 1x */
+  --color-35: rgb(54, 197, 240); /* used 1x */
+  --color-36: rgb(249, 171, 0); /* used 1x */
+  --color-37: rgb(238, 238, 238); /* used 1x */
+  --color-38: rgb(102, 102, 102); /* used 1x */
+  --color-39: rgb(34, 102, 255); /* used 1x */
+  --font-1: sans-serif; /* used 1459x */
+  --font-2: Geist, "Geist Placeholder", sans-serif; /* used 182x */
+  --font-3: "Geist Mono", "Geist Mono Placeholder", monospace; /* used 34x */
+  --font-4: "Geist Mono", monospace; /* used 32x */
+}

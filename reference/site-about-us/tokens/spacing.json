@@ -1,0 +1,120 @@
+{
+ "spacing": [
+  {
+   "value": "16px",
+   "usage": 111
+  },
+  {
+   "value": "40px",
+   "usage": 65
+  },
+  {
+   "value": "2px",
+   "usage": 58
+  },
+  {
+   "value": "4px",
+   "usage": 49
+  },
+  {
+   "value": "8px",
+   "usage": 45
+  },
+  {
+   "value": "10px",
+   "usage": 40
+  },
+  {
+   "value": "12px",
+   "usage": 30
+  },
+  {
+   "value": "1px",
+   "usage": 22
+  },
+  {
+   "value": "6px",
+   "usage": 21
+  },
+  {
+   "value": "20px",
+   "usage": 14
+  },
+  {
+   "value": "24px",
+   "usage": 12
+  },
+  {
+   "value": "22px",
+   "usage": 12
+  },
+  {
+   "value": "64px",
+   "usage": 6
+  },
+  {
+   "value": "46px",
+   "usage": 6
+  },
+  {
+   "value": "160px",
+   "usage": 2
+  },
+  {
+   "value": "32px",
+   "usage": 2
+  },
+  {
+   "value": "68px",
+   "usage": 1
+  },
+  {
+   "value": "0px 32px",
+   "usage": 1
+  },
+  {
+   "value": "40px 12px",
+   "usage": 1
+  }
+ ],
+ "radii": [
+  {
+   "value": "8px",
+   "usage": 32
+  },
+  {
+   "value": "10px",
+   "usage": 3
+  },
+  {
+   "value": "12px",
+   "usage": 2
+  },
+  {
+   "value": "52px",
+   "usage": 2
+  },
+  {
+   "value": "9999px",
+   "usage": 2
+  },
+  {
+   "value": "11px",
+   "usage": 2
+  },
+  {
+   "value": "210px",
+   "usage": 1
+  }
+ ],
+ "shadows": [
+  {
+   "value": "rgb(0, 0, 0) 0px 0px 0px 1px inset",
+   "usage": 2
+  },
+  {
+   "value": "rgba(0, 0, 0, 0.17) 0px 0.602187px 1.56569px -1.5px, rgba(0, 0, 0, 0.14) 0px 2.28853px 5.95019px -3px, rgba(0, 0, 0, 0.02) 0px 10px 26px -4.5px",
+   "usage": 1
+  }
+ ]
+}

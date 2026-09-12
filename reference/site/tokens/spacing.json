@@ -1,0 +1,164 @@
+{
+ "spacing": [
+  {
+   "value": "16px",
+   "usage": 312
+  },
+  {
+   "value": "8px",
+   "usage": 169
+  },
+  {
+   "value": "12px",
+   "usage": 119
+  },
+  {
+   "value": "40px",
+   "usage": 117
+  },
+  {
+   "value": "4px",
+   "usage": 102
+  },
+  {
+   "value": "10px",
+   "usage": 60
+  },
+  {
+   "value": "6px",
+   "usage": 37
+  },
+  {
+   "value": "20px",
+   "usage": 35
+  },
+  {
+   "value": "64px",
+   "usage": 22
+  },
+  {
+   "value": "1px",
+   "usage": 22
+  },
+  {
+   "value": "2px",
+   "usage": 22
+  },
+  {
+   "value": "24px",
+   "usage": 16
+  },
+  {
+   "value": "22px",
+   "usage": 15
+  },
+  {
+   "value": "32px",
+   "usage": 11
+  },
+  {
+   "value": "60px",
+   "usage": 8
+  },
+  {
+   "value": "46px",
+   "usage": 6
+  },
+  {
+   "value": "18px",
+   "usage": 6
+  },
+  {
+   "value": "80px",
+   "usage": 5
+  },
+  {
+   "value": "32px 20px",
+   "usage": 3
+  },
+  {
+   "value": "0px 32px",
+   "usage": 2
+  },
+  {
+   "value": "68px",
+   "usage": 1
+  },
+  {
+   "value": "50px",
+   "usage": 1
+  },
+  {
+   "value": "8px 0px",
+   "usage": 1
+  }
+ ],
+ "radii": [
+  {
+   "value": "16px",
+   "usage": 24
+  },
+  {
+   "value": "9999px",
+   "usage": 24
+  },
+  {
+   "value": "1px",
+   "usage": 20
+  },
+  {
+   "value": "8px",
+   "usage": 18
+  },
+  {
+   "value": "96px",
+   "usage": 11
+  },
+  {
+   "value": "52px",
+   "usage": 7
+  },
+  {
+   "value": "36px",
+   "usage": 6
+  },
+  {
+   "value": "12px",
+   "usage": 3
+  },
+  {
+   "value": "10px",
+   "usage": 3
+  },
+  {
+   "value": "11px",
+   "usage": 2
+  },
+  {
+   "value": "321px",
+   "usage": 1
+  },
+  {
+   "value": "15px",
+   "usage": 1
+  },
+  {
+   "value": "9999px 0px 0px 9999px",
+   "usage": 1
+  },
+  {
+   "value": "210px",
+   "usage": 1
+  }
+ ],
+ "shadows": [
+  {
+   "value": "rgb(0, 0, 0) 0px 0px 0px 1px inset",
+   "usage": 2
+  },
+  {
+   "value": "rgba(0, 0, 0, 0.17) 0px 0.602187px 1.56569px -1.5px, rgba(0, 0, 0, 0.14) 0px 2.28853px 5.95019px -3px, rgba(0, 0, 0, 0.02) 0px 10px 26px -4.5px",
+   "usage": 1
+  }
+ ]
+}

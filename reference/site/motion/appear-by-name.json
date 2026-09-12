@@ -1,0 +1,683 @@
+{
+ "w6pet3": {
+  "tag": "div",
+  "breakpoints": [
+   "default",
+   "1g056l3",
+   "1e3jmh"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 0,
+    "y": 0
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 1.5,
+     "duration": 0.2,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "dp7izi": {
+  "name": "New Container",
+  "tag": "div",
+  "breakpoints": [
+   "default"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 0,
+    "y": 0
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0,
+     "duration": 0.4,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "1jsercw": {
+  "tag": "div",
+  "breakpoints": [
+   "default",
+   "uuxm6n",
+   "wc1e1l"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 0,
+    "y": 10
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0.1,
+     "duration": 0.4,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "1b2lh6y": {
+  "tag": "div",
+  "breakpoints": [
+   "default",
+   "uuxm6n",
+   "wc1e1l"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 0,
+    "y": 10
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0.2,
+     "duration": 0.4,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "13ye9y3": {
+  "name": "CTAs",
+  "tag": "div",
+  "breakpoints": [
+   "default",
+   "uuxm6n",
+   "wc1e1l"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 0,
+    "y": 10
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0.3,
+     "duration": 0.4,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "fkx45e": {
+  "name": "Connect",
+  "tag": "div",
+  "breakpoints": [
+   "default"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 0,
+    "y": 10
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0.5,
+     "duration": 0.4,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "1scv7sf": {
+  "name": "Map",
+  "tag": "div",
+  "breakpoints": [
+   "default"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 0,
+    "y": 10
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0.6,
+     "duration": 0.4,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "16yp3wb": {
+  "name": "Ask",
+  "tag": "div",
+  "breakpoints": [
+   "default"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 0,
+    "y": 10
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0.7,
+     "duration": 0.4,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "n00lzi": {
+  "tag": "div",
+  "breakpoints": [
+   "default",
+   "uuxm6n",
+   "wc1e1l"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 0,
+    "y": 12
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0.1,
+     "duration": 0.2,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "17bqj0": {
+  "tag": "div",
+  "breakpoints": [
+   "default",
+   "uuxm6n",
+   "wc1e1l"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 0,
+    "y": 12
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0.2,
+     "duration": 0.2,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "10q9li8": {
+  "tag": "div",
+  "breakpoints": [
+   "default",
+   "uuxm6n",
+   "wc1e1l"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 0,
+    "y": 12
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0.3,
+     "duration": 0.2,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "1ysxh9n": {
+  "tag": "div",
+  "breakpoints": [
+   "default",
+   "uuxm6n"
+  ],
+  "sample": null,
+  "allIdentical": null
+ },
+ "1ctfs4x": {
+  "tag": "div",
+  "breakpoints": [
+   "default",
+   "uuxm6n",
+   "wc1e1l"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 100,
+    "y": 0
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0,
+     "duration": 0.2,
+     "ease": [
+      0.44,
+      0,
+      0.56,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "zatbru": {
+  "tag": "div",
+  "breakpoints": [
+   "default",
+   "uuxm6n",
+   "wc1e1l"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 100,
+    "y": 0
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0.05,
+     "duration": 0.2,
+     "ease": [
+      0.44,
+      0,
+      0.56,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "17bslm8": {
+  "tag": "div",
+  "breakpoints": [
+   "default",
+   "uuxm6n",
+   "wc1e1l"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 100,
+    "y": 0
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0.1,
+     "duration": 0.2,
+     "ease": [
+      0.44,
+      0,
+      0.56,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ },
+ "18u74t1": {
+  "tag": "div",
+  "breakpoints": [
+   "default",
+   "uuxm6n",
+   "wc1e1l"
+  ],
+  "sample": {
+   "breakpoint": "default",
+   "initial": {
+    "opacity": 0.001,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "x": 100,
+    "y": 0
+   },
+   "animate": {
+    "opacity": 1,
+    "rotate": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "transition": {
+     "delay": 0.15,
+     "duration": 0.2,
+     "ease": [
+      0.44,
+      0,
+      0.56,
+      1
+     ],
+     "type": "tween"
+    },
+    "x": 0,
+    "y": 0
+   }
+  },
+  "allIdentical": true
+ }
+}

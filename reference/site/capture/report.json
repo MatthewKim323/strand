@@ -1,0 +1,1839 @@
+{
+  "report": {
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 900,
+        "revealMethod": "scrollTo+wheel+scrollIntoView",
+        "unrevealed": 0,
+        "docHeight": 8470,
+        "stitchChunks": 10,
+        "hiddenFixedElements": 4,
+        "layoutElements": 1263,
+        "sectionMode": "blocks"
+      },
+      "tablet": {
+        "width": 1024,
+        "height": 900,
+        "revealMethod": "scrollTo+wheel+scrollIntoView",
+        "unrevealed": 0,
+        "docHeight": 8279,
+        "stitchChunks": 10,
+        "hiddenFixedElements": 4,
+        "layoutElements": 1308,
+        "sectionMode": "blocks"
+      },
+      "tablet-810": {
+        "width": 810,
+        "height": 900,
+        "revealMethod": "scrollTo+wheel+scrollIntoView",
+        "unrevealed": 0,
+        "docHeight": 8254,
+        "stitchChunks": 10,
+        "hiddenFixedElements": 4,
+        "layoutElements": 1307,
+        "sectionMode": "blocks"
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 7390,
+        "stitchChunks": 9,
+        "hiddenFixedElements": 3,
+        "layoutElements": 1339,
+        "sectionMode": "blocks"
+      }
+    },
+    "scenarios": {
+      "load": {
+        "frames": 75,
+        "durationMs": 5933,
+        "motion": {
+          "firstMotionMs": 471,
+          "lastMotionMs": 5774,
+          "motionFrames": 50,
+          "totalFrames": 75,
+          "ranges": [
+            {
+              "startMs": 471,
+              "endMs": 1561,
+              "frames": 22
+            },
+            {
+              "startMs": 2148,
+              "endMs": 2181,
+              "frames": 2
+            },
+            {
+              "startMs": 3996,
+              "endMs": 5774,
+              "frames": 26
+            }
+          ]
+        },
+        "description": "fresh page; screencast started before navigation; 6s"
+      },
+      "scroll-steps": {
+        "frames": 50,
+        "durationMs": 4453,
+        "motion": {
+          "firstMotionMs": 625,
+          "lastMotionMs": 4453,
+          "motionFrames": 39,
+          "totalFrames": 50,
+          "ranges": [
+            {
+              "startMs": 625,
+              "endMs": 1590,
+              "frames": 19
+            },
+            {
+              "startMs": 1902,
+              "endMs": 1902,
+              "frames": 1
+            },
+            {
+              "startMs": 2039,
+              "endMs": 2039,
+              "frames": 1
+            },
+            {
+              "startMs": 2161,
+              "endMs": 2161,
+              "frames": 1
+            },
+            {
+              "startMs": 2289,
+              "endMs": 2289,
+              "frames": 1
+            },
+            {
+              "startMs": 2415,
+              "endMs": 2415,
+              "frames": 1
+            },
+            {
+              "startMs": 2546,
+              "endMs": 2546,
+              "frames": 1
+            },
+            {
+              "startMs": 2680,
+              "endMs": 2680,
+              "frames": 1
+            },
+            {
+              "startMs": 2830,
+              "endMs": 2830,
+              "frames": 1
+            },
+            {
+              "startMs": 2969,
+              "endMs": 2969,
+              "frames": 1
+            },
+            {
+              "startMs": 3109,
+              "endMs": 3109,
+              "frames": 1
+            },
+            {
+              "startMs": 3249,
+              "endMs": 3249,
+              "frames": 1
+            },
+            {
+              "startMs": 3382,
+              "endMs": 3382,
+              "frames": 1
+            },
+            {
+              "startMs": 3512,
+              "endMs": 3512,
+              "frames": 1
+            },
+            {
+              "startMs": 3649,
+              "endMs": 3649,
+              "frames": 1
+            },
+            {
+              "startMs": 3785,
+              "endMs": 3785,
+              "frames": 1
+            },
+            {
+              "startMs": 3915,
+              "endMs": 3915,
+              "frames": 1
+            },
+            {
+              "startMs": 4047,
+              "endMs": 4047,
+              "frames": 1
+            },
+            {
+              "startMs": 4179,
+              "endMs": 4179,
+              "frames": 1
+            },
+            {
+              "startMs": 4311,
+              "endMs": 4311,
+              "frames": 1
+            },
+            {
+              "startMs": 4453,
+              "endMs": 4453,
+              "frames": 1
+            }
+          ]
+        },
+        "description": "section \"Steps\" top -55->575 (85%->15% vh) over 1500ms, then 2500ms hold",
+        "sectionTop": 710,
+        "scrollFrom": -55,
+        "scrollTo": 575,
+        "smoothScrollStartMsApprox": 426
+      },
+      "scroll-partners": {
+        "frames": 60,
+        "durationMs": 4459,
+        "motion": {
+          "firstMotionMs": 168,
+          "lastMotionMs": 4389,
+          "motionFrames": 40,
+          "totalFrames": 60,
+          "ranges": [
+            {
+              "startMs": 168,
+              "endMs": 168,
+              "frames": 1
+            },
+            {
+              "startMs": 667,
+              "endMs": 1421,
+              "frames": 14
+            },
+            {
+              "startMs": 1730,
+              "endMs": 1730,
+              "frames": 1
+            },
+            {
+              "startMs": 1878,
+              "endMs": 1878,
+              "frames": 1
+            },
+            {
+              "startMs": 2113,
+              "endMs": 2113,
+              "frames": 1
+            },
+            {
+              "startMs": 2298,
+              "endMs": 4260,
+              "frames": 21
+            },
+            {
+              "startMs": 4389,
+              "endMs": 4389,
+              "frames": 1
+            }
+          ]
+        },
+        "description": "section \"Partners\" top 93->723 (85%->15% vh) over 1500ms, then 2500ms hold",
+        "sectionTop": 858,
+        "scrollFrom": 93,
+        "scrollTo": 723,
+        "smoothScrollStartMsApprox": 422
+      },
+      "scroll-conversation": {
+        "frames": 68,
+        "durationMs": 4374,
+        "motion": {
+          "firstMotionMs": 144,
+          "lastMotionMs": 4374,
+          "motionFrames": 53,
+          "totalFrames": 68,
+          "ranges": [
+            {
+              "startMs": 144,
+              "endMs": 1007,
+              "frames": 20
+            },
+            {
+              "startMs": 1288,
+              "endMs": 1288,
+              "frames": 1
+            },
+            {
+              "startMs": 1415,
+              "endMs": 1415,
+              "frames": 1
+            },
+            {
+              "startMs": 1612,
+              "endMs": 4374,
+              "frames": 31
+            }
+          ]
+        },
+        "description": "section \"Conversation\" top 313->943 (85%->15% vh) over 1500ms, then 2500ms hold",
+        "sectionTop": 1078,
+        "scrollFrom": 313,
+        "scrollTo": 943,
+        "smoothScrollStartMsApprox": 415
+      },
+      "scroll-features": {
+        "frames": 75,
+        "durationMs": 4408,
+        "motion": {
+          "firstMotionMs": 1787,
+          "lastMotionMs": 3167,
+          "motionFrames": 4,
+          "totalFrames": 75,
+          "ranges": [
+            {
+              "startMs": 1787,
+              "endMs": 1845,
+              "frames": 2
+            },
+            {
+              "startMs": 2088,
+              "endMs": 2088,
+              "frames": 1
+            },
+            {
+              "startMs": 3167,
+              "endMs": 3167,
+              "frames": 1
+            }
+          ]
+        },
+        "description": "section \"Features\" top -749->-119 (85%->15% vh) over 1500ms, then 2500ms hold",
+        "sectionTop": 16,
+        "scrollFrom": -749,
+        "scrollTo": -119,
+        "smoothScrollStartMsApprox": 399
+      },
+      "scroll-integrations": {
+        "frames": 39,
+        "durationMs": 4894,
+        "motion": {
+          "firstMotionMs": 188,
+          "lastMotionMs": 4894,
+          "motionFrames": 38,
+          "totalFrames": 39,
+          "ranges": [
+            {
+              "startMs": 188,
+              "endMs": 301,
+              "frames": 2
+            },
+            {
+              "startMs": 510,
+              "endMs": 510,
+              "frames": 1
+            },
+            {
+              "startMs": 634,
+              "endMs": 706,
+              "frames": 2
+            },
+            {
+              "startMs": 1008,
+              "endMs": 2579,
+              "frames": 20
+            },
+            {
+              "startMs": 4465,
+              "endMs": 4894,
+              "frames": 13
+            }
+          ]
+        },
+        "description": "section \"Integrations\" top 3762->4392 (85%->15% vh) over 1500ms, then 2500ms hold",
+        "sectionTop": 4527,
+        "scrollFrom": 3762,
+        "scrollTo": 4392,
+        "smoothScrollStartMsApprox": 706
+      },
+      "scroll-testimonials": {
+        "frames": 31,
+        "durationMs": 2782,
+        "motion": {
+          "firstMotionMs": 213,
+          "lastMotionMs": 2471,
+          "motionFrames": 27,
+          "totalFrames": 31,
+          "ranges": [
+            {
+              "startMs": 213,
+              "endMs": 213,
+              "frames": 1
+            },
+            {
+              "startMs": 346,
+              "endMs": 346,
+              "frames": 1
+            },
+            {
+              "startMs": 574,
+              "endMs": 574,
+              "frames": 1
+            },
+            {
+              "startMs": 907,
+              "endMs": 2471,
+              "frames": 24
+            }
+          ]
+        },
+        "description": "section \"Testimonials\" top 4485->5115 (85%->15% vh) over 1500ms, then 2500ms hold",
+        "sectionTop": 5250,
+        "scrollFrom": 4485,
+        "scrollTo": 5115,
+        "smoothScrollStartMsApprox": 821
+      },
+      "scroll-statistics": {
+        "frames": 57,
+        "durationMs": 4704,
+        "motion": {
+          "firstMotionMs": 414,
+          "lastMotionMs": 3939,
+          "motionFrames": 33,
+          "totalFrames": 57,
+          "ranges": [
+            {
+              "startMs": 414,
+              "endMs": 414,
+              "frames": 1
+            },
+            {
+              "startMs": 650,
+              "endMs": 802,
+              "frames": 3
+            },
+            {
+              "startMs": 1032,
+              "endMs": 2368,
+              "frames": 18
+            },
+            {
+              "startMs": 2623,
+              "endMs": 2623,
+              "frames": 1
+            },
+            {
+              "startMs": 2776,
+              "endMs": 2852,
+              "frames": 2
+            },
+            {
+              "startMs": 3167,
+              "endMs": 3396,
+              "frames": 4
+            },
+            {
+              "startMs": 3706,
+              "endMs": 3939,
+              "frames": 4
+            }
+          ]
+        },
+        "description": "section \"Statistics\" top 5086->5716 (85%->15% vh) over 1500ms, then 2500ms hold",
+        "sectionTop": 5851,
+        "scrollFrom": 5086,
+        "scrollTo": 5716,
+        "smoothScrollStartMsApprox": 650
+      },
+      "scroll-faq": {
+        "frames": 29,
+        "durationMs": 4537,
+        "motion": {
+          "firstMotionMs": 472,
+          "lastMotionMs": 2786,
+          "motionFrames": 20,
+          "totalFrames": 29,
+          "ranges": [
+            {
+              "startMs": 472,
+              "endMs": 472,
+              "frames": 1
+            },
+            {
+              "startMs": 629,
+              "endMs": 1736,
+              "frames": 17
+            },
+            {
+              "startMs": 2424,
+              "endMs": 2424,
+              "frames": 1
+            },
+            {
+              "startMs": 2786,
+              "endMs": 2786,
+              "frames": 1
+            }
+          ]
+        },
+        "description": "section \"FAQ\" top 5575->6205 (85%->15% vh) over 1500ms, then 2500ms hold",
+        "sectionTop": 6340,
+        "scrollFrom": 5575,
+        "scrollTo": 6205,
+        "smoothScrollStartMsApprox": 709
+      },
+      "scroll-footer-container": {
+        "frames": 12,
+        "durationMs": 5451,
+        "motion": {
+          "firstMotionMs": 201,
+          "lastMotionMs": 5451,
+          "motionFrames": 9,
+          "totalFrames": 12,
+          "ranges": [
+            {
+              "startMs": 201,
+              "endMs": 201,
+              "frames": 1
+            },
+            {
+              "startMs": 423,
+              "endMs": 423,
+              "frames": 1
+            },
+            {
+              "startMs": 1668,
+              "endMs": 1668,
+              "frames": 1
+            },
+            {
+              "startMs": 2344,
+              "endMs": 2344,
+              "frames": 1
+            },
+            {
+              "startMs": 3004,
+              "endMs": 3004,
+              "frames": 1
+            },
+            {
+              "startMs": 3599,
+              "endMs": 3599,
+              "frames": 1
+            },
+            {
+              "startMs": 4227,
+              "endMs": 4227,
+              "frames": 1
+            },
+            {
+              "startMs": 4851,
+              "endMs": 4851,
+              "frames": 1
+            },
+            {
+              "startMs": 5451,
+              "endMs": 5451,
+              "frames": 1
+            }
+          ]
+        },
+        "description": "section \"Footer Container\" top 6087->6717 (85%->15% vh) over 1500ms, then 2500ms hold",
+        "sectionTop": 6852,
+        "scrollFrom": 6087,
+        "scrollTo": 6717,
+        "smoothScrollStartMsApprox": 509
+      },
+      "hover-0-newintroducing-ask-query-your-": {
+        "frames": 50,
+        "durationMs": 4288,
+        "motion": {
+          "firstMotionMs": 1171,
+          "lastMotionMs": 3109,
+          "motionFrames": 4,
+          "totalFrames": 50,
+          "ranges": [
+            {
+              "startMs": 1171,
+              "endMs": 1251,
+              "frames": 2
+            },
+            {
+              "startMs": 3029,
+              "endMs": 3109,
+              "frames": 2
+            }
+          ]
+        },
+        "description": "hover 0-newintroducing-ask-query-your-",
+        "selector": "a",
+        "text": "NewIntroducing Ask: Query your entire st",
+        "targetRect": {
+          "x": 64,
+          "y": 68,
+          "w": 656,
+          "h": 64
+        },
+        "marksMs": {
+          "moveOnStart": 313,
+          "moveOnEnd": 1017,
+          "moveOffStart": 2522,
+          "moveOffEnd": 3268
+        }
+      },
+      "hover-1-primary-xl": {
+        "frames": 55,
+        "durationMs": 4226,
+        "motion": {
+          "firstMotionMs": 1495,
+          "lastMotionMs": 3095,
+          "motionFrames": 5,
+          "totalFrames": 55,
+          "ranges": [
+            {
+              "startMs": 1495,
+              "endMs": 1567,
+              "frames": 2
+            },
+            {
+              "startMs": 2953,
+              "endMs": 3095,
+              "frames": 3
+            }
+          ]
+        },
+        "description": "hover 1-primary-xl",
+        "selector": "a[data-framer-name=\"Primary / XL\"], [data-framer-name=\"Primary / XL\"] a",
+        "text": "Connect a source",
+        "targetRect": {
+          "x": 104,
+          "y": 430,
+          "w": 146.421875,
+          "h": 40
+        },
+        "marksMs": {
+          "moveOnStart": 284,
+          "moveOnEnd": 976,
+          "moveOffStart": 2526,
+          "moveOffEnd": 3171
+        }
+      },
+      "hover-2-secondary-xl": {
+        "frames": 50,
+        "durationMs": 4345,
+        "motion": {
+          "firstMotionMs": 1640,
+          "lastMotionMs": 3201,
+          "motionFrames": 2,
+          "totalFrames": 50,
+          "ranges": [
+            {
+              "startMs": 1640,
+              "endMs": 1640,
+              "frames": 1
+            },
+            {
+              "startMs": 3201,
+              "endMs": 3201,
+              "frames": 1
+            }
+          ]
+        },
+        "description": "hover 2-secondary-xl",
+        "selector": "a[data-framer-name=\"Secondary / XL\"], [data-framer-name=\"Secondary / XL\"] a",
+        "text": "Book a demo",
+        "targetRect": {
+          "x": 262.421875,
+          "y": 430,
+          "w": 117.75,
+          "h": 40
+        },
+        "marksMs": {
+          "moveOnStart": 337,
+          "moveOnEnd": 1058,
+          "moveOffStart": 2542,
+          "moveOffEnd": 3360
+        }
+      },
+      "hover-3-explore-more": {
+        "frames": 72,
+        "durationMs": 3671,
+        "motion": {
+          "firstMotionMs": 1003,
+          "lastMotionMs": 2581,
+          "motionFrames": 4,
+          "totalFrames": 72,
+          "ranges": [
+            {
+              "startMs": 1003,
+              "endMs": 1108,
+              "frames": 3
+            },
+            {
+              "startMs": 2581,
+              "endMs": 2581,
+              "frames": 1
+            }
+          ]
+        },
+        "description": "hover 3-explore-more",
+        "selector": "a",
+        "text": "Explore more",
+        "targetRect": {
+          "x": 104,
+          "y": 437,
+          "w": 124.15625,
+          "h": 26
+        },
+        "marksMs": {
+          "moveOnStart": 247,
+          "moveOnEnd": 790,
+          "moveOffStart": 2295,
+          "moveOffEnd": 2675
+        }
+      },
+      "hover-4-view-integrations": {
+        "frames": 23,
+        "durationMs": 2156,
+        "motion": {
+          "firstMotionMs": 537,
+          "lastMotionMs": 2156,
+          "motionFrames": 8,
+          "totalFrames": 23,
+          "ranges": [
+            {
+              "startMs": 537,
+              "endMs": 635,
+              "frames": 4
+            },
+            {
+              "startMs": 2055,
+              "endMs": 2156,
+              "frames": 4
+            }
+          ]
+        },
+        "description": "hover 4-view-integrations",
+        "selector": "a",
+        "text": "View integrations",
+        "targetRect": {
+          "x": 104,
+          "y": 436.5,
+          "w": 152.1875,
+          "h": 26
+        },
+        "marksMs": {
+          "moveOnStart": 43,
+          "moveOnEnd": 43,
+          "moveOffStart": 1133,
+          "moveOffEnd": 2156
+        }
+      },
+      "hover-5-primary-xl": {
+        "frames": 28,
+        "durationMs": 8091,
+        "motion": {
+          "firstMotionMs": 364,
+          "lastMotionMs": 8091,
+          "motionFrames": 27,
+          "totalFrames": 28,
+          "ranges": [
+            {
+              "startMs": 364,
+              "endMs": 364,
+              "frames": 1
+            },
+            {
+              "startMs": 636,
+              "endMs": 636,
+              "frames": 1
+            },
+            {
+              "startMs": 930,
+              "endMs": 930,
+              "frames": 1
+            },
+            {
+              "startMs": 1224,
+              "endMs": 1224,
+              "frames": 1
+            },
+            {
+              "startMs": 1505,
+              "endMs": 1505,
+              "frames": 1
+            },
+            {
+              "startMs": 1780,
+              "endMs": 1780,
+              "frames": 1
+            },
+            {
+              "startMs": 2056,
+              "endMs": 2056,
+              "frames": 1
+            },
+            {
+              "startMs": 2341,
+              "endMs": 2341,
+              "frames": 1
+            },
+            {
+              "startMs": 2620,
+              "endMs": 2620,
+              "frames": 1
+            },
+            {
+              "startMs": 2895,
+              "endMs": 2895,
+              "frames": 1
+            },
+            {
+              "startMs": 3182,
+              "endMs": 3182,
+              "frames": 1
+            },
+            {
+              "startMs": 3476,
+              "endMs": 3476,
+              "frames": 1
+            },
+            {
+              "startMs": 3767,
+              "endMs": 3767,
+              "frames": 1
+            },
+            {
+              "startMs": 4086,
+              "endMs": 4086,
+              "frames": 1
+            },
+            {
+              "startMs": 4393,
+              "endMs": 4393,
+              "frames": 1
+            },
+            {
+              "startMs": 4690,
+              "endMs": 4690,
+              "frames": 1
+            },
+            {
+              "startMs": 4985,
+              "endMs": 4985,
+              "frames": 1
+            },
+            {
+              "startMs": 5284,
+              "endMs": 5284,
+              "frames": 1
+            },
+            {
+              "startMs": 5590,
+              "endMs": 5590,
+              "frames": 1
+            },
+            {
+              "startMs": 5889,
+              "endMs": 5889,
+              "frames": 1
+            },
+            {
+              "startMs": 6181,
+              "endMs": 6181,
+              "frames": 1
+            },
+            {
+              "startMs": 6469,
+              "endMs": 6469,
+              "frames": 1
+            },
+            {
+              "startMs": 6749,
+              "endMs": 6749,
+              "frames": 1
+            },
+            {
+              "startMs": 7041,
+              "endMs": 7041,
+              "frames": 1
+            },
+            {
+              "startMs": 7341,
+              "endMs": 7341,
+              "frames": 1
+            },
+            {
+              "startMs": 7662,
+              "endMs": 7662,
+              "frames": 1
+            },
+            {
+              "startMs": 8091,
+              "endMs": 8091,
+              "frames": 1
+            }
+          ]
+        },
+        "description": "hover 5-primary-xl",
+        "selector": "a[data-framer-name=\"Primary / XL\"], [data-framer-name=\"Primary / XL\"] a",
+        "text": "Get started",
+        "targetRect": {
+          "x": 666.78125,
+          "y": 429.5,
+          "w": 106.4375,
+          "h": 40
+        },
+        "marksMs": {
+          "moveOnStart": 364,
+          "moveOnEnd": 3182,
+          "moveOffStart": 4690,
+          "moveOffEnd": 7341
+        }
+      },
+      "hover-6-x": {
+        "frames": 68,
+        "durationMs": 3717,
+        "motion": {
+          "firstMotionMs": 1112,
+          "lastMotionMs": 2591,
+          "motionFrames": 3,
+          "totalFrames": 68,
+          "ranges": [
+            {
+              "startMs": 1112,
+              "endMs": 1173,
+              "frames": 2
+            },
+            {
+              "startMs": 2591,
+              "endMs": 2591,
+              "frames": 1
+            }
+          ]
+        },
+        "description": "hover 6-x",
+        "selector": "a",
+        "text": "X",
+        "targetRect": {
+          "x": 104,
+          "y": 437,
+          "w": 124.15625,
+          "h": 26
+        },
+        "marksMs": {
+          "moveOnStart": 266,
+          "moveOnEnd": 809,
+          "moveOffStart": 2348,
+          "moveOffEnd": 2696
+        }
+      },
+      "hover-7-cortex": {
+        "frames": 31,
+        "durationMs": 8735,
+        "motion": {
+          "firstMotionMs": 4158,
+          "lastMotionMs": 5866,
+          "motionFrames": 2,
+          "totalFrames": 31,
+          "ranges": [
+            {
+              "startMs": 4158,
+              "endMs": 4158,
+              "frames": 1
+            },
+            {
+              "startMs": 5866,
+              "endMs": 5866,
+              "frames": 1
+            }
+          ]
+        },
+        "description": "hover 7-cortex",
+        "selector": "a",
+        "text": "Cortex",
+        "targetRect": {
+          "x": 104,
+          "y": 439,
+          "w": 48.953125,
+          "h": 21
+        },
+        "marksMs": {
+          "moveOnStart": 385,
+          "moveOnEnd": 3239,
+          "moveOffStart": 4715,
+          "moveOffEnd": 7591
+        }
+      },
+      "hover-8-subscribe": {
+        "frames": 30,
+        "durationMs": 8429,
+        "motion": {
+          "firstMotionMs": 4445,
+          "lastMotionMs": 6136,
+          "motionFrames": 2,
+          "totalFrames": 30,
+          "ranges": [
+            {
+              "startMs": 4445,
+              "endMs": 4445,
+              "frames": 1
+            },
+            {
+              "startMs": 6136,
+              "endMs": 6136,
+              "frames": 1
+            }
+          ]
+        },
+        "description": "hover 8-subscribe",
+        "selector": "button",
+        "text": "Subscribe",
+        "targetRect": {
+          "x": 1232,
+          "y": 434,
+          "w": 100,
+          "h": 32
+        },
+        "marksMs": {
+          "moveOnStart": 377,
+          "moveOnEnd": 3179,
+          "moveOffStart": 4728,
+          "moveOffEnd": 7275
+        }
+      },
+      "hover-9-terms-and-conditions": {
+        "frames": 37,
+        "durationMs": 2698,
+        "motion": {
+          "firstMotionMs": 520,
+          "lastMotionMs": 2187,
+          "motionFrames": 12,
+          "totalFrames": 37,
+          "ranges": [
+            {
+              "startMs": 520,
+              "endMs": 670,
+              "frames": 6
+            },
+            {
+              "startMs": 2042,
+              "endMs": 2187,
+              "frames": 6
+            }
+          ]
+        },
+        "description": "hover 9-terms-and-conditions",
+        "selector": "a",
+        "text": "Terms and Conditions",
+        "targetRect": {
+          "x": 1107,
+          "y": 823.84375,
+          "w": 120.953125,
+          "h": 16
+        },
+        "marksMs": {
+          "moveOnStart": 116,
+          "moveOnEnd": 116,
+          "moveOffStart": 1408,
+          "moveOffEnd": 2187
+        }
+      },
+      "loop-0-ticker-container": {
+        "frames": 39,
+        "durationMs": 8281,
+        "motion": {
+          "firstMotionMs": 291,
+          "lastMotionMs": 8281,
+          "motionFrames": 37,
+          "totalFrames": 39,
+          "ranges": [
+            {
+              "startMs": 291,
+              "endMs": 291,
+              "frames": 1
+            },
+            {
+              "startMs": 510,
+              "endMs": 510,
+              "frames": 1
+            },
+            {
+              "startMs": 710,
+              "endMs": 710,
+              "frames": 1
+            },
+            {
+              "startMs": 912,
+              "endMs": 912,
+              "frames": 1
+            },
+            {
+              "startMs": 1135,
+              "endMs": 1135,
+              "frames": 1
+            },
+            {
+              "startMs": 1355,
+              "endMs": 1355,
+              "frames": 1
+            },
+            {
+              "startMs": 1573,
+              "endMs": 1573,
+              "frames": 1
+            },
+            {
+              "startMs": 1801,
+              "endMs": 1801,
+              "frames": 1
+            },
+            {
+              "startMs": 2016,
+              "endMs": 2016,
+              "frames": 1
+            },
+            {
+              "startMs": 2248,
+              "endMs": 2248,
+              "frames": 1
+            },
+            {
+              "startMs": 2448,
+              "endMs": 2448,
+              "frames": 1
+            },
+            {
+              "startMs": 2663,
+              "endMs": 2663,
+              "frames": 1
+            },
+            {
+              "startMs": 2887,
+              "endMs": 2887,
+              "frames": 1
+            },
+            {
+              "startMs": 3088,
+              "endMs": 3088,
+              "frames": 1
+            },
+            {
+              "startMs": 3290,
+              "endMs": 3290,
+              "frames": 1
+            },
+            {
+              "startMs": 3495,
+              "endMs": 3495,
+              "frames": 1
+            },
+            {
+              "startMs": 3713,
+              "endMs": 3713,
+              "frames": 1
+            },
+            {
+              "startMs": 3944,
+              "endMs": 3944,
+              "frames": 1
+            },
+            {
+              "startMs": 4191,
+              "endMs": 4191,
+              "frames": 1
+            },
+            {
+              "startMs": 4430,
+              "endMs": 4430,
+              "frames": 1
+            },
+            {
+              "startMs": 4670,
+              "endMs": 4670,
+              "frames": 1
+            },
+            {
+              "startMs": 4925,
+              "endMs": 4925,
+              "frames": 1
+            },
+            {
+              "startMs": 5153,
+              "endMs": 5153,
+              "frames": 1
+            },
+            {
+              "startMs": 5376,
+              "endMs": 5376,
+              "frames": 1
+            },
+            {
+              "startMs": 5585,
+              "endMs": 5585,
+              "frames": 1
+            },
+            {
+              "startMs": 5810,
+              "endMs": 5810,
+              "frames": 1
+            },
+            {
+              "startMs": 6024,
+              "endMs": 6024,
+              "frames": 1
+            },
+            {
+              "startMs": 6240,
+              "endMs": 6240,
+              "frames": 1
+            },
+            {
+              "startMs": 6482,
+              "endMs": 6482,
+              "frames": 1
+            },
+            {
+              "startMs": 6707,
+              "endMs": 6707,
+              "frames": 1
+            },
+            {
+              "startMs": 6936,
+              "endMs": 6936,
+              "frames": 1
+            },
+            {
+              "startMs": 7154,
+              "endMs": 7154,
+              "frames": 1
+            },
+            {
+              "startMs": 7367,
+              "endMs": 7367,
+              "frames": 1
+            },
+            {
+              "startMs": 7576,
+              "endMs": 7576,
+              "frames": 1
+            },
+            {
+              "startMs": 7800,
+              "endMs": 7800,
+              "frames": 1
+            },
+            {
+              "startMs": 8044,
+              "endMs": 8044,
+              "frames": 1
+            },
+            {
+              "startMs": 8281,
+              "endMs": 8281,
+              "frames": 1
+            }
+          ]
+        },
+        "description": "4s unhovered, then hover 2s (self-animating element)",
+        "hoverStartMs": 3944,
+        "targetRect": {
+          "x": -185.086669921875,
+          "y": 430,
+          "w": 1312,
+          "h": 39
+        },
+        "hover": {
+          "preHoverFrames": 17,
+          "preHoverMeanChange": 6.89011,
+          "preHoverFps": 4.3,
+          "postHoverFrames": 19,
+          "postHoverMeanChange": 6.14644,
+          "postHoverFps": 4.7,
+          "verdict": "no change on hover"
+        }
+      },
+      "loop-1-content": {
+        "frames": 0,
+        "durationMs": 0,
+        "motion": {
+          "firstMotionMs": null,
+          "lastMotionMs": null,
+          "motionFrames": 0,
+          "totalFrames": 0,
+          "ranges": []
+        },
+        "error": "loop target lost"
+      },
+      "loop-2-content": {
+        "frames": 0,
+        "durationMs": 0,
+        "motion": {
+          "firstMotionMs": null,
+          "lastMotionMs": null,
+          "motionFrames": 0,
+          "totalFrames": 0,
+          "ranges": []
+        },
+        "error": "loop target lost"
+      },
+      "loop-3-content": {
+        "frames": 0,
+        "durationMs": 0,
+        "motion": {
+          "firstMotionMs": null,
+          "lastMotionMs": null,
+          "motionFrames": 0,
+          "totalFrames": 0,
+          "ranges": []
+        },
+        "error": "loop target lost"
+      },
+      "loop-4-content": {
+        "frames": 0,
+        "durationMs": 0,
+        "motion": {
+          "firstMotionMs": null,
+          "lastMotionMs": null,
+          "motionFrames": 0,
+          "totalFrames": 0,
+          "ranges": []
+        },
+        "error": "loop target lost"
+      },
+      "loop-5-content": {
+        "frames": 0,
+        "durationMs": 0,
+        "motion": {
+          "firstMotionMs": null,
+          "lastMotionMs": null,
+          "motionFrames": 0,
+          "totalFrames": 0,
+          "ranges": []
+        },
+        "error": "loop target lost"
+      }
+    },
+    "sections": {
+      "desktop": [
+        {
+          "index": 0,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 642,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 1,
+          "slug": "steps",
+          "name": "Steps",
+          "y": 710,
+          "h": 148,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Steps\"]"
+        },
+        {
+          "index": 2,
+          "slug": "partners",
+          "name": "Partners",
+          "y": 858,
+          "h": 220,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Partners\"]"
+        },
+        {
+          "index": 3,
+          "slug": "conversation",
+          "name": "Conversation",
+          "y": 1078,
+          "h": 749,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Conversation\"]"
+        },
+        {
+          "index": 4,
+          "slug": "features",
+          "name": "Features",
+          "y": 1827,
+          "h": 2700,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Features\"]"
+        },
+        {
+          "index": 5,
+          "slug": "integrations",
+          "name": "Integrations",
+          "y": 4527,
+          "h": 723,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Integrations\"]"
+        },
+        {
+          "index": 6,
+          "slug": "testimonials",
+          "name": "Testimonials",
+          "y": 5250,
+          "h": 601,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Testimonials\"]"
+        },
+        {
+          "index": 7,
+          "slug": "statistics",
+          "name": "Statistics",
+          "y": 5851,
+          "h": 489,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Statistics\"]"
+        },
+        {
+          "index": 8,
+          "slug": "faq",
+          "name": "FAQ",
+          "y": 6340,
+          "h": 512,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"FAQ\"]"
+        },
+        {
+          "index": 9,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 6852,
+          "h": 1618,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 642,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 2,
+          "slug": "steps",
+          "name": "Steps",
+          "y": 710,
+          "h": 148,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Steps\"]"
+        },
+        {
+          "index": 3,
+          "slug": "partners",
+          "name": "Partners",
+          "y": 858,
+          "h": 220,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Partners\"]"
+        },
+        {
+          "index": 4,
+          "slug": "conversation",
+          "name": "Conversation",
+          "y": 1078,
+          "h": 667,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Conversation\"]"
+        },
+        {
+          "index": 5,
+          "slug": "features",
+          "name": "Features",
+          "y": 1745,
+          "h": 2700,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Features\"]"
+        },
+        {
+          "index": 6,
+          "slug": "integrations",
+          "name": "Integrations",
+          "y": 4445,
+          "h": 554,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Integrations\"]"
+        },
+        {
+          "index": 7,
+          "slug": "testimonials",
+          "name": "Testimonials",
+          "y": 4999,
+          "h": 501,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Testimonials\"]"
+        },
+        {
+          "index": 8,
+          "slug": "statistics",
+          "name": "Statistics",
+          "y": 5500,
+          "h": 565,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Statistics\"]"
+        },
+        {
+          "index": 9,
+          "slug": "faq",
+          "name": "FAQ",
+          "y": 6065,
+          "h": 590,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"FAQ\"]"
+        },
+        {
+          "index": 10,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 6655,
+          "h": 1624,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet-810": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 642,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 2,
+          "slug": "steps",
+          "name": "Steps",
+          "y": 710,
+          "h": 148,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Steps\"]"
+        },
+        {
+          "index": 3,
+          "slug": "partners",
+          "name": "Partners",
+          "y": 858,
+          "h": 220,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Partners\"]"
+        },
+        {
+          "index": 4,
+          "slug": "conversation",
+          "name": "Conversation",
+          "y": 1078,
+          "h": 697,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Conversation\"]"
+        },
+        {
+          "index": 5,
+          "slug": "features",
+          "name": "Features",
+          "y": 1775,
+          "h": 2700,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Features\"]"
+        },
+        {
+          "index": 6,
+          "slug": "integrations",
+          "name": "Integrations",
+          "y": 4475,
+          "h": 554,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Integrations\"]"
+        },
+        {
+          "index": 7,
+          "slug": "testimonials",
+          "name": "Testimonials",
+          "y": 5029,
+          "h": 501,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Testimonials\"]"
+        },
+        {
+          "index": 8,
+          "slug": "statistics",
+          "name": "Statistics",
+          "y": 5530,
+          "h": 565,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Statistics\"]"
+        },
+        {
+          "index": 9,
+          "slug": "faq",
+          "name": "FAQ",
+          "y": 6095,
+          "h": 590,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"FAQ\"]"
+        },
+        {
+          "index": 10,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 6685,
+          "h": 1569,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "mobile": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -776,
+          "h": 844,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 888,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 2,
+          "slug": "steps",
+          "name": "Steps",
+          "y": 956,
+          "h": 272,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Steps\"]"
+        },
+        {
+          "index": 3,
+          "slug": "partners",
+          "name": "Partners",
+          "y": 1228,
+          "h": 180,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Partners\"]"
+        },
+        {
+          "index": 4,
+          "slug": "conversation",
+          "name": "Conversation",
+          "y": 1408,
+          "h": 727,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Conversation\"]"
+        },
+        {
+          "index": 5,
+          "slug": "features",
+          "name": "Features",
+          "y": 2135,
+          "h": 918,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Features\"]"
+        },
+        {
+          "index": 6,
+          "slug": "integrations",
+          "name": "Integrations",
+          "y": 3053,
+          "h": 678,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Integrations\"]"
+        },
+        {
+          "index": 7,
+          "slug": "testimonials",
+          "name": "Testimonials",
+          "y": 3731,
+          "h": 709,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Testimonials\"]"
+        },
+        {
+          "index": 8,
+          "slug": "statistics",
+          "name": "Statistics",
+          "y": 4440,
+          "h": 663,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Statistics\"]"
+        },
+        {
+          "index": 9,
+          "slug": "faq",
+          "name": "FAQ",
+          "y": 5103,
+          "h": 572,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"FAQ\"]"
+        },
+        {
+          "index": 10,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 5675,
+          "h": 1715,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ]
+    },
+    "assets": 15,
+    "hoverTargets": [
+      {
+        "name": "0-newintroducing-ask-query-your-",
+        "selector": "a",
+        "text": "NewIntroducing Ask: Query your entire st",
+        "click": false
+      },
+      {
+        "name": "1-primary-xl",
+        "selector": "a[data-framer-name=\"Primary / XL\"], [data-framer-name=\"Primary / XL\"] a",
+        "text": "Connect a source",
+        "click": false
+      },
+      {
+        "name": "2-secondary-xl",
+        "selector": "a[data-framer-name=\"Secondary / XL\"], [data-framer-name=\"Secondary / XL\"] a",
+        "text": "Book a demo",
+        "click": false
+      },
+      {
+        "name": "3-explore-more",
+        "selector": "a",
+        "text": "Explore more",
+        "click": false
+      },
+      {
+        "name": "4-view-integrations",
+        "selector": "a",
+        "text": "View integrations",
+        "click": false
+      },
+      {
+        "name": "5-primary-xl",
+        "selector": "a[data-framer-name=\"Primary / XL\"], [data-framer-name=\"Primary / XL\"] a",
+        "text": "Get started",
+        "click": false
+      },
+      {
+        "name": "6-x",
+        "selector": "a",
+        "text": "X",
+        "click": false
+      },
+      {
+        "name": "7-cortex",
+        "selector": "a",
+        "text": "Cortex",
+        "click": false
+      },
+      {
+        "name": "8-subscribe",
+        "selector": "button",
+        "text": "Subscribe",
+        "click": false
+      },
+      {
+        "name": "9-terms-and-conditions",
+        "selector": "a",
+        "text": "Terms and Conditions",
+        "click": false
+      }
+    ],
+    "loops": [
+      {
+        "index": 0,
+        "name": "ticker-container",
+        "y": 998,
+        "h": 39,
+        "w": 1312,
+        "canvas": false
+      },
+      {
+        "index": 1,
+        "name": "content",
+        "y": 4290,
+        "h": 72,
+        "w": 316,
+        "canvas": false
+      },
+      {
+        "index": 2,
+        "name": "content",
+        "y": 4362,
+        "h": 72,
+        "w": 316,
+        "canvas": false
+      },
+      {
+        "index": 3,
+        "name": "content",
+        "y": 4434,
+        "h": 72,
+        "w": 316,
+        "canvas": false
+      },
+      {
+        "index": 4,
+        "name": "content",
+        "y": 4506,
+        "h": 72,
+        "w": 316,
+        "canvas": false
+      },
+      {
+        "index": 5,
+        "name": "content",
+        "y": 4578,
+        "h": 72,
+        "w": 316,
+        "canvas": false
+      }
+    ]
+  },
+  "errors": [
+    "[loop-1-content] loop target lost",
+    "[loop-2-content] loop target lost",
+    "[loop-3-content] loop target lost",
+    "[loop-4-content] loop target lost",
+    "[loop-5-content] loop target lost"
+  ]
+}

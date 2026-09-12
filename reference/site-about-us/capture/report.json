@@ -1,0 +1,164 @@
+{
+  "report": {
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3764,
+        "stitchChunks": 5,
+        "hiddenFixedElements": 4,
+        "layoutElements": 582,
+        "sectionMode": "blocks"
+      },
+      "tablet": {
+        "width": 1024,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3696,
+        "stitchChunks": 5,
+        "hiddenFixedElements": 4,
+        "layoutElements": 664,
+        "sectionMode": "blocks"
+      },
+      "tablet-810": {
+        "width": 810,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3641,
+        "stitchChunks": 5,
+        "hiddenFixedElements": 4,
+        "layoutElements": 664,
+        "sectionMode": "blocks"
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 4409,
+        "stitchChunks": 6,
+        "hiddenFixedElements": 3,
+        "layoutElements": 647,
+        "sectionMode": "blocks"
+      }
+    },
+    "scenarios": {},
+    "sections": {
+      "desktop": [
+        {
+          "index": 0,
+          "slug": "about-us",
+          "name": "About us",
+          "y": 68,
+          "h": 2078,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"About us\"]"
+        },
+        {
+          "index": 1,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2146,
+          "h": 1618,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "about-us",
+          "name": "About us",
+          "y": 68,
+          "h": 2004,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"About us\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2072,
+          "h": 1624,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet-810": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "about-us",
+          "name": "About us",
+          "y": 68,
+          "h": 2004,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"About us\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2072,
+          "h": 1569,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "mobile": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -776,
+          "h": 844,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "about-us",
+          "name": "About us",
+          "y": 68,
+          "h": 2626,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"About us\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2694,
+          "h": 1715,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ]
+    },
+    "assets": 18
+  },
+  "errors": [
+    "[viewport desktop] viewport desktop exceeded 480s"
+  ]
+}

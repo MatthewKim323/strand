@@ -1,0 +1,64 @@
+##### TREE #####
+        div [Steps] .framer-1ye9oqd
+          div [Container] .framer-170t0as data-border
+            div [Connect] appear=fkx45e .framer-fkx45e-container {opacity: 1; transform: none; will-change: transform}
+              div [Visible] .framer-BDiiR.framer-cUeIE.framer-hlXus.framer-6ytqww {width: 100%; opacity: 1}
+                div .framer-9y91v8 {opacity: 1}
+                  div .framer-18ix66j {transform: none; opacity: 1}
+                    h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "1."
+                  div .framer-fbfp6c {transform: none; opacity: 1}
+                    h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Connect"
+                div .framer-1s1qb3c {transform: none; opacity: 1}
+                  p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Plug in your tools. 240+ integrations out of the box."
+            div [Map] appear=1scv7sf .framer-1scv7sf-container {opacity: 1; transform: none; will-change: transform}
+              div [Visible] .framer-BDiiR.framer-cUeIE.framer-hlXus.framer-6ytqww {width: 100%; opacity: 1}
+                div .framer-9y91v8 {opacity: 1}
+                  div .framer-18ix66j {transform: none; opacity: 1}
+                    h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "2."
+                  div .framer-fbfp6c {transform: none; opacity: 1}
+                    h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Map"
+                div .framer-1s1qb3c {transform: none; opacity: 1}
+                  p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Cortex automatically builds your knowledge graph."
+            div [Ask] appear=16yp3wb .framer-16yp3wb-container {opacity: 1; transform: none; will-change: transform}
+              div [Visible] .framer-BDiiR.framer-cUeIE.framer-hlXus.framer-6ytqww {width: 100%; opacity: 1}
+                div .framer-9y91v8 {opacity: 1}
+                  div .framer-18ix66j {transform: none; opacity: 1}
+                    h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "3."
+                  div .framer-fbfp6c {transform: none; opacity: 1}
+                    h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Ask"
+                div .framer-1s1qb3c {transform: none; opacity: 1}
+                  p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Query in plain language. Share results with your team."
+
+##### CSS #####
+@media (max-width:1199px) and (min-width:810px) | .framer-cUeIE .framer-styles-preset-6awed:not(.rich-text-wrapper), .framer-cUeIE .framer-styles-preset-6awed.rich-text-wrapper h3
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:18px;--framer-font-weight:600;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070,#fafafa);--framer-text-transform:none
+@media (max-width:809px) and (min-width:0) | .framer-cUeIE .framer-styles-preset-6awed:not(.rich-text-wrapper), .framer-cUeIE .framer-styles-preset-6awed.rich-text-wrapper h3
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:16px;--framer-font-weight:600;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070,#fafafa);--framer-text-transform:none
+@base | .framer-KmWmf .framer-1ye9oqd
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-KmWmf .framer-170t0as
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#222);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex:none;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));grid-auto-rows:minmax(0,1fr);justify-content:center;gap:32px;width:100%;padding:40px;display:grid;position:relative
+@media (min-width:810px) and (max-width:1199.98px) | .framer-KmWmf .framer-1ye9oqd
+    padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-KmWmf .framer-170t0as
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (max-width:809.98px) | .framer-KmWmf .framer-1ye9oqd
+    padding:0
+@media (max-width:809.98px) | .framer-KmWmf .framer-170t0as
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));grid-auto-rows:min-content;gap:24px 32px;padding:40px 20px
+@base | .framer-BDiiR.framer-eqccfe, .framer-BDiiR .framer-eqccfe
+    display:block
+@base | .framer-BDiiR.framer-6ytqww
+    height:min-content;overflow:clip;flex-flow:column;place-content:center;align-items:center;gap:8px;width:224px;padding:0;display:flex;position:relative
+@base | .framer-BDiiR .framer-9y91v8
+    flex-flow:row;flex:none;place-content:center;align-items:center;gap:4px;width:100%;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-BDiiR .framer-18ix66j
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-BDiiR .framer-fbfp6c
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:1 0 0;width:1px;height:auto;position:relative
+@base | .framer-BDiiR .framer-1s1qb3c
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-cUeIE .framer-styles-preset-6awed:not(.rich-text-wrapper), .framer-cUeIE .framer-styles-preset-6awed.rich-text-wrapper h3
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:16px;--framer-font-weight:600;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070,#fafafa);--framer-text-transform:none
+@base | .framer-hlXus .framer-styles-preset-c6fndl:not(.rich-text-wrapper), .framer-hlXus .framer-styles-preset-c6fndl.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:14px;--framer-font-weight:400;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d,#a1a1a1);--framer-text-transform:none

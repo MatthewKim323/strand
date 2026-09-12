@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.Dh6celcD.mjs";function t(e,t){return{description:`Nordwell connects every tool in your stack into one living knowledge graph, so you can ask questions in plain language and get instant answers.`,favicon:`https://framerusercontent.com/assets/xvFVUwFGTrVSumnwsaidgZmojZM.png`,robots:`max-image-preview:large`,socialImage:`https://framerusercontent.com/assets/hcH4DnsAZpvFOzdaEnJi8Pk094.png`,title:`Nordwell - AI Data Intelligence Platform`}}var n=e((()=>{}));export{t as n,n as t};
+//# sourceMappingURL=shared-lib.D5K85Osy.mjs.map

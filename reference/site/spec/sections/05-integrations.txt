@@ -1,0 +1,431 @@
+##### TREE #####
+        div [Integrations] #integrations .framer-65i7ss
+          div [Container] .framer-vedlvf data-border
+            div
+              div .framer-ixio0v-container
+                div [End] .framer-kEcQz.framer-bd4w60 {width: 100%; opacity: 1}
+                  div [Left] .framer-t5arn {opacity: 1}
+                    div [b] .framer-u6zm30 {background-color: rgb(0, 0, 36); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                    div [g] .framer-1s7vawm {background-color: rgb(0, 37, 0); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                    div [r] .framer-1ndw0of {background-color: rgb(41, 0, 0); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                  div [Right] .framer-12bx2ig {opacity: 1}
+                    div [b] .framer-ddlp53 {background-color: rgb(0, 0, 36); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                    div [g] .framer-1is7c6b {background-color: rgb(0, 37, 0); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                    div [r] .framer-1j63n4i {background-color: rgb(41, 0, 0); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+            div [Context] .framer-19csyfa
+              div [Context] .framer-mjvzh3
+                div [Title] .framer-5t78lj {transform:none}
+                  h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Connect your stack"
+                div [Description] .framer-1i3vsvd {transform:none}
+                  p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Monitoring, code, observability, cloud, CI/CD systems, messaging, and even homegrown tooling."
+              div .framer-1419ixl-container
+                a [Variant 1] .framer-z2KqL.framer-95lQp.framer-15dzpeo.framer-6dl3ic href=./integrations {opacity: 1}
+                  div [Title] .framer-unk2by {transform: none; opacity: 1}
+                    p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "View integrations"
+                  button [Circular Button] .framer-1bs23ii {background-color: var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38)); border-radius: 52px; opacity: 1}
+                    svg .framer-ab47M.framer-ycs1mn viewBox=0 0 24 24 {opacity: 1}
+                      use href=#2903821725
+            div [Visual] .framer-n9voe3 {will-change: transform; opacity: 1; transform: none}
+              div
+                div .framer-6okzgi-container {will-change: transform; opacity: 1; transform: translateX(120px)}
+                  div [Desktop] .framer-kdORT.framer-LKFMZ.framer-jhxgU.framer-gdrllt data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                    div [Top Container] .framer-185hq2g data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; opacity: 1}
+                      div .framer-17ojuzp {transform: none; opacity: 1}
+                        p .framer-text.framer-styles-preset-hlupby {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "Connected sources"
+                    div [Content] .framer-83tgt0 {opacity: 1}
+                      div .framer-gh3cms-container {mask: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 22.0721%); opacity: 1}
+                        div {flex-direction:column; width:100%; height:100%; overflow:clip}
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [Chatdock] .framer-6xdufh-container {width: 100%; opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-OtoXu.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; opacity: 1; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Chatdock"
+                                  div [Info] .framer-1k1wxa9 {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; opacity: 1; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "9.841 conversations"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; opacity: 1; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "204 open"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [VaultDB] .framer-i8p0sv-container {width: 100%; opacity: 0; transform: translate3d(0px, 360px, 0px); transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; opacity: 0; transform: translate3d(0px, 69.585px, 0px); transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-VAmFs.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "VaultDB"
+                                  div [Info] .framer-1k1wxa9 {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "38 schemes"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "6.4M rows"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [Stride] .framer-1uvcff0-container {width: 100%; opacity: 0; transform: translate3d(0px, 360px, 0px); transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; opacity: 0; transform: translate3d(0px, 69.585px, 0px); transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-zS0tf.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Stride"
+                                  div [Info] .framer-1k1wxa9 {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "$2.4 MMR"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "1,204 subscriptions"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [ThreadBase] .framer-h8xx6f-container {width: 100%; opacity: 0; transform: translate3d(0px, 360px, 0px); transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; opacity: 0; transform: translate3d(0px, 69.585px, 0px); transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-TvQhD.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "ThreadBase"
+                                  div [Info] .framer-1k1wxa9 {opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "42 channels"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; opacity: 0; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; opacity: 0; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "alerts enabled"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [Pipecloud] .framer-1ylbtto-container {width: 100%; transform: translate3d(0px, 360px, 0px); transform-origin: 50% 50% 0px; opacity: 0}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; transform: translate3d(0px, 69.585px, 0px); transform-origin: 50% 50% 0px; opacity: 0}
+                                div .framer-13c4gue {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                  img .framer-bqZNq.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                div [Content] .framer-9xyj0u {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                  div [Name] .framer-c89zoz {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Pipecloud"
+                                  div [Info] .framer-1k1wxa9 {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "874 accounts"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; transform-origin: 50% 50% 0px; opacity: 0}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "12,400 records"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [Chatdock] .framer-6xdufh-container {width: 100%; transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                div .framer-13c4gue {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                  img .framer-OtoXu.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                div [Content] .framer-9xyj0u {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                  div [Name] .framer-c89zoz {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Chatdock"
+                                  div [Info] .framer-1k1wxa9 {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "9.841 conversations"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; transform-origin: 50% 50% 0px; opacity: 1}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "204 open"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [VaultDB] .framer-i8p0sv-container {width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-VAmFs.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "VaultDB"
+                                  div [Info] .framer-1k1wxa9 {transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "38 schemes"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "6.4M rows"
+                          div {opacity: 1; transform: none; transform-origin: 50% 50% 0px}
+                            div [Stride] .framer-1uvcff0-container {width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-zS0tf.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Stride"
+                                  div [Info] .framer-1k1wxa9 {transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "$2.4 MMR"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "1,204 subscriptions"
+                          div {opacity: 1; transform: none; will-change: transform; transform-origin: 50% 50% 0px}
+                            div [ThreadBase] .framer-h8xx6f-container {width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-TvQhD.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "ThreadBase"
+                                  div [Info] .framer-1k1wxa9 {transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "42 channels"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "alerts enabled"
+                          div {opacity: 1; transform: none; will-change: transform; transform-origin: 50% 50% 0px}
+                            div [Pipecloud] .framer-1ylbtto-container {width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; transform: none; transform-origin: 50% 50% 0px}
+                                div .framer-13c4gue {transform: none; transform-origin: 50% 50% 0px}
+                                  img .framer-bqZNq.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {transform: none; transform-origin: 50% 50% 0px}
+                                div [Content] .framer-9xyj0u {transform: none; transform-origin: 50% 50% 0px}
+                                  div [Name] .framer-c89zoz {transform: none; transform-origin: 50% 50% 0px}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Pipecloud"
+                                  div [Info] .framer-1k1wxa9 {transform: none; transform-origin: 50% 50% 0px}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "874 accounts"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; transform: none; transform-origin: 50% 50% 0px}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; transform-origin: 50% 50% 0px}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "12,400 records"
+                          div {opacity: 1; transform: none; will-change: transform}
+                            div [Chatdock] .framer-6xdufh-container {width: 100%; opacity: 1}
+                              div [Variant 1] .framer-7anIQ.framer-NXcw2.framer-dlOWH.framer-ugmnpa data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; opacity: 1}
+                                div .framer-13c4gue {opacity: 1}
+                                  img .framer-OtoXu.framer-19x1sdu src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {opacity: 1}
+                                div [Content] .framer-9xyj0u {opacity: 1}
+                                  div [Name] .framer-c89zoz {transform: none; opacity: 1}
+                                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Chatdock"
+                                  div [Info] .framer-1k1wxa9 {opacity: 1}
+                                    div [Main Info] .framer-1fv4oxa {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-aX6PgoJvt-aceCR88cA))} "9.841 conversations"
+                                    div .framer-1rsvuv {background-color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); border-radius: 96px; opacity: 1}
+                                    div [Secondary Info] .framer-1tnyczv {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "204 open"
+                      div [Right Column Grid] .framer-8euj4w data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; opacity: 1}
+                        div .framer-cylrhc-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-SGmg3.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-1i883q6-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-ymZ8h.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-ty9win-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-TvQhD.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-46yqfj-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-phRX5.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-1ee5na3-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-OtoXu.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-13lh168-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-wLgrk.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-1ttgjgi-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-zS0tf.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-pq2rio-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-Sb2xs.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-1wyi2ic-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-iCtWw.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-jd2sxu-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-OtoXu.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-1d0aftb-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-YfD14.framer-10j4wre src=data:image/svg+xml,<svg display="block" id="1524428453" role="presentation" viewBox="0 0 3  {filter:grayscale(1); opacity:0.5}
+                        div .framer-l327az-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-VAmFs.framer-10j4wre src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt  {filter:grayscale(1); opacity:0.5}
+                        div .framer-32528q-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-YfD14.framer-10j4wre src=data:image/svg+xml,<svg display="block" id="1524428453" role="presentation" viewBox="0 0 3  {filter:grayscale(1); opacity:0.5}
+                        div .framer-tifjbr-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-YfD14.framer-10j4wre src=data:image/svg+xml,<svg display="block" id="1524428453" role="presentation" viewBox="0 0 3  {filter:grayscale(1); opacity:0.5}
+                        div .framer-18e99bp-container {opacity: 1}
+                          div [Variant 1] .framer-DXDHz.framer-1x8w27f data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; height: 100%; width: 100%; border-radius: 16px; opacity: 1}
+                            img .framer-YfD14.framer-10j4wre src=data:image/svg+xml,<svg display="block" id="1524428453" role="presentation" viewBox="0 0 3  {filter:grayscale(1); opacity:0.5}
+                    div [Bottom Container] .framer-15nwmy8 data-border {--border-bottom-width: 0px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 1px; opacity: 1}
+                      div [Stats] .framer-1mlkfvk {opacity: 1}
+                        div .framer-1cs5ouk-container {opacity: 1}
+                          div [Variant 1] .framer-6SsJm.framer-dlOWH.framer-xwp0c1 {opacity: 1}
+                            div .framer-5mjxua {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "41.2M"
+                            div .framer-5s556i {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "records indexed"
+                        div .framer-faln48-container {opacity: 1}
+                          div [Variant 1] .framer-6SsJm.framer-dlOWH.framer-xwp0c1 {opacity: 1}
+                            div .framer-5mjxua {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "0"
+                            div .framer-5s556i {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color:var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "errors"
+                      div [Stats] .framer-4279vg {opacity: 1}
+                      div .framer-tkr0va {opacity: 1}
+                        div .framer-cdt6p {transform: none; opacity: 1}
+                          p .framer-text.framer-styles-preset-1unq4w "Add integration"
+                        div .framer-923ush-container {opacity: 1}
+                          a [Light / XS] .framer-ssUFK.framer-1qc2red.framer-1cr0tx1 href= {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38)); border-radius: 52px; opacity: 1}
+                            svg .framer-K11hZ.framer-3o11qm viewBox=0 0 24 24 {opacity: 1}
+                              use href=#3356954461
+
+##### CSS #####
+@base | .framer-YfD14
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);-webkit-user-select:none;user-select:none;width:32px;display:block
+@base | .framer-KmWmf .framer-65i7ss
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:0;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-KmWmf .framer-vedlvf
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#222);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex:none;grid-template-rows:repeat(1,minmax(0,1fr));grid-template-columns:repeat(5,minmax(135px,1fr));grid-auto-rows:minmax(0,1fr);justify-content:center;gap:0;width:100%;padding:0;display:grid;position:relative
+@base | .framer-KmWmf .framer-19csyfa
+    height:100%;overflow:clip;flex-flow:column;flex:none;grid-column:span 2;place-content:flex-start center;place-self:center start;align-items:flex-start;gap:40px;width:100%;padding:40px;display:flex;position:relative
+@base | .framer-KmWmf .framer-mjvzh3
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:flex-start center;align-items:flex-start;gap:22px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-KmWmf .framer-5t78lj, .framer-KmWmf .framer-1i3vsvd
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-KmWmf .framer-n9voe3
+    height:723px;overflow:clip;flex-flow:column;flex:none;grid-column:span 3;place-content:flex-start center;place-self:start;align-items:flex-start;gap:16px;width:100%;padding:40px;display:flex;position:relative;-webkit-mask:linear-gradient(270deg,#0000 12%,#000 61%);mask:linear-gradient(270deg,#0000 12%,#000 61%)
+@media (min-width:810px) and (max-width:1199.98px) | .framer-KmWmf .framer-65i7ss
+    padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-KmWmf .framer-vedlvf
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (min-width:810px) and (max-width:1199.98px) | .framer-KmWmf .framer-n9voe3
+    height:min-content
+@media (max-width:809.98px) | .framer-KmWmf .framer-65i7ss
+    padding:0
+@media (max-width:809.98px) | .framer-KmWmf .framer-vedlvf
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;flex-flow:column;align-content:center;align-items:center;display:flex
+@media (max-width:809.98px) | .framer-KmWmf .framer-19csyfa
+    align-self:unset;order:2;height:min-content;padding:40px 20px
+@media (max-width:809.98px) | .framer-KmWmf .framer-n9voe3
+    -webkit-mask:unset;align-self:unset;height:min-content;-webkit-mask:unset;mask:unset;order:1;padding:32px 16px 16px
+@base | .framer-kEcQz.framer-cpsty2, .framer-kEcQz .framer-cpsty2
+    display:block
+@base | .framer-kEcQz.framer-bd4w60
+    height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:0;width:429px;padding:0;display:flex;position:relative
+@base | .framer-kEcQz .framer-t5arn, .framer-kEcQz .framer-12bx2ig
+    height:1px;overflow:clip;flex:1 0 0;width:1px;position:relative
+@base | .framer-kEcQz .framer-u6zm30
+    z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;right:0;overflow:visible
+@base | .framer-kEcQz .framer-1s7vawm, .framer-kEcQz .framer-1ndw0of
+    mix-blend-mode:screen;z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;right:0;overflow:visible
+@base | .framer-kEcQz .framer-ddlp53
+    z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;left:0;overflow:visible
+@base | .framer-kEcQz .framer-1is7c6b, .framer-kEcQz .framer-1j63n4i
+    mix-blend-mode:screen;z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;left:0;overflow:visible
+@base | .framer-kEcQz.framer-v-1kv1gub .framer-u6zm30, .framer-kEcQz.framer-v-1kv1gub .framer-1s7vawm, .framer-kEcQz.framer-v-1kv1gub .framer-1ndw0of, .framer-kEcQz.framer-v-1kv1gub .framer-ddlp53, .framer-kEcQz.framer-v-1kv1gub .framer-1is7c6b, .framer-kEcQz.framer-v-1kv1gub .framer-1j63n4i
+    width:0%
+@base | .framer-K11hZ
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);width:24px;display:block
+@base | .framer-z2KqL.framer-6dl3ic, .framer-z2KqL .framer-6dl3ic
+    display:block
+@base | .framer-z2KqL.framer-15dzpeo
+    cursor:pointer;height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:12px;width:min-content;padding:0;text-decoration:none;display:flex;position:relative
+@base | .framer-z2KqL .framer-unk2by
+    -webkit-user-select:none;user-select:none;white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-z2KqL .framer-1bs23ii
+    aspect-ratio:1;cursor:pointer;height:auto;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:4px;width:26px;padding:0;display:flex;position:relative
+@base | .framer-z2KqL .framer-ycs1mn
+    -webkit-user-select:none;user-select:none;flex:none;width:14px;height:auto;position:relative
+@base | .framer-ab47M
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);width:24px;display:block
+@base | .framer-kdORT.framer-tavzun, .framer-kdORT .framer-tavzun
+    display:block
+@base | .framer-kdORT.framer-gdrllt
+    height:431px;overflow:clip;flex-flow:column;place-content:center;align-items:center;gap:0;width:742px;padding:0;display:flex;position:relative
+@base | .framer-kdORT .framer-185hq2g
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:16px 20px;display:flex;position:relative
+@base | .framer-kdORT .framer-17ojuzp
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:1 0 0;width:1px;height:auto;position:relative
+@base | .framer-kdORT .framer-83tgt0
+    height:1px;overflow:clip;flex-flow:row;flex:1 0 0;place-content:flex-start center;align-items:flex-start;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-kdORT .framer-gh3cms-container
+    flex:1 0 0;width:1px;height:100%;position:relative
+@base | .framer-kdORT .framer-h8xx6f-container, .framer-kdORT .framer-1ylbtto-container, .framer-kdORT .framer-6xdufh-container, .framer-kdORT .framer-i8p0sv-container, .framer-kdORT .framer-1uvcff0-container
+    width:326px;height:auto;position:relative
+@base | .framer-kdORT .framer-8euj4w
+    height:min-content;overflow:clip;flex:none;grid-template-rows:repeat(4,90px);grid-template-columns:repeat(3,90px);grid-auto-rows:90px;justify-content:center;gap:8px;width:min-content;padding:20px;display:grid;position:relative
+@base | .framer-kdORT .framer-cylrhc-container, .framer-kdORT .framer-1i883q6-container, .framer-kdORT .framer-ty9win-container, .framer-kdORT .framer-46yqfj-container, .framer-kdORT .framer-1ee5na3-container, .framer-kdORT .framer-13lh168-container, .framer-kdORT .framer-1ttgjgi-container, .framer-kdORT .framer-pq2rio-container, .framer-kdORT .framer-1wyi2ic-container, .framer-kdORT .framer-jd2sxu-container, .framer-kdORT .framer-1d0aftb-container, .framer-kdORT .framer-l327az-container, .framer-kdORT .framer-32528q-container, .framer-kdORT .framer-tifjbr-container, .framer-kdORT .framer-18e99bp-container
+    flex:none;place-self:start;width:100%;height:100%;position:relative
+@base | .framer-kdORT .framer-15nwmy8
+    height:min-content;overflow:clip;flex-flow:wrap;flex:none;place-content:center flex-start;align-items:center;gap:8px 0;width:100%;padding:12px 20px;display:flex;position:relative
+@base | .framer-kdORT .framer-1mlkfvk
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:18px;width:min-content;padding:0;display:flex;position:relative
+@base | .framer-kdORT .framer-1cs5ouk-container, .framer-kdORT .framer-faln48-container, .framer-kdORT .framer-923ush-container
+    flex:none;width:auto;height:auto;position:relative
+@base | .framer-kdORT .framer-4279vg
+    min-width:24px;height:18px;overflow:clip;flex:1 0 0;gap:18px;width:1px;position:relative
+@base | .framer-kdORT .framer-tkr0va
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:12px;width:min-content;padding:0;display:flex;position:relative
+@base | .framer-kdORT .framer-cdt6p
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-kdORT.framer-v-55zd65.framer-gdrllt
+    width:440px
+@base | .framer-kdORT.framer-v-55zd65 .framer-185hq2g, .framer-kdORT.framer-v-55zd65 .framer-15nwmy8
+    padding:12px 16px
+@base | .framer-kdORT[data-border=true]:after, .framer-kdORT [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-7anIQ.framer-7pmgma, .framer-7anIQ .framer-7pmgma
+    display:block
+@base | .framer-7anIQ.framer-ugmnpa
+    height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:12px;width:326px;padding:16px;display:flex;position:relative
+@base | .framer-7anIQ .framer-13c4gue
+    flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:40px;height:40px;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-7anIQ .framer-19x1sdu
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,32px);flex:none;width:32px;position:relative
+@base | .framer-7anIQ .framer-9xyj0u
+    height:min-content;overflow:clip;flex-flow:column;flex:1 0 0;place-content:flex-start center;align-items:flex-start;gap:0;width:1px;padding:0;display:flex;position:relative
+@base | .framer-7anIQ .framer-c89zoz, .framer-7anIQ .framer-1fv4oxa, .framer-7anIQ .framer-1tnyczv
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-7anIQ .framer-1k1wxa9
+    height:min-content;overflow:clip;flex-flow:wrap;flex:none;place-content:center flex-start;align-items:center;gap:8px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-7anIQ .framer-1rsvuv
+    height:4px;overflow:clip;flex:none;width:4px;position:relative
+@base | .framer-7anIQ[data-border=true]:after, .framer-7anIQ [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-TvQhD, .framer-bqZNq, .framer-OtoXu, .framer-VAmFs, .framer-zS0tf
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);-webkit-user-select:none;user-select:none;width:32px;display:block
+@base | .framer-DXDHz.framer-ni0g29, .framer-DXDHz .framer-ni0g29
+    display:block
+@base | .framer-DXDHz.framer-1x8w27f
+    height:90px;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:16px;width:90px;padding:0;display:flex;position:relative
+@base | .framer-DXDHz .framer-10j4wre
+    height:var(--framer-aspect-ratio-supported,32px);flex:none;width:32px;position:relative
+@base | .framer-DXDHz[data-border=true]:after, .framer-DXDHz [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-SGmg3, .framer-ymZ8h, .framer-phRX5, .framer-wLgrk, .framer-Sb2xs, .framer-iCtWw
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);-webkit-user-select:none;user-select:none;width:32px;display:block
+@base | .framer-6SsJm.framer-yyadd6, .framer-6SsJm .framer-yyadd6
+    display:block
+@base | .framer-6SsJm.framer-xwp0c1
+    height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:8px;width:min-content;padding:0;display:flex;position:relative
+@base | .framer-6SsJm .framer-5mjxua, .framer-6SsJm .framer-5s556i
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-dlOWH .framer-styles-preset-12bheum:not(.rich-text-wrapper), .framer-dlOWH .framer-styles-preset-12bheum.rich-text-wrapper p
+    --framer-font-family:"Geist Mono",monospace;--framer-font-size:11px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:15px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-ssUFK.framer-1cr0tx1, .framer-ssUFK .framer-1cr0tx1
+    display:block
+@base | .framer-ssUFK.framer-1qc2red
+    cursor:pointer;height:40px;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:4px;width:40px;padding:0;text-decoration:none;display:flex;position:relative
+@base | .framer-ssUFK .framer-3o11qm
+    flex:none;width:16px;height:auto;position:relative
+@base | .framer-ssUFK.framer-v-ky2352.framer-1qc2red
+    cursor:not-allowed
+@base | .framer-ssUFK.framer-v-rlp5ew.framer-1qc2red, .framer-ssUFK.framer-v-s4xh6n.framer-1qc2red, .framer-ssUFK.framer-v-wfeamq.framer-1qc2red, .framer-ssUFK.framer-v-187a6rj.framer-1qc2red
+    width:36px;height:36px
+@base | .framer-ssUFK.framer-v-1iqjk5r.framer-1qc2red
+    cursor:not-allowed;width:36px;height:36px
+@base | .framer-ssUFK.framer-v-1fxg40n.framer-1qc2red, .framer-ssUFK.framer-v-13lzo22.framer-1qc2red, .framer-ssUFK.framer-v-10hsmm9.framer-1qc2red, .framer-ssUFK.framer-v-4jcjwb.framer-1qc2red
+    width:32px;height:32px
+@base | .framer-ssUFK.framer-v-10n6yab.framer-1qc2red
+    cursor:not-allowed;width:32px;height:32px
+@base | .framer-ssUFK.framer-v-1fo68tz.framer-1qc2red, .framer-ssUFK.framer-v-14e06qg.framer-1qc2red, .framer-ssUFK.framer-v-1navpe9.framer-1qc2red, .framer-ssUFK.framer-v-1krc73u.framer-1qc2red
+    width:26px;height:26px
+@base | .framer-ssUFK.framer-v-1fo68tz .framer-3o11qm, .framer-ssUFK.framer-v-14e06qg .framer-3o11qm, .framer-ssUFK.framer-v-1navpe9 .framer-3o11qm, .framer-ssUFK.framer-v-1krc73u .framer-3o11qm, .framer-ssUFK.framer-v-d1t73o .framer-3o11qm
+    width:14px
+@base | .framer-ssUFK.framer-v-d1t73o.framer-1qc2red
+    cursor:not-allowed;width:26px;height:26px
+@base | .framer-ssUFK.framer-v-ojjviu.framer-1qc2red, .framer-ssUFK.framer-v-1muf3n5.framer-1qc2red, .framer-ssUFK.framer-v-9qkm51.framer-1qc2red, .framer-ssUFK.framer-v-bedbah.framer-1qc2red
+    width:20px;height:20px
+@base | .framer-ssUFK.framer-v-ojjviu .framer-3o11qm, .framer-ssUFK.framer-v-1muf3n5 .framer-3o11qm, .framer-ssUFK.framer-v-9qkm51 .framer-3o11qm, .framer-ssUFK.framer-v-bedbah .framer-3o11qm, .framer-ssUFK.framer-v-1baw4bx .framer-3o11qm
+    width:12px
+@base | .framer-ssUFK.framer-v-1baw4bx.framer-1qc2red
+    cursor:not-allowed;width:20px;height:20px
+@base | .framer-ssUFK[data-border=true]:after, .framer-ssUFK [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-NXcw2 .framer-styles-preset-1tsnca:not(.rich-text-wrapper), .framer-NXcw2 .framer-styles-preset-1tsnca.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:16px;--framer-font-weight:400;--framer-letter-spacing:0em;--framer-line-height:24px;--framer-text-alignment:start;--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d,#a1a1a1);--framer-text-transform:none
+@base | .framer-95lQp .framer-styles-preset-1h9i0d0:not(.rich-text-wrapper), .framer-95lQp .framer-styles-preset-1h9i0d0.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:14px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-jhxgU .framer-styles-preset-1unq4w:not(.rich-text-wrapper), .framer-jhxgU .framer-styles-preset-1unq4w.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:12px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:16px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-LKFMZ .framer-styles-preset-hlupby:not(.rich-text-wrapper), .framer-LKFMZ .framer-styles-preset-hlupby.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:11px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:15px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
