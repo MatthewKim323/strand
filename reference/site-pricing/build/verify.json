@@ -1,0 +1,149 @@
+{
+ "url": "http://localhost:3799/pricing",
+ "ref": "reference/site-pricing",
+ "at": "2026-09-12T11:40:19.772Z",
+ "viewports": {
+  "desktop": {
+   "width": 1440,
+   "docHeight": {
+    "ref": 3183,
+    "build": 3183,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Pricing",
+     "y": 68,
+     "ref": 2174,
+     "build": 2174,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 2242,
+     "ref": 941,
+     "build": 941,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet": {
+   "width": 1024,
+   "docHeight": {
+    "ref": 3745,
+    "build": 3745,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Pricing",
+     "y": 68,
+     "ref": 2730,
+     "build": 2730,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 2798,
+     "ref": 947,
+     "build": 947,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet-810": {
+   "width": 810,
+   "docHeight": {
+    "ref": 3690,
+    "build": 3690,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Pricing",
+     "y": 68,
+     "ref": 2730,
+     "build": 2730,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 2798,
+     "ref": 892,
+     "build": 892,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "mobile": {
+   "width": 390,
+   "docHeight": {
+    "ref": 4116,
+    "build": 4116,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -776,
+     "ref": 844,
+     "build": 844,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Pricing",
+     "y": 68,
+     "ref": 3010,
+     "build": 3010,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 3078,
+     "ref": 1038,
+     "build": 1038,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  }
+ },
+ "pass": true,
+ "blackout": true
+}

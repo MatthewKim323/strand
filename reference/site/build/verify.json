@@ -1,417 +1,405 @@
 {
  "url": "http://localhost:3799/",
  "ref": "reference/site",
- "at": "2026-09-12T11:23:04.941Z",
+ "at": "2026-09-12T11:34:36.359Z",
  "viewports": {
   "desktop": {
    "width": 1440,
    "docHeight": {
     "ref": 8470,
-    "build": 900,
-    "ok": false
+    "build": 8470,
+    "ok": true
    },
    "sections": [
     {
      "name": "Hero",
      "y": 68,
      "ref": 642,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 642,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Steps",
      "y": 710,
      "ref": 148,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 148,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Partners",
      "y": 858,
      "ref": 220,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 220,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Conversation",
      "y": 1078,
      "ref": 749,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 749,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Features",
      "y": 1827,
      "ref": 2700,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 2700,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Integrations",
      "y": 4527,
      "ref": 723,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 723,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Testimonials",
      "y": 5250,
      "ref": 601,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 601,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Statistics",
      "y": 5851,
      "ref": 489,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 489,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "FAQ",
      "y": 6340,
      "ref": 512,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 512,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Footer Container",
      "y": 6852,
      "ref": 1618,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 1618,
+     "delta": 0,
+     "ok": true
     }
    ],
-   "consoleErrors": [
-    "pageerror: MicGlyph is not defined"
-   ],
+   "consoleErrors": [],
    "diff": null,
-   "pass": false
+   "pass": true
   },
   "tablet": {
    "width": 1024,
    "docHeight": {
     "ref": 8279,
-    "build": 900,
-    "ok": false
+    "build": 8279,
+    "ok": true
    },
    "sections": [
     {
      "name": "Tablet / Mobile Menu",
      "y": -832,
      "ref": 900,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 900,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Hero",
      "y": 68,
      "ref": 642,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 642,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Steps",
      "y": 710,
      "ref": 148,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 148,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Partners",
      "y": 858,
      "ref": 220,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 220,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Conversation",
      "y": 1078,
      "ref": 667,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 667,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Features",
      "y": 1745,
      "ref": 2700,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 2700,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Integrations",
      "y": 4445,
      "ref": 554,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 554,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Testimonials",
      "y": 4999,
      "ref": 501,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 501,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Statistics",
      "y": 5500,
      "ref": 565,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 565,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "FAQ",
      "y": 6065,
      "ref": 590,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 590,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Footer Container",
      "y": 6655,
      "ref": 1624,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 1624,
+     "delta": 0,
+     "ok": true
     }
    ],
-   "consoleErrors": [
-    "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
-    "pageerror: MicGlyph is not defined"
-   ],
+   "consoleErrors": [],
    "diff": null,
-   "pass": false
+   "pass": true
   },
   "tablet-810": {
    "width": 810,
    "docHeight": {
     "ref": 8254,
-    "build": 900,
-    "ok": false
+    "build": 8254,
+    "ok": true
    },
    "sections": [
     {
      "name": "Tablet / Mobile Menu",
      "y": -832,
      "ref": 900,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 900,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Hero",
      "y": 68,
      "ref": 642,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 642,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Steps",
      "y": 710,
      "ref": 148,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 148,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Partners",
      "y": 858,
      "ref": 220,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 220,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Conversation",
      "y": 1078,
      "ref": 697,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 697,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Features",
      "y": 1775,
      "ref": 2700,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 2700,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Integrations",
      "y": 4475,
      "ref": 554,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 554,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Testimonials",
      "y": 5029,
      "ref": 501,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 501,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Statistics",
      "y": 5530,
      "ref": 565,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 565,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "FAQ",
      "y": 6095,
      "ref": 590,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 590,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Footer Container",
      "y": 6685,
      "ref": 1569,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 1569,
+     "delta": 0,
+     "ok": true
     }
    ],
-   "consoleErrors": [
-    "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
-    "pageerror: MicGlyph is not defined",
-    "pageerror: C_TEXT_2 is not defined"
-   ],
+   "consoleErrors": [],
    "diff": null,
-   "pass": false
+   "pass": true
   },
   "mobile": {
    "width": 390,
    "docHeight": {
     "ref": 7390,
-    "build": 844,
-    "ok": false
+    "build": 7390,
+    "ok": true
    },
    "sections": [
     {
      "name": "Tablet / Mobile Menu",
      "y": -776,
      "ref": 844,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 844,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Hero",
      "y": 68,
      "ref": 888,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 888,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Steps",
      "y": 956,
      "ref": 272,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 272,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Partners",
      "y": 1228,
      "ref": 180,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 180,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Conversation",
      "y": 1408,
      "ref": 727,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 727,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Features",
      "y": 2135,
      "ref": 918,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 918,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Integrations",
      "y": 3053,
      "ref": 678,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 678,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Testimonials",
      "y": 3731,
      "ref": 709,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 709,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Statistics",
      "y": 4440,
      "ref": 663,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 663,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "FAQ",
      "y": 5103,
      "ref": 572,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 572,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Footer Container",
      "y": 5675,
      "ref": 1715,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 1715,
+     "delta": 0,
+     "ok": true
     }
    ],
-   "consoleErrors": [
-    "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
-    "pageerror: C_TEXT_2 is not defined"
-   ],
+   "consoleErrors": [],
    "diff": null,
-   "pass": false
+   "pass": true
   }
  },
- "pass": false,
+ "pass": true,
  "blackout": true
 }

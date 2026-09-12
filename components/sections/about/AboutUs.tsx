@@ -184,7 +184,7 @@ const CSS = `
   overflow-x: clip; border-radius: 10px;
 }
 .ab-ticker-track {
-  position: relative; display: flex; flex-flow: row nowrap; gap: 46px;
+  position: relative; display: flex; flex-flow: row nowrap; align-items: center; gap: 46px;
   width: 100%; height: 100%; padding: 0; margin: 0; list-style: none;
   will-change: transform;
 }

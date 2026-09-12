@@ -126,8 +126,11 @@ export function PartnerTicker() {
               WebkitMaskRepeat: "no-repeat",
               maskPosition: "center",
               WebkitMaskPosition: "center",
-              maskSize: "auto",
-              WebkitMaskSize: "auto",
+              // the glyph fills the box exactly; stating it keeps the standard
+              // and the -webkit- alias from resolving `auto` differently and
+              // painting the mark twice at two sizes.
+              maskSize: "100% 100%",
+              WebkitMaskSize: "100% 100%",
               maskMode: "alpha",
             }}
           />

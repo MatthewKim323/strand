@@ -5,6 +5,7 @@ import {
   animate,
   motion,
   useMotionValue,
+  useScroll,
   useTransform,
   type Transition,
 } from "motion/react";
@@ -369,6 +370,15 @@ export function Conversation() {
   const rowsOpen = phase === "results" || phase === "loopReset";
   const shareBarMounted = phase === "thinking" || phase === "results" || phase === "loopReset";
 
+  /* The page's one parallax, and it is on the card stack. Speed 95 with no
+     position adjustment reduces to y = 0.05 * scrollY off the global scroll,
+     unbounded. Measured against the captured scroll: at scrollY 943 the card
+     sits 50px below where an unparallaxed copy of it lands, and 0.05 * 943 is
+     47, so the formula holds at the depth this section is viewed from. The
+     particle field behind it is a sibling and does not move with it. */
+  const { scrollY } = useScroll();
+  const parallaxY = useTransform(scrollY, (v) => v * 0.05);
+
   return (
     <section className="cv-section" data-section="Conversation">
       <div className="cv-container">
@@ -383,7 +393,7 @@ export function Conversation() {
 
         <div className="cv-example">
           <div className="cv-mock" data-phase={phase} ref={mockRef}>
-            <div className="cv-stack">
+            <motion.div className="cv-stack" style={{ y: parallaxY }}>
               {/* Query bar */}
               <motion.div
                 layout
@@ -582,7 +592,7 @@ export function Conversation() {
                   </div>
                 )}
               </motion.div>
-            </div>
+            </motion.div>
             {/*
               The particle grid that sits behind the card. Container values are
               exact: absolute inset 0, opacity 0.3, and the bottom-out mask.
