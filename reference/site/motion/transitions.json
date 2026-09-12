@@ -1709,6 +1709,46 @@
       "--border-color": "var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60))",
       "--extracted-r6o4lv": "var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))"
      }
+    },
+    {
+     "framerName": "Feature Section",
+     "element": ".framer-5Y2Hx .framer-tnjwra",
+     "mechanism": "gesture",
+     "gestures": null,
+     "transition": "SPRING_A",
+     "variants": {
+      "Fq1EJYEOR": "Desktop (framer-v-tnjwra)",
+      "HbdczjDkY": "Tablet (framer-v-11lklwl)",
+      "uVgwvxKpm": "Mobile (framer-v-1i5g39c)"
+     },
+     "note": "breakpoint variants only, no hover, no press, no scroll link"
+    },
+    {
+     "framerName": "Product Feature",
+     "element": ".framer-nbXXU .framer-19sutiv",
+     "mechanism": "gesture",
+     "gestures": null,
+     "transition": "SPRING_A",
+     "variants": {
+      "wIy6KkP9c": "Vertical (desktop)",
+      "j7Wd7YStP": "Horizontal (tablet + phone)"
+     },
+     "note": "no hover, no press"
+    },
+    {
+     "framerName": "Graph Pulse",
+     "element": ".framer-ssv5r4-container -> .framer-U3LFO .framer-k3em9w",
+     "nodeId": "uP3bEb_QB",
+     "mechanism": "gesture",
+     "gestures": null,
+     "transition": "SPRING_A",
+     "note": "slot child 3 of the rail-cart swapper, and the Pulse panel of the phone carousel. Entirely static: its StatusPingV2 has play:false, its Graph is a static SVG, Tag and Hash have no variants.",
+     "contains": [
+      "Tag (framer-022zo) 'High severity'",
+      "Hash (framer-XAHcT)",
+      "StatusPingV2 play:false size 6 tint rgb(229, 72, 77)",
+      "Graph code component"
+     ]
     }
    ]
   },
@@ -3270,6 +3310,54 @@
     "spread": 0
    },
    "motion": null
+  },
+  {
+   "name": "Graph (sparkline)",
+   "module": "BPbDZR7IG.6r3LE1ht.mjs",
+   "section": "Features (Graph Pulse)",
+   "motion": null,
+   "props": {
+    "points": [
+     {
+      "y": 91
+     },
+     {
+      "y": 84
+     },
+     {
+      "y": 91
+     },
+     {
+      "y": 85
+     },
+     {
+      "y": 91
+     },
+     {
+      "y": 34
+     },
+     {
+      "y": 55
+     }
+    ],
+    "baseline": true,
+    "baselineWidth": 35,
+    "topPadding": 19,
+    "weight": 1,
+    "yDivisions": 2,
+    "divisionsColor": "var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23))",
+    "gradientColors": [
+     {
+      "color": "var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(64, 64, 64))",
+      "offset": 69
+     },
+     {
+      "color": "var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77))",
+      "offset": 75
+     }
+    ]
+   },
+   "note": "static SVG, no animation"
   }
  ],
  "loops": [
@@ -3513,6 +3601,33 @@
     "IntersectionObserver",
     "visibilitychange"
    ]
+  },
+  {
+   "index": 11,
+   "name": "Graph Pulse status ping (never runs)",
+   "section": "Features",
+   "element": ".framer-U3LFO .framer-ms14lp-container",
+   "component": "StatusPingV2",
+   "props": {
+    "play": false,
+    "size": 6,
+    "pingSize": 16,
+    "pingWeight": 2,
+    "repeatDelay": 1,
+    "pingTransition": {
+     "type": "tween",
+     "duration": 0.3,
+     "ease": [
+      0.44,
+      0,
+      0.56,
+      1
+     ],
+     "delay": 0
+    },
+    "tint": "var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77))"
+   },
+   "note": "play is false, so the ring is not rendered at all. Static 6px red dot."
   }
  ],
  "components": {
@@ -3797,6 +3912,113 @@
     "Error": "sTeqYCuJm"
    },
    "spinnerLoop": "loops[6]"
+  },
+  "Tag": {
+   "scope": "framer-022zo",
+   "transition": "SPRING_A",
+   "gestures": null,
+   "variants": {
+    "vIhi3Oro1": "Variant 1"
+   },
+   "style": {
+    "borderRadius": 4,
+    "padding": "4px 8px"
+   },
+   "instance": {
+    "text": "High severity",
+    "color": "var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77))",
+    "containerColor": "var(--token-3a95eaa6-e51b-4092-9cd6-e78e24a17dd1, rgba(229, 72, 77, 0.2))"
+   },
+   "renderedIn": "Graph Pulse, inside the Features rail-cart slot 3 and the phone carousel",
+   "note": "the transition is declared but nothing ever changes, so it never fires"
+  },
+  "Hash": {
+   "scope": "framer-XAHcT",
+   "transition": null,
+   "gestures": null,
+   "variants": null,
+   "size": 12,
+   "tint": "var(--token-b5638a62-26ff-4efc-a9d7-90e970d50095, rgb(82, 82, 82))",
+   "renderedIn": "Graph Pulse"
+  },
+  "VerticalDotArrow": {
+   "scope": "framer-EOMkT",
+   "transition": "SPRING_A",
+   "gestures": null,
+   "variants": {
+    "c2dBlHkN3": "Neutral (default, FAQ row closed)",
+    "oMMfsF998": "Down (FAQ row open)",
+    "amUd8Kex2": "Up (unused on this page)"
+   },
+   "dots": 5,
+   "dotSize": 2,
+   "dotRadius": 1,
+   "dotColor": "var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161))",
+   "positions": {
+    "static": {
+     ".framer-x6wdaz": {
+      "left": 7
+     },
+     ".framer-v7vv1u": {
+      "left": 23
+     }
+    },
+    "neutral": {
+     ".framer-1sbrqk7": {
+      "left": 11,
+      "top": "50%"
+     },
+     ".framer-ozn1zi": {
+      "left": 15,
+      "top": "50%"
+     },
+     ".framer-k9j781": {
+      "left": 19,
+      "top": "50%"
+     }
+    },
+    "down": {
+     ".framer-1sbrqk7": {
+      "bottom": "13px",
+      "top": "unset"
+     },
+     ".framer-ozn1zi": {
+      "top": "63%"
+     },
+     ".framer-k9j781": {
+      "top": "56%"
+     }
+    },
+    "up": {
+     ".framer-1sbrqk7": {
+      "top": "13px"
+     },
+     ".framer-ozn1zi": {
+      "top": "38%"
+     },
+     ".framer-k9j781": {
+      "top": "44%"
+     }
+    }
+   },
+   "transformTemplate": "translateY(-50%), dropped from .framer-1sbrqk7 in the Up and Down variants",
+   "note": "no rotate, no scale, no opacity change"
+  },
+  "TabButton": {
+   "scope": "framer-V3qmg",
+   "transition": "SPRING_A",
+   "phoneOnly": true,
+   "gestures": {
+    "clkwCB8KL": {
+     "hover": true,
+     "pressed": true
+    }
+   },
+   "variants": {
+    "clkwCB8KL": "Default",
+    "pcuDVrfxv": "Selected"
+   },
+   "note": "Selected has no hover and no press. Driven by tap on the Mobile Carousel only; no scroll driver."
   }
  },
  "appearAnimations": {
@@ -3835,6 +4057,11 @@
   "The Conversation parallax formula y = 0.05 * scrollY is unbounded; verify against capture/frames/scroll-conversation.",
   "The Features progress rail's third section range starts at scroll progress 1.0, so 03 only lights at the very end; verify against capture/frames/scroll-features.",
   "The mobile menu slide is a layout-projection animation in the source with no initial/animate pair to copy; rebuild it explicitly as y: -100vh -> 0 with TWEEN_A_200.",
-  "The Features and Resources dropdown panels animate differently (Features has no y, Resources has y:-2). Reproduced as found, not normalised."
+  "The Features and Resources dropdown panels animate differently (Features has no y, Resources has y:-2). Reproduced as found, not normalised.",
+  "Circular Button Secondary: the pressed variant does not restate --border-color, so pressing snaps the border back to the rest value rgb(82, 82, 82). Reproduced as found.",
+  "Circular Button With Text: its circle's hover and press tokens are inverted relative to the Circular Button Light family. Reproduced as found.",
+  "Several token fallbacks differ between modules for the same token id (for example --token-67732ab8-... reads rgb(82,82,82) in four places and rgb(64,64,64) in one). Resolve tokens from a single map; do not trust the inlined fallbacks.",
+  "The Feature Section component's hard-coded fallback copy uses a different product name than every rendered instance. Use the instance props.",
+  "spec/page.txt truncates long strings (the Cortex description stops at 'One graph.'). The page module is the source of truth for copy."
  ]
 }

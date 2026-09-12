@@ -30,7 +30,7 @@ import {
 
 import { createGuardedRenderer, useWebGLGuard } from "./guard"
 import {
-  CONVERSATION_PANEL_SHAPES,
+  PANEL_GRAPHIC_SHAPES,
   FEATURE_STAGE_SHAPES,
   type PointShape,
 } from "./point-shapes"
@@ -1136,11 +1136,12 @@ export function PointMorphField({
 }
 
 /**
- * The wide field behind the conversation card. Its `currentShape` is stepped
- * by breakpoint rather than by scroll: 0 at the base layout, 1 and 2 at the
- * two breakpoints that override it.
+ * The standalone field used inside a graphics row (a 410px-tall container,
+ * one field per column). Its `currentShape` is stepped by breakpoint rather
+ * than by scroll: 0 at the base layout, 1 and 2 at the two breakpoints that
+ * override it.
  */
-export const CONVERSATION_PANEL_FIELD: PointMorphFieldProps = {
+export const PANEL_GRAPHIC_FIELD: PointMorphFieldProps = {
   cameraFov: 34,
   cameraPosition: { x: 0, y: 0, z: 2 },
   currentShape: 0,
@@ -1152,7 +1153,7 @@ export const CONVERSATION_PANEL_FIELD: PointMorphFieldProps = {
   fallbackFit: "cover",
   opacitySpeed: 5.3,
   refresh: false,
-  shapes: CONVERSATION_PANEL_SHAPES,
+  shapes: PANEL_GRAPHIC_SHAPES,
   simDamping: 7,
   simMaxVelocity: 9.5,
   simSpring: 60,
