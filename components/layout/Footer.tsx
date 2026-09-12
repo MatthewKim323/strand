@@ -67,13 +67,13 @@ function Wordmark() {
         />
         <text
           x={353}
-          y={284}
+          y={279.5}
           textLength={980}
           lengthAdjust="spacingAndGlyphs"
           style={{
             fontFamily: "var(--font-display)",
             fontWeight: 700,
-            fontSize: 320,
+            fontSize: 352,
             letterSpacing: "-0.02em",
           }}
         >

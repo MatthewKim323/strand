@@ -64,6 +64,7 @@ function MenuButton({
         variant="ghost"
         size="lg"
         height={36}
+        className={`nv-trigger nv-trigger-${label.toLowerCase()}`}
         onClick={() => setOpen((v) => !v)}
         icon={
           <Icon

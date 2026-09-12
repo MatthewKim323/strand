@@ -886,3 +886,333 @@ In the source the width difference lives in the variant CSS class (`framer-v-1kv
 directly, which is equivalent for a 1px-tall absolutely positioned bar.
 
 ---
+
+## 3. Conversation (desktop y 1078 h 749)
+
+### 3.1 Tree
+
+```
+Conversation  .framer-r08n9p
+└─ Container  .framer-12x5o77  data-border
+   ├─ Tagline  .framer-ca5wfl   h2 "Your team wastes hours pulling data from scattered tools. <span>...</span>"
+   └─ Example  .framer-r0uhuf
+      └─ .framer-11tggmb-container  (nodeId wwoQ8hlC3)
+         └─ Thinking  .framer-JcDMh .framer-1b5ogf8      <- Ask Chat Anim, captured mid-cycle
+            ├─ .framer-1oh8dd5                            [parallax wrapper]
+            ├─ Chat Container      .framer-19qsf6k
+            │  ├─ Container        .framer-1bvs57s
+            │  │  ├─ Top container .framer-2xhl4y
+            │  │  │  ├─ .framer-984o4f
+            │  │  │  │  ├─ Placeholder .framer-1gf4w1f   "How can I help today?"
+            │  │  │  │  └─ Message     .framer-642k88    "Which accounts are at risk this quarter?"
+            │  │  │  └─ Status Container .framer-5rfih0
+            │  │  │     ├─ Thinking   .framer-1cbnqjk-container  -> Status Indicator "Thinking"
+            │  │  │     └─ 3 Results  .framer-g8q9cy-container   -> Status Indicator "3 Results"
+            │  │  └─ Buttons Container .framer-1hnulot
+            │  │     ├─ Button .framer-1umbp4q  (Plus icon, static)
+            │  │     └─ Button .framer-1q7wox5  (Mic <-> Chevron Right)
+            │  └─ Background  .framer-5xg612
+            ├─ Quick Action Bar  .framer-t1zk3n   (4 actions: Analyze / Compare / Monitor / Report)
+            ├─ Quick Action Bar  .framer-vams9e   (2 actions: Export CSV / Share with team)
+            ├─ Results Container .framer-4ig9li   data-border
+            │  ├─ .framer-1vwlie1-container -> TextTransitionV2 status line
+            │  └─ .framer-h6s1b3  -> 3 Chat Dialog Result rows + 2 dividers
+            └─ .framer-1ykvmaj-container -> particle grid WebGL
+```
+
+Instance props on this page (`wwoQ8hlC3`): `variant: 'dGCFozRyi'` (Primary), `ltWGnHZW1: true`
+(status on), `PSTJiG3p8: 2` (point size), `Pwl_s00am: 4` (4 quick actions),
+`ugG8YyQe7: '16px 16px 80px 16px'` (padding). Phone override:
+`{ ltWGnHZW1: false, PSTJiG3p8: 4, Pwl_s00am: 3, ugG8YyQe7: '16px 16px 200px 16px' }`.
+
+### 3.2 The self-driving loop
+
+`Ask Chat Anim` runs a 12 second variant cycle with no user input. Component transition map is
+context based, see the table below.
+
+| from | wait | to |
+|---|---|---|
+| `dGCFozRyi` **Primary** | **2000 ms** | `yebqQkg1K` **Chat start** |
+| `yebqQkg1K` **Chat start** | **2000 ms** | `CtVEKtlJu` **Thinking** |
+| `CtVEKtlJu` **Thinking** | **4000 ms** | `eg6XjUQLY` **Results** |
+| `eg6XjUQLY` **Results** | **3500 ms** | `CryN59OAs` **Loop Reset** |
+| `CryN59OAs` **Loop Reset** | **500 ms** | `dGCFozRyi` **Primary** |
+| `MPeNLgoLm` **Standalone** | - | no handler, static |
+
+Total period **12000 ms**. Two runtime details that must be reproduced:
+
+- All pending timers are cleared on every variant change, so only one timer is ever live.
+- The variant setter is deferred until `document.hidden === false` **and** the component's own element
+  `isIntersecting`. **The loop pauses when the tab is hidden or the component is off screen and
+  resumes where it left off.** Without this the rebuild drifts out of phase with the design.
+
+Transition contexts (Framer `MotionConfig` nesting; `value: undefined` inherits the nearest ancestor):
+
+| context | value | applies to |
+|---|---|---|
+| root | `SPRING_A` `{type:'spring', bounce:0.2, duration:0.4}` | `.framer-1oh8dd5`, `.framer-t1zk3n`, `.framer-vams9e`, `.framer-4ig9li`, `.framer-h6s1b3`, `.framer-1ykvmaj-container` |
+| Chat Container | `TWEEN_A_300` `{type:'tween', duration:0.3, ease:[0.12,0.23,0.5,1]}` | everything inside `.framer-19qsf6k` |
+| Placeholder / Message | `{type:'tween', duration:0.2, ease:[0.12,0.23,0.5,1], delay:0.3}` | the two text nodes |
+| Thinking pill | `{type:'tween', duration:0.4, ease:[0.12,0.23,0.5,1], delay:0.3}`, overridden to `delay:0.2` while Thinking, and to inherited `TWEEN_A_300` while Results | `.framer-1cbnqjk-container` |
+| 3 Results pill | `{type:'tween', duration:0.4, ease:[0.12,0.23,0.5,1], delay:0}`, inherited `TWEEN_A_300` while Results | `.framer-g8q9cy-container` |
+| Quick Action Bar 1 | inherits root; `{type:'spring', bounce:0.2, duration:0.4, delay:0.2}` while Loop Reset | `.framer-t1zk3n` |
+| Results Container | inherits root; `{type:'spring', bounce:0.2, duration:0.4, delay:0.2}` while Thinking | `.framer-4ig9li` |
+
+### 3.3 Per element variant values
+
+```tsx
+// .framer-1hnulot  Buttons Container         transition: TWEEN_A_300
+{ dGCFozRyi:{opacity:1}, yebqQkg1K:{opacity:1}, CtVEKtlJu:{opacity:0},
+  eg6XjUQLY:{opacity:0}, CryN59OAs:{opacity:1}, MPeNLgoLm:{opacity:1} }
+
+// .framer-1q7wox5  right Button              transition: TWEEN_A_300
+rest:      { backgroundColor: 'rgba(38, 38, 38, 0)', borderRadius: 12 }
+yebqQkg1K: { backgroundColor: 'var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23))' }
+CtVEKtlJu: { backgroundColor: 'rgb(38, 38, 38)' }
+// its icon hard-swaps Mic -> Chevron Right in Chat start / Thinking / Results (no tween)
+
+// .framer-1cbnqjk-container  "Thinking" pill
+rest: { opacity: 0 }   CtVEKtlJu: { opacity: 1 }
+// plus a layout move: absolute bottom:-32px / left:49% -> position:relative in Thinking
+//                     -> top:-32px in Results
+
+// .framer-g8q9cy-container  "3 Results" pill
+rest: { opacity: 0 }   eg6XjUQLY: { opacity: 1 }
+// same kind of layout move, one beat later
+
+// .framer-t1zk3n  Quick Action Bar 1         transition: root SPRING_A (delay 0.2 in Loop Reset)
+{ dGCFozRyi:1, yebqQkg1K:1, CtVEKtlJu:0, eg6XjUQLY:0, CryN59OAs:1, MPeNLgoLm:1 }   // opacity
+
+// .framer-vams9e  Quick Action Bar 2         mounted only in Thinking / Results / Loop Reset
+{ CtVEKtlJu:{opacity:0}, eg6XjUQLY:{opacity:1}, CryN59OAs:{opacity:0} }
+
+// .framer-4ig9li  Results Container          transition: root SPRING_A (delay 0.2 in Thinking)
+rest: { opacity: 0 }   CtVEKtlJu: { opacity: 1 }   eg6XjUQLY: { opacity: 1 }
+
+// .framer-1vwlie1-container  TextTransitionV2 host
+rest: { opacity: 0 }   CtVEKtlJu: { opacity: 1 }   eg6XjUQLY: { opacity: 1 }
+```
+
+Static chrome: Chat Container background is
+`linear-gradient(111deg, var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68,64,60)) 0%,
+var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41,37,36)) 35.13513513513514%,
+var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38,38,38)) 73%,
+var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68,64,60)) 100%)`, radius 16.
+Background inner `.framer-5xg612`: `var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(17,15,13))`,
+radius 15, `inset: 1px`.
+
+### 3.4 Parallax on `.framer-1oh8dd5`
+
+The one parallax on the page. Props:
+`{ __framer__parallaxTransformEnabled: true, __framer__speed: 95, __framer__offset: 0, __framer__adjustPosition: false }`.
+
+Runtime: `a = speed/100 - 1 = -0.05`, and it drives `y` only:
+`y = (adjustPosition ? (elTop - offset) * a : 0) + (-scrollY * a)` = **`y = 0.05 * scrollY`**.
+Computed off the global `useScroll().scrollY`, unbounded. Disabled in the Standalone variant.
+
+```tsx
+const { scrollY } = useScroll();
+const y = useTransform(scrollY, v => v * 0.05);
+```
+
+**UNCERTAIN:** the formula is unbounded, so far down the page the offset is large. Verify against
+`capture/frames/scroll-conversation` before shipping.
+
+### 3.5 Text effects (the two the page actually has)
+
+Both are `tokenization: 'character'`, `trigger: 'onMount'`, `type: 'appear'`, no `repeat`.
+The runtime splits the text into per-character `<span style="display:inline-block">` (spaces live in
+a `<span white-space:nowrap>` word wrapper and get no span of their own) and staggers them.
+
+```js
+// textEffect  -> "How can I help today?"  (.framer-1gf4w1f "Placeholder")
+{ effect: { filter: 'blur(3px)', opacity: 0.001, rotate: 0, scale: 1, skewX: 0, skewY: 0, x: 0, y: 2 },
+  startDelay: 0.1,
+  tokenization: 'character',
+  transition: { type: 'tween', duration: 0.1, ease: [0.12, 0.23, 0.5, 1], delay: 0.025 },
+  trigger: 'onMount' }
+// applied ONLY under the MPeNLgoLm (Standalone) variant, which the Conversation instance never enters
+
+// textEffect1 -> "Which accounts are at risk this quarter?"  (.framer-642k88 "Message")
+{ effect: { opacity: 0.001, rotate: 0, scale: 1, skewX: 0, skewY: 0, x: 0, y: 0 },
+  tokenization: 'character',
+  transition: { type: 'tween', duration: 0.01, ease: [0.12, 0.23, 0.5, 1], delay: 0.025 },
+  trigger: 'onMount' }
+// applied unconditionally; the Message node mounts in Chat start / Thinking / Results
+```
+
+In the effect object, `delay` is the **per-token stagger**, not a start offset. Effective per-token
+delay = `startDelay + index * delay`. So `textEffect` runs characters at
+`0.1, 0.125, 0.150, ... 0.5` s with a 0.1s duration; `textEffect1` runs at
+`0, 0.025, 0.050, ...` with a 0.01s duration (effectively an instant reveal with a typed feel).
+
+Rebuild:
+
+```tsx
+{Array.from(text).map((ch, i) => (
+  <motion.span key={i} style={{display:'inline-block', whiteSpace:'pre'}}
+    initial={{opacity:0.001, y:2, filter:'blur(3px)'}}
+    animate={{opacity:1, y:0, filter:'blur(0px)'}}
+    transition={{type:'tween', duration:0.1, ease:[0.12,0.23,0.5,1], delay: 0.1 + i * 0.025}}>
+    {ch}
+  </motion.span>))}
+```
+
+**For a Conversation-only rebuild: wire `textEffect1`, and do NOT wire `textEffect`.** The
+Placeholder text appears with no per-character animation on this instance.
+
+### 3.6 The status line (`TextTransitionV2`, one instance on the page)
+
+Rendered at `.framer-1vwlie1-container`, layoutId `xLRIwc4A_`. Props on this page:
+
+```js
+{ font: { fontFamily: '"Geist Mono", "Geist Mono Placeholder", monospace', fontSize: '12px',
+          fontStyle: 'normal', fontWeight: 500, letterSpacing: '0em', lineHeight: '20px',
+          textAlign: 'left' },
+  text: ['Scanning Salesforce', 'Scoring by churn signal weight', '3 accounts flagged'],
+  playMode: 'once',
+  play: false,                   // overridden to true in CtVEKtlJu and eg6XjUQLY
+  interval: 2,
+  startDelay: 0,
+  transition: { type: 'tween', duration: 0.2, ease: [0.12, 0.23, 0.5, 1], delay: 0.02 },
+  gradient: ['rgb(115, 115, 115)', 'rgb(0, 238, 255)', 'rgb(0, 14, 221)',
+             'rgb(245, 29, 0)', 'rgb(255, 187, 0)', 'rgb(115, 115, 115)'],
+  gradientDuration: 1,
+  gradientRange: 25 }
+```
+
+Behaviour:
+
+- `setInterval(..., interval * 1000)` advances the string. `playMode: 'once'` stops at the last item
+  and resets to index 0 each time `play` flips true. So entering Thinking replays from
+  `Scanning Salesforce`, advances at +2s and +4s, then holds `3 accounts flagged`.
+- Characters are wrapped in `<AnimatePresence mode="popLayout">` and keyed on neighbours, so changing
+  strings cross-animates per letter. **Spaces are letters here** (`Array.from(text[i])`).
+- Per letter:
+  ```tsx
+  <motion.span
+    initial={{ rotateX: -90, opacity: 0 }}
+    animate={{ rotateX:   0, opacity: 1 }}
+    exit={{    rotateX:  90, opacity: 0 }}
+    transition={{ type:'tween', duration:0.2, ease:[0.12,0.23,0.5,1], delay: index * 0.02 + 0 }}
+    style={{ display:'inline-block', whiteSpace:'pre', transformOrigin:'center center -5px', color }} />
+  ```
+  The stagger formula is `index * transition.delay + startDelay`; the original `delay` key is
+  destructured out and replaced.
+- **Loop:** each letter also runs an infinite colour sweep:
+  ```tsx
+  const v = useMotionValue(0);
+  animate(v, 100, { delay: index * 0.02, duration: 1, repeat: Infinity, ease: 'linear' });
+  const color = useTransform(v,
+    [25, 35, 45, 55, 65, 75],
+    ['rgb(115, 115, 115)','rgb(0, 238, 255)','rgb(0, 14, 221)','rgb(245, 29, 0)','rgb(255, 187, 0)','rgb(115, 115, 115)']);
+  ```
+  `inputRange` is derived as `50 - gradientRange + k/(n-1) * gradientRange*2` for k in 0..5.
+  The sweep is gated `gradientAnim = !isLastString && play`, so it runs on strings 0 and 1 and
+  **stops on `3 accounts flagged`**, which settles to flat grey.
+
+This component is the source of the long 200ms / 20ms-stagger runs in the CDP capture:
+30 entries (`Scoring by churn signal weight`), 18 (`3 accounts flagged`), 19 (`Scanning Salesforce`),
+counting spaces.
+
+### 3.7 The Quick Action bars
+
+**Bar 1** (`.framer-t1zk3n`, 4 actions, gated on `Pwl_s00am`):
+
+| container | appear id | label | icon |
+|---|---|---|---|
+| `.framer-n00lzi-container` | `n00lzi` | `Analyze ` (trailing space is in the source) | Chart Pie |
+| `.framer-17bqj0-container` | `17bqj0` | `Compare` | Align Horizontal Justify Center |
+| `.framer-10q9li8-container` | `10q9li8` | `Monitor` | Activity |
+| `.framer-1ysxh9n-container` | `1ysxh9n` | `Report` | Clipboard List |
+
+The SSR appear payload holds:
+
+```tsx
+// n00lzi
+initial={{opacity:0.001, y:12}} animate={{opacity:1, y:0}}
+transition={{type:'tween', duration:0.2, ease:[0.12,0.23,0.5,1], delay:0.1}}
+// 17bqj0  -> delay 0.2
+// 10q9li8 -> delay 0.3
+// 1ysxh9n -> { default: null, uuxm6n: null }   i.e. NO animation
+```
+
+**Important:** those three payload entries were written by two *other* instances of the same
+component (the Standalone ones used in the Features rail-cart slot and the phone carousel), which
+render at `variant: MPeNLgoLm` where the `initial`/`animate` props are applied. On the
+**Conversation instance the four actions have no entrance animation of their own** - they simply
+fade with their parent bar's `opacity`. Build the Conversation section that way.
+
+**Bar 2** (`.framer-vams9e`, mounted only in Thinking / Results / Loop Reset), two actions with
+`initial`/`animate` applied unconditionally. These two have appear ids in the DOM but **no SSR
+payload entry** (no instance was server rendered in a variant that mounts this bar), so they run as
+ordinary on-mount animations the moment the bar mounts:
+
+```tsx
+// .framer-3kyhfb-container  "Export CSV"  (File Spreadsheet icon)
+initial={{opacity:0.001, y:12}} animate={{opacity:1, y:0}}
+transition={{type:'tween', duration:0.2, ease:[0.12,0.23,0.5,1], delay:0}}
+// .framer-7k78ji-container  "Share with team"  (Message Square Share icon)
+initial={{opacity:0.001, y:12}} animate={{opacity:1, y:0}}
+transition={{type:'tween', duration:0.2, ease:[0.12,0.23,0.5,1], delay:0.1}}
+```
+
+`Quick Action` (`framer-MvRYe`) itself: single variant, **no hover**. Chrome: `padding 8px; gap 8px;
+border-radius 8; border 1px solid var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38,38,38));
+background var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20,18,16))`, icon and label both
+`rgb(161, 161, 161)`.
+
+### 3.8 The result rows
+
+Mounted only in Results and Loop Reset. All carry `initial: {opacity:0.001, x:20, y:0}` and a
+staggered `animate` on the **sine** curve:
+
+| element | appear id | animate transition |
+|---|---|---|
+| `.framer-bjkrkd-container` "Meridian Corp" / "High risk" / "No login in 30d" | `bjkrkd` | `{type:'tween', duration:0.2, ease:[0.44,0,0.56,1], delay:0.1}` |
+| `.framer-15yxkhe` Divider | `15yxkhe` | `delay:0.15` |
+| `.framer-1dde39s-container` "Apex Systems" / "Medium" / "Usage -40%" | `1dde39s` | `delay:0.2` |
+| `.framer-540yzz` Divider | `540yzz` | `delay:0.25` |
+| `.framer-163fnxe-container` "Acme Corp" / "High Risk" / "Ticket spike" | `163fnxe` | `delay:0.3` |
+
+```tsx
+initial={{opacity:0.001, x:20}} animate={{opacity:1, x:0}}
+transition={{type:'tween', duration:0.2, ease:[0.44,0,0.56,1], delay: 0.1 | 0.15 | 0.2 | 0.25 | 0.3}}
+```
+
+None of these has an SSR payload entry either (the SSR render caught the component in Primary).
+
+Row colours: rows 1 and 3 use
+`var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77))` /
+`var(--token-3a95eaa6-e51b-4092-9cd6-e78e24a17dd1, rgba(229, 72, 77, 0.2))`; row 2 uses
+`var(--token-d5c4dbc3-b3ce-4d57-8583-5c04401312ab, rgb(249, 171, 0))` /
+`var(--token-aace3d5f-06f1-4eda-b5c4-3a57d2e8e178, rgba(249, 171, 0, 0.2))`.
+Dividers: `height 1px; width 100%; background var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38,38,38))`.
+
+`Chat Dialog Result` (`framer-rl0Pk`) is single variant, **no hover**, transition `SPRING_A`.
+Its `StatusPingV2` dot is passed `play: false` on every instance here, so **the dot never pings in
+this section** - it is a static 6px circle in the row's status colour.
+
+### 3.9 The particle grid WebGL (owned by another agent)
+
+`.framer-1ykvmaj-container`, `position:absolute; inset:0; z-index:1`,
+`mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 22%) add`, `opacity: 0.3`.
+Mounted in every variant except Standalone. Per-variant uniform swaps (**hard swaps, not tweened**):
+
+```js
+base:      { noiseFrequency: 2, noiseLayerSpread: 0.005, timeScale: 0.05, waveHeightScale: 0.1, pointSize: PSTJiG3p8 }
+yebqQkg1K: { timeScale: 0.25 }
+CtVEKtlJu: { noiseFrequency: 3, noiseLayerSpread: 0.01, timeScale: 0.31, waveHeightScale: 0.14 }
+eg6XjUQLY: { noiseFrequency: 3, noiseLayerSpread: 0.01, timeScale: 0.31, waveHeightScale: 0.14 }
+```
+
+In Results the canvas moves to `order: 1` so the chat box sits above it.
+
+### 3.10 No hover anywhere in this section
+
+A regex sweep of `tQctxOsxU.BMpimIfh.mjs` for `whileHover|whileTap|onHoverStart|-hover` returns zero
+matches. `Ask Chat Anim`, `Chat Dialog Result`, `Status Indicator`, `Quick Action`, `Tag` and all six
+icon components are single-variant with no `enabledGestures`. Nothing in the Conversation section
+responds to the pointer.
+
+---
