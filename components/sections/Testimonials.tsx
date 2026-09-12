@@ -36,13 +36,7 @@ type Slide = {
   alt: string;
 };
 
-/**
- * Three slides, exactly as the page hands them to the carousel.
- *
- * TODO(spec): only the first portrait was captured into the asset set, so the
- * second and third slides point at the same file. Swap in the real portraits
- * once they land in public/img.
- */
+/** Three slides, exactly as the page hands them to the carousel. */
 const SLIDES: Slide[] = [
   {
     stat: "12 hours",
@@ -51,7 +45,7 @@ const SLIDES: Slide[] = [
       '"Pulse caught a churn spike three weeks before our dashboards would have shown it. That gap used to cost us accounts."',
     name: "Priya Nair",
     role: "Head of Customer Success @ Fieldstone",
-    image: "/img/img-6ca16b515b.png",
+    image: "/img/img-3142d1b742.png",
     alt: "Picture of Priya Nair for their testimonial.",
   },
   {
@@ -61,7 +55,7 @@ const SLIDES: Slide[] = [
       '"Our analysts stopped exporting CSVs and started asking questions. That shift alone paid for the platform."',
     name: "Marcus Webb",
     role: "Director of Data @ Northlane",
-    image: "/img/img-6ca16b515b.png", // TODO(spec): portrait for this slide was not captured.
+    image: "/img/img-261c2354ba.png",
     alt: "Picture of Marcus Webb for their testimonial.",
   },
   {
@@ -71,7 +65,7 @@ const SLIDES: Slide[] = [
       '"We used to stitch together Salesforce, Stripe, and Postgres by hand every Monday. Now it\'s one conversation."',
     name: "Jordan Keller",
     role: "VP of Operations @ Luminous",
-    image: "/img/img-6ca16b515b.png", // TODO(spec): portrait for this slide was not captured.
+    image: "/img/img-e258a9344b.png",
     alt: "Picture of Jordan Keller for their testimonial.",
   },
 ];

@@ -81,7 +81,13 @@ const BAR_R: CSSProperties = {
 
 const BAR_L: CSSProperties = { ...BAR_R, right: "auto", left: 0 };
 
-/** The hairline that caps the top of the container, split into two halves. */
+/**
+ * The hairline that caps the top of the container, split into two halves whose
+ * three screen blended bars sum to the line colour.
+ * TODO(spec): the source keeps a zero width state for these bars, so they very
+ * likely sweep out from the centre, but nothing captured pins the timing; they
+ * are drawn at rest width here.
+ */
 function EdgeLine() {
   return (
     <div className="ig-end-c">
@@ -136,8 +142,10 @@ function SourceRow({ source }: { source: Source }) {
  * The feed. Ten slots are mounted at once, bottom anchored inside a clipped
  * box, and every INTERVAL seconds the window advances by one source: each row
  * keeps its identity and slides up a slot, a fresh one enters at the bottom
- * and the top one leaves under the fade. Motion values are the library
- * defaults here, exactly as the reference leaves them.
+ * and the top one leaves under the fade. The four second interval and the ten
+ * slots are the source's own numbers.
+ * TODO(spec): the reference sets no transition on these, so the slide and the
+ * layout shift both run on library defaults; no captured timing pins them.
  */
 function Feed() {
   const [offset, setOffset] = useState(0);
@@ -190,7 +198,10 @@ function Stat({ value, label }: { value: string; label: string }) {
 /* ---------------------------------------------------------------- section */
 
 export function Integrations() {
-  /* The panel rides in from the right as the block comes up the viewport. */
+  /* The panel rides in from the right as the block comes up the viewport: the
+     captured rest state is x 0 and the captured mid state is x 120.
+     TODO(spec): the spring chasing that progress is the house default, the
+     capture does not pin its stiffness or damping. */
   const fx = useScrollFx<HTMLDivElement>();
   const panelX = fx.map(120, 0);
 
@@ -226,7 +237,7 @@ export function Integrations() {
         </div>
 
         <div className="ig-visual" ref={fx.ref}>
-          <div>
+          <div className="ig-panel-w">
             <motion.div className="ig-panel-c" style={{ x: panelX }}>
               <div className="ig-panel">
                 <div className="ig-top">
@@ -267,6 +278,9 @@ export function Integrations() {
                   <div className="ig-spacer" />
                   <div className="ig-add">
                     <div className="ig-add-t">
+                      {/* TODO(spec): this label is the only text in the block
+                          that never overrides its preset colour, so it takes
+                          the preset default rather than a palette token. */}
                       <p className="t-micro" style={{ color: "#666" }}>
                         Add integration
                       </p>
@@ -411,6 +425,10 @@ const IG_CSS = `
   -webkit-user-select: none;
   user-select: none;
 }
+/* Hover: the label goes to the heading colour and the chip to the dim grey,
+   over the 0.1s the captured frames measure.
+   TODO(spec): the curve is the house easing; the capture pins the duration
+   and the two end colours, not the interpolation. */
 .ig-link-t p {
   color: ${MUTED};
   transition: color 0.1s cubic-bezier(0.12, 0.23, 0.5, 1);
@@ -455,6 +473,7 @@ const IG_CSS = `
   -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0) 12%, rgb(0, 0, 0) 61%);
   mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0) 12%, rgb(0, 0, 0) 61%);
 }
+.ig-panel-w { width: 100%; }
 .ig-panel-c {
   position: relative;
   flex: none;
