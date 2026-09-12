@@ -307,7 +307,7 @@ export function AskPanel({ width }: { width: number }) {
             <ChatButton>
               <Icon id="3356954461" size={20} color={C_ICON_DIM} strokeWidth={2} />
             </ChatButton>
-            <ChatButton style={{ backgroundColor: "rgb(38, 38, 38)", borderRadius: 12 }}>
+            <ChatButton style={{ backgroundColor: "rgba(38, 38, 38, 0)", borderRadius: 12 }}>
               {/* TODO(spec): the microphone glyph is not in the captured sprite. */}
               <svg viewBox="0 0 20 20" style={{ width: 20, height: 20, display: "block" }} aria-hidden>
                 <rect

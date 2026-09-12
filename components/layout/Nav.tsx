@@ -198,7 +198,7 @@ export function Nav() {
           .nv-sheet { display: flex !important; }
         }
         @media (max-width: 809.98px) {
-          .nv-bar { flex-direction: column; padding: 0; }
+          .nv-bar { flex-direction: column !important; padding: 0 !important; }
           .nv-container { flex: none !important; width: 100% !important; }
           .nv-stack { padding: 16px 10px 16px 20px !important; }
           .nv-sheet { padding: 76px 8px 8px !important; }

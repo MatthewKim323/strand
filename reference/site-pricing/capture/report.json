@@ -1,0 +1,164 @@
+{
+  "report": {
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3183,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 4,
+        "layoutElements": 866,
+        "sectionMode": "blocks"
+      },
+      "tablet": {
+        "width": 1024,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3745,
+        "stitchChunks": 5,
+        "hiddenFixedElements": 4,
+        "layoutElements": 940,
+        "sectionMode": "blocks"
+      },
+      "tablet-810": {
+        "width": 810,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3690,
+        "stitchChunks": 5,
+        "hiddenFixedElements": 4,
+        "layoutElements": 940,
+        "sectionMode": "blocks"
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 4116,
+        "stitchChunks": 5,
+        "hiddenFixedElements": 3,
+        "layoutElements": 746,
+        "sectionMode": "blocks"
+      }
+    },
+    "scenarios": {},
+    "sections": {
+      "desktop": [
+        {
+          "index": 0,
+          "slug": "pricing",
+          "name": "Pricing",
+          "y": 68,
+          "h": 2174,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Pricing\"]"
+        },
+        {
+          "index": 1,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2242,
+          "h": 941,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "pricing",
+          "name": "Pricing",
+          "y": 68,
+          "h": 2730,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Pricing\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2798,
+          "h": 947,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet-810": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "pricing",
+          "name": "Pricing",
+          "y": 68,
+          "h": 2730,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Pricing\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2798,
+          "h": 892,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "mobile": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -776,
+          "h": 844,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "pricing",
+          "name": "Pricing",
+          "y": 68,
+          "h": 3010,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Pricing\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 3078,
+          "h": 1038,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ]
+    },
+    "assets": 7
+  },
+  "errors": [
+    "[viewport desktop] viewport desktop exceeded 480s"
+  ]
+}

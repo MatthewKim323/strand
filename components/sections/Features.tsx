@@ -7,6 +7,12 @@ import { ProgressRail } from "./features/ProgressRail";
 import { ShapeField, ParticleField } from "./features/ShapeField";
 import { AlertPanel, AskPanel, SourcesPanel } from "./features/panels";
 
+/* The pinned particle stage: the scroll maths, the slot swap and the shape
+   point data are all the reference's own. When the shared WebGL renderer
+   (components/webgl) lands, Stage and Field are the two swap points. */
+const Stage = ShapeField;
+const Field = ParticleField;
+
 /* Colours copied verbatim from the spec so they resolve with no translation. */
 const C_LINE = "var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41, 37, 36))";
 const C_LINE_2 = "var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60))";
@@ -163,7 +169,9 @@ export function Features() {
           <div className="ft-rcart">
             <div className="ft-visual">
               <div className="ft-field">
-                <ShapeField sectionName="products-swap-scroll">{graphics}</ShapeField>
+                <Stage sectionName="products-swap-scroll">
+                  {graphics}
+                </Stage>
               </div>
             </div>
             <div className="ft-progress">
@@ -215,7 +223,7 @@ export function Features() {
 
             <div className="ft-graphics">
               <div className="ft-mfield">
-                <ParticleField currentShape={tab} />
+                <Field currentShape={tab} />
               </div>
               <div className="ft-mgraphic" style={{ width: 270, opacity: tab === 0 ? 1 : 0 }}>
                 <SourcesPanel width={270} gap={4} />

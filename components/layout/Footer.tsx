@@ -169,9 +169,12 @@ const CSS = `
 }
 @media (prefers-reduced-motion: reduce) { .fc-ping { animation: none; } }
 .fc-status-text { position: relative; flex: none; width: auto; height: auto; white-space: pre; overflow: clip; }
+/* A 1px rule. The design file paints a placeholder fill behind a 1px overlay
+   border, and at this width the border covers the fill outright, so the rule
+   is just the hairline colour. */
 .fc-divider {
   position: relative; flex: none; align-self: stretch; width: 1px; height: auto; overflow: visible;
-  background-color: #2266ff; box-shadow: inset 0 0 0 1px ${HAIRLINE};
+  background-color: ${HAIRLINE}; box-shadow: inset 0 0 0 1px ${HAIRLINE};
 }
 .fc-uptime-val { position: relative; flex: none; width: auto; height: auto; white-space: pre; }
 
@@ -248,6 +251,7 @@ const CSS = `
   }
   .fc-un { padding: 20px; }
   .fc-uptime { gap: 0; justify-content: space-between; width: 100%; }
+  .fc-divider { display: none; }
   .fc-status { flex: 1 0 0; justify-content: flex-start; width: 1px; }
   .fc-status-text {
     flex: 1 0 0; width: 1px;

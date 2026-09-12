@@ -64,10 +64,10 @@ const PARTICLES: Particle[] = Array.from({ length: POINT_COUNT }, (_, i) => {
   const r0 = hash(i, 1);
   return {
     idx: i,
-    push: (hash(i, 2) - 0.35) * DISPERSION * 0.18,
-    angleJitter: (hash(i, 3) - 0.5) * DISPERSION_BAND * 0.07,
-    size: 0.6 + hash(i, 4) * 1.1,
-    alpha: 0.1 + hash(i, 5) * 0.45,
+    push: (hash(i, 2) - 0.4) * DISPERSION * 0.3,
+    angleJitter: (hash(i, 3) - 0.5) * DISPERSION_BAND * 0.16,
+    size: 0.7 + hash(i, 4) * hash(i, 8) * 2,
+    alpha: 0.08 + hash(i, 5) * hash(i, 9) * 0.6,
     driftPhase: hash(i, 6) * Math.PI * 2,
     driftSpeed: 0.15 + hash(i, 7) * 0.35,
     r0,
@@ -138,6 +138,9 @@ export function ParticleField({ currentShape }: { currentShape: number }) {
       const k = h / (2 * WORLD_PER_PX);
       const cx = w / 2;
       const cy = h / 2;
+      // A smaller box packs the same point count into less area, so the cloud
+      // is thinned to keep the density the reference has at full size.
+      const density = clamp(0.5, 1, h / 508);
       const thresh =
         SHAPES[s.from].threshold + (SHAPES[s.to].threshold - SHAPES[s.from].threshold) * mix;
 
@@ -156,13 +159,13 @@ export function ParticleField({ currentShape }: { currentShape: number }) {
           y += (y / len) * push + (x / len) * p.angleJitter;
         } else {
           const drift = Math.sin(time * p.driftSpeed * 0.6 + p.driftPhase);
-          x += drift * 0.004;
-          y += Math.cos(time * p.driftSpeed * 0.6 + p.driftPhase) * 0.004;
+          x += drift * 0.006 + p.angleJitter * 0.12;
+          y += Math.cos(time * p.driftSpeed * 0.6 + p.driftPhase) * 0.006 - p.push * 0.1;
         }
 
         const px = cx + x * k;
         const py = cy - y * k;
-        const alpha = p.alpha * (p.r0 >= thresh ? 0.75 : 1);
+        const alpha = p.alpha * (p.r0 >= thresh ? 0.75 : 1) * density;
         ctx.fillStyle = `rgba(${DOT_COLOR}, ${alpha.toFixed(3)})`;
         ctx.fillRect(px, py, p.size, p.size);
       }

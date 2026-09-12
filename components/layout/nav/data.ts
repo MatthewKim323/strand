@@ -14,7 +14,8 @@ export type ProductItem = {
 export type RowItem = {
   label: string;
   description: string;
-  href: string;
+  /** the two SUPPORT rows carry no destination in the source */
+  href?: string;
   /** sprite symbol id, 24x24 viewBox */
   icon: string;
 };
@@ -43,18 +44,21 @@ export const PRODUCTS: ProductItem[] = [
   },
 ];
 
-/** "Resources" panel, left column. */
+/**
+ * "Resources" panel, left column. Neither row is wired to a destination in the
+ * source: the link slot is left empty, so they render as inert rows here too.
+ */
 export const SUPPORT: RowItem[] = [
   {
     label: "Developer docs",
     description: "API references, SDKs, and guides.",
-    href: "/developer-docs",
+    // TODO(spec): no href in the source component.
     icon: "894405547",
   },
   {
     label: "Help Center",
     description: "Tutorials and answers for your team.",
-    href: "/help-center",
+    // TODO(spec): no href in the source component.
     icon: "168667647",
   },
 ];

@@ -33,6 +33,7 @@ function HeadRow({
   const Tag = href ? motion.a : motion.div;
   return (
     <Tag
+      className={`nv-head nv-head-${label.split(" ")[0].toLowerCase()}`}
       {...(href ? { href } : {})}
       onClick={onClick}
       whileTap={{ backgroundColor: "var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23))" }}

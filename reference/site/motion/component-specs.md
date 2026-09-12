@@ -11,9 +11,34 @@ rebuild. Section numbering follows the capture.
 
 ---
 
-## 0. Global facts
+## Contents
 
-### 0.1 Preloader
+| # | heading | what |
+|---|---|---|
+| G | Global facts | preloader, breakpoints, smooth scroll, mechanism census, transition glossary, geometry, route transition |
+| N | Navigation | the fixed bar, both dropdowns, the mobile menu |
+| 0 | Hero | 4 appear animations, the announcement strip, the hero filament |
+| 1 | Steps | 3 appear animations |
+| 2 | Partners | the one Framer ticker |
+| D | Chromatic divider lines | the 4 variant-on-scroll switches shared by sections 2, 5, 6, 7 |
+| 3 | Conversation | the self-driving chat mock, both text effects, the parallax |
+| 4 | Features | the scroll progress rail, the shape swapper, the status ping loops |
+| 5 | Integrations | the scroll-target effect, the in-view fade |
+| 5b | Integrations, interactive | the rolling source list, tiles, buttons |
+| 6 | Testimonials | the arrow-driven carousel |
+| 7 | Statistics | four Lottie players, no count-up |
+| 8 | FAQ | the single-open accordion |
+| 9 | Footer Container | variant-on-scroll #5, `introProgress`, the newsletter, the social links |
+| B | Button reference | every hover and press value for every button variant |
+| L | Loop index | every `repeat: Infinity` in one table |
+| C | Count-ups | there are none |
+| X | What has no motion | recorded so the rebuild does not invent any |
+
+---
+
+## G. Global facts
+
+### G.1 Preloader
 
 **No.** There is no preloader, splash, progress bar, or load overlay anywhere on the page.
 
@@ -26,7 +51,7 @@ rebuild. Section numbering follows the capture.
   `w6pet3`, opacity 0.001 -> 1 after a **1.5s delay**). That is the template-store badge that sits
   above `#main`; it is not part of the page and should not be rebuilt.
 
-### 0.2 Breakpoints
+### G.2 Breakpoints
 
 Declared in the page metadata module and repeated as `jc` in the page module:
 
@@ -42,7 +67,7 @@ The SSR appear payload keys its per-breakpoint entries as `default` (desktop), `
 
 The body gets `padding: 68px 0px 0px 0px` at desktop to clear the fixed nav.
 
-### 0.3 Smooth scroll
+### G.3 Smooth scroll
 
 Lenis, mounted by the layout as a code component (`displayName = "Lenis"`, rendered at
 `.framer-uz5b0i-container`, immediately before the Navigation). Props on this page:
@@ -72,7 +97,7 @@ new Lenis({
 `<html>` carries `class="lenis lenis-autoToggle"` and `style="scroll-behavior: auto"`. Every
 scroll-linked effect on the page reads `window.scrollY`, so it works unchanged under Lenis.
 
-### 0.4 Which of the five mechanisms this page uses
+### G.4 Which of the five mechanisms this page uses
 
 Census across all 57 modules (`grep` counts, exact):
 
@@ -97,7 +122,7 @@ include a run of `duration 200ms` with delays stepping `0, 20, 40 ... 520ms` and
 `duration 100ms` with delays stepping `100, 125, 150 ... 500ms`. Those are per-character staggers, not
 appear animations. See section 3.
 
-### 0.5 Transition constant glossary
+### G.5 Transition constant glossary
 
 Use these names throughout. Every one is quoted verbatim from source.
 
@@ -167,7 +192,7 @@ pre-samples these into WAAPI `linear(...)` keyframes, which is why the CDP captu
 `linear(0 0%, 0.0235 2.56%, ... 1.0151 58.97% ... 1 100%)` animations. That curve is exactly
 `SPRING_A`; do not copy the sampled keyframes, use the spring.
 
-### 0.6 Section geometry (measured, all four capture viewports)
+### G.6 Section geometry (measured, all four capture viewports)
 
 | section | desktop 1440x900 | tablet 1024x900 | tablet 810x900 | phone 390x844 |
 |---|---|---|---|---|
@@ -189,7 +214,7 @@ pre-samples these into WAAPI `linear(...)` keyframes, which is why the CDP captu
 Anchor ids, from the page metadata module: `hero`, `features`, `products-swap-scroll`,
 `products-scroll`, `features-cortex`, `features-ask`, `features-pulse`, `integrations`, `statistics`.
 
-### 0.7 The only pure-CSS transition on the page
+### G.7 The only pure-CSS transition on the page
 
 Two text-style presets declared inside the layout module:
 
@@ -211,7 +236,7 @@ Two text-style presets declared inside the layout module:
 
 Everything else on the page is Motion, not CSS.
 
-### 0.8 Route transition
+### G.8 Route transition
 
 In the layout module's router bootstrap. There is no `exit` block and `opacity` stays `1`; the
 transition is a **wipe mask**, not a fade.
@@ -1639,3 +1664,821 @@ Breakpoint overrides on the inner component: phone gets `boRManxAv: 4` and
 wrapper gets `height: 360` and `width: calc(min(100vw, 1400px) - 32px)` on phone.
 
 ---
+
+## 7. Statistics (`#statistics`, desktop y 5851 h 489)
+
+### 7.1 Tree
+
+```
+Statistics  .framer-1ycn8bz  #statistics
+└─ Container  .framer-74z6vi  data-border
+   ├─ .framer-fjarzo   h2 "Your team already has the data. <span>Nordwell gives you the answers.</span>"
+   ├─ .framer-1apfvab
+   │  ├─ Stat  .framer-n9q4h9
+   │  │  ├─ Stat1 Animation  .framer-l2pcl2-container   -> Lottie (svg 64x64)
+   │  │  └─ Info  .framer-l7k635
+   │  │     ├─ Stat Number  .framer-1woxgo9   h3 "16x"
+   │  │     └─ Description  .framer-1qqta5d   p  "Faster time-to-answer"
+   │  ├─ Stat  .framer-n3di6v    -> Stat2 Animation .framer-q5w0ul-container  · "47%"
+   │  ├─ Stat  .framer-1nhhc37   -> Stat3 Animation .framer-vb4ntv-container  · "80%"
+   │  └─ Stat  .framer-ddxb04    -> Stat4 Animation .framer-13nl88v-container · "4.2hrs"
+   └─ .framer-qwko6a-container -> Chromatic Border divider (nodeId YPSDP79B7)   [see section D]
+```
+
+### 7.2 There is no count-up
+
+**The four numbers are static text.** `16x`, `47%`, `80%` and `4.2hrs` are literal strings in the page
+module inside plain `RichText` nodes (`framer-styles-preset-4ysld2` / `gO5BOL9GY`), colour
+`var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))`. There is no
+`AnimatedNumber`, no stylokit component, no `useSpring` on a number, no
+`toLocaleString` animation anywhere in this section. If the brief expected a count-up spring, the
+page does not have one.
+
+What *does* animate is a **Lottie player per stat**, a 64x64 inline SVG rendered by the bodymovin
+runtime embedded in `tQctxOsxU.BMpimIfh.mjs`. The captured DOM shows
+`<svg viewBox="0 0 64 64"><defs><clipPath id="__lottie_element_2">...` with ten `<g><g><path>` groups.
+
+Props, identical per stat except the source file and `progress`:
+
+```js
+{ loop: true,
+  playing: true,
+  speed: 1,
+  isForwardsDirection: true,
+  pauseOnCanvas: true,
+  poster: 'Auto',
+  posterProgress: 0,
+  progress: 0,              // Stat4 Animation is authored with progress: 62
+  srcType: 'Upload',
+  srcUrl: 'https://misc.framerstatic.com/lottie/logo.json',   // ignored, srcType is Upload
+  style: { height: '100%', width: '100%' } }
+```
+
+| name | nodeId | container | srcFile |
+|---|---|---|---|
+| Stat1 Animation | `HHE4hHMlq` | `.framer-l2pcl2-container` | `https://framerusercontent.com/assets/M4cE4HJq5O8swp96M5SKA1B0PrE.json` |
+| Stat2 Animation | `O1DXwaGLK` | `.framer-q5w0ul-container` | `https://framerusercontent.com/assets/BHL4ecdDXKXyhms78jiNJSHlnQ.json` |
+| Stat3 Animation | `bhVtGybhb` | `.framer-vb4ntv-container` | `https://framerusercontent.com/assets/IvyiEpo8Z4taU1v3jR2F0qpXI4.json` |
+| Stat4 Animation | `kM6FK35En` | `.framer-13nl88v-container` | `https://framerusercontent.com/assets/T6HSiRz7cqn3Bq6lGf7dXehXdOg.json` |
+
+Rebuild: fetch the four JSON files into `public/lottie/` and mount them with `lottie-web`
+(`loop: true, autoplay: true`, `renderer: 'svg'`). They are **not** Framer motion and have no
+transition constant.
+
+### 7.3 Everything else
+
+**No appear animations, no hover, no scroll link** in this section, other than the divider at the end.
+
+---
+
+## 9. Footer Container (desktop y 6852 h 1618)
+
+### 9.1 Tree
+
+```
+Footer Container  .framer-vjqi89  data-border         --border-top-width: 1px
+├─ CTA  .framer-1aeo38i
+│  └─ Container  .framer-9aqjls                       height 677px, max-width 1400px, overflow clip
+│     ├─ .framer-1w558nd-container  (nodeId MZnzrpbQb)   <- variant-on-scroll #5
+│     │  └─ Hidden  (.framer-zhkea .framer-sm5shs)
+│     │     └─ .framer-17womtx-container -> CTA filament WebGL (canvas 1400x677)
+│     └─ .framer-qr3vrw
+│        ├─ .framer-o9bwxk   h2 "Your data, finally connected"
+│        └─ .framer-cq6zkv-container -> CTA Button Primary / XL "Get started" -> ./pricing
+└─ Footer  .framer-1xetojl
+   └─ Container  .framer-66k0md
+      ├─ Links  .framer-wyzuea                         grid repeat(4, minmax(156px,1fr)), gap 40px
+      │  ├─ Features Column  .framer-11jzkye  -> Cortex / Ask / Pulse
+      │  ├─ Company          .framer-i8ygc2   -> Pricing / About / Careers / Blog
+      │  ├─ Resources        .framer-1q8s67d  -> Integrations / Changelog / Developer docs / Help Center / 404
+      │  └─ Connect          .framer-17009n1  -> 3 x External Link (X, LinkedIn, GitHub)
+      ├─ Uptime Newsletter  .framer-1p5h1ve
+      │  ├─ Uptime      .framer-j8ngry  data-border   radius 210px, padding 12px 16px
+      │  │  ├─ .framer-ic5mpm-container -> StatusPingV2
+      │  │  ├─ "All systems operational"  .framer-1qrftu8
+      │  │  ├─ divider .framer-1rrzwpy  [hidden on phone]
+      │  │  └─ "99.98% UPTIME"           .framer-5jvd8e
+      │  └─ Newsletter  .framer-fqk3g9
+      │     ├─ "Updates on new features and releases."  .framer-27d16y
+      │     └─ .framer-1exlpg3-container -> Footer Newsletter (form)
+      ├─ Logo       .framer-138v7uv
+      └─ Copyright  .framer-15v4uw2   + Terms / Privacy links
+```
+
+Phone grid override: `.framer-wyzuea { grid-template-columns: repeat(2, minmax(120px,1fr));
+grid-template-rows: repeat(2, min-content); gap: 40px 20px; padding: 40px 20px }`.
+Tablet: `gap: 20px`.
+
+### 9.2 Appear animations
+
+**None** in the CTA or the Footer.
+
+### 9.3 Variant-on-scroll #5: the CTA filament field
+
+The layout module's only `__framer__variantAppearEffectEnabled`, and the only one on the page that
+flips back.
+
+```js
+// wrapper on .framer-1w558nd-container, nodeId / layoutId MZnzrpbQb
+{ __framer__variantAppearEffectEnabled: true,
+  __framer__visibleVariantId:  'qqtzmr701',   // "Visible"
+  __framer__obscuredVariantId: 'S9BU72mBi',   // "Hidden"
+  __framer__threshold: 0.5,
+  __framer__animateOnce: false,               // <- flips back on scroll out
+  variant: 'qqtzmr701',
+  style: { height: '100%', width: '100%' } }
+```
+
+No `__framer__targets`, so it is the plain in-view branch: `useInView(ref, { amount: 0.5 })` with
+`once: false`, setting the variant to Visible when at least half the element is in view and back to
+Hidden when it leaves.
+
+Container CSS (static, not part of the variant):
+
+```css
+.framer-1w558nd-container {
+  position: absolute; inset: 0; z-index: 1; flex: none; opacity: 0.85;
+  -webkit-mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 14.000000000000002%,
+                rgba(0,0,0,1) 82.43243243243244%, rgba(0,0,0,0) 100%) add;
+          mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 14.000000000000002%,
+                rgba(0,0,0,1) 82.43243243243244%, rgba(0,0,0,0) 100%) add;
+}
+```
+
+**What the two variants differ by: exactly one prop.** There is no `framer-v-18pnsc2` CSS rule and no
+motion `variants` map on the component. The Visible variant only sets, on the WebGL child:
+
+```js
+{ introProgress: 1.1 }      // Hidden leaves the base introProgress: 0
+```
+
+### 9.4 How `introProgress` is animated
+
+**This is the answer to the brief's question, and the transition is not a Framer transition constant.**
+
+1. **Trigger:** the in-view variant switch above (threshold 0.5, `animateOnce: false`).
+2. **Variant:** `qqtzmr701` "Visible" sets `introProgress: 0 -> 1.1` via `addPropertyOverrides`. This
+   is a **plain React number prop**, not a motion style, so it changes instantly.
+3. **The easing lives inside the code component:**
+
+```tsx
+const raw = useMotionValue(introProgress);
+const sprung = useSpring(raw, { duration: 3000, bounce: 0 });   // <- 3000ms, zero bounce
+useEffect(() => { raw.set(introProgress); }, [introProgress]);
+// every frame:
+material.uniforms.uIntroProgress.value = sprung.get();
+```
+
+So the reveal is a **3000 ms, bounce 0 spring on a single scalar**, running `0 -> 1.1` on entry and
+`1.1 -> 0` on exit. The shader gates each point's visibility on
+`uIntroProgress * 2.0 > (vUV.x + vRandom.x)`, so the filaments write themselves in from root to tip
+with a randomised per-filament offset; positions never move. The `1.1` target overshoots the
+clamped `1.0` on purpose so the reveal visually completes before the spring settles.
+
+**Do not use the component's own transition constant here.** `CTA Nordwell Animation` declares
+`SPRING_A` as its MotionConfig value, but nothing under it animates. A 0.4s spring would be wrong.
+
+Every *other* animatable prop on that component is sprung with
+`FILAMENT_PROP_SPRING = { duration: 1200, bounce: 0.2 }` (from its `springSettings` prop), but nothing
+on this page changes them.
+
+Instance props (owned by another agent, no shaders transcribed):
+
+```js
+{ introProgress: 0,            // -> 1.1 in the Visible variant
+  springSettings: { bounce: 0.2, duration: 1200 },
+  dispersion: 0.8, dispersionBand: 0.9, dispersionOffset: 0.385,
+  highlightRadius: 2, highlightSpeed: 8, highlightStrength: 2,
+  longLengthMax: 8, longLengthMin: 3, longSegments: 96,
+  maxStart: {x:1, y:-0.6, z:1}, minStart: {x:-1, y:0.6, z:0},
+  noiseScale: 0.73, noiseStrength: 0.35,
+  pulseSpeedBase: 0.03, pulseSpeedRandomMax: 0.1, pulseStrength: 0.35,
+  shortLengthMax: 4, shortLengthMin: 1.4, shortLineRatio: 0.9, shortSegments: 48,
+  simDamping: 6, simMaxVelocity: 14, simRadius: 2, simSpring: 45, simStrength: 15,
+  sizeVariance: 0.5, nordwellOpacity: 0.25,
+  tipLayers: 6, tipRadius: 0.02,
+  tipTexture: 'https://framerusercontent.com/images/uMNT221vEn5naMu3VgNputh9yZU.png?width=256&height=256',
+  totalLines: 1600, tubeRadius: 0.01,
+  fallbackFit: 'cover',
+  fallbackImage: 'https://framerusercontent.com/images/5ViBNrW2So7arIANy02EAq5jV8.png?width=1400&height=800' }
+```
+
+There is **no appear animation and no other motion wrapper** around either WebGL component.
+
+### 9.5 CTA button
+
+`CTA Button` Primary / XL, identical to the hero's. See 0.6.
+
+### 9.6 Footer column links
+
+Pure CSS, the only CSS transition on the page:
+`transition: color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s`, from
+`var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, #a8a29e)` to
+`var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, #fafaf9)` on hover
+(preset `framer-styles-preset-1ybqtif`). The Terms / Privacy links use
+`framer-styles-preset-656phd`: same timing, hover colour
+`var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, #a1a1a1)` plus
+`text-decoration: underline`.
+
+Column headings (`Features`, `Company`, `Resources`, `Connect`) are not links and have no hover.
+
+### 9.7 The three social links (`External Link`, `framer-TbQBv`)
+
+Variants `oXnYFgfNW` Default / `HQutWjvTX` Hovered. **Hover is a manual variant switch**
+(`onMouseEnter` / `onMouseLeave` call `setVariant`), not a gesture variant. Transition **`SPRING_A`**.
+
+Three things change:
+
+```tsx
+// 1. label colour (.framer-15bmuku, preset framer-styles-preset-1tsnca)
+rest:  { '--extracted-r6o4lv': 'var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))' }
+hover: { '--extracted-r6o4lv': 'var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))' }
+
+// 2. the diagonal arrow swap, inside a clipped 16x16 box (.framer-l3hlb4, overflow: clip)
+//    two stacked copies of the Arrow Up Right icon
+.framer-jd7xak  /* "Arrow hovered" */  rest:  { position:'absolute', bottom:-16, left:-16, width:16, height:16 }
+                                       hover: { bottom:'unset', left:0, right:0, top:0, width:'calc(100% - 0px)' }
+.framer-1o6fma8 /* "Arrow default" */  rest:  { position:'absolute', left:0, right:0, top:0, width:'calc(100% - 0px)', height:16 }
+                                       hover: { bottom:16, left:16, right:-16, top:'unset' }
+// i.e. the visible arrow exits up-right by (16, -16) while the hidden one enters from down-left
+
+// 3. the hovered arrow's tint
+rest:  { '--1m973uw': 'var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))' }
+hover: { '--1m973uw': 'var(--token-68852133-66bc-42bc-90a0-dbfa7557286d, rgb(250, 250, 249))' }
+// the default arrow stays var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(168, 162, 158))
+transition={{ type:'spring', bounce:0.2, duration:0.4 }}
+```
+
+In the rebuild write the arrow swap as `x/y` on two stacked absolutely positioned icons
+(default: `0,0 -> 16,-16`; hovered: `-16,16 -> 0,0`) with `SPRING_A`.
+
+Rows: `flex-direction: row; gap: 6px; width: min-content; align-items: center; text-decoration: none`.
+Link stack `.framer-vz9imr` uses `gap: 12px`. Targets: `https://x.com/kreativnik_`,
+`https://linkedin.com/`, `https://github.com/`.
+
+### 9.8 The uptime status dot (loop)
+
+`.framer-ic5mpm-container`, nodeId `vk3ZIEgV5`, a `StatusPingV2` with:
+
+```js
+{ play: true, size: 6, pingSize: 16, pingWeight: 2, repeatDelay: 1,
+  pingTransition: { type: 'tween', duration: 0.3, ease: [0.44, 0, 0.56, 1], delay: 0 },
+  tint: 'var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144))' }
+```
+
+Resolved: `startSize = max(6 - 2*2, 1) = 2`, `endSize = 2 + 16 = 18`.
+
+```tsx
+<div style={{ width: 6, height: 6, borderRadius: 9999,
+              backgroundColor: 'var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144))',
+              position: 'relative' }}>
+  <motion.div
+    initial={{ width: 2,  height: 2,  opacity: 1 }}
+    animate={{ width: 18, height: 18, opacity: 0 }}
+    style={{ borderRadius: 9999,
+             outline: '2px solid var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144))',
+             position: 'absolute', top: '50%', left: '50%', x: '-50%', y: '-50%' }}
+    transition={{ type:'tween', duration: 0.3, ease: [0.44, 0, 0.56, 1],
+                  repeat: Infinity, repeatDelay: 1 }} />
+</div>
+```
+
+0.3s expand-and-fade, 1s idle, forever.
+
+### 9.9 The newsletter field (`Footer Newsletter`, `framer-e9zZI`)
+
+Variants `EJmh9KJfM` Primary / `xrhwSR_Qt` Focus / `WX0LAmfO7` Invalid. Transition **`SPRING_A`**.
+`enabledGestures: hover on all three variants, no pressed`.
+
+State changes are input events, not gestures:
+`onFocus -> Focus`, `onBlur -> Primary`, `onInvalid -> Invalid`, `onValid (only while Invalid) -> Focus`.
+
+```tsx
+// root <form>
+rest: { backgroundColor: 'var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(18, 16, 14))',
+        borderRadius: 12,
+        '--border-bottom-width':'1px','--border-left-width':'1px',
+        '--border-right-width':'1px','--border-top-width':'1px','--border-style':'solid',
+        '--border-color': 'var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38))' }
+
+// hover, IDENTICAL in all three states
+whileHover: { backgroundColor: 'var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23))' }
+
+// focus
+Focus:   { '--border-color': 'var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60))' }
+// invalid
+Invalid: { '--border-color': 'var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77))' }
+
+transition={{ type:'spring', bounce:0.2, duration:0.4 }}
+```
+
+Hover changes **background only**; focus and invalid change **border colour only**. Nothing scales.
+
+Layout: `padding: 4px 4px 4px 12px; width: 320px` (tablet 370px, phone `calc(min(100vw, 1400px) - 40px)`),
+`border-radius: 12`, `cursor: pointer`. Input radius 10px on all corners, font Geist 12px / 500 /
+line-height 16px, placeholder `name@framer.com`, colour
+`var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82))`, text colour
+`var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))`.
+
+Submit button (`Form Submit Button`, `framer-DAIlr`), 32px tall, label `Subscribe`, error label
+`Error`. Variants `ZVS9uEAOl` Default / `Gzs7KLdOZ` Loading / `EAtv73LHu` Disabled /
+`nqdgF8hBS` Success / `sTeqYCuJm` Error. Component transition
+**`TWEEN_B_200`** = `{type:'tween', duration:0.2, ease:[0.44,0,0.56,1]}`.
+
+Its spinner is the page's only `__framer__loopEffectEnabled`:
+
+```js
+{ __framer__loopEffectEnabled: true,
+  __framer__loop: { opacity:1, rotate:360, rotateX:0, rotateY:0, scale:1, skewX:0, skewY:0, x:0, y:0 },
+  __framer__loopTransition: { type:'tween', duration:1, ease:[0,0,1,1], delay:0 },
+  __framer__loopRepeatType: 'loop',
+  __framer__loopRepeatDelay: 0,
+  __framer__loopPauseOffscreen: true }
+```
+
+```tsx
+<motion.div animate={{ rotate: 360 }}
+  transition={{ type:'tween', duration: 1, ease: [0, 0, 1, 1], repeat: Infinity, repeatType: 'loop', repeatDelay: 0 }}
+  style={{ mask: "url('https://framerusercontent.com/images/pGiXYozQ3mE4cilNOItfe2L2fUA.svg?width=20&height=20') alpha no-repeat center / cover add" }} />
+```
+
+Form action: `https://api.framer.com/forms/v1/forms/fd523de1-47f2-4a82-87fa-d2d3202f0f0f/submit`.
+
+---
+
+## 5b. Integrations: the interactive parts
+
+### 5.4 The rolling connected-sources list (custom code component)
+
+`.framer-gh3cms-container`, nodeId `C3dBC5s2a`, inside `Content` `.framer-83tgt0`.
+This is what makes the left column of the Integrations visual feel alive.
+
+```js
+{ elements: 10,
+  interval: 3,                 // from the Integrations component's `boRManxAv` prop; phone override 4
+  entries: [ ThreadBase, Pipecloud, Chatdock, VaultDB, Stride ]   // 5 Integration Single instances
+}
+```
+
+Container style (on the wrapper, not the component):
+`mask: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 22.07207207207207%) add`.
+Parent `.framer-83tgt0`: `height: 1px; flex: 1 0 0; overflow: clip; justify-content: flex-start`.
+
+Implementation, verbatim:
+
+```tsx
+const [offset, setOffset] = useState(0);
+useEffect(() => {
+  const id = setInterval(() => setOffset(o => o + 1), interval * 1000);
+  return () => clearInterval(id);
+}, [interval]);
+
+<motion.div style={{ display:'flex', flexDirection:'column', justifyContent:'end',
+                     width:'100%', height:'100%', overflow:'clip' }}>
+  <AnimatePresence initial={false}>
+    {Array.from({length: elements}).map((_, n) => {
+      const entry = entries[wrap(0, entries.length, offset + n)];
+      return (
+        <motion.div key={offset + n} layout layoutId={`${offset}-${n}`}
+          initial={{ opacity: 0, x: '-100%' }}
+          animate={{ opacity: 1, x: '0%' }}>
+          {entry}
+        </motion.div>
+      );
+    })}
+  </AnimatePresence>
+</motion.div>
+```
+
+No `exit`, no explicit transition, so the layout shift and the enter both run on the nearest
+MotionConfig, which for this subtree is the `Integrations` component's
+**`TWEEN_A`** = `{type:'tween', duration:0.4, ease:[0.12,0.23,0.5,1]}`.
+Every 3 seconds a new row slides in from `x: -100%` at the bottom and the stack shifts up.
+Each `Integration Single` row is `326 x 74`.
+
+Entry data: ThreadBase "42 channels" / "alerts enabled", Pipecloud "874 accounts" /
+"12,400 records", Chatdock "9.841 conversations" / "204 open", VaultDB "38 schemes" / ...,
+Stride "$2.4 MMR" / "1,204 subscriptions". All with the green status token
+`var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144))`.
+
+### 5.5 Integration tiles and stats: **no hover, no motion**
+
+- `Integration Single` (`framer-7anIQ`): single variant `tclGWBIUg`, no gestures, no hover map.
+  `border-top: 1px solid var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38))`,
+  `background var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16))`.
+- `Integration Single Tile` (`framer-DXDHz`): single variant `a8bwbXBDZ`, no gestures. 90px tall,
+  `border: 1px solid var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38))`,
+  `border-radius: 16`. Its logo is permanently
+  `filter: grayscale(1); opacity: 0.5; -webkit-filter: grayscale(1)` - **it does not un-grey on
+  hover.** The Right Column Grid holds 15 of them.
+- `Stat` (`framer-6SsJm`): single variant `ewKpzVcEm`, no gestures.
+- `Integrations` (`framer-kdORT`): variants `hgluiL7kw` Desktop / `m29m57BbI` Mobile, transition
+  **`TWEEN_A`**. The variant is chosen by breakpoint, not by interaction.
+
+A regex sweep of `lFOi1sWHj.CT5eLhTa.mjs` for hover variant maps returns zero matches.
+
+### 5.6 "View integrations" link
+
+`Circular Button With Text` (`framer-z2KqL`), `OBAEvnEgE: 'View integrations'`.
+See section B.2.
+
+### 5.7 The Light / XS circular button in the Bottom Container
+
+`.framer-4279vg` holds one `Circular Button` at variant `Ds9QQ9qkS` = **Light / XS**. See section B.1.
+
+---
+
+## 6. Testimonials (desktop y 5250 h 601)
+
+### 6.1 Tree
+
+```
+Testimonials  .framer-141n56s
+└─ Container  .framer-10ev3ja  data-border
+   ├─ .framer-1rn4xk5-container (nodeId DWLDVOAaC)
+   │  └─ Desktop 1  (.framer-eo5xJ .framer-1jsvu24)
+   │     ├─ Content  .framer-h6gs46
+   │     │  ├─ Headline  .framer-11otw6d  data-border
+   │     │  └─ Testimonial and name  .framer-it7gdu
+   │     │     ├─ Testimonial  .framer-r2x26v
+   │     │     │  ├─ Filler   .framer-ekmnq7
+   │     │     │  └─ Content  .framer-10oe2xi
+   │     │     └─ Navigation and name  .framer-1x84j35
+   │     │        ├─ Navigation  .framer-1bgiywn
+   │     │        │  ├─ Previous  .framer-187vqs7-container -> Circular Button
+   │     │        │  └─ Next      .framer-1y81spb-container -> Circular Button
+   │     │        └─ Name  .framer-ml0o2b
+   │     └─ Image  .framer-ezoypn
+   └─ .framer-1bxf2yj-container -> Chromatic Border divider (nodeId MSwOXYRCw)   [see section D]
+```
+
+### 6.2 Appear animations
+
+**None.**
+
+### 6.3 The carousel
+
+`Testimonials` (`framer-eo5xJ`) is a nine-variant component: three slides x three breakpoint layouts.
+Transition **`SPRING_A`** for everything. There is **no autoplay** (no `useOnVariantChange`, no
+`setInterval`, no `delay(...)` scheduler anywhere in the component). It only moves on arrow tap.
+
+| slide | Desktop | Tablet | Phone |
+|---|---|---|---|
+| 1 | `aaMV3bLTJ` (`framer-v-1jsvu24`) | `tQKzW9LW7` (`framer-v-1g13ruz`) | `CGn4Kh9I9` (`framer-v-1nbms52`) |
+| 2 | `VxeHPWB1_` (`framer-v-sefwfx`) | `VQiG8wA3C` (`framer-v-15v69me`) | `gULx4D9aI` (`framer-v-57s0pl`) |
+| 3 | `nt3dh5mN0` (`framer-v-su3p2u`) | `wIynUAwwz` (`framer-v-y0kg0r`) | `Sgk7SCtVm` (`framer-v-1aaa1tt`) |
+
+The page mounts `variant: aaMV3bLTJ` with tablet override `tQKzW9LW7` and phone override
+`CGn4Kh9I9`. Tapping an arrow calls `setVariant(<slide id for the current breakpoint>)`, so the
+carousel stays inside its breakpoint family.
+
+What actually moves between slides: the testimonial text, the name, the role, the stat and the photo
+all swap content, and the layout animates through Framer's shared `layoutId` under **`SPRING_A`**.
+`transition={{ type:'spring', bounce:0.2, duration:0.4 }}`.
+
+Content: three testimonials.
+`"We used to stitch together Salesforce, Stripe, and Postgres by hand every Monday. Now it's one conversation."`
+(Marcus Webb, VP of Operations @ Luminous, `12 hours` / `saved per week across the ops team`);
+`"Our analysts stopped exporting CSVs and started asking questions. That shift alone paid for the platform."`
+(Jordan Keller, Director of Data @ Northlane, `3 tools` / `replaced with a single graph`);
+`"Pulse caught a churn spike three weeks before our dashboards would have shown it. That gap used to cost us accounts."`
+(Priya Nair, Head of Customer Success @ Fieldstone, `80%` / `less time spent building reports`).
+
+### 6.4 The two arrows
+
+Both are `Circular Button` (`framer-ssUFK`) at **SM** size (26 x 26, icon 14px).
+
+- **Previous** `.framer-187vqs7-container`: variant `L0ze52gis` = **Disabled / SM** on slide 1,
+  `XSi82891F` = **Light / SM** on slides 2 and 3. Icon `Chevron Left`.
+- **Next** `.framer-1y81spb-container`: `XSi82891F` = **Light / SM** on slides 1 and 2,
+  `L0ze52gis` = **Disabled / SM** on slide 3. Icon `Chevron Right`.
+
+So the carousel does **not** wrap; the first and last slide disable the matching arrow.
+
+Light / SM hover and press (transition **`SPRING_A`**):
+
+```tsx
+rest:       { backgroundColor: 'var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38))',
+              borderRadius: 52, '--border-*-width': '0px' }
+whileHover: { backgroundColor: 'var(--token-494a45c3-2553-4e41-8258-c9545bf7163f, rgb(64, 64, 64))' }
+whileTap:   { backgroundColor: 'var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(82, 82, 82))' }
+// icon tint, static: var(--token-09a0b579-0f15-4449-80ce-92fd13281fd7, rgb(245, 245, 245))
+transition={{ type:'spring', bounce:0.2, duration:0.4 }}
+```
+
+Disabled / SM has **no hover and no press** (it is not in `enabledGestures`):
+
+```tsx
+{ backgroundColor: 'var(--token-5f5af133-2080-4ffb-a775-1ed7714f667c, rgb(68, 64, 59))',
+  borderRadius: 52, cursor: 'not-allowed' }
+// icon tint: var(--token-4a066b0b-c929-4483-845f-f6c69bce15cb, rgb(121, 113, 107))
+```
+
+---
+
+## 8. FAQ (desktop y 6340 h 512)
+
+### 8.1 Tree
+
+```
+FAQ  .framer-ao75xt
+└─ Container  .framer-1l77w07  data-border
+   ├─ Label Stack  .framer-1qqompg   h2 + description
+   └─ .framer-...-container
+      └─ Closed  (.framer-uLM4K .framer-19006hw)          <- the accordion container
+         ├─ .framer-1gsrymb-container -> Layout Jump Preventer (direction: 'vertical')
+         └─ 4 x FAQ Question  (.framer-Bi957 .framer-18wxj0v)
+            └─ Container  .framer-ictz1l
+               ├─ Question Stack  .framer-z5btwm   data-highlight, onTap
+               │  ├─ Center Question  .framer-107e5o5  -> Question  .framer-1jfysh1
+               │  └─ .framer-aauvgk-container -> Vertical Dot Arrow (32x32)
+               ├─ Answer Stack  .framer-1jm0egw  -> Answer  .framer-qajgrr
+               └─ Right Padding  .framer-177fnaj  (40px wide)
+```
+
+### 8.2 Appear animations
+
+**None.**
+
+### 8.3 The accordion, and it is single-open
+
+`FAQ` (`framer-uLM4K`) holds the open state as its own variant. Transition **`SPRING_A`**.
+
+| variant | meaning | class |
+|---|---|---|
+| `d2FCdyBSB` | Closed (default, nothing open) | `framer-v-19006hw` |
+| `vkm7U1_y9` | First open | `framer-v-13g888u` |
+| `DxMFLM9KM` | Second open | `framer-v-1v5y7eo` |
+| `iZC_WHK0o` | Third open | `framer-v-1jy770m` |
+| `Dp7DHVUdL` | Fourth open | `framer-v-1un2a8n` |
+
+Tapping row N sets the container to that row's variant. Tapping the **already open** row sets the
+container back to `d2FCdyBSB` (its click handler is swapped to the close handler while it is open).
+**Only one row can be open at a time, and all four can be closed.**
+
+Two things change on the *other* rows when one is open:
+
+```tsx
+// every row that is NOT the open one gets its question text colour dimmed
+HTB2qJsvu: 'var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))'
+// the open row keeps
+HTB2qJsvu: 'var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))'
+```
+
+### 8.4 `FAQ Question` (`framer-Bi957`)
+
+Variants `eWOqytebR` **Open** (default) and `eJSmG59zF` **Closed**.
+`enabledGestures: { eJSmG59zF: { hover: true } }` - **hover exists only on the Closed variant**,
+and there is **no pressed state**. Component transition **`SPRING_A`**.
+
+Row chrome, identical in both variants:
+`border-bottom: 1px solid var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38))`,
+`padding: 16px 0`, `width: 532px`, `display: flex; flex-direction: row; gap: 0`.
+
+What changes between Open and Closed:
+
+| element | Open (`eWOqytebR`) | Closed (`eJSmG59zF`) | Closed + hover |
+|---|---|---|---|
+| root `.framer-18wxj0v` | `height: min-content`, `align-items: center` | `height: 88px`, `align-items: flex-start`, `cursor: pointer` | same as Closed |
+| `.framer-ictz1l` Container | `gap: 0px` | `gap: 22px` | `gap: 22px` |
+| `.framer-z5btwm` Question Stack | `padding: 12px 0 12px 0` | `padding: 12px 0 12px 0` | **`padding: 12px 0 12px 12px`** (a 12px left inset on hover) |
+| `.framer-qajgrr` Answer | `opacity: 1` | `opacity: 0` | `opacity: 0` |
+| `.framer-177fnaj` Right Padding | `align-self: stretch` | `align-self: unset; height: 100%` | `align-self: unset` |
+| chevron dots | `Vertical Dot Arrow` variant `oMMfsF998` **Down** | variant `c2dBlHkN3` **Neutral** | Neutral |
+
+```tsx
+// the hover, the only gesture on the row
+whileHover={{ paddingLeft: 12 }}   // on .framer-z5btwm, Closed variant only
+transition={{ type:'spring', bounce:0.2, duration:0.4 }}
+
+// the answer
+animate={{ opacity: isOpen ? 1 : 0 }}
+transition={{ type:'spring', bounce:0.2, duration:0.4 }}
+```
+
+The open/close height change (88px -> min-content) is a layout animation through the shared
+`layoutId`, under **`SPRING_A`**. In the rebuild animate `height` with the same spring, or use
+`<motion.div layout>` on the row.
+
+### 8.5 `Vertical Dot Arrow` (`framer-EOMkT`)
+
+A 32x32 clipped box with **five** 2x2px dots (`border-radius: 1`), all
+`var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161))`, laid out at
+`left: 7 / 11 / 15 / 19 / 23px`, `top: 50%` with `transformTemplate: translateY(-50%)`.
+Transition **`SPRING_A`** on every dot.
+
+| variant | title | dot 2 (`.framer-1sbrqk7`) | dot 3 (`.framer-ozn1zi`) | dot 4 (`.framer-k9j781`) |
+|---|---|---|---|---|
+| `c2dBlHkN3` | **Neutral** (default, row closed) | `top: 50%` | `top: 50%` | `top: 50%` |
+| `oMMfsF998` | **Down** (row open) | `bottom: 13px; top: unset` | `top: 63%` | `top: 56%` |
+| `amUd8Kex2` | **Up** (unused on this page) | `top: 13px` | `top: 38%` | `top: 44%` |
+
+Dots 1 and 5 never move. In the Down and Up variants the `transformTemplate` is dropped from dot 2,
+so it loses its `translateY(-50%)`. The effect is a flat dotted line bending into a shallow
+chevron. All five animate with `{type:'spring', bounce:0.2, duration:0.4}`.
+
+Rebuild: animate `top` (or `y`) per dot with that spring; the row's open state selects the variant.
+
+### 8.6 Layout Jump Preventer
+
+`.framer-1gsrymb-container`, `direction: 'vertical'`. A spacer code component that reserves the
+height difference so the section does not jump when a row opens. No motion of its own.
+
+---
+
+## B. Button reference
+
+Every button on the page animates **`backgroundColor`** (plus `--border-color` on the Secondary
+family) and **nothing else**. No scale, no translate, no box-shadow, no gradient, no border-radius
+change, no icon rotation. All of them use **`SPRING_A`** except `Circular Button With Text`.
+
+### B.1 `Circular Button` (`framer-ssUFK`), 25 variants
+
+Transition **`SPRING_A`**. `enabledGestures: { hover: true, pressed: true }` on all 20
+non-Disabled variants; the five Disabled variants have **no gestures**.
+Root: `borderRadius: 52` on all corners, `display:flex; align-items:center; justify-content:center;
+gap:4px; cursor:pointer; overflow:clip`.
+
+Sizes:
+
+| size | box | icon | variant classes |
+|---|---|---|---|
+| XL | 40 x 40 | 16px | `framer-1qc2red` (base), `framer-v-ky2352` (Disabled, `cursor: not-allowed`) |
+| LG | 36 x 36 | 16px | `framer-v-rlp5ew` `framer-v-s4xh6n` `framer-v-wfeamq` `framer-v-187a6rj`, `framer-v-1iqjk5r` (Disabled) |
+| MD | 32 x 32 | 16px | `framer-v-1fxg40n` `framer-v-13lzo22` `framer-v-10hsmm9` `framer-v-4jcjwb`, `framer-v-10n6yab` (Disabled) |
+| SM | 26 x 26 | 14px | `framer-v-1fo68tz` `framer-v-14e06qg` `framer-v-1navpe9` `framer-v-1krc73u`, `framer-v-d1t73o` (Disabled) |
+| XS | 20 x 20 | 12px | `framer-v-ojjviu` `framer-v-1muf3n5` `framer-v-9qkm51` `framer-v-bedbah`, `framer-v-1baw4bx` (Disabled) |
+
+Variant ids by family and size:
+
+| | XL | LG | MD | SM | XS |
+|---|---|---|---|---|---|
+| Primary | `SLXZ3TqyB` | `IHmlIlwnQ` | `nM0UY9btt` | `kDJy4jmgf` | `h9PYQoRoX` |
+| Secondary | `L7FsmLiTr` | `f2aAwZgz0` | `my2k7r7SN` | `g7qpmuQW4` | `nB7BDBw0L` |
+| Light | `BWnx7Fy38` | `iFFAFWtOn` | `IzROFuuuh` | `XSi82891F` | `Ds9QQ9qkS` |
+| Ghost | `QYaeAlmyR` | `ik7iddnck` | `tXZIR3JON` | `daBcqLcSh` | `T_NyAgmeA` |
+| Disabled | `U7mOPrSL0` | `SsL2ifNLr` | `zCwaap2aN` | `L0ze52gis` | `nzkwcXcuR` |
+
+Per family (identical across the five sizes within a family):
+
+**Primary** - rest `backgroundColor: var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 245))`,
+borders 0px. Icon tint `var(--token-52462940-c15c-4103-9816-370bb3c11bfa, rgb(23, 23, 23))`.
+```tsx
+whileHover={{ backgroundColor: 'var(--token-e308c24b-f83a-4af3-938d-f30465c0b60a, rgb(229, 229, 229))' }}
+whileTap={{   backgroundColor: 'var(--token-3b4d6f03-62c3-4973-a45f-106736577695, rgb(212, 212, 212))' }}
+// XL (SLXZ3TqyB) additionally re-asserts all four --border-*-width: 0px in both states
+```
+
+**Secondary** - rest `backgroundColor: var(--token-49f482bf-7282-4f8a-9849-f4d6c5f1f94c, rgb(38, 38, 38))`,
+`border: 1px solid var(--token-d77c8f0f-067e-4a45-ac82-2913bb2aee68, rgb(82, 82, 82))`.
+Icon tint `var(--token-d374d93c-0fe8-421f-a111-c491a4a873a6, rgb(245, 245, 245))`.
+```tsx
+whileHover={{ backgroundColor: 'var(--token-148ab549-faa2-4e43-be76-92abb380b315, rgb(64, 64, 64))',
+              '--border-color': 'var(--token-fa695f43-dc97-4fcb-890e-19bee8613bc8, rgb(115, 115, 115))' }}
+whileTap={{   backgroundColor: 'var(--token-24c110d7-70a2-4d2f-9770-b2e54961bd48, rgb(87, 83, 78))' }}
+```
+
+**Light** - rest `backgroundColor: var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38))`,
+borders 0px. Icon tint `var(--token-09a0b579-0f15-4449-80ce-92fd13281fd7, rgb(245, 245, 245))`.
+```tsx
+whileHover={{ backgroundColor: 'var(--token-494a45c3-2553-4e41-8258-c9545bf7163f, rgb(64, 64, 64))' }}
+whileTap={{   backgroundColor: 'var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(82, 82, 82))' }}
+// exception: Light / XL (BWnx7Fy38) has pressed var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(64, 64, 64))
+```
+
+**Ghost** - rest `backgroundColor: rgba(0, 0, 0, 0)`, borders 0px.
+Icon tint `var(--token-5d8f23dc-92a7-4ff0-acf1-4f5feb4637ee, rgb(245, 245, 245))`.
+```tsx
+whileHover={{ backgroundColor: 'var(--token-bb9172d5-978a-4462-9d85-50327c10d262, rgb(38, 38, 38))' }}
+whileTap={{   backgroundColor: 'var(--token-28be4a51-bbd3-4a71-bc59-db9d73dedaf5, rgb(64, 64, 64))' }}
+```
+
+**Disabled** - rest `backgroundColor: var(--token-5f5af133-2080-4ffb-a775-1ed7714f667c, rgb(68, 64, 59))`,
+`cursor: not-allowed`. Icon tint `var(--token-4a066b0b-c929-4483-845f-f6c69bce15cb, rgb(121, 113, 107))`.
+**No hover, no press.**
+
+### B.2 `Circular Button With Text` (`framer-z2KqL`)
+
+Single variant `Rr1WCTEi6` with `{ hover: true, pressed: true }`. Transition is the odd one out:
+**`TWEEN_B_100`** = `{type:'tween', duration:0.1, ease:[0.44,0,0.56,1], delay:0}`.
+
+Layout: `display:flex; flex-direction:row; align-items:center; gap:12px; width:min-content;
+cursor:pointer; text-decoration:none`. Round button 26 x 26, `borderRadius: 52`, icon 14px.
+
+**Two things change together, and this is the only button whose label colour moves.**
+
+```tsx
+// label .framer-unk2by  (--extracted-r6o4lv)
+rest:       'var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))'
+whileHover: 'var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))'
+whileTap:   'var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))'
+
+// round button .framer-1bs23ii
+rest:       { backgroundColor: 'var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38))', borderRadius: 52 }
+whileHover: { backgroundColor: 'var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(82, 82, 82))' }
+whileTap:   { backgroundColor: 'var(--token-494a45c3-2553-4e41-8258-c9545bf7163f, rgb(64, 64, 64))' }
+
+// icon tint, static: var(--token-68852133-66bc-42bc-90a0-dbfa7557286d, rgb(250, 250, 249))
+transition={{ type:'tween', duration:0.1, ease:[0.44, 0, 0.56, 1] }}
+```
+
+Instances on the page: three in Features ("Explore ..." under each feature block, all
+`.framer-2f6409-container`) and one in Integrations ("View integrations",
+`.framer-1419ixl-container`, nodeId `VnQCbEVki`).
+
+### B.3 `CTA Button` (`framer-nnJOX`), 12 variants
+
+Transition **`SPRING_A`**, `{ hover: true, pressed: true }` on all 12. Root `borderRadius: 8`.
+
+| | XL | LG | MD |
+|---|---|---|---|
+| Primary | `WFn7l_ycj` | `fjOBCDEe9` | `SrE8wxvlP` |
+| Secondary | `mpynBH2Cv` | `BpAaIYVEg` | `BdqgXl6NE` |
+| Ghost | `wuA86V8Cd` | `B_d5gslqy` | `n_hWf18Dw` |
+| Light | `pXjM1fasS` | `nltwK9VLK` | `CHKefkC3P` |
+
+**Primary** - rest `var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 245))`.
+XL hover `var(--token-e308c24b-f83a-4af3-938d-f30465c0b60a, rgb(231, 229, 228))`;
+LG and MD hover `var(--token-e308c24b-f83a-4af3-938d-f30465c0b60a, rgb(229, 229, 229))`.
+All press `var(--token-3b4d6f03-62c3-4973-a45f-106736577695, rgb(212, 212, 212))`.
+Label `var(--token-52462940-c15c-4103-9816-370bb3c11bfa, rgb(23, 23, 23))`.
+
+**Secondary** - rest `var(--token-49f482bf-7282-4f8a-9849-f4d6c5f1f94c, rgb(38, 38, 38))` with
+`border: 1px solid var(--token-d77c8f0f-067e-4a45-ac82-2913bb2aee68, rgb(34, 34, 34))`.
+Hover `backgroundColor var(--token-148ab549-faa2-4e43-be76-92abb380b315, rgb(64, 64, 64))` +
+`--border-color var(--token-fa695f43-dc97-4fcb-890e-19bee8613bc8, rgb(115, 115, 115))`.
+Press `var(--token-24c110d7-70a2-4d2f-9770-b2e54961bd48, rgb(87, 83, 78))`; the LG variant
+(`BpAaIYVEg`) additionally sets `--border-color var(--token-d77c8f0f-067e-4a45-ac82-2913bb2aee68, rgb(82, 82, 82))`
+on press. Label `var(--token-d374d93c-0fe8-421f-a111-c491a4a873a6, rgb(245, 245, 245))`.
+
+**Ghost** - rest `rgba(0, 0, 0, 0)`, borders 0.
+Hover `var(--token-bb9172d5-978a-4462-9d85-50327c10d262, rgb(38, 38, 38))`,
+press `var(--token-28be4a51-bbd3-4a71-bc59-db9d73dedaf5, rgb(64, 64, 64))`.
+Label and icon `var(--token-5d8f23dc-92a7-4ff0-acf1-4f5feb4637ee, rgb(245, 245, 245))`.
+
+**Light** - rest `var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38))`, borders 0.
+Hover `var(--token-494a45c3-2553-4e41-8258-c9545bf7163f, rgb(64, 64, 64))`,
+press `var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(82, 82, 82))`.
+Label and icon `var(--token-09a0b579-0f15-4449-80ce-92fd13281fd7, rgb(245, 245, 245))`.
+
+Label and icon colours are per-variant but **never change between rest, hover and press**.
+
+### B.4 `Pill` (`framer-LKFMZ` / `framer-mEJFY`)
+
+Variants `l4Rq4ITVJ` Primary / `uHVFq2jZC` Extra Padding / `RorjGomGF` Small /
+`vzx6FkGP4` Primary - Hover. Transition **`SPRING_A`**. **No gesture map** - the parent switches the
+variant. Only `backgroundColor` differs (see 0.3). Paddings: Primary `4px 8px`,
+Extra Padding `4px 16px`, Small `2px 8px`. `borderRadius: 321`.
+
+---
+
+## L. Loop index
+
+Every continuously repeating thing on the page, in one table.
+
+| # | what | where | keyframes | timing |
+|---|---|---|---|---|
+| 1 | Status ping ring (Live card 1) | 4 Features, `Cortex Stats` card `1ctfs4x` | `{width:4, height:4, opacity:1} -> {width:20, height:20, opacity:0}` | `{type:'tween', duration:0.3, ease:[0.44,0,0.56,1], delay:0, repeat:Infinity, repeatDelay:1}` |
+| 2 | Status ping ring (Live card 2) | 4 Features, card `zatbru` | same | same but `delay: 0.1` |
+| 3 | Status ping ring (uptime) | 9 Footer, `.framer-ic5mpm-container` | `{width:2, height:2, opacity:1} -> {width:18, height:18, opacity:0}` | `{type:'tween', duration:0.3, ease:[0.44,0,0.56,1], delay:0, repeat:Infinity, repeatDelay:1}` |
+| 4 | Per-letter gradient sweep | 3 Conversation, `TextTransitionV2` | MotionValue `0 -> 100`, piped to `color` through `useTransform([25,35,45,55,65,75], [grey, cyan, blue, red, amber, grey])` | `{duration:1, ease:'linear', delay: index*0.02, repeat:Infinity}` |
+| 5 | Announcement text ticker | 0 Hero, `.framer-18d75j4-container` | `x: '0%' -> '-100%'` | `{duration: scrollWidth/30, ease:'linear', repeat:Infinity}`, i.e. **30 px/s**. Only runs when the text overflows, which it does **not** at desktop |
+| 6 | Partner logo ticker | 2 Partners, `.framer-1qbqem3` | rAF loop, `offset -= delta/1000 * 50` | **50 px/s**, leftward, no easing, never pauses |
+| 7 | Newsletter submit spinner | 9 Footer, `.framer-1xef08e` | `rotate: 0 -> 360` | `{type:'tween', duration:1, ease:[0,0,1,1], repeat:Infinity, repeatType:'loop', repeatDelay:0}`, paused off-screen. Only visible in the Loading state |
+| 8 | Rolling connected-sources list | 5 Integrations, `.framer-gh3cms-container` | a new row per tick, `{opacity:0, x:'-100%'} -> {opacity:1, x:'0%'}` plus a layout shift | `setInterval(3000)` (phone 4000), transition `TWEEN_A` |
+| 9 | Ask Chat Anim variant cycle | 3 Conversation | 5-state machine | 2000 / 2000 / 4000 / 3500 / 500 ms, **12000 ms** period, pauses when hidden or off-screen |
+| 10 | Statistics Lottie x4 | 7 Statistics | bodymovin, `loop: true, speed: 1` | continuous |
+| 11 | Both WebGL fields | 0 Hero, 4 Features, 9 CTA | rAF `uTime` uniform | continuous, `IntersectionObserver` + `visibilitychange` gated |
+
+Everything else on the page is one-shot.
+
+## C. Count-ups and animated numbers
+
+**There are none.** The four Statistics figures (`16x`, `47%`, `80%`, `4.2hrs`) are literal strings
+in plain text nodes. No `AnimatedNumber`, no stylokit component, no number spring anywhere in any of
+the 57 modules. Search `toLocaleString` and you find only `Step`'s zero-padded index formatter
+(`1.`, `2.`, `3.`) and the `Progress` rail's `String(n).padStart(2, '0')`, neither of which animates.
+
+If the design brief calls for a count-up, it is a change from the reference, not a port of it.
+
+## X. What has no motion at all
+
+Recorded so the rebuild does not invent any:
+
+- `Step` (Steps section rows): no hover, no press, no scroll link.
+- `Feature Section` (`framer-5Y2Hx`), `Product Feature` (`framer-nbXXU`), `Cortex Stats`
+  (`framer-AhJf9`), `Status` (`framer-9bYeO`), `Testimonials` (`framer-eo5xJ`): no `enabledGestures`
+  at all, so **no hover and no press** on any feature card, stat card, or the testimonial block.
+- `Integration Single`, `Integration Single Tile`, `Stat`, `Integrations`: no gestures. The tiles
+  stay `grayscale(1) opacity: 0.5` permanently.
+- `Ask Chat Anim` and everything inside it, plus `Chat Dialog Result`, `Status Indicator`,
+  `Quick Action`, `Tag` and all icon components: no gestures.
+- The Navigation logo: no hover.
+- The dropdown chevrons: no rotation on open.
+- Footer column headings: not links, no hover.
+- The Statistics numbers: static text.
+- `Dot Arrow`'s "Next" variant is authored but never triggered on this page.
+- `Hash` (`framer-XAHcT`), `Tag` (`framer-022zo`), `Check` (`framer-FCBgc`), `X` (`framer-RiU4T`),
+  `Life Buoy` (`framer-otzfv`), `Chevron Up` (`framer-RD9jt`), `Feature` (`framer-VrdWK`),
+  `Page` (`framer-bEdDE`), `License Option` (`framer-6G52L`), `Checkout License Modal`
+  (`framer-bXSK9`): defined but not rendered on this page.

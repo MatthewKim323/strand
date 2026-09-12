@@ -98,7 +98,7 @@ export function ProductCard({ item, horizontal = false, onNavigate }: { item: Pr
 export function MenuRow({ item, onNavigate }: { item: RowItem; onNavigate?: () => void }) {
   return (
     <motion.a
-      href={item.href}
+      {...(item.href ? { href: item.href } : {})}
       onClick={onNavigate}
       whileHover={{ backgroundColor: "var(--token-efb6b80c-ff66-4fd5-b06e-7af1e4433402, rgb(41, 37, 36))" }}
       whileTap={PRESS}

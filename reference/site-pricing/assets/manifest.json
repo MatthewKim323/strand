@@ -14,17 +14,17 @@
   "mime": "image/svg+xml"
  },
  {
-  "originalUrl": "https://fonts.gstatic.com/s/geist/v4/gyBhhwUxId8gMGYQMKR3pzfaWI_RruM4mJPby1QNtA.woff2",
-  "localPath": "assets/fonts/font-d03739dc10.woff2",
-  "type": "fonts",
-  "bytes": 30364,
-  "mime": "font/woff2"
- },
- {
   "originalUrl": "https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKJ5W7ihaO_CS.woff2",
   "localPath": "assets/fonts/font-1b89a17ec9.woff2",
   "type": "fonts",
   "bytes": 30520,
+  "mime": "font/woff2"
+ },
+ {
+  "originalUrl": "https://fonts.gstatic.com/s/geist/v4/gyBhhwUxId8gMGYQMKR3pzfaWI_RruM4mJPby1QNtA.woff2",
+  "localPath": "assets/fonts/font-d03739dc10.woff2",
+  "type": "fonts",
+  "bytes": 30364,
   "mime": "font/woff2"
  },
  {
