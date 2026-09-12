@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "motion/react";
+import { MotionConfig, motion } from "motion/react";
 
 import { Icon } from "@/components/ui/Sprite";
 import { ChromaticRule } from "./testimonials/ChromaticRule";
@@ -200,6 +200,7 @@ const CSS = `
   .tm-portrait-fill { display: block; }
   .tm-portrait { display: none; }
   .tm-quote-box { grid-column: span 3; padding: 40px 20px 20px; box-shadow: none; }
+  .tm-quote-text { text-align: start; }
   .tm-nav-name { align-content: flex-end; align-items: flex-end; padding: 0 20px 40px; }
   .tm-nav { order: 1; }
   .tm-name { order: 0; align-content: flex-start; align-items: flex-start; }
@@ -247,9 +248,10 @@ export function Testimonials() {
       <style>{CSS}</style>
       <div className="tm-container">
         <div className="tm-slot">
-          <motion.div className="tm-slide" layout transition={SLIDE}>
-            <div className="tm-content">
-              <div className="tm-headline">
+          <MotionConfig transition={SLIDE}>
+          <motion.div className="tm-slide" layout>
+            <motion.div className="tm-content" layout>
+              <motion.div className="tm-headline" layout>
                 <div className="tm-text">
                   <h2 className="t-d2" style={{ color: BRIGHT }}>
                     {slide.stat}
@@ -260,9 +262,9 @@ export function Testimonials() {
                     {slide.statLabel}
                   </p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="tm-tn">
+              <motion.div className="tm-tn" layout>
                 {/* Below 810 the portrait fills the quote block instead of sitting beside it. */}
                 <div className="tm-portrait-fill">
                   <div className="tm-portrait-inner">
@@ -271,18 +273,18 @@ export function Testimonials() {
                   </div>
                 </div>
 
-                <div className="tm-quote-grid">
+                <motion.div className="tm-quote-grid" layout>
                   <div className="tm-filler" />
-                  <div className="tm-quote-box">
+                  <motion.div className="tm-quote-box" layout>
                     <div className="tm-quote">
                       <p className="t-lead tm-tswap tm-quote-text" style={{ color: BRIGHT }}>
                         {slide.quote}
                       </p>
                     </div>
-                  </div>
-                </div>
+                  </motion.div>
+                </motion.div>
 
-                <div className="tm-nav-name">
+                <motion.div className="tm-nav-name" layout>
                   <div className="tm-nav">
                     <Arrow dir="prev" disabled={index === 0} onClick={() => setIndex((i) => Math.max(0, i - 1))} />
                     <Arrow
@@ -291,7 +293,7 @@ export function Testimonials() {
                       onClick={() => setIndex((i) => Math.min(SLIDES.length - 1, i + 1))}
                     />
                   </div>
-                  <div className="tm-name">
+                  <motion.div className="tm-name" layout>
                     <div className="tm-line">
                       <p className="t-body" style={{ color: BRIGHT }}>
                         {slide.name}
@@ -302,10 +304,10 @@ export function Testimonials() {
                         {slide.role}
                       </p>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+                  </motion.div>
+                </motion.div>
+              </motion.div>
+            </motion.div>
 
             <div className="tm-portrait">
               <div className="tm-portrait-inner">
@@ -314,6 +316,7 @@ export function Testimonials() {
               </div>
             </div>
           </motion.div>
+          </MotionConfig>
         </div>
 
         <div className="tm-slot tm-slot-rule">
