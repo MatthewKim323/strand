@@ -131,6 +131,7 @@ const CSS = `
   .pu-hero-title { align-self: unset; order: 1; height: min-content; padding: 40px 20px 60px; }
   .pu-hero-stack { align-content: center; align-items: center; gap: 32px; }
   .pu-hero-copy { gap: 12px; }
+  .pu-hero-copy h1, .pu-hero-copy p { text-align: center; }
   .pu-hero-ctas { justify-content: center; }
   .pu-hero-graphic { align-self: unset; order: 0; height: 419px; }
   .pu-hero-canvas { width: 389px; height: 409px; }

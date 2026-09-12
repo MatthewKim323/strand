@@ -1,0 +1,162 @@
+{
+  "report": {
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3139,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 4,
+        "layoutElements": 295,
+        "sectionMode": "blocks"
+      },
+      "tablet": {
+        "width": 1024,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3133,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 4,
+        "layoutElements": 377,
+        "sectionMode": "blocks"
+      },
+      "tablet-810": {
+        "width": 810,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3078,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 4,
+        "layoutElements": 377,
+        "sectionMode": "blocks"
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3399,
+        "stitchChunks": 5,
+        "hiddenFixedElements": 3,
+        "layoutElements": 360,
+        "sectionMode": "blocks"
+      }
+    },
+    "scenarios": {},
+    "sections": {
+      "desktop": [
+        {
+          "index": 0,
+          "slug": "blog",
+          "name": "Blog",
+          "y": 68,
+          "h": 1453,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Blog\"]"
+        },
+        {
+          "index": 1,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 1521,
+          "h": 1618,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "blog",
+          "name": "Blog",
+          "y": 68,
+          "h": 1441,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Blog\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 1509,
+          "h": 1624,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet-810": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "blog",
+          "name": "Blog",
+          "y": 68,
+          "h": 1441,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Blog\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 1509,
+          "h": 1569,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "mobile": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -776,
+          "h": 844,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "blog",
+          "name": "Blog",
+          "y": 68,
+          "h": 1616,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Blog\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 1684,
+          "h": 1715,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ]
+    },
+    "assets": 12
+  },
+  "errors": []
+}

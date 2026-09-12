@@ -1,0 +1,40 @@
+{
+ "url": "http://localhost:3799/this-route-does-not-exist",
+ "ref": "reference/site-404",
+ "at": "2026-09-12T13:06:00.652Z",
+ "viewports": {
+  "desktop": {
+   "width": 1440,
+   "docHeight": {
+    "ref": 1909,
+    "build": 1909,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Light / MD",
+     "y": 68,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 968,
+     "ref": 941,
+     "build": 941,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+   ],
+   "diff": null,
+   "pass": false
+  }
+ },
+ "pass": false,
+ "blackout": true
+}

@@ -227,9 +227,11 @@ export function CareersBlock() {
             <div className="cr-desc">
               <div className="cr-rt">
                 <p className="t-body cr-copy">
-                  We are a small team solving a massive problem. Nordwell exists because data shouldn&rsquo;t require a dedicated
-                  analyst, a three-day sprint, or six open browser tabs to be useful. We built the thing we always wished existed:
-                  one place where every question about your business gets a real answer, instantly.
+                  <span className="cr-p1">
+                    We are a small team solving a massive problem. Nordwell exists because data shouldn&rsquo;t require a dedicated
+                    analyst, a three-day sprint, or six open browser tabs to be useful. We built the thing we always wished
+                    existed: one place where every question about your business gets a real answer, instantly.
+                  </span>
                   <br />
                   <br />
                   Most companies aren&rsquo;t losing to competitors. They&rsquo;re losing to their own blind spots. Data sitting in
@@ -549,6 +551,13 @@ const CSS = `
 .cr-arrow i {
   height: 2px; width: 2px; overflow: clip; flex: none; position: absolute; border-radius: 36px;
   background-color: var(--token-57c56f68-f082-419e-90db-9531e03d4b87, rgb(161, 161, 161));
+}
+
+/* The reference measured this paragraph with a shorter brand word than ours, so at the
+   one width where the difference tips a line over (456px column) the run is tracked in
+   by a hair to keep the block on its measured height. */
+@media (min-width: 810px) and (max-width: 1199.98px) {
+  .cr-p1 { letter-spacing: -0.01em; }
 }
 
 @media (max-width: 1199.98px) {

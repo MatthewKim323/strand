@@ -1,7 +1,7 @@
 {
  "url": "http://localhost:3799/careers",
  "ref": "reference/site-careers",
- "at": "2026-09-12T13:04:01.477Z",
+ "at": "2026-09-12T13:06:21.955Z",
  "viewports": {
   "desktop": {
    "width": 1440,
@@ -36,7 +36,7 @@
    "width": 1024,
    "docHeight": {
     "ref": 3185,
-    "build": 3208,
+    "build": 3184,
     "ok": false
    },
    "sections": [
@@ -52,17 +52,17 @@
      "name": "Careers",
      "y": 68,
      "ref": 2170,
-     "build": 2194,
-     "delta": 24,
-     "ok": false
+     "build": 2170,
+     "delta": 0,
+     "ok": true
     },
     {
      "name": "Footer Container",
      "y": 2238,
      "ref": 947,
-     "build": null,
-     "delta": null,
-     "ok": null
+     "build": 947,
+     "delta": 0,
+     "ok": true
     }
    ],
    "consoleErrors": [],
