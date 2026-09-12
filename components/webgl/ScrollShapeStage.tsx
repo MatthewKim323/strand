@@ -129,8 +129,13 @@ export function ScrollShapeStage({
 
   return (
     <div
-      className={className(fieldProps)}
-      style={{ position: "relative", width: "100%", height: "100%" }}
+      className={className}
+      style={{
+        position: "relative",
+        width: "100%",
+        height: "100%",
+        ...style,
+      }}
     >
       <PointMorphField
         {...fieldProps}
@@ -185,11 +190,6 @@ export function ScrollShapeStage({
       </AnimatePresence>
     </div>
   )
-}
-
-/** The stage takes no class of its own; this keeps the JSX above readable. */
-function className(_props: unknown): string | undefined {
-  return undefined
 }
 
 export default ScrollShapeStage

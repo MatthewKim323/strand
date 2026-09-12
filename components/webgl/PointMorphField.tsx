@@ -30,8 +30,8 @@ import {
 
 import { createGuardedRenderer, useWebGLGuard } from "./guard"
 import {
-  FEATURE_GRAPHIC_SHAPES,
-  PRODUCT_PANEL_SHAPES,
+  CONVERSATION_PANEL_SHAPES,
+  FEATURE_STAGE_SHAPES,
   type PointShape,
 } from "./point-shapes"
 
@@ -52,9 +52,9 @@ import {
  */
 
 /** Local copy of the 256x256 soft tip sprite the points sample. */
-const TIP_TEXTURE = "/img/img-80a453f3fb.png"
-/** Still image shown when the GPU cannot run the field. */
-const PANEL_FALLBACK_IMAGE = "/img/img-1b6dcbbab2.png"
+const TIP_TEXTURE = "/img/img-065be4afe6.png"
+/** Still image shown when the GPU cannot run the feature stage. */
+const STAGE_FALLBACK_IMAGE = "/img/img-1b6dcbbab2.png"
 
 /** How many datasets the simulation target stacks (position, then velocity). */
 const SIM_DATASETS = 2
@@ -1136,11 +1136,11 @@ export function PointMorphField({
 }
 
 /**
- * The field behind the feature-section graphic. Its `currentShape` is stepped
- * by breakpoint rather than by scroll: 0 on desktop, 1 on tablet, 2 on the
- * widest layout.
+ * The wide field behind the conversation card. Its `currentShape` is stepped
+ * by breakpoint rather than by scroll: 0 at the base layout, 1 and 2 at the
+ * two breakpoints that override it.
  */
-export const FEATURE_GRAPHIC_FIELD: PointMorphFieldProps = {
+export const CONVERSATION_PANEL_FIELD: PointMorphFieldProps = {
   cameraFov: 34,
   cameraPosition: { x: 0, y: 0, z: 2 },
   currentShape: 0,
@@ -1152,7 +1152,7 @@ export const FEATURE_GRAPHIC_FIELD: PointMorphFieldProps = {
   fallbackFit: "cover",
   opacitySpeed: 5.3,
   refresh: false,
-  shapes: FEATURE_GRAPHIC_SHAPES,
+  shapes: CONVERSATION_PANEL_SHAPES,
   simDamping: 7,
   simMaxVelocity: 9.5,
   simSpring: 60,
@@ -1164,10 +1164,11 @@ export const FEATURE_GRAPHIC_FIELD: PointMorphFieldProps = {
 }
 
 /**
- * The field behind the product panel. Its `currentShape` is stepped by scroll
- * progress through the section, which is what `ScrollShapeStage` drives.
+ * The field behind the feature section's card stack. Its `currentShape` is
+ * stepped by scroll progress through the section, which is what
+ * `ScrollShapeStage` drives.
  */
-export const PRODUCT_PANEL_FIELD: PointMorphFieldProps = {
+export const FEATURE_STAGE_FIELD: PointMorphFieldProps = {
   cameraFov: 34,
   cameraPosition: { x: 0, y: 0, z: 1.8 },
   debugMode: false,
@@ -1176,10 +1177,10 @@ export const PRODUCT_PANEL_FIELD: PointMorphFieldProps = {
   dispersionOffset: 0.05,
   fallbackAlt: "",
   fallbackFit: "contain",
-  fallbackImage: PANEL_FALLBACK_IMAGE,
+  fallbackImage: STAGE_FALLBACK_IMAGE,
   opacitySpeed: 5.3,
   refresh: false,
-  shapes: PRODUCT_PANEL_SHAPES,
+  shapes: FEATURE_STAGE_SHAPES,
   simDamping: 7,
   simMaxVelocity: 9.5,
   simSpring: 60,

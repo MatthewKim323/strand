@@ -1,0 +1,3840 @@
+{
+ "generatedFrom": "reference/site modules, spec/page.txt, dom/full.html, motion/framer-appear.json, capture/*/layout.json",
+ "breakpoints": {
+  "desktop": "(min-width: 1200px)",
+  "tablet": "(min-width: 810px) and (max-width: 1199.98px)",
+  "phone": "(max-width: 809.98px)"
+ },
+ "preloader": false,
+ "smoothScroll": {
+  "library": "lenis",
+  "see": "codeComponents[Lenis]"
+ },
+ "mechanismCensus": {
+  "ssr-appear": 16,
+  "scroll-transform-onInView": 0,
+  "scroll-target": 1,
+  "variant-on-scroll": 5,
+  "style-appear": 1,
+  "text-effect": 2,
+  "ticker": 1,
+  "custom-text-ticker": 1,
+  "loop-effect": 1,
+  "repeat-infinity": 3,
+  "count-up": 0
+ },
+ "constants": {
+  "SPRING_A": {
+   "type": "spring",
+   "bounce": 0.2,
+   "duration": 0.4,
+   "delay": 0
+  },
+  "TWEEN_A": {
+   "type": "tween",
+   "duration": 0.4,
+   "ease": [
+    0.12,
+    0.23,
+    0.5,
+    1
+   ],
+   "delay": 0
+  },
+  "TWEEN_A_300": {
+   "type": "tween",
+   "duration": 0.3,
+   "ease": [
+    0.12,
+    0.23,
+    0.5,
+    1
+   ],
+   "delay": 0
+  },
+  "TWEEN_A_200": {
+   "type": "tween",
+   "duration": 0.2,
+   "ease": [
+    0.12,
+    0.23,
+    0.5,
+    1
+   ],
+   "delay": 0
+  },
+  "TWEEN_A_100": {
+   "type": "tween",
+   "duration": 0.1,
+   "ease": [
+    0.12,
+    0.23,
+    0.5,
+    1
+   ],
+   "delay": 0
+  },
+  "TWEEN_B_600": {
+   "type": "tween",
+   "duration": 0.6,
+   "ease": [
+    0.44,
+    0,
+    0.56,
+    1
+   ],
+   "delay": 0
+  },
+  "TWEEN_B_300": {
+   "type": "tween",
+   "duration": 0.3,
+   "ease": [
+    0.44,
+    0,
+    0.56,
+    1
+   ],
+   "delay": 0
+  },
+  "TWEEN_B_200": {
+   "type": "tween",
+   "duration": 0.2,
+   "ease": [
+    0.44,
+    0,
+    0.56,
+    1
+   ],
+   "delay": 0
+  },
+  "TWEEN_B_100": {
+   "type": "tween",
+   "duration": 0.1,
+   "ease": [
+    0.44,
+    0,
+    0.56,
+    1
+   ],
+   "delay": 0
+  },
+  "TWEEN_LINEAR_1S": {
+   "type": "tween",
+   "duration": 1,
+   "ease": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "delay": 0
+  },
+  "DIVIDER_R": {
+   "type": "tween",
+   "duration": 0.4,
+   "ease": [
+    0.12,
+    0.23,
+    0.5,
+    1
+   ],
+   "delay": 0
+  },
+  "DIVIDER_G": {
+   "type": "tween",
+   "duration": 0.4,
+   "ease": [
+    0.12,
+    0.23,
+    0.5,
+    1
+   ],
+   "delay": 0.02
+  },
+  "DIVIDER_B": {
+   "type": "tween",
+   "duration": 0.4,
+   "ease": [
+    0.12,
+    0.23,
+    0.5,
+    1
+   ],
+   "delay": 0.04
+  },
+  "DIVIDER_ROOT": {
+   "type": "tween",
+   "duration": 0.6,
+   "ease": [
+    0.44,
+    0,
+    0.56,
+    1
+   ],
+   "delay": 0
+  },
+  "DOT_0": {
+   "type": "spring",
+   "bounce": 0.2,
+   "duration": 0.4,
+   "delay": 0
+  },
+  "DOT_05": {
+   "type": "spring",
+   "bounce": 0.2,
+   "duration": 0.4,
+   "delay": 0.05
+  },
+  "DOT_1": {
+   "type": "spring",
+   "bounce": 0.2,
+   "duration": 0.4,
+   "delay": 0.1
+  },
+  "SPRING_A_DELAY_02": {
+   "type": "spring",
+   "bounce": 0.2,
+   "duration": 0.4,
+   "delay": 0.2
+  },
+  "FILAMENT_PROP_SPRING": {
+   "duration": 1200,
+   "bounce": 0.2,
+   "note": "ms, internal to both WebGL components"
+  },
+  "FILAMENT_INTRO_SPRING": {
+   "duration": 3000,
+   "bounce": 0,
+   "note": "ms, CTA introProgress only"
+  },
+  "HERO_FILAMENT_SPRING": {
+   "duration": 3000,
+   "bounce": 0.2,
+   "note": "ms, hero graphic springSettings"
+  },
+  "RAIL_PROGRESS_SPRING": {
+   "stiffness": 300,
+   "damping": 30
+  },
+  "ROUTE_ENTER": {
+   "type": "tween",
+   "duration": 0.4,
+   "ease": [
+    0.27,
+    0,
+    0.51,
+    1
+   ],
+   "delay": 0
+  },
+  "CSS_LINK_COLOR": {
+   "type": "css",
+   "property": "color",
+   "duration": 0.15,
+   "ease": [
+    0.12,
+    0.23,
+    0.5,
+    1
+   ],
+   "delay": 0
+  }
+ },
+ "sections": [
+  {
+   "name": "Navigation",
+   "framerName": "Navigation",
+   "selector": ".framer-gu3ill",
+   "fixed": true,
+   "elements": [
+    {
+     "framerName": "Ghost / LG nav link",
+     "element": ".framer-nnJOX (variant B_d5gslqy)",
+     "mechanism": "gesture",
+     "rest": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": 8
+     },
+     "hover": {
+      "backgroundColor": "var(--token-bb9172d5-978a-4462-9d85-50327c10d262, rgb(38, 38, 38))"
+     },
+     "tap": {
+      "backgroundColor": "var(--token-28be4a51-bbd3-4a71-bc59-db9d73dedaf5, rgb(64, 64, 64))"
+     },
+     "transition": "SPRING_A"
+    },
+    {
+     "framerName": "Sign up / Get started",
+     "element": ".framer-ttq5lt-container (variant fjOBCDEe9)",
+     "mechanism": "gesture",
+     "rest": {
+      "backgroundColor": "var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 245))",
+      "borderRadius": 8
+     },
+     "hover": {
+      "backgroundColor": "var(--token-e308c24b-f83a-4af3-938d-f30465c0b60a, rgb(229, 229, 229))"
+     },
+     "tap": {
+      "backgroundColor": "var(--token-3b4d6f03-62c3-4973-a45f-106736577695, rgb(212, 212, 212))"
+     },
+     "transition": "SPRING_A"
+    },
+    {
+     "framerName": "Features dropdown panel",
+     "element": ".framer-x8xxzw",
+     "mechanism": "gesture",
+     "trigger": "onMouseEnter of the trigger, portal mount",
+     "initial": {
+      "opacity": 0,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotate": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotate": 0
+     },
+     "exit": {
+      "opacity": 0,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotate": 0
+     },
+     "transition": "SPRING_A",
+     "placement": {
+      "placement": "bottom",
+      "alignment": "start",
+      "offsetX": 0,
+      "offsetY": 6,
+      "zIndex": 11,
+      "collisionDetectionPadding": 20,
+      "safeArea": true
+     }
+    },
+    {
+     "framerName": "Resources dropdown panel",
+     "element": ".framer-1s7zkgm",
+     "mechanism": "gesture",
+     "trigger": "onMouseEnter of the trigger, portal mount",
+     "initial": {
+      "opacity": 0,
+      "x": 0,
+      "y": -2,
+      "scale": 1,
+      "rotate": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotate": 0
+     },
+     "exit": {
+      "opacity": 0,
+      "x": 0,
+      "y": -2,
+      "scale": 1,
+      "rotate": 0
+     },
+     "transition": "SPRING_A",
+     "placement": {
+      "placement": "bottom",
+      "alignment": "start",
+      "offsetX": -105,
+      "offsetY": 6,
+      "zIndex": 11,
+      "collisionDetectionPadding": 20,
+      "safeArea": true
+     }
+    },
+    {
+     "framerName": "Nav Product Button row",
+     "element": ".framer-zfuWk",
+     "mechanism": "gesture",
+     "rest": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": 8
+     },
+     "hover": {
+      "backgroundColor": "var(--token-d84f0da5-69e7-4c51-a9dd-4ad7ce3301a8, rgb(41, 37, 36))"
+     },
+     "tap": {
+      "backgroundColor": "var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23))"
+     },
+     "transition": "TWEEN_A_100"
+    },
+    {
+     "framerName": "Nav Menu Row Item",
+     "element": ".framer-tG8tW",
+     "mechanism": "gesture",
+     "rest": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": 8
+     },
+     "hover": {
+      "backgroundColor": "var(--token-efb6b80c-ff66-4fd5-b06e-7af1e4433402, rgb(41, 37, 36))"
+     },
+     "tap": {
+      "backgroundColor": "var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23))"
+     },
+     "transition": "TWEEN_A_100"
+    },
+    {
+     "framerName": "Nav Single Button",
+     "element": ".framer-UUE7D",
+     "mechanism": "gesture",
+     "rest": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": 8
+     },
+     "hover": {
+      "backgroundColor": "var(--token-bb9172d5-978a-4462-9d85-50327c10d262, rgb(41, 37, 36))"
+     },
+     "tap": {
+      "backgroundColor": "var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23))"
+     },
+     "transition": "TWEEN_A_100"
+    },
+    {
+     "framerName": "Tablet / Mobile Menu panel",
+     "element": ".framer-1vgcmcr",
+     "mechanism": "gesture",
+     "trigger": "tap the Mobile Button",
+     "from": {
+      "top": "unset",
+      "bottom": 0,
+      "note": "panel top sits at 68px - 100vh"
+     },
+     "animate": {
+      "top": 0,
+      "bottom": "unset"
+     },
+     "rebuild": {
+      "initial": {
+       "y": "-100vh"
+      },
+      "animate": {
+       "y": 0
+      }
+     },
+     "transition": "TWEEN_A_200"
+    },
+    {
+     "framerName": "Mobile navigation item chevron",
+     "element": ".framer-1xd0ijz",
+     "mechanism": "gesture",
+     "rest": {
+      "rotate": 0
+     },
+     "animate": {
+      "rotate": -180
+     },
+     "transition": "SPRING_A"
+    },
+    {
+     "framerName": "Nav Mobile Menu accordion body",
+     "element": ".framer-j79stn / .framer-1q45jrl",
+     "mechanism": "gesture",
+     "rest": {
+      "height": "1px"
+     },
+     "animate": {
+      "height": "min-content"
+     },
+     "transition": "TWEEN_A_200"
+    }
+   ]
+  },
+  {
+   "name": "Hero",
+   "framerName": "Hero",
+   "id": "hero",
+   "selector": ".framer-1w7wuhd",
+   "y": 68,
+   "height": 642,
+   "elements": [
+    {
+     "framerName": "New Container",
+     "appearId": "dp7izi",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotate": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotate": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.4,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0
+     },
+     "element": ".framer-dp7izi"
+    },
+    {
+     "framerName": "h1 The missing connection layer",
+     "appearId": "1jsercw",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 10
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.4,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0.1
+     },
+     "element": ".framer-1jsercw"
+    },
+    {
+     "framerName": "subhead paragraph",
+     "appearId": "1b2lh6y",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 10
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.4,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0.2
+     },
+     "element": ".framer-1b2lh6y"
+    },
+    {
+     "framerName": "CTAs",
+     "appearId": "13ye9y3",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 10
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.4,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0.3
+     },
+     "element": ".framer-13ye9y3"
+    },
+    {
+     "framerName": "New Strip",
+     "element": ".framer-QjZ00 .framer-1hpvfsx",
+     "mechanism": "gesture",
+     "transition": "TWEEN_A_300",
+     "hover": {
+      "dotArrowContainer": {
+       "left": "0px -> 4px",
+       "rebuild": {
+        "x": [
+         0,
+         4
+        ]
+       },
+       "transition": "TWEEN_A_300"
+      },
+      "pill": {
+       "backgroundColor": [
+        "var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23))",
+        "var(--token-d84f0da5-69e7-4c51-a9dd-4ad7ce3301a8, rgb(41, 37, 36))"
+       ],
+       "transition": "SPRING_A"
+      }
+     }
+    },
+    {
+     "framerName": "Dot Arrow",
+     "element": ".framer-AfnJr .framer-17evz1o",
+     "mechanism": "gesture",
+     "note": "the Next variant OZFYLRg1T is authored but never triggered on this page",
+     "dots": [
+      {
+       "name": "Set 2 -3",
+       "class": ".framer-gogk9y",
+       "primary": {
+        "opacity": 0,
+        "left": -10,
+        "top": 4
+       },
+       "next": {
+        "opacity": 1,
+        "left": 6
+       },
+       "transition": "DOT_05"
+      },
+      {
+       "name": "Set 2 -2",
+       "class": ".framer-1xm8b4i",
+       "primary": {
+        "opacity": 0,
+        "left": -10,
+        "top": 10
+       },
+       "next": {
+        "opacity": 1,
+        "left": 6
+       },
+       "transition": "DOT_1"
+      },
+      {
+       "name": "Set 3 -1",
+       "class": ".framer-14d3uid",
+       "primary": {
+        "opacity": 0,
+        "left": -7,
+        "top": 7
+       },
+       "next": {
+        "opacity": 1,
+        "left": 9
+       },
+       "transition": "DOT_0"
+      },
+      {
+       "name": "Set 1 -3",
+       "class": ".framer-1s74r8s",
+       "primary": {
+        "opacity": 1,
+        "left": 6,
+        "top": 4
+       },
+       "next": {
+        "opacity": 0,
+        "left": "unset",
+        "right": -8
+       },
+       "transition": "DOT_05"
+      },
+      {
+       "name": "Set 1 -2",
+       "class": ".framer-mweelx",
+       "primary": {
+        "opacity": 1,
+        "left": 6,
+        "top": 10
+       },
+       "next": {
+        "opacity": 0,
+        "left": 22
+       },
+       "transition": "DOT_1"
+      },
+      {
+       "name": "Set 1 -1",
+       "class": ".framer-1597kz4",
+       "primary": {
+        "opacity": 1,
+        "left": 9,
+        "top": 7
+       },
+       "next": {
+        "opacity": 0,
+        "left": 25
+       },
+       "transition": "DOT_0"
+      }
+     ]
+    },
+    {
+     "framerName": "Primary / XL",
+     "element": ".framer-122b7gn-container",
+     "mechanism": "gesture",
+     "transition": "SPRING_A",
+     "rest": {
+      "backgroundColor": "var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 245))",
+      "borderRadius": 8
+     },
+     "hover": {
+      "backgroundColor": "var(--token-e308c24b-f83a-4af3-938d-f30465c0b60a, rgb(231, 229, 228))"
+     },
+     "tap": {
+      "backgroundColor": "var(--token-3b4d6f03-62c3-4973-a45f-106736577695, rgb(212, 212, 212))"
+     }
+    },
+    {
+     "framerName": "Secondary / XL",
+     "element": ".framer-1yjtgfi-container",
+     "mechanism": "gesture",
+     "transition": "SPRING_A",
+     "rest": {
+      "backgroundColor": "var(--token-49f482bf-7282-4f8a-9849-f4d6c5f1f94c, rgb(38, 38, 38))",
+      "--border-color": "var(--token-d77c8f0f-067e-4a45-ac82-2913bb2aee68, rgb(34, 34, 34))",
+      "borderRadius": 8
+     },
+     "hover": {
+      "backgroundColor": "var(--token-148ab549-faa2-4e43-be76-92abb380b315, rgb(64, 64, 64))",
+      "--border-color": "var(--token-fa695f43-dc97-4fcb-890e-19bee8613bc8, rgb(115, 115, 115))"
+     },
+     "tap": {
+      "backgroundColor": "var(--token-24c110d7-70a2-4d2f-9770-b2e54961bd48, rgb(87, 83, 78))"
+     }
+    },
+    {
+     "framerName": "Main Graphic",
+     "element": ".framer-1t7pn02-container",
+     "mechanism": "code-component",
+     "note": "hero filament WebGL, no motion wrapper, no appear id, no scroll link"
+    }
+   ]
+  },
+  {
+   "name": "Steps",
+   "framerName": "Steps",
+   "selector": ".framer-1ye9oqd",
+   "y": 710,
+   "height": 148,
+   "elements": [
+    {
+     "framerName": "Connect",
+     "appearId": "fkx45e",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 10
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.4,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0.5
+     },
+     "element": ".framer-fkx45e-container"
+    },
+    {
+     "framerName": "Map",
+     "appearId": "1scv7sf",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 10
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.4,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0.6
+     },
+     "element": ".framer-1scv7sf-container"
+    },
+    {
+     "framerName": "Ask",
+     "appearId": "16yp3wb",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 10
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.4,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0.7
+     },
+     "element": ".framer-16yp3wb-container"
+    }
+   ]
+  },
+  {
+   "name": "Partners",
+   "framerName": "Partners",
+   "selector": ".framer-vpqdy2",
+   "y": 858,
+   "height": 220,
+   "elements": [
+    {
+     "framerName": "Ticker Container",
+     "element": ".framer-1qbqem3",
+     "mechanism": "loop",
+     "see": "ticker"
+    },
+    {
+     "framerName": "Chromatic Border",
+     "element": ".framer-17vu96m-container",
+     "nodeId": "Z3Ay9tvwc",
+     "mechanism": "variant-on-scroll",
+     "see": "dividers[0]"
+    }
+   ]
+  },
+  {
+   "name": "Conversation",
+   "framerName": "Conversation",
+   "selector": ".framer-r08n9p",
+   "y": 1078,
+   "height": 749,
+   "elements": [
+    {
+     "framerName": "Ask Chat Anim",
+     "element": ".framer-11tggmb-container",
+     "nodeId": "wwoQ8hlC3",
+     "mechanism": "loop",
+     "variantCycle": [
+      {
+       "from": "dGCFozRyi",
+       "label": "Primary",
+       "waitMs": 2000,
+       "to": "yebqQkg1K"
+      },
+      {
+       "from": "yebqQkg1K",
+       "label": "Chat start",
+       "waitMs": 2000,
+       "to": "CtVEKtlJu"
+      },
+      {
+       "from": "CtVEKtlJu",
+       "label": "Thinking",
+       "waitMs": 4000,
+       "to": "eg6XjUQLY"
+      },
+      {
+       "from": "eg6XjUQLY",
+       "label": "Results",
+       "waitMs": 3500,
+       "to": "CryN59OAs"
+      },
+      {
+       "from": "CryN59OAs",
+       "label": "Loop Reset",
+       "waitMs": 500,
+       "to": "dGCFozRyi"
+      }
+     ],
+     "periodMs": 12000,
+     "pausesWhen": [
+      "document.hidden",
+      "element not intersecting"
+     ],
+     "contexts": {
+      "root": "SPRING_A",
+      "chatContainer": "TWEEN_A_300",
+      "placeholderAndMessage": {
+       "type": "tween",
+       "duration": 0.2,
+       "ease": [
+        0.12,
+        0.23,
+        0.5,
+        1
+       ],
+       "delay": 0.3
+      },
+      "thinkingPill": {
+       "base": {
+        "type": "tween",
+        "duration": 0.4,
+        "ease": [
+         0.12,
+         0.23,
+         0.5,
+         1
+        ],
+        "delay": 0.3
+       },
+       "whileThinking": {
+        "type": "tween",
+        "duration": 0.4,
+        "ease": [
+         0.12,
+         0.23,
+         0.5,
+         1
+        ],
+        "delay": 0.2
+       },
+       "whileResults": "TWEEN_A_300"
+      },
+      "resultsPill": {
+       "base": {
+        "type": "tween",
+        "duration": 0.4,
+        "ease": [
+         0.12,
+         0.23,
+         0.5,
+         1
+        ],
+        "delay": 0
+       },
+       "whileResults": "TWEEN_A_300"
+      },
+      "quickActionBar1": {
+       "base": "SPRING_A",
+       "whileLoopReset": "SPRING_A_DELAY_02"
+      },
+      "resultsContainer": {
+       "base": "SPRING_A",
+       "whileThinking": "SPRING_A_DELAY_02"
+      }
+     },
+     "variantValues": {
+      ".framer-1hnulot": {
+       "dGCFozRyi": {
+        "opacity": 1
+       },
+       "yebqQkg1K": {
+        "opacity": 1
+       },
+       "CtVEKtlJu": {
+        "opacity": 0
+       },
+       "eg6XjUQLY": {
+        "opacity": 0
+       },
+       "CryN59OAs": {
+        "opacity": 1
+       },
+       "MPeNLgoLm": {
+        "opacity": 1
+       }
+      },
+      ".framer-1q7wox5": {
+       "rest": {
+        "backgroundColor": "rgba(38, 38, 38, 0)",
+        "borderRadius": 12
+       },
+       "yebqQkg1K": {
+        "backgroundColor": "var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23))"
+       },
+       "CtVEKtlJu": {
+        "backgroundColor": "rgb(38, 38, 38)"
+       }
+      },
+      ".framer-1cbnqjk-container": {
+       "rest": {
+        "opacity": 0
+       },
+       "CtVEKtlJu": {
+        "opacity": 1
+       }
+      },
+      ".framer-g8q9cy-container": {
+       "rest": {
+        "opacity": 0
+       },
+       "eg6XjUQLY": {
+        "opacity": 1
+       }
+      },
+      ".framer-t1zk3n": {
+       "dGCFozRyi": {
+        "opacity": 1
+       },
+       "yebqQkg1K": {
+        "opacity": 1
+       },
+       "CtVEKtlJu": {
+        "opacity": 0
+       },
+       "eg6XjUQLY": {
+        "opacity": 0
+       },
+       "CryN59OAs": {
+        "opacity": 1
+       },
+       "MPeNLgoLm": {
+        "opacity": 1
+       }
+      },
+      ".framer-vams9e": {
+       "CtVEKtlJu": {
+        "opacity": 0
+       },
+       "eg6XjUQLY": {
+        "opacity": 1
+       },
+       "CryN59OAs": {
+        "opacity": 0
+       }
+      },
+      ".framer-4ig9li": {
+       "rest": {
+        "opacity": 0
+       },
+       "CtVEKtlJu": {
+        "opacity": 1
+       },
+       "eg6XjUQLY": {
+        "opacity": 1
+       }
+      },
+      ".framer-1vwlie1-container": {
+       "rest": {
+        "opacity": 0
+       },
+       "CtVEKtlJu": {
+        "opacity": 1
+       },
+       "eg6XjUQLY": {
+        "opacity": 1
+       }
+      }
+     }
+    },
+    {
+     "framerName": "Ask Chat Anim parallax wrapper",
+     "element": ".framer-1oh8dd5",
+     "mechanism": "scroll-transform",
+     "trigger": "global scrollY",
+     "props": {
+      "__framer__speed": 95,
+      "__framer__offset": 0,
+      "__framer__adjustPosition": false,
+      "__framer__parallaxTransformEnabled": true
+     },
+     "formula": "y = 0.05 * scrollY",
+     "spring": null
+    },
+    {
+     "framerName": "Message text effect",
+     "element": ".framer-642k88",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "textEffect": true,
+     "tokenization": "character",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotate": 0
+     },
+     "animate": {
+      "opacity": 1
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.01,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0.025
+     },
+     "startDelay": 0,
+     "note": "delay is the per-token stagger"
+    },
+    {
+     "framerName": "Placeholder text effect",
+     "element": ".framer-1gf4w1f",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "textEffect": true,
+     "tokenization": "character",
+     "initial": {
+      "opacity": 0.001,
+      "y": 2,
+      "filter": "blur(3px)",
+      "scale": 1,
+      "rotate": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "y": 0,
+      "filter": "blur(0px)"
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.1,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0.025
+     },
+     "startDelay": 0.1,
+     "note": "applied only under the MPeNLgoLm (Standalone) variant, which the Conversation instance never enters"
+    },
+    {
+     "framerName": "Quick Action Analyze",
+     "appearId": "n00lzi",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 12
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0.1
+     },
+     "element": ".framer-n00lzi-container",
+     "note": "payload written by the Standalone instances; on the Conversation instance there is no entrance animation"
+    },
+    {
+     "framerName": "Quick Action Compare",
+     "appearId": "17bqj0",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 12
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0.2
+     },
+     "element": ".framer-17bqj0-container",
+     "note": "payload written by the Standalone instances"
+    },
+    {
+     "framerName": "Quick Action Monitor",
+     "appearId": "10q9li8",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 12
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0.3
+     },
+     "element": ".framer-10q9li8-container",
+     "note": "payload written by the Standalone instances"
+    },
+    {
+     "framerName": "Quick Action Report",
+     "appearId": "1ysxh9n",
+     "mechanism": "ssr-appear",
+     "element": ".framer-1ysxh9n-container",
+     "initial": null,
+     "animate": null,
+     "transition": null,
+     "note": "payload is {default: null, uuxm6n: null}: declared but never animated"
+    },
+    {
+     "framerName": "Quick Action Export CSV",
+     "appearId": "3kyhfb",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount of Quick Action Bar 2",
+     "element": ".framer-3kyhfb-container",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 12
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0
+     },
+     "note": "no SSR payload entry, runs as an ordinary mount animation"
+    },
+    {
+     "framerName": "Quick Action Share with team",
+     "appearId": "7k78ji",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount of Quick Action Bar 2",
+     "element": ".framer-7k78ji-container",
+     "initial": {
+      "opacity": 0.001,
+      "x": 0,
+      "y": 12
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.12,
+       0.23,
+       0.5,
+       1
+      ],
+      "delay": 0.1
+     },
+     "note": "no SSR payload entry"
+    },
+    {
+     "framerName": "Result row Meridian Corp",
+     "appearId": "bjkrkd",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount (Results variant)",
+     "element": ".framer-bjkrkd-container",
+     "initial": {
+      "opacity": 0.001,
+      "x": 20,
+      "y": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.44,
+       0,
+       0.56,
+       1
+      ],
+      "delay": 0.1
+     }
+    },
+    {
+     "framerName": "Result divider 1",
+     "appearId": "15yxkhe",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount (Results variant)",
+     "element": ".framer-15yxkhe",
+     "initial": {
+      "opacity": 0.001,
+      "x": 20,
+      "y": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.44,
+       0,
+       0.56,
+       1
+      ],
+      "delay": 0.15
+     }
+    },
+    {
+     "framerName": "Result row Apex Systems",
+     "appearId": "1dde39s",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount (Results variant)",
+     "element": ".framer-1dde39s-container",
+     "initial": {
+      "opacity": 0.001,
+      "x": 20,
+      "y": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.44,
+       0,
+       0.56,
+       1
+      ],
+      "delay": 0.2
+     }
+    },
+    {
+     "framerName": "Result divider 2",
+     "appearId": "540yzz",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount (Results variant)",
+     "element": ".framer-540yzz",
+     "initial": {
+      "opacity": 0.001,
+      "x": 20,
+      "y": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.44,
+       0,
+       0.56,
+       1
+      ],
+      "delay": 0.25
+     }
+    },
+    {
+     "framerName": "Result row Acme Corp",
+     "appearId": "163fnxe",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount (Results variant)",
+     "element": ".framer-163fnxe-container",
+     "initial": {
+      "opacity": 0.001,
+      "x": 20,
+      "y": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.44,
+       0,
+       0.56,
+       1
+      ],
+      "delay": 0.3
+     }
+    },
+    {
+     "framerName": "TextTransitionV2 status line",
+     "element": ".framer-1vwlie1-container",
+     "mechanism": "loop",
+     "see": "loops[3]"
+    }
+   ]
+  },
+  {
+   "name": "Features",
+   "framerName": "Features",
+   "id": "features",
+   "selector": ".framer-e37e89",
+   "y": 1827,
+   "height": 2700,
+   "elements": [
+    {
+     "framerName": "Status card Scaleforce",
+     "appearId": "1ctfs4x",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 100,
+      "y": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.44,
+       0,
+       0.56,
+       1
+      ],
+      "delay": 0
+     },
+     "element": ".framer-1ctfs4x-container",
+     "note": "mounts with the AnimatePresence slot child, replays on every swap back"
+    },
+    {
+     "framerName": "Status card Strive",
+     "appearId": "zatbru",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 100,
+      "y": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.44,
+       0,
+       0.56,
+       1
+      ],
+      "delay": 0.05
+     },
+     "element": ".framer-zatbru-container"
+    },
+    {
+     "framerName": "Status card PostgridDB",
+     "appearId": "17bslm8",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 100,
+      "y": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.44,
+       0,
+       0.56,
+       1
+      ],
+      "delay": 0.1
+     },
+     "element": ".framer-17bslm8-container"
+    },
+    {
+     "framerName": "Status card HotSpot",
+     "appearId": "18u74t1",
+     "mechanism": "ssr-appear",
+     "trigger": "onMount",
+     "initial": {
+      "opacity": 0.001,
+      "x": 100,
+      "y": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0
+     },
+     "transition": {
+      "type": "tween",
+      "duration": 0.2,
+      "ease": [
+       0.44,
+       0,
+       0.56,
+       1
+      ],
+      "delay": 0.15
+     },
+     "element": ".framer-18u74t1-container"
+    },
+    {
+     "framerName": "Progress",
+     "element": ".framer-i0hju5-container",
+     "nodeId": "gaH8OTWcR",
+     "mechanism": "scroll-transform",
+     "trigger": "useScroll({target: '#products-scroll', offset: ['start start','end start']})",
+     "spring": "RAIL_PROGRESS_SPRING",
+     "outputs": {
+      "y": {
+       "inputRange": [
+        0,
+        1
+       ],
+       "outputRange": [
+        "50%",
+        "-50%"
+       ]
+      }
+     },
+     "props": {
+      "sectionName": "products-scroll",
+      "sections": 3,
+      "numLines": 8,
+      "lineGap": 10,
+      "lineWeight": 1,
+      "primaryColor": "rgb(250, 250, 250)",
+      "secondaryColor": "rgb(115, 115, 115)",
+      "fade": 0.05,
+      "font": {
+       "fontFamily": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+       "fontSize": "12px",
+       "fontWeight": 400,
+       "lineHeight": "31px",
+       "letterSpacing": "0em",
+       "textAlign": "left"
+      }
+     },
+     "mask": "linear-gradient(0deg, #0000, #000 10%, #000 90%, #0000)"
+    },
+    {
+     "framerName": "Rail Cart shape swapper",
+     "element": ".framer-1apm31s-container",
+     "nodeId": "Dr7s_qOFh",
+     "mechanism": "scroll-transform",
+     "trigger": "useScroll({target: '#products-swap-scroll', offset: ['start center','end center']})",
+     "spring": null,
+     "index": "clamp(floor(progress * 3), 0, 2)",
+     "presence": {
+      "mode": "wait",
+      "initial": false,
+      "initialState": {
+       "opacity": 0,
+       "scale": 0.95,
+       "filter": "blur(8px)"
+      },
+      "animate": {
+       "opacity": 1,
+       "scale": 1,
+       "filter": "blur(0px)",
+       "transition": {
+        "duration": 0.1,
+        "ease": "easeOut",
+        "filter": {
+         "duration": 0.3,
+         "ease": "easeOut"
+        },
+        "scale": {
+         "duration": 0.3,
+         "ease": "easeOut"
+        }
+       }
+      },
+      "exit": {
+       "opacity": 0,
+       "scale": 0.95,
+       "filter": "blur(8px)",
+       "transition": {
+        "duration": 0.15,
+        "ease": "easeIn"
+       }
+      }
+     },
+     "visibilityGate": "triangle(clamp(1/6, 5/6, progress), 3) * 0.5 + 0.3 > 0",
+     "slotChildren": [
+      ".framer-iyty47-container (Cortex Stats, gap 8)",
+      ".framer-egpkas-container (Ask Chat Anim, variant MPeNLgoLm)",
+      ".framer-ssv5r4-container"
+     ]
+    },
+    {
+     "framerName": "Status ping (Scaleforce)",
+     "element": ".framer-1f4g78s-container",
+     "mechanism": "loop",
+     "see": "loops[0]"
+    },
+    {
+     "framerName": "Status ping (Strive)",
+     "element": ".framer-1f4g78s-container",
+     "mechanism": "loop",
+     "see": "loops[1]"
+    },
+    {
+     "framerName": "Circular Button With Text x3",
+     "element": ".framer-2f6409-container",
+     "mechanism": "gesture",
+     "see": "components.CircularButtonWithText"
+    },
+    {
+     "framerName": "Mobile Carousel",
+     "element": ".framer-jbnu5j-container",
+     "mechanism": "gesture",
+     "phoneOnly": true,
+     "variants": {
+      "eLMkAwc3x": "Cortex",
+      "zHyFerOUH": "Ask",
+      "E0V3DdRup": "Pulse"
+     },
+     "transition": "SPRING_A",
+     "note": "tab taps cross-fade the slot cards and set the shader currentShape 0 / 1 / 2"
+    },
+    {
+     "framerName": "Tab Button",
+     "element": ".framer-V3qmg",
+     "mechanism": "gesture",
+     "phoneOnly": true,
+     "transition": "SPRING_A",
+     "rest": {
+      "backgroundColor": "var(--token-7f40e4a1-2b83-444e-8765-465c7d3596ab, rgb(17, 15, 13))",
+      "--extracted-r6o4lv": "var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(120, 113, 108))"
+     },
+     "hover": {
+      "backgroundColor": "var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(18, 16, 14))",
+      "--extracted-r6o4lv": "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))"
+     },
+     "tap": {
+      "backgroundColor": "var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23))",
+      "--extracted-r6o4lv": "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))"
+     },
+     "selected": {
+      "--border-color": "var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60))",
+      "--extracted-r6o4lv": "var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Integrations",
+   "framerName": "Integrations",
+   "id": "integrations",
+   "selector": ".framer-65i7ss",
+   "y": 4527,
+   "height": 723,
+   "elements": [
+    {
+     "framerName": "Chromatic Border",
+     "element": ".framer-ixio0v-container",
+     "nodeId": "j9EHuYhM7",
+     "mechanism": "variant-on-scroll",
+     "see": "dividers[1]"
+    },
+    {
+     "framerName": "Visual",
+     "element": ".framer-n9voe3",
+     "mechanism": "variant-on-scroll",
+     "effect": "styleAppear",
+     "trigger": "in view, amount 0.5, once",
+     "threshold": 0.5,
+     "animateOnce": true,
+     "initial": {
+      "opacity": 0,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotate": 0
+     },
+     "animate": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotate": 0
+     },
+     "exit": {
+      "opacity": 0
+     },
+     "transition": "SPRING_A"
+    },
+    {
+     "framerName": "Visual inner",
+     "element": ".framer-6okzgi-container",
+     "nodeId": "FTLhHUANj",
+     "mechanism": "scroll-target",
+     "trigger": "onScrollTarget",
+     "markerRef": "#integrations (.framer-65i7ss)",
+     "viewportThreshold": 1,
+     "from": {
+      "opacity": 1,
+      "x": 120,
+      "y": 0,
+      "scale": 1,
+      "rotate": 0,
+      "rotateX": 0,
+      "rotateY": 0,
+      "skewX": 0,
+      "skewY": 0
+     },
+     "to": {
+      "opacity": 1,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotate": 0,
+      "rotateX": 0,
+      "rotateY": 0,
+      "skewX": 0,
+      "skewY": 0
+     },
+     "spring": null,
+     "inputRangeFormula": "[max(offsetTopToDocument(marker) - 1 - 1 * viewportHeight, 0), that + marker.clientHeight]",
+     "measuredInputRanges": {
+      "desktop@1440x900": [
+       3626,
+       4349
+      ],
+      "tablet@1024x900": [
+       3544,
+       4098
+      ],
+      "tablet@810x900": [
+       3574,
+       4128
+      ],
+      "phone@390x844": [
+       2208,
+       2886
+      ]
+     },
+     "outputRange": [
+      120,
+      0
+     ],
+     "clamped": true
+    },
+    {
+     "framerName": "Rolling connected sources",
+     "element": ".framer-gh3cms-container",
+     "nodeId": "C3dBC5s2a",
+     "mechanism": "loop",
+     "props": {
+      "elements": 10,
+      "interval": 3,
+      "intervalPhone": 4,
+      "entries": [
+       "ThreadBase",
+       "Pipecloud",
+       "Chatdock",
+       "VaultDB",
+       "Stride"
+      ]
+     },
+     "initial": {
+      "opacity": 0,
+      "x": "-100%"
+     },
+     "animate": {
+      "opacity": 1,
+      "x": "0%"
+     },
+     "transition": "TWEEN_A",
+     "mask": "linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 22.07207207207207%) add"
+    },
+    {
+     "framerName": "View integrations",
+     "element": ".framer-1419ixl-container",
+     "nodeId": "VnQCbEVki",
+     "mechanism": "gesture",
+     "see": "components.CircularButtonWithText"
+    },
+    {
+     "framerName": "Light / XS circular button",
+     "element": ".framer-4279vg > a",
+     "mechanism": "gesture",
+     "variant": "Ds9QQ9qkS",
+     "see": "components.CircularButton.Light"
+    }
+   ]
+  },
+  {
+   "name": "Testimonials",
+   "framerName": "Testimonials",
+   "selector": ".framer-141n56s",
+   "y": 5250,
+   "height": 601,
+   "elements": [
+    {
+     "framerName": "Testimonials carousel",
+     "element": ".framer-1rn4xk5-container",
+     "nodeId": "DWLDVOAaC",
+     "mechanism": "gesture",
+     "autoplay": false,
+     "transition": "SPRING_A",
+     "variants": {
+      "desktop": [
+       "aaMV3bLTJ",
+       "VxeHPWB1_",
+       "nt3dh5mN0"
+      ],
+      "tablet": [
+       "tQKzW9LW7",
+       "VQiG8wA3C",
+       "wIynUAwwz"
+      ],
+      "phone": [
+       "CGn4Kh9I9",
+       "gULx4D9aI",
+       "Sgk7SCtVm"
+      ]
+     },
+     "wraps": false
+    },
+    {
+     "framerName": "Previous",
+     "element": ".framer-187vqs7-container",
+     "mechanism": "gesture",
+     "variantBySlide": [
+      "L0ze52gis (Disabled / SM)",
+      "XSi82891F (Light / SM)",
+      "XSi82891F (Light / SM)"
+     ],
+     "rest": {
+      "backgroundColor": "var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38))",
+      "borderRadius": 52
+     },
+     "hover": {
+      "backgroundColor": "var(--token-494a45c3-2553-4e41-8258-c9545bf7163f, rgb(64, 64, 64))"
+     },
+     "tap": {
+      "backgroundColor": "var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(82, 82, 82))"
+     },
+     "disabled": {
+      "backgroundColor": "var(--token-5f5af133-2080-4ffb-a775-1ed7714f667c, rgb(68, 64, 59))",
+      "cursor": "not-allowed",
+      "hover": null,
+      "tap": null
+     },
+     "transition": "SPRING_A"
+    },
+    {
+     "framerName": "Next",
+     "element": ".framer-1y81spb-container",
+     "mechanism": "gesture",
+     "variantBySlide": [
+      "XSi82891F (Light / SM)",
+      "XSi82891F (Light / SM)",
+      "L0ze52gis (Disabled / SM)"
+     ],
+     "rest": {
+      "backgroundColor": "var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38))",
+      "borderRadius": 52
+     },
+     "hover": {
+      "backgroundColor": "var(--token-494a45c3-2553-4e41-8258-c9545bf7163f, rgb(64, 64, 64))"
+     },
+     "tap": {
+      "backgroundColor": "var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(82, 82, 82))"
+     },
+     "transition": "SPRING_A"
+    },
+    {
+     "framerName": "Chromatic Border",
+     "element": ".framer-1bxf2yj-container",
+     "nodeId": "MSwOXYRCw",
+     "mechanism": "variant-on-scroll",
+     "see": "dividers[2]"
+    }
+   ]
+  },
+  {
+   "name": "Statistics",
+   "framerName": "Statistics",
+   "id": "statistics",
+   "selector": ".framer-1ycn8bz",
+   "y": 5851,
+   "height": 489,
+   "elements": [
+    {
+     "framerName": "Stat1 Animation",
+     "element": ".framer-l2pcl2-container",
+     "nodeId": "HHE4hHMlq",
+     "mechanism": "loop",
+     "type": "lottie",
+     "props": {
+      "loop": true,
+      "playing": true,
+      "speed": 1,
+      "isForwardsDirection": true,
+      "pauseOnCanvas": true,
+      "poster": "Auto",
+      "posterProgress": 0,
+      "progress": 0,
+      "srcType": "Upload",
+      "srcFile": "https://framerusercontent.com/assets/M4cE4HJq5O8swp96M5SKA1B0PrE.json"
+     }
+    },
+    {
+     "framerName": "Stat2 Animation",
+     "element": ".framer-q5w0ul-container",
+     "nodeId": "O1DXwaGLK",
+     "mechanism": "loop",
+     "type": "lottie",
+     "props": {
+      "loop": true,
+      "playing": true,
+      "speed": 1,
+      "progress": 0,
+      "srcFile": "https://framerusercontent.com/assets/BHL4ecdDXKXyhms78jiNJSHlnQ.json"
+     }
+    },
+    {
+     "framerName": "Stat3 Animation",
+     "element": ".framer-vb4ntv-container",
+     "nodeId": "bhVtGybhb",
+     "mechanism": "loop",
+     "type": "lottie",
+     "props": {
+      "loop": true,
+      "playing": true,
+      "speed": 1,
+      "progress": 0,
+      "srcFile": "https://framerusercontent.com/assets/IvyiEpo8Z4taU1v3jR2F0qpXI4.json"
+     }
+    },
+    {
+     "framerName": "Stat4 Animation",
+     "element": ".framer-13nl88v-container",
+     "nodeId": "kM6FK35En",
+     "mechanism": "loop",
+     "type": "lottie",
+     "props": {
+      "loop": true,
+      "playing": true,
+      "speed": 1,
+      "progress": 62,
+      "srcFile": "https://framerusercontent.com/assets/T6HSiRz7cqn3Bq6lGf7dXehXdOg.json"
+     }
+    },
+    {
+     "framerName": "Stat Number x4",
+     "element": ".framer-1woxgo9 / .framer-jso7b9 / .framer-qhodmf / .framer-1xcn1by",
+     "mechanism": "count-up",
+     "values": [
+      "16x",
+      "47%",
+      "80%",
+      "4.2hrs"
+     ],
+     "animated": false,
+     "note": "static text. There is no count-up component anywhere on the page."
+    },
+    {
+     "framerName": "Chromatic Border",
+     "element": ".framer-qwko6a-container",
+     "nodeId": "YPSDP79B7",
+     "mechanism": "variant-on-scroll",
+     "see": "dividers[3]"
+    }
+   ]
+  },
+  {
+   "name": "FAQ",
+   "framerName": "FAQ",
+   "selector": ".framer-ao75xt",
+   "y": 6340,
+   "height": 512,
+   "elements": [
+    {
+     "framerName": "FAQ container",
+     "element": ".framer-uLM4K .framer-19006hw",
+     "mechanism": "gesture",
+     "transition": "SPRING_A",
+     "variants": {
+      "d2FCdyBSB": "Closed (default)",
+      "vkm7U1_y9": "First",
+      "DxMFLM9KM": "Second",
+      "iZC_WHK0o": "Third",
+      "Dp7DHVUdL": "Fourth"
+     },
+     "singleOpen": true,
+     "allCanBeClosed": true,
+     "dimOthers": {
+      "HTB2qJsvu": [
+       "var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))",
+       "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))"
+      ]
+     }
+    },
+    {
+     "framerName": "FAQ Question",
+     "element": ".framer-Bi957 .framer-18wxj0v",
+     "mechanism": "gesture",
+     "transition": "SPRING_A",
+     "enabledGestures": {
+      "eJSmG59zF": {
+       "hover": true
+      }
+     },
+     "open": {
+      "height": "min-content",
+      "alignItems": "center",
+      "containerGap": "0px",
+      "answerOpacity": 1,
+      "questionStackPadding": "12px 0px 12px 0px",
+      "dotArrowVariant": "oMMfsF998 (Down)"
+     },
+     "closed": {
+      "height": "88px",
+      "alignItems": "flex-start",
+      "containerGap": "22px",
+      "answerOpacity": 0,
+      "questionStackPadding": "12px 0px 12px 0px",
+      "dotArrowVariant": "c2dBlHkN3 (Neutral)"
+     },
+     "hover": {
+      "questionStackPadding": "12px 0px 12px 12px"
+     }
+    },
+    {
+     "framerName": "Vertical Dot Arrow",
+     "element": ".framer-EOMkT .framer-1lhq47p",
+     "mechanism": "gesture",
+     "transition": "SPRING_A",
+     "dots": {
+      "neutral": {
+       ".framer-1sbrqk7": {
+        "top": "50%"
+       },
+       ".framer-ozn1zi": {
+        "top": "50%"
+       },
+       ".framer-k9j781": {
+        "top": "50%"
+       }
+      },
+      "down": {
+       ".framer-1sbrqk7": {
+        "bottom": "13px",
+        "top": "unset"
+       },
+       ".framer-ozn1zi": {
+        "top": "63%"
+       },
+       ".framer-k9j781": {
+        "top": "56%"
+       }
+      },
+      "up": {
+       ".framer-1sbrqk7": {
+        "top": "13px"
+       },
+       ".framer-ozn1zi": {
+        "top": "38%"
+       },
+       ".framer-k9j781": {
+        "top": "44%"
+       }
+      }
+     },
+     "note": "dots 1 and 5 (.framer-x6wdaz at left 7px, .framer-v7vv1u at left 23px) never move. The Up variant is unused on this page."
+    }
+   ]
+  },
+  {
+   "name": "Footer Container",
+   "framerName": "Footer Container",
+   "selector": ".framer-vjqi89",
+   "y": 6852,
+   "height": 1618,
+   "elements": [
+    {
+     "framerName": "CTA filament wrapper",
+     "element": ".framer-1w558nd-container",
+     "nodeId": "MZnzrpbQb",
+     "mechanism": "variant-on-scroll",
+     "visibleVariantId": "qqtzmr701",
+     "obscuredVariantId": "S9BU72mBi",
+     "threshold": 0.5,
+     "animateOnce": false,
+     "trigger": "in view, amount 0.5, repeats",
+     "changes": {
+      "introProgress": [
+       0,
+       1.1
+      ]
+     },
+     "transition": null,
+     "spring": "FILAMENT_INTRO_SPRING",
+     "note": "introProgress is a plain React number prop, swapped instantly by the variant. The easing is a useSpring({duration:3000, bounce:0}) inside the code component, NOT the component's SPRING_A."
+    },
+    {
+     "framerName": "Primary / XL Get started",
+     "element": ".framer-cq6zkv-container",
+     "mechanism": "gesture",
+     "see": "components.CTAButton.Primary"
+    },
+    {
+     "framerName": "Footer column links",
+     "element": ".framer-styles-preset-1ybqtif a",
+     "mechanism": "gesture",
+     "css": true,
+     "rest": {
+      "color": "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, #a8a29e)"
+     },
+     "hover": {
+      "color": "var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, #fafaf9)"
+     },
+     "transition": "CSS_LINK_COLOR"
+    },
+    {
+     "framerName": "Terms / Privacy links",
+     "element": ".framer-styles-preset-656phd a",
+     "mechanism": "gesture",
+     "css": true,
+     "rest": {
+      "color": "inherit"
+     },
+     "hover": {
+      "color": "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, #a1a1a1)",
+      "textDecoration": "underline"
+     },
+     "transition": "CSS_LINK_COLOR"
+    },
+    {
+     "framerName": "External Link",
+     "element": ".framer-TbQBv .framer-19ohtj",
+     "mechanism": "gesture",
+     "transition": "SPRING_A",
+     "trigger": "manual setVariant on onMouseEnter / onMouseLeave",
+     "rest": {
+      "label": "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))",
+      "arrowDefault": {
+       "left": 0,
+       "right": 0,
+       "top": 0
+      },
+      "arrowHovered": {
+       "bottom": -16,
+       "left": -16
+      }
+     },
+     "hover": {
+      "label": "var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))",
+      "arrowDefault": {
+       "bottom": 16,
+       "left": 16,
+       "right": -16,
+       "top": "unset"
+      },
+      "arrowHovered": {
+       "left": 0,
+       "right": 0,
+       "top": 0,
+       "tint": "var(--token-68852133-66bc-42bc-90a0-dbfa7557286d, rgb(250, 250, 249))"
+      }
+     },
+     "rebuild": {
+      "arrowDefault": {
+       "rest": {
+        "x": 0,
+        "y": 0
+       },
+       "hover": {
+        "x": 16,
+        "y": -16
+       }
+      },
+      "arrowHovered": {
+       "rest": {
+        "x": -16,
+        "y": 16
+       },
+       "hover": {
+        "x": 0,
+        "y": 0
+       }
+      }
+     }
+    },
+    {
+     "framerName": "Uptime status ping",
+     "element": ".framer-ic5mpm-container",
+     "nodeId": "vk3ZIEgV5",
+     "mechanism": "loop",
+     "see": "loops[2]"
+    },
+    {
+     "framerName": "Footer Newsletter",
+     "element": ".framer-e9zZI .framer-19cj0jd",
+     "mechanism": "gesture",
+     "transition": "SPRING_A",
+     "variants": {
+      "EJmh9KJfM": "Primary",
+      "xrhwSR_Qt": "Focus",
+      "WX0LAmfO7": "Invalid"
+     },
+     "rest": {
+      "backgroundColor": "var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(18, 16, 14))",
+      "borderRadius": 12,
+      "--border-color": "var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38))"
+     },
+     "hover": {
+      "backgroundColor": "var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23))"
+     },
+     "focus": {
+      "--border-color": "var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60))"
+     },
+     "invalid": {
+      "--border-color": "var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77))"
+     },
+     "note": "hover applies in all three states and changes background only"
+    },
+    {
+     "framerName": "Form Submit Button spinner",
+     "element": ".framer-1xef08e",
+     "mechanism": "loop",
+     "see": "loops[6]"
+    }
+   ]
+  }
+ ],
+ "dividers": [
+  {
+   "framerName": "Partners divider",
+   "element": ".framer-17vu96m-container",
+   "nodeId": "Z3Ay9tvwc",
+   "section": "Partners",
+   "mechanism": "variant-on-scroll",
+   "component": "Chromatic Border (framer-kEcQz)",
+   "visibleVariantId": "oPm9OVnZ7",
+   "obscuredVariantId": "eaoQNLtEk",
+   "threshold": 1,
+   "animateOnce": true,
+   "trigger": "in view, amount 1, once",
+   "rootTransition": "DIVIDER_ROOT",
+   "bars": [
+    {
+     "half": "left",
+     "channel": "b",
+     "class": ".framer-u6zm30",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 0, 255)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 0, 36)"
+     },
+     "transition": "DIVIDER_B",
+     "anchor": "right:0",
+     "mixBlendMode": null
+    },
+    {
+     "half": "left",
+     "channel": "g",
+     "class": ".framer-1s7vawm",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 255, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 37, 0)"
+     },
+     "transition": "DIVIDER_G",
+     "anchor": "right:0",
+     "mixBlendMode": "screen"
+    },
+    {
+     "half": "left",
+     "channel": "r",
+     "class": ".framer-1ndw0of",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(255, 0, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(41, 0, 0)"
+     },
+     "transition": "DIVIDER_R",
+     "anchor": "right:0",
+     "mixBlendMode": "screen"
+    },
+    {
+     "half": "right",
+     "channel": "b",
+     "class": ".framer-ddlp53",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 0, 255)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 0, 36)"
+     },
+     "transition": "DIVIDER_R",
+     "anchor": "left:0",
+     "mixBlendMode": null
+    },
+    {
+     "half": "right",
+     "channel": "g",
+     "class": ".framer-1is7c6b",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 255, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 37, 0)"
+     },
+     "transition": "DIVIDER_G",
+     "anchor": "left:0",
+     "mixBlendMode": "screen"
+    },
+    {
+     "half": "right",
+     "channel": "r",
+     "class": ".framer-1j63n4i",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(255, 0, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(41, 0, 0)"
+     },
+     "transition": "DIVIDER_B",
+     "anchor": "left:0",
+     "mixBlendMode": "screen"
+    }
+   ]
+  },
+  {
+   "framerName": "Integrations divider",
+   "element": ".framer-ixio0v-container",
+   "nodeId": "j9EHuYhM7",
+   "section": "Integrations",
+   "mechanism": "variant-on-scroll",
+   "component": "Chromatic Border (framer-kEcQz)",
+   "visibleVariantId": "oPm9OVnZ7",
+   "obscuredVariantId": "eaoQNLtEk",
+   "threshold": 1,
+   "animateOnce": true,
+   "trigger": "in view, amount 1, once",
+   "rootTransition": "DIVIDER_ROOT",
+   "bars": [
+    {
+     "half": "left",
+     "channel": "b",
+     "class": ".framer-u6zm30",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 0, 255)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 0, 36)"
+     },
+     "transition": "DIVIDER_B",
+     "anchor": "right:0",
+     "mixBlendMode": null
+    },
+    {
+     "half": "left",
+     "channel": "g",
+     "class": ".framer-1s7vawm",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 255, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 37, 0)"
+     },
+     "transition": "DIVIDER_G",
+     "anchor": "right:0",
+     "mixBlendMode": "screen"
+    },
+    {
+     "half": "left",
+     "channel": "r",
+     "class": ".framer-1ndw0of",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(255, 0, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(41, 0, 0)"
+     },
+     "transition": "DIVIDER_R",
+     "anchor": "right:0",
+     "mixBlendMode": "screen"
+    },
+    {
+     "half": "right",
+     "channel": "b",
+     "class": ".framer-ddlp53",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 0, 255)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 0, 36)"
+     },
+     "transition": "DIVIDER_R",
+     "anchor": "left:0",
+     "mixBlendMode": null
+    },
+    {
+     "half": "right",
+     "channel": "g",
+     "class": ".framer-1is7c6b",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 255, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 37, 0)"
+     },
+     "transition": "DIVIDER_G",
+     "anchor": "left:0",
+     "mixBlendMode": "screen"
+    },
+    {
+     "half": "right",
+     "channel": "r",
+     "class": ".framer-1j63n4i",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(255, 0, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(41, 0, 0)"
+     },
+     "transition": "DIVIDER_B",
+     "anchor": "left:0",
+     "mixBlendMode": "screen"
+    }
+   ]
+  },
+  {
+   "framerName": "Testimonials divider",
+   "element": ".framer-1bxf2yj-container",
+   "nodeId": "MSwOXYRCw",
+   "section": "Testimonials",
+   "mechanism": "variant-on-scroll",
+   "component": "Chromatic Border (framer-kEcQz)",
+   "visibleVariantId": "oPm9OVnZ7",
+   "obscuredVariantId": "eaoQNLtEk",
+   "threshold": 1,
+   "animateOnce": true,
+   "trigger": "in view, amount 1, once",
+   "rootTransition": "DIVIDER_ROOT",
+   "bars": [
+    {
+     "half": "left",
+     "channel": "b",
+     "class": ".framer-u6zm30",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 0, 255)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 0, 36)"
+     },
+     "transition": "DIVIDER_B",
+     "anchor": "right:0",
+     "mixBlendMode": null
+    },
+    {
+     "half": "left",
+     "channel": "g",
+     "class": ".framer-1s7vawm",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 255, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 37, 0)"
+     },
+     "transition": "DIVIDER_G",
+     "anchor": "right:0",
+     "mixBlendMode": "screen"
+    },
+    {
+     "half": "left",
+     "channel": "r",
+     "class": ".framer-1ndw0of",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(255, 0, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(41, 0, 0)"
+     },
+     "transition": "DIVIDER_R",
+     "anchor": "right:0",
+     "mixBlendMode": "screen"
+    },
+    {
+     "half": "right",
+     "channel": "b",
+     "class": ".framer-ddlp53",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 0, 255)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 0, 36)"
+     },
+     "transition": "DIVIDER_R",
+     "anchor": "left:0",
+     "mixBlendMode": null
+    },
+    {
+     "half": "right",
+     "channel": "g",
+     "class": ".framer-1is7c6b",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 255, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 37, 0)"
+     },
+     "transition": "DIVIDER_G",
+     "anchor": "left:0",
+     "mixBlendMode": "screen"
+    },
+    {
+     "half": "right",
+     "channel": "r",
+     "class": ".framer-1j63n4i",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(255, 0, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(41, 0, 0)"
+     },
+     "transition": "DIVIDER_B",
+     "anchor": "left:0",
+     "mixBlendMode": "screen"
+    }
+   ]
+  },
+  {
+   "framerName": "Statistics divider",
+   "element": ".framer-qwko6a-container",
+   "nodeId": "YPSDP79B7",
+   "section": "Statistics",
+   "mechanism": "variant-on-scroll",
+   "component": "Chromatic Border (framer-kEcQz)",
+   "visibleVariantId": "oPm9OVnZ7",
+   "obscuredVariantId": "eaoQNLtEk",
+   "threshold": 1,
+   "animateOnce": true,
+   "trigger": "in view, amount 1, once",
+   "rootTransition": "DIVIDER_ROOT",
+   "bars": [
+    {
+     "half": "left",
+     "channel": "b",
+     "class": ".framer-u6zm30",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 0, 255)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 0, 36)"
+     },
+     "transition": "DIVIDER_B",
+     "anchor": "right:0",
+     "mixBlendMode": null
+    },
+    {
+     "half": "left",
+     "channel": "g",
+     "class": ".framer-1s7vawm",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 255, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 37, 0)"
+     },
+     "transition": "DIVIDER_G",
+     "anchor": "right:0",
+     "mixBlendMode": "screen"
+    },
+    {
+     "half": "left",
+     "channel": "r",
+     "class": ".framer-1ndw0of",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(255, 0, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(41, 0, 0)"
+     },
+     "transition": "DIVIDER_R",
+     "anchor": "right:0",
+     "mixBlendMode": "screen"
+    },
+    {
+     "half": "right",
+     "channel": "b",
+     "class": ".framer-ddlp53",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 0, 255)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 0, 36)"
+     },
+     "transition": "DIVIDER_R",
+     "anchor": "left:0",
+     "mixBlendMode": null
+    },
+    {
+     "half": "right",
+     "channel": "g",
+     "class": ".framer-1is7c6b",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(0, 255, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(0, 37, 0)"
+     },
+     "transition": "DIVIDER_G",
+     "anchor": "left:0",
+     "mixBlendMode": "screen"
+    },
+    {
+     "half": "right",
+     "channel": "r",
+     "class": ".framer-1j63n4i",
+     "start": {
+      "width": "0%",
+      "backgroundColor": "rgb(255, 0, 0)"
+     },
+     "end": {
+      "width": "100%",
+      "backgroundColor": "rgb(41, 0, 0)"
+     },
+     "transition": "DIVIDER_B",
+     "anchor": "left:0",
+     "mixBlendMode": "screen"
+    }
+   ]
+  }
+ ],
+ "ticker": {
+  "count": 1,
+  "framerName": "Ticker Container",
+  "element": ".framer-1qbqem3",
+  "section": "Partners",
+  "props": {
+   "tickerEffectEnabled": true,
+   "tickerEffectAlign": "center",
+   "tickerEffectDirectionModifier": "default",
+   "tickerEffectDraggable": false,
+   "tickerEffectGap": "46px",
+   "tickerEffectHoverModifier": 100,
+   "tickerEffectOverflow": "clip",
+   "tickerEffectPosition": "relative",
+   "tickerEffectStackDirection": "row",
+   "tickerEffectVelocity": 50
+  },
+  "derived": {
+   "axis": "x",
+   "sign": 1,
+   "directionModifier": 1,
+   "hoverFactor": 1.0,
+   "pxPerSecond": 50,
+   "direction": "left",
+   "gapPx": 46,
+   "fadeEdges": false,
+   "draggable": false,
+   "loop": true,
+   "overflowClipped": true,
+   "formula": "offset -= (deltaMs / 1000) * velocity * sign * hoverFactor"
+  },
+  "hoverBehaviour": "none (hoverModifier 100 -> factor 1.0). The capture records 'no change on hover'.",
+  "items": [
+   "Sisyphus .framer-9jncga",
+   "Acme .framer-1vynhgh",
+   "CloudWatch .framer-123r8k1",
+   "Luminous .framer-bo08ni",
+   "Capsule .framer-10wb9cu",
+   "Nietzsche .framer-10v9rg4"
+  ],
+  "secondaryTextTicker": {
+   "framerName": "announcement text ticker",
+   "element": ".framer-18d75j4-container",
+   "section": "Hero",
+   "custom": true,
+   "props": {
+    "speed": 30,
+    "gap": 40,
+    "text": "Introducing Ask: Query your entire stack in plain language",
+    "font": {
+     "fontFamily": "\"Geist\", \"Geist Placeholder\", sans-serif",
+     "fontSize": "14px",
+     "fontWeight": 400,
+     "lineHeight": "20px",
+     "letterSpacing": "0em",
+     "fontStyle": "normal"
+    }
+   },
+   "derived": {
+    "pxPerSecond": 30,
+    "from": "0%",
+    "to": "-100%",
+    "ease": "linear",
+    "repeat": "Infinity",
+    "durationSeconds": "innerP.scrollWidth / 30",
+    "mask": "linear-gradient(90deg, #0000, #000 7%, #000 93%, #0000)",
+    "onlyWhenOverflowing": true,
+    "desktopState": "does not overflow at 1440, so it is static (mask-image: none)"
+   }
+  }
+ },
+ "codeComponents": [
+  {
+   "name": "hero filament field",
+   "module": "HeroThreeJSV2.BLMtRZnd.mjs",
+   "element": ".framer-1t7pn02-container",
+   "nodeId": "s7UhAvBRF",
+   "section": "Hero",
+   "wrapper": null,
+   "appearId": null,
+   "scrollLinked": false,
+   "internalSpring": "HERO_FILAMENT_SPRING",
+   "props": {
+    "cameraFov": 36,
+    "cameraPosition": {
+     "x": 0,
+     "y": 0,
+     "z": 1.8
+    },
+    "cameraRotationX": 2,
+    "cameraRotationY": 0,
+    "dispersion": 0.8,
+    "dispersionBand": 0.9,
+    "dispersionOffset": 0.05,
+    "extrudeOffset": {
+     "x": 0,
+     "y": 0.1,
+     "z": 0.4
+    },
+    "extrudeScale": 0.95,
+    "highlightRadius": 0.3,
+    "highlightSpeed": 10,
+    "highlightStrength": 2,
+    "maxDelay": 1,
+    "noiseScale": 5,
+    "noiseStrength": 0.15,
+    "opacitySpeed": 2,
+    "pulseSpeedBase": 0.1,
+    "pulseSpeedRandomMax": 0.1,
+    "pulseStrength": 1,
+    "randomOffset": {
+     "x": 0.4,
+     "y": 0.2,
+     "z": 0.2
+    },
+    "scale": 1,
+    "simDamping": 6,
+    "simMaxVelocity": 5,
+    "simRadius": 0.15,
+    "simSpring": 60,
+    "simStrength": 8,
+    "sizeVariance": 0.49,
+    "springSettings": {
+     "bounce": 0.2,
+     "duration": 3000
+    },
+    "steps": 32,
+    "nordwellOpacity": 0.2,
+    "threshold": 0.4,
+    "tipLayers": 8,
+    "tipRadius": 0.0035,
+    "tubeRadius": 0.0012,
+    "tipTexture": "https://framerusercontent.com/images/uMNT221vEn5naMu3VgNputh9yZU.png?width=256&height=256",
+    "fallbackFit": "cover",
+    "fallbackImage": "https://framerusercontent.com/images/6u6BoEVYMsztTFLqQ6AaC4LkZM.png?width=1200&height=1200"
+   },
+   "breakpointOverrides": {
+    "phone": {
+     "nordwellOpacity": 0.26,
+     "tipRadius": 0.004
+    }
+   },
+   "ownedBy": "another agent, do not transcribe shaders"
+  },
+  {
+   "name": "Features rail cart shape swapper",
+   "module": "inlined in the page module",
+   "element": ".framer-1apm31s-container",
+   "nodeId": "Dr7s_qOFh",
+   "section": "Features",
+   "wrapper": null,
+   "appearId": null,
+   "scrollLinked": true,
+   "scroll": {
+    "target": "#products-swap-scroll",
+    "offset": [
+     "start center",
+     "end center"
+    ]
+   },
+   "props": {
+    "sectionName": "products-swap-scroll",
+    "previewShape": 0,
+    "refresh": false,
+    "debugMode": false,
+    "cameraFov": 34,
+    "cameraPosition": {
+     "x": 0,
+     "y": 0,
+     "z": 1.8
+    },
+    "dispersion": 0.8,
+    "dispersionBand": 0.9,
+    "dispersionOffset": 0.05,
+    "opacitySpeed": 5.3,
+    "springVariance": 22.6,
+    "tipLayers": 8,
+    "tipRadius": 0.003,
+    "tipTexture": "https://framerusercontent.com/images/uMNT221vEn5naMu3VgNputh9yZU.png?width=256&height=256",
+    "fallbackFit": "contain",
+    "fallbackImage": "https://framerusercontent.com/images/SqLdVKcP2FReuGdnVp855FcnJM8.png?width=1200&height=1200"
+   },
+   "ownedBy": "another agent"
+  },
+  {
+   "name": "Conversation particle grid",
+   "module": "tQctxOsxU.BMpimIfh.mjs (ParticleGridThreeJSV2)",
+   "element": ".framer-1ykvmaj-container",
+   "section": "Conversation",
+   "wrapper": null,
+   "appearId": null,
+   "scrollLinked": false,
+   "style": {
+    "mask": "linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 22%) add",
+    "opacity": 0.3,
+    "position": "absolute",
+    "inset": 0,
+    "zIndex": 1
+   },
+   "props": {
+    "ampWeight": 0.5,
+    "blurStrength": 5,
+    "cameraPositionX": -1,
+    "cameraPositionY": 0.4,
+    "cameraPositionZ": 1.3,
+    "cameraRotationX": -0.1,
+    "cameraRotationY": -0.5,
+    "cameraRotationZ": 0.1,
+    "focalDistance": 1.6,
+    "focalRange": 0.54,
+    "intensity": 10,
+    "layers": 3,
+    "lightX": 1,
+    "lightY": 0.2,
+    "lightZ": 0,
+    "noiseFrequency": 2,
+    "noiseLayerSpread": 0.005,
+    "noiseOffsetX": 1.97,
+    "noiseOffsetY": 0,
+    "noiseOffsetZ": 0,
+    "octaves": 2,
+    "pointSize": 2,
+    "timeScale": 0.05,
+    "waveHeightScale": 0.1,
+    "dispersionMap": "https://framerusercontent.com/images/uMNT221vEn5naMu3VgNputh9yZU.png?width=256&height=256",
+    "fallbackFit": "cover",
+    "fallbackImage": "https://framerusercontent.com/images/WNbul3nITqPlUbjIsmuDpiQYt8.png?width=1400&height=600"
+   },
+   "variantOverrides": {
+    "yebqQkg1K": {
+     "timeScale": 0.25
+    },
+    "CtVEKtlJu": {
+     "noiseFrequency": 3,
+     "noiseLayerSpread": 0.01,
+     "timeScale": 0.31,
+     "waveHeightScale": 0.14
+    },
+    "eg6XjUQLY": {
+     "noiseFrequency": 3,
+     "noiseLayerSpread": 0.01,
+     "timeScale": 0.31,
+     "waveHeightScale": 0.14
+    }
+   },
+   "note": "uniform swaps are instant, not tweened",
+   "ownedBy": "another agent"
+  },
+  {
+   "name": "CTA filament field",
+   "module": "script_main.8MTO-Tt7.mjs",
+   "element": ".framer-17womtx-container",
+   "nodeId": "Q7ji0Pbjq",
+   "section": "Footer Container",
+   "wrapper": "CTA Nordwell Animation (framer-zhkea), wrapped again by withVariantAppearEffect on .framer-1w558nd-container",
+   "appearId": null,
+   "scrollLinked": false,
+   "introProgress": {
+    "trigger": "variant-on-scroll on .framer-1w558nd-container, threshold 0.5, animateOnce false",
+    "variant": "qqtzmr701 (Visible) sets introProgress 1.1; S9BU72mBi (Hidden) leaves 0",
+    "mechanism": "plain React prop, swapped instantly",
+    "easing": "useSpring(motionValue, { duration: 3000, bounce: 0 }) inside the component",
+    "spring": "FILAMENT_INTRO_SPRING",
+    "warning": "do NOT use the component's SPRING_A; nothing on the component animates with it"
+   },
+   "props": {
+    "introProgress": 0,
+    "springSettings": {
+     "bounce": 0.2,
+     "duration": 1200
+    },
+    "dispersion": 0.8,
+    "dispersionBand": 0.9,
+    "dispersionOffset": 0.385,
+    "highlightRadius": 2,
+    "highlightSpeed": 8,
+    "highlightStrength": 2,
+    "longLengthMax": 8,
+    "longLengthMin": 3,
+    "longSegments": 96,
+    "maxStart": {
+     "x": 1,
+     "y": -0.6,
+     "z": 1
+    },
+    "minStart": {
+     "x": -1,
+     "y": 0.6,
+     "z": 0
+    },
+    "noiseScale": 0.73,
+    "noiseStrength": 0.35,
+    "pulseSpeedBase": 0.03,
+    "pulseSpeedRandomMax": 0.1,
+    "pulseStrength": 0.35,
+    "shortLengthMax": 4,
+    "shortLengthMin": 1.4,
+    "shortLineRatio": 0.9,
+    "shortSegments": 48,
+    "simDamping": 6,
+    "simMaxVelocity": 14,
+    "simRadius": 2,
+    "simSpring": 45,
+    "simStrength": 15,
+    "sizeVariance": 0.5,
+    "nordwellOpacity": 0.25,
+    "tipLayers": 6,
+    "tipRadius": 0.02,
+    "totalLines": 1600,
+    "tubeRadius": 0.01,
+    "tipTexture": "https://framerusercontent.com/images/uMNT221vEn5naMu3VgNputh9yZU.png?width=256&height=256",
+    "fallbackFit": "cover",
+    "fallbackImage": "https://framerusercontent.com/images/5ViBNrW2So7arIANy02EAq5jV8.png?width=1400&height=800"
+   },
+   "containerStyle": {
+    "position": "absolute",
+    "inset": 0,
+    "zIndex": 1,
+    "opacity": 0.85,
+    "mask": "linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 14.000000000000002%, rgba(0,0,0,1) 82.43243243243244%, rgba(0,0,0,0) 100%) add"
+   },
+   "ownedBy": "another agent for the shader; introProgress documented here"
+  },
+  {
+   "name": "Features scroll progress rail",
+   "module": "inlined in the page module",
+   "element": ".framer-i0hju5-container",
+   "nodeId": "gaH8OTWcR",
+   "section": "Features",
+   "scrollLinked": true,
+   "scroll": {
+    "target": "#products-scroll",
+    "offset": [
+     "start start",
+     "end start"
+    ]
+   },
+   "spring": "RAIL_PROGRESS_SPRING",
+   "props": {
+    "sectionName": "products-scroll",
+    "sections": 3,
+    "numLines": 8,
+    "lineGap": 10,
+    "lineWeight": 1,
+    "primaryColor": "rgb(250, 250, 250)",
+    "secondaryColor": "rgb(115, 115, 115)",
+    "fade": 0.05
+   }
+  },
+  {
+   "name": "Integrations rolling source list",
+   "module": "lFOi1sWHj.CT5eLhTa.mjs",
+   "element": ".framer-gh3cms-container",
+   "nodeId": "C3dBC5s2a",
+   "section": "Integrations",
+   "scrollLinked": false,
+   "props": {
+    "elements": 10,
+    "interval": 3,
+    "entries": 5
+   },
+   "transition": "TWEEN_A"
+  },
+  {
+   "name": "TextTransitionV2",
+   "module": "tQctxOsxU.BMpimIfh.mjs",
+   "element": ".framer-1vwlie1-container",
+   "nodeId": "xLRIwc4A_",
+   "section": "Conversation",
+   "props": {
+    "text": [
+     "Scanning Salesforce",
+     "Scoring by churn signal weight",
+     "3 accounts flagged"
+    ],
+    "playMode": "once",
+    "play": false,
+    "interval": 2,
+    "startDelay": 0,
+    "transition": {
+     "type": "tween",
+     "duration": 0.2,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "delay": 0.02
+    },
+    "gradient": [
+     "rgb(115, 115, 115)",
+     "rgb(0, 238, 255)",
+     "rgb(0, 14, 221)",
+     "rgb(245, 29, 0)",
+     "rgb(255, 187, 0)",
+     "rgb(115, 115, 115)"
+    ],
+    "gradientDuration": 1,
+    "gradientRange": 25,
+    "font": {
+     "fontFamily": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+     "fontSize": "12px",
+     "fontWeight": 500,
+     "lineHeight": "20px",
+     "letterSpacing": "0em",
+     "textAlign": "left",
+     "fontStyle": "normal"
+    }
+   },
+   "playOverrides": {
+    "CtVEKtlJu": true,
+    "eg6XjUQLY": true
+   },
+   "perLetter": {
+    "initial": {
+     "rotateX": -90,
+     "opacity": 0
+    },
+    "animate": {
+     "rotateX": 0,
+     "opacity": 1
+    },
+    "exit": {
+     "rotateX": 90,
+     "opacity": 0
+    },
+    "delayFormula": "index * 0.02 + 0",
+    "transition": {
+     "type": "tween",
+     "duration": 0.2,
+     "ease": [
+      0.12,
+      0.23,
+      0.5,
+      1
+     ],
+     "delay": 0
+    },
+    "style": {
+     "display": "inline-block",
+     "whiteSpace": "pre",
+     "transformOrigin": "center center -5px"
+    }
+   },
+   "gradientLoop": {
+    "from": 0,
+    "to": 100,
+    "duration": 1,
+    "ease": "linear",
+    "repeat": "Infinity",
+    "delayFormula": "index * 0.02",
+    "inputRange": [
+     25,
+     35,
+     45,
+     55,
+     65,
+     75
+    ],
+    "gate": "not the last string, and play === true"
+   }
+  },
+  {
+   "name": "Lenis",
+   "module": "script_main.8MTO-Tt7.mjs",
+   "element": ".framer-uz5b0i-container",
+   "nodeId": "YTLoBJb9y",
+   "props": {
+    "smooth": true,
+    "infinite": false,
+    "intensity": 12,
+    "orientation": "vertical"
+   },
+   "resolved": {
+    "smoothWheel": true,
+    "duration": 1.2,
+    "infinite": false,
+    "orientation": "vertical",
+    "gestureOrientation": "vertical",
+    "autoRaf": true,
+    "autoToggle": true,
+    "anchors": true,
+    "allowNestedScroll": true,
+    "syncTouch": false,
+    "stopInertiaOnNavigate": true
+   }
+  },
+  {
+   "name": "Lottie player x4",
+   "module": "tQctxOsxU.BMpimIfh.mjs (bodymovin 5.7)",
+   "section": "Statistics",
+   "instances": [
+    "HHE4hHMlq",
+    "O1DXwaGLK",
+    "bhVtGybhb",
+    "kM6FK35En"
+   ]
+  },
+  {
+   "name": "Layout Jump Preventer",
+   "module": "inlined in the page module",
+   "element": ".framer-1gsrymb-container",
+   "nodeId": "YVwO0RUbH",
+   "section": "FAQ",
+   "props": {
+    "direction": "vertical"
+   },
+   "motion": null
+  },
+  {
+   "name": "Progressive blur (Bottom Dispersion)",
+   "module": "script_main.8MTO-Tt7.mjs",
+   "element": ".framer-13yx5bq-container",
+   "nodeId": "KPjCKuY9E",
+   "props": {
+    "blur": 6,
+    "chrOffset": 6,
+    "numDivs": 5,
+    "position": "to bottom",
+    "shift": -4,
+    "spread": 0
+   },
+   "motion": null
+  }
+ ],
+ "loops": [
+  {
+   "index": 0,
+   "name": "Status ping ring, Scaleforce",
+   "section": "Features",
+   "element": ".framer-1f4g78s-container (card 1ctfs4x)",
+   "component": "StatusPingV2",
+   "props": {
+    "play": true,
+    "size": 8,
+    "pingSize": 16,
+    "pingWeight": 2,
+    "repeatDelay": 1,
+    "tint": "var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144))"
+   },
+   "initial": {
+    "width": 4,
+    "height": 4,
+    "opacity": 1
+   },
+   "animate": {
+    "width": 20,
+    "height": 20,
+    "opacity": 0
+   },
+   "transition": {
+    "type": "tween",
+    "duration": 0.3,
+    "ease": [
+     0.44,
+     0,
+     0.56,
+     1
+    ],
+    "delay": 0,
+    "repeat": "Infinity",
+    "repeatDelay": 1
+   },
+   "style": {
+    "borderRadius": 9999,
+    "outline": "2px solid <tint>",
+    "position": "absolute",
+    "top": "50%",
+    "left": "50%",
+    "x": "-50%",
+    "y": "-50%"
+   }
+  },
+  {
+   "index": 1,
+   "name": "Status ping ring, Strive",
+   "section": "Features",
+   "element": ".framer-1f4g78s-container (card zatbru)",
+   "component": "StatusPingV2",
+   "props": {
+    "play": true,
+    "size": 8,
+    "pingSize": 16,
+    "pingWeight": 2,
+    "repeatDelay": 1,
+    "tint": "var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144))"
+   },
+   "initial": {
+    "width": 4,
+    "height": 4,
+    "opacity": 1
+   },
+   "animate": {
+    "width": 20,
+    "height": 20,
+    "opacity": 0
+   },
+   "transition": {
+    "type": "tween",
+    "duration": 0.3,
+    "ease": [
+     0.44,
+     0,
+     0.56,
+     1
+    ],
+    "delay": 0.1,
+    "repeat": "Infinity",
+    "repeatDelay": 1
+   }
+  },
+  {
+   "index": 2,
+   "name": "Uptime status ping",
+   "section": "Footer Container",
+   "element": ".framer-ic5mpm-container",
+   "component": "StatusPingV2",
+   "props": {
+    "play": true,
+    "size": 6,
+    "pingSize": 16,
+    "pingWeight": 2,
+    "repeatDelay": 1,
+    "tint": "var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144))"
+   },
+   "initial": {
+    "width": 2,
+    "height": 2,
+    "opacity": 1
+   },
+   "animate": {
+    "width": 18,
+    "height": 18,
+    "opacity": 0
+   },
+   "transition": {
+    "type": "tween",
+    "duration": 0.3,
+    "ease": [
+     0.44,
+     0,
+     0.56,
+     1
+    ],
+    "delay": 0,
+    "repeat": "Infinity",
+    "repeatDelay": 1
+   }
+  },
+  {
+   "index": 3,
+   "name": "Per-letter gradient sweep",
+   "section": "Conversation",
+   "element": ".framer-1vwlie1-container span",
+   "from": 0,
+   "to": 100,
+   "transition": {
+    "duration": 1,
+    "ease": "linear",
+    "repeat": "Infinity",
+    "delayFormula": "index * 0.02"
+   },
+   "mapsTo": "color via useTransform([25,35,45,55,65,75], gradient)"
+  },
+  {
+   "index": 4,
+   "name": "Announcement text ticker",
+   "section": "Hero",
+   "element": ".framer-18d75j4-container",
+   "from": "0%",
+   "to": "-100%",
+   "transition": {
+    "durationFormula": "scrollWidth / 30",
+    "ease": "linear",
+    "repeat": "Infinity"
+   },
+   "pxPerSecond": 30,
+   "onlyWhenOverflowing": true,
+   "desktopState": "static at 1440"
+  },
+  {
+   "index": 5,
+   "name": "Partner logo ticker",
+   "section": "Partners",
+   "element": ".framer-1qbqem3",
+   "pxPerSecond": 50,
+   "direction": "left",
+   "mechanism": "rAF, offset -= delta/1000 * 50",
+   "ease": null,
+   "pausesOnHover": false
+  },
+  {
+   "index": 6,
+   "name": "Newsletter submit spinner",
+   "section": "Footer Container",
+   "element": ".framer-1xef08e",
+   "animate": {
+    "rotate": 360
+   },
+   "transition": {
+    "type": "tween",
+    "duration": 1,
+    "ease": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "delay": 0,
+    "repeat": "Infinity",
+    "repeatType": "loop",
+    "repeatDelay": 0
+   },
+   "pauseOffscreen": true,
+   "onlyInState": "Loading"
+  },
+  {
+   "index": 7,
+   "name": "Rolling connected sources",
+   "section": "Integrations",
+   "element": ".framer-gh3cms-container",
+   "intervalMs": 3000,
+   "intervalMsPhone": 4000,
+   "initial": {
+    "opacity": 0,
+    "x": "-100%"
+   },
+   "animate": {
+    "opacity": 1,
+    "x": "0%"
+   },
+   "transition": "TWEEN_A"
+  },
+  {
+   "index": 8,
+   "name": "Ask Chat Anim variant cycle",
+   "section": "Conversation",
+   "element": ".framer-11tggmb-container",
+   "periodMs": 12000,
+   "steps": [
+    2000,
+    2000,
+    4000,
+    3500,
+    500
+   ],
+   "pausesWhen": [
+    "document.hidden",
+    "not intersecting"
+   ]
+  },
+  {
+   "index": 9,
+   "name": "Statistics Lottie x4",
+   "section": "Statistics",
+   "loop": true,
+   "speed": 1
+  },
+  {
+   "index": 10,
+   "name": "WebGL rAF uniforms",
+   "section": "Hero, Features, Footer Container",
+   "gated": [
+    "IntersectionObserver",
+    "visibilitychange"
+   ]
+  }
+ ],
+ "components": {
+  "CTAButton": {
+   "scope": "framer-nnJOX",
+   "transition": "SPRING_A",
+   "gestures": {
+    "hover": true,
+    "pressed": true
+   },
+   "borderRadius": 8,
+   "variantIds": {
+    "Primary": {
+     "XL": "WFn7l_ycj",
+     "LG": "fjOBCDEe9",
+     "MD": "SrE8wxvlP"
+    },
+    "Secondary": {
+     "XL": "mpynBH2Cv",
+     "LG": "BpAaIYVEg",
+     "MD": "BdqgXl6NE"
+    },
+    "Ghost": {
+     "XL": "wuA86V8Cd",
+     "LG": "B_d5gslqy",
+     "MD": "n_hWf18Dw"
+    },
+    "Light": {
+     "XL": "pXjM1fasS",
+     "LG": "nltwK9VLK",
+     "MD": "CHKefkC3P"
+    }
+   },
+   "Primary": {
+    "rest": {
+     "backgroundColor": "var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 245))"
+    },
+    "hoverXL": {
+     "backgroundColor": "var(--token-e308c24b-f83a-4af3-938d-f30465c0b60a, rgb(231, 229, 228))"
+    },
+    "hoverLGMD": {
+     "backgroundColor": "var(--token-e308c24b-f83a-4af3-938d-f30465c0b60a, rgb(229, 229, 229))"
+    },
+    "tap": {
+     "backgroundColor": "var(--token-3b4d6f03-62c3-4973-a45f-106736577695, rgb(212, 212, 212))"
+    },
+    "label": "var(--token-52462940-c15c-4103-9816-370bb3c11bfa, rgb(23, 23, 23))"
+   },
+   "Secondary": {
+    "rest": {
+     "backgroundColor": "var(--token-49f482bf-7282-4f8a-9849-f4d6c5f1f94c, rgb(38, 38, 38))",
+     "--border-color": "var(--token-d77c8f0f-067e-4a45-ac82-2913bb2aee68, rgb(34, 34, 34))"
+    },
+    "hover": {
+     "backgroundColor": "var(--token-148ab549-faa2-4e43-be76-92abb380b315, rgb(64, 64, 64))",
+     "--border-color": "var(--token-fa695f43-dc97-4fcb-890e-19bee8613bc8, rgb(115, 115, 115))"
+    },
+    "tap": {
+     "backgroundColor": "var(--token-24c110d7-70a2-4d2f-9770-b2e54961bd48, rgb(87, 83, 78))"
+    },
+    "tapLGExtra": {
+     "--border-color": "var(--token-d77c8f0f-067e-4a45-ac82-2913bb2aee68, rgb(82, 82, 82))"
+    },
+    "label": "var(--token-d374d93c-0fe8-421f-a111-c491a4a873a6, rgb(245, 245, 245))"
+   },
+   "Ghost": {
+    "rest": {
+     "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    "hover": {
+     "backgroundColor": "var(--token-bb9172d5-978a-4462-9d85-50327c10d262, rgb(38, 38, 38))"
+    },
+    "tap": {
+     "backgroundColor": "var(--token-28be4a51-bbd3-4a71-bc59-db9d73dedaf5, rgb(64, 64, 64))"
+    },
+    "label": "var(--token-5d8f23dc-92a7-4ff0-acf1-4f5feb4637ee, rgb(245, 245, 245))"
+   },
+   "Light": {
+    "rest": {
+     "backgroundColor": "var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38))"
+    },
+    "hover": {
+     "backgroundColor": "var(--token-494a45c3-2553-4e41-8258-c9545bf7163f, rgb(64, 64, 64))"
+    },
+    "tap": {
+     "backgroundColor": "var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(82, 82, 82))"
+    },
+    "label": "var(--token-09a0b579-0f15-4449-80ce-92fd13281fd7, rgb(245, 245, 245))"
+   },
+   "note": "only backgroundColor and --border-color animate. Label and icon colours never change on hover."
+  },
+  "CircularButton": {
+   "scope": "framer-ssUFK",
+   "transition": "SPRING_A",
+   "borderRadius": 52,
+   "gestures": {
+    "hover": true,
+    "pressed": true,
+    "exceptDisabled": true
+   },
+   "sizes": {
+    "XL": {
+     "box": 40,
+     "icon": 16
+    },
+    "LG": {
+     "box": 36,
+     "icon": 16
+    },
+    "MD": {
+     "box": 32,
+     "icon": 16
+    },
+    "SM": {
+     "box": 26,
+     "icon": 14
+    },
+    "XS": {
+     "box": 20,
+     "icon": 12
+    }
+   },
+   "variantIds": {
+    "Primary": {
+     "XL": "SLXZ3TqyB",
+     "LG": "IHmlIlwnQ",
+     "MD": "nM0UY9btt",
+     "SM": "kDJy4jmgf",
+     "XS": "h9PYQoRoX"
+    },
+    "Secondary": {
+     "XL": "L7FsmLiTr",
+     "LG": "f2aAwZgz0",
+     "MD": "my2k7r7SN",
+     "SM": "g7qpmuQW4",
+     "XS": "nB7BDBw0L"
+    },
+    "Light": {
+     "XL": "BWnx7Fy38",
+     "LG": "iFFAFWtOn",
+     "MD": "IzROFuuuh",
+     "SM": "XSi82891F",
+     "XS": "Ds9QQ9qkS"
+    },
+    "Ghost": {
+     "XL": "QYaeAlmyR",
+     "LG": "ik7iddnck",
+     "MD": "tXZIR3JON",
+     "SM": "daBcqLcSh",
+     "XS": "T_NyAgmeA"
+    },
+    "Disabled": {
+     "XL": "U7mOPrSL0",
+     "LG": "SsL2ifNLr",
+     "MD": "zCwaap2aN",
+     "SM": "L0ze52gis",
+     "XS": "nzkwcXcuR"
+    }
+   },
+   "Primary": {
+    "rest": {
+     "backgroundColor": "var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 245))"
+    },
+    "hover": {
+     "backgroundColor": "var(--token-e308c24b-f83a-4af3-938d-f30465c0b60a, rgb(229, 229, 229))"
+    },
+    "tap": {
+     "backgroundColor": "var(--token-3b4d6f03-62c3-4973-a45f-106736577695, rgb(212, 212, 212))"
+    },
+    "icon": "var(--token-52462940-c15c-4103-9816-370bb3c11bfa, rgb(23, 23, 23))"
+   },
+   "Secondary": {
+    "rest": {
+     "backgroundColor": "var(--token-49f482bf-7282-4f8a-9849-f4d6c5f1f94c, rgb(38, 38, 38))",
+     "--border-color": "var(--token-d77c8f0f-067e-4a45-ac82-2913bb2aee68, rgb(82, 82, 82))"
+    },
+    "hover": {
+     "backgroundColor": "var(--token-148ab549-faa2-4e43-be76-92abb380b315, rgb(64, 64, 64))",
+     "--border-color": "var(--token-fa695f43-dc97-4fcb-890e-19bee8613bc8, rgb(115, 115, 115))"
+    },
+    "tap": {
+     "backgroundColor": "var(--token-24c110d7-70a2-4d2f-9770-b2e54961bd48, rgb(87, 83, 78))"
+    },
+    "icon": "var(--token-d374d93c-0fe8-421f-a111-c491a4a873a6, rgb(245, 245, 245))"
+   },
+   "Light": {
+    "rest": {
+     "backgroundColor": "var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38))"
+    },
+    "hover": {
+     "backgroundColor": "var(--token-494a45c3-2553-4e41-8258-c9545bf7163f, rgb(64, 64, 64))"
+    },
+    "tap": {
+     "backgroundColor": "var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(82, 82, 82))"
+    },
+    "tapXL": {
+     "backgroundColor": "var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(64, 64, 64))"
+    },
+    "icon": "var(--token-09a0b579-0f15-4449-80ce-92fd13281fd7, rgb(245, 245, 245))"
+   },
+   "Ghost": {
+    "rest": {
+     "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    "hover": {
+     "backgroundColor": "var(--token-bb9172d5-978a-4462-9d85-50327c10d262, rgb(38, 38, 38))"
+    },
+    "tap": {
+     "backgroundColor": "var(--token-28be4a51-bbd3-4a71-bc59-db9d73dedaf5, rgb(64, 64, 64))"
+    },
+    "icon": "var(--token-5d8f23dc-92a7-4ff0-acf1-4f5feb4637ee, rgb(245, 245, 245))"
+   },
+   "Disabled": {
+    "rest": {
+     "backgroundColor": "var(--token-5f5af133-2080-4ffb-a775-1ed7714f667c, rgb(68, 64, 59))",
+     "cursor": "not-allowed"
+    },
+    "hover": null,
+    "tap": null,
+    "icon": "var(--token-4a066b0b-c929-4483-845f-f6c69bce15cb, rgb(121, 113, 107))"
+   }
+  },
+  "CircularButtonWithText": {
+   "scope": "framer-z2KqL",
+   "transition": "TWEEN_B_100",
+   "gestures": {
+    "hover": true,
+    "pressed": true
+   },
+   "label": {
+    "rest": "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))",
+    "hover": "var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))",
+    "tap": "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))"
+   },
+   "circle": {
+    "rest": {
+     "backgroundColor": "var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38))",
+     "borderRadius": 52,
+     "size": 26
+    },
+    "hover": {
+     "backgroundColor": "var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(82, 82, 82))"
+    },
+    "tap": {
+     "backgroundColor": "var(--token-494a45c3-2553-4e41-8258-c9545bf7163f, rgb(64, 64, 64))"
+    }
+   },
+   "icon": {
+    "size": 14,
+    "tint": "var(--token-68852133-66bc-42bc-90a0-dbfa7557286d, rgb(250, 250, 249))",
+    "static": true
+   }
+  },
+  "Pill": {
+   "scope": "framer-LKFMZ / framer-mEJFY",
+   "transition": "SPRING_A",
+   "gestures": null,
+   "variantIds": {
+    "Primary": "l4Rq4ITVJ",
+    "Extra Padding": "uHVFq2jZC",
+    "Small": "RorjGomGF",
+    "Primary - Hover": "vzx6FkGP4"
+   },
+   "Primary": {
+    "backgroundColor": "var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23))",
+    "--border-color": "var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60))",
+    "borderRadius": 321,
+    "padding": "4px 8px"
+   },
+   "PrimaryHover": {
+    "backgroundColor": "var(--token-d84f0da5-69e7-4c51-a9dd-4ad7ce3301a8, rgb(41, 37, 36))"
+   }
+  },
+  "FormSubmitButton": {
+   "scope": "framer-DAIlr",
+   "transition": "TWEEN_B_200",
+   "variantIds": {
+    "Default": "ZVS9uEAOl",
+    "Loading": "Gzs7KLdOZ",
+    "Disabled": "EAtv73LHu",
+    "Success": "nqdgF8hBS",
+    "Error": "sTeqYCuJm"
+   },
+   "spinnerLoop": "loops[6]"
+  }
+ },
+ "appearAnimations": {
+  "total": 16,
+  "onPage": [
+   "dp7izi",
+   "1jsercw",
+   "1b2lh6y",
+   "13ye9y3",
+   "fkx45e",
+   "1scv7sf",
+   "16yp3wb",
+   "n00lzi",
+   "17bqj0",
+   "10q9li8",
+   "1ysxh9n",
+   "1ctfs4x",
+   "zatbru",
+   "17bslm8",
+   "18u74t1"
+  ],
+  "notPartOfThePage": [
+   "w6pet3 (template marketplace badge, delay 1.5s)",
+   "n0ccwk (Framer badge)"
+  ],
+  "inDomButNoPayload": [
+   "3kyhfb",
+   "7k78ji",
+   "n0ccwk"
+  ],
+  "allBreakpointsIdentical": true,
+  "trigger": "onMount for every one of them; none are in-view"
+ },
+ "uncertain": [
+  "Route transition carries both tween and spring fields; type:'tween' should win (0.4s cubic-bezier(0.27,0,0.51,1)).",
+  "The Conversation parallax formula y = 0.05 * scrollY is unbounded; verify against capture/frames/scroll-conversation.",
+  "The Features progress rail's third section range starts at scroll progress 1.0, so 03 only lights at the very end; verify against capture/frames/scroll-features.",
+  "The mobile menu slide is a layout-projection animation in the source with no initial/animate pair to copy; rebuild it explicitly as y: -100vh -> 0 with TWEEN_A_200.",
+  "The Features and Resources dropdown panels animate differently (Features has no y, Resources has y:-2). Reproduced as found, not normalised."
+ ]
+}

@@ -1,7 +1,7 @@
 {
  "url": "http://localhost:3799/",
  "ref": "reference/site",
- "at": "2026-09-12T11:04:47.050Z",
+ "at": "2026-09-12T11:08:21.142Z",
  "viewports": {
   "desktop": {
    "width": 1440,
@@ -294,11 +294,9 @@
      "ok": true
     }
    ],
-   "consoleErrors": [
-    "Can't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronousl"
-   ],
+   "consoleErrors": [],
    "diff": null,
-   "pass": false
+   "pass": true
   },
   "mobile": {
    "width": 390,
@@ -402,6 +400,6 @@
    "pass": true
   }
  },
- "pass": false,
+ "pass": true,
  "blackout": true
 }

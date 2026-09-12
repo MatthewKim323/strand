@@ -1489,6 +1489,79 @@ tipTexture: 'https://framerusercontent.com/images/uMNT221vEn5naMu3VgNputh9yZU.pn
 fallbackImage: 'https://framerusercontent.com/images/SqLdVKcP2FReuGdnVp855FcnJM8.png?width=1200&height=1200',
 fallbackFit: 'contain'`. **No motion wrapper, no appear id, no variant wrapper.**
 
+### 4.5b Slot child 3: `Graph Pulse` (`framer-U3LFO`)
+
+The third thing the swapper shows. Single variant `cQY1KF3n5` (`framer-k3em9w`), transition
+**`SPRING_A`**, **no gestures, no loop, no scroll link**. 297px wide, padding 16px, gap 16px,
+radius 16, `border: 1px solid var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38))`,
+`background var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16))`.
+
+It holds the page's only `Tag` and only `Hash`:
+
+- `Tag` (`framer-022zo`), single variant `vIhi3Oro1`, transition **`SPRING_A`**, **no hover**.
+  `padding: 4px 8px`, `borderRadius: 4`. Instance: text `High severity`, text colour
+  `var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77))`, container colour
+  `var(--token-3a95eaa6-e51b-4092-9cd6-e78e24a17dd1, rgba(229, 72, 77, 0.2))`.
+- `Hash` (`framer-XAHcT`), no variants, 12px inside a 20x20 chip
+  (`background var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23))`, radius 4),
+  tint `var(--token-b5638a62-26ff-4efc-a9d7-90e970d50095, rgb(82, 82, 82))`.
+- One `StatusPingV2` at `.framer-U3LFO .framer-ms14lp-container`
+  (`left: 83%; top: 68%; z-index: 1`) with **`play: false`**, `size: 6`, tint
+  `var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77))`. It renders as a static
+  6px red dot and never pings.
+- A `Graph` code component (also from `BPbDZR7IG.6r3LE1ht.mjs`), a static SVG sparkline with no
+  animation of any kind. Props on this page: `points [{y:91},{y:84},{y:91},{y:85},{y:91},{y:34},{y:55}]`,
+  `baseline: true`, `baselineWidth: 35`, `topPadding: 19`, `weight: 1`, `yDivisions: 2`,
+  `divisionsColor var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23))`,
+  `gradientColors [{color: var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(64, 64, 64)), offset: 69},
+  {color: var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)), offset: 75}]`.
+
+Copy: `2 min ago` / `EU activation rate dropped 12%` /
+`Activation in EU markets fell from 34% to 22% over the past 6 hours.` / `Baseline` / `Anomaly` /
+`Sent to #product-alerts`.
+
+### 4.5c Layout facts the motion depends on
+
+```css
+/* each Rail Cart is a full-viewport sticky panel */
+.framer-8cz25g, .framer-1ilx1em, .framer-1s7z65x {
+  height: 100vh; position: sticky; top: 0px; scroll-margin-top: 68px; z-index: 1; }
+/* the whole right column is sticky too */
+.framer-iejl6p { height: 100vh; position: sticky; top: 0px; z-index: 1; }
+.framer-12nzhvt { height: 508px; gap: 16px; }            /* tablet: height: 447px */
+/* the swapper is double-masked, vertically and horizontally */
+.framer-1apm31s-container {
+  mask: linear-gradient(0deg,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%) intersect,
+        linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%) add;
+  flex: 1 0 0px; height: 100%; width: 1px; }
+.framer-iyty47-container { width: 289px }
+.framer-egpkas-container { width: 401px; z-index: 1 }
+.framer-ssv5r4-container { width: 297px }
+.framer-1ak0sa5 { position: absolute; top: 0; bottom: 0; right: 1px; z-index: 1; gap: 16px; width: min-content }
+.framer-i0hju5-container { height: 300px; user-select: none }
+```
+
+The swapper's three outline shapes carry `{scale: 0.92, threshold: 0.6}`, `{scale: 1, threshold: 0.4}`,
+`{scale: 0.95, threshold: 0.45}` in order. Copy the `points` float arrays verbatim from the page
+module; the Mobile Carousel instance reuses the same shape data with `tipRadius: 0.0045` and a
+different camera z.
+
+### 4.5d `Feature Section` and `Product Feature`
+
+`Feature Section` (`framer-5Y2Hx`), transition **`SPRING_A`**, **no gestures**. Breakpoint variants
+`Fq1EJYEOR` Desktop (`framer-v-tnjwra`), `HbdczjDkY` Tablet (`framer-v-11lklwl`),
+`uVgwvxKpm` Mobile (`framer-v-1i5g39c`). Desktop padding 40px, width 536px, gap 40px; the inner
+`Features` grid is `grid-template-columns: repeat(auto-fill, minmax(148px, 1fr))`, `gap: 32px 20px`;
+tablet and mobile switch it to a 16px-gap column; mobile drops padding to 20px.
+
+`Product Feature` (`framer-nbXXU`), transition **`SPRING_A`**, **no gestures**. Variants
+`wIy6KkP9c` Vertical (`framer-v-19sutiv`, used at desktop) and `j7Wd7YStP` Horizontal
+(`framer-v-119y320`, used at tablet and phone). Icon 16px, `--js9iwy: 2.5`, tint
+`var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))`.
+
+Each block ends with a `Circular Button With Text` labelled `Explore more`, linking to
+`./features/cortex`, `./features/ask`, `./features/pulse`.
+
 ### 4.6 Phone only: the Mobile Carousel
 
 `.framer-jbnu5j-container` carries `hidden-72rtr7 hidden-uuxm6n`, i.e. it renders **only on phone**.
@@ -1524,6 +1597,30 @@ transition={{type:'spring', bounce:0.2, duration:0.4}}
 
 **This is the only Cortex / Ask / Pulse tab control on the page, and it does not exist at desktop or
 tablet.** At those widths the three feature blocks are simply stacked.
+
+The tab row is sticky under the nav:
+
+```css
+.framer-PlXiw .framer-1a09t19 { position: sticky; top: 68px; z-index: 2;
+  display: flex; flex-direction: row; justify-content: center; gap: 0px; width: 100% }
+.framer-PlXiw .framer-x7c4y5-container,
+.framer-PlXiw .framer-1l41obt-container,
+.framer-PlXiw .framer-nm6ywo-container { flex: 1 0 0px; width: 1px }
+.framer-PlXiw.framer-nl0bhk { flex-direction: column; width: 483px }
+.framer-PlXiw .framer-adx7w4 { flex-direction: row; gap: 16px; height: 410px; width: 100% }
+```
+
+The three overlay cards cross-fade by opacity under **`SPRING_A`**, each carrying
+`transformTemplate: (latest, generated) => \`translate(-50%, -50%) ${generated}\``:
+
+```js
+// Cortex Stats, 270x336, y offset +37   (bRG9OLk6M: 4)
+style:{opacity:1}  variants:{ E0V3DdRup:{opacity:0}, zHyFerOUH:{opacity:0} }
+// Ask Chat Anim, 315x428, y offset -9   (variant MPeNLgoLm, static)
+style:{opacity:0}  variants:{ zHyFerOUH:{opacity:1} }
+// Graph Pulse, 293x289, y offset +60.5
+style:{opacity:0}  variants:{ E0V3DdRup:{opacity:1} }
+```
 
 ---
 
@@ -2056,10 +2153,22 @@ MotionConfig, which for this subtree is the `Integrations` component's
 Every 3 seconds a new row slides in from `x: -100%` at the bottom and the stack shifts up.
 Each `Integration Single` row is `326 x 74`.
 
-Entry data: ThreadBase "42 channels" / "alerts enabled", Pipecloud "874 accounts" /
-"12,400 records", Chatdock "9.841 conversations" / "204 open", VaultDB "38 schemes" / ...,
-Stride "$2.4 MMR" / "1,204 subscriptions". All with the green status token
+Entry data, in order:
+
+| name | main info | secondary info |
+|---|---|---|
+| ThreadBase | `42 channels` | `alerts enabled` |
+| Pipecloud | `874 accounts` | `12,400 records` |
+| Chatdock | `9.841 conversations` | `204 open` |
+| VaultDB | `38 schemes` | `6.4M rows` |
+| Stride | `$2.4 MMR` | `1,204 subscriptions` |
+
+All five use the green status token
 `var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144))`.
+The `Integration Single` row separator is a 4x4 dot, `borderRadius: 96`, colour
+`var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82))`.
+The Right Column Grid is `grid-template-columns: repeat(3, 90px)`, `grid-auto-rows: 90px`,
+`gap: 8px`, `padding: 20px`, `--border-left-width: 1px`, and is gated to desktop and tablet only.
 
 ### 5.5 Integration tiles and stats: **no hover, no motion**
 
@@ -2279,10 +2388,27 @@ chevron. All five animate with `{type:'spring', bounce:0.2, duration:0.4}`.
 
 Rebuild: animate `top` (or `y`) per dot with that spring; the row's open state selects the variant.
 
+### 8.5b The page instance
+
+```js
+{ variant: 'd2FCdyBSB',   // Closed
+  yJ91XclDh: true }       // rightPadding; phone override: false, which drops the 40px column
+```
+
+Rest state height is 352px = 4 x 88px closed rows. The section grid is
+`grid-template-columns: repeat(2, minmax(50px, 1fr))`, `padding: 80px 0`; tablet and phone collapse
+it to a column (`padding: 40px` / `40px 20px`, phone gap 20px).
+
+Left column copy: `h2` `Frequently Asked Questions`, `p`
+`Do you want to learn more about us, let's go the blog page.` (the source uses a curly apostrophe).
+
 ### 8.6 Layout Jump Preventer
 
-`.framer-1gsrymb-container`, `direction: 'vertical'`. A spacer code component that reserves the
-height difference so the section does not jump when a row opens. No motion of its own.
+`.framer-1gsrymb-container`, nodeId `YVwO0RUbH`, `direction: 'vertical'`. Not an animation: a
+`requestAnimationFrame` measurement loop that copies
+`el.parentElement.parentElement.getBoundingClientRect().height` onto its grandparent's
+`style.height` every frame, so the section does not jump when a row opens and closes. Port it as a
+`ResizeObserver` if you prefer; the visible result is the same.
 
 ---
 
@@ -2336,6 +2462,8 @@ Icon tint `var(--token-d374d93c-0fe8-421f-a111-c491a4a873a6, rgb(245, 245, 245))
 whileHover={{ backgroundColor: 'var(--token-148ab549-faa2-4e43-be76-92abb380b315, rgb(64, 64, 64))',
               '--border-color': 'var(--token-fa695f43-dc97-4fcb-890e-19bee8613bc8, rgb(115, 115, 115))' }}
 whileTap={{   backgroundColor: 'var(--token-24c110d7-70a2-4d2f-9770-b2e54961bd48, rgb(87, 83, 78))' }}
+// note: the pressed map does NOT restate --border-color, so pressing snaps the border back to
+// the rest value rgb(82, 82, 82). That is what the source says; reproduce it.
 ```
 
 **Light** - rest `backgroundColor: var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38))`,
@@ -2356,6 +2484,19 @@ whileTap={{   backgroundColor: 'var(--token-28be4a51-bbd3-4a71-bc59-db9d73dedaf5
 **Disabled** - rest `backgroundColor: var(--token-5f5af133-2080-4ffb-a775-1ed7714f667c, rgb(68, 64, 59))`,
 `cursor: not-allowed`. Icon tint `var(--token-4a066b0b-c929-4483-845f-f6c69bce15cb, rgb(121, 113, 107))`.
 **No hover, no press.**
+
+The icon node has variant entries for **rest states only**; there are no `-hover` or `-pressed`
+entries on it, so the icon colour never changes on interaction. The Primary family has no icon
+entry at all and falls through to the base
+`var(--token-52462940-c15c-4103-9816-370bb3c11bfa, rgb(23, 23, 23))`.
+
+`grep` for `scale:` / `rotate:` / `repeat` in `cZrCCoVsg.6VaJQZpD.mjs` returns zero hits: the
+Circular Button never scales or rotates.
+
+Token-fallback quirk, flagged not fixed: `Light / XL` pressed writes
+`var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(64, 64, 64))` while the other four Light sizes
+write the same token with fallback `rgb(82, 82, 82)`. The token wins at runtime, so they render
+identically. Resolve tokens from one map rather than trusting the inlined fallbacks.
 
 ### B.2 `Circular Button With Text` (`framer-z2KqL`)
 
@@ -2381,6 +2522,17 @@ whileTap:   { backgroundColor: 'var(--token-494a45c3-2553-4e41-8258-c9545bf7163f
 // icon tint, static: var(--token-68852133-66bc-42bc-90a0-dbfa7557286d, rgb(250, 250, 249))
 transition={{ type:'tween', duration:0.1, ease:[0.44, 0, 0.56, 1] }}
 ```
+
+Two things to flag rather than normalise:
+
+- The circle's hover and press tokens are **inverted** relative to the standalone `Circular Button`
+  Light family. Here hover is the lighter `rgb(82, 82, 82)` and press the darker `rgb(64, 64, 64)`;
+  there it is the other way round. Transcribed as found.
+- The label's rest and pressed values use the **same token** `--token-3354c3de-221c-4edd-ae1d-909c9020f86d`
+  with different inlined fallbacks (`rgb(168, 162, 158)` vs `rgb(161, 161, 161)`). At runtime they
+  render identically, so pressing simply reverts the hover brightening.
+
+Default title is `Browse all integrations`, which is **not** used on this page.
 
 Instances on the page: three in Features ("Explore ..." under each feature block, all
 `.framer-2f6409-container`) and one in Integrations ("View integrations",
@@ -2478,7 +2630,13 @@ Recorded so the rebuild does not invent any:
 - Footer column headings: not links, no hover.
 - The Statistics numbers: static text.
 - `Dot Arrow`'s "Next" variant is authored but never triggered on this page.
-- `Hash` (`framer-XAHcT`), `Tag` (`framer-022zo`), `Check` (`framer-FCBgc`), `X` (`framer-RiU4T`),
-  `Life Buoy` (`framer-otzfv`), `Chevron Up` (`framer-RD9jt`), `Feature` (`framer-VrdWK`),
+- `Vertical Dot Arrow`'s "Up" variant (`amUd8Kex2`) is authored but never used.
+- `Graph Pulse` (`framer-U3LFO`), and with it `Tag` (`framer-022zo`) and `Hash` (`framer-XAHcT`),
+  render as the **third slot child of the Features rail-cart shape swapper** and inside the phone
+  Mobile Carousel. They are absent from `dom/full.html` only because the capture caught the swapper
+  at slot index 0. `Graph Pulse` is static: its `StatusPingV2` is passed `play: false`, its `Graph`
+  code component has no animation, and `Tag` / `Hash` have no variants at all.
+- `Check` (`framer-FCBgc`), `X` (`framer-RiU4T`) as a standalone (it is used as the mobile menu close
+  icon), `Life Buoy` (`framer-otzfv`), `Chevron Up` (`framer-RD9jt`), `Feature` (`framer-VrdWK`),
   `Page` (`framer-bEdDE`), `License Option` (`framer-6G52L`), `Checkout License Modal`
-  (`framer-bXSK9`): defined but not rendered on this page.
+  (`framer-bXSK9`): defined but not rendered in the page body.

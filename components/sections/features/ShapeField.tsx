@@ -7,7 +7,7 @@ import {
   useScroll,
   useTransform,
 } from "motion/react";
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from "react";
 
 import { SHAPES } from "./shapes";
 
@@ -211,13 +211,15 @@ export function ShapeField({
   children: ReactNode[];
 }) {
   const target = useRef<HTMLElement | null>(null);
-  // Resolved during render so the scroll listener below sees it on first pass;
-  // the element is already in the document by the time the client runs.
-  if (typeof document !== "undefined" && !target.current) {
-    target.current = document.getElementById(sectionName);
-  }
   const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+  // Resolved in a layout effect, which runs before the scroll listener's own
+  // effect below, so the listener still sees the element on its first pass.
+  // Doing it during render instead makes React report a state update from a
+  // component that has not mounted.
+  useLayoutEffect(() => {
+    target.current = document.getElementById(sectionName);
+    setMounted(true);
+  }, [sectionName]);
 
   const count = children.length;
   const { scrollYProgress } = useScroll({
