@@ -1,8 +1,78 @@
 {
  "url": "http://localhost:3799/this-route-does-not-exist",
  "ref": "reference/site-404",
- "at": "2026-09-12T13:17:47.552Z",
+ "at": "2026-09-12T13:21:45.799Z",
  "viewports": {
+  "desktop": {
+   "width": 1440,
+   "docHeight": {
+    "ref": 1909,
+    "build": 1909,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Light / MD",
+     "y": 68,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 968,
+     "ref": 941,
+     "build": 941,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+   ],
+   "diff": null,
+   "pass": false
+  },
+  "tablet": {
+   "width": 1024,
+   "docHeight": {
+    "ref": 1915,
+    "build": 1915,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Light / MD",
+     "y": 68,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 968,
+     "ref": 947,
+     "build": 947,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+   ],
+   "diff": null,
+   "pass": false
+  },
   "tablet-810": {
    "width": 810,
    "docHeight": {
@@ -41,7 +111,47 @@
    ],
    "diff": null,
    "pass": false
+  },
+  "mobile": {
+   "width": 390,
+   "docHeight": {
+    "ref": 1950,
+    "build": 1950,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -776,
+     "ref": 844,
+     "build": 844,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Light / MD",
+     "y": 68,
+     "ref": 844,
+     "build": 844,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 912,
+     "ref": 1038,
+     "build": 1038,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+   ],
+   "diff": null,
+   "pass": false
   }
  },
- "pass": false
+ "pass": false,
+ "blackout": true
 }

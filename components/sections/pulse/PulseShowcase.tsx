@@ -241,7 +241,7 @@ const SECTIONS: Array<{ title: string; body: string }> = [
   {
     title: "Routed to the right person, instantly.",
     // The dash here is the source copy's own punctuation, kept verbatim.
-    body: "The right alert reaches the right person every time. Route by severity, by team, or by source — without anyone manually deciding who gets what.",
+    body: "The right alert reaches the right person every time. Route by severity, by team, or by source \u2014 without anyone manually deciding who gets what.",
   },
 ];
 

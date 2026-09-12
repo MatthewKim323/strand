@@ -65,7 +65,7 @@ const ALERT_GRADIENT = [
 const INFO_ROWS: Array<[string, string, string]> = [
   ["metric", "active_sessions", C_TEXT],
   ["current", "1,840", C_TEXT],
-  ["expected", "3,200–3,800", C_TEXT],
+  ["expected", "3,200\u20133,800", C_TEXT],
   ["deviation", "-42%", C_RED],
 ];
 

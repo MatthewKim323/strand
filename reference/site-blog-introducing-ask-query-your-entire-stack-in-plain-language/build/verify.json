@@ -1,0 +1,149 @@
+{
+ "url": "http://localhost:3799/blog/introducing-ask-query-your-entire-stack-in-plain-language",
+ "ref": "reference/site-blog-introducing-ask-query-your-entire-stack-in-plain-language",
+ "at": "2026-09-12T13:20:33.935Z",
+ "viewports": {
+  "desktop": {
+   "width": 1440,
+   "docHeight": {
+    "ref": 3139,
+    "build": 3139,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Blog",
+     "y": 68,
+     "ref": 1453,
+     "build": 1453,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 1521,
+     "ref": 1618,
+     "build": 1618,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet": {
+   "width": 1024,
+   "docHeight": {
+    "ref": 3133,
+    "build": 3133,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Blog",
+     "y": 68,
+     "ref": 1441,
+     "build": 1441,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 1509,
+     "ref": 1624,
+     "build": 1624,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet-810": {
+   "width": 810,
+   "docHeight": {
+    "ref": 3078,
+    "build": 3078,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Blog",
+     "y": 68,
+     "ref": 1441,
+     "build": 1441,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 1509,
+     "ref": 1569,
+     "build": 1569,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "mobile": {
+   "width": 390,
+   "docHeight": {
+    "ref": 3399,
+    "build": 3399,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -776,
+     "ref": 844,
+     "build": 844,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Blog",
+     "y": 68,
+     "ref": 1616,
+     "build": 1616,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 1684,
+     "ref": 1715,
+     "build": 1715,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  }
+ },
+ "pass": true,
+ "blackout": true
+}

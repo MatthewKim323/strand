@@ -30,6 +30,12 @@ export type Block =
 export type Body = {
   /** The `datetime` attribute the reference puts on the posted date. */
   isoDate: string;
+  /**
+   * The hero graphic, when the collection entry carries none. The listing only
+   * renders a graphic for the two featured entries, so the rest of the wide
+   * images only show up on the detail pages and are recorded here.
+   */
+  graphic?: string;
   blocks: Block[];
 };
 

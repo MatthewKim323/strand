@@ -86,26 +86,46 @@ function Runs({ runs }: { runs: Run[] }) {
 }
 
 function RichBlock({ block }: { block: Block }) {
-  if (block.kind === "ul" || block.kind === "ol") {
-    const items = block.items.map((runs, i) => (
-      <li key={i}>
-        <Runs runs={runs} />
-      </li>
-    ));
-    return block.kind === "ul" ? <ul>{items}</ul> : <ol>{items}</ol>;
-  }
-  const runs = <Runs runs={block.runs} />;
   switch (block.kind) {
+    case "ul":
+    case "ol": {
+      const items = block.items.map((runs, i) => (
+        <li key={i}>
+          <Runs runs={runs} />
+        </li>
+      ));
+      return block.kind === "ul" ? <ul>{items}</ul> : <ol>{items}</ol>;
+    }
     case "h2":
-      return <h2 dir="auto">{runs}</h2>;
+      return (
+        <h2 dir="auto">
+          <Runs runs={block.runs} />
+        </h2>
+      );
     case "h3":
-      return <h3 dir="auto">{runs}</h3>;
+      return (
+        <h3 dir="auto">
+          <Runs runs={block.runs} />
+        </h3>
+      );
     case "h4":
-      return <h4 dir="auto">{runs}</h4>;
+      return (
+        <h4 dir="auto">
+          <Runs runs={block.runs} />
+        </h4>
+      );
     case "blockquote":
-      return <blockquote dir="auto">{runs}</blockquote>;
+      return (
+        <blockquote dir="auto">
+          <Runs runs={block.runs} />
+        </blockquote>
+      );
     default:
-      return <p dir="auto">{runs}</p>;
+      return (
+        <p dir="auto">
+          <Runs runs={block.runs} />
+        </p>
+      );
   }
 }
 
@@ -122,6 +142,7 @@ function RichBlock({ block }: { block: Block }) {
  */
 export function ArticleBlock({ article }: { article: Article }) {
   const body = BODIES[article.slug];
+  const graphic = article.graphic ?? body?.graphic;
 
   return (
     <section id="blog" data-section="Blog" className="ar-block">
@@ -179,12 +200,12 @@ export function ArticleBlock({ article }: { article: Article }) {
               </div>
             </div>
 
-            {article.graphic ? (
+            {graphic ? (
               <div className="ar-graphic">
                 <div className="ar-graphic-frame">
                   <span className="ar-edge ar-edge-all" aria-hidden="true" />
                   <span>
-                    <img src={article.graphic} alt={article.title} />
+                    <img src={graphic} alt={article.title} />
                   </span>
                 </div>
               </div>
