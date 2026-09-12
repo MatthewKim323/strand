@@ -1,6 +1,9 @@
 "use client";
 
-import type { CSSProperties } from "react";
+import { useEffect, useState, type CSSProperties } from "react";
+import { AnimatePresence, motion } from "motion/react";
+
+import { TWEEN } from "@/lib/motion";
 import { CxIcon, Hairline, LiveDot, Pill, T } from "./ui";
 import { CX_MARKS } from "./marks";
 
@@ -528,21 +531,157 @@ export function QueryVisual() {
   );
 }
 
+/**
+ * The roster, in the source's own slot order. The ticker window wraps through
+ * it, so the order is what decides which four sit under the fade at any moment.
+ */
 const SOURCES: Array<{ mark: string; name: string; main: string; secondary: string }> = [
+  { mark: CX_MARKS.threadbase, name: "ThreadBase", main: "42 channels", secondary: "alerts enabled" },
+  { mark: CX_MARKS.pipecloud, name: "Pipecloud", main: "874 accounts", secondary: "12,400 records" },
+  { mark: CX_MARKS.chatdock, name: "Chatdock", main: "9.841 conversations", secondary: "204 open" },
   { mark: CX_MARKS.vaultdb, name: "VaultDB", main: "38 schemes", secondary: "6.4M rows" },
   { mark: CX_MARKS.stride, name: "Stride", main: "$2.4 MMR", secondary: "1,204 subscriptions" },
-  // TODO(spec): ThreadBase's own mark is not in the harvested asset set, so the
-  // clover mark stands in for it.
-  { mark: CX_MARKS.gridwork, name: "ThreadBase", main: "42 channels", secondary: "alerts enabled" },
 ];
+
+/** Slots mounted at once and seconds between advances, both the panel's props. */
+const SLOTS = 10;
+const INTERVAL = 4;
+
+/** The fade the roster scrolls up under, copied from the container's own mask. */
+const FEED_MASK = "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 22.0721%)";
+
+function SourceRow({ source }: { source: (typeof SOURCES)[number] }) {
+  return (
+    <div
+      style={{
+        position: "relative",
+        display: "flex",
+        flexFlow: "row nowrap",
+        placeContent: "center",
+        alignItems: "center",
+        gap: 12,
+        width: "100%",
+        padding: 16,
+        backgroundColor: T.panel,
+        boxShadow: `inset 0 1px 0 0 ${T.line}`,
+        overflow: "hidden",
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          flexFlow: "row nowrap",
+          placeContent: "center",
+          alignItems: "center",
+          gap: 16,
+          width: 40,
+          height: 40,
+          flex: "none",
+        }}
+      >
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img alt="" src={source.mark} style={{ width: 32, height: 32, flex: "none", display: "block" }} />
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexFlow: "column nowrap",
+          alignContent: "flex-start",
+          justifyContent: "center",
+          alignItems: "flex-start",
+          gap: 0,
+          flex: "1 0 0",
+          width: 1,
+          overflow: "hidden",
+        }}
+      >
+        <p className="t-body" style={{ margin: 0, whiteSpace: "pre", color: T.bright }}>
+          {source.name}
+        </p>
+        <div
+          style={{
+            display: "flex",
+            flexFlow: "row wrap",
+            alignContent: "center",
+            justifyContent: "flex-start",
+            alignItems: "center",
+            gap: 8,
+            width: "100%",
+          }}
+        >
+          <p className="t-mono-s" style={{ margin: 0, whiteSpace: "pre", color: T.accent }}>
+            {source.main}
+          </p>
+          <div
+            style={{
+              width: 4,
+              height: 4,
+              borderRadius: 96,
+              backgroundColor: T.dimmer,
+              flex: "none",
+            }}
+          />
+          <p className="t-mono-s" style={{ margin: 0, whiteSpace: "pre", color: T.dim }}>
+            {source.secondary}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * The roster ticker. Ten slots are mounted at once and the stack is bottom
+ * anchored inside a clipped box under a top fade, so only the last four sit in
+ * view. Every four seconds the window advances by one source: each row keeps
+ * its identity and slides up a slot, a fresh one enters from the left at the
+ * bottom, and the top one leaves under the fade. The rows carry no transition
+ * of their own, so the enter and the layout shift both run on the panel's house
+ * tween.
+ */
+function SourceFeed() {
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    const id = window.setInterval(() => setOffset((v) => v + 1), INTERVAL * 1000);
+    return () => window.clearInterval(id);
+  }, []);
+
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexFlow: "column nowrap",
+        justifyContent: "flex-end",
+        width: "100%",
+        height: "100%",
+        overflow: "hidden",
+      }}
+    >
+      <AnimatePresence initial={false}>
+        {Array.from({ length: SLOTS }, (_, slot) => {
+          const key = offset + slot;
+          return (
+            <motion.div
+              key={key}
+              layout
+              initial={{ opacity: 0, x: "-100%" }}
+              animate={{ opacity: 1, x: "0%" }}
+              transition={TWEEN}
+              style={{ width: "100%", flex: "none" }}
+            >
+              <SourceRow source={SOURCES[key % SOURCES.length]} />
+            </motion.div>
+          );
+        })}
+      </AnimatePresence>
+    </div>
+  );
+}
 
 /**
  * The first entry's visual: the connected-source roster with its running
  * totals.
- *
- * TODO(spec): the source runs the roster as a five-entry vertical ticker with a
- * fade at the top. This renders the three rows that are on screen at rest; the
- * ticker motion is not reproduced.
  */
 export function SourcesVisual() {
   return (
@@ -581,75 +720,29 @@ export function SourcesVisual() {
         </p>
       </div>
       <div style={{ width: "100%", height: 1, backgroundColor: T.line, flex: "none" }} />
-      <div style={{ flex: "1 0 0", width: "100%", overflow: "hidden" }}>
-        {SOURCES.map((s, i) => (
-          <div key={s.name}>
-            {i > 0 ? <div style={{ width: "100%", height: 1, backgroundColor: T.line }} /> : null}
-            <div
-              style={{
-                display: "flex",
-                flexFlow: "row nowrap",
-                placeContent: "center",
-                alignItems: "center",
-                gap: 12,
-                width: "100%",
-                padding: 16,
-              }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  flexFlow: "row nowrap",
-                  placeContent: "center",
-                  alignItems: "center",
-                  gap: 16,
-                  width: 40,
-                  height: 40,
-                  flex: "none",
-                }}
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img alt="" src={s.mark} style={{ width: 24, height: 24, display: "block" }} />
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  flexFlow: "column nowrap",
-                  alignContent: "flex-start",
-                  justifyContent: "center",
-                  alignItems: "flex-start",
-                  gap: 0,
-                  flex: "1 0 0",
-                  width: 1,
-                  overflow: "hidden",
-                }}
-              >
-                <p className="t-body" style={{ margin: 0, whiteSpace: "pre", color: T.bright }}>
-                  {s.name}
-                </p>
-                <div
-                  style={{
-                    display: "flex",
-                    flexFlow: "row wrap",
-                    alignContent: "center",
-                    justifyContent: "flex-start",
-                    alignItems: "center",
-                    gap: 8,
-                    width: "100%",
-                  }}
-                >
-                  <p className="t-mono-s" style={{ margin: 0, whiteSpace: "pre", color: T.accent }}>
-                    {s.main}
-                  </p>
-                  <div style={{ width: 4, height: 4, backgroundColor: T.dimmer, flex: "none" }} />
-                  <p className="t-mono-s" style={{ margin: 0, whiteSpace: "pre", color: T.dim }}>
-                    {s.secondary}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
+      <div
+        style={{
+          display: "flex",
+          flexFlow: "row nowrap",
+          alignItems: "flex-start",
+          flex: "1 0 0",
+          width: "100%",
+          height: 1,
+          overflow: "hidden",
+        }}
+      >
+        <div
+          style={{
+            position: "relative",
+            flex: "1 0 0",
+            width: 1,
+            height: "100%",
+            WebkitMaskImage: FEED_MASK,
+            maskImage: FEED_MASK,
+          }}
+        >
+          <SourceFeed />
+        </div>
       </div>
       <div style={{ width: "100%", height: 1, backgroundColor: T.line, flex: "none" }} />
       <div
