@@ -1,0 +1,42 @@
+[
+ {
+  "name": "00-hero",
+  "differ": 0.008514786690896505
+ },
+ {
+  "name": "01-steps",
+  "differ": 0.012738128753753753
+ },
+ {
+  "name": "02-partners",
+  "differ": 0.046913667929292927
+ },
+ {
+  "name": "03-conversation",
+  "differ": 0.004988364115116451
+ },
+ {
+  "name": "04-features",
+  "differ": 0.004291087962962963
+ },
+ {
+  "name": "05-integrations",
+  "differ": 0.008560492546488397
+ },
+ {
+  "name": "06-testimonials",
+  "differ": 0.000037842022555000925
+ },
+ {
+  "name": "07-statistics",
+  "differ": 0.0024678340149965916
+ },
+ {
+  "name": "08-faq",
+  "differ": 0.0005255805121527778
+ },
+ {
+  "name": "09-footer-container",
+  "differ": 0.0031400219750034337
+ }
+]

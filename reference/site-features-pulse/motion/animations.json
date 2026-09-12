@@ -1,0 +1,2412 @@
+{
+ "capturedAt": "2026-09-12T12:21:31.811Z",
+ "stack": {
+  "framework": "framer",
+  "framer": true,
+  "framerMotion": true,
+  "webflow": true,
+  "lenis": true,
+  "gsap": false,
+  "three": true,
+  "spline": false,
+  "notes": [
+   "Built with Framer: appear ids, data-framer-name, framerusercontent modules. Use `1to1 prep` + `1to1 rip`.",
+   "Lenis smooth scroll present: window.scrollTo may be overridden, rigs fall back to wheel events.",
+   "4 canvas element(s): WebGL / 2D drawing to port (find the module that draws it)."
+  ]
+ },
+ "computed": [
+  {
+   "selector": "html.lenis.lenis-autoToggle",
+   "tag": "html",
+   "text": "Strand - AI Data Intelligence Platform\n    \n    \n    \n    \n ",
+   "transition": "overflow 0.001s ease 0s",
+   "framer": {}
+  },
+  {
+   "selector": "html.lenis.lenis-autoToggle > head > style",
+   "tag": "style",
+   "text": "html,body,#main{box-sizing:border-box;margin:0;padding:0}:ro",
+   "framer": {
+    "framerComponents": "framer-lib-cursors-host framer-2U5dV PropertyOverrides framer-Ixlxu framer-lib-combinedCSSRules framer-Hi6IO framer-YfD1"
+   }
+  },
+  {
+   "selector": "html.lenis.lenis-autoToggle > head > style",
+   "tag": "style",
+   "framer": {
+    "framerCss": "true"
+   }
+  },
+  {
+   "selector": "div",
+   "tag": "div",
+   "text": ":root body { background: var(--token-7f40e4a1-2b83-444e-8765",
+   "framer": {
+    "framerHydrateV2": "{\"routeId\":\"h_z4hgo42\",\"localeId\":\"default\",\"breakpoints\":[{\"hash\":\"h3dgu5\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\":",
+    "framerSsrReleasedAt": "2026-08-24T09:50:12.472Z",
+    "framerPageOptimizedAt": "2026-08-25T15:19:48.038Z"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerAppearId": "w6pet3"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerName": "Details"
+   }
+  },
+  {
+   "selector": "div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrand",
+   "framer": {
+    "framerName": "Purchase Template"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l",
+   "tag": "div",
+   "text": "StrandTemplate",
+   "framer": {
+    "framerName": "Template Name"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l > div.framer-1y4sdjl",
+   "tag": "div",
+   "text": "Strand",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l > div.framer-1dltf4q",
+   "tag": "div",
+   "text": "Template",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6",
+   "tag": "div",
+   "text": "PurchaseStrand",
+   "framer": {
+    "framerName": "Template Name"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6 > div.framer-1nwln5j",
+   "tag": "div",
+   "text": "Purchase",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6 > div.framer-xmkk33",
+   "tag": "div",
+   "text": "Strand",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w",
+   "tag": "div",
+   "text": "from$109",
+   "framer": {
+    "framerName": "Starting from"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w > div.framer-a14xbr",
+   "tag": "div",
+   "text": "from",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w > div.framer-5r25d2",
+   "tag": "div",
+   "text": "$109",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-dkby0a",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-dkby0a > div.framer-15d7y5z > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-gu3ill",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Navigation"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-gu3ill > div.framer-2zulxl",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-gu3ill > div.framer-2zulxl > div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-2zulxl > div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Nav Stack"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAbout",
+   "framer": {
+    "framerName": "Main Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > a.framer-tfxiwl.framer-1nrg7n2",
+   "tag": "a",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > a.framer-tfxiwl.framer-1nrg7n2 > div.framer-6rl07u",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG",
+    "framerName": "Union"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAbout",
+   "framer": {
+    "framerName": "Navigation Menu"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Features",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Right Icon"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerName": "Resources"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Resources",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Right Icon"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1jhb7w3-container",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Pricing"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1jhb7w3-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-1jhb7w3-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1fx5otc-container",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerName": "About"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1fx5otc-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "About",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-1fx5otc-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Buttons"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0 > div.framer-ttq5lt-container",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Sign up"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0 > div.framer-ttq5lt-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / LG"
+   }
+  },
+  {
+   "selector": "div.framer-rq3bc0 > div.framer-ttq5lt-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-1fgeinl",
+   "tag": "div",
+   "text": "FeaturesPulsePulseLess noise.The alerts that matter.Pulse le",
+   "framer": {
+    "framerName": "Hero"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-1fgeinl > div.framer-1v0c8zx",
+   "tag": "div",
+   "text": "FeaturesPulsePulseLess noise.The alerts that matter.Pulse le",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-1fgeinl > div.framer-1v0c8zx > div.framer-1v56vad",
+   "tag": "div",
+   "text": "FeaturesPulse",
+   "framer": {
+    "framerName": "Breadcrumbs"
+   }
+  },
+  {
+   "selector": "div.framer-BRSpH.framer-Hl0ue > div.framer-1fgeinl > div.framer-1v0c8zx > div.framer-1v56vad > div.framer-1jzxpfs",
+   "tag": "div",
+   "text": "FeaturesPulse",
+   "framer": {
+    "framerName": "Scroll Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1v56vad > div.framer-1jzxpfs > div.framer-12oebdi-container > div.ssr-variant.hidden-5xzt07 > div.framer-8lJc6.framer-hlXus",
+   "tag": "div",
+   "text": "FeaturesPulse",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1jzxpfs > div.framer-12oebdi-container > div.ssr-variant.hidden-5xzt07 > div.framer-8lJc6.framer-hlXus > div.framer-6thjid",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerName": "Link 1",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-8lJc6.framer-hlXus > div.framer-6thjid > p.framer-text.framer-styles-preset-c6fndl > a.framer-text.framer-styles-preset-bg0y7m",
+   "tag": "a",
+   "text": "Features",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-12oebdi-container > div.ssr-variant.hidden-5xzt07 > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "div.framer-1jzxpfs > div.framer-12oebdi-container > div.ssr-variant.hidden-5xzt07 > div.framer-8lJc6.framer-hlXus > div.framer-griopk",
+   "tag": "div",
+   "text": "Pulse",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-1fgeinl > div.framer-1v0c8zx > div.framer-gyvp16",
+   "tag": "div",
+   "text": "PulseLess noise.The alerts that matter.Pulse learns what nor",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div.framer-BRSpH.framer-Hl0ue > div.framer-1fgeinl > div.framer-1v0c8zx > div.framer-gyvp16 > div.framer-7rw7em",
+   "tag": "div",
+   "text": "PulseLess noise.The alerts that matter.Pulse learns what nor",
+   "framer": {
+    "framerName": "Main Title"
+   }
+  },
+  {
+   "selector": "div.framer-1fgeinl > div.framer-1v0c8zx > div.framer-gyvp16 > div.framer-7rw7em > div.framer-19y5ert",
+   "tag": "div",
+   "text": "PulseLess noise.The alerts that matter.Pulse learns what nor",
+   "framer": {
+    "framerName": "Title Container"
+   }
+  },
+  {
+   "selector": "div.framer-7rw7em > div.framer-19y5ert > div.ssr-variant > div.framer-ak2z7m-container > div.framer-mEJFY.framer-jhxgU",
+   "tag": "div",
+   "text": "Pulse",
+   "framer": {
+    "framerName": "Extra Padding"
+   }
+  },
+  {
+   "selector": "div.framer-19y5ert > div.ssr-variant > div.framer-ak2z7m-container > div.framer-mEJFY.framer-jhxgU > div.framer-6ojv5w",
+   "tag": "div",
+   "text": "Pulse",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1v0c8zx > div.framer-gyvp16 > div.framer-7rw7em > div.framer-19y5ert > div.framer-1tvjexg",
+   "tag": "div",
+   "text": "Less noise.The alerts that matter.Pulse learns what normal l",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-7rw7em > div.framer-19y5ert > div.framer-1tvjexg > div.ssr-variant.hidden-5xzt07 > div.framer-10q3l71",
+   "tag": "div",
+   "text": "Less noise.The alerts that matter.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-7rw7em > div.framer-19y5ert > div.framer-1tvjexg > div.ssr-variant.hidden-5xzt07 > div.framer-1v87zom",
+   "tag": "div",
+   "text": "Pulse learns what normal looks like for your business and on",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1v0c8zx > div.framer-gyvp16 > div.framer-7rw7em > div.framer-19y5ert > div.framer-f6t46w",
+   "tag": "div",
+   "text": "Get startedView prices",
+   "framer": {
+    "framerName": "CTAs"
+   }
+  },
+  {
+   "selector": "div.framer-19y5ert > div.framer-f6t46w > div.ssr-variant > div.framer-165503c-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / XL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-165503c-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-19y5ert > div.framer-f6t46w > div.ssr-variant > div.framer-dwiou7-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "View prices",
+   "framer": {
+    "framerName": "Secondary / XL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-dwiou7-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "View prices",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-BRSpH.framer-Hl0ue > div.framer-1fgeinl > div.framer-1v0c8zx > div.framer-gyvp16 > div.framer-1u73r9v",
+   "tag": "div",
+   "framer": {
+    "framerName": "Main Graphic"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-1tovje3",
+   "tag": "div",
+   "text": "metricactive_sessionscurrent1,840expected3,200–3,800deviatio",
+   "framer": {
+    "framerName": "Bento"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-1tovje3 > div.framer-1dms52a",
+   "tag": "div",
+   "text": "metricactive_sessionscurrent1,840expected3,200–3,800deviatio",
+   "framer": {
+    "framerName": "First Row"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-1tovje3 > div.framer-1dms52a > div.framer-51ya6g",
+   "tag": "div",
+   "text": "metricactive_sessionscurrent1,840expected3,200–3,800deviatio",
+   "framer": {
+    "framerName": "Entity"
+   }
+  },
+  {
+   "selector": "div.framer-BRSpH.framer-Hl0ue > div.framer-1tovje3 > div.framer-1dms52a > div.framer-51ya6g > div.framer-vzdizi",
+   "tag": "div",
+   "text": "metricactive_sessionscurrent1,840expected3,200–3,800deviatio",
+   "framer": {
+    "framerName": "Visual Container"
+   }
+  },
+  {
+   "selector": "div.framer-1dms52a > div.framer-51ya6g > div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi",
+   "tag": "div",
+   "text": "metricactive_sessionscurrent1,840expected3,200–3,800deviatio",
+   "framer": {
+    "framerName": "Graph"
+   }
+  },
+  {
+   "selector": "div.framer-51ya6g > div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-74ajx7",
+   "tag": "div",
+   "text": "metricactive_sessionscurrent1,840expected3,200–3,800deviatio",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-74ajx7 > div.framer-enkcqd-container > div.framer-ecdTV.framer-QXjqX",
+   "tag": "div",
+   "text": "metricactive_sessions",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1wlo0pi > div.framer-74ajx7 > div.framer-enkcqd-container > div.framer-ecdTV.framer-QXjqX > div.framer-1fx9ry1",
+   "tag": "div",
+   "text": "metric",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1wlo0pi > div.framer-74ajx7 > div.framer-enkcqd-container > div.framer-ecdTV.framer-QXjqX > div.framer-lf3mgl",
+   "tag": "div",
+   "text": "active_sessions",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-74ajx7 > div.framer-v2alfy-container > div.framer-ecdTV.framer-QXjqX",
+   "tag": "div",
+   "text": "current1,840",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1wlo0pi > div.framer-74ajx7 > div.framer-v2alfy-container > div.framer-ecdTV.framer-QXjqX > div.framer-1fx9ry1",
+   "tag": "div",
+   "text": "current",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1wlo0pi > div.framer-74ajx7 > div.framer-v2alfy-container > div.framer-ecdTV.framer-QXjqX > div.framer-lf3mgl",
+   "tag": "div",
+   "text": "1,840",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-74ajx7 > div.framer-vyzr53-container > div.framer-ecdTV.framer-QXjqX",
+   "tag": "div",
+   "text": "expected3,200–3,800",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1wlo0pi > div.framer-74ajx7 > div.framer-vyzr53-container > div.framer-ecdTV.framer-QXjqX > div.framer-1fx9ry1",
+   "tag": "div",
+   "text": "expected",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1wlo0pi > div.framer-74ajx7 > div.framer-vyzr53-container > div.framer-ecdTV.framer-QXjqX > div.framer-lf3mgl",
+   "tag": "div",
+   "text": "3,200–3,800",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-74ajx7 > div.framer-d9rnfh-container > div.framer-ecdTV.framer-QXjqX",
+   "tag": "div",
+   "text": "deviation-42%",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1wlo0pi > div.framer-74ajx7 > div.framer-d9rnfh-container > div.framer-ecdTV.framer-QXjqX > div.framer-1fx9ry1",
+   "tag": "div",
+   "text": "deviation",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1wlo0pi > div.framer-74ajx7 > div.framer-d9rnfh-container > div.framer-ecdTV.framer-QXjqX > div.framer-lf3mgl",
+   "tag": "div",
+   "text": "-42%",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-51ya6g > div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-f0it4g",
+   "tag": "div",
+   "text": "High severity2 min ago",
+   "framer": {
+    "framerName": "Tag"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-f0it4g > div.framer-1ij00yq-container > div.framer-022zo.framer-jhxgU",
+   "tag": "div",
+   "text": "High severity",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1wlo0pi > div.framer-f0it4g > div.framer-1ij00yq-container > div.framer-022zo.framer-jhxgU > div.framer-hszfpk",
+   "tag": "div",
+   "text": "High severity",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-f0it4g > div.framer-uyo0jn",
+   "tag": "div",
+   "text": "2 min ago",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-51ya6g > div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-6a10dq",
+   "tag": "div",
+   "text": "Active sessionsActivation in EU markets fell from 34% to 22%",
+   "framer": {
+    "framerName": "Title"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-6a10dq > div.framer-1gidfcx",
+   "tag": "div",
+   "text": "Active sessions",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-6a10dq > div.framer-rwam4j",
+   "tag": "div",
+   "text": "Activation in EU markets fell from 34% to 22% over the past ",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-51ya6g > div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-f7ckfq",
+   "tag": "div",
+   "text": "BaselineAnomaly",
+   "framer": {
+    "framerName": "Graph Container"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-f7ckfq > div.framer-in0x49",
+   "tag": "div",
+   "text": "Baseline",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-f7ckfq > div.framer-1vep3xb",
+   "tag": "div",
+   "text": "Anomaly",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-51ya6g > div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-u5segg",
+   "tag": "div",
+   "text": "Oct 1Oct 8Oct 15Oct 22Oct 29",
+   "framer": {
+    "framerName": "Graph dates"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-u5segg > div.framer-1iw3ykf",
+   "tag": "div",
+   "text": "Oct 1",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-u5segg > div.framer-ixqlju",
+   "tag": "div",
+   "text": "Oct 8",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-u5segg > div.framer-1anqgo7",
+   "tag": "div",
+   "text": "Oct 15",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-u5segg > div.framer-1pa5y5h",
+   "tag": "div",
+   "text": "Oct 22",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-u5segg > div.framer-1y4at54",
+   "tag": "div",
+   "text": "Oct 29",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-51ya6g > div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-7h9fxh",
+   "tag": "div",
+   "text": "Sent to #product-alertsDelivered 1m ago",
+   "framer": {
+    "framerName": "Additional notifications"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-7h9fxh > div.framer-1927so",
+   "tag": "div",
+   "text": "Sent to #product-alerts",
+   "framer": {
+    "framerName": "Sent to"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-7h9fxh > div.framer-1927so > div.framer-rbt9sg",
+   "tag": "div",
+   "framer": {
+    "framerName": "Hashtag"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-7h9fxh > div.framer-1927so > div.framer-1kd3o6o",
+   "tag": "div",
+   "text": "Sent to #product-alerts",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-7h9fxh > div.framer-ov0pi2",
+   "tag": "div",
+   "framer": {
+    "framerName": "Gap"
+   }
+  },
+  {
+   "selector": "div.framer-vzdizi > div.ssr-variant.hidden-5xzt07 > div.framer-1wlo0pi > div.framer-7h9fxh > div.framer-zagd30",
+   "tag": "div",
+   "text": "Delivered 1m ago",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-BRSpH.framer-Hl0ue > div.framer-1tovje3 > div.framer-1dms52a > div.framer-51ya6g > div.framer-8nykb8",
+   "tag": "div",
+   "text": "Adaptive baselines, per metric.Pulse builds a normal range f",
+   "framer": {
+    "framerName": "Text"
+   }
+  },
+  {
+   "selector": "div.framer-1tovje3 > div.framer-1dms52a > div.framer-51ya6g > div.framer-8nykb8 > div.framer-12nv2en",
+   "tag": "div",
+   "text": "Adaptive baselines, per metric.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1tovje3 > div.framer-1dms52a > div.framer-51ya6g > div.framer-8nykb8 > div.framer-asqf2t",
+   "tag": "div",
+   "text": "Pulse builds a normal range for every data point it watches.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-1tovje3 > div.framer-1dms52a > div.framer-1ugzrk",
+   "tag": "div",
+   "text": "Active sessions87 / 100Source:Stride/MixboardScore breakdown",
+   "framer": {
+    "framerName": "Graph"
+   }
+  },
+  {
+   "selector": "div.framer-BRSpH.framer-Hl0ue > div.framer-1tovje3 > div.framer-1dms52a > div.framer-1ugzrk > div.framer-13h3qec",
+   "tag": "div",
+   "text": "Active sessions87 / 100Source:Stride/MixboardScore breakdown",
+   "framer": {
+    "framerName": "Visual Container"
+   }
+  },
+  {
+   "selector": "div.framer-1dms52a > div.framer-1ugzrk > div.framer-13h3qec > div.ssr-variant.hidden-5xzt07 > div.framer-1g24rw4",
+   "tag": "div",
+   "text": "Active sessions87 / 100Source:Stride/MixboardScore breakdown",
+   "framer": {
+    "framerName": "Graph"
+   }
+  },
+  {
+   "selector": "div.framer-1ugzrk > div.framer-13h3qec > div.ssr-variant.hidden-5xzt07 > div.framer-1g24rw4 > div.framer-h6bx39",
+   "tag": "div",
+   "text": "Active sessions87 / 100",
+   "framer": {
+    "framerName": "Title and Score"
+   }
+  },
+  {
+   "selector": "div.framer-13h3qec > div.ssr-variant.hidden-5xzt07 > div.framer-1g24rw4 > div.framer-h6bx39 > div.framer-1pbp7n4",
+   "tag": "div",
+   "text": "Active sessions",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-13h3qec > div.ssr-variant.hidden-5xzt07 > div.framer-1g24rw4 > div.framer-h6bx39 > div.framer-f63fc",
+   "tag": "div",
+   "text": "87 / 100",
+   "framer": {
+    "framerName": "Score"
+   }
+  },
+  {
+   "selector": "div.framer-1g24rw4 > div.framer-h6bx39 > div.framer-f63fc > div.framer-1m0bpd5 > div.framer-sx4vmy",
+   "tag": "div",
+   "text": "87",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1g24rw4 > div.framer-h6bx39 > div.framer-f63fc > div.framer-1m0bpd5 > div.framer-1erh9p9",
+   "tag": "div",
+   "text": "/ 100",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1ugzrk > div.framer-13h3qec > div.ssr-variant.hidden-5xzt07 > div.framer-1g24rw4 > div.framer-46el25",
+   "tag": "div",
+   "text": "Source:Stride/Mixboard",
+   "framer": {
+    "framerName": "Source"
+   }
+  },
+  {
+   "selector": "div.framer-13h3qec > div.ssr-variant.hidden-5xzt07 > div.framer-1g24rw4 > div.framer-46el25 > div.framer-1ioayrz",
+   "tag": "div",
+   "text": "Source:",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-1g24rw4 > div.framer-46el25 > div.framer-53wg0b > div.framer-12ej3h9",
+   "tag": "div",
+   "text": "Stride",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-13h3qec > div.ssr-variant.hidden-5xzt07 > div.framer-1g24rw4 > div.framer-46el25 > div.framer-c049i8",
+   "tag": "div",
+   "text": "/",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-5xzt07 > div.framer-1g24rw4 > div.framer-46el25 > div.framer-1jvwzn0 > div.framer-yp6iqb",
+   "tag": "div",
+   "text": "Mixboard",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1ugzrk > div.framer-13h3qec > div.ssr-variant.hidden-5xzt07 > div.framer-1g24rw4 > div.framer-14y11z4",
+   "tag": "div",
+   "text": "Score breakdownDeviation from baseline-34% · highTiming cont",
+   "framer": {
+    "framerName": "Breakdown"
+   }
+  },
+  {
+   "selector": "div.framer-13h3qec > div.ssr-variant.hidden-5xzt07 > div.framer-1g24rw4 > div.framer-14y11z4 > div.framer-1rc9tm2",
+   "tag": "div",
+   "text": "Score breakdown",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1g24rw4 > div.framer-14y11z4 > div.ssr-variant > div.framer-95e0h4-container > div.framer-6YHpe.framer-jhxgU",
+   "tag": "div",
+   "text": "Deviation from baseline-34% · high",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-14y11z4 > div.ssr-variant > div.framer-95e0h4-container > div.framer-6YHpe.framer-jhxgU > div.framer-1wkm1l9",
+   "tag": "div",
+   "text": "Deviation from baseline-34% · high",
+   "framer": {
+    "framerName": "Title"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-95e0h4-container > div.framer-6YHpe.framer-jhxgU > div.framer-1wkm1l9 > div.framer-ck6xv1",
+   "tag": "div",
+   "text": "Deviation from baseline",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-95e0h4-container > div.framer-6YHpe.framer-jhxgU > div.framer-1wkm1l9 > div.framer-15lzppf",
+   "tag": "div",
+   "text": "-34% · high",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-14y11z4 > div.ssr-variant > div.framer-95e0h4-container > div.framer-6YHpe.framer-jhxgU > div.framer-oyz1f3",
+   "tag": "div",
+   "framer": {
+    "framerName": "Status"
+   }
+  },
+  {
+   "selector": "div.framer-1g24rw4 > div.framer-14y11z4 > div.ssr-variant > div.framer-8lmbrd-container > div.framer-6YHpe.framer-jhxgU",
+   "tag": "div",
+   "text": "Timing contextpeak traffic window",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-14y11z4 > div.ssr-variant > div.framer-8lmbrd-container > div.framer-6YHpe.framer-jhxgU > div.framer-1wkm1l9",
+   "tag": "div",
+   "text": "Timing contextpeak traffic window",
+   "framer": {
+    "framerName": "Title"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-8lmbrd-container > div.framer-6YHpe.framer-jhxgU > div.framer-1wkm1l9 > div.framer-ck6xv1",
+   "tag": "div",
+   "text": "Timing context",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-8lmbrd-container > div.framer-6YHpe.framer-jhxgU > div.framer-1wkm1l9 > div.framer-15lzppf",
+   "tag": "div",
+   "text": "peak traffic window",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-14y11z4 > div.ssr-variant > div.framer-8lmbrd-container > div.framer-6YHpe.framer-jhxgU > div.framer-oyz1f3",
+   "tag": "div",
+   "framer": {
+    "framerName": "Status"
+   }
+  },
+  {
+   "selector": "div.framer-1g24rw4 > div.framer-14y11z4 > div.ssr-variant > div.framer-rbcjfd-container > div.framer-6YHpe.framer-jhxgU",
+   "tag": "div",
+   "text": "Business impactrevenue-critical metric",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-14y11z4 > div.ssr-variant > div.framer-rbcjfd-container > div.framer-6YHpe.framer-jhxgU > div.framer-1wkm1l9",
+   "tag": "div",
+   "text": "Business impactrevenue-critical metric",
+   "framer": {
+    "framerName": "Title"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-rbcjfd-container > div.framer-6YHpe.framer-jhxgU > div.framer-1wkm1l9 > div.framer-ck6xv1",
+   "tag": "div",
+   "text": "Business impact",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-rbcjfd-container > div.framer-6YHpe.framer-jhxgU > div.framer-1wkm1l9 > div.framer-15lzppf",
+   "tag": "div",
+   "text": "revenue-critical metric",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-14y11z4 > div.ssr-variant > div.framer-rbcjfd-container > div.framer-6YHpe.framer-jhxgU > div.framer-oyz1f3",
+   "tag": "div",
+   "framer": {
+    "framerName": "Status"
+   }
+  },
+  {
+   "selector": "div.framer-1g24rw4 > div.framer-14y11z4 > div.ssr-variant > div.framer-1x1m3d9-container > div.framer-6YHpe.framer-jhxgU",
+   "tag": "div",
+   "text": "Historical recurrencefirst occurrence",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-14y11z4 > div.ssr-variant > div.framer-1x1m3d9-container > div.framer-6YHpe.framer-jhxgU > div.framer-1wkm1l9",
+   "tag": "div",
+   "text": "Historical recurrencefirst occurrence",
+   "framer": {
+    "framerName": "Title"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1x1m3d9-container > div.framer-6YHpe.framer-jhxgU > div.framer-1wkm1l9 > div.framer-ck6xv1",
+   "tag": "div",
+   "text": "Historical recurrence",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1x1m3d9-container > div.framer-6YHpe.framer-jhxgU > div.framer-1wkm1l9 > div.framer-15lzppf",
+   "tag": "div",
+   "text": "first occurrence",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-14y11z4 > div.ssr-variant > div.framer-1x1m3d9-container > div.framer-6YHpe.framer-jhxgU > div.framer-oyz1f3",
+   "tag": "div",
+   "framer": {
+    "framerName": "Status"
+   }
+  },
+  {
+   "selector": "div.framer-BRSpH.framer-Hl0ue > div.framer-1tovje3 > div.framer-1dms52a > div.framer-1ugzrk > div.framer-1yvuw8e",
+   "tag": "div",
+   "text": "Severity scoring with context.Not every deviation is an emer",
+   "framer": {
+    "framerName": "Text"
+   }
+  },
+  {
+   "selector": "div.framer-1tovje3 > div.framer-1dms52a > div.framer-1ugzrk > div.framer-1yvuw8e > div.framer-1okk36o",
+   "tag": "div",
+   "text": "Severity scoring with context.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1tovje3 > div.framer-1dms52a > div.framer-1ugzrk > div.framer-1yvuw8e > div.framer-102hk80",
+   "tag": "div",
+   "text": "Not every deviation is an emergency. Pulse scores each alert",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-al8rwf",
+   "tag": "div",
+   "text": "Most tools alert you to everything.Pulse only tells you what",
+   "framer": {
+    "framerName": "Accordion"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-al8rwf > div.framer-jc198d",
+   "tag": "div",
+   "text": "Most tools alert you to everything.Pulse only tells you what",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-al8rwf > div.framer-jc198d > div.ssr-variant > div.framer-acfs9-container > div.framer-kEcQz.framer-bd4w60",
+   "tag": "div",
+   "framer": {
+    "framerName": "End"
+   }
+  },
+  {
+   "selector": "div.framer-jc198d > div.ssr-variant > div.framer-acfs9-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Left"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-acfs9-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-u6zm30",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-acfs9-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1s7vawm",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-acfs9-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1ndw0of",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-jc198d > div.ssr-variant > div.framer-acfs9-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-acfs9-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-ddlp53",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-acfs9-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1is7c6b",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-acfs9-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1j63n4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-al8rwf > div.framer-jc198d > div.framer-bvaot2",
+   "tag": "div",
+   "text": "Most tools alert you to everything.Pulse only tells you what",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div.framer-BRSpH.framer-Hl0ue > div.framer-al8rwf > div.framer-jc198d > div.framer-bvaot2 > div.framer-fk3opz",
+   "tag": "div",
+   "text": "Most tools alert you to everything.Pulse only tells you what",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-al8rwf > div.framer-jc198d > div.ssr-variant > div.framer-1ois8bc-container > div.framer-kEcQz.framer-bd4w60",
+   "tag": "div",
+   "framer": {
+    "framerName": "End"
+   }
+  },
+  {
+   "selector": "div.framer-jc198d > div.ssr-variant > div.framer-1ois8bc-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Left"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1ois8bc-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-u6zm30",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1ois8bc-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1s7vawm",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1ois8bc-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1ndw0of",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-jc198d > div.ssr-variant > div.framer-1ois8bc-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1ois8bc-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-ddlp53",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1ois8bc-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1is7c6b",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1ois8bc-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1j63n4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-19azqo5",
+   "tag": "div",
+   "text": "MRR · 90DLearningBaseline adjusting as business growsDay 1Da",
+   "framer": {
+    "framerName": "Accordion"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-BRSpH.framer-Hl0ue > div.framer-19azqo5 > div.framer-414bmk",
+   "tag": "div",
+   "text": "MRR · 90DLearningBaseline adjusting as business growsDay 1Da",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-19azqo5 > div.framer-414bmk > div.ssr-variant.hidden-1vfj329 > div.framer-cvzgng-container > div.framer-Z4RMk.framer-LKFMZ",
+   "tag": "div",
+   "text": "MRR · 90DLearningBaseline adjusting as business growsDay 1Da",
+   "framer": {
+    "framerName": "Item 1"
+   }
+  },
+  {
+   "selector": "div.framer-414bmk > div.ssr-variant.hidden-1vfj329 > div.framer-cvzgng-container > div.framer-Z4RMk.framer-LKFMZ > div.framer-ryud44",
+   "tag": "div",
+   "text": "MRR · 90DLearningBaseline adjusting as business growsDay 1Da",
+   "framer": {
+    "framerName": "Showcase Main"
+   }
+  },
+  {
+   "selector": "div.framer-ryud44 > div.framer-2fhf8p-container > div > div > div.framer-v2x5nr",
+   "tag": "div",
+   "text": "MRR · 90DLearningBaseline adjusting as business growsDay 1Da",
+   "framer": {
+    "framerName": "Graph"
+   }
+  },
+  {
+   "selector": "div.framer-2fhf8p-container > div > div > div.framer-v2x5nr > div.framer-axbrwx",
+   "tag": "div",
+   "text": "MRR · 90DLearningBaseline adjusting as business grows",
+   "framer": {
+    "framerName": "Title"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-v2x5nr > div.framer-axbrwx > div.framer-1chwadh",
+   "tag": "div",
+   "text": "MRR · 90DLearning",
+   "framer": {
+    "framerName": "Label"
+   }
+  },
+  {
+   "selector": "div > div.framer-v2x5nr > div.framer-axbrwx > div.framer-1chwadh > div.framer-ppt52n",
+   "tag": "div",
+   "text": "MRR · 90D",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-v2x5nr > div.framer-axbrwx > div.framer-1chwadh > div.framer-18ebfam",
+   "tag": "div",
+   "text": "Learning",
+   "framer": {
+    "framerName": "Learning"
+   }
+  },
+  {
+   "selector": "div.framer-v2x5nr > div.framer-axbrwx > div.framer-1chwadh > div.framer-18ebfam > div.framer-1vzxgey",
+   "tag": "div",
+   "text": "Learning",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-v2x5nr > div.framer-axbrwx > div.framer-1m5zsfc",
+   "tag": "div",
+   "text": "Baseline adjusting as business grows",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2fhf8p-container > div > div > div.framer-v2x5nr > div.framer-awcgv8",
+   "tag": "div",
+   "text": "Day 1Day 20Day 40Day 60Day 80",
+   "framer": {
+    "framerName": "Graph dates"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-v2x5nr > div.framer-awcgv8 > div.framer-1ecqmt8",
+   "tag": "div",
+   "text": "Day 1",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-v2x5nr > div.framer-awcgv8 > div.framer-78wxac",
+   "tag": "div",
+   "text": "Day 20",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-v2x5nr > div.framer-awcgv8 > div.framer-1jb6myb",
+   "tag": "div",
+   "text": "Day 40",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-v2x5nr > div.framer-awcgv8 > div.framer-13e6hup",
+   "tag": "div",
+   "text": "Day 60",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-v2x5nr > div.framer-awcgv8 > div.framer-tf8r6i",
+   "tag": "div",
+   "text": "Day 80",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-414bmk > div.ssr-variant.hidden-1vfj329 > div.framer-cvzgng-container > div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0",
+   "tag": "div",
+   "text": "Baselines that learn your business.Pulse builds a rolling mo",
+   "framer": {
+    "framerName": "Accordion Options"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1vfj329 > div.framer-cvzgng-container > div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-s904xq",
+   "tag": "div",
+   "text": "Baselines that learn your business.Pulse builds a rolling mo",
+   "framer": {
+    "framerName": "Accordion Section"
+   }
+  },
+  {
+   "selector": "div.framer-cvzgng-container > div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-s904xq > div.framer-1sudv2e",
+   "tag": "div",
+   "text": "Baselines that learn your business.Pulse builds a rolling mo",
+   "framer": {
+    "framerName": "Title and content"
+   }
+  },
+  {
+   "selector": "div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-s904xq > div.framer-1sudv2e > div.framer-1ncr3yu",
+   "tag": "div",
+   "text": "Baselines that learn your business.",
+   "framer": {
+    "framerName": "Section Title"
+   }
+  },
+  {
+   "selector": "div.framer-1fxtjv0 > div.framer-s904xq > div.framer-1sudv2e > div.framer-1ncr3yu > div.framer-dcsfk4",
+   "tag": "div",
+   "text": "Baselines that learn your business.",
+   "framer": {
+    "framerName": "Baselines that learn your business.",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1fxtjv0 > div.framer-s904xq > div.framer-1sudv2e > div.framer-1ncr3yu > div.framer-v7xcgq",
+   "tag": "div",
+   "framer": {
+    "framerName": "Gap"
+   }
+  },
+  {
+   "selector": "div.framer-s904xq > div.framer-1sudv2e > div.framer-1ncr3yu > div.framer-5dl51l-container > div.framer-EOMkT.framer-1lhq47p",
+   "tag": "div",
+   "framer": {
+    "framerName": "Up"
+   }
+  },
+  {
+   "selector": "div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-s904xq > div.framer-1sudv2e > div.framer-mbi0wp",
+   "tag": "div",
+   "text": "Pulse builds a rolling model of normal for every metric it w",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div.framer-1fxtjv0 > div.framer-s904xq > div.framer-1sudv2e > div.framer-mbi0wp > div.framer-1m1oo0n",
+   "tag": "div",
+   "text": "Pulse builds a rolling model of normal for every metric it w",
+   "framer": {
+    "framerName": "Pulse builds a rolling model of normal for every metric it watches - accounting for weekly patterns, seasonal shifts, an",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1vfj329 > div.framer-cvzgng-container > div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-1lgkqc8",
+   "tag": "div",
+   "framer": {
+    "framerName": "Divider"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1vfj329 > div.framer-cvzgng-container > div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-12b28eu",
+   "tag": "div",
+   "text": "Every alert scored by impact.Severity is weighted by how far",
+   "framer": {
+    "framerName": "Accordion Section"
+   }
+  },
+  {
+   "selector": "div.framer-cvzgng-container > div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-12b28eu > div.framer-58603s",
+   "tag": "div",
+   "text": "Every alert scored by impact.Severity is weighted by how far",
+   "framer": {
+    "framerName": "Title and content"
+   }
+  },
+  {
+   "selector": "div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-12b28eu > div.framer-58603s > div.framer-1l101yy",
+   "tag": "div",
+   "text": "Every alert scored by impact.",
+   "framer": {
+    "framerName": "Section Title"
+   }
+  },
+  {
+   "selector": "div.framer-1fxtjv0 > div.framer-12b28eu > div.framer-58603s > div.framer-1l101yy > div.framer-1yizho8",
+   "tag": "div",
+   "text": "Every alert scored by impact.",
+   "framer": {
+    "framerName": "Baselines that learn your business.",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1fxtjv0 > div.framer-12b28eu > div.framer-58603s > div.framer-1l101yy > div.framer-nyqnak",
+   "tag": "div",
+   "framer": {
+    "framerName": "Gap"
+   }
+  },
+  {
+   "selector": "div.framer-12b28eu > div.framer-58603s > div.framer-1l101yy > div.framer-w2pr5c-container > div.framer-EOMkT.framer-1lhq47p",
+   "tag": "div",
+   "framer": {
+    "framerName": "Neutral"
+   }
+  },
+  {
+   "selector": "div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-12b28eu > div.framer-58603s > div.framer-ipo5i3",
+   "tag": "div",
+   "text": "Severity is weighted by how far a deviation sits from baseli",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div.framer-1fxtjv0 > div.framer-12b28eu > div.framer-58603s > div.framer-ipo5i3 > div.framer-m1ynwz",
+   "tag": "div",
+   "text": "Severity is weighted by how far a deviation sits from baseli",
+   "framer": {
+    "framerName": "Severity is weighted by how far a deviation sits from baseline, when it's happening, and which metrics are affected. A r",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1vfj329 > div.framer-cvzgng-container > div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-1dddmjr",
+   "tag": "div",
+   "framer": {
+    "framerName": "Divider"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1vfj329 > div.framer-cvzgng-container > div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-1sooi9z",
+   "tag": "div",
+   "text": "Routed to the right person, instantly.The right alert reache",
+   "framer": {
+    "framerName": "Accordion Section"
+   }
+  },
+  {
+   "selector": "div.framer-cvzgng-container > div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-1sooi9z > div.framer-1oldkq2",
+   "tag": "div",
+   "text": "Routed to the right person, instantly.The right alert reache",
+   "framer": {
+    "framerName": "Title and content"
+   }
+  },
+  {
+   "selector": "div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-1sooi9z > div.framer-1oldkq2 > div.framer-6ulg1x",
+   "tag": "div",
+   "text": "Routed to the right person, instantly.",
+   "framer": {
+    "framerName": "Section Title"
+   }
+  },
+  {
+   "selector": "div.framer-1fxtjv0 > div.framer-1sooi9z > div.framer-1oldkq2 > div.framer-6ulg1x > div.framer-9vkmxo",
+   "tag": "div",
+   "text": "Routed to the right person, instantly.",
+   "framer": {
+    "framerName": "Baselines that learn your business.",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1fxtjv0 > div.framer-1sooi9z > div.framer-1oldkq2 > div.framer-6ulg1x > div.framer-9kddyh",
+   "tag": "div",
+   "framer": {
+    "framerName": "Gap"
+   }
+  },
+  {
+   "selector": "div.framer-1sooi9z > div.framer-1oldkq2 > div.framer-6ulg1x > div.framer-gxavet-container > div.framer-EOMkT.framer-1lhq47p",
+   "tag": "div",
+   "framer": {
+    "framerName": "Neutral"
+   }
+  },
+  {
+   "selector": "div.framer-Z4RMk.framer-LKFMZ > div.framer-1fxtjv0 > div.framer-1sooi9z > div.framer-1oldkq2 > div.framer-1qa7yw0",
+   "tag": "div",
+   "text": "The right alert reaches the right person every time. Route b",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div.framer-1fxtjv0 > div.framer-1sooi9z > div.framer-1oldkq2 > div.framer-1qa7yw0 > div.framer-172iupq",
+   "tag": "div",
+   "text": "The right alert reaches the right person every time. Route b",
+   "framer": {
+    "framerName": "The right alert reaches the right person every time. Route by severity, by team, or by source — without anyone manually ",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89",
+   "tag": "div",
+   "text": "Your data, finally connectedGet startedFeaturesCortexAskPuls",
+   "framer": {
+    "framerName": "Footer Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1aeo38i",
+   "tag": "div",
+   "text": "Your data, finally connectedGet started",
+   "framer": {
+    "framerName": "CTA"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls",
+   "tag": "div",
+   "text": "Your data, finally connectedGet started",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls > div.framer-1w558nd-container > div.framer-zhkea.framer-sm5shs",
+   "tag": "div",
+   "framer": {
+    "framerName": "Hidden"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls > div.framer-qr3vrw > div.framer-o9bwxk",
+   "tag": "div",
+   "text": "Your data, finally connected",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1aeo38i > div.framer-9aqjls > div.framer-qr3vrw > div.framer-cq6zkv-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / XL"
+   }
+  },
+  {
+   "selector": "div.framer-qr3vrw > div.framer-cq6zkv-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Footer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Links"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulse",
+   "framer": {
+    "framerName": "Features Column"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-10jdoq8",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p",
+   "tag": "div",
+   "text": "CortexAskPulse",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-1iyk8rt",
+   "tag": "div",
+   "text": "Cortex",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-1iyk8rt > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Cortex",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-t46ej0",
+   "tag": "div",
+   "text": "Ask",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-t46ej0 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Ask",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-1exanjx",
+   "tag": "div",
+   "text": "Pulse",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-1exanjx > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Pulse",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {
+    "framerPageLinkCurrent": "true"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2",
+   "tag": "div",
+   "text": "CompanyPricingAboutCareersBlog",
+   "framer": {
+    "framerName": "Company"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-ankizt",
+   "tag": "div",
+   "text": "Company",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he",
+   "tag": "div",
+   "text": "PricingAboutCareersBlog",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-ep2gyo",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-ep2gyo > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Pricing",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1pjilpz",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1pjilpz > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "About",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-q2vdhe",
+   "tag": "div",
+   "text": "Careers",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-q2vdhe > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Careers",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1odzm45",
+   "tag": "div",
+   "text": "Blog",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1odzm45 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Blog",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d",
+   "tag": "div",
+   "text": "ResourcesIntegrationsChangelogDeveloper docsHelp Center404",
+   "framer": {
+    "framerName": "Resources"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1mlm0tb",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt",
+   "tag": "div",
+   "text": "IntegrationsChangelogDeveloper docsHelp Center404",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-iig8n7",
+   "tag": "div",
+   "text": "Integrations",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-iig8n7 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Integrations",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-te0pfw",
+   "tag": "div",
+   "text": "Changelog",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-te0pfw > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Changelog",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-nc7hme",
+   "tag": "div",
+   "text": "Developer docs",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-nc7hme > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Developer docs",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-uv8dt",
+   "tag": "div",
+   "text": "Help Center",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-uv8dt > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Help Center",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-66qyph",
+   "tag": "div",
+   "text": "404",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-66qyph > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "404",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1",
+   "tag": "div",
+   "text": "ConnectXLinkedInGitHub",
+   "framer": {
+    "framerName": "Connect"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1 > div.framer-qk2vom",
+   "tag": "div",
+   "text": "Connect",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1 > div.framer-vz9imr",
+   "tag": "div",
+   "text": "XLinkedInGitHub",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "X",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "X",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "LinkedIn",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "LinkedIn",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "GitHub",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "GitHub",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve",
+   "tag": "div",
+   "text": "All systems operational99.98% UPTIMEUpdates on new features ",
+   "framer": {
+    "framerName": "Uptime Newsletter"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry",
+   "tag": "div",
+   "text": "All systems operational99.98% UPTIME",
+   "framer": {
+    "framerName": "Uptime"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry > div.framer-d8ia8i > div.framer-1qrftu8",
+   "tag": "div",
+   "text": "All systems operational",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry > div.framer-5jvd8e",
+   "tag": "div",
+   "text": "99.98% UPTIME",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-fqk3g9",
+   "tag": "div",
+   "text": "Updates on new features and releases.Subscribe",
+   "framer": {
+    "framerName": "Newsletter"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-fqk3g9 > div.framer-27d16y",
+   "tag": "div",
+   "text": "Updates on new features and releases.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1p5h1ve > div.framer-fqk3g9 > div.ssr-variant > div.framer-1exlpg3-container > form.framer-e9zZI.framer-19cj0jd",
+   "tag": "form",
+   "text": "Subscribe",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-1exlpg3-container > form.framer-e9zZI.framer-19cj0jd > label.framer-s4lpcw > div.framer-1jl1owp-container > button.framer-DAIlr.framer-95lQp",
+   "tag": "button",
+   "text": "Subscribe",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "form.framer-e9zZI.framer-19cj0jd > label.framer-s4lpcw > div.framer-1jl1owp-container > button.framer-DAIlr.framer-95lQp > div.framer-1efjez1",
+   "tag": "div",
+   "text": "Subscribe",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-138v7uv",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-138v7uv > div.ssr-variant > div.framer-1oxx1b4 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2",
+   "tag": "div",
+   "text": "© 2026 Strand. All rights reserved.Terms and Conditions/Priv",
+   "framer": {
+    "framerName": "Copyright"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-868d6s",
+   "tag": "div",
+   "text": "© 2026 Strand. All rights reserved.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2",
+   "tag": "div",
+   "text": "Terms and Conditions/Privacy Policy",
+   "framer": {
+    "framerName": "Terms / Privacy"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-psm4bz",
+   "tag": "div",
+   "text": "Terms and Conditions",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-psm4bz > p.framer-text.framer-styles-preset-1unq4w > a.framer-text.framer-styles-preset-656phd",
+   "tag": "a",
+   "text": "Terms and Conditions",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-16ek34v",
+   "tag": "div",
+   "text": "/",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-123xktd",
+   "tag": "div",
+   "text": "Privacy Policy",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-123xktd > p.framer-text.framer-styles-preset-1unq4w > a.framer-text.framer-styles-preset-656phd",
+   "tag": "a",
+   "text": "Privacy Policy",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk",
+   "tag": "a",
+   "text": "Create a free website with Framer, the website builder loved",
+   "framer": {
+    "framerAppearId": "n0ccwk",
+    "framerName": "Light"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-13yxzio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Backdrop"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm",
+   "tag": "div",
+   "text": "Create a free website with Framer, the website builder loved",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm > div.framer-1kflzx5 > div.framer-hcsc7.framer-e50co",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm > div.framer-g7oZR.framer-1um7t9d",
+   "tag": "div",
+   "framer": {
+    "framerName": "Text"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-j4ugry",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-jnuwbw",
+   "tag": "div",
+   "framer": {
+    "framerName": "Border"
+   }
+  },
+  {
+   "selector": "script",
+   "tag": "script",
+   "text": "(()=>{function c(i,o,s){if(window.__framer_disable_appear_ef",
+   "framer": {
+    "framerAppearAnimation": "reduce"
+   }
+  },
+  {
+   "selector": "script",
+   "tag": "script",
+   "framer": {
+    "framerBundle": "main"
+   }
+  }
+ ],
+ "cdp": []
+}

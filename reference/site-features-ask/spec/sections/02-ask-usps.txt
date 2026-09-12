@@ -1,0 +1,367 @@
+##### TREE #####
+        div [Ask USPs] .framer-122lgo
+          div [Container] .framer-1x31fh8 data-border
+            div
+              div .framer-86dkhd-container
+                div [End] .framer-kEcQz.framer-bd4w60 {width: 100%; opacity: 1}
+                  div [Left] .framer-t5arn {opacity: 1}
+                    div [b] .framer-u6zm30 {background-color: rgb(0, 0, 36); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                    div [g] .framer-1s7vawm {background-color: rgb(0, 37, 0); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                    div [r] .framer-1ndw0of {background-color: rgb(41, 0, 0); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                  div [Right] .framer-12bx2ig {opacity: 1}
+                    div [b] .framer-ddlp53 {background-color: rgb(0, 0, 36); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                    div [g] .framer-1is7c6b {background-color: rgb(0, 37, 0); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+                    div [r] .framer-1j63n4i {background-color: rgb(41, 0, 0); transform: none; transform-origin: 50% 50% 0px; will-change: auto}
+            div
+              div .framer-1hj7rfd-container
+                div [Chat start] .framer-JcDMh.framer-NXcw2.framer-1b5ogf8 {height: 100%; width: 100%; opacity: 1}
+                  div .framer-1oh8dd5 {will-change: transform; opacity: 1; transform: none}
+                    div [Chat Container] .framer-19qsf6k {background: linear-gradient(111deg, var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60)) 0%, var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41, 37, 36)) 35.13513513513514%, var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)) 73%, var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60)) 100%); border-radius: 16px; opacity: 1}
+                      div [Container] .framer-1bvs57s {opacity: 1}
+                        div [Top container] .framer-2xhl4y {opacity: 1}
+                          div .framer-984o4f {opacity: 1}
+                            div [Message] .framer-642k88 {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1tsnca {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))}
+                                span {white-space: nowrap}
+                                  span {opacity: 1; transform: none; will-change: transform} "W"
+                                  span {opacity: 1; transform: none; will-change: transform} "h"
+                                  span {opacity: 1; transform: none; will-change: transform} "i"
+                                  span {opacity: 1; transform: none; will-change: transform} "c"
+                                  span {opacity: 1; transform: none; will-change: transform} "h"
+                                span {white-space: nowrap}
+                                  span {opacity: 1; transform: none; will-change: transform} "a"
+                                  span {opacity: 1; transform: none; will-change: transform} "c"
+                                  span {opacity: 1; transform: none; will-change: transform} "c"
+                                  span {opacity: 1; transform: none; will-change: transform} "o"
+                                  span {opacity: 1; transform: none; will-change: transform} "u"
+                                  span {opacity: 1; transform: none; will-change: transform} "n"
+                                  span {opacity: 1; transform: none; will-change: transform} "t"
+                                  span {opacity: 1; transform: none; will-change: transform} "s"
+                                span {white-space: nowrap}
+                                  span {opacity: 1; transform: none; will-change: transform} "a"
+                                  span {opacity: 1; transform: none; will-change: transform} "r"
+                                  span {opacity: 1; transform: none; will-change: transform} "e"
+                                span {white-space: nowrap}
+                                  span {opacity: 1; transform: none; will-change: transform} "a"
+                                  span {opacity: 1; transform: none; will-change: transform} "t"
+                                span {white-space: nowrap}
+                                  span {opacity: 1; transform: none; will-change: transform} "r"
+                                  span {opacity: 1; transform: none; will-change: transform} "i"
+                                  span {opacity: 1; transform: none; will-change: transform} "s"
+                                  span {opacity: 1; transform: none; will-change: transform} "k"
+                                span {white-space: nowrap}
+                                  span {opacity: 1; transform: none; will-change: transform} "t"
+                                  span {opacity: 1; transform: none; will-change: transform} "h"
+                                  span {opacity: 1; transform: none; will-change: transform} "i"
+                                  span {opacity: 1; transform: none; will-change: transform} "s"
+                                span {white-space: nowrap}
+                                  span {opacity: 1; transform: none; will-change: transform} "q"
+                                  span {opacity: 1; transform: none; will-change: transform} "u"
+                                  span {opacity: 1; transform: none; will-change: transform} "a"
+                                  span {opacity: 1; transform: none; will-change: transform} "r"
+                                  span {opacity: 1; transform: none; will-change: transform} "t"
+                                  span {opacity: 1; transform: none; will-change: transform} "e"
+                                  span {opacity: 1; transform: none; will-change: transform} "r"
+                                  span {opacity: 1; transform: none; will-change: transform} "?"
+                          div [Status Container] .framer-5rfih0 {opacity: 1}
+                            div [Thinking] .framer-1cbnqjk-container {opacity:0; transform:translateX(-50%)}
+                              div [Variant 1] .framer-3VM4T.framer-jhxgU.framer-m82cj data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                                div .framer-10gt4py {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Thinking"
+                            div [3 Results] .framer-g8q9cy-container {opacity:0; transform:translateX(-50%)}
+                              div [Variant 1] .framer-3VM4T.framer-jhxgU.framer-m82cj data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                                div .framer-10gt4py {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "3 Results"
+                        div [Buttons Container] .framer-1hnulot {opacity:1}
+                          div [Button] .framer-1umbp4q {opacity: 1}
+                            svg .framer-K11hZ.framer-68pznj viewBox=0 0 24 24 {opacity: 1}
+                              use href=#3356954461
+                          div [Button] .framer-1q7wox5 {background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23)); border-radius: 12px; opacity: 1; will-change: auto}
+                            svg .framer-ab47M.framer-1o60zur viewBox=0 0 24 24 {transform: none; transform-origin: 50% 50% 0px}
+                              use href=#2903821725
+                      div [Background] .framer-5xg612 {background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(17, 15, 13)); border-radius: 15px; opacity: 1}
+                    div [Quick Action Bar] .framer-t1zk3n {opacity:1}
+                      div appear=n00lzi .framer-n00lzi-container {opacity:1; transform:none}
+                        div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                          svg .framer-kIZlk.framer-12miy56 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#89488612
+                          div .framer-w22r5q {transform: none; opacity: 1}
+                            p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Analyze"
+                      div appear=17bqj0 .framer-17bqj0-container {opacity:1; transform:none}
+                        div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                          svg .framer-ENWIm.framer-12miy56 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#3092554709
+                          div .framer-w22r5q {transform: none; opacity: 1}
+                            p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Compare"
+                      div appear=10q9li8 .framer-10q9li8-container {opacity:1; transform:none}
+                        div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                          svg .framer-Mv0fb.framer-12miy56 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#3261614140
+                          div .framer-w22r5q {transform: none; opacity: 1}
+                            p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Monitor"
+                      div appear=1ysxh9n .framer-1ysxh9n-container {opacity:1; transform:none}
+                        div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                          svg .framer-T13M8.framer-12miy56 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#2932616460
+                          div .framer-w22r5q {transform: none; opacity: 1}
+                            p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Report"
+                    div [Results Container] .framer-4ig9li data-border {--border-bottom-width:1px; --border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width:1px; --border-right-width:1px; --border-style:solid; --border-top-width:1px; background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); opacity:0}
+                      div .framer-1vwlie1-container {opacity:0}
+                        div
+                          p {width:fit-content; position:relative}
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "S"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "c"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "a"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "n"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "n"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "i"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "n"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "g"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform}
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "S"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "a"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "l"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "e"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "s"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "f"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "o"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "r"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "c"
+                            span {white-space: pre; transform-origin: center center -5px; color: rgb(115, 115, 115); opacity: 1; transform: none; will-change: transform} "e"
+                  div .framer-1ykvmaj-container {mask:linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 22%) add; opacity:0.3}
+                    div {position:relative; width:100%; height:100%; overflow:hidden}
+                      div {position:absolute; top:0; left:0; width:100%; height:100%; opacity:1}
+                        canvas {width: 1312px; height: 500px}
+            div [USPs] .framer-1aswep
+              div .framer-1v8w52h {transform:none}
+                h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-alignment:start}
+                  span .framer-text {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Questions your whole team can ask."
+                  br .framer-text
+                  span .framer-text {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Answers only Nordwell can give."
+              div [USP Grid] .framer-h4iiyo
+                div
+                  div [Plain Language] .framer-1ixw6or-container
+                    div [Horizontal] .framer-7BPZG.framer-cUeIE.framer-hlXus.framer-1k8w95s {width: 100%; opacity: 1}
+                      div [Title] .framer-1i0bb15 {opacity: 1}
+                        svg [Icon] .framer-08V5O.framer-1o3wign viewBox=0 0 24 24 {opacity: 1}
+                          use href=#264992356
+                        div [Title] .framer-13s1yhj {transform: none; opacity: 1}
+                          h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Plain language input"
+                      div [Description] .framer-10ol1l1 {transform: none; opacity: 1}
+                        p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "No SQL, no syntax. Ask questions the way you'd phrase them to a colleague."
+                div
+                  div [Relationship Aware] .framer-1qzep9j-container
+                    div [Horizontal] .framer-7BPZG.framer-cUeIE.framer-hlXus.framer-1k8w95s {width: 100%; opacity: 1}
+                      div [Title] .framer-1i0bb15 {opacity: 1}
+                        svg [Icon] .framer-Ya244.framer-1o3wign viewBox=0 0 24 24 {opacity: 1}
+                          use href=#213763526
+                        div [Title] .framer-13s1yhj {transform: none; opacity: 1}
+                          h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Relationship-aware"
+                      div [Description] .framer-10ol1l1 {transform: none; opacity: 1}
+                        p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Ask understands how your data connects - not just what's in a single table."
+                div
+                  div [Time Range] .framer-eag7bg-container
+                    div [Horizontal] .framer-7BPZG.framer-cUeIE.framer-hlXus.framer-1k8w95s {width: 100%; opacity: 1}
+                      div [Title] .framer-1i0bb15 {opacity: 1}
+                        svg [Icon] .framer-5I0SE.framer-1o3wign viewBox=0 0 24 24 {opacity: 1}
+                          use href=#884851057
+                        div [Title] .framer-13s1yhj {transform: none; opacity: 1}
+                          h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Time range context"
+                      div [Description] .framer-10ol1l1 {transform: none; opacity: 1}
+                        p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Reference periods naturally. "Last quarter", "since onboarding", "before the outage" all work."
+                div
+                  div [Follow-ups] .framer-rsm8lo-container
+                    div [Horizontal] .framer-7BPZG.framer-cUeIE.framer-hlXus.framer-1k8w95s {width: 100%; opacity: 1}
+                      div [Title] .framer-1i0bb15 {opacity: 1}
+                        svg [Icon] .framer-ojg1u.framer-1o3wign viewBox=0 0 24 24 {opacity: 1}
+                          use href=#53866765
+                        div [Title] .framer-13s1yhj {transform: none; opacity: 1}
+                          h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Suggested follow-ups"
+                      div [Description] .framer-10ol1l1 {transform: none; opacity: 1}
+                        p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Every answer surfaces the next logical question so you keep moving forward."
+                div
+                  div [Sharing] .framer-1o61ai0-container
+                    div [Horizontal] .framer-7BPZG.framer-cUeIE.framer-hlXus.framer-1k8w95s {width: 100%; opacity: 1}
+                      div [Title] .framer-1i0bb15 {opacity: 1}
+                        svg [Icon] .framer-BYbMW.framer-1o3wign viewBox=0 0 24 24 {opacity: 1}
+                          use href=#1401005312
+                        div [Title] .framer-13s1yhj {transform: none; opacity: 1}
+                          h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "One-click sharing"
+                      div [Description] .framer-10ol1l1 {transform: none; opacity: 1}
+                        p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Send results to your team chat or export as CSV and JSON without leaving the interface."
+                div
+                  div [Speed] .framer-1atl1hf-container
+                    div [Horizontal] .framer-7BPZG.framer-cUeIE.framer-hlXus.framer-1k8w95s {width: 100%; opacity: 1}
+                      div [Title] .framer-1i0bb15 {opacity: 1}
+                        svg [Icon] .framer-t9b6j.framer-1o3wign viewBox=0 0 24 24 {opacity: 1}
+                          use href=#3408069395
+                        div [Title] .framer-13s1yhj {transform: none; opacity: 1}
+                          h3 .framer-text.framer-styles-preset-6awed {--framer-text-color:var(--extracted-a0htzi, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Under 200ms"
+                      div [Description] .framer-10ol1l1 {transform: none; opacity: 1}
+                        p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Queries run against a live graph, not a slow warehouse. Answers arrive before the thought fades."
+
+##### CSS #####
+@media (max-width:1199px) and (min-width:810px) | .framer-cUeIE .framer-styles-preset-6awed:not(.rich-text-wrapper), .framer-cUeIE .framer-styles-preset-6awed.rich-text-wrapper h3
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:18px;--framer-font-weight:600;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070,#fafafa);--framer-text-transform:none
+@media (max-width:809px) and (min-width:0) | .framer-cUeIE .framer-styles-preset-6awed:not(.rich-text-wrapper), .framer-cUeIE .framer-styles-preset-6awed.rich-text-wrapper h3
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:16px;--framer-font-weight:600;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070,#fafafa);--framer-text-transform:none
+@base | .framer-lr0Tx .framer-122lgo
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-lr0Tx .framer-1v8w52h
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-lr0Tx .framer-1x31fh8
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#222);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-lr0Tx .framer-1aswep
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:80px;width:100%;padding:40px 40px 80px;display:flex;position:relative
+@base | .framer-lr0Tx .framer-h4iiyo
+    height:min-content;overflow:clip;flex:none;grid-template-rows:repeat(2,min-content);grid-template-columns:repeat(3,minmax(50px,1fr));grid-auto-rows:min-content;justify-content:center;gap:60px 80px;width:100%;padding:0;display:grid;position:relative
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lr0Tx .framer-122lgo
+    padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lr0Tx .framer-1x31fh8
+    --border-left-width:0px;--border-right-width:0px
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lr0Tx .framer-1aswep
+    gap:60px;padding:40px 40px 60px
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lr0Tx .framer-h4iiyo
+    grid-template-columns:repeat(2,minmax(50px,1fr));gap:40px 120px
+@media (max-width:809.98px) | .framer-lr0Tx .framer-122lgo
+    padding:0
+@media (max-width:809.98px) | .framer-lr0Tx .framer-1x31fh8
+    --border-left-width:0px;--border-right-width:0px
+@media (max-width:809.98px) | .framer-lr0Tx .framer-1aswep
+    gap:60px;padding:20px 20px 40px
+@media (max-width:809.98px) | .framer-lr0Tx .framer-h4iiyo
+    grid-template-columns:repeat(1,minmax(50px,1fr));gap:48px 20px
+@base | .framer-kEcQz.framer-cpsty2, .framer-kEcQz .framer-cpsty2
+    display:block
+@base | .framer-kEcQz.framer-bd4w60
+    height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:0;width:429px;padding:0;display:flex;position:relative
+@base | .framer-kEcQz .framer-t5arn, .framer-kEcQz .framer-12bx2ig
+    height:1px;overflow:clip;flex:1 0 0;width:1px;position:relative
+@base | .framer-kEcQz .framer-u6zm30
+    z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;right:0;overflow:visible
+@base | .framer-kEcQz .framer-1s7vawm, .framer-kEcQz .framer-1ndw0of
+    mix-blend-mode:screen;z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;right:0;overflow:visible
+@base | .framer-kEcQz .framer-ddlp53
+    z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;left:0;overflow:visible
+@base | .framer-kEcQz .framer-1is7c6b, .framer-kEcQz .framer-1j63n4i
+    mix-blend-mode:screen;z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;left:0;overflow:visible
+@base | .framer-kEcQz.framer-v-1kv1gub .framer-u6zm30, .framer-kEcQz.framer-v-1kv1gub .framer-1s7vawm, .framer-kEcQz.framer-v-1kv1gub .framer-1ndw0of, .framer-kEcQz.framer-v-1kv1gub .framer-ddlp53, .framer-kEcQz.framer-v-1kv1gub .framer-1is7c6b, .framer-kEcQz.framer-v-1kv1gub .framer-1j63n4i
+    width:0%
+@base | .framer-JcDMh.framer-138s4l6, .framer-JcDMh .framer-138s4l6
+    display:block
+@base | .framer-JcDMh.framer-1b5ogf8
+    height:428px;padding:var(--8yam8g);flex-flow:column;place-content:center;align-items:center;gap:8px;width:936px;display:flex;position:relative;overflow:visible
+@base | .framer-JcDMh .framer-1oh8dd5
+    -webkit-user-select:none;user-select:none;z-index:2;flex-flow:column;flex:none;place-content:center;align-items:center;gap:8px;width:100%;max-width:460px;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-JcDMh .framer-19qsf6k
+    height:min-content;overflow:clip;z-index:2;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-JcDMh .framer-1bvs57s
+    height:min-content;overflow:clip;z-index:2;flex-flow:column;flex:1 0 0;place-content:center;align-items:center;gap:16px;width:1px;padding:0;display:flex;position:relative
+@base | .framer-JcDMh .framer-2xhl4y
+    flex-flow:row;flex:none;place-content:center;align-items:center;gap:8px;width:100%;height:min-content;padding:0 8px 0 20px;display:flex;position:relative;overflow:visible
+@base | .framer-JcDMh .framer-984o4f
+    flex-flow:row;flex:1 0 0;place-content:center;align-self:stretch;align-items:center;gap:0;width:1px;height:auto;padding:20px 0;display:flex;position:relative;overflow:visible
+@base | .framer-JcDMh .framer-1gf4w1f, .framer-JcDMh .framer-642k88
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:1 0 0;width:1px;height:auto;position:relative
+@base | .framer-JcDMh .framer-5rfih0
+    -webkit-user-select:none;user-select:none;height:64px;overflow:clip;pointer-events:none;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:91px;padding:0;display:flex;position:relative
+@base | .framer-JcDMh .framer-1cbnqjk-container, .framer-JcDMh .framer-g8q9cy-container
+    z-index:1;flex:none;width:auto;height:auto;position:absolute;bottom:-32px;left:49%
+@base | .framer-JcDMh .framer-1hnulot
+    flex-flow:row;flex:none;place-content:center space-between;align-items:center;width:100%;height:min-content;padding:0 12px 12px;display:flex;position:relative;overflow:visible
+@base | .framer-JcDMh .framer-1umbp4q, .framer-JcDMh .framer-1q7wox5
+    flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:min-content;height:min-content;padding:8px;display:flex;position:relative;overflow:visible
+@base | .framer-JcDMh .framer-68pznj, .framer-JcDMh .framer-1o60zur
+    aspect-ratio:1;flex:none;width:20px;height:auto;position:relative
+@base | .framer-JcDMh .framer-5xg612
+    z-index:1;flex:none;position:absolute;inset:1px;overflow:visible
+@base | .framer-JcDMh .framer-t1zk3n
+    z-index:1;flex-flow:wrap;flex:none;place-content:center;align-items:center;gap:4px;width:100%;height:min-content;padding:0 16px;display:flex;position:relative;overflow:visible
+@base | .framer-JcDMh .framer-n00lzi-container, .framer-JcDMh .framer-17bqj0-container, .framer-JcDMh .framer-10q9li8-container, .framer-JcDMh .framer-1ysxh9n-container, .framer-JcDMh .framer-3kyhfb-container, .framer-JcDMh .framer-7k78ji-container
+    flex:none;width:auto;height:auto;position:relative
+@base | .framer-JcDMh .framer-vams9e
+    z-index:1;flex-flow:wrap;flex:none;place-content:center;align-items:center;gap:4px;height:min-content;padding:0 16px;display:flex;position:absolute;bottom:-44px;left:0;right:0;overflow:visible
+@base | .framer-JcDMh .framer-4ig9li
+    -webkit-user-select:none;user-select:none;height:min-content;overflow:clip;pointer-events:none;z-index:3;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;padding:20px;display:flex;position:absolute;bottom:-68px;left:0;right:0
+@base | .framer-JcDMh .framer-1vwlie1-container, .framer-JcDMh .framer-bjkrkd-container, .framer-JcDMh .framer-1dde39s-container, .framer-JcDMh .framer-163fnxe-container
+    flex:none;width:100%;height:auto;position:relative
+@base | .framer-JcDMh .framer-h6s1b3
+    z-index:1;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;height:min-content;padding:0;display:flex;position:absolute;bottom:-219px;left:20px;right:20px;overflow:visible
+@base | .framer-JcDMh .framer-15yxkhe, .framer-JcDMh .framer-540yzz
+    height:1px;overflow:clip;flex:none;width:100%;position:relative
+@base | .framer-JcDMh .framer-1ykvmaj-container
+    z-index:1;flex:none;position:absolute;inset:0
+@base | .framer-JcDMh.framer-v-1o94yvz .framer-1cbnqjk-container, .framer-JcDMh.framer-v-103xv9v .framer-g8q9cy-container
+    bottom:unset;left:unset;position:relative
+@base | .framer-JcDMh.framer-v-1o94yvz .framer-1hnulot
+    z-index:1;width:460px;position:absolute;bottom:-48px;left:50%
+@base | .framer-JcDMh.framer-v-1o94yvz .framer-t1zk3n, .framer-JcDMh.framer-v-103xv9v .framer-t1zk3n
+    width:unset;position:absolute;top:32px;left:0;right:0
+@base | .framer-JcDMh.framer-v-1o94yvz .framer-vams9e
+    bottom:6px
+@base | .framer-JcDMh.framer-v-1o94yvz .framer-4ig9li, .framer-JcDMh.framer-v-103xv9v .framer-4ig9li, .framer-JcDMh.framer-v-103xv9v .framer-h6s1b3
+    bottom:unset;left:unset;right:unset;width:100%;position:relative
+@base | .framer-JcDMh.framer-v-103xv9v .framer-1oh8dd5
+    order:0
+@base | .framer-JcDMh.framer-v-103xv9v .framer-1cbnqjk-container, .framer-JcDMh.framer-v-10yyrs5 .framer-g8q9cy-container
+    bottom:unset;top:-32px
+@base | .framer-JcDMh.framer-v-103xv9v .framer-1hnulot
+    z-index:1;width:460px;position:absolute;bottom:0;left:50%
+@base | .framer-JcDMh.framer-v-103xv9v .framer-1ykvmaj-container
+    order:1
+@base | .framer-JcDMh.framer-v-10yyrs5 .framer-4ig9li
+    bottom:-233px
+@base | .framer-JcDMh.framer-v-10yyrs5 .framer-h6s1b3
+    bottom:unset;left:unset;right:unset;width:420px;position:relative
+@base | .framer-JcDMh.framer-v-mj3k6j.framer-1b5ogf8
+    width:490px;height:min-content;padding:0
+@base | .framer-JcDMh[data-border=true]:after, .framer-JcDMh [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-3VM4T.framer-1346uht, .framer-3VM4T .framer-1346uht
+    display:block
+@base | .framer-3VM4T.framer-m82cj
+    height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:16px;width:min-content;padding:4px 8px;display:flex;position:relative
+@base | .framer-3VM4T .framer-10gt4py
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-3VM4T[data-border=true]:after, .framer-3VM4T [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-K11hZ
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);width:24px;display:block
+@base | .framer-MvRYe.framer-1bznuiy, .framer-MvRYe .framer-1bznuiy
+    display:block
+@base | .framer-MvRYe.framer-1o0a6hx
+    height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:8px;width:min-content;padding:8px;display:flex;position:relative
+@base | .framer-MvRYe .framer-12miy56
+    height:var(--framer-aspect-ratio-supported,14px);flex:none;width:14px;position:relative
+@base | .framer-MvRYe .framer-w22r5q
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-jhxgU .framer-styles-preset-1unq4w:not(.rich-text-wrapper), .framer-jhxgU .framer-styles-preset-1unq4w.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:12px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:16px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-MvRYe[data-border=true]:after, .framer-MvRYe [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-kIZlk, .framer-ENWIm, .framer-Mv0fb, .framer-T13M8
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);width:24px;display:block
+@base | .framer-7BPZG.framer-vs3l0l, .framer-7BPZG .framer-vs3l0l
+    display:block
+@base | .framer-7BPZG.framer-1k8w95s
+    height:min-content;overflow:clip;flex-flow:column;place-content:center flex-start;align-items:center;gap:16px;width:296px;padding:0;display:flex;position:relative
+@base | .framer-7BPZG .framer-1i0bb15
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:flex-start center;align-items:flex-start;gap:12px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-7BPZG .framer-1o3wign
+    aspect-ratio:1;flex:none;width:20px;height:auto;position:relative
+@base | .framer-7BPZG .framer-13s1yhj
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:1 0 0;width:1px;height:auto;position:relative
+@base | .framer-7BPZG .framer-10ol1l1
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-7BPZG.framer-v-16xs3u7 .framer-1i0bb15
+    flex-direction:column
+@base | .framer-7BPZG.framer-v-16xs3u7 .framer-13s1yhj
+    flex:none;width:100%
+@base | .framer-cUeIE .framer-styles-preset-6awed:not(.rich-text-wrapper), .framer-cUeIE .framer-styles-preset-6awed.rich-text-wrapper h3
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:16px;--framer-font-weight:600;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070,#fafafa);--framer-text-transform:none
+@base | .framer-hlXus .framer-styles-preset-c6fndl:not(.rich-text-wrapper), .framer-hlXus .framer-styles-preset-c6fndl.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:14px;--framer-font-weight:400;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d,#a1a1a1);--framer-text-transform:none
+@base | .framer-08V5O, .framer-Ya244, .framer-5I0SE, .framer-ojg1u, .framer-BYbMW, .framer-t9b6j
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);width:24px;display:block
+@base | .framer-NXcw2 .framer-styles-preset-1tsnca:not(.rich-text-wrapper), .framer-NXcw2 .framer-styles-preset-1tsnca.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:16px;--framer-font-weight:400;--framer-letter-spacing:0em;--framer-line-height:24px;--framer-text-alignment:start;--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d,#a1a1a1);--framer-text-transform:none

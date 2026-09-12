@@ -1,0 +1,54 @@
+{
+ "script_main.8MTO-Tt7.mjs": {
+  "di": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "Ci": "{delay:0,duration:.2,ease:[.12,.23,.5,1],type:`tween`}",
+  "Fi": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "na": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "qa": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "co": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "wo": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "Bo": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "ec": "{delay:0,duration:.1,ease:[.12,.23,.5,1],type:`tween`}",
+  "fc": "{delay:0,duration:.1,ease:[.12,.23,.5,1],type:`tween`}",
+  "wc": "{delay:0,duration:.1,ease:[.12,.23,.5,1],type:`tween`}",
+  "Ic": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "Zc": "{delay:0,duration:.2,ease:[.12,.23,.5,1],type:`tween`}",
+  "_l": "{delay:0,duration:.2,ease:[.12,.23,.5,1],type:`tween`}",
+  "yl": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "lu": "{delay:0,duration:.1,ease:[.12,.23,.5,1],type:`tween`}"
+ },
+ "XSOt1sBges6uYIOVvmOKknflM6cmvv9I5j6YDCZbs08.C6EPp6CS.mjs": {
+  "W": "{delay:0,duration:.1,ease:[.12,.23,.5,1],type:`tween`}"
+ },
+ "cZrCCoVsg.6VaJQZpD.mjs": {
+  "N": "{bounce:.2,delay:0,duration:.4,type:`spring`}"
+ },
+ "VDI2v9hjz.CSIN71cc.mjs": {
+  "B": "{bounce:.2,delay:0,duration:.4,type:`spring`}"
+ },
+ "LucDz2KS5.DGUK3bua.mjs": {
+  "J": "{delay:0,duration:.1,ease:[.12,.23,.5,1],type:`tween`}"
+ },
+ "fWyRwFk4d.OE3urp4C.mjs": {
+  "R": "{bounce:.2,delay:0,duration:.4,type:`spring`}"
+ },
+ "FQ7fHGkTD.D5uGLdFt.mjs": {
+  "V": "{delay:0,duration:.2,ease:[.44,0,.56,1],type:`tween`}",
+  "H": "{delay:0,duration:1,ease:[0,0,1,1],type:`tween`}"
+ },
+ "dgUfeXmQf.Dxw2ggva.mjs": {
+  "B": "{duration:0,type:`tween`}",
+  "U": "{delay:0,duration:1,ease:[0,0,1,1],type:`tween`}"
+ },
+ "vNLMju9EH.MSsFkgkC.mjs": {
+  "I": "{bounce:.2,delay:0,duration:.4,type:`spring`}"
+ },
+ "r0opSXunw.COjhZ_g9.mjs": {
+  "O": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "k": "{bounce:.2,delay:.05,duration:.4,type:`spring`}",
+  "j": "{bounce:.2,delay:.1,duration:.4,type:`spring`}"
+ },
+ "K1_srTLaB.vfh58cvl.mjs": {
+  "D": "{bounce:.2,delay:0,duration:.4,type:`spring`}"
+ }
+}

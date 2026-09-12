@@ -1,0 +1,162 @@
+{
+  "report": {
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 1721,
+        "stitchChunks": 2,
+        "hiddenFixedElements": 4,
+        "layoutElements": 325,
+        "sectionMode": "blocks"
+      },
+      "tablet": {
+        "width": 1024,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 1819,
+        "stitchChunks": 3,
+        "hiddenFixedElements": 4,
+        "layoutElements": 401,
+        "sectionMode": "blocks"
+      },
+      "tablet-810": {
+        "width": 810,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 1772,
+        "stitchChunks": 2,
+        "hiddenFixedElements": 4,
+        "layoutElements": 401,
+        "sectionMode": "blocks"
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 2154,
+        "stitchChunks": 3,
+        "hiddenFixedElements": 3,
+        "layoutElements": 390,
+        "sectionMode": "blocks"
+      }
+    },
+    "scenarios": {},
+    "sections": {
+      "desktop": [
+        {
+          "index": 0,
+          "slug": "contact-us",
+          "name": "Contact Us",
+          "y": 68,
+          "h": 712,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Contact Us\"]"
+        },
+        {
+          "index": 1,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 780,
+          "h": 941,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "contact-us",
+          "name": "Contact Us",
+          "y": 68,
+          "h": 804,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Contact Us\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 872,
+          "h": 947,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet-810": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "contact-us",
+          "name": "Contact Us",
+          "y": 68,
+          "h": 812,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Contact Us\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 880,
+          "h": 892,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "mobile": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -776,
+          "h": 844,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "contact-us",
+          "name": "Contact Us",
+          "y": 68,
+          "h": 1048,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Contact Us\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 1116,
+          "h": 1038,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ]
+    },
+    "assets": 7
+  },
+  "errors": []
+}

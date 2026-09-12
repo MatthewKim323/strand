@@ -1,0 +1,391 @@
+##### TREE #####
+        div [Statistics] .framer-jonx6k
+          div [Container] .framer-sodowr data-border
+            div
+              div .framer-11vsi01-container
+                div [End] .framer-kEcQz.framer-bd4w60 {width: 100%; opacity: 1}
+                  div [Left] .framer-t5arn {opacity: 1}
+                    div [b] .framer-u6zm30 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1s7vawm {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1ndw0of {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                  div [Right] .framer-12bx2ig {opacity: 1}
+                    div [b] .framer-ddlp53 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1is7c6b {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1j63n4i {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+            div .framer-ik9bnc
+              div .framer-uxxvap {transform:none}
+                h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-alignment:start}
+                  span .framer-text {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Your team already has the data."
+                  span .framer-text {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Nordwell gives you the answers."
+            div .framer-1k83z1g
+              div [Stat] .framer-1v5wb3a
+                div [Stat1 Animation] .framer-1omqxth-container
+                  div {height:100%; width:100%}
+                    svg viewBox=0 0 64 64 {width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px)}
+                      defs
+                        clippath #__lottie_element_2
+                          rect
+                      g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                div [Info] .framer-fy0c5m
+                  div [Stat Number] .framer-6rkpci {transform:none}
+                    h3 .framer-text.framer-styles-preset-4ysld2 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "16x"
+                  div [Description] .framer-5jidty {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Faster time-to-answer"
+              div [Stat] .framer-11yfml5
+                div [Stat2 Animation] .framer-194edg0-container
+                  div {height:100%; width:100%}
+                    svg viewBox=0 0 64 64 {width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px)}
+                      defs
+                        clippath #__lottie_element_35
+                          rect
+                      g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                            path
+                        g
+                          g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                            path
+                        g
+                          g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                div [Info] .framer-m3ry7
+                  div [Stat Number] .framer-c1tfgw {transform:none}
+                    h3 .framer-text.framer-styles-preset-4ysld2 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "47%"
+                  div [Description] .framer-1t7ceco {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Fewer tools needed"
+              div [Stat] .framer-1a2jfzs
+                div [Stat3 Animation] .framer-10ss5qe-container
+                  div {height:100%; width:100%}
+                    svg viewBox=0 0 64 64 {width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px)}
+                      defs
+                        clippath #__lottie_element_98
+                          rect
+                      g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                            path
+                        g
+                          g
+                div [Info] .framer-1yll1ks
+                  div [Stat Number] .framer-kneugv {transform:none}
+                    h3 .framer-text.framer-styles-preset-4ysld2 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "80%"
+                  div [Description] .framer-jvoqlq {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Less time building reports"
+              div [Stat] .framer-1ujj4gv
+                div [Stat4 Animation] .framer-1cd4sib-container
+                  div {height:100%; width:100%}
+                    svg viewBox=0 0 64 64 {width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px)}
+                      defs
+                        clippath #__lottie_element_176
+                          rect
+                      g
+                        g
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                        g
+                          g
+                            g
+                              path
+                          g
+                            path
+                            g
+                              path
+                div [Info] .framer-1c7lv74
+                  div [Stat Number] .framer-1w1b2eg {transform:none}
+                    h3 .framer-text.framer-styles-preset-4ysld2 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "4.2hrs"
+                  div [Description] .framer-1wnxuus {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Saved per team per week"
+
+##### CSS #####
+@base | .framer-lr0Tx .framer-jonx6k
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-lr0Tx .framer-6rkpci, .framer-lr0Tx .framer-5jidty, .framer-lr0Tx .framer-c1tfgw, .framer-lr0Tx .framer-1t7ceco, .framer-lr0Tx .framer-kneugv, .framer-lr0Tx .framer-jvoqlq, .framer-lr0Tx .framer-1w1b2eg, .framer-lr0Tx .framer-1wnxuus
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-lr0Tx .framer-sodowr
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#222);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-lr0Tx .framer-ik9bnc
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center flex-start;align-items:center;gap:0;width:100%;padding:80px 40px 40px;display:flex;position:relative
+@base | .framer-lr0Tx .framer-uxxvap
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:.5 0 0;width:1px;height:auto;position:relative
+@base | .framer-lr0Tx .framer-1k83z1g
+    height:min-content;overflow:clip;flex:none;grid-template-rows:repeat(1,min-content);grid-template-columns:repeat(4,minmax(220px,1fr));grid-auto-rows:min-content;justify-content:center;gap:0;width:100%;padding:0;display:grid;position:relative
+@base | .framer-lr0Tx .framer-1v5wb3a, .framer-lr0Tx .framer-11yfml5, .framer-lr0Tx .framer-1a2jfzs, .framer-lr0Tx .framer-1ujj4gv
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:flex-start center;place-self:start;align-items:flex-start;gap:40px;width:100%;padding:60px 40px;display:flex;position:relative
+@base | .framer-lr0Tx .framer-fy0c5m, .framer-lr0Tx .framer-m3ry7, .framer-lr0Tx .framer-1yll1ks, .framer-lr0Tx .framer-1c7lv74
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:12px;width:100%;padding:0;display:flex;position:relative
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lr0Tx .framer-jonx6k
+    padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lr0Tx .framer-sodowr
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lr0Tx .framer-ik9bnc
+    padding:60px 40px 40px
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lr0Tx .framer-uxxvap
+    flex:.66 0 0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lr0Tx .framer-1k83z1g
+    grid-template-columns:repeat(2,minmax(315px,1fr))
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lr0Tx .framer-1v5wb3a, .framer-lr0Tx .framer-11yfml5, .framer-lr0Tx .framer-1a2jfzs, .framer-lr0Tx .framer-1ujj4gv
+    padding:20px 40px
+@media (max-width:809.98px) | .framer-lr0Tx .framer-jonx6k
+    padding:0
+@media (max-width:809.98px) | .framer-lr0Tx .framer-1v5wb3a, .framer-lr0Tx .framer-11yfml5, .framer-lr0Tx .framer-1a2jfzs, .framer-lr0Tx .framer-1ujj4gv
+    padding:20px
+@media (max-width:809.98px) | .framer-lr0Tx .framer-sodowr
+    --border-left-width:0px;--border-right-width:0px
+@media (max-width:809.98px) | .framer-lr0Tx .framer-ik9bnc
+    padding:40px 20px
+@media (max-width:809.98px) | .framer-lr0Tx .framer-uxxvap
+    flex:1 0 0
+@media (max-width:809.98px) | .framer-lr0Tx .framer-1k83z1g
+    grid-template-rows:repeat(2,min-content);grid-template-columns:repeat(2,minmax(100px,1fr))
+@base | .framer-kEcQz.framer-cpsty2, .framer-kEcQz .framer-cpsty2
+    display:block
+@base | .framer-kEcQz.framer-bd4w60
+    height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:0;width:429px;padding:0;display:flex;position:relative
+@base | .framer-kEcQz .framer-t5arn, .framer-kEcQz .framer-12bx2ig
+    height:1px;overflow:clip;flex:1 0 0;width:1px;position:relative
+@base | .framer-kEcQz .framer-u6zm30
+    z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;right:0;overflow:visible
+@base | .framer-kEcQz .framer-1s7vawm, .framer-kEcQz .framer-1ndw0of
+    mix-blend-mode:screen;z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;right:0;overflow:visible
+@base | .framer-kEcQz .framer-ddlp53
+    z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;left:0;overflow:visible
+@base | .framer-kEcQz .framer-1is7c6b, .framer-kEcQz .framer-1j63n4i
+    mix-blend-mode:screen;z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;left:0;overflow:visible
+@base | .framer-kEcQz.framer-v-1kv1gub .framer-u6zm30, .framer-kEcQz.framer-v-1kv1gub .framer-1s7vawm, .framer-kEcQz.framer-v-1kv1gub .framer-1ndw0of, .framer-kEcQz.framer-v-1kv1gub .framer-ddlp53, .framer-kEcQz.framer-v-1kv1gub .framer-1is7c6b, .framer-kEcQz.framer-v-1kv1gub .framer-1j63n4i
+    width:0%

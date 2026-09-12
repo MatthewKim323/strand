@@ -1,0 +1,245 @@
+{
+ "url": "http://localhost:3799/features/cortex",
+ "ref": "reference/site-features-cortex",
+ "at": "2026-09-12T12:47:28.758Z",
+ "viewports": {
+  "desktop": {
+   "width": 1440,
+   "docHeight": {
+    "ref": 4434,
+    "build": 4434,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 732,
+     "build": 732,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "CTA",
+     "y": 800,
+     "ref": 168,
+     "build": 168,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Bento",
+     "y": 968,
+     "ref": 1208,
+     "build": 1208,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Accordion",
+     "y": 2176,
+     "ref": 640,
+     "build": 640,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 2816,
+     "ref": 1618,
+     "build": 1618,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet": {
+   "width": 1024,
+   "docHeight": {
+    "ref": 4280,
+    "build": 4280,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 604,
+     "build": 604,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "CTA",
+     "y": 672,
+     "ref": 168,
+     "build": 168,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Bento",
+     "y": 840,
+     "ref": 1176,
+     "build": 1176,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Accordion",
+     "y": 2016,
+     "ref": 640,
+     "build": 640,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 2656,
+     "ref": 1624,
+     "build": 1624,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet-810": {
+   "width": 810,
+   "docHeight": {
+    "ref": 4249,
+    "build": 4249,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 604,
+     "build": 604,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "CTA",
+     "y": 672,
+     "ref": 168,
+     "build": 168,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Bento",
+     "y": 840,
+     "ref": 1200,
+     "build": 1200,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Accordion",
+     "y": 2040,
+     "ref": 640,
+     "build": 640,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 2680,
+     "ref": 1569,
+     "build": 1569,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "mobile": {
+   "width": 390,
+   "docHeight": {
+    "ref": 5553,
+    "build": 5553,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -776,
+     "ref": 844,
+     "build": 844,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 724,
+     "build": 724,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "CTA",
+     "y": 792,
+     "ref": 212,
+     "build": 212,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Bento",
+     "y": 1004,
+     "ref": 1916,
+     "build": 1916,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Accordion",
+     "y": 2920,
+     "ref": 918,
+     "build": 918,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 3838,
+     "ref": 1715,
+     "build": 1715,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  }
+ },
+ "pass": true,
+ "blackout": true
+}

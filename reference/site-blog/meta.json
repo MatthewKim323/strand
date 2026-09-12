@@ -1,0 +1,52 @@
+{
+  "name": "site-blog",
+  "capturedAt": "2026-09-12T12:35:36.590Z",
+  "brand": "Nordwell",
+  "stack": {
+    "framework": "framer",
+    "framer": true,
+    "framerMotion": true,
+    "webflow": true,
+    "lenis": true,
+    "gsap": false,
+    "three": false,
+    "spline": false,
+    "notes": [
+      "Built with Framer: appear ids, data-framer-name, framerusercontent modules. Use `1to1 prep` + `1to1 rip`.",
+      "Lenis smooth scroll present: window.scrollTo may be overridden, rigs fall back to wheel events."
+    ]
+  },
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "tablet",
+      "width": 1024,
+      "height": 900
+    },
+    {
+      "name": "tablet-810",
+      "width": 810,
+      "height": 900
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "docHeights": {
+    "desktop": 2813,
+    "tablet": 2942,
+    "tablet-810": 2806,
+    "mobile": 3156
+  },
+  "revealMethod": "scrollTo",
+  "unrevealed": 0,
+  "animationCount": 310,
+  "assetCount": 14,
+  "errors": []
+}

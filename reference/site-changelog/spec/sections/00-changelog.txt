@@ -1,0 +1,240 @@
+##### TREE #####
+        div [Changelog] .framer-rtqoie data-border
+          div [Container] .framer-13d1igq data-border
+            div .framer-8y30ia-container
+              svg viewBox= {height:100%; width:100%}
+                defs
+                  pattern #background-pattern-0.35998881050894094
+                    rect
+                rect
+            div [Content] .framer-1ezdvbi
+              div [Title Container] .framer-v5jytj data-border
+                div [Title] .framer-v7ax60 {transform:none}
+                  h1 .framer-text.framer-styles-preset-fsda3w {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Changelog"
+                div [Uptime] .framer-1q8epjv data-border
+                  div .framer-m8xtlr
+                    div .framer-y0n39y-container
+                      div {width:6px; height:6px; border-radius:9999px; background-color:var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)); position:relative}
+                        div {border-radius: 9999px; position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; opacity: 0; transform: translateX(-50%) translateY(-50%); will-change: transform}
+                    div .framer-zgl11i {transform:none}
+                      p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "All systems operational"
+                  div .framer-e9i5br data-border
+                  div .framer-oo8jx2 {transform:none}
+                    p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "99.98% UPTIME"
+              div .framer-fbo8d8 data-border
+                div [Log] .framer-z2s0f3
+                  div [Left Column] .framer-30qq8g data-border
+                    div [Sticky Container] .framer-1dj4nil
+                      div [Container] .framer-3pc9gc data-border
+                        div .framer-mfp4zn {transform:none}
+                          p .framer-text.framer-styles-preset-7mu5w4 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "v2.4.0"
+                        div .framer-lazdyf {transform:none}
+                          p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                            time "Jun 12, 2026"
+                  div [Right Column] .framer-2sk1f2
+                    div [Content] .framer-yhomv6
+                      div [Title] .framer-s19dkn {transform:none}
+                        h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))} "Faster cross source queries and quieter Pulse alerts"
+                      div .framer-1asjw59 {transform:none}
+                        div .framer-text.framer-text-module {width:100%; height:auto}
+                          div
+                            div [Variant 1] .framer-h0t1T.framer-1d5g7lg {opacity: 1}
+                              div .framer-1pq3unk-container {opacity: 1}
+                                svg viewBox= {height:100%; width:100%}
+                                  defs
+                                    pattern #background-pattern-0.2767616611274334
+                                      rect
+                                  rect
+                              div .framer-1p6i6oq {height: auto; aspect-ratio: 1.3079 / 1; opacity: 1}
+                                div {position:absolute; border-radius:inherit; top:0; right:0; bottom:0; left:0}
+                                  img src=https://framerusercontent.com/images/2lGbNb0EKRZCISNfMTcVLhJDY.png?width=960&height=734 (min-width: 1200px) calc(100vw - 160px), {width:100%; height:100%; border-radius:inherit; object-fit:cover}
+                        div .framer-text.framer-text-module {width:100%; height:auto}
+                          div
+                            div [New] .framer-wbRG7.framer-QXjqX.framer-776xka {opacity: 1}
+                              div .framer-ea1ymu {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--extracted-r6o4lv, var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)))} "NEW"
+                        ul .framer-text
+                          li .framer-text.framer-styles-preset-c6fndl
+                            p .framer-text.framer-styles-preset-c6fndl "Ask now suggests two or three follow up questions after every result, so you can keep digging without typing a new query from scratch."
+                              br .framer-text
+                              br .framer-text
+                        div .framer-text.framer-text-module {width:100%; height:auto}
+                          div [Improved] .framer-wbRG7.framer-QXjqX.framer-776xka {opacity: 1}
+                            div .framer-ea1ymu {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--extracted-r6o4lv, var(--token-5e110c3f-82c1-4736-86cd-104cc5e3bfff, rgb(54, 197, 240)))} "IMPROVED"
+                        ul .framer-text
+                          li .framer-text.framer-styles-preset-c6fndl
+                            p .framer-text.framer-styles-preset-c6fndl "Queries spanning five or more connected sources resolve noticeably faster, with no change to how you phrase them."
+                          li .framer-text.framer-styles-preset-c6fndl
+                            p .framer-text.framer-styles-preset-c6fndl "Pulse adjusts its baseline for known seasonal patterns, like quarter end spikes, so expected swings stop triggering alerts."
+                div [Log] .framer-z2s0f3
+                  div [Left Column] .framer-30qq8g data-border
+                    div [Sticky Container] .framer-1dj4nil
+                      div [Container] .framer-3pc9gc data-border
+                        div .framer-mfp4zn {transform:none}
+                          p .framer-text.framer-styles-preset-7mu5w4 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "v2.3.0"
+                        div .framer-lazdyf {transform:none}
+                          p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                            time "Jun 3, 2026"
+                  div [Right Column] .framer-2sk1f2
+                    div [Content] .framer-yhomv6
+                      div [Title] .framer-s19dkn {transform:none}
+                        h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))} "Cortex traces deeper relationships, Nucleus streams larger results"
+                      div .framer-1asjw59 {transform:none}
+                        div .framer-text.framer-text-module {width:100%; height:auto}
+                          div
+                            div [New] .framer-wbRG7.framer-QXjqX.framer-776xka {opacity: 1}
+                              div .framer-ea1ymu {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--extracted-r6o4lv, var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)))} "NEW"
+                        ul .framer-text
+                          li .framer-text.framer-styles-preset-c6fndl
+                            p .framer-text.framer-styles-preset-c6fndl "Cortex now resolves relationships across three or more linked entities in a single pass, not just direct connections."
+                          li .framer-text.framer-styles-preset-c6fndl
+                            p .framer-text.framer-styles-preset-c6fndl "Nucleus TypeScript SDK v1.4.0 adds streaming support for large query results, instead of waiting on the full payload."
+                div [Log] .framer-z2s0f3
+                  div [Left Column] .framer-30qq8g data-border
+                    div [Sticky Container] .framer-1dj4nil
+                      div [Container] .framer-3pc9gc data-border
+                        div .framer-mfp4zn {transform:none}
+                          p .framer-text.framer-styles-preset-7mu5w4 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "v2.2.1"
+                        div .framer-lazdyf {transform:none}
+                          p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                            time "May 20, 2026"
+                  div [Right Column] .framer-2sk1f2
+                    div [Content] .framer-yhomv6
+                      div [Title] .framer-s19dkn {transform:none}
+                        h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))} "Local schema validation and a Snowflake sync fix"
+                      div .framer-1asjw59 {transform:none}
+                        div .framer-text.framer-text-module {width:100%; height:auto}
+                          div
+                            div [New] .framer-wbRG7.framer-QXjqX.framer-776xka {opacity: 1}
+                              div .framer-ea1ymu {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--extracted-r6o4lv, var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)))} "NEW"
+                        ul .framer-text
+                          li .framer-text.framer-styles-preset-c6fndl
+                            p .framer-text.framer-styles-preset-c6fndl "Nucleus CLI v2.1.0 validates your graph schema locally before pushing changes, instead of waiting on a round trip to the server."
+                              br .framer-text
+                              br .framer-text
+                        div .framer-text.framer-text-module {width:100%; height:auto}
+                          div [Improved] .framer-wbRG7.framer-QXjqX.framer-776xka {opacity: 1}
+                            div .framer-ea1ymu {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--extracted-r6o4lv, var(--token-5e110c3f-82c1-4736-86cd-104cc5e3bfff, rgb(54, 197, 240)))} "IMPROVED"
+                        ul .framer-text
+                          li .framer-text.framer-styles-preset-c6fndl
+                            p .framer-text.framer-styles-preset-c6fndl "Resolved a delay where the Snowflake connector could lag behind other sources during high volume Pathways syncs."
+                div
+                  div .framer-1d6mk1y-container
+                    div [Loading] .framer-IJaBb.framer-1hbo82m {opacity: 1}
+                      div [Spinner] .framer-1qrc6yg {mask: url("https://framerusercontent.com/images/pGiXYozQ3mE4cilNOItfe2L2fUA.svg") center center / cover no-repeat alpha; will-change: transform; opacity: 0; transform: none}
+                        div [Conic] .framer-1jivlv8 {background: conic-gradient(rgba(255, 255, 255, 0) 0deg, rgb(153, 153, 153) 342deg); opacity: 1; transform: none}
+                          div [Round] .framer-m7b4s7 {background-color: rgb(153, 153, 153); border-radius: 1px; opacity: 1}
+            div .framer-1ulxf7-container
+              svg viewBox= {height:100%; width:100%}
+                defs
+                  pattern #background-pattern-0.23920066947710972
+                    rect
+                rect
+
+##### CSS #####
+@base | .framer-Ey7LG .framer-rtqoie
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:0px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-Ey7LG .framer-13d1igq
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#222);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-Ey7LG .framer-1ezdvbi
+    height:min-content;overflow:clip;flex-flow:column;flex:1 0 0;place-content:center;align-items:center;gap:0;width:1px;padding:0;display:flex;position:relative
+@base | .framer-Ey7LG .framer-v5jytj
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#292524);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:40px;display:flex;position:relative
+@base | .framer-Ey7LG .framer-v7ax60
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:1 0 0;width:1px;height:auto;position:relative
+@base | .framer-Ey7LG .framer-1q8epjv
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background-color:var(--token-7f40e4a1-2b83-444e-8765-465c7d3596ab,#0a0a0a);height:min-content;overflow:clip;border-radius:210px;flex-flow:row;flex:none;place-content:center;align-items:center;gap:8px;width:min-content;padding:12px 16px;display:flex;position:relative
+@base | .framer-Ey7LG .framer-m8xtlr
+    flex-flow:row;flex:none;place-content:center;align-items:center;gap:12px;width:min-content;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-Ey7LG .framer-zgl11i
+    --text-truncation-display-inline-for-safari-16:inline;--text-truncation-display-none-for-safari-16:none;--text-truncation-line-break-for-safari-16:"\a ";-webkit-line-clamp:1;height:auto;overflow:clip;white-space:pre;-webkit-box-orient:vertical;flex:none;width:auto;display:-webkit-box;position:relative
+@base | .framer-Ey7LG .framer-e9i5br
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background-color:#26f;flex:none;align-self:stretch;width:1px;height:auto;position:relative;overflow:visible
+@base | .framer-Ey7LG .framer-oo8jx2
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-Ey7LG .framer-fbo8d8
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;flex-flow:column;flex:none;place-content:center flex-start;align-items:center;gap:0;width:100%;height:min-content;padding:0;display:flex;position:relative
+@base | .framer-Ey7LG .framer-z2s0f3
+    flex:none;grid-template-rows:repeat(1,minmax(0,1fr));grid-template-columns:repeat(12,minmax(50px,1fr));grid-auto-rows:minmax(0,1fr);justify-content:center;gap:0;width:100%;height:min-content;padding:0;display:grid;position:relative
+@base | .framer-Ey7LG .framer-30qq8g
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:0px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;height:100%;overflow:clip;flex-flow:column;flex:none;grid-column:span 4;place-content:flex-end flex-start;place-self:start;align-items:flex-end;gap:16px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-Ey7LG .framer-1dj4nil
+    height:min-content;overflow:clip;z-index:1;flex-flow:column;flex:none;place-content:flex-start;align-items:flex-start;gap:32px;width:50%;padding:0;display:flex;position:sticky;top:68px
+@base | .framer-Ey7LG .framer-3pc9gc
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:0px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:2px;width:100%;padding:16px;display:flex;position:relative
+@base | .framer-Ey7LG .framer-mfp4zn, .framer-Ey7LG .framer-lazdyf, .framer-Ey7LG .framer-s19dkn
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-Ey7LG .framer-2sk1f2
+    height:min-content;overflow:clip;flex-flow:column;flex:none;grid-column:span 8;place-content:center;place-self:start;align-items:center;gap:0;width:100%;padding:32px 32px 72px;display:flex;position:relative
+@base | .framer-Ey7LG .framer-yhomv6
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:32px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-Ey7LG .framer-1asjw59
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@media (min-width:810px) and (max-width:1199.98px) | .framer-Ey7LG .framer-rtqoie
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-Ey7LG .framer-13d1igq, .framer-Ey7LG .framer-fbo8d8
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (min-width:810px) and (max-width:1199.98px) | .framer-Ey7LG .framer-v5jytj
+    --border-left-width:0px;--border-right-width:0px
+@media (min-width:810px) and (max-width:1199.98px) | .framer-Ey7LG .framer-z2s0f3
+    grid-template-columns:repeat(8,minmax(50px,1fr))
+@media (min-width:810px) and (max-width:1199.98px) | .framer-Ey7LG .framer-30qq8g
+    grid-column:span 3
+@media (min-width:810px) and (max-width:1199.98px) | .framer-Ey7LG .framer-2sk1f2
+    grid-column:span 5
+@media (max-width:809.98px) | .framer-Ey7LG .framer-rtqoie
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;padding:0
+@media (max-width:809.98px) | .framer-Ey7LG .framer-13d1igq
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (max-width:809.98px) | .framer-Ey7LG .framer-v5jytj
+    --border-left-width:0px;--border-right-width:0px;flex-direction:column;align-content:flex-start;align-items:flex-start;padding:32px 20px
+@media (max-width:809.98px) | .framer-Ey7LG .framer-v7ax60
+    flex:none;width:100%
+@media (max-width:809.98px) | .framer-Ey7LG .framer-m8xtlr
+    justify-content:flex-start
+@media (max-width:809.98px) | .framer-Ey7LG .framer-fbo8d8
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;gap:12px
+@media (max-width:809.98px) | .framer-Ey7LG .framer-z2s0f3
+    grid-template-rows:repeat(1,min-content);grid-template-columns:repeat(1,minmax(50px,1fr));grid-auto-rows:min-content
+@media (max-width:809.98px) | .framer-Ey7LG .framer-30qq8g
+    --border-bottom-width:1px;--border-right-width:0px;z-index:1;grid-column:span 1;height:min-content;position:sticky;top:68px
+@media (max-width:809.98px) | .framer-Ey7LG .framer-1dj4nil
+    background-color:var(--token-7f40e4a1-2b83-444e-8765-465c7d3596ab,#0c0a09);top:unset;width:100%;position:relative
+@media (max-width:809.98px) | .framer-Ey7LG .framer-3pc9gc
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;flex-direction:row;gap:8px;padding:12px 16px
+@media (max-width:809.98px) | .framer-Ey7LG .framer-mfp4zn
+    white-space:pre;width:auto
+@media (max-width:809.98px) | .framer-Ey7LG .framer-lazdyf
+    flex:1 0 0;width:1px
+@media (max-width:809.98px) | .framer-Ey7LG .framer-2sk1f2
+    grid-column:span 1;padding:20px
+@base | .framer-IJaBb.framer-xuzmjz, .framer-IJaBb .framer-xuzmjz
+    display:block
+@base | .framer-IJaBb.framer-1hbo82m
+    flex-flow:row;place-content:center;align-items:center;gap:10px;width:40px;height:40px;padding:0;display:flex;position:relative
+@base | .framer-IJaBb .framer-1qrc6yg
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,20px);flex:none;gap:10px;width:20px;position:relative;overflow:visible
+@base | .framer-IJaBb .framer-1jivlv8
+    flex:none;gap:10px;position:absolute;inset:0;overflow:visible
+@base | .framer-IJaBb .framer-m7b4s7
+    flex:none;width:2px;height:2px;position:absolute;top:0;left:calc(50% - 1px);overflow:visible
+@base | .framer-h0t1T.framer-16268bi, .framer-h0t1T .framer-16268bi
+    display:block
+@base | .framer-h0t1T.framer-1d5g7lg
+    height:min-content;overflow:clip;padding:var(--192xr76);flex-flow:column;place-content:center;align-items:center;gap:16px;width:525px;display:flex;position:relative
+@base | .framer-h0t1T .framer-1pq3unk-container
+    flex:none;position:absolute;inset:0
+@base | .framer-h0t1T .framer-1p6i6oq
+    flex:none;width:100%;height:auto;position:relative
+@base | .framer-wbRG7.framer-9t9zlp, .framer-wbRG7 .framer-9t9zlp
+    display:block
+@base | .framer-wbRG7.framer-776xka
+    height:min-content;overflow:clip;flex-flow:column;place-content:center;align-items:center;gap:16px;width:348px;padding:0;display:flex;position:relative
+@base | .framer-wbRG7 .framer-ea1ymu
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-QXjqX .framer-styles-preset-hwasvf:not(.rich-text-wrapper), .framer-QXjqX .framer-styles-preset-hwasvf.rich-text-wrapper p
+    --framer-font-family:"Geist Mono",monospace;--framer-font-size:12px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:16px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none

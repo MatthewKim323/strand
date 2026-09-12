@@ -1,0 +1,57 @@
+##### TREE #####
+        div [CTA] .framer-2qfhem
+          div [Container] .framer-14ix8jx
+            div
+              div .framer-1f6vauh {transform:none}
+                p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "The knowledge graph that connects everything. Relationships mapped automatically, in real time."
+            div [CTA Buttons] .framer-1hf70g8
+              div
+                div [Get Started] .framer-u0wjsj-container
+                  a [Primary / XL] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=../contact-us {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 245)); border-radius: 8px; opacity: 1}
+                    div .framer-1mqy83k {opacity: 1}
+                      div .framer-1fuw16a {transform: none; opacity: 1}
+                        p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-52462940-c15c-4103-9816-370bb3c11bfa, rgb(23, 23, 23)))} "Get started"
+              div
+                div [View Prices] .framer-16v0zu5-container
+                  a [Secondary / XL] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=../pricing data-border {--border-bottom-width: 1px; --border-color: var(--token-d77c8f0f-067e-4a45-ac82-2913bb2aee68, rgb(34, 34, 34)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-49f482bf-7282-4f8a-9849-f4d6c5f1f94c, rgb(38, 38, 38)); border-radius: 8px; opacity: 1}
+                    div .framer-1mqy83k {opacity: 1}
+                      div .framer-1fuw16a {transform: none; opacity: 1}
+                        p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-d374d93c-0fe8-421f-a111-c491a4a873a6, rgb(245, 245, 245)))} "View prices"
+
+##### CSS #####
+@base | .framer-nnJOX.framer-m5ryuf, .framer-nnJOX .framer-m5ryuf
+    display:block
+@base | .framer-nnJOX.framer-dfxefx
+    cursor:pointer;height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:4px;width:min-content;padding:10px;text-decoration:none;display:flex;position:relative
+@base | .framer-nnJOX .framer-mn890o
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,24px);flex:none;width:16px;position:relative
+@base | .framer-nnJOX .framer-1mqy83k
+    flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:min-content;height:min-content;padding:0 6px;display:flex;position:relative;overflow:visible
+@base | .framer-nnJOX .framer-1fuw16a
+    -webkit-user-select:none;user-select:none;white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-nnJOX .framer-10czdf1
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,16px);flex:none;width:16px;position:relative
+@base | .framer-nnJOX.framer-v-1njn1iu.framer-dfxefx, .framer-nnJOX.framer-v-1pdy1bv.framer-dfxefx, .framer-nnJOX.framer-v-1m7eu8f.framer-dfxefx, .framer-nnJOX.framer-v-184kbnb.framer-dfxefx
+    padding:8px
+@base | .framer-nnJOX.framer-v-1sdqvh4.framer-dfxefx, .framer-nnJOX.framer-v-1prbrrf.framer-dfxefx, .framer-nnJOX.framer-v-8fxu37.framer-dfxefx, .framer-nnJOX.framer-v-mso3yc.framer-dfxefx
+    padding:6px
+@base | .framer-nnJOX[data-border=true]:after, .framer-nnJOX [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-lPqUD .framer-2qfhem
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-lPqUD .framer-14ix8jx
+    max-width:1400px;height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center space-between;align-items:center;width:100%;padding:60px 40px;display:flex;position:relative
+@base | .framer-lPqUD .framer-1f6vauh
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:418px;height:auto;position:relative
+@base | .framer-lPqUD .framer-1hf70g8
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:12px;width:min-content;padding:0;display:flex;position:relative
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lPqUD .framer-2qfhem
+    padding:0
+@media (max-width:809.98px) | .framer-lPqUD .framer-2qfhem
+    padding:0
+@media (max-width:809.98px) | .framer-lPqUD .framer-14ix8jx
+    flex-direction:column;justify-content:flex-start;gap:20px;padding:40px 20px
+@media (max-width:809.98px) | .framer-lPqUD .framer-1f6vauh
+    width:100%
+@base | .framer-95lQp .framer-styles-preset-1h9i0d0:not(.rich-text-wrapper), .framer-95lQp .framer-styles-preset-1h9i0d0.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:14px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none

@@ -1,0 +1,162 @@
+{
+  "report": {
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3229,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 4,
+        "layoutElements": 496,
+        "sectionMode": "blocks"
+      },
+      "tablet": {
+        "width": 1024,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3185,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 4,
+        "layoutElements": 572,
+        "sectionMode": "blocks"
+      },
+      "tablet-810": {
+        "width": 810,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3107,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 4,
+        "layoutElements": 572,
+        "sectionMode": "blocks"
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3355,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 3,
+        "layoutElements": 561,
+        "sectionMode": "blocks"
+      }
+    },
+    "scenarios": {},
+    "sections": {
+      "desktop": [
+        {
+          "index": 0,
+          "slug": "careers",
+          "name": "Careers",
+          "y": 68,
+          "h": 2220,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Careers\"]"
+        },
+        {
+          "index": 1,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2288,
+          "h": 941,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "careers",
+          "name": "Careers",
+          "y": 68,
+          "h": 2170,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Careers\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2238,
+          "h": 947,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet-810": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "careers",
+          "name": "Careers",
+          "y": 68,
+          "h": 2147,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Careers\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2215,
+          "h": 892,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "mobile": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -776,
+          "h": 844,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "careers",
+          "name": "Careers",
+          "y": 68,
+          "h": 2249,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Careers\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2317,
+          "h": 1038,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ]
+    },
+    "assets": 18
+  },
+  "errors": []
+}

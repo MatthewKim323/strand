@@ -1,0 +1,25 @@
+##### TREE #####
+        div [Latest] .framer-e9swg2 data-border
+          div [Container] .framer-1kjmxgg data-border
+            div [Title] .framer-1ih6mea {transform:none}
+              h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Latest articles"
+
+##### CSS #####
+@base | .framer-pw8me .framer-e9swg2
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:0px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-pw8me .framer-1kjmxgg
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#222);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:40px;display:flex;position:relative
+@base | .framer-pw8me .framer-1ih6mea
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:1 0 0;width:1px;height:auto;position:relative
+@media (min-width:810px) and (max-width:1199.98px) | .framer-pw8me .framer-e9swg2
+    padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-pw8me .framer-1kjmxgg
+    --border-left-width:0px;--border-right-width:0px;flex-direction:column;align-content:flex-start;align-items:flex-start
+@media (min-width:810px) and (max-width:1199.98px) | .framer-pw8me .framer-1ih6mea
+    flex:none;width:100%
+@media (max-width:809.98px) | .framer-pw8me .framer-e9swg2
+    padding:0
+@media (max-width:809.98px) | .framer-pw8me .framer-1ih6mea
+    flex:none;width:100%
+@media (max-width:809.98px) | .framer-pw8me .framer-1kjmxgg
+    --border-left-width:0px;--border-right-width:0px;flex-direction:column;align-content:flex-start;align-items:flex-start;padding:40px 20px

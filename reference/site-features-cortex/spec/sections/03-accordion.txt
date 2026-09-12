@@ -1,0 +1,288 @@
+##### TREE #####
+        div [Accordion] .framer-19z2kmk
+          div [Container] .framer-zlr3dl data-border
+            div .framer-1xo87z1-container
+              div
+                div {height: 640px}
+                  div {grid-template-columns:repeat(2, minmax(0, 1fr))}
+                    div {flex-direction:column; padding:80px 40px; gap:96px}
+                      p
+                        span {color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Every relationship in your stack,"
+                        span {color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "mapped and queryable."
+                      div {flex-direction:column; gap:16px}
+                        div {position:relative; width:100%; height:500px}
+                            div {width: 100%; height: 100%; padding: 0px 12px}
+                              div [Query] .framer-f9giru
+                                div [Chat Container] .framer-ixsf3k
+                                  div [Background] .framer-tz03hy
+                                  div .framer-psc2ff {transform: none}
+                                    p .framer-text.framer-styles-preset-c6fndl {--framer-text-color: var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Customers likely to churn in next 30 days"
+                                  div [3 Results] .framer-fuz01i-container
+                                    div [Variant 1] .framer-3VM4T.framer-jhxgU.framer-m82cj data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                                      div .framer-10gt4py {transform: none; opacity: 1}
+                                        p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "3 Results"
+                                div [Results Container] .framer-638xdx data-border
+                                  div .framer-1803u64 {transform: none}
+                                    p .framer-text.framer-styles-preset-hwasvf {--framer-text-color: var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "3 accounts flagged"
+                                  div .framer-1kvqleb
+                                    div .framer-17v4llw-container
+                                      div [Variant 1] .framer-qMDyq.framer-95lQp.framer-jhxgU.framer-dlOWH.framer-zf3g5n {width: 100%; opacity: 1}
+                                        div [Main Info] .framer-1o37y9g {opacity: 1}
+                                          div [Icon Container] .framer-t34z3q {background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; opacity: 1}
+                                            div .framer-MOhqr.framer-f1zd2y {opacity: 1}
+                                          div [Name] .framer-14g1s3h {opacity: 1}
+                                            div [Name] .framer-3y3h77 {transform: none; opacity: 1}
+                                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Northgate Industries"
+                                            div [Event] .framer-19evgrt {transform: none; opacity: 1}
+                                              p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-cQwmQyQIM-m4s10AM8d))} "Support spike"
+                                        div [Gap] .framer-13mobcq {opacity: 1}
+                                        div [Details] .framer-1y1ali4 {opacity: 1}
+                                          div [Score] .framer-1nnovgt {opacity: 1}
+                                            div .framer-fa0egn-container {opacity: 1}
+                                              div {width: 12px; height: 12px; border-radius: 24px; mask-image: radial-gradient(50% 50%, rgba(0, 0, 0, 0) 57.3333%, rgb(255, 255, 255) 58.3333%); background: conic-gradient(var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)) 295.2deg, var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(64, 64, 64)) 295.2deg)}
+                                            div .framer-12awbd7 {opacity: 1}
+                                              div .framer-5mmzcp {transform: none; opacity: 1}
+                                                p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-cQwmQyQIM-m4s10AM8d))} "82"
+                                              div .framer-1rt7nyy {transform: none; opacity: 1}
+                                                p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "/ 100"
+                                          div .framer-60b353 {transform: none; opacity: 1}
+                                            p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "risk score"
+                                    div [Divider] .framer-1m22eit
+                                    div .framer-1f5mwvi-container
+                                      div [Variant 1] .framer-qMDyq.framer-95lQp.framer-jhxgU.framer-dlOWH.framer-zf3g5n {width: 100%; opacity: 1}
+                                        div [Main Info] .framer-1o37y9g {opacity: 1}
+                                          div [Icon Container] .framer-t34z3q {background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; opacity: 1}
+                                            div .framer-21WIf.framer-f1zd2y {opacity: 1}
+                                          div [Name] .framer-14g1s3h {opacity: 1}
+                                            div [Name] .framer-3y3h77 {transform: none; opacity: 1}
+                                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Apex Systems"
+                                            div [Event] .framer-19evgrt {transform: none; opacity: 1}
+                                              p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-cQwmQyQIM-m4s10AM8d))} "Usage -40%"
+                                        div [Gap] .framer-13mobcq {opacity: 1}
+                                        div [Details] .framer-1y1ali4 {opacity: 1}
+                                          div [Score] .framer-1nnovgt {opacity: 1}
+                                            div .framer-fa0egn-container {opacity: 1}
+                                              div {width: 12px; height: 12px; border-radius: 24px; mask-image: radial-gradient(50% 50%, rgba(0, 0, 0, 0) 57.3333%, rgb(255, 255, 255) 58.3333%); background: conic-gradient(var(--token-d5c4dbc3-b3ce-4d57-8583-5c04401312ab, rgb(249, 171, 0)) 266.40000000000003deg, var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(64, 64, 64)) 266.40000000000003deg)}
+                                            div .framer-12awbd7 {opacity: 1}
+                                              div .framer-5mmzcp {transform: none; opacity: 1}
+                                                p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-cQwmQyQIM-m4s10AM8d))} "74"
+                                              div .framer-1rt7nyy {transform: none; opacity: 1}
+                                                p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "/ 100"
+                                          div .framer-60b353 {transform: none; opacity: 1}
+                                            p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "risk score"
+                                    div [Divider] .framer-1ytzlox
+                                    div .framer-n764qv-container
+                                      div [Variant 1] .framer-qMDyq.framer-95lQp.framer-jhxgU.framer-dlOWH.framer-zf3g5n {width: 100%; opacity: 1}
+                                        div [Main Info] .framer-1o37y9g {opacity: 1}
+                                          div [Icon Container] .framer-t34z3q {background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; opacity: 1}
+                                            div .framer-pGN8c.framer-f1zd2y {opacity: 1}
+                                          div [Name] .framer-14g1s3h {opacity: 1}
+                                            div [Name] .framer-3y3h77 {transform: none; opacity: 1}
+                                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Lumen Health"
+                                            div [Event] .framer-19evgrt {transform: none; opacity: 1}
+                                              p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-cQwmQyQIM-m4s10AM8d))} "No renewal contact"
+                                        div [Gap] .framer-13mobcq {opacity: 1}
+                                        div [Details] .framer-1y1ali4 {opacity: 1}
+                                          div [Score] .framer-1nnovgt {opacity: 1}
+                                            div .framer-fa0egn-container {opacity: 1}
+                                              div {width: 12px; height: 12px; border-radius: 24px; mask-image: radial-gradient(50% 50%, rgba(0, 0, 0, 0) 57.3333%, rgb(255, 255, 255) 58.3333%); background: conic-gradient(var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)) 219.6deg, var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(64, 64, 64)) 219.6deg)}
+                                            div .framer-12awbd7 {opacity: 1}
+                                              div .framer-5mmzcp {transform: none; opacity: 1}
+                                                p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-cQwmQyQIM-m4s10AM8d))} "61"
+                                              div .framer-1rt7nyy {transform: none; opacity: 1}
+                                                p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "/ 100"
+                                          div .framer-60b353 {transform: none; opacity: 1}
+                                            p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "risk score"
+                                div [Quick Action Bar] .framer-d4lis4
+                                  div .framer-2tsdps-container
+                                    div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                                      svg .framer-50oIK.framer-12miy56 viewBox=0 0 24 24 {opacity: 1}
+                                        use href=#1683057900
+                                      div .framer-w22r5q {transform: none; opacity: 1}
+                                        p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Export CSV"
+                                  div .framer-eyxcjk-container
+                                    div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                                      svg .framer-qIgAD.framer-12miy56 viewBox=0 0 24 24 {opacity: 1}
+                                        use href=#3129714398
+                                      div .framer-w22r5q {transform: none; opacity: 1}
+                                        p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Share with team"
+                          svg viewBox= {position:absolute; z-index:1}
+                            defs
+                              pattern #background-pattern-0.17821488967387789
+                                rect
+                            rect
+                        div {gap:12px}
+                          div {flex:1; padding:16px 0px}
+                            div {background-color:var(--token-5206bb0a-1eac-4660-9763-613fdbda3479, rgb(23, 23, 23)); overflow:clip; height:2px}
+                              div {background-color: var(--token-ba35e0ab-850d-49cf-be59-934f032ab5a0, rgb(245, 245, 245)); height: 100%; transform: none}
+                          div {flex:1; padding:16px 0px}
+                            div {background-color:var(--token-5206bb0a-1eac-4660-9763-613fdbda3479, rgb(23, 23, 23)); overflow:clip; height:2px}
+                              div {background-color: var(--token-ba35e0ab-850d-49cf-be59-934f032ab5a0, rgb(245, 245, 245)); height: 100%; transform: none}
+                          div {flex:1; padding:16px 0px}
+                            div {background-color:var(--token-5206bb0a-1eac-4660-9763-613fdbda3479, rgb(23, 23, 23)); overflow:clip; height:2px}
+                              div {background-color: var(--token-ba35e0ab-850d-49cf-be59-934f032ab5a0, rgb(245, 245, 245)); height: 100%; transform: translateX(-74.7523%)}
+                          p {color: var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Query everything, instantly"
+                          div {flex-direction: column; gap: 20px}
+                            p {color: var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Once mapped, every relationship in your graph is queryable in plain language through Ask."
+                      div {flex-direction:column; gap:32px}
+                        div {flex-direction: column; gap: 8px; position: relative; overflow: clip; height: 24px; will-change: auto}
+                          p {color: var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Connect your stack"
+                          div {flex-direction: column; gap: 20px; opacity: 0; will-change: transform}
+                            p {color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Plug in 240+ tools in minutes. Cortex ingests every source and starts mapping immediately."
+                            div
+                              div {background-color:var(--token-5206bb0a-1eac-4660-9763-613fdbda3479, rgb(23, 23, 23)); overflow:clip; height:2px}
+                                div {background-color: var(--token-ba35e0ab-850d-49cf-be59-934f032ab5a0, rgb(245, 245, 245)); height: 100%; transform: none}
+                        div {flex-direction: column; gap: 8px; position: relative; overflow: clip; height: 24px; will-change: auto}
+                          p {color: var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Map relationships automatically"
+                          div {flex-direction: column; gap: 20px; opacity: 0; will-change: transform}
+                            p {color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Cortex finds connections across your data you didn't know existed. No manual schema work required."
+                            div
+                              div {background-color:var(--token-5206bb0a-1eac-4660-9763-613fdbda3479, rgb(23, 23, 23)); overflow:clip; height:2px}
+                                div {background-color: var(--token-ba35e0ab-850d-49cf-be59-934f032ab5a0, rgb(245, 245, 245)); height: 100%; transform: none}
+                        div {flex-direction: column; gap: 8px; position: relative; overflow: clip; height: auto; will-change: auto}
+                          p {color: var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Query everything, instantly"
+                          div {flex-direction: column; gap: 20px; opacity: 1; will-change: transform}
+                            p {color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Once mapped, every relationship in your graph is queryable in plain language through Ask."
+                            div
+                              div {background-color:var(--token-5206bb0a-1eac-4660-9763-613fdbda3479, rgb(23, 23, 23)); overflow:clip; height:2px}
+                                div {background-color: var(--token-ba35e0ab-850d-49cf-be59-934f032ab5a0, rgb(245, 245, 245)); height: 100%; transform: translateX(-74.7523%)}
+                    div {width:100%; padding:60px 40px}
+                      div {position:relative; width:100%; height:520px}
+                          div {width: 100%; height: 100%; padding: 0px 12px}
+                            div [Query] .framer-f9giru
+                              div [Chat Container] .framer-ixsf3k
+                                div [Background] .framer-tz03hy
+                                div .framer-psc2ff {transform: none}
+                                  p .framer-text.framer-styles-preset-c6fndl {--framer-text-color: var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Customers likely to churn in next 30 days"
+                                div [3 Results] .framer-fuz01i-container
+                                  div [Variant 1] .framer-3VM4T.framer-jhxgU.framer-m82cj data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                                    div .framer-10gt4py {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "3 Results"
+                              div [Results Container] .framer-638xdx data-border
+                                div .framer-1803u64 {transform: none}
+                                  p .framer-text.framer-styles-preset-hwasvf {--framer-text-color: var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "3 accounts flagged"
+                                div .framer-1kvqleb
+                                  div .framer-17v4llw-container
+                                    div [Variant 1] .framer-qMDyq.framer-95lQp.framer-jhxgU.framer-dlOWH.framer-zf3g5n {width: 100%; opacity: 1}
+                                      div [Main Info] .framer-1o37y9g {opacity: 1}
+                                        div [Icon Container] .framer-t34z3q {background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; opacity: 1}
+                                          div .framer-MOhqr.framer-f1zd2y {opacity: 1}
+                                        div [Name] .framer-14g1s3h {opacity: 1}
+                                          div [Name] .framer-3y3h77 {transform: none; opacity: 1}
+                                            p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Northgate Industries"
+                                          div [Event] .framer-19evgrt {transform: none; opacity: 1}
+                                            p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-cQwmQyQIM-m4s10AM8d))} "Support spike"
+                                      div [Gap] .framer-13mobcq {opacity: 1}
+                                      div [Details] .framer-1y1ali4 {opacity: 1}
+                                        div [Score] .framer-1nnovgt {opacity: 1}
+                                          div .framer-fa0egn-container {opacity: 1}
+                                            div {width: 12px; height: 12px; border-radius: 24px; mask-image: radial-gradient(50% 50%, rgba(0, 0, 0, 0) 57.3333%, rgb(255, 255, 255) 58.3333%); background: conic-gradient(var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)) 295.2deg, var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(64, 64, 64)) 295.2deg)}
+                                          div .framer-12awbd7 {opacity: 1}
+                                            div .framer-5mmzcp {transform: none; opacity: 1}
+                                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-cQwmQyQIM-m4s10AM8d))} "82"
+                                            div .framer-1rt7nyy {transform: none; opacity: 1}
+                                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "/ 100"
+                                        div .framer-60b353 {transform: none; opacity: 1}
+                                          p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "risk score"
+                                  div [Divider] .framer-1m22eit
+                                  div .framer-1f5mwvi-container
+                                    div [Variant 1] .framer-qMDyq.framer-95lQp.framer-jhxgU.framer-dlOWH.framer-zf3g5n {width: 100%; opacity: 1}
+                                      div [Main Info] .framer-1o37y9g {opacity: 1}
+                                        div [Icon Container] .framer-t34z3q {background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; opacity: 1}
+                                          div .framer-21WIf.framer-f1zd2y {opacity: 1}
+                                        div [Name] .framer-14g1s3h {opacity: 1}
+                                          div [Name] .framer-3y3h77 {transform: none; opacity: 1}
+                                            p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Apex Systems"
+                                          div [Event] .framer-19evgrt {transform: none; opacity: 1}
+                                            p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-cQwmQyQIM-m4s10AM8d))} "Usage -40%"
+                                      div [Gap] .framer-13mobcq {opacity: 1}
+                                      div [Details] .framer-1y1ali4 {opacity: 1}
+                                        div [Score] .framer-1nnovgt {opacity: 1}
+                                          div .framer-fa0egn-container {opacity: 1}
+                                            div {width: 12px; height: 12px; border-radius: 24px; mask-image: radial-gradient(50% 50%, rgba(0, 0, 0, 0) 57.3333%, rgb(255, 255, 255) 58.3333%); background: conic-gradient(var(--token-d5c4dbc3-b3ce-4d57-8583-5c04401312ab, rgb(249, 171, 0)) 266.40000000000003deg, var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(64, 64, 64)) 266.40000000000003deg)}
+                                          div .framer-12awbd7 {opacity: 1}
+                                            div .framer-5mmzcp {transform: none; opacity: 1}
+                                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-cQwmQyQIM-m4s10AM8d))} "74"
+                                            div .framer-1rt7nyy {transform: none; opacity: 1}
+                                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "/ 100"
+                                        div .framer-60b353 {transform: none; opacity: 1}
+                                          p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "risk score"
+                                  div [Divider] .framer-1ytzlox
+                                  div .framer-n764qv-container
+                                    div [Variant 1] .framer-qMDyq.framer-95lQp.framer-jhxgU.framer-dlOWH.framer-zf3g5n {width: 100%; opacity: 1}
+                                      div [Main Info] .framer-1o37y9g {opacity: 1}
+                                        div [Icon Container] .framer-t34z3q {background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; opacity: 1}
+                                          div .framer-pGN8c.framer-f1zd2y {opacity: 1}
+                                        div [Name] .framer-14g1s3h {opacity: 1}
+                                          div [Name] .framer-3y3h77 {transform: none; opacity: 1}
+                                            p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color: var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Lumen Health"
+                                          div [Event] .framer-19evgrt {transform: none; opacity: 1}
+                                            p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-cQwmQyQIM-m4s10AM8d))} "No renewal contact"
+                                      div [Gap] .framer-13mobcq {opacity: 1}
+                                      div [Details] .framer-1y1ali4 {opacity: 1}
+                                        div [Score] .framer-1nnovgt {opacity: 1}
+                                          div .framer-fa0egn-container {opacity: 1}
+                                            div {width: 12px; height: 12px; border-radius: 24px; mask-image: radial-gradient(50% 50%, rgba(0, 0, 0, 0) 57.3333%, rgb(255, 255, 255) 58.3333%); background: conic-gradient(var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)) 219.6deg, var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(64, 64, 64)) 219.6deg)}
+                                          div .framer-12awbd7 {opacity: 1}
+                                            div .framer-5mmzcp {transform: none; opacity: 1}
+                                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-cQwmQyQIM-m4s10AM8d))} "61"
+                                            div .framer-1rt7nyy {transform: none; opacity: 1}
+                                              p .framer-text.framer-styles-preset-12bheum {--framer-text-color: var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "/ 100"
+                                        div .framer-60b353 {transform: none; opacity: 1}
+                                          p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)))} "risk score"
+                              div [Quick Action Bar] .framer-d4lis4
+                                div .framer-2tsdps-container
+                                  div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                                    svg .framer-50oIK.framer-12miy56 viewBox=0 0 24 24 {opacity: 1}
+                                      use href=#1683057900
+                                    div .framer-w22r5q {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Export CSV"
+                                div .framer-eyxcjk-container
+                                  div [Variant 1] .framer-MvRYe.framer-jhxgU.framer-1o0a6hx data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); border-radius: 8px; opacity: 1}
+                                    svg .framer-qIgAD.framer-12miy56 viewBox=0 0 24 24 {opacity: 1}
+                                      use href=#3129714398
+                                    div .framer-w22r5q {transform: none; opacity: 1}
+                                      p .framer-text.framer-styles-preset-1unq4w {--framer-text-color: var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Share with team"
+                        svg viewBox= {position:absolute; z-index:1}
+                          defs
+                            pattern #background-pattern-0.22753589097475213
+                              rect
+                          rect
+
+##### CSS #####
+@base | .framer-lPqUD .framer-zlr3dl
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#222);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-lPqUD .framer-1803u64
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-lPqUD .framer-19z2kmk
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-lPqUD .framer-f9giru
+    z-index:2;flex-flow:column;place-content:center;align-items:center;gap:8px;width:388px;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-lPqUD .framer-ixsf3k
+    background:linear-gradient(111deg,var(--token-fa695f43-dc97-4fcb-890e-19bee8613bc8,#737373)0%,var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626)35.1351%,var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626)73%,var(--token-494a45c3-2553-4e41-8258-c9545bf7163f,#404040)100%);height:min-content;overflow:clip;z-index:2;border-radius:16px;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:16px 20px;display:flex;position:relative
+@base | .framer-lPqUD .framer-tz03hy
+    background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);z-index:0;border-radius:15px;flex:none;position:absolute;inset:1px;overflow:visible
+@base | .framer-lPqUD .framer-psc2ff
+    --text-truncation-display-inline-for-safari-16:inline;--text-truncation-display-none-for-safari-16:none;--text-truncation-line-break-for-safari-16:"\a ";-webkit-line-clamp:1;height:auto;overflow:clip;white-space:pre-line;word-break:break-word;word-wrap:break-word;-webkit-box-orient:vertical;flex:1 0 0;width:1px;display:-webkit-box;position:relative
+@base | .framer-lPqUD .framer-638xdx
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;-webkit-user-select:none;user-select:none;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);height:min-content;overflow:clip;pointer-events:none;z-index:3;border-radius:16px;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:20px;display:flex;position:relative
+@base | .framer-lPqUD .framer-1kvqleb
+    z-index:1;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-lPqUD .framer-1m22eit, .framer-lPqUD .framer-1ytzlox
+    background-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);height:1px;overflow:clip;flex:none;width:100%;position:relative
+@base | .framer-lPqUD .framer-d4lis4
+    z-index:1;border-radius:16px;flex-flow:wrap;flex:none;place-content:center;align-items:center;gap:4px;width:100%;height:min-content;padding:0 16px;display:flex;position:relative;overflow:visible
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lPqUD .framer-19z2kmk
+    padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lPqUD .framer-zlr3dl
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (max-width:809.98px) | .framer-lPqUD .framer-19z2kmk
+    padding:0
+@media (max-width:809.98px) | .framer-lPqUD .framer-zlr3dl
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@base | .framer-jhxgU .framer-styles-preset-1unq4w:not(.rich-text-wrapper), .framer-jhxgU .framer-styles-preset-1unq4w.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:12px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:16px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-dlOWH .framer-styles-preset-12bheum:not(.rich-text-wrapper), .framer-dlOWH .framer-styles-preset-12bheum.rich-text-wrapper p
+    --framer-font-family:"Geist Mono",monospace;--framer-font-size:11px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:15px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-95lQp .framer-styles-preset-1h9i0d0:not(.rich-text-wrapper), .framer-95lQp .framer-styles-preset-1h9i0d0.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:14px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none

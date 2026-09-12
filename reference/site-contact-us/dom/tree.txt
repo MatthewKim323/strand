@@ -1,0 +1,484 @@
+body
+  div #main
+    div .framer-2U5dV.framer-q6DkR.framer-NXcw2.framer-Dk1W5.framer-jhxgU.framer-QXjqX.framer-099aC {width:auto}
+      div
+        div appear=w6pet3 .framer-w6pet3-container {opacity: 1; transform: none; will-change: transform}
+          div
+            div [Desktop] .framer-Ixlxu.framer-1gkvrwn data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41, 37, 36)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(28, 25, 23)); border-radius: 12px; opacity: 1}
+              div [Details] .framer-1rktaa5 {opacity: 1}
+                div [Purchase Template] .framer-34ef9s {opacity: 1}
+                  div [Template Name] .framer-1cbou7l {opacity: 1}
+                    div .framer-1y4sdjl {transform: none; opacity: 1}
+                      p .framer-text {--framer-font-family:"Geist", "Geist Placeholder", sans-serif; --framer-font-open-type-features:'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size:12px; --framer-font-weight:500; --framer-line-height:16px; --framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249)))} "Nordwell"
+                    div .framer-1dltf4q {transform: none; opacity: 1}
+                      p .framer-text {--framer-font-family:"Geist", "Geist Placeholder", sans-serif; --framer-font-open-type-features:'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size:12px; --framer-font-weight:500; --framer-line-height:16px; --framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249)))} "Template"
+                  div [Template Name] .framer-1cuave6 {opacity: 1}
+                    div .framer-1nwln5j {transform: none; opacity: 1}
+                      p .framer-text {--framer-font-family:"Geist", "Geist Placeholder", sans-serif; --framer-font-open-type-features:'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size:12px; --framer-font-weight:500; --framer-line-height:16px; --framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249)))} "Purchase"
+                    div .framer-xmkk33 {transform: none; opacity: 1}
+                      p .framer-text {--framer-font-family:"Geist", "Geist Placeholder", sans-serif; --framer-font-open-type-features:'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size:12px; --framer-font-weight:500; --framer-line-height:16px; --framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249)))} "Nordwell"
+                div [Starting from] .framer-19kr23w {opacity: 1}
+                  div .framer-a14xbr {transform: none; opacity: 1}
+                    p .framer-text {--framer-font-family:"Geist", "Geist Placeholder", sans-serif; --framer-font-open-type-features:'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size:12px; --framer-font-weight:500; --framer-line-height:16px; --framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(166, 160, 155)))} "from"
+                  div .framer-5r25d2 {transform: none; opacity: 1}
+                    p .framer-text {--framer-font-family:"Geist Mono", monospace; --framer-font-open-type-features:'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on; --framer-font-size:12px; --framer-font-weight:500; --framer-line-height:16px; --framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249)))} "$109"
+              div [Image Container] .framer-dkby0a data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41, 37, 36)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; border-radius: 8px; opacity: 1}
+                div .framer-15d7y5z {height: auto; aspect-ratio: 0.78125 / 1; opacity: 1}
+                  div {position:absolute; border-radius:inherit; top:0; right:0; bottom:0; left:0}
+                    img src=https://framerusercontent.com/images/GBjHpEIYOMQ4OX3KkbWMP40QU.png?width=100&height=128  {width:100%; height:100%; border-radius:inherit; object-fit:cover}
+      div .framer-uz5b0i-container
+      div [Navigation] .framer-gu3ill data-border
+        div [Container] .framer-2zulxl data-border
+          div
+            div .framer-1j6v7h8-container
+              div [Desktop] .framer-Hi6IO.framer-QXjqX.framer-128zegt {width: 100%; opacity: 1}
+                div [Nav Stack] .framer-15x7pvg data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41, 37, 36)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-7f40e4a1-2b83-444e-8765-465c7d3596ab, rgb(12, 10, 9)); opacity: 1}
+                  div [Main Stack] .framer-4q76zg {opacity: 1}
+                    a [Logo] .framer-tfxiwl.framer-1nrg7n2 href=./ {opacity: 1}
+                      img .framer-YfD14.framer-ilyc80 src=data:image/svg+xml,<svg display="block" id="1524428453" role="presentation" viewBox="0 0 3  {opacity: 1}
+                      div [Union] .framer-6rl07u {flex-shrink: 0; color: rgb(0, 0, 0); opacity: 1}
+                        div {width:100%; height:100%; aspect-ratio:inherit}
+                          svg viewBox=0 0 68 17 {width:100%; height:100%}
+                            use href=#svg989859101_6374
+                    div [Navigation Menu] .framer-llwb19 {opacity: 1}
+                      div [Features] #undefined-12dyuiv .framer-12dyuiv-container {opacity: 1}
+                        a [Ghost / LG] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href= {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: rgba(0, 0, 0, 0); border-radius: 8px; opacity: 1}
+                          div .framer-1mqy83k {opacity: 1}
+                            div .framer-1fuw16a {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-5d8f23dc-92a7-4ff0-acf1-4f5feb4637ee, rgb(245, 245, 245)))} "Features"
+                          svg [Right Icon] .framer-rjFuH.framer-10czdf1 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#4024583230
+                      div [Resources] #undefined-9sm63 .framer-9sm63-container {opacity: 1}
+                        a [Ghost / LG] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href= {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: rgba(0, 0, 0, 0); border-radius: 8px; opacity: 1}
+                          div .framer-1mqy83k {opacity: 1}
+                            div .framer-1fuw16a {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-5d8f23dc-92a7-4ff0-acf1-4f5feb4637ee, rgb(245, 245, 245)))} "Resources"
+                          svg [Right Icon] .framer-rjFuH.framer-10czdf1 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#4024583230
+                      div [Pricing] .framer-1jhb7w3-container {opacity: 1}
+                        a [Ghost / LG] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=./pricing {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: rgba(0, 0, 0, 0); border-radius: 8px; opacity: 1}
+                          div .framer-1mqy83k {opacity: 1}
+                            div .framer-1fuw16a {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-5d8f23dc-92a7-4ff0-acf1-4f5feb4637ee, rgb(245, 245, 245)))} "Pricing"
+                      div [About] .framer-1fx5otc-container {opacity: 1}
+                        a [Ghost / LG] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=./about-us {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: rgba(0, 0, 0, 0); border-radius: 8px; opacity: 1}
+                          div .framer-1mqy83k {opacity: 1}
+                            div .framer-1fuw16a {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-5d8f23dc-92a7-4ff0-acf1-4f5feb4637ee, rgb(245, 245, 245)))} "About"
+                  div [Buttons] .framer-rq3bc0 {opacity: 1}
+                    div [Sign up] .framer-ttq5lt-container {opacity: 1}
+                      a [Primary / LG] .framer-nnJOX.framer-95lQp.framer-dfxefx.framer-m5ryuf href=./pricing {--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 245)); border-radius: 8px; opacity: 1}
+                        div .framer-1mqy83k {opacity: 1}
+                          div .framer-1fuw16a {transform: none; opacity: 1}
+                            p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-52462940-c15c-4103-9816-370bb3c11bfa, rgb(23, 23, 23)))} "Get started"
+      div .framer-plbDF.framer-U5OCj.framer-NXcw2.framer-3EFGW.framer-hlXus.framer-6Qsra.framer-QXjqX {width:auto}
+        div [Contact Us] .framer-11r2te9 data-border
+          div [Container] .framer-1luledu data-border
+            div .framer-iy2tv-container
+              svg viewBox= {height:100%; width:100%}
+                defs
+                  pattern #background-pattern-0.34743077333947525
+                    rect
+                rect
+            div [Container] .framer-1ekfksz data-border
+              div [Form] .framer-civfnq
+                div [Connect the dots] .framer-p1x5ut data-border
+                  div [Title] .framer-g7ja3w data-border
+                    div .framer-1acal26
+                      div .framer-8hsy4 {transform:none}
+                        h1 .framer-text.framer-styles-preset-ewftjs "Let's connect the dots."
+                      div .framer-s7x7y3 {transform:none}
+                        p .framer-text.framer-styles-preset-1tsnca {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))} "Questions about Nordwell, pricing, or your data setup? Reach the right team in under a minute."
+                    div .framer-10kvtmj {transform:none}
+                      p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))} "You can also email us at sales@nordwell.io"
+                  form .framer-7dtszb data-border
+                    div [Inputs] .framer-1lrfnbv
+                      div [Grid] .framer-9biauo
+                        div
+                          div [Full name] .framer-5eswqs-container
+                            label [Height Fixed] .framer-IBVIG.framer-95lQp.framer-hlXus.framer-3EFGW.framer-des9ay {width: 100%; opacity: 1}
+                              div [Label Stack] .framer-krmxxt {opacity: 1}
+                                div .framer-5n83f6 {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "Full name"
+                              div .framer-form-text-input.framer-form-input-wrapper.framer-1ntkdk8.framer-form-text-input-typ {opacity: 1}
+                                input .framer-form-input.framer-form-input-empty
+                              div .framer-15ww6pu {opacity:0; transform:none}
+                                p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)))} "Provide a full name"
+                        div
+                          div [Email] .framer-bwxuo5-container
+                            label [Height Fixed] .framer-IBVIG.framer-95lQp.framer-hlXus.framer-3EFGW.framer-des9ay {width: 100%; opacity: 1}
+                              div [Label Stack] .framer-krmxxt {opacity: 1}
+                                div .framer-5n83f6 {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "Work email"
+                              div .framer-form-text-input.framer-form-input-wrapper.framer-1ntkdk8 {opacity: 1}
+                                input .framer-form-input.framer-form-input-empty
+                              div .framer-15ww6pu {opacity:0; transform:none}
+                                p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)))} "Provide a valid email"
+                        div
+                          div [Company name] .framer-mhc1j-container
+                            label [Height Fixed] .framer-IBVIG.framer-95lQp.framer-hlXus.framer-3EFGW.framer-des9ay {width: 100%; opacity: 1}
+                              div [Label Stack] .framer-krmxxt {opacity: 1}
+                                div .framer-5n83f6 {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "Company name"
+                              div .framer-form-text-input.framer-form-input-wrapper.framer-1ntkdk8.framer-form-text-input-typ {opacity: 1}
+                                input .framer-form-input.framer-form-input-empty
+                              div .framer-15ww6pu {opacity:0; transform:none}
+                                p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)))} "Provide a company name"
+                        div
+                          div [Interest] .framer-batij4-container
+                            label [Height Fill] .framer-IBVIG.framer-95lQp.framer-hlXus.framer-3EFGW.framer-des9ay {height: 100%; width: 100%; opacity: 1}
+                              div [Label Stack] .framer-krmxxt {opacity: 1}
+                                div .framer-5n83f6 {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "What can we help with?"
+                              div .framer-form-text-input.framer-form-input-wrapper.framer-1ntkdk8.framer-form-textarea-input {opacity: 1}
+                                textarea .framer-form-input
+                              div .framer-15ww6pu {opacity:0; transform:none}
+                                p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)))} "Please fill out this field"
+                    div .framer-biophj
+                      div [Conscent] .framer-1yp2dhe
+                        div
+                          div .framer-fiisbz-container
+                            label [Default] .framer-GspnV.framer-hlXus.framer-yudqwj {opacity: 1}
+                              input .framer-form-boolean-input.framer-vii7qa {opacity: 1}
+                        div .framer-efnwpd {transform:none}
+                          p .framer-text.framer-styles-preset-c6fndl {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))} "I have read and agree to the ."
+                            a .framer-text.framer-styles-preset-r8t527 href=./ "Privacy Policy"
+                      div
+                        div .framer-3me3jo-container
+                          button [Default] .framer-DAIlr.framer-95lQp.framer-8aqxp0 {--border-bottom-width:0px; --border-color:rgba(0, 0, 0, 0); --border-left-width:0px; --border-right-width:0px; --border-style:solid; --border-top-width:0px; background-color:var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 244)); opacity:1}
+                            div .framer-1efjez1 {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-35e0c09c-bfbb-4fb7-9f38-c4d8879499d6, rgb(28, 25, 23)))} "Submit"
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+              div [Contacts] .framer-jhlrrf
+                div .framer-v0c7k4 data-border
+                  div [Contacts] .framer-wgh9no
+                    div [Depratments] .framer-1fs3r6x
+                      div .framer-109qnft {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))} "Sales:"
+                      div .framer-oobky0 {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))} "Support:"
+                      div .framer-9ua881 {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))} "Partnerships:"
+                    div [Emails] .framer-f3gb6q
+                      div
+                        div .framer-13kzuon {transform:none}
+                          p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))}
+                            a .framer-text.framer-styles-preset-bg0y7m href=mailto:sales@nordwell.io "sales@nordwell.io"
+                      div
+                        div .framer-n1c2j3 {transform:none}
+                          p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))}
+                            a .framer-text.framer-styles-preset-bg0y7m href=mailto:support@nordwell.io "support@nordwell.io"
+                      div
+                        div .framer-5bltkq {transform:none}
+                          p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))}
+                            a .framer-text.framer-styles-preset-bg0y7m href=mailto:partnerships@nordwell.io "partnerships@nordwell.io"
+                  div [External] .framer-14djh27
+                    div
+                      div .framer-a0jsc5-container
+                        a [Variant 1] .framer-XjeTV.framer-1kao77h.framer-5xhhnf href=https://x.com/kreativnik_ data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px; opacity: 1}
+                          img .framer-xOa00.framer-ns5mvi src=data:image/svg+xml,<svg display="block" id="1096557195" role="presentation" viewBox="0 0 3  {opacity: 1}
+                    div
+                      div .framer-1wlf2v3-container
+                        a [Variant 1] .framer-XjeTV.framer-1kao77h.framer-5xhhnf href=https://www.linkedin.com/ data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px; opacity: 1}
+                          img .framer-I1sUd.framer-ns5mvi src=data:image/svg+xml,<svg display="block" id="2666904818" role="presentation" viewBox="0 0 3  {opacity: 1}
+                    div
+                      div .framer-1oinv3t-container
+                        a [Variant 1] .framer-XjeTV.framer-1kao77h.framer-5xhhnf href=https://github.com/ data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px; opacity: 1}
+                          img .framer-0hAvE.framer-ns5mvi src=data:image/svg+xml,<svg display="block" id="3317967262" role="presentation" viewBox="0 0 3  {opacity: 1}
+            div .framer-1nlnw4-container
+              svg viewBox= {height:100%; width:100%}
+                defs
+                  pattern #background-pattern-0.7234068429713891
+                    rect
+                rect
+      div #overlay
+      div .framer-1lxel46
+      div .framer-13yx5bq-container
+        div {position:relative; height:100%; overflow:hidden}
+          svg viewBox= {position:absolute}
+            defs
+              filter #cr-0-5-6-6--4-0
+                fegaussianblur
+                feoffset
+                fecolormatrix
+                fecolormatrix
+                fecolormatrix
+                feoffset
+                feoffset
+                feoffset
+                feblend
+                feblend
+              filter #cr-1-5-6-6--4-0
+                fegaussianblur
+                feoffset
+                fecolormatrix
+                fecolormatrix
+                fecolormatrix
+                feoffset
+                feoffset
+                feoffset
+                feblend
+                feblend
+              filter #cr-2-5-6-6--4-0
+                fegaussianblur
+                feoffset
+                fecolormatrix
+                fecolormatrix
+                fecolormatrix
+                feoffset
+                feoffset
+                feoffset
+                feblend
+                feblend
+              filter #cr-3-5-6-6--4-0
+                fegaussianblur
+                feoffset
+                fecolormatrix
+                fecolormatrix
+                fecolormatrix
+                feoffset
+                feoffset
+                feoffset
+                feblend
+                feblend
+              filter #cr-4-5-6-6--4-0
+                fegaussianblur
+                feoffset
+                fecolormatrix
+                fecolormatrix
+                fecolormatrix
+                feoffset
+                feoffset
+                feoffset
+                feblend
+                feblend
+          div {position:absolute; transform:scaleX(1); backdrop-filter:url(#cr-0-5-6-6--4-0); mask-image:linear-gradient(to bottom, transparent 0%, black 20%, black 40%, transparent 60%)}
+          div {position:absolute; transform:scaleX(1); backdrop-filter:url(#cr-1-5-6-6--4-0); mask-image:linear-gradient(to bottom, transparent 20%, black 40%, black 60%, transparent 80%)}
+          div {position:absolute; transform:scaleX(1); backdrop-filter:url(#cr-2-5-6-6--4-0); mask-image:linear-gradient(to bottom, transparent 40%, black 60%, black 80%, transparent 100%)}
+          div {position:absolute; transform:scaleX(1); backdrop-filter:url(#cr-3-5-6-6--4-0); mask-image:linear-gradient(to bottom, transparent 60%, black 80%, black 100%, transparent 120%)}
+          div {position:absolute; transform:scaleX(1); backdrop-filter:url(#cr-4-5-6-6--4-0); mask-image:linear-gradient(to bottom, transparent 80%, black 100%, black 120%, transparent 140%)}
+      div [Footer Container] .framer-vjqi89 data-border
+        div [Footer] .framer-1xetojl
+          div [Container] .framer-66k0md
+            div [Links] .framer-wyzuea
+              div [Features Column] .framer-11jzkye
+                div .framer-10jdoq8 {transform:none}
+                  p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))} "Features"
+                div [Link Stack] .framer-htlo9p
+                  div .framer-1iyk8rt {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))}
+                      a .framer-text.framer-styles-preset-1ybqtif href=./features/cortex "Cortex"
+                  div .framer-t46ej0 {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./features/ask "Ask"
+                  div .framer-1exanjx {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./features/pulse "Pulse"
+              div [Company] .framer-i8ygc2
+                div .framer-ankizt {transform:none}
+                  p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))} "Company"
+                div [Link Stack] .framer-v9s6he
+                  div .framer-ep2gyo {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./pricing "Pricing"
+                  div .framer-1pjilpz {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./about-us "About"
+                  div .framer-q2vdhe {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./careers "Careers"
+                  div .framer-1odzm45 {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./blog "Blog"
+              div [Resources] .framer-1q8s67d
+                div .framer-1mlm0tb {transform:none}
+                  p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))} "Resources"
+                div [Link Stack] .framer-1giplbt
+                  div .framer-iig8n7 {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./integrations "Integrations"
+                  div .framer-te0pfw {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./changelog "Changelog"
+                  div .framer-nc7hme {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=https://www.framer.com/developers/ "Developer docs"
+                  div .framer-uv8dt {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=https://www.framer.com/help/ "Help Center"
+                  div .framer-66qyph {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca
+                      a .framer-text.framer-styles-preset-1ybqtif href=./404 "404"
+              div [Connect] .framer-17009n1
+                div .framer-qk2vom {transform:none}
+                  p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))} "Connect"
+                div [Link Stack] .framer-vz9imr
+                  div
+                    div .framer-17izv7n-container
+                      a [Default] .framer-TbQBv.framer-NXcw2.framer-19ohtj.framer-16gc4hp href=https://x.com/kreativnik_ {opacity: 1}
+                        div .framer-15bmuku {transform: none; opacity: 1}
+                          p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "X"
+                        div .framer-l3hlb4 {opacity: 1}
+                          svg [Arrow hovered] .framer-HfmfX.framer-jd7xak viewBox=0 0 24 24 {opacity: 1}
+                            use href=#1475982494
+                          svg [Arrow default] .framer-HfmfX.framer-1o6fma8 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#1475982494
+                  div
+                    div .framer-17atud0-container
+                      a [Default] .framer-TbQBv.framer-NXcw2.framer-19ohtj.framer-16gc4hp href=https://linkedin.com/ {opacity: 1}
+                        div .framer-15bmuku {transform: none; opacity: 1}
+                          p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "LinkedIn"
+                        div .framer-l3hlb4 {opacity: 1}
+                          svg [Arrow hovered] .framer-HfmfX.framer-jd7xak viewBox=0 0 24 24 {opacity: 1}
+                            use href=#1475982494
+                          svg [Arrow default] .framer-HfmfX.framer-1o6fma8 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#1475982494
+                  div
+                    div .framer-1qtby9m-container
+                      a [Default] .framer-TbQBv.framer-NXcw2.framer-19ohtj.framer-16gc4hp href=https://github.com/ {opacity: 1}
+                        div .framer-15bmuku {transform: none; opacity: 1}
+                          p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "GitHub"
+                        div .framer-l3hlb4 {opacity: 1}
+                          svg [Arrow hovered] .framer-HfmfX.framer-jd7xak viewBox=0 0 24 24 {opacity: 1}
+                            use href=#1475982494
+                          svg [Arrow default] .framer-HfmfX.framer-1o6fma8 viewBox=0 0 24 24 {opacity: 1}
+                            use href=#1475982494
+            div [Uptime Newsletter] .framer-1p5h1ve
+              div [Uptime] .framer-j8ngry data-border
+                div .framer-d8ia8i
+                  div .framer-ic5mpm-container
+                    div {width:6px; height:6px; border-radius:9999px; background-color:var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)); position:relative}
+                      div {border-radius: 9999px; position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; opacity: 0; transform: translateX(-50%) translateY(-50%); will-change: transform}
+                  div .framer-1qrftu8 {transform:none}
+                    p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "All systems operational"
+                div .framer-1rrzwpy data-border
+                div .framer-5jvd8e {transform:none}
+                  p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "99.98% UPTIME"
+              div [Newsletter] .framer-fqk3g9
+                div .framer-27d16y {transform:none}
+                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Updates on new features and releases."
+                div
+                  div .framer-1exlpg3-container
+                    form [Primary] .framer-e9zZI.framer-19cj0jd data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(18, 16, 14)); width: 100%; border-radius: 12px; opacity: 1}
+                      label .framer-s4lpcw {opacity: 1}
+                        div .framer-form-text-input.framer-form-input-wrapper.framer-rr54o1 {opacity: 1}
+                          input .framer-form-input.framer-form-input-empty
+                        div .framer-1jl1owp-container {opacity: 1}
+                          button [Default] .framer-DAIlr.framer-95lQp.framer-8aqxp0 {--border-bottom-width:0px; --border-color:rgba(0, 0, 0, 0); --border-left-width:0px; --border-right-width:0px; --border-style:solid; --border-top-width:0px; background-color:var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 244)); opacity:1}
+                            div .framer-1efjez1 {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-35e0c09c-bfbb-4fb7-9f38-c4d8879499d6, rgb(28, 25, 23)))} "Subscribe"
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+                      input {position:absolute; transform:scale(0)}
+            div [Logo] .framer-138v7uv
+              div
+                div .framer-1oxx1b4 {height:auto; aspect-ratio:3.888235294117647}
+                  div {position:absolute; border-radius:inherit; top:0; right:0; bottom:0; left:0}
+                    img src=https://framerusercontent.com/images/lTfnHgIzLW7AyATpM5FEmbfm7Y.svg?width=1322&height=340 (min-width: 1200px) max(min(100vw - 128p {width:100%; height:100%; border-radius:inherit; object-fit:cover}
+            div [Copyright] .framer-15v4uw2
+              div .framer-868d6s {transform:none}
+                p .framer-text.framer-styles-preset-1unq4w {--framer-text-alignment:start; --framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))} "© 2026 Nordwell. All rights reserved."
+              div [Terms / Privacy] .framer-hllgs2
+                div .framer-psm4bz {transform:none}
+                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))}
+                    a .framer-text.framer-styles-preset-656phd href=./terms-of-service "Terms and Conditions"
+                div .framer-16ek34v {transform:none}
+                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))} "/"
+                div .framer-123xktd {transform:none}
+                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))}
+                    a .framer-text.framer-styles-preset-656phd href=./privacy-policy "Privacy Policy"
+    div #template-overlay
+  div #__framer-badge-container
+    a [Light] appear=n0ccwk .framer-6jWyo.framer-n0ccwk.framer-bmpgw8 href=https://www.framer.com {will-change: transform; opacity: 1; transform: none}
+      div [Backdrop] .framer-13yxzio {background-color: rgb(255, 255, 255); border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.17) 0px 0.602187px 1.56569px -1.5px, rgba(0, 0, 0, 0.14) 0px 2.28853px 5.95019px -3px, rgba(0, 0, 0, 0.02) 0px 10px 26px -4.5px; opacity: 1}
+      div [Content] .framer-19yaanm {transform: translate(-50%, -50%); opacity: 1}
+        div .framer-1kflzx5 {opacity: 1}
+          div [Logo] .framer-hcsc7.framer-e50co {transform: translateX(-50%); opacity: 1}
+        p {position:absolute; transform:scale(0.001)} "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+        div [Text] .framer-g7oZR.framer-1um7t9d {opacity: 1}
+      div [Bottom] .framer-j4ugry {mask:linear-gradient(180deg, rgba(0,0,0,0) 65%, rgba(0,0,0,1) 100%) add; box-shadow:inset 0px 0px 0px 1px rgb(0, 0, 0); opacity:0.06}
+      div [Border] .framer-jnuwbw {box-shadow:inset 0px 0px 0px 1px rgb(0, 0, 0); opacity:0.04}
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  link
+  div #svg-templates {position: absolute; overflow: hidden; bottom: 0; left: 0; width: 0; height: 0; z-index: 0}
+    svg #svg989859101_6374 viewBox=0 0 68 17
+      path
+    svg #4024583230 viewBox=0 0 24 24
+      path #HLE2KBXxw
+    svg #2652311070 viewBox=0 0 32 32
+      g #U7BR8rZvF
+        path #xGo_4W79J
+        path #RDIRdGsh1
+    svg #1081822090 viewBox=0 0 32 32
+      path #vAqN5IvED
+    svg #3915734215 viewBox=0 0 32 32
+      path #LiN_EWVIo
+    svg #894405547 viewBox=0 0 24 24
+      path #qgjqa0E2f
+      path #zX2BwIxyc
+      path #NhXbVmzAP
+      path #Ech_qkGQt
+    svg #168667647 viewBox=0 0 24 24
+      path #TwTaqyrYl
+      path #aqyRdduov
+      path #vcsAzj6gy
+    svg #3467097230 viewBox=0 0 24 24
+      path #YnobPTYMb
+      path #Cb0Gao21R
+      path #oPtuyu4df
+    svg #1475982494 viewBox=0 0 24 24
+      path #eMA3WLRa2
+      path #GBl_xBBAR
+    svg #2903821725 viewBox=0 0 24 24
+      path #sVN6YVZ9m
+  iframe #__framer-editorbar

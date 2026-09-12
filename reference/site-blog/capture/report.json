@@ -1,0 +1,261 @@
+{
+  "report": {
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 2813,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 4,
+        "layoutElements": 504,
+        "sectionMode": "blocks"
+      },
+      "tablet": {
+        "width": 1024,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 2942,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 4,
+        "layoutElements": 583,
+        "sectionMode": "blocks"
+      },
+      "tablet-810": {
+        "width": 810,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 2806,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 4,
+        "layoutElements": 583,
+        "sectionMode": "blocks"
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3156,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 3,
+        "layoutElements": 532,
+        "sectionMode": "blocks"
+      }
+    },
+    "scenarios": {},
+    "sections": {
+      "desktop": [
+        {
+          "index": 0,
+          "slug": "title",
+          "name": "Title",
+          "y": 68,
+          "h": 120,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Title\"]"
+        },
+        {
+          "index": 1,
+          "slug": "featured-articles",
+          "name": "Featured Articles",
+          "y": 188,
+          "h": 850,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Featured Articles\"]"
+        },
+        {
+          "index": 2,
+          "slug": "latest",
+          "name": "Latest",
+          "y": 1118,
+          "h": 114,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Latest\"]"
+        },
+        {
+          "index": 3,
+          "slug": "latest-articles",
+          "name": "Latest Articles",
+          "y": 1232,
+          "h": 640,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Latest Articles\"]"
+        },
+        {
+          "index": 4,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 1872,
+          "h": 941,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "title",
+          "name": "Title",
+          "y": 68,
+          "h": 114,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Title\"]"
+        },
+        {
+          "index": 2,
+          "slug": "featured-articles",
+          "name": "Featured Articles",
+          "y": 182,
+          "h": 703,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Featured Articles\"]"
+        },
+        {
+          "index": 3,
+          "slug": "latest",
+          "name": "Latest",
+          "y": 965,
+          "h": 110,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Latest\"]"
+        },
+        {
+          "index": 4,
+          "slug": "latest-articles",
+          "name": "Latest Articles",
+          "y": 1075,
+          "h": 920,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Latest Articles\"]"
+        },
+        {
+          "index": 5,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 1995,
+          "h": 947,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet-810": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "title",
+          "name": "Title",
+          "y": 68,
+          "h": 114,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Title\"]"
+        },
+        {
+          "index": 2,
+          "slug": "featured-articles",
+          "name": "Featured Articles",
+          "y": 182,
+          "h": 622,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Featured Articles\"]"
+        },
+        {
+          "index": 3,
+          "slug": "latest",
+          "name": "Latest",
+          "y": 884,
+          "h": 110,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Latest\"]"
+        },
+        {
+          "index": 4,
+          "slug": "latest-articles",
+          "name": "Latest Articles",
+          "y": 994,
+          "h": 920,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Latest Articles\"]"
+        },
+        {
+          "index": 5,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 1914,
+          "h": 892,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "mobile": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -776,
+          "h": 844,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "featured-articles",
+          "name": "Featured Articles",
+          "y": 142,
+          "h": 554,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Featured Articles\"]"
+        },
+        {
+          "index": 2,
+          "slug": "latest",
+          "name": "Latest",
+          "y": 776,
+          "h": 110,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Latest\"]"
+        },
+        {
+          "index": 3,
+          "slug": "latest-articles",
+          "name": "Latest Articles",
+          "y": 886,
+          "h": 1232,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Latest Articles\"]"
+        },
+        {
+          "index": 4,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2118,
+          "h": 1038,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ]
+    },
+    "assets": 14
+  },
+  "errors": []
+}

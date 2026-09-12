@@ -1,0 +1,3889 @@
+{
+ "capturedAt": "2026-09-12T12:27:06.285Z",
+ "stack": {
+  "framework": "framer",
+  "framer": true,
+  "framerMotion": true,
+  "webflow": true,
+  "lenis": true,
+  "gsap": false,
+  "three": false,
+  "spline": false,
+  "notes": [
+   "Built with Framer: appear ids, data-framer-name, framerusercontent modules. Use `1to1 prep` + `1to1 rip`.",
+   "Lenis smooth scroll present: window.scrollTo may be overridden, rigs fall back to wheel events.",
+   "1 canvas element(s): WebGL / 2D drawing to port (find the module that draws it)."
+  ]
+ },
+ "computed": [
+  {
+   "selector": "html.lenis.lenis-autoToggle",
+   "tag": "html",
+   "text": "Strand - AI Data Intelligence Platform\n    \n    \n    \n    \n ",
+   "transition": "overflow 0.001s ease 0s",
+   "framer": {}
+  },
+  {
+   "selector": "html.lenis.lenis-autoToggle > head > style",
+   "tag": "style",
+   "text": "html,body,#main{box-sizing:border-box;margin:0;padding:0}:ro",
+   "framer": {
+    "framerComponents": "framer-lib-cursors-host framer-2U5dV PropertyOverrides framer-Ixlxu framer-lib-combinedCSSRules framer-Hi6IO framer-YfD1"
+   }
+  },
+  {
+   "selector": "html.lenis.lenis-autoToggle > head > style",
+   "tag": "style",
+   "framer": {
+    "framerCss": "true"
+   }
+  },
+  {
+   "selector": "div",
+   "tag": "div",
+   "text": ":root body { background: var(--token-7f40e4a1-2b83-444e-8765",
+   "framer": {
+    "framerHydrateV2": "{\"routeId\":\"l8a9kFfGN\",\"localeId\":\"default\",\"breakpoints\":[{\"hash\":\"1weq5oe\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\"",
+    "framerSsrReleasedAt": "2026-08-24T09:50:12.472Z",
+    "framerPageOptimizedAt": "2026-08-25T15:19:48.175Z"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerAppearId": "w6pet3"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerName": "Details"
+   }
+  },
+  {
+   "selector": "div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrand",
+   "framer": {
+    "framerName": "Purchase Template"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l",
+   "tag": "div",
+   "text": "StrandTemplate",
+   "framer": {
+    "framerName": "Template Name"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l > div.framer-1y4sdjl",
+   "tag": "div",
+   "text": "Strand",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l > div.framer-1dltf4q",
+   "tag": "div",
+   "text": "Template",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6",
+   "tag": "div",
+   "text": "PurchaseStrand",
+   "framer": {
+    "framerName": "Template Name"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6 > div.framer-1nwln5j",
+   "tag": "div",
+   "text": "Purchase",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6 > div.framer-xmkk33",
+   "tag": "div",
+   "text": "Strand",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w",
+   "tag": "div",
+   "text": "from$109",
+   "framer": {
+    "framerName": "Starting from"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w > div.framer-a14xbr",
+   "tag": "div",
+   "text": "from",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w > div.framer-5r25d2",
+   "tag": "div",
+   "text": "$109",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-dkby0a",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-dkby0a > div.framer-15d7y5z > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-gu3ill",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Navigation"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-gu3ill > div.framer-2zulxl",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-gu3ill > div.framer-2zulxl > div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-2zulxl > div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Nav Stack"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAbout",
+   "framer": {
+    "framerName": "Main Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > a.framer-tfxiwl.framer-1nrg7n2",
+   "tag": "a",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > a.framer-tfxiwl.framer-1nrg7n2 > div.framer-6rl07u",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG",
+    "framerName": "Union"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAbout",
+   "framer": {
+    "framerName": "Navigation Menu"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Features",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Right Icon"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerName": "Resources"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Resources",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Right Icon"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1jhb7w3-container",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Pricing"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1jhb7w3-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-1jhb7w3-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1fx5otc-container",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerName": "About"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1fx5otc-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "About",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-1fx5otc-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Buttons"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0 > div.framer-ttq5lt-container",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Sign up"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0 > div.framer-ttq5lt-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / LG"
+   }
+  },
+  {
+   "selector": "div.framer-rq3bc0 > div.framer-ttq5lt-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-drY0k.framer-Hl0ue > div.framer-z3nta1",
+   "tag": "div",
+   "text": "240+ integrations.One connection point.Pulse learns what nor",
+   "framer": {
+    "framerName": "Hero"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-drY0k.framer-Hl0ue > div.framer-z3nta1 > div.framer-1te33ww",
+   "tag": "div",
+   "text": "240+ integrations.One connection point.Pulse learns what nor",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-drY0k.framer-Hl0ue > div.framer-z3nta1 > div.framer-1te33ww > div.framer-e47z64",
+   "tag": "div",
+   "text": "240+ integrations.One connection point.Pulse learns what nor",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div.framer-drY0k.framer-Hl0ue > div.framer-z3nta1 > div.framer-1te33ww > div.framer-e47z64 > div.framer-wxfz7o",
+   "tag": "div",
+   "text": "240+ integrations.One connection point.Pulse learns what nor",
+   "framer": {
+    "framerName": "Title Container"
+   }
+  },
+  {
+   "selector": "div.framer-z3nta1 > div.framer-1te33ww > div.framer-e47z64 > div.framer-wxfz7o > div.framer-1nlihv1",
+   "tag": "div",
+   "text": "240+ integrations.One connection point.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-z3nta1 > div.framer-1te33ww > div.framer-e47z64 > div.framer-wxfz7o > div.framer-5daox8",
+   "tag": "div",
+   "text": "Pulse learns what normal looks like for your business and on",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1te33ww > div.framer-e47z64 > div.ssr-variant > div.framer-9m5ess-container > label.framer-LyRYk.framer-jhxgU",
+   "tag": "label",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-drY0k.framer-Hl0ue > div.framer-140h9ix",
+   "tag": "div",
+   "text": "AllCRM & SalesAnalyticsDatabasesSupportProductivityFinanceMa",
+   "framer": {
+    "framerName": "Categories"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-drY0k.framer-Hl0ue > div.framer-140h9ix > div.framer-2z5fv9",
+   "tag": "div",
+   "text": "AllCRM & SalesAnalyticsDatabasesSupportProductivityFinanceMa",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-drY0k.framer-Hl0ue > div.framer-140h9ix > div.framer-2z5fv9 > div.framer-112wou8",
+   "tag": "div",
+   "text": "AllCRM & SalesAnalyticsDatabasesSupportProductivityFinanceMa",
+   "framer": {
+    "framerName": "Scroll Container"
+   }
+  },
+  {
+   "selector": "div.framer-112wou8 > div.framer-1ug1pd4 > div.ssr-variant > div.framer-17lsfwe-container > div.framer-1uaqk.framer-95lQp",
+   "tag": "div",
+   "text": "All",
+   "framer": {
+    "framerName": "Active"
+   }
+  },
+  {
+   "selector": "div.framer-1ug1pd4 > div.ssr-variant > div.framer-17lsfwe-container > div.framer-1uaqk.framer-95lQp > div.framer-bsuc0s",
+   "tag": "div",
+   "text": "All",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-112wou8 > div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp",
+   "tag": "div",
+   "text": "CRM & Sales",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp > div.framer-bsuc0s",
+   "tag": "div",
+   "text": "CRM & Sales",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-112wou8 > div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp",
+   "tag": "div",
+   "text": "Analytics",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp > div.framer-bsuc0s",
+   "tag": "div",
+   "text": "Analytics",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-112wou8 > div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp",
+   "tag": "div",
+   "text": "Databases",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp > div.framer-bsuc0s",
+   "tag": "div",
+   "text": "Databases",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-112wou8 > div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp",
+   "tag": "div",
+   "text": "Support",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp > div.framer-bsuc0s",
+   "tag": "div",
+   "text": "Support",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-112wou8 > div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp",
+   "tag": "div",
+   "text": "Productivity",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp > div.framer-bsuc0s",
+   "tag": "div",
+   "text": "Productivity",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-112wou8 > div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp",
+   "tag": "div",
+   "text": "Finance",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp > div.framer-bsuc0s",
+   "tag": "div",
+   "text": "Finance",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-112wou8 > div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp",
+   "tag": "div",
+   "text": "Marketing",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-1ug1pd4 > div.ssr-variant > div.framer-uo7984-container > div.framer-1uaqk.framer-95lQp > div.framer-bsuc0s",
+   "tag": "div",
+   "text": "Marketing",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-drY0k.framer-Hl0ue > div.framer-1htd298",
+   "tag": "div",
+   "text": "PipecloudCRM·OAuthSync deals, contacts, and pipeline stages.",
+   "framer": {
+    "framerName": "Integrations"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-drY0k.framer-Hl0ue > div.framer-1htd298 > div.framer-zeu5fx",
+   "tag": "div",
+   "text": "PipecloudCRM·OAuthSync deals, contacts, and pipeline stages.",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut",
+   "tag": "a",
+   "text": "PipecloudCRM·OAuthSync deals, contacts, and pipeline stages.",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl > img.framer-bqZNq.framer-muj6c0",
+   "tag": "img",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7",
+   "tag": "div",
+   "text": "PipecloudCRM·OAuthSync deals, contacts, and pipeline stages.",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h",
+   "tag": "div",
+   "text": "PipecloudCRM·OAuth",
+   "framer": {
+    "framerName": "Primary Info"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz",
+   "tag": "div",
+   "text": "Pipecloud",
+   "framer": {
+    "framerName": "Name Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1vw2jie",
+   "tag": "div",
+   "text": "Pipecloud",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7",
+   "tag": "div",
+   "text": "CRM·OAuth",
+   "framer": {
+    "framerName": "Types"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-15tne87",
+   "tag": "div",
+   "text": "CRM",
+   "framer": {
+    "framerName": "Type",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1vkl5ul",
+   "tag": "div",
+   "text": "·",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1a001e9",
+   "tag": "div",
+   "text": "OAuth",
+   "framer": {
+    "framerName": "Auth",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-6trtgq",
+   "tag": "div",
+   "text": "Sync deals, contacts, and pipeline stages. Cortex maps accou",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-14yonio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-kxie0k",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Right"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Right"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut",
+   "tag": "a",
+   "text": "ScaleforceCRM·API keyPull accounts, opportunities, and custo",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl > img.framer-SGmg3.framer-muj6c0",
+   "tag": "img",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7",
+   "tag": "div",
+   "text": "ScaleforceCRM·API keyPull accounts, opportunities, and custo",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h",
+   "tag": "div",
+   "text": "ScaleforceCRM·API key",
+   "framer": {
+    "framerName": "Primary Info"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz",
+   "tag": "div",
+   "text": "Scaleforce",
+   "framer": {
+    "framerName": "Name Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1vw2jie",
+   "tag": "div",
+   "text": "Scaleforce",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7",
+   "tag": "div",
+   "text": "CRM·API key",
+   "framer": {
+    "framerName": "Types"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-15tne87",
+   "tag": "div",
+   "text": "CRM",
+   "framer": {
+    "framerName": "Type",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1vkl5ul",
+   "tag": "div",
+   "text": "·",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1a001e9",
+   "tag": "div",
+   "text": "API key",
+   "framer": {
+    "framerName": "Auth",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-6trtgq",
+   "tag": "div",
+   "text": "Pull accounts, opportunities, and custom objects. Bi-directi",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-14yonio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-kxie0k",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Right"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Right"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut",
+   "tag": "a",
+   "text": "ClosetrackSales·OAuthImport leads, activities, and revenue d",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl > img.framer-TvQhD.framer-muj6c0",
+   "tag": "img",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7",
+   "tag": "div",
+   "text": "ClosetrackSales·OAuthImport leads, activities, and revenue d",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h",
+   "tag": "div",
+   "text": "ClosetrackSales·OAuth",
+   "framer": {
+    "framerName": "Primary Info"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz",
+   "tag": "div",
+   "text": "Closetrack",
+   "framer": {
+    "framerName": "Name Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1vw2jie",
+   "tag": "div",
+   "text": "Closetrack",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7",
+   "tag": "div",
+   "text": "Sales·OAuth",
+   "framer": {
+    "framerName": "Types"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-15tne87",
+   "tag": "div",
+   "text": "Sales",
+   "framer": {
+    "framerName": "Type",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1vkl5ul",
+   "tag": "div",
+   "text": "·",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1a001e9",
+   "tag": "div",
+   "text": "OAuth",
+   "framer": {
+    "framerName": "Auth",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-6trtgq",
+   "tag": "div",
+   "text": "Import leads, activities, and revenue data. Track conversion",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-14yonio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-kxie0k",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Right"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Right"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut",
+   "tag": "a",
+   "text": "MixboardProduct analytics·API keyStream event data, funnels,",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl > img.framer-GhnAD.framer-muj6c0",
+   "tag": "img",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7",
+   "tag": "div",
+   "text": "MixboardProduct analytics·API keyStream event data, funnels,",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h",
+   "tag": "div",
+   "text": "MixboardProduct analytics·API key",
+   "framer": {
+    "framerName": "Primary Info"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz",
+   "tag": "div",
+   "text": "Mixboard",
+   "framer": {
+    "framerName": "Name Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1vw2jie",
+   "tag": "div",
+   "text": "Mixboard",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7",
+   "tag": "div",
+   "text": "Product analytics·API key",
+   "framer": {
+    "framerName": "Types"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-15tne87",
+   "tag": "div",
+   "text": "Product analytics",
+   "framer": {
+    "framerName": "Type",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1vkl5ul",
+   "tag": "div",
+   "text": "·",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1a001e9",
+   "tag": "div",
+   "text": "API key",
+   "framer": {
+    "framerName": "Auth",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-6trtgq",
+   "tag": "div",
+   "text": "Stream event data, funnels, and cohorts. Correlate product u",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-14yonio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-kxie0k",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Right"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Right"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut",
+   "tag": "a",
+   "text": "MetripanelWeb analytics·Tracking IDConnect pageviews, sessio",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl > img.framer-aRTpy.framer-muj6c0",
+   "tag": "img",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7",
+   "tag": "div",
+   "text": "MetripanelWeb analytics·Tracking IDConnect pageviews, sessio",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h",
+   "tag": "div",
+   "text": "MetripanelWeb analytics·Tracking ID",
+   "framer": {
+    "framerName": "Primary Info"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz",
+   "tag": "div",
+   "text": "Metripanel",
+   "framer": {
+    "framerName": "Name Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1vw2jie",
+   "tag": "div",
+   "text": "Metripanel",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7",
+   "tag": "div",
+   "text": "Web analytics·Tracking ID",
+   "framer": {
+    "framerName": "Types"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-15tne87",
+   "tag": "div",
+   "text": "Web analytics",
+   "framer": {
+    "framerName": "Type",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1vkl5ul",
+   "tag": "div",
+   "text": "·",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1a001e9",
+   "tag": "div",
+   "text": "Tracking ID",
+   "framer": {
+    "framerName": "Auth",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-6trtgq",
+   "tag": "div",
+   "text": "Connect pageviews, sessions, and conversion events. Map user",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-14yonio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-kxie0k",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Right"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Right"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut",
+   "tag": "a",
+   "text": "SignalkitAnalytics·OAuthIngest behavioral data and engagemen",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl > img.framer-5ONj3.framer-muj6c0",
+   "tag": "img",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7",
+   "tag": "div",
+   "text": "SignalkitAnalytics·OAuthIngest behavioral data and engagemen",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h",
+   "tag": "div",
+   "text": "SignalkitAnalytics·OAuth",
+   "framer": {
+    "framerName": "Primary Info"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz",
+   "tag": "div",
+   "text": "Signalkit",
+   "framer": {
+    "framerName": "Name Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1vw2jie",
+   "tag": "div",
+   "text": "Signalkit",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7",
+   "tag": "div",
+   "text": "Analytics·OAuth",
+   "framer": {
+    "framerName": "Types"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-15tne87",
+   "tag": "div",
+   "text": "Analytics",
+   "framer": {
+    "framerName": "Type",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1vkl5ul",
+   "tag": "div",
+   "text": "·",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1a001e9",
+   "tag": "div",
+   "text": "OAuth",
+   "framer": {
+    "framerName": "Auth",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-6trtgq",
+   "tag": "div",
+   "text": "Ingest behavioral data and engagement scores. Identify usage",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-14yonio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-kxie0k",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Right"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Right"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut",
+   "tag": "a",
+   "text": "TrackwiseEvent tracking·API keyPull raw event streams and us",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl > img.framer-wLgrk.framer-muj6c0",
+   "tag": "img",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7",
+   "tag": "div",
+   "text": "TrackwiseEvent tracking·API keyPull raw event streams and us",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h",
+   "tag": "div",
+   "text": "TrackwiseEvent tracking·API key",
+   "framer": {
+    "framerName": "Primary Info"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz",
+   "tag": "div",
+   "text": "Trackwise",
+   "framer": {
+    "framerName": "Name Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1vw2jie",
+   "tag": "div",
+   "text": "Trackwise",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7",
+   "tag": "div",
+   "text": "Event tracking·API key",
+   "framer": {
+    "framerName": "Types"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-15tne87",
+   "tag": "div",
+   "text": "Event tracking",
+   "framer": {
+    "framerName": "Type",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1vkl5ul",
+   "tag": "div",
+   "text": "·",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1a001e9",
+   "tag": "div",
+   "text": "API key",
+   "framer": {
+    "framerName": "Auth",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-6trtgq",
+   "tag": "div",
+   "text": "Pull raw event streams and user properties. Build granular s",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-14yonio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-kxie0k",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Right"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Right"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut",
+   "tag": "a",
+   "text": "BeamcastBusiness intelligence·OAuthImport dashboards, saved ",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl > img.framer-VS7FM.framer-muj6c0",
+   "tag": "img",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7",
+   "tag": "div",
+   "text": "BeamcastBusiness intelligence·OAuthImport dashboards, saved ",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h",
+   "tag": "div",
+   "text": "BeamcastBusiness intelligence·OAuth",
+   "framer": {
+    "framerName": "Primary Info"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz",
+   "tag": "div",
+   "text": "Beamcast",
+   "framer": {
+    "framerName": "Name Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1vw2jie",
+   "tag": "div",
+   "text": "Beamcast",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7",
+   "tag": "div",
+   "text": "Business intelligence·OAuth",
+   "framer": {
+    "framerName": "Types"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-15tne87",
+   "tag": "div",
+   "text": "Business intelligence",
+   "framer": {
+    "framerName": "Type",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1vkl5ul",
+   "tag": "div",
+   "text": "·",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1a001e9",
+   "tag": "div",
+   "text": "OAuth",
+   "framer": {
+    "framerName": "Auth",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-6trtgq",
+   "tag": "div",
+   "text": "Import dashboards, saved queries, and metric definitions. Un",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-14yonio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-kxie0k",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Right"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Right"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut",
+   "tag": "a",
+   "text": "PolySQLDatabases·Connection stringConnect production databas",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl > img.framer-u5e8O.framer-muj6c0",
+   "tag": "img",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7",
+   "tag": "div",
+   "text": "PolySQLDatabases·Connection stringConnect production databas",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h",
+   "tag": "div",
+   "text": "PolySQLDatabases·Connection string",
+   "framer": {
+    "framerName": "Primary Info"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz",
+   "tag": "div",
+   "text": "PolySQL",
+   "framer": {
+    "framerName": "Name Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1vw2jie",
+   "tag": "div",
+   "text": "PolySQL",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7",
+   "tag": "div",
+   "text": "Databases·Connection string",
+   "framer": {
+    "framerName": "Types"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-15tne87",
+   "tag": "div",
+   "text": "Databases",
+   "framer": {
+    "framerName": "Type",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1vkl5ul",
+   "tag": "div",
+   "text": "·",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1a001e9",
+   "tag": "div",
+   "text": "Connection string",
+   "framer": {
+    "framerName": "Auth",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-6trtgq",
+   "tag": "div",
+   "text": "Connect production databases via read replica. CDC streams k",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-14yonio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-kxie0k",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Right"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Right"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut",
+   "tag": "a",
+   "text": "VaultDBNoSQL·Connection stringSync collections and documents",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl > img.framer-VAmFs.framer-muj6c0",
+   "tag": "img",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7",
+   "tag": "div",
+   "text": "VaultDBNoSQL·Connection stringSync collections and documents",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h",
+   "tag": "div",
+   "text": "VaultDBNoSQL·Connection string",
+   "framer": {
+    "framerName": "Primary Info"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz",
+   "tag": "div",
+   "text": "VaultDB",
+   "framer": {
+    "framerName": "Name Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1vw2jie",
+   "tag": "div",
+   "text": "VaultDB",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7",
+   "tag": "div",
+   "text": "NoSQL·Connection string",
+   "framer": {
+    "framerName": "Types"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-15tne87",
+   "tag": "div",
+   "text": "NoSQL",
+   "framer": {
+    "framerName": "Type",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1vkl5ul",
+   "tag": "div",
+   "text": "·",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1a001e9",
+   "tag": "div",
+   "text": "Connection string",
+   "framer": {
+    "framerName": "Auth",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-6trtgq",
+   "tag": "div",
+   "text": "Sync collections and documents in real time. Schema-flexible",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-14yonio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-kxie0k",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Right"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Right"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut",
+   "tag": "a",
+   "text": "CleardeskSupport·OAuthImport tickets, conversations, and sat",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl > img.framer-ymZ8h.framer-muj6c0",
+   "tag": "img",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7",
+   "tag": "div",
+   "text": "CleardeskSupport·OAuthImport tickets, conversations, and sat",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h",
+   "tag": "div",
+   "text": "CleardeskSupport·OAuth",
+   "framer": {
+    "framerName": "Primary Info"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz",
+   "tag": "div",
+   "text": "Cleardesk",
+   "framer": {
+    "framerName": "Name Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1vw2jie",
+   "tag": "div",
+   "text": "Cleardesk",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7",
+   "tag": "div",
+   "text": "Support·OAuth",
+   "framer": {
+    "framerName": "Types"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-15tne87",
+   "tag": "div",
+   "text": "Support",
+   "framer": {
+    "framerName": "Type",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1vkl5ul",
+   "tag": "div",
+   "text": "·",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1a001e9",
+   "tag": "div",
+   "text": "OAuth",
+   "framer": {
+    "framerName": "Auth",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-6trtgq",
+   "tag": "div",
+   "text": "Import tickets, conversations, and satisfaction scores. Link",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-14yonio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-kxie0k",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Right"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Right"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut",
+   "tag": "a",
+   "text": "DriftlineCustomer messaging·API keySync chat transcripts, us",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-z73wtl > img.framer-iCtWw.framer-muj6c0",
+   "tag": "img",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7",
+   "tag": "div",
+   "text": "DriftlineCustomer messaging·API keySync chat transcripts, us",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h",
+   "tag": "div",
+   "text": "DriftlineCustomer messaging·API key",
+   "framer": {
+    "framerName": "Primary Info"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz",
+   "tag": "div",
+   "text": "Driftline",
+   "framer": {
+    "framerName": "Name Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.framer-8g888h > div.framer-10abvdz > div.framer-1218qi5-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-10abvdz > div.framer-1vw2jie",
+   "tag": "div",
+   "text": "Driftline",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7",
+   "tag": "div",
+   "text": "Customer messaging·API key",
+   "framer": {
+    "framerName": "Types"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-15tne87",
+   "tag": "div",
+   "text": "Customer messaging",
+   "framer": {
+    "framerName": "Type",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1vkl5ul",
+   "tag": "div",
+   "text": "·",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-8g888h > div.framer-1plz4c7 > div.framer-1a001e9",
+   "tag": "div",
+   "text": "API key",
+   "framer": {
+    "framerName": "Auth",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-lce5l7 > div.framer-6trtgq",
+   "tag": "div",
+   "text": "Sync chat transcripts, user events, and resolution data. Sur",
+   "framer": {
+    "framerName": "Description",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-14yonio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-kxie0k",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Border"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1nvd2rf-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Right"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "TL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-yd1phc-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Top Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-1fhwuzo-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Left"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container",
+   "tag": "div",
+   "framer": {
+    "framerName": "BR"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-i53ss8 > div.framer-8fuglq-container > a.framer-jsjwL.framer-CZBut > div.framer-7cwsnr-container > div.framer-M303T.framer-da3kts",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom Right"
+   }
+  },
+  {
+   "selector": "div.framer-zeu5fx > div.framer-vlfxw3 > div.ssr-variant > div.framer-k0n10o-container > button.framer-m98yc.framer-KQOh7",
+   "tag": "button",
+   "text": "LOAD MORE",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vlfxw3 > div.ssr-variant > div.framer-k0n10o-container > button.framer-m98yc.framer-KQOh7 > div.framer-tn2z1f",
+   "tag": "div",
+   "text": "LOAD MORE",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89",
+   "tag": "div",
+   "text": "Your data, finally connectedGet startedFeaturesCortexAskPuls",
+   "framer": {
+    "framerName": "Footer Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1aeo38i",
+   "tag": "div",
+   "text": "Your data, finally connectedGet started",
+   "framer": {
+    "framerName": "CTA"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls",
+   "tag": "div",
+   "text": "Your data, finally connectedGet started",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls > div.framer-1w558nd-container > div.framer-zhkea.framer-sm5shs",
+   "tag": "div",
+   "framer": {
+    "framerName": "Hidden"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls > div.framer-qr3vrw > div.framer-o9bwxk",
+   "tag": "div",
+   "text": "Your data, finally connected",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1aeo38i > div.framer-9aqjls > div.framer-qr3vrw > div.framer-cq6zkv-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / XL"
+   }
+  },
+  {
+   "selector": "div.framer-qr3vrw > div.framer-cq6zkv-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Footer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Links"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulse",
+   "framer": {
+    "framerName": "Features Column"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-10jdoq8",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p",
+   "tag": "div",
+   "text": "CortexAskPulse",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-1iyk8rt",
+   "tag": "div",
+   "text": "Cortex",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-1iyk8rt > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Cortex",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-t46ej0",
+   "tag": "div",
+   "text": "Ask",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-t46ej0 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Ask",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-1exanjx",
+   "tag": "div",
+   "text": "Pulse",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-1exanjx > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Pulse",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2",
+   "tag": "div",
+   "text": "CompanyPricingAboutCareersBlog",
+   "framer": {
+    "framerName": "Company"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-ankizt",
+   "tag": "div",
+   "text": "Company",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he",
+   "tag": "div",
+   "text": "PricingAboutCareersBlog",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-ep2gyo",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-ep2gyo > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Pricing",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1pjilpz",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1pjilpz > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "About",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-q2vdhe",
+   "tag": "div",
+   "text": "Careers",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-q2vdhe > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Careers",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1odzm45",
+   "tag": "div",
+   "text": "Blog",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1odzm45 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Blog",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d",
+   "tag": "div",
+   "text": "ResourcesIntegrationsChangelogDeveloper docsHelp Center404",
+   "framer": {
+    "framerName": "Resources"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1mlm0tb",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt",
+   "tag": "div",
+   "text": "IntegrationsChangelogDeveloper docsHelp Center404",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-iig8n7",
+   "tag": "div",
+   "text": "Integrations",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-iig8n7 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Integrations",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {
+    "framerPageLinkCurrent": "true"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-te0pfw",
+   "tag": "div",
+   "text": "Changelog",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-te0pfw > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Changelog",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-nc7hme",
+   "tag": "div",
+   "text": "Developer docs",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-nc7hme > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Developer docs",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-uv8dt",
+   "tag": "div",
+   "text": "Help Center",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-uv8dt > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Help Center",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-66qyph",
+   "tag": "div",
+   "text": "404",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-66qyph > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "404",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1",
+   "tag": "div",
+   "text": "ConnectXLinkedInGitHub",
+   "framer": {
+    "framerName": "Connect"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1 > div.framer-qk2vom",
+   "tag": "div",
+   "text": "Connect",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1 > div.framer-vz9imr",
+   "tag": "div",
+   "text": "XLinkedInGitHub",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "X",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "X",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "LinkedIn",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "LinkedIn",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "GitHub",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "GitHub",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve",
+   "tag": "div",
+   "text": "All systems operational99.98% UPTIMEUpdates on new features ",
+   "framer": {
+    "framerName": "Uptime Newsletter"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry",
+   "tag": "div",
+   "text": "All systems operational99.98% UPTIME",
+   "framer": {
+    "framerName": "Uptime"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry > div.framer-d8ia8i > div.framer-1qrftu8",
+   "tag": "div",
+   "text": "All systems operational",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry > div.framer-5jvd8e",
+   "tag": "div",
+   "text": "99.98% UPTIME",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-fqk3g9",
+   "tag": "div",
+   "text": "Updates on new features and releases.Subscribe",
+   "framer": {
+    "framerName": "Newsletter"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-fqk3g9 > div.framer-27d16y",
+   "tag": "div",
+   "text": "Updates on new features and releases.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1p5h1ve > div.framer-fqk3g9 > div.ssr-variant > div.framer-1exlpg3-container > form.framer-e9zZI.framer-19cj0jd",
+   "tag": "form",
+   "text": "Subscribe",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-1exlpg3-container > form.framer-e9zZI.framer-19cj0jd > label.framer-s4lpcw > div.framer-1jl1owp-container > button.framer-DAIlr.framer-95lQp",
+   "tag": "button",
+   "text": "Subscribe",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "form.framer-e9zZI.framer-19cj0jd > label.framer-s4lpcw > div.framer-1jl1owp-container > button.framer-DAIlr.framer-95lQp > div.framer-1efjez1",
+   "tag": "div",
+   "text": "Subscribe",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-138v7uv",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-138v7uv > div.ssr-variant > div.framer-1oxx1b4 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2",
+   "tag": "div",
+   "text": "© 2026 Strand. All rights reserved.Terms and Conditions/Priv",
+   "framer": {
+    "framerName": "Copyright"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-868d6s",
+   "tag": "div",
+   "text": "© 2026 Strand. All rights reserved.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2",
+   "tag": "div",
+   "text": "Terms and Conditions/Privacy Policy",
+   "framer": {
+    "framerName": "Terms / Privacy"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-psm4bz",
+   "tag": "div",
+   "text": "Terms and Conditions",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-psm4bz > p.framer-text.framer-styles-preset-1unq4w > a.framer-text.framer-styles-preset-656phd",
+   "tag": "a",
+   "text": "Terms and Conditions",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-16ek34v",
+   "tag": "div",
+   "text": "/",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-123xktd",
+   "tag": "div",
+   "text": "Privacy Policy",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-123xktd > p.framer-text.framer-styles-preset-1unq4w > a.framer-text.framer-styles-preset-656phd",
+   "tag": "a",
+   "text": "Privacy Policy",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk",
+   "tag": "a",
+   "text": "Create a free website with Framer, the website builder loved",
+   "framer": {
+    "framerAppearId": "n0ccwk",
+    "framerName": "Light"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-13yxzio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Backdrop"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm",
+   "tag": "div",
+   "text": "Create a free website with Framer, the website builder loved",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm > div.framer-1kflzx5 > div.framer-hcsc7.framer-e50co",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm > div.framer-g7oZR.framer-1um7t9d",
+   "tag": "div",
+   "framer": {
+    "framerName": "Text"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-j4ugry",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-jnuwbw",
+   "tag": "div",
+   "framer": {
+    "framerName": "Border"
+   }
+  },
+  {
+   "selector": "script",
+   "tag": "script",
+   "text": "(()=>{function c(i,o,s){if(window.__framer_disable_appear_ef",
+   "framer": {
+    "framerAppearAnimation": "reduce"
+   }
+  },
+  {
+   "selector": "script",
+   "tag": "script",
+   "framer": {
+    "framerBundle": "main"
+   }
+  }
+ ],
+ "cdp": []
+}

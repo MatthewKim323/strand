@@ -1,0 +1,236 @@
+##### TREE #####
+        div [Terms and Conditions] .framer-1rr0jhs data-border
+          div [Container] .framer-t9aug7 data-border
+            div .framer-f48ypy-container
+              svg viewBox= {height:100%; width:100%}
+                defs
+                  pattern #background-pattern-0.29783492481220697
+                    rect
+                rect
+            div [Content] .framer-n1yzwn data-border
+              div [Left Column] .framer-1k3gjei data-border
+                div [Sticky Info ] .framer-1s4lbyv
+                  div [Title] .framer-6akcb6
+                    div .framer-1b3abt {transform:none}
+                      h1 .framer-text.framer-styles-preset-ewftjs "Terms and Conditions"
+                    div [Updated] .framer-hw5r2z
+                      div .framer-djq5ei {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))} "Last updated:"
+                      div [Last Updated] .framer-lcevsy
+                        div .framer-11af5qz
+                          div [Date] .framer-1wibgqh {transform:none}
+                            p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))}
+                              time "Jun 21, 2026"
+                  div [ToS Index] .framer-q5xjvk
+                    div .framer-1mrkc8b
+                      div [Index] .framer-xu47vn {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "1."
+                      div [Title] .framer-vpo9nk {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                          a .framer-text.framer-styles-preset-1gxuy3i href=./terms-of-service#acceptance-of-terms-var(--variable-KqPNFa9hy) "Acceptance of Terms"
+                    div .framer-1mrkc8b
+                      div [Index] .framer-xu47vn {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "2."
+                      div [Title] .framer-vpo9nk {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                          a .framer-text.framer-styles-preset-1gxuy3i href=./terms-of-service#description-of-service-var(--variable-KqPNFa9hy) "Description of Service"
+                    div .framer-1mrkc8b
+                      div [Index] .framer-xu47vn {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "3."
+                      div [Title] .framer-vpo9nk {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                          a .framer-text.framer-styles-preset-1gxuy3i href=./terms-of-service#accounts-var(--variable-KqPNFa9hy) "Accounts"
+                    div .framer-1mrkc8b
+                      div [Index] .framer-xu47vn {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "4."
+                      div [Title] .framer-vpo9nk {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                          a .framer-text.framer-styles-preset-1gxuy3i href=./terms-of-service#acceptable-use-var(--variable-KqPNFa9hy) "Acceptable Use"
+                    div .framer-1mrkc8b
+                      div [Index] .framer-xu47vn {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "5."
+                      div [Title] .framer-vpo9nk {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                          a .framer-text.framer-styles-preset-1gxuy3i href=./terms-of-service#data-and-integrations-var(--variable-KqPNFa9hy) "Data and Integrations"
+                    div .framer-1mrkc8b
+                      div [Index] .framer-xu47vn {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "6."
+                      div [Title] .framer-vpo9nk {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                          a .framer-text.framer-styles-preset-1gxuy3i href=./terms-of-service#subscription-and-billing-var(--variable-KqPNFa9hy) "Subscription and Billing"
+                    div .framer-1mrkc8b
+                      div [Index] .framer-xu47vn {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "7."
+                      div [Title] .framer-vpo9nk {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                          a .framer-text.framer-styles-preset-1gxuy3i href=./terms-of-service#termination-var(--variable-KqPNFa9hy) "Termination"
+                    div .framer-1mrkc8b
+                      div [Index] .framer-xu47vn {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "8."
+                      div [Title] .framer-vpo9nk {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                          a .framer-text.framer-styles-preset-1gxuy3i href=./terms-of-service#disclaimers-var(--variable-KqPNFa9hy) "Disclaimers"
+                    div .framer-1mrkc8b
+                      div [Index] .framer-xu47vn {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "9."
+                      div [Title] .framer-vpo9nk {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                          a .framer-text.framer-styles-preset-1gxuy3i href=./terms-of-service#limitation-of-liability-var(--variable-KqPNFa9hy) "Limitation of Liability"
+                    div .framer-1mrkc8b
+                      div [Index] .framer-xu47vn {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "10."
+                      div [Title] .framer-vpo9nk {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))}
+                          a .framer-text.framer-styles-preset-1gxuy3i href=./terms-of-service#changes-to-terms-var(--variable-KqPNFa9hy) "Changes to Terms"
+              div [Right Column] .framer-hefsgi
+                div [ToS Content] .framer-k8gz69
+                  div #acceptance-of-terms-var(--variable-KqPNFa9hy) .framer-8gdbr4
+                    div [Title] .framer-87t03i
+                      div [Index] .framer-u9fhe0 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "1."
+                      div [Title] .framer-177p788 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Acceptance of Terms"
+                    div [Section] .framer-rs8lpo {transform:none}
+                      p .framer-text.framer-styles-preset-c6fndl "By accessing or using Nordwell (“the Service”), you agree to be bound by these Terms and Conditions. If you do not agree, please do not use the Service."
+                  div #description-of-service-var(--variable-KqPNFa9hy) .framer-8gdbr4
+                    div [Title] .framer-87t03i
+                      div [Index] .framer-u9fhe0 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "2."
+                      div [Title] .framer-177p788 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Description of Service"
+                    div [Section] .framer-rs8lpo {transform:none}
+                      p .framer-text.framer-styles-preset-c6fndl "Nordwell provides an AI powered data intelligence platform that connects to third party data sources, builds a knowledge graph, and allows natural language quer"
+                  div #accounts-var(--variable-KqPNFa9hy) .framer-8gdbr4
+                    div [Title] .framer-87t03i
+                      div [Index] .framer-u9fhe0 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "3."
+                      div [Title] .framer-177p788 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Accounts"
+                    div [Section] .framer-rs8lpo {transform:none}
+                      p .framer-text.framer-styles-preset-c6fndl "You must provide accurate information when creating an account. You are responsible for maintaining the confidentiality of your credentials and for all activity"
+                  div #acceptable-use-var(--variable-KqPNFa9hy) .framer-8gdbr4
+                    div [Title] .framer-87t03i
+                      div [Index] .framer-u9fhe0 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "4."
+                      div [Title] .framer-177p788 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Acceptable Use"
+                    div [Section] .framer-rs8lpo {transform:none}
+                      p .framer-text.framer-styles-preset-c6fndl "You agree not to: use the Service for unlawful purposes; attempt to reverse engineer, decompile, or gain unauthorized access to the Service; upload data you do "
+                  div #data-and-integrations-var(--variable-KqPNFa9hy) .framer-8gdbr4
+                    div [Title] .framer-87t03i
+                      div [Index] .framer-u9fhe0 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "5."
+                      div [Title] .framer-177p788 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Data and Integrations"
+                    div [Section] .framer-rs8lpo {transform:none}
+                      p .framer-text.framer-styles-preset-c6fndl "You retain ownership of the data you connect to Nordwell. By connecting a data source, you grant us permission to access, process, and store that data solely to"
+                  div #subscription-and-billing-var(--variable-KqPNFa9hy) .framer-8gdbr4
+                    div [Title] .framer-87t03i
+                      div [Index] .framer-u9fhe0 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "6."
+                      div [Title] .framer-177p788 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Subscription and Billing"
+                    div [Section] .framer-rs8lpo {transform:none}
+                      p .framer-text.framer-styles-preset-c6fndl "Paid plans are billed in advance on a monthly or annual basis. Fees are non refundable except where required by law. We may change pricing with reasonable advan"
+                  div #termination-var(--variable-KqPNFa9hy) .framer-8gdbr4
+                    div [Title] .framer-87t03i
+                      div [Index] .framer-u9fhe0 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "7."
+                      div [Title] .framer-177p788 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Termination"
+                    div [Section] .framer-rs8lpo {transform:none}
+                      p .framer-text.framer-styles-preset-c6fndl "We may suspend or terminate your access if you violate these Terms. You may cancel your subscription at any time. Upon cancellation, your data will be available"
+                  div #disclaimers-var(--variable-KqPNFa9hy) .framer-8gdbr4
+                    div [Title] .framer-87t03i
+                      div [Index] .framer-u9fhe0 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "8."
+                      div [Title] .framer-177p788 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Disclaimers"
+                    div [Section] .framer-rs8lpo {transform:none}
+                      p .framer-text.framer-styles-preset-c6fndl "The Service is provided “as is” without warranties of any kind. We do not guarantee that the Service will be uninterrupted, error free, or that insights generat"
+                  div #limitation-of-liability-var(--variable-KqPNFa9hy) .framer-8gdbr4
+                    div [Title] .framer-87t03i
+                      div [Index] .framer-u9fhe0 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "9."
+                      div [Title] .framer-177p788 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Limitation of Liability"
+                    div [Section] .framer-rs8lpo {transform:none}
+                      p .framer-text.framer-styles-preset-c6fndl "To the maximum extent permitted by law, Nordwell shall not be liable for any indirect, incidental, or consequential damages arising from your use of the Service"
+                  div #changes-to-terms-var(--variable-KqPNFa9hy) .framer-8gdbr4
+                    div [Title] .framer-87t03i
+                      div [Index] .framer-u9fhe0 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "10."
+                      div [Title] .framer-177p788 {transform:none}
+                        h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Changes to Terms"
+                    div [Section] .framer-rs8lpo {transform:none}
+                      p .framer-text.framer-styles-preset-c6fndl "We may update these Terms from time to time. Continued use of the Service after changes take effect constitutes acceptance of the revised Terms."
+            div .framer-tod4f4-container
+              svg viewBox= {height:100%; width:100%}
+                defs
+                  pattern #background-pattern-0.08378577038850488
+                    rect
+                rect
+
+##### CSS #####
+@base | .framer-h7EBm .framer-1rr0jhs
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:0px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-h7EBm .framer-t9aug7
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#222);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-h7EBm .framer-n1yzwn
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;height:min-content;overflow:clip;flex:1 0 0;grid-template-rows:repeat(1,minmax(0,1fr));grid-template-columns:repeat(12,minmax(50px,1fr));grid-auto-rows:minmax(0,1fr);justify-content:center;gap:0;width:1px;padding:0;display:grid;position:relative
+@base | .framer-h7EBm .framer-1k3gjei
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:0px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;height:100%;overflow:clip;flex-flow:column;flex:none;grid-column:span 4;place-content:center flex-start;place-self:start;align-items:center;gap:16px;width:100%;padding:32px;display:flex;position:relative
+@base | .framer-h7EBm .framer-1s4lbyv
+    height:1px;overflow:clip;z-index:1;flex-flow:column;flex:1 0 0;place-content:center flex-start;align-items:center;gap:32px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-h7EBm .framer-6akcb6
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:flex-start;align-items:flex-start;gap:8px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-h7EBm .framer-1b3abt
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-h7EBm .framer-hw5r2z, .framer-h7EBm .framer-87t03i
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:4px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-h7EBm .framer-djq5ei
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-h7EBm .framer-lcevsy
+    flex-flow:column;flex:1 0 0;place-content:flex-start center;align-items:flex-start;gap:12px;width:1px;height:min-content;padding:0;display:flex;position:relative
+@base | .framer-h7EBm .framer-11af5qz, .framer-h7EBm .framer-1mrkc8b
+    flex-flow:row;flex:none;place-content:flex-start;align-items:flex-start;gap:10px;width:100%;height:min-content;padding:0;display:flex;position:relative
+@base | .framer-h7EBm .framer-1wibgqh, .framer-h7EBm .framer-vpo9nk, .framer-h7EBm .framer-177p788
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:1 0 0;width:1px;height:auto;position:relative
+@base | .framer-h7EBm .framer-xu47vn, .framer-h7EBm .framer-u9fhe0
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-h7EBm .framer-q5xjvk
+    z-index:1;flex-flow:column;flex:none;place-content:flex-start center;align-items:flex-start;gap:12px;width:100%;height:min-content;padding:0;display:flex;position:sticky;top:108px
+@base | .framer-h7EBm .framer-hefsgi
+    height:min-content;overflow:clip;flex-flow:column;flex:none;grid-column:span 8;place-content:center;place-self:start;align-items:center;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-h7EBm .framer-k8gz69
+    flex-flow:column;flex:none;place-content:flex-start center;align-items:flex-start;gap:32px;width:100%;height:min-content;padding:32px;display:flex;position:relative
+@base | .framer-h7EBm .framer-8gdbr4
+    flex-flow:column;flex:none;place-content:flex-start;align-items:flex-start;gap:12px;width:100%;height:min-content;padding:0;scroll-margin-top:108px;display:flex;position:relative
+@base | .framer-h7EBm .framer-rs8lpo
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@media (min-width:810px) and (max-width:1199.98px) | .framer-h7EBm .framer-1rr0jhs
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-h7EBm .framer-t9aug7
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (min-width:810px) and (max-width:1199.98px) | .framer-h7EBm .framer-n1yzwn
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;grid-template-columns:repeat(8,minmax(50px,1fr))
+@media (min-width:810px) and (max-width:1199.98px) | .framer-h7EBm .framer-1k3gjei
+    grid-column:span 3
+@media (min-width:810px) and (max-width:1199.98px) | .framer-h7EBm .framer-1s4lbyv
+    align-content:flex-start;align-items:flex-start
+@media (min-width:810px) and (max-width:1199.98px) | .framer-h7EBm .framer-hefsgi
+    grid-column:span 5
+@media (max-width:809.98px) | .framer-h7EBm .framer-1rr0jhs
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;padding:0
+@media (max-width:809.98px) | .framer-h7EBm .framer-t9aug7
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (max-width:809.98px) | .framer-h7EBm .framer-n1yzwn
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;grid-template-rows:repeat(1,min-content);grid-template-columns:repeat(1,minmax(50px,1fr));grid-auto-rows:min-content
+@media (max-width:809.98px) | .framer-h7EBm .framer-1k3gjei
+    --border-bottom-width:1px;--border-right-width:0px;z-index:1;order:0;grid-column:span 1;height:min-content;padding:32px 20px
+@media (max-width:809.98px) | .framer-h7EBm .framer-1s4lbyv
+    flex:none;height:min-content
+@media (max-width:809.98px) | .framer-h7EBm .framer-hefsgi
+    order:1;grid-column:span 1
+@media (max-width:809.98px) | .framer-h7EBm .framer-k8gz69
+    padding:20px

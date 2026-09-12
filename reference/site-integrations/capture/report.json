@@ -1,0 +1,198 @@
+{
+  "report": {
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3554,
+        "stitchChunks": 4,
+        "hiddenFixedElements": 4,
+        "layoutElements": 742,
+        "sectionMode": "blocks"
+      },
+      "tablet": {
+        "width": 1024,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3932,
+        "stitchChunks": 5,
+        "hiddenFixedElements": 4,
+        "layoutElements": 818,
+        "sectionMode": "blocks"
+      },
+      "tablet-810": {
+        "width": 810,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 3901,
+        "stitchChunks": 5,
+        "hiddenFixedElements": 4,
+        "layoutElements": 818,
+        "sectionMode": "blocks"
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 5471,
+        "stitchChunks": 7,
+        "hiddenFixedElements": 3,
+        "layoutElements": 801,
+        "sectionMode": "blocks"
+      }
+    },
+    "scenarios": {},
+    "sections": {
+      "desktop": [
+        {
+          "index": 0,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 396,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 1,
+          "slug": "integrations",
+          "name": "Integrations",
+          "y": 540,
+          "h": 1396,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Integrations\"]"
+        },
+        {
+          "index": 2,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 1936,
+          "h": 1618,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 264,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 2,
+          "slug": "integrations",
+          "name": "Integrations",
+          "y": 408,
+          "h": 1900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Integrations\"]"
+        },
+        {
+          "index": 3,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2308,
+          "h": 1624,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet-810": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 288,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 2,
+          "slug": "integrations",
+          "name": "Integrations",
+          "y": 432,
+          "h": 1900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Integrations\"]"
+        },
+        {
+          "index": 3,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2332,
+          "h": 1569,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "mobile": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -776,
+          "h": 844,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 392,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 2,
+          "slug": "integrations",
+          "name": "Integrations",
+          "y": 536,
+          "h": 3220,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Integrations\"]"
+        },
+        {
+          "index": 3,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 3756,
+          "h": 1715,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ]
+    },
+    "assets": 10
+  },
+  "errors": []
+}

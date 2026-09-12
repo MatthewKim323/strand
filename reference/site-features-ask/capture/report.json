@@ -1,0 +1,270 @@
+{
+  "report": {
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 4680,
+        "stitchChunks": 6,
+        "hiddenFixedElements": 4,
+        "layoutElements": 890,
+        "sectionMode": "blocks"
+      },
+      "tablet": {
+        "width": 1024,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 5657,
+        "stitchChunks": 7,
+        "hiddenFixedElements": 4,
+        "layoutElements": 976,
+        "sectionMode": "blocks"
+      },
+      "tablet-810": {
+        "width": 810,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 5666,
+        "stitchChunks": 7,
+        "hiddenFixedElements": 4,
+        "layoutElements": 985,
+        "sectionMode": "blocks"
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 6525,
+        "stitchChunks": 8,
+        "hiddenFixedElements": 3,
+        "layoutElements": 956,
+        "sectionMode": "blocks"
+      }
+    },
+    "scenarios": {},
+    "sections": {
+      "desktop": [
+        {
+          "index": 0,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 886,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 1,
+          "slug": "bento",
+          "name": "Bento",
+          "y": 954,
+          "h": 638,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Bento\"]"
+        },
+        {
+          "index": 2,
+          "slug": "ask-usps",
+          "name": "Ask USPs",
+          "y": 1592,
+          "h": 981,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Ask USPs\"]"
+        },
+        {
+          "index": 3,
+          "slug": "statistics",
+          "name": "Statistics",
+          "y": 2573,
+          "h": 489,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Statistics\"]"
+        },
+        {
+          "index": 4,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 3062,
+          "h": 1618,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 845,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 2,
+          "slug": "bento",
+          "name": "Bento",
+          "y": 913,
+          "h": 1506,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Bento\"]"
+        },
+        {
+          "index": 3,
+          "slug": "ask-usps",
+          "name": "Ask USPs",
+          "y": 2419,
+          "h": 1029,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Ask USPs\"]"
+        },
+        {
+          "index": 4,
+          "slug": "statistics",
+          "name": "Statistics",
+          "y": 3448,
+          "h": 585,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Statistics\"]"
+        },
+        {
+          "index": 5,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 4033,
+          "h": 1624,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet-810": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 869,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 2,
+          "slug": "bento",
+          "name": "Bento",
+          "y": 937,
+          "h": 1506,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Bento\"]"
+        },
+        {
+          "index": 3,
+          "slug": "ask-usps",
+          "name": "Ask USPs",
+          "y": 2443,
+          "h": 1069,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Ask USPs\"]"
+        },
+        {
+          "index": 4,
+          "slug": "statistics",
+          "name": "Statistics",
+          "y": 3512,
+          "h": 585,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Statistics\"]"
+        },
+        {
+          "index": 5,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 4097,
+          "h": 1569,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "mobile": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -776,
+          "h": 844,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 862,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 2,
+          "slug": "bento",
+          "name": "Bento",
+          "y": 930,
+          "h": 1800,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Bento\"]"
+        },
+        {
+          "index": 3,
+          "slug": "ask-usps",
+          "name": "Ask USPs",
+          "y": 2730,
+          "h": 1437,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Ask USPs\"]"
+        },
+        {
+          "index": 4,
+          "slug": "statistics",
+          "name": "Statistics",
+          "y": 4167,
+          "h": 643,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Statistics\"]"
+        },
+        {
+          "index": 5,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 4810,
+          "h": 1715,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ]
+    },
+    "assets": 13
+  },
+  "errors": []
+}

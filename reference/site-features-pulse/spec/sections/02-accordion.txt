@@ -1,0 +1,69 @@
+##### TREE #####
+        div [Accordion] .framer-al8rwf
+          div [Container] .framer-jc198d data-border
+            div
+              div .framer-acfs9-container
+                div [End] .framer-kEcQz.framer-bd4w60 {width: 100%; opacity: 1}
+                  div [Left] .framer-t5arn {opacity: 1}
+                    div [b] .framer-u6zm30 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1s7vawm {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1ndw0of {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                  div [Right] .framer-12bx2ig {opacity: 1}
+                    div [b] .framer-ddlp53 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1is7c6b {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1j63n4i {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+            div [Content] .framer-bvaot2
+              div .framer-fk3opz {transform:none}
+                h2 .framer-text.framer-styles-preset-1p8mz83 {--framer-text-alignment:center}
+                  span .framer-text {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Most tools alert you to everything."
+                  br .framer-text
+                  span .framer-text {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Pulse only tells you what matters."
+            div
+              div .framer-1ois8bc-container
+                div [End] .framer-kEcQz.framer-bd4w60 {width: 100%; opacity: 1}
+                  div [Left] .framer-t5arn {opacity: 1}
+                    div [b] .framer-u6zm30 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1s7vawm {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1ndw0of {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                  div [Right] .framer-12bx2ig {opacity: 1}
+                    div [b] .framer-ddlp53 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1is7c6b {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1j63n4i {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+
+##### CSS #####
+@base | .framer-BRSpH .framer-al8rwf
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-BRSpH .framer-fk3opz
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-BRSpH .framer-jc198d
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#292524);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-BRSpH .framer-bvaot2
+    max-width:1400px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:0;width:100%;padding:160px 120px;display:flex;position:relative
+@media (min-width:810px) and (max-width:1199.98px) | .framer-BRSpH .framer-al8rwf
+    padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-BRSpH .framer-jc198d
+    --border-left-width:0px;--border-right-width:0px
+@media (min-width:810px) and (max-width:1199.98px) | .framer-BRSpH .framer-bvaot2
+    padding:120px
+@media (max-width:809.98px) | .framer-BRSpH .framer-al8rwf
+    padding:0
+@media (max-width:809.98px) | .framer-BRSpH .framer-jc198d
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (max-width:809.98px) | .framer-BRSpH .framer-bvaot2
+    padding:80px 40px
+@base | .framer-kEcQz.framer-cpsty2, .framer-kEcQz .framer-cpsty2
+    display:block
+@base | .framer-kEcQz.framer-bd4w60
+    height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:0;width:429px;padding:0;display:flex;position:relative
+@base | .framer-kEcQz .framer-t5arn, .framer-kEcQz .framer-12bx2ig
+    height:1px;overflow:clip;flex:1 0 0;width:1px;position:relative
+@base | .framer-kEcQz .framer-u6zm30
+    z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;right:0;overflow:visible
+@base | .framer-kEcQz .framer-1s7vawm, .framer-kEcQz .framer-1ndw0of
+    mix-blend-mode:screen;z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;right:0;overflow:visible
+@base | .framer-kEcQz .framer-ddlp53
+    z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;left:0;overflow:visible
+@base | .framer-kEcQz .framer-1is7c6b, .framer-kEcQz .framer-1j63n4i
+    mix-blend-mode:screen;z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;left:0;overflow:visible
+@base | .framer-kEcQz.framer-v-1kv1gub .framer-u6zm30, .framer-kEcQz.framer-v-1kv1gub .framer-1s7vawm, .framer-kEcQz.framer-v-1kv1gub .framer-1ndw0of, .framer-kEcQz.framer-v-1kv1gub .framer-ddlp53, .framer-kEcQz.framer-v-1kv1gub .framer-1is7c6b, .framer-kEcQz.framer-v-1kv1gub .framer-1j63n4i
+    width:0%

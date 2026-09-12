@@ -1,0 +1,80 @@
+# REBUILD: site-changelog
+
+> Captured 2026-09-12T12:32:37.494Z by 1to1. Everything in this folder is measured from a live page. Build from it; never eyeball a number.
+
+## Origin blackout (not optional)
+
+Nothing you write may say where this came from. The source url lives in `reference/site-changelog/.origin.json` and nowhere else: it is there so the rigs can re-measure, not for you to read out. These are your own components and your own assets.
+
+- Never put the origin's name, host, brand, logo filename or a link to it in a component, file name, class name, comment, commit message, alt text or doc. Do not write "cloned from", "based on", "like <site>", or the origin's name in any form.
+- The spec trees, the modules and the harvested assets in this folder are already scrubbed: the origin's words read as `Nordwell` and its links are route-relative. Copy text verbatim from `spec/` and you stay clean; copy it from a browser tab and you do not.
+- Assets are content addressed (`img-<hash>.webp`, `font-<hash>.woff2`). Keep those names when you copy them into `public/`. A logo or wordmark asset still carries the origin visually: flag it for replacement rather than shipping it.
+- `1to1 blackout .` scans the project for anything that slipped through; `1to1 verify` runs it as part of the gate and FAILs on a hit.
+
+## Ground truth in this folder
+
+- `spec/page.txt`: DOM tree (framer names, appear ids, classes, layout inline styles, text) + every CSS rule for those classes per breakpoint (`@base` = desktop >= 1200, `(min-width:810px) and (max-width:1199.98px)` = tablet, `(max-width:809.98px)` = phone). `spec/sections/NN-*.txt` = the same sliced per section.
+- `capture/<vp>/layout.json`: every visible element with its page rect and computed styles at 1440 / 1024 / 810 / 390. This is the box truth; `1to1 refboxes` reads it.
+- `capture/<vp>/full.png` + `capture/<vp>/sections/`: revealed screenshots (2x). `capture/frames/<scenario>/`: 60fps frame sequences (load, per-section scroll, hovers, clicks, loops) with motion timelines.
+- `motion/framer-appear.json` (+ `appear-by-name.json`): on-mount appear springs per element. `motion/rip.md` + `constants.json`: transition constants and scroll / text / ticker / drag effect windows from the page modules. `motion/observed.md`: what the browser reported.
+- `modules/*.mjs`: the source page's modules, scrubbed. The biggest one is the page. `assets/`, `assets/svg/`: every image / font / sprite def.
+- `dom/full.html`, `dom/styles.css`, `dom/tree.txt`: raw material for `1to1 cssq` and grep.
+
+Stack: framer (Framer) + Lenis. Built with Framer: appear ids, data-framer-name, framerusercontent modules. Use `1to1 prep` + `1to1 rip`. Lenis smooth scroll present: window.scrollTo may be overridden, rigs fall back to wheel events.
+
+## Page heights (must match to the pixel)
+
+| viewport | width | doc height | sections |
+|---|---|---|---|
+| desktop | 1440 | 4154 | 2 |
+| tablet | 1024 | 4075 | 3 |
+| tablet-810 | 810 | 4138 | 3 |
+| mobile | 390 | 4441 | 3 |
+
+### sections @ desktop
+
+| # | name | y | h | spec | crop |
+|---|---|---|---|---|---|
+| 0 | Changelog | 68 | 3146 | spec/sections/00-changelog.txt | capture/desktop/sections/00-changelog.png |
+| 1 | Footer Container | 3214 | 941 | spec/sections/01-footer-container.txt | capture/desktop/sections/01-footer-container.png |
+
+### sections @ tablet
+
+| # | name | y | h | spec | crop |
+|---|---|---|---|---|---|
+| 0 | Tablet / Mobile Menu | -832 | 900 | spec/sections/00-tablet-mobile-menu.txt | capture/tablet/sections/00-tablet-mobile-menu.png |
+| 1 | Changelog | 68 | 3060 | spec/sections/01-changelog.txt | capture/tablet/sections/01-changelog.png |
+| 2 | Footer Container | 3128 | 947 | spec/sections/02-footer-container.txt | capture/tablet/sections/02-footer-container.png |
+
+### sections @ tablet-810
+
+| # | name | y | h | spec | crop |
+|---|---|---|---|---|---|
+| 0 | Tablet / Mobile Menu | -832 | 900 | spec/sections/00-tablet-mobile-menu.txt | capture/tablet-810/sections/00-tablet-mobile-menu.png |
+| 1 | Changelog | 68 | 3178 | spec/sections/01-changelog.txt | capture/tablet-810/sections/01-changelog.png |
+| 2 | Footer Container | 3246 | 892 | spec/sections/02-footer-container.txt | capture/tablet-810/sections/02-footer-container.png |
+
+### sections @ mobile
+
+| # | name | y | h | spec | crop |
+|---|---|---|---|---|---|
+| 0 | Tablet / Mobile Menu | -776 | 844 | spec/sections/00-tablet-mobile-menu.txt | capture/mobile/sections/00-tablet-mobile-menu.png |
+| 1 | Changelog | 68 | 3335 | spec/sections/01-changelog.txt | capture/mobile/sections/01-changelog.png |
+| 2 | Footer Container | 3403 | 1038 | spec/sections/02-footer-container.txt | capture/mobile/sections/02-footer-container.png |
+
+## The loop
+
+```bash
+# build one section, then compare
+1to1 shot "http://localhost:3777/?only=<section>" reference/site-changelog/build/<section>.png --w 1440
+1to1 heights http://localhost:3777/ "$(1to1 origin reference/site-changelog --url)"          # page + section heights at all 4 widths
+1to1 boxes http://localhost:3777/ 1440 <yFrom> <yTo>                       # your boxes
+1to1 refboxes reference/site-changelog desktop <yFrom> <yTo>                                # reference boxes (same columns)
+1to1 diff reference/site-changelog/build/desktop-full.png reference/site-changelog/capture/desktop/full.png reference/site-changelog/build/diff --ref reference/site-changelog
+1to1 frames http://localhost:3777/ reference/site-changelog/build/frames/load --ms 6000 --start-before-nav && 1to1 sheet reference/site-changelog/build/frames/load reference/site-changelog/build/load-sheet.png
+1to1 sheet reference/site-changelog/capture/frames/load reference/site-changelog/build/ref-load-sheet.png    # same time steps, compare side by side
+1to1 verify http://localhost:3777/ reference/site-changelog --diff                          # the gate: PASS at every width or keep going
+1to1 blackout .                                                            # no mention of the origin anywhere in the project
+```
+
+Rules for builders are in `CONVENTIONS.md` (project root `reference/`), method in the 1to1 skill docs (`docs/METHOD.md`, `docs/FRAMER.md`, `docs/VERIFY.md`).

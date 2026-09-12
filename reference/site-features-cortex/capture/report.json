@@ -1,0 +1,270 @@
+{
+  "report": {
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 4434,
+        "stitchChunks": 5,
+        "hiddenFixedElements": 4,
+        "layoutElements": 726,
+        "sectionMode": "blocks"
+      },
+      "tablet": {
+        "width": 1024,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 4280,
+        "stitchChunks": 5,
+        "hiddenFixedElements": 4,
+        "layoutElements": 764,
+        "sectionMode": "blocks"
+      },
+      "tablet-810": {
+        "width": 810,
+        "height": 900,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 4249,
+        "stitchChunks": 5,
+        "hiddenFixedElements": 4,
+        "layoutElements": 764,
+        "sectionMode": "blocks"
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "revealMethod": "scrollTo",
+        "unrevealed": 0,
+        "docHeight": 5553,
+        "stitchChunks": 7,
+        "hiddenFixedElements": 3,
+        "layoutElements": 742,
+        "sectionMode": "blocks"
+      }
+    },
+    "scenarios": {},
+    "sections": {
+      "desktop": [
+        {
+          "index": 0,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 732,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 1,
+          "slug": "cta",
+          "name": "CTA",
+          "y": 800,
+          "h": 168,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"CTA\"]"
+        },
+        {
+          "index": 2,
+          "slug": "bento",
+          "name": "Bento",
+          "y": 968,
+          "h": 1208,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Bento\"]"
+        },
+        {
+          "index": 3,
+          "slug": "accordion",
+          "name": "Accordion",
+          "y": 2176,
+          "h": 640,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Accordion\"]"
+        },
+        {
+          "index": 4,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2816,
+          "h": 1618,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 604,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 2,
+          "slug": "cta",
+          "name": "CTA",
+          "y": 672,
+          "h": 168,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"CTA\"]"
+        },
+        {
+          "index": 3,
+          "slug": "bento",
+          "name": "Bento",
+          "y": 840,
+          "h": 1176,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Bento\"]"
+        },
+        {
+          "index": 4,
+          "slug": "accordion",
+          "name": "Accordion",
+          "y": 2016,
+          "h": 640,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Accordion\"]"
+        },
+        {
+          "index": 5,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2656,
+          "h": 1624,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "tablet-810": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -832,
+          "h": 900,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 604,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 2,
+          "slug": "cta",
+          "name": "CTA",
+          "y": 672,
+          "h": 168,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"CTA\"]"
+        },
+        {
+          "index": 3,
+          "slug": "bento",
+          "name": "Bento",
+          "y": 840,
+          "h": 1200,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Bento\"]"
+        },
+        {
+          "index": 4,
+          "slug": "accordion",
+          "name": "Accordion",
+          "y": 2040,
+          "h": 640,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Accordion\"]"
+        },
+        {
+          "index": 5,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 2680,
+          "h": 1569,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ],
+      "mobile": [
+        {
+          "index": 0,
+          "slug": "tablet-mobile-menu",
+          "name": "Tablet / Mobile Menu",
+          "y": -776,
+          "h": 844,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Tablet / Mobile Menu\"]"
+        },
+        {
+          "index": 1,
+          "slug": "hero",
+          "name": "Hero",
+          "y": 68,
+          "h": 724,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Hero\"]"
+        },
+        {
+          "index": 2,
+          "slug": "cta",
+          "name": "CTA",
+          "y": 792,
+          "h": 212,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"CTA\"]"
+        },
+        {
+          "index": 3,
+          "slug": "bento",
+          "name": "Bento",
+          "y": 1004,
+          "h": 1916,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Bento\"]"
+        },
+        {
+          "index": 4,
+          "slug": "accordion",
+          "name": "Accordion",
+          "y": 2920,
+          "h": 918,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Accordion\"]"
+        },
+        {
+          "index": 5,
+          "slug": "footer-container",
+          "name": "Footer Container",
+          "y": 3838,
+          "h": 1715,
+          "tag": "div",
+          "selectorHint": "div[data-framer-name=\"Footer Container\"]"
+        }
+      ]
+    },
+    "assets": 12
+  },
+  "errors": []
+}

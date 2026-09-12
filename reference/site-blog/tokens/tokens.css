@@ -1,0 +1,21 @@
+:root {
+  --color-1: rgb(0, 0, 0); /* used 353x */
+  --color-2: rgb(0, 0, 238); /* used 282x */
+  --color-3: rgb(166, 160, 155); /* used 41x */
+  --color-4: rgb(250, 250, 249); /* used 29x */
+  --color-5: rgb(121, 113, 107); /* used 14x */
+  --color-6: rgb(41, 37, 36); /* used 13x */
+  --color-7: rgb(255, 255, 255); /* used 12x */
+  --color-8: rgb(118, 118, 118); /* used 11x */
+  --color-9: rgb(87, 83, 78); /* used 8x */
+  --color-10: rgb(17, 15, 13); /* used 7x */
+  --color-11: rgb(245, 245, 244); /* used 6x */
+  --color-12: rgb(28, 25, 23); /* used 3x */
+  --color-13: rgb(16, 236, 144); /* used 1x */
+  --color-14: rgb(34, 102, 255); /* used 1x */
+  --color-15: rgb(20, 18, 16); /* used 1x */
+  --font-1: sans-serif; /* used 600x */
+  --font-2: Geist, "Geist Placeholder", sans-serif; /* used 70x */
+  --font-3: Times; /* used 31x */
+  --font-4: "Geist Mono", monospace; /* used 19x */
+}

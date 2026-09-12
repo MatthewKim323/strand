@@ -1,0 +1,274 @@
+##### TREE #####
+        div [Contact Us] .framer-11r2te9 data-border
+          div [Container] .framer-1luledu data-border
+            div .framer-iy2tv-container
+              svg viewBox= {height:100%; width:100%}
+                defs
+                  pattern #background-pattern-0.34743077333947525
+                    rect
+                rect
+            div [Container] .framer-1ekfksz data-border
+              div [Form] .framer-civfnq
+                div [Connect the dots] .framer-p1x5ut data-border
+                  div [Title] .framer-g7ja3w data-border
+                    div .framer-1acal26
+                      div .framer-8hsy4 {transform:none}
+                        h1 .framer-text.framer-styles-preset-ewftjs "Let's connect the dots."
+                      div .framer-s7x7y3 {transform:none}
+                        p .framer-text.framer-styles-preset-1tsnca {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))} "Questions about Nordwell, pricing, or your data setup? Reach the right team in under a minute."
+                    div .framer-10kvtmj {transform:none}
+                      p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))} "You can also email us at sales@nordwell.io"
+                  form .framer-7dtszb data-border
+                    div [Inputs] .framer-1lrfnbv
+                      div [Grid] .framer-9biauo
+                        div
+                          div [Full name] .framer-5eswqs-container
+                            label [Height Fixed] .framer-IBVIG.framer-95lQp.framer-hlXus.framer-3EFGW.framer-des9ay {width: 100%; opacity: 1}
+                              div [Label Stack] .framer-krmxxt {opacity: 1}
+                                div .framer-5n83f6 {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "Full name"
+                              div .framer-form-text-input.framer-form-input-wrapper.framer-1ntkdk8.framer-form-text-input-typ {opacity: 1}
+                                input .framer-form-input.framer-form-input-empty
+                              div .framer-15ww6pu {opacity:0; transform:none}
+                                p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)))} "Provide a full name"
+                        div
+                          div [Email] .framer-bwxuo5-container
+                            label [Height Fixed] .framer-IBVIG.framer-95lQp.framer-hlXus.framer-3EFGW.framer-des9ay {width: 100%; opacity: 1}
+                              div [Label Stack] .framer-krmxxt {opacity: 1}
+                                div .framer-5n83f6 {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "Work email"
+                              div .framer-form-text-input.framer-form-input-wrapper.framer-1ntkdk8 {opacity: 1}
+                                input .framer-form-input.framer-form-input-empty
+                              div .framer-15ww6pu {opacity:0; transform:none}
+                                p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)))} "Provide a valid email"
+                        div
+                          div [Company name] .framer-mhc1j-container
+                            label [Height Fixed] .framer-IBVIG.framer-95lQp.framer-hlXus.framer-3EFGW.framer-des9ay {width: 100%; opacity: 1}
+                              div [Label Stack] .framer-krmxxt {opacity: 1}
+                                div .framer-5n83f6 {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "Company name"
+                              div .framer-form-text-input.framer-form-input-wrapper.framer-1ntkdk8.framer-form-text-input-typ {opacity: 1}
+                                input .framer-form-input.framer-form-input-empty
+                              div .framer-15ww6pu {opacity:0; transform:none}
+                                p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)))} "Provide a company name"
+                        div
+                          div [Interest] .framer-batij4-container
+                            label [Height Fill] .framer-IBVIG.framer-95lQp.framer-hlXus.framer-3EFGW.framer-des9ay {height: 100%; width: 100%; opacity: 1}
+                              div [Label Stack] .framer-krmxxt {opacity: 1}
+                                div .framer-5n83f6 {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158)))} "What can we help with?"
+                              div .framer-form-text-input.framer-form-input-wrapper.framer-1ntkdk8.framer-form-textarea-input {opacity: 1}
+                                textarea .framer-form-input
+                              div .framer-15ww6pu {opacity:0; transform:none}
+                                p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-83011b35-94f4-4b05-950b-90fd095a6bea, rgb(229, 72, 77)))} "Please fill out this field"
+                    div .framer-biophj
+                      div [Conscent] .framer-1yp2dhe
+                        div
+                          div .framer-fiisbz-container
+                            label [Default] .framer-GspnV.framer-hlXus.framer-yudqwj {opacity: 1}
+                              input .framer-form-boolean-input.framer-vii7qa {opacity: 1}
+                        div .framer-efnwpd {transform:none}
+                          p .framer-text.framer-styles-preset-c6fndl {--framer-text-alignment:start; --framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))} "I have read and agree to the ."
+                            a .framer-text.framer-styles-preset-r8t527 href=./ "Privacy Policy"
+                      div
+                        div .framer-3me3jo-container
+                          button [Default] .framer-DAIlr.framer-95lQp.framer-8aqxp0 {--border-bottom-width:0px; --border-color:rgba(0, 0, 0, 0); --border-left-width:0px; --border-right-width:0px; --border-style:solid; --border-top-width:0px; background-color:var(--token-b171d873-56c5-4b61-933d-325079b55926, rgb(245, 245, 244)); opacity:1}
+                            div .framer-1efjez1 {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--extracted-r6o4lv, var(--token-35e0c09c-bfbb-4fb7-9f38-c4d8879499d6, rgb(28, 25, 23)))} "Submit"
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+                    input {position:absolute; transform:scale(0)}
+              div [Contacts] .framer-jhlrrf
+                div .framer-v0c7k4 data-border
+                  div [Contacts] .framer-wgh9no
+                    div [Depratments] .framer-1fs3r6x
+                      div .framer-109qnft {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))} "Sales:"
+                      div .framer-oobky0 {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))} "Support:"
+                      div .framer-9ua881 {transform:none}
+                        p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))} "Partnerships:"
+                    div [Emails] .framer-f3gb6q
+                      div
+                        div .framer-13kzuon {transform:none}
+                          p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))}
+                            a .framer-text.framer-styles-preset-bg0y7m href=mailto:sales@nordwell.io "sales@nordwell.io"
+                      div
+                        div .framer-n1c2j3 {transform:none}
+                          p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))}
+                            a .framer-text.framer-styles-preset-bg0y7m href=mailto:support@nordwell.io "support@nordwell.io"
+                      div
+                        div .framer-5bltkq {transform:none}
+                          p .framer-text.framer-styles-preset-hwasvf {--framer-text-alignment:start; --framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))}
+                            a .framer-text.framer-styles-preset-bg0y7m href=mailto:partnerships@nordwell.io "partnerships@nordwell.io"
+                  div [External] .framer-14djh27
+                    div
+                      div .framer-a0jsc5-container
+                        a [Variant 1] .framer-XjeTV.framer-1kao77h.framer-5xhhnf href=https://x.com/kreativnik_ data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px; opacity: 1}
+                          img .framer-xOa00.framer-ns5mvi src=data:image/svg+xml,<svg display="block" id="1096557195" role="presentation" viewBox="0 0 3  {opacity: 1}
+                    div
+                      div .framer-1wlf2v3-container
+                        a [Variant 1] .framer-XjeTV.framer-1kao77h.framer-5xhhnf href=https://www.linkedin.com/ data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px; opacity: 1}
+                          img .framer-I1sUd.framer-ns5mvi src=data:image/svg+xml,<svg display="block" id="2666904818" role="presentation" viewBox="0 0 3  {opacity: 1}
+                    div
+                      div .framer-1oinv3t-container
+                        a [Variant 1] .framer-XjeTV.framer-1kao77h.framer-5xhhnf href=https://github.com/ data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px; opacity: 1}
+                          img .framer-0hAvE.framer-ns5mvi src=data:image/svg+xml,<svg display="block" id="3317967262" role="presentation" viewBox="0 0 3  {opacity: 1}
+            div .framer-1nlnw4-container
+              svg viewBox= {height:100%; width:100%}
+                defs
+                  pattern #background-pattern-0.7234068429713891
+                    rect
+                rect
+
+##### CSS #####
+@base | .framer-plbDF .framer-11r2te9
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:0px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-plbDF .framer-1luledu
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#222);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-plbDF .framer-1ekfksz
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#292524);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;height:min-content;overflow:clip;flex-flow:column;flex:1 0 0;place-content:center;align-items:center;gap:0;width:1px;padding:0;display:flex;position:relative
+@base | .framer-plbDF .framer-civfnq
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:40px 0;display:flex;position:relative
+@base | .framer-plbDF .framer-p1x5ut
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#292524);--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:1px;height:min-content;overflow:clip;flex:1 0 0;grid-template-rows:repeat(1,minmax(0,1fr));grid-template-columns:repeat(2,minmax(50px,1fr));grid-auto-rows:minmax(0,1fr);justify-content:center;gap:0;width:1px;padding:0;display:grid;position:relative
+@base | .framer-plbDF .framer-g7ja3w
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#292524);--border-left-width:0px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;height:100%;overflow:clip;flex-flow:column;flex:none;place-content:center space-between;place-self:start;align-items:center;width:100%;padding:32px;display:flex;position:relative
+@base | .framer-plbDF .framer-1acal26
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:12px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-plbDF .framer-8hsy4, .framer-plbDF .framer-s7x7y3, .framer-plbDF .framer-10kvtmj
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-plbDF .framer-7dtszb
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:1px;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);flex-flow:column;flex:none;place-content:flex-start;place-self:start;align-items:flex-start;gap:24px;width:100%;height:min-content;padding:32px;display:flex;position:relative;overflow:visible
+@base | .framer-plbDF .framer-1lrfnbv
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-plbDF .framer-9biauo
+    height:min-content;overflow:clip;flex:none;grid-template-rows:repeat(2,min-content);grid-template-columns:repeat(2,minmax(50px,1fr));grid-auto-rows:min-content;justify-content:center;gap:12px 20px;width:100%;padding:0;display:grid;position:relative
+@base | .framer-plbDF .framer-biophj
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:24px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-plbDF .framer-1yp2dhe
+    height:min-content;overflow:clip;flex-flow:row;flex:1 0 0;place-content:center;align-items:center;gap:8px;width:1px;padding:0;display:flex;position:relative
+@base | .framer-plbDF .framer-efnwpd
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:1 0 0;width:1px;height:auto;position:relative
+@base | .framer-plbDF .framer-jhlrrf
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 0 40px;display:flex;position:relative
+@base | .framer-plbDF .framer-v0c7k4
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#292524);--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:1px;height:min-content;overflow:clip;flex-flow:row;flex:1 0 0;place-content:flex-end space-between;align-items:flex-end;width:1px;padding:32px;display:flex;position:relative
+@base | .framer-plbDF .framer-wgh9no
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:12px;width:min-content;padding:0;display:flex;position:relative
+@base | .framer-plbDF .framer-1fs3r6x, .framer-plbDF .framer-f3gb6q
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:flex-start;align-items:flex-start;gap:4px;width:min-content;padding:0;display:flex;position:relative
+@base | .framer-plbDF .framer-109qnft, .framer-plbDF .framer-oobky0, .framer-plbDF .framer-9ua881
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-plbDF .framer-13kzuon, .framer-plbDF .framer-n1c2j3, .framer-plbDF .framer-5bltkq
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-plbDF .framer-14djh27
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:8px;width:min-content;padding:0;display:flex;position:relative
+@media (min-width:810px) and (max-width:1199.98px) | .framer-plbDF .framer-11r2te9
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-plbDF .framer-1luledu
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (min-width:810px) and (max-width:1199.98px) | .framer-plbDF .framer-1ekfksz
+    --border-left-width:0px;--border-right-width:0px
+@media (min-width:810px) and (max-width:1199.98px) | .framer-plbDF .framer-g7ja3w, .framer-plbDF .framer-v0c7k4
+    padding:30px
+@media (min-width:810px) and (max-width:1199.98px) | .framer-plbDF .framer-9biauo
+    grid-template-columns:repeat(1,minmax(50px,1fr))
+@media (max-width:809.98px) | .framer-plbDF .framer-11r2te9
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;padding:0
+@media (max-width:809.98px) | .framer-plbDF .framer-1luledu, .framer-plbDF .framer-1ekfksz
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (max-width:809.98px) | .framer-plbDF .framer-p1x5ut
+    grid-template-rows:repeat(1,min-content);grid-template-columns:repeat(1,minmax(50px,1fr));grid-auto-rows:min-content
+@media (max-width:809.98px) | .framer-plbDF .framer-g7ja3w
+    justify-content:flex-start;gap:20px;height:min-content;padding:32px 20px
+@media (max-width:809.98px) | .framer-plbDF .framer-7dtszb
+    padding:20px
+@media (max-width:809.98px) | .framer-plbDF .framer-9biauo
+    grid-template-columns:repeat(1,minmax(50px,1fr))
+@media (max-width:809.98px) | .framer-plbDF .framer-biophj
+    flex-direction:column;align-content:flex-start;align-items:flex-start
+@media (max-width:809.98px) | .framer-plbDF .framer-1yp2dhe
+    flex:none;width:100%
+@media (max-width:809.98px) | .framer-plbDF .framer-v0c7k4
+    flex-direction:column;place-content:flex-start;align-items:flex-start;gap:24px;padding:20px
+@media (max-width:809.98px) | .framer-plbDF .framer-wgh9no
+    gap:unset;justify-content:space-between;width:100%
+@media (max-width:809.98px) | .framer-plbDF .framer-f3gb6q
+    flex:1 0 0;width:1px
+@media (max-width:809.98px) | .framer-plbDF .framer-13kzuon, .framer-plbDF .framer-n1c2j3, .framer-plbDF .framer-5bltkq
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;width:100%
+@base | .framer-IBVIG.framer-h4so57, .framer-IBVIG .framer-h4so57
+    display:block
+@base | .framer-IBVIG.framer-des9ay
+    cursor:pointer;flex-flow:column;place-content:flex-start;align-items:flex-start;gap:4px;width:254px;height:min-content;padding:0;display:flex;position:relative
+@base | .framer-IBVIG .framer-krmxxt
+    flex-flow:row;flex:none;place-content:flex-start center;align-items:flex-start;gap:8px;width:100%;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-IBVIG .framer-5n83f6
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:1 0 0;width:1px;height:auto;position:relative
+@base | .framer-IBVIG .framer-t2wcdf
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-IBVIG .framer-1ntkdk8
+    --framer-input-font-family:"Geist";--framer-input-font-letter-spacing:0em;--framer-input-font-line-height:20px;--framer-input-font-size:14px;--framer-input-font-weight:400;--framer-input-padding:10px 12px 10px 12px;--framer-input-wrapper-height:auto;flex:none;width:100%;height:auto;position:relative
+@base | .framer-IBVIG .framer-15ww6pu
+    -webkit-user-select:none;user-select:none;pointer-events:none;white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-IBVIG.framer-v-gcwpbr.framer-des9ay, .framer-IBVIG.framer-v-zymlp1.framer-des9ay, .framer-IBVIG.framer-v-1hrle67.framer-des9ay
+    height:84px
+@base | .framer-IBVIG.framer-v-gcwpbr .framer-1ntkdk8, .framer-IBVIG.framer-v-zymlp1 .framer-1ntkdk8, .framer-IBVIG.framer-v-1hrle67 .framer-1ntkdk8
+    --framer-input-wrapper-height:unset;flex:1 0 0;height:1px
+@base | .framer-IBVIG.framer-v-gcwpbr.hover .framer-1ntkdk8, .framer-IBVIG.framer-v-zymlp1.hover .framer-1ntkdk8, .framer-IBVIG.framer-v-1hrle67.hover .framer-1ntkdk8
+    --framer-input-wrapper-height:unset
+@base | .framer-3EFGW .framer-styles-preset-1rmkco3:not(.rich-text-wrapper), .framer-3EFGW .framer-styles-preset-1rmkco3.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:12px;--framer-font-weight:400;--framer-letter-spacing:0em;--framer-line-height:16px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-GspnV.framer-44vrbn, .framer-GspnV .framer-44vrbn
+    display:block
+@base | .framer-GspnV.framer-yudqwj
+    cursor:pointer;flex-flow:row;place-content:center flex-start;align-items:center;gap:8px;width:min-content;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-GspnV .framer-vii7qa
+    flex:none;width:16px;height:16px;position:relative
+@base | .framer-GspnV .framer-1m99s45
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-hlXus .framer-styles-preset-c6fndl:not(.rich-text-wrapper), .framer-hlXus .framer-styles-preset-c6fndl.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:14px;--framer-font-weight:400;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d,#a1a1a1);--framer-text-transform:none
+@base | .framer-DAIlr.framer-k4ra1e, .framer-DAIlr .framer-k4ra1e
+    display:block
+@base | .framer-DAIlr.framer-8aqxp0
+    cursor:pointer;flex-flow:row;place-content:center;align-items:center;gap:0;width:100px;height:32px;padding:0 12px;display:flex;position:relative;overflow:visible
+@base | .framer-DAIlr .framer-1efjez1
+    -webkit-user-select:none;user-select:none;white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-DAIlr .framer-ajvu5n
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,20px);flex:none;gap:10px;width:20px;position:relative;overflow:hidden
+@base | .framer-DAIlr .framer-1xef08e
+    flex:none;position:absolute;inset:0;overflow:visible
+@base | .framer-DAIlr .framer-as3gwv
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,2px);flex:none;width:2px;position:absolute;top:0;left:50%;overflow:visible
+@base | .framer-DAIlr .framer-iiwtf
+    aspect-ratio:1;height:var(--framer-aspect-ratio-supported,20px);flex:none;width:20px;position:relative
+@base | .framer-DAIlr.framer-v-cpstmt.framer-8aqxp0, .framer-DAIlr.framer-v-2ko4da.framer-8aqxp0, .framer-DAIlr.framer-v-1rfnf0f.framer-8aqxp0
+    cursor:unset
+@base | .framer-DAIlr.framer-v-cpstmt .framer-1xef08e
+    overflow:hidden
+@base | .framer-DAIlr.framer-v-mwqblm.framer-8aqxp0
+    cursor:unset;width:min-content;padding:0 16px
+@base | .framer-95lQp .framer-styles-preset-1h9i0d0:not(.rich-text-wrapper), .framer-95lQp .framer-styles-preset-1h9i0d0.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:14px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-DAIlr[data-border=true]:after, .framer-DAIlr [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-XjeTV.framer-5xhhnf, .framer-XjeTV .framer-5xhhnf
+    display:block
+@base | .framer-XjeTV.framer-1kao77h
+    cursor:pointer;flex-flow:row;place-content:center;align-items:center;gap:16px;width:32px;height:32px;padding:0;text-decoration:none;display:flex;position:relative;overflow:visible
+@base | .framer-XjeTV .framer-ns5mvi
+    height:var(--framer-aspect-ratio-supported,16px);flex:none;width:16px;position:relative
+@base | .framer-XjeTV[data-border=true]:after, .framer-XjeTV [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-xOa00, .framer-I1sUd, .framer-0hAvE
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);-webkit-user-select:none;user-select:none;width:32px;display:block

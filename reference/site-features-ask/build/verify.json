@@ -1,0 +1,245 @@
+{
+ "url": "http://localhost:3799/features/ask",
+ "ref": "reference/site-features-ask",
+ "at": "2026-09-12T12:47:44.307Z",
+ "viewports": {
+  "desktop": {
+   "width": 1440,
+   "docHeight": {
+    "ref": 4680,
+    "build": 4680,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 886,
+     "build": 886,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Bento",
+     "y": 954,
+     "ref": 638,
+     "build": 638,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Ask USPs",
+     "y": 1592,
+     "ref": 981,
+     "build": 981,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Statistics",
+     "y": 2573,
+     "ref": 489,
+     "build": 489,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 3062,
+     "ref": 1618,
+     "build": 1618,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet": {
+   "width": 1024,
+   "docHeight": {
+    "ref": 5657,
+    "build": 5657,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 845,
+     "build": 845,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Bento",
+     "y": 913,
+     "ref": 1506,
+     "build": 1506,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Ask USPs",
+     "y": 2419,
+     "ref": 1029,
+     "build": 1029,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Statistics",
+     "y": 3448,
+     "ref": 585,
+     "build": 585,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 4033,
+     "ref": 1624,
+     "build": 1624,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet-810": {
+   "width": 810,
+   "docHeight": {
+    "ref": 5666,
+    "build": 5666,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 869,
+     "build": 869,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Bento",
+     "y": 937,
+     "ref": 1506,
+     "build": 1506,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Ask USPs",
+     "y": 2443,
+     "ref": 1069,
+     "build": 1069,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Statistics",
+     "y": 3512,
+     "ref": 585,
+     "build": 585,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 4097,
+     "ref": 1569,
+     "build": 1569,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "mobile": {
+   "width": 390,
+   "docHeight": {
+    "ref": 6525,
+    "build": 6525,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -776,
+     "ref": 844,
+     "build": 844,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 862,
+     "build": 862,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Bento",
+     "y": 930,
+     "ref": 1800,
+     "build": 1800,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Ask USPs",
+     "y": 2730,
+     "ref": 1437,
+     "build": 1437,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Statistics",
+     "y": 4167,
+     "ref": 643,
+     "build": 643,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 4810,
+     "ref": 1715,
+     "build": 1715,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  }
+ },
+ "pass": true,
+ "blackout": true
+}

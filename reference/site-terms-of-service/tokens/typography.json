@@ -1,0 +1,82 @@
+{
+ "fontFamilies": [
+  {
+   "value": "sans-serif",
+   "usage": 428
+  },
+  {
+   "value": "Geist, \"Geist Placeholder\", sans-serif",
+   "usage": 81
+  },
+  {
+   "value": "\"Geist Mono\", monospace",
+   "usage": 35
+  },
+  {
+   "value": "Times",
+   "usage": 31
+  },
+  {
+   "value": "Geist",
+   "usage": 1
+  }
+ ],
+ "sizes": [
+  {
+   "value": "12px",
+   "usage": 47
+  },
+  {
+   "value": "16px",
+   "usage": 25
+  },
+  {
+   "value": "18px",
+   "usage": 20
+  },
+  {
+   "value": "14px",
+   "usage": 16
+  },
+  {
+   "value": "24px",
+   "usage": 1
+  }
+ ],
+ "weights": [
+  {
+   "value": "400",
+   "usage": 47
+  },
+  {
+   "value": "500",
+   "usage": 41
+  },
+  {
+   "value": "600",
+   "usage": 21
+  }
+ ],
+ "lineHeights": [
+  {
+   "value": "24px",
+   "usage": 39
+  },
+  {
+   "value": "16px",
+   "usage": 35
+  },
+  {
+   "value": "normal",
+   "usage": 18
+  },
+  {
+   "value": "20px",
+   "usage": 16
+  },
+  {
+   "value": "28px",
+   "usage": 1
+  }
+ ]
+}

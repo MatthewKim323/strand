@@ -1,0 +1,467 @@
+##### TREE #####
+        div [Bento] .framer-18ddmlc data-border
+          div [Bento Container] .framer-t0ve3r data-border
+            div [First Row] .framer-ksp37d
+              div [Entity] .framer-1qq662d data-border
+                div [Visual Container] .framer-hq868h
+                  div
+                    div [Graph] .framer-94nwte
+                      div .framer-18wx6fs data-border
+                        div [Account Info] .framer-mqxwpx
+                          div [Account Holder] .framer-1xw1gm9 {transform:none}
+                            p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "J. Smith"
+                          div [Account Name] .framer-msmcza {transform:none}
+                            p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))} "john.smith@company.com"
+                        div [Synced] .framer-xo6klp
+                          div .framer-1x5ckm7 {transform:none}
+                            p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))} "Synced from:"
+                          div [Synced From] .framer-rg60k5
+                            div [Logo Container] .framer-qfopnd data-border
+                              img .framer-bqZNq.framer-1kwp1k6 src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt 
+                            div [Logo Container] .framer-1fmevzs data-border
+                              img .framer-x3TP4.framer-czqmkb src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt 
+                            div [Logo Container] .framer-uxi87b data-border
+                              img .framer-VAmFs.framer-12d8t15 src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt 
+                        div .framer-1gnf2p4 data-border
+                      div
+                        div .framer-1rkbr8y-container
+                          div [Small] .framer-mEJFY.framer-jhxgU.framer-LKFMZ.framer-x4g6b3 data-border {--border-bottom-width: 1px; --border-color: var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 321px; opacity: 1}
+                            div .framer-6ojv5w {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-hlupby {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Synced"
+                      div .framer-gj3ddc {flex-shrink:0}
+                        div {width:100%; height:100%; aspect-ratio:inherit}
+                          svg viewBox= {width:100%; height:100%; overflow: visible}
+                            use href=#svg-1807113860_370
+                      div .framer-fc4mh1 {flex-shrink:0}
+                        div {width:100%; height:100%; aspect-ratio:inherit}
+                          svg viewBox= {width:100%; height:100%; overflow: visible}
+                            use href=#svg-1004536326_370
+                      div .framer-91mggf {flex-shrink:0}
+                        div {width:100%; height:100%; aspect-ratio:inherit}
+                          svg viewBox= {width:100%; height:100%; overflow: visible}
+                            use href=#svg2020907486_366
+                      div .framer-cl1iwk data-border
+                        div .framer-15h13ew
+                          img .framer-VAmFs.framer-1fj40r src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt 
+                          div [Name] .framer-pdvx8d {transform:none}
+                            p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))} "VaultDB"
+                        div [Account] .framer-seie3i {transform:none}
+                          p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "jsmith@co.com"
+                        div .framer-btngq0 data-border
+                      div .framer-nkpr60 data-border
+                        div .framer-1wnv8xx
+                          img .framer-x3TP4.framer-1oma5g5 src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt 
+                          div [Name] .framer-1k8lej1 {transform:none}
+                            p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))} "Gridwork"
+                        div [Account] .framer-ati351 {transform:none}
+                          p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "J. Smith"
+                        div .framer-mmrw5s data-border
+                      div .framer-dlfnux data-border
+                        div .framer-1j3xnbj data-border
+                        div .framer-wxduwt
+                          img .framer-bqZNq.framer-ksob8d src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt 
+                          div [Name] .framer-z0hh22 {transform:none}
+                            p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))} "Pipecloud"
+                        div [Account] .framer-2kx12f {transform:none}
+                          p .framer-text.framer-styles-preset-c6fndl {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "John Smith"
+                      div
+                        div .framer-1l1s17c-container
+                          div [Small] .framer-mEJFY.framer-jhxgU.framer-LKFMZ.framer-x4g6b3 data-border {--border-bottom-width: 1px; --border-color: var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 321px; opacity: 1}
+                            div .framer-6ojv5w {transform: none; opacity: 1}
+                              p .framer-text.framer-styles-preset-hlupby {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Records found"
+                  div .framer-7dmmm4-container
+                    div {position:relative; width:100%; height:100%; overflow:hidden}
+                      div {position:absolute; top:0; left:0; width:100%; height:100%; opacity:1}
+                        canvas {width: 576px; height: 480px}
+                div [Text] .framer-1ygphh8
+                  div .framer-179wd2f {transform:none}
+                    h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Entity resolution, automatic."
+                  div .framer-d8iupy {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Same customer across your CRM, payments, and database - Cortex links them without configuration."
+              div [Graph] .framer-rue5ov data-border
+                div [Visual Container] .framer-1jbutfi
+                  div
+                    div [Notifications] .framer-1sl0wq1
+                      div
+                        div .framer-1ysb7qc-container
+                          div [Variant 1] .framer-zvn7L.framer-KQOh7.framer-3EFGW.framer-jhxgU.framer-hxmstj data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; border-radius: 12px; opacity: 1}
+                            div .framer-gn6i6t-container {opacity: 1}
+                              div {width:6px; height:6px; border-radius:9999px; background-color:var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)); position:relative}
+                                div {border-radius: 9999px; position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; opacity: 0; transform: translateX(-50%) translateY(-50%); will-change: transform}
+                            div [Icon Container] .framer-59psfr {background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; opacity: 1}
+                              svg [Icon] .framer-teLFS.framer-12ll8ul viewBox=0 0 24 24 {opacity: 1}
+                                use href=#2876127492
+                            div [Info] .framer-17pz0se {opacity: 1}
+                              div [Title] .framer-5lpitq {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-7mu5w4 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Account updated"
+                              div [Additional Info] .framer-1whe76b {opacity: 1}
+                                div [Secondary Info] .framer-1ac45mm {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Pipecloud"
+                                div [Time] .framer-1pctx4h {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "just now"
+                      div
+                        div .framer-w9oi0i-container
+                          div [Variant 1] .framer-zvn7L.framer-KQOh7.framer-3EFGW.framer-jhxgU.framer-hxmstj data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; border-radius: 12px; opacity: 1}
+                            div .framer-gn6i6t-container {opacity: 1}
+                              div {width:6px; height:6px; border-radius:9999px; background-color:var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)); position:relative}
+                                div {border-radius: 9999px; position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; opacity: 0; transform: translateX(-50%) translateY(-50%); will-change: transform}
+                            div [Icon Container] .framer-59psfr {background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; opacity: 1}
+                              svg [Icon] .framer-MtOzo.framer-12ll8ul viewBox=0 0 24 24 {opacity: 1}
+                                use href=#736863830
+                            div [Info] .framer-17pz0se {opacity: 1}
+                              div [Title] .framer-5lpitq {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-7mu5w4 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "New payment linked"
+                              div [Additional Info] .framer-1whe76b {opacity: 1}
+                                div [Secondary Info] .framer-1ac45mm {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Stride"
+                                div [Time] .framer-1pctx4h {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "12s ago"
+                      div
+                        div .framer-1khrb14-container
+                          div [Variant 1] .framer-zvn7L.framer-KQOh7.framer-3EFGW.framer-jhxgU.framer-hxmstj data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; border-radius: 12px; opacity: 1}
+                            div .framer-gn6i6t-container {opacity: 1}
+                              div {width:6px; height:6px; border-radius:9999px; background-color:var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)); position:relative}
+                                div {border-radius: 9999px; position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; opacity: 0; transform: translateX(-50%) translateY(-50%); will-change: transform}
+                            div [Icon Container] .framer-59psfr {background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; opacity: 1}
+                              svg [Icon] .framer-Xobat.framer-12ll8ul viewBox=0 0 24 24 {opacity: 1}
+                                use href=#4051758266
+                            div [Info] .framer-17pz0se {opacity: 1}
+                              div [Title] .framer-5lpitq {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-7mu5w4 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Record created"
+                              div [Additional Info] .framer-1whe76b {opacity: 1}
+                                div [Secondary Info] .framer-1ac45mm {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "VaultDB"
+                                div [Time] .framer-1pctx4h {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "28s ago"
+                      div
+                        div .framer-sjfgvz-container
+                          div [Variant 1] .framer-zvn7L.framer-KQOh7.framer-3EFGW.framer-jhxgU.framer-hxmstj data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; border-radius: 12px; opacity: 1}
+                            div .framer-gn6i6t-container {opacity: 1}
+                              div {width:6px; height:6px; border-radius:9999px; background-color:var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)); position:relative}
+                                div {border-radius: 9999px; position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; opacity: 0; transform: translateX(-50%) translateY(-50%); will-change: transform}
+                            div [Icon Container] .framer-59psfr {background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; opacity: 1}
+                              svg [Icon] .framer-Ld1N7.framer-12ll8ul viewBox=0 0 24 24 {opacity: 1}
+                                use href=#3038134698
+                            div [Info] .framer-17pz0se {opacity: 1}
+                              div [Title] .framer-5lpitq {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-7mu5w4 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Entity resolved"
+                              div [Additional Info] .framer-1whe76b {opacity: 1}
+                                div [Secondary Info] .framer-1ac45mm {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Pipecloud"
+                                div [Time] .framer-1pctx4h {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "1m ago"
+                      div
+                        div .framer-1lo6cen-container
+                          div [Variant 1] .framer-zvn7L.framer-KQOh7.framer-3EFGW.framer-jhxgU.framer-hxmstj data-border {--border-bottom-width: 1px; --border-color: var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16)); width: 100%; border-radius: 12px; opacity: 1}
+                            div .framer-gn6i6t-container {opacity: 1}
+                              div {width:6px; height:6px; border-radius:9999px; background-color:var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)); position:relative}
+                                div {border-radius: 9999px; position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; opacity: 0; transform: translateX(-50%) translateY(-50%); will-change: transform}
+                            div [Icon Container] .framer-59psfr {background-color: var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23)); border-radius: 6px; opacity: 1}
+                              svg [Icon] .framer-W1uGa.framer-12ll8ul viewBox=0 0 24 24 {opacity: 1}
+                                use href=#228321436
+                            div [Info] .framer-17pz0se {opacity: 1}
+                              div [Title] .framer-5lpitq {transform: none; opacity: 1}
+                                p .framer-text.framer-styles-preset-7mu5w4 {--framer-text-color:var(--extracted-r6o4lv, var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250)))} "Subscription changed"
+                              div [Additional Info] .framer-1whe76b {opacity: 1}
+                                div [Secondary Info] .framer-1ac45mm {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1rmkco3 {--framer-text-color:var(--extracted-r6o4lv, var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161)))} "Stride"
+                                div [Time] .framer-1pctx4h {transform: none; opacity: 1}
+                                  p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--extracted-r6o4lv, var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115)))} "2m ago"
+                  div .framer-7aupk4-container
+                    div {position:relative; width:100%; height:100%; overflow:hidden}
+                      div {position:absolute; top:0; left:0; width:100%; height:100%; opacity:1}
+                        canvas {width: 576px; height: 480px}
+                div [Text] .framer-12755db
+                  div .framer-n0kzyo {transform:none}
+                    h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "The graph updates itself."
+                  div .framer-1u559kn {transform:none}
+                    p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Every change in a connected tool reflects within seconds. Always current, zero manual effort."
+            div
+              div .framer-12l7jec-container
+                div [End] .framer-kEcQz.framer-bd4w60 {width: 100%; opacity: 1}
+                  div [Left] .framer-t5arn {opacity: 1}
+                    div [b] .framer-u6zm30 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1s7vawm {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1ndw0of {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                  div [Right] .framer-12bx2ig {opacity: 1}
+                    div [b] .framer-ddlp53 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1is7c6b {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1j63n4i {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+            div [Second Row] .framer-1xsxjoa
+              div [Text] .framer-kuws7k
+                div .framer-12r444j {transform:none}
+                  h3 .framer-text.framer-styles-preset-1b45yw5 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Explore relationships without writing a query."
+                div .framer-19pnt8l {transform:none}
+                  p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Browse connections between any two entities - customers, revenue, support history - without touching SQL."
+              div [Visual Container] .framer-n17h3d
+                div
+                  div .framer-17wzrez
+                    div .framer-ysaefe
+                      div .framer-cs19vx data-border
+                        svg .framer-Ldy1h.framer-x8gmyp viewBox=0 0 24 24
+                          use href=#2752932676
+                        div .framer-12stjwk data-border
+                      div .framer-1aytrmc {flex-shrink:0}
+                        div {width:100%; height:100%; aspect-ratio:inherit}
+                          svg viewBox= {width:100%; height:100%; overflow: visible}
+                            use href=#svg-1857128154_304
+                      div .framer-1y04dcf data-border
+                        svg .framer-971zr.framer-7pxuyp viewBox=0 0 24 24
+                          use href=#2511577395
+                        div .framer-1vityid data-border
+                        div .framer-1kb7bzw data-border
+                      div .framer-zc7o68 {flex-shrink:0}
+                        div {width:100%; height:100%; aspect-ratio:inherit}
+                          svg viewBox= {width:100%; height:100%; overflow: visible}
+                            use href=#svg-1857128154_304
+                      div .framer-p9glvx data-border
+                        div .framer-zhjxkj data-border
+                        div .framer-suitdo data-border
+                        div [Icon Container] .framer-b9wpyg
+                          svg [Icon] .framer-teLFS.framer-1scev95 viewBox=0 0 24 24
+                            use href=#2876127492
+                        div .framer-160qg1z {transform:none}
+                          p .framer-text.framer-styles-preset-hwasvf {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Subscription"
+                      div .framer-glelzn {flex-shrink:0}
+                        div {width:100%; height:100%; aspect-ratio:inherit}
+                          svg viewBox= {width:100%; height:100%; overflow: visible}
+                            use href=#svg-1857128154_304
+                      div .framer-vnienm data-border
+                        svg .framer-P5vBD.framer-1t8lm9x viewBox=0 0 24 24
+                          use href=#1378337905
+                        div .framer-exxl0 data-border
+                        div .framer-1s2eo9j data-border
+                      div .framer-okn8zj {flex-shrink:0}
+                        div {width:100%; height:100%; aspect-ratio:inherit}
+                          svg viewBox= {width:100%; height:100%; overflow: visible}
+                            use href=#svg-1857128154_304
+                      div .framer-4s21tv data-border
+                        svg .framer-82xrC.framer-bcawv1 viewBox=0 0 24 24
+                          use href=#73151267
+                        div .framer-1f49ld7 data-border
+                    div .framer-gefpl7 data-border
+                      div [Status] .framer-1qigg2q
+                        img [Icon] .framer-zS0tf.framer-ru0d src=data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 32 32" xmlns="htt 
+                        div [Status] .framer-1758hmj
+                          div .framer-4eb3tn-container
+                            div {width:6px; height:6px; border-radius:9999px; background-color:var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144)); position:relative}
+                              div {border-radius: 9999px; position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; opacity: 0; transform: translateX(-50%) translateY(-50%); will-change: transform}
+                          div .framer-1ye19t9 {transform:none}
+                            p .framer-text.framer-styles-preset-1unq4w {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Active"
+                      div [Info Container] .framer-1ne6vqi
+                        div [Row] .framer-1pkrzq6
+                          div [Name] .framer-15zw8ro {transform:none}
+                            p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Plan"
+                          div [Detail] .framer-3r3hm {transform:none}
+                            p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Enterprise"
+                        div [Row] .framer-1kfwlm6
+                          div [Name] .framer-1ukv1se {transform:none}
+                            p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Renewal"
+                          div [Detail] .framer-1kgataz {transform:none}
+                            p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "Dec 14, 2025"
+                        div [Row] .framer-13lrefg
+                          div [Name] .framer-1snq20n {transform:none}
+                            p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "MRR"
+                          div [Detail] .framer-ydz9su {transform:none}
+                            p .framer-text.framer-styles-preset-1h9i0d0 {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "$1,240"
+                div .framer-1knf3cb-container
+                  div {position:relative; width:100%; height:100%; overflow:hidden}
+                    div {position:absolute; top:0; left:0; width:100%; height:100%; opacity:1}
+                      canvas {width: 576px; height: 446px}
+            div
+              div .framer-1gp9lk2-container
+                div [End] .framer-kEcQz.framer-bd4w60 {width: 100%; opacity: 1}
+                  div [Left] .framer-t5arn {opacity: 1}
+                    div [b] .framer-u6zm30 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1s7vawm {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1ndw0of {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                  div [Right] .framer-12bx2ig {opacity: 1}
+                    div [b] .framer-ddlp53 {background-color: rgb(0, 0, 36); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [g] .framer-1is7c6b {background-color: rgb(0, 37, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+                    div [r] .framer-1j63n4i {background-color: rgb(41, 0, 0); will-change: auto; transform: none; transform-origin: 50% 50% 0px}
+
+##### CSS #####
+@base | .framer-lPqUD .framer-t0ve3r
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#222);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-lPqUD .framer-1xw1gm9, .framer-lPqUD .framer-msmcza, .framer-lPqUD .framer-1x5ckm7, .framer-lPqUD .framer-seie3i, .framer-lPqUD .framer-ati351, .framer-lPqUD .framer-2kx12f, .framer-lPqUD .framer-179wd2f, .framer-lPqUD .framer-d8iupy, .framer-lPqUD .framer-n0kzyo, .framer-lPqUD .framer-1u559kn, .framer-lPqUD .framer-12r444j, .framer-lPqUD .framer-19pnt8l
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-lPqUD .framer-18ddmlc
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:1px;height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-lPqUD .framer-ksp37d
+    height:min-content;overflow:clip;flex:none;grid-template-rows:repeat(1,minmax(0,1fr));grid-template-columns:repeat(2,minmax(50px,1fr));grid-auto-rows:minmax(0,1fr);justify-content:center;gap:0;width:100%;padding:0;display:grid;position:relative
+@base | .framer-lPqUD .framer-1qq662d, .framer-lPqUD .framer-rue5ov
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:0px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;height:100%;overflow:clip;flex-flow:column;flex:none;place-content:center flex-start;place-self:start;align-items:center;gap:40px;width:100%;padding:40px;display:flex;position:relative
+@base | .framer-lPqUD .framer-hq868h, .framer-lPqUD .framer-1jbutfi
+    flex-flow:column;flex:none;place-content:center;align-items:center;gap:8px;width:100%;height:480px;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-lPqUD .framer-94nwte
+    pointer-events:none;z-index:2;flex:none;gap:0;width:320px;height:429px;position:relative;overflow:visible
+@base | .framer-lPqUD .framer-18wx6fs
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);border-radius:12px;flex-flow:column;flex:none;place-content:flex-start center;align-items:flex-start;gap:24px;width:211px;height:min-content;padding:12px;display:flex;position:absolute;top:280px;left:109px;overflow:visible;box-shadow:0 1px 6px 1px #00000040
+@base | .framer-lPqUD .framer-mqxwpx
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-lPqUD .framer-xo6klp
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:4px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-lPqUD .framer-rg60k5
+    height:min-content;overflow:clip;flex-flow:wrap;flex:none;place-content:center flex-start;align-items:center;gap:4px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-lPqUD .framer-qfopnd, .framer-lPqUD .framer-1fmevzs, .framer-lPqUD .framer-uxi87b
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);height:min-content;overflow:clip;border-radius:8px;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:min-content;padding:8px;display:flex;position:relative
+@base | .framer-lPqUD .framer-1kwp1k6, .framer-lPqUD .framer-czqmkb, .framer-lPqUD .framer-12d8t15, .framer-lPqUD .framer-1fj40r, .framer-lPqUD .framer-1oma5g5, .framer-lPqUD .framer-ksob8d
+    aspect-ratio:1;flex:none;width:20px;height:auto;position:relative
+@base | .framer-lPqUD .framer-1gnf2p4, .framer-lPqUD .framer-zhjxkj
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;aspect-ratio:1;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);height:auto;overflow:clip;z-index:1;border-radius:8px;flex:none;width:8px;position:absolute;top:-4px;left:50%;transform:translate(-50%)
+@base | .framer-lPqUD .framer-gj3ddc
+    width:26px;height:220px;position:absolute;top:60px;left:189px
+@base | .framer-lPqUD .framer-fc4mh1
+    width:26px;height:140px;position:absolute;top:140px;left:189px
+@base | .framer-lPqUD .framer-91mggf
+    width:26px;height:60px;position:absolute;top:220px;left:189px
+@base | .framer-lPqUD .framer-cl1iwk
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);border-radius:12px;flex-flow:column;flex:none;place-content:flex-start center;align-items:flex-start;gap:4px;width:189px;height:min-content;padding:12px;display:flex;position:absolute;top:184px;left:0;overflow:visible;box-shadow:0 1px 6px 1px #00000040
+@base | .framer-lPqUD .framer-15h13ew, .framer-lPqUD .framer-1wnv8xx, .framer-lPqUD .framer-wxduwt
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:8px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-lPqUD .framer-pdvx8d, .framer-lPqUD .framer-1k8lej1, .framer-lPqUD .framer-z0hh22, .framer-lPqUD .framer-15zw8ro, .framer-lPqUD .framer-1ukv1se, .framer-lPqUD .framer-1snq20n
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:1 0 0;width:1px;height:auto;position:relative
+@base | .framer-lPqUD .framer-btngq0, .framer-lPqUD .framer-mmrw5s, .framer-lPqUD .framer-1j3xnbj
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;aspect-ratio:1;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);height:auto;overflow:clip;z-index:1;border-radius:8px;flex:none;width:8px;position:absolute;top:53%;right:-4px;transform:translateY(-50%)
+@base | .framer-lPqUD .framer-nkpr60
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);border-radius:12px;flex-flow:column;flex:none;place-content:flex-start center;align-items:flex-start;gap:4px;width:189px;height:min-content;padding:12px;display:flex;position:absolute;top:104px;left:0;overflow:visible;box-shadow:0 1px 6px 1px #00000040
+@base | .framer-lPqUD .framer-dlfnux
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);border-radius:12px;flex-flow:column;flex:none;place-content:flex-start center;align-items:flex-start;gap:4px;width:189px;height:min-content;padding:12px;display:flex;position:absolute;top:24px;left:0;overflow:visible;box-shadow:0 1px 6px 1px #00000040
+@base | .framer-lPqUD .framer-1ygphh8, .framer-lPqUD .framer-12755db
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:flex-start center;align-items:flex-start;gap:8px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-lPqUD .framer-1sl0wq1
+    height:min-content;overflow:clip;pointer-events:none;z-index:2;flex-flow:column;flex:none;place-content:center;align-items:center;gap:8px;width:301px;padding:0;display:flex;position:relative
+@base | .framer-lPqUD .framer-1xsxjoa
+    height:min-content;overflow:clip;flex:none;grid-template-rows:repeat(1,min-content);grid-template-columns:repeat(2,minmax(50px,1fr));grid-auto-rows:min-content;justify-content:center;gap:0 80px;width:100%;padding:40px;display:grid;position:relative
+@base | .framer-lPqUD .framer-kuws7k
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:flex-start center;place-self:end center;align-items:flex-start;gap:8px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-lPqUD .framer-n17h3d
+    flex-flow:column;flex:none;place-content:center;place-self:start;align-items:center;gap:8px;width:100%;height:446px;padding:32px 0 33px;display:flex;position:relative;overflow:visible
+@base | .framer-lPqUD .framer-17wzrez
+    height:min-content;overflow:clip;pointer-events:none;z-index:2;flex-flow:row;flex:none;place-content:center;align-items:center;gap:12px;width:min-content;padding:0;display:flex;position:relative
+@base | .framer-lPqUD .framer-ysaefe
+    flex-flow:column;flex:none;place-content:center;align-items:center;gap:0;width:min-content;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-lPqUD .framer-cs19vx
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;aspect-ratio:1;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);border-radius:12px;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:50px;height:auto;padding:12px;display:flex;position:relative;overflow:visible
+@base | .framer-lPqUD .framer-x8gmyp, .framer-lPqUD .framer-7pxuyp, .framer-lPqUD .framer-1t8lm9x, .framer-lPqUD .framer-bcawv1
+    --1m973uw:var(--token-2f1d35ad-f881-4439-84f5-765e4d808479,#737373);--js9iwy:2;flex:none;width:16px;height:auto;position:relative
+@base | .framer-lPqUD .framer-12stjwk, .framer-lPqUD .framer-1kb7bzw, .framer-lPqUD .framer-exxl0
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;aspect-ratio:1;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);height:auto;overflow:clip;z-index:1;border-radius:8px;flex:none;width:8px;position:absolute;bottom:-4px;left:48%;transform:translate(-50%)
+@base | .framer-lPqUD .framer-1aytrmc, .framer-lPqUD .framer-zc7o68, .framer-lPqUD .framer-glelzn, .framer-lPqUD .framer-okn8zj
+    width:1px;height:32px;position:relative
+@base | .framer-lPqUD .framer-1y04dcf, .framer-lPqUD .framer-vnienm, .framer-lPqUD .framer-4s21tv
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;aspect-ratio:1;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);border-radius:12px;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:50px;height:auto;padding:12px;display:flex;position:relative;overflow:visible
+@base | .framer-lPqUD .framer-1vityid, .framer-lPqUD .framer-1s2eo9j, .framer-lPqUD .framer-1f49ld7
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;aspect-ratio:1;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);height:auto;overflow:clip;z-index:1;border-radius:8px;flex:none;width:8px;position:absolute;top:-4px;left:48%;transform:translate(-50%)
+@base | .framer-lPqUD .framer-p9glvx
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background-color:var(--token-93b991d8-cb67-4763-830d-23defa20a3ea,#171717);border-radius:12px;flex-flow:row;flex:none;place-content:center;align-items:center;gap:8px;width:min-content;height:min-content;padding:8px 12px 8px 8px;display:flex;position:relative;overflow:visible
+@base | .framer-lPqUD .framer-suitdo
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;aspect-ratio:1;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);height:auto;overflow:clip;z-index:1;border-radius:8px;flex:none;width:8px;position:absolute;bottom:-4px;left:50%;transform:translate(-50%)
+@base | .framer-lPqUD .framer-b9wpyg
+    aspect-ratio:1;background-color:var(--token-efb6b80c-ff66-4fd5-b06e-7af1e4433402,#262626);height:auto;overflow:clip;border-radius:6px;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:28px;padding:0;display:flex;position:relative
+@base | .framer-lPqUD .framer-1scev95
+    --1m973uw:var(--token-cefbcc11-70c9-467a-ad0a-ef0379160d6f,#737373);--js9iwy:2;flex:none;width:16px;height:auto;position:relative
+@base | .framer-lPqUD .framer-160qg1z, .framer-lPqUD .framer-1ye19t9, .framer-lPqUD .framer-3r3hm, .framer-lPqUD .framer-1kgataz, .framer-lPqUD .framer-ydz9su
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-lPqUD .framer-gefpl7
+    --border-bottom-width:1px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#262626);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background-color:var(--token-ac705832-092f-475e-a252-93784ea8573d,#141210);height:min-content;overflow:clip;border-radius:12px;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:211px;padding:16px;display:flex;position:relative
+@base | .framer-lPqUD .framer-1qigg2q
+    flex-flow:row;flex:none;place-content:center space-between;align-items:center;width:100%;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-lPqUD .framer-ru0d
+    flex:none;width:16px;height:auto;position:relative
+@base | .framer-lPqUD .framer-1758hmj
+    flex-flow:row;flex:none;place-content:center;align-items:center;gap:8px;width:min-content;height:min-content;padding:0;display:flex;position:relative;overflow:visible
+@base | .framer-lPqUD .framer-1ne6vqi
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:8px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-lPqUD .framer-1pkrzq6, .framer-lPqUD .framer-1kfwlm6, .framer-lPqUD .framer-13lrefg
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0;display:flex;position:relative
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lPqUD .framer-18ddmlc
+    padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lPqUD .framer-t0ve3r
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lPqUD .framer-1qq662d, .framer-lPqUD .framer-rue5ov
+    padding:32px
+@media (min-width:810px) and (max-width:1199.98px) | .framer-lPqUD .framer-1xsxjoa
+    gap:0 64px;padding:32px
+@media (max-width:809.98px) | .framer-lPqUD .framer-18ddmlc
+    padding:0
+@media (max-width:809.98px) | .framer-lPqUD .framer-t0ve3r
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (max-width:809.98px) | .framer-lPqUD .framer-ksp37d
+    grid-template-columns:repeat(1,minmax(50px,1fr))
+@media (max-width:809.98px) | .framer-lPqUD .framer-1qq662d, .framer-lPqUD .framer-rue5ov
+    --border-right-width:0px;padding:20px
+@media (max-width:809.98px) | .framer-lPqUD .framer-hq868h
+    height:464px
+@media (max-width:809.98px) | .framer-lPqUD .framer-1jbutfi
+    height:411px
+@media (max-width:809.98px) | .framer-lPqUD .framer-1xsxjoa
+    grid-template-columns:repeat(1,minmax(50px,1fr));gap:40px 80px;padding:20px
+@media (max-width:809.98px) | .framer-lPqUD .framer-n17h3d
+    order:1
+@base | .framer-mEJFY.framer-p3rkaa, .framer-mEJFY .framer-p3rkaa
+    display:block
+@base | .framer-mEJFY.framer-x4g6b3
+    height:min-content;overflow:clip;flex-flow:column;place-content:center;align-items:center;gap:16px;width:min-content;padding:4px 8px;display:flex;position:relative
+@base | .framer-mEJFY .framer-6ojv5w
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-mEJFY.framer-v-12uk5iq.framer-x4g6b3
+    padding:4px 16px
+@base | .framer-mEJFY.framer-v-2pt6sq.framer-x4g6b3
+    padding:2px 8px
+@base | .framer-mEJFY[data-border=true]:after, .framer-mEJFY [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-bqZNq, .framer-x3TP4, .framer-VAmFs
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);-webkit-user-select:none;user-select:none;width:32px;display:block
+@base | .framer-zvn7L.framer-1huejki, .framer-zvn7L .framer-1huejki
+    display:block
+@base | .framer-zvn7L.framer-hxmstj
+    min-width:300px;height:min-content;overflow:clip;flex-flow:row;place-content:center flex-start;align-items:center;gap:12px;width:300px;padding:12px;display:flex;position:relative
+@base | .framer-zvn7L .framer-gn6i6t-container
+    z-index:1;flex:none;width:auto;height:auto;position:absolute;top:12px;right:12px
+@base | .framer-zvn7L .framer-59psfr
+    aspect-ratio:1;height:auto;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:42px;padding:0;display:flex;position:relative
+@base | .framer-zvn7L .framer-12ll8ul
+    flex:none;width:20px;height:auto;position:relative
+@base | .framer-zvn7L .framer-17pz0se
+    height:min-content;overflow:clip;flex-flow:column;flex:1 0 0;place-content:center;align-items:center;gap:0;width:1px;padding:0;display:flex;position:relative
+@base | .framer-zvn7L .framer-5lpitq
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-zvn7L .framer-1whe76b
+    height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-zvn7L .framer-1ac45mm
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:1 0 0;width:1px;height:auto;position:relative
+@base | .framer-zvn7L .framer-1pctx4h
+    white-space:pre;flex:none;width:auto;height:auto;position:relative
+@base | .framer-KQOh7 .framer-styles-preset-7mu5w4:not(.rich-text-wrapper), .framer-KQOh7 .framer-styles-preset-7mu5w4.rich-text-wrapper p
+    --framer-font-family:"Geist Mono",monospace;--framer-font-size:14px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:20px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-3EFGW .framer-styles-preset-1rmkco3:not(.rich-text-wrapper), .framer-3EFGW .framer-styles-preset-1rmkco3.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:12px;--framer-font-weight:400;--framer-letter-spacing:0em;--framer-line-height:16px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-zvn7L[data-border=true]:after, .framer-zvn7L [data-border=true]:after
+    content:"";border-width:var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0);border-color:var(--border-color,none);border-style:var(--border-style,none);box-sizing:border-box;border-radius:inherit;corner-shape:inherit;pointer-events:none;width:100%;height:100%;position:absolute;top:0;left:0
+@base | .framer-teLFS, .framer-MtOzo, .framer-Xobat, .framer-Ld1N7, .framer-W1uGa
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);width:24px;display:block
+@base | .framer-kEcQz.framer-cpsty2, .framer-kEcQz .framer-cpsty2
+    display:block
+@base | .framer-kEcQz.framer-bd4w60
+    height:min-content;overflow:clip;flex-flow:row;place-content:center;align-items:center;gap:0;width:429px;padding:0;display:flex;position:relative
+@base | .framer-kEcQz .framer-t5arn, .framer-kEcQz .framer-12bx2ig
+    height:1px;overflow:clip;flex:1 0 0;width:1px;position:relative
+@base | .framer-kEcQz .framer-u6zm30
+    z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;right:0;overflow:visible
+@base | .framer-kEcQz .framer-1s7vawm, .framer-kEcQz .framer-1ndw0of
+    mix-blend-mode:screen;z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;right:0;overflow:visible
+@base | .framer-kEcQz .framer-ddlp53
+    z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;left:0;overflow:visible
+@base | .framer-kEcQz .framer-1is7c6b, .framer-kEcQz .framer-1j63n4i
+    mix-blend-mode:screen;z-index:1;flex:none;width:100%;position:absolute;top:0;bottom:0;left:0;overflow:visible
+@base | .framer-kEcQz.framer-v-1kv1gub .framer-u6zm30, .framer-kEcQz.framer-v-1kv1gub .framer-1s7vawm, .framer-kEcQz.framer-v-1kv1gub .framer-1ndw0of, .framer-kEcQz.framer-v-1kv1gub .framer-ddlp53, .framer-kEcQz.framer-v-1kv1gub .framer-1is7c6b, .framer-kEcQz.framer-v-1kv1gub .framer-1j63n4i
+    width:0%
+@base | .framer-Ldy1h, .framer-971zr, .framer-P5vBD, .framer-82xrC
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);width:24px;display:block
+@base | .framer-zS0tf
+    -webkit-mask:var(--framer-icon-mask);aspect-ratio:1;-webkit-mask:var(--framer-icon-mask);mask:var(--framer-icon-mask);-webkit-user-select:none;user-select:none;width:32px;display:block
+@base | .framer-LKFMZ .framer-styles-preset-hlupby:not(.rich-text-wrapper), .framer-LKFMZ .framer-styles-preset-hlupby.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:11px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:15px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
+@base | .framer-jhxgU .framer-styles-preset-1unq4w:not(.rich-text-wrapper), .framer-jhxgU .framer-styles-preset-1unq4w.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:12px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:16px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none

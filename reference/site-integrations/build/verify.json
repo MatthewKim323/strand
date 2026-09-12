@@ -1,0 +1,183 @@
+{
+ "url": "http://localhost:3799/integrations",
+ "ref": "reference/site-integrations",
+ "at": "2026-09-12T12:52:34.549Z",
+ "viewports": {
+  "desktop": {
+   "width": 1440,
+   "docHeight": {
+    "ref": 3554,
+    "build": 3554,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 396,
+     "build": 396,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Integrations",
+     "y": 540,
+     "ref": 1396,
+     "build": 1396,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 1936,
+     "ref": 1618,
+     "build": 1618,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [
+    "Can't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronousl"
+   ],
+   "diff": null,
+   "pass": false
+  },
+  "tablet": {
+   "width": 1024,
+   "docHeight": {
+    "ref": 3932,
+    "build": 3932,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 264,
+     "build": 264,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Integrations",
+     "y": 408,
+     "ref": 1900,
+     "build": 1900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 2308,
+     "ref": 1624,
+     "build": 1624,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "tablet-810": {
+   "width": 810,
+   "docHeight": {
+    "ref": 3901,
+    "build": 3901,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": 900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 288,
+     "build": 288,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Integrations",
+     "y": 432,
+     "ref": 1900,
+     "build": 1900,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 2332,
+     "ref": 1569,
+     "build": 1569,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  },
+  "mobile": {
+   "width": 390,
+   "docHeight": {
+    "ref": 5471,
+    "build": 5471,
+    "ok": true
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -776,
+     "ref": 844,
+     "build": 844,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 392,
+     "build": 392,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Integrations",
+     "y": 536,
+     "ref": 3220,
+     "build": 3220,
+     "delta": 0,
+     "ok": true
+    },
+    {
+     "name": "Footer Container",
+     "y": 3756,
+     "ref": 1715,
+     "build": 1715,
+     "delta": 0,
+     "ok": true
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": true
+  }
+ },
+ "pass": false,
+ "blackout": true
+}

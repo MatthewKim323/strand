@@ -1,0 +1,44 @@
+{
+ "script_main.8MTO-Tt7.mjs": {
+  "di": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "Ci": "{delay:0,duration:.2,ease:[.12,.23,.5,1],type:`tween`}",
+  "Fi": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "na": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "qa": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "co": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "wo": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "Bo": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "ec": "{delay:0,duration:.1,ease:[.12,.23,.5,1],type:`tween`}",
+  "fc": "{delay:0,duration:.1,ease:[.12,.23,.5,1],type:`tween`}",
+  "wc": "{delay:0,duration:.1,ease:[.12,.23,.5,1],type:`tween`}",
+  "Ic": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "Zc": "{delay:0,duration:.2,ease:[.12,.23,.5,1],type:`tween`}",
+  "_l": "{delay:0,duration:.2,ease:[.12,.23,.5,1],type:`tween`}",
+  "yl": "{bounce:.2,delay:0,duration:.4,type:`spring`}",
+  "lu": "{delay:0,duration:.1,ease:[.12,.23,.5,1],type:`tween`}"
+ },
+ "AIhFa6MITgQ0daF6pUCW4-NQwdBjXslMVPQHL-JAQ5w.BH0rHL3e.mjs": {
+  "lt": "{duration:0,type:`tween`}",
+  "k": "{delay:0,duration:.3,ease:[.44,0,.56,1],type:`tween`}",
+  "ft": "{delay:0,duration:1,ease:[0,0,1,1],type:`tween`}"
+ },
+ "cZrCCoVsg.6VaJQZpD.mjs": {
+  "N": "{bounce:.2,delay:0,duration:.4,type:`spring`}"
+ },
+ "VDI2v9hjz.CSIN71cc.mjs": {
+  "B": "{bounce:.2,delay:0,duration:.4,type:`spring`}"
+ },
+ "fWyRwFk4d.OE3urp4C.mjs": {
+  "R": "{bounce:.2,delay:0,duration:.4,type:`spring`}"
+ },
+ "FQ7fHGkTD.D5uGLdFt.mjs": {
+  "V": "{delay:0,duration:.2,ease:[.44,0,.56,1],type:`tween`}",
+  "H": "{delay:0,duration:1,ease:[0,0,1,1],type:`tween`}"
+ },
+ "NVaBv27b6.BsW0ow86.mjs": {
+  "N": "{delay:0,duration:.1,ease:[.12,.23,.5,1],type:`tween`}"
+ },
+ "QVswTtgez.BjylOXfs.mjs": {
+  "F": "{bounce:.2,delay:0,duration:.4,type:`spring`}"
+ }
+}

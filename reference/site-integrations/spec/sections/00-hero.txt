@@ -1,0 +1,52 @@
+##### TREE #####
+        div [Hero] .framer-z3nta1
+          div [Container] .framer-1te33ww data-border
+            div [Content] .framer-e47z64
+              div [Title Container] .framer-wxfz7o
+                div .framer-1nlihv1 {transform:none}
+                  h1 .framer-text.framer-styles-preset-19ingv {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "One connection point."
+                    span .framer-text {--framer-text-color:var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))} "240+ integrations."
+                      br .framer-text
+                div .framer-5daox8 {transform:none}
+                  p .framer-text.framer-styles-preset-1tsnca {--framer-text-color:var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))} "Pulse learns what normal looks like for your business and only fires when something genuinely deviates. No more alert fatigue."
+              div
+                div .framer-9m5ess-container
+                  label [Variant 1] .framer-LyRYk.framer-jhxgU.framer-1r3d4f {width: 100%; opacity: 1}
+                    div .framer-form-text-input.framer-form-input-wrapper.framer-kswg5o.framer-form-text-input-type {opacity: 1}
+                      input .framer-form-input.framer-form-input-empty
+
+##### CSS #####
+@base | .framer-drY0k .framer-z3nta1
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:center;align-items:center;gap:16px;width:100%;padding:0 64px;display:flex;position:relative
+@base | .framer-drY0k .framer-1te33ww
+    --border-bottom-width:0px;--border-color:var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d,#222);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:0px;max-width:1400px;height:min-content;overflow:clip;flex-flow:row;flex:none;place-content:center flex-start;align-items:center;gap:0;width:100%;padding:0;display:flex;position:relative
+@base | .framer-drY0k .framer-e47z64
+    height:min-content;overflow:clip;flex-flow:column;flex:.7 0 0;place-content:flex-start center;align-items:flex-start;gap:40px;width:1px;padding:60px 40px;display:flex;position:relative
+@base | .framer-drY0k .framer-wxfz7o
+    height:min-content;overflow:clip;flex-flow:column;flex:none;place-content:flex-start center;align-items:flex-start;gap:20px;width:100%;padding:0;display:flex;position:relative
+@base | .framer-drY0k .framer-1nlihv1, .framer-drY0k .framer-5daox8
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@media (min-width:810px) and (max-width:1199.98px) | .framer-drY0k .framer-z3nta1
+    padding:0
+@media (min-width:810px) and (max-width:1199.98px) | .framer-drY0k .framer-1te33ww
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset
+@media (min-width:810px) and (max-width:1199.98px) | .framer-drY0k .framer-e47z64
+    flex:1 0 0;padding:40px 40px 20px
+@media (max-width:809.98px) | .framer-drY0k .framer-z3nta1
+    padding:0
+@media (max-width:809.98px) | .framer-drY0k .framer-1te33ww
+    --border-bottom-width:unset;--border-left-width:unset;--border-right-width:unset;--border-top-width:unset;flex-direction:column
+@media (max-width:809.98px) | .framer-drY0k .framer-e47z64
+    flex:none;width:100%;padding:40px 20px 20px
+@media (max-width:809.98px) | .framer-drY0k .framer-wxfz7o
+    order:0
+@base | .framer-LyRYk.framer-10b7k5b, .framer-LyRYk .framer-10b7k5b
+    display:block
+@base | .framer-LyRYk.framer-1r3d4f
+    cursor:pointer;flex-flow:column;place-content:flex-start;align-items:flex-start;gap:8px;width:320px;height:min-content;padding:0;display:flex;position:relative
+@base | .framer-LyRYk .framer-nle3b8
+    white-space:pre-wrap;word-break:break-word;word-wrap:break-word;flex:none;width:100%;height:auto;position:relative
+@base | .framer-LyRYk .framer-kswg5o
+    --framer-input-focused-border-color:var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb,#44403c);--framer-input-focused-border-style:solid;--framer-input-focused-border-width:1px;--framer-input-font-family:"Geist";--framer-input-font-letter-spacing:0em;--framer-input-font-line-height:20px;--framer-input-font-size:14px;--framer-input-font-weight:500;--framer-input-padding:12px;flex:none;width:100%;height:40px;position:relative
+@base | .framer-jhxgU .framer-styles-preset-1unq4w:not(.rich-text-wrapper), .framer-jhxgU .framer-styles-preset-1unq4w.rich-text-wrapper p
+    --framer-font-family:"Geist","Geist Placeholder",sans-serif;--framer-font-size:12px;--framer-font-weight:500;--framer-letter-spacing:0em;--framer-line-height:16px;--framer-text-alignment:start;--framer-text-color:#666;--framer-text-transform:none
