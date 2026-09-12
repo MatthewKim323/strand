@@ -1,0 +1,22 @@
+[
+ {
+  "name": "00-title",
+  "differ": 0.00014322916666666667
+ },
+ {
+  "name": "01-featured-articles",
+  "differ": 0.01498345588235294
+ },
+ {
+  "name": "02-latest",
+  "differ": 0.00009746588693957115
+ },
+ {
+  "name": "03-latest-articles",
+  "differ": 0.0004603407118055556
+ },
+ {
+  "name": "04-footer-container",
+  "differ": 0.0010604852993269572
+ }
+]

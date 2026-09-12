@@ -1,7 +1,7 @@
 {
  "url": "http://localhost:3799/integrations",
  "ref": "reference/site-integrations",
- "at": "2026-09-12T12:52:34.549Z",
+ "at": "2026-09-12T12:55:59.958Z",
  "viewports": {
   "desktop": {
    "width": 1440,
@@ -36,11 +36,9 @@
      "ok": true
     }
    ],
-   "consoleErrors": [
-    "Can't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronousl"
-   ],
+   "consoleErrors": [],
    "diff": null,
-   "pass": false
+   "pass": true
   },
   "tablet": {
    "width": 1024,
@@ -178,6 +176,6 @@
    "pass": true
   }
  },
- "pass": false,
+ "pass": true,
  "blackout": true
 }
