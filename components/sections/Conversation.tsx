@@ -10,7 +10,7 @@ import {
   type Transition,
 } from "motion/react";
 import dynamic from "next/dynamic";
-import { useEffect, useRef, useState, type RefObject } from "react";
+import { forwardRef, useEffect, useRef, useState, type RefObject } from "react";
 import { Icon } from "@/components/ui/Sprite";
 import { PANEL_WAVE_FIELD, PANEL_WAVE_PHASES } from "@/components/webgl/WaveGridField";
 
@@ -265,7 +265,10 @@ function ActionChip({ id, label }: { id: string; label: string }) {
  * carries its own infinite colour sweep while the line it belongs to is still
  * being read; the last line settles to flat grey instead.
  */
-function ReadoutLetter({ char, index, sweep }: { char: string; index: number; sweep: boolean }) {
+const ReadoutLetter = forwardRef<
+  HTMLSpanElement,
+  { char: string; index: number; sweep: boolean }
+>(function ReadoutLetter({ char, index, sweep }, ref) {
   const v = useMotionValue(0);
   const color = useTransform(v, SWEEP_STOPS, SWEEP_COLORS);
 
@@ -285,6 +288,7 @@ function ReadoutLetter({ char, index, sweep }: { char: string; index: number; sw
 
   return (
     <motion.span
+      ref={ref}
       initial={{ rotateX: -90, opacity: 0 }}
       animate={{ rotateX: 0, opacity: 1 }}
       exit={{ rotateX: 90, opacity: 0 }}
@@ -299,7 +303,7 @@ function ReadoutLetter({ char, index, sweep }: { char: string; index: number; sw
       {char}
     </motion.span>
   );
-}
+});
 
 /**
  * The status readout. It walks the three lines at a two second interval and
@@ -327,10 +331,15 @@ function Readout({ play }: { play: boolean }) {
 
   return (
     <p className="t-mono cv-readout-text">
-      <AnimatePresence mode="popLayout" initial={false}>
+      {/* The key carries the line index, so every letter of the outgoing line
+          is a different element from every letter of the incoming one and all
+          of them flip. Leaving the index out let a letter whose neighbours
+          happened to repeat survive the swap: it sat still while the rest
+          turned, which read as two lines on screen at once. */}
+      <AnimatePresence mode="popLayout" initial>
         {letters.map((ch, i) => (
           <ReadoutLetter
-            key={`${i}:${letters[i - 1] ?? ""}${ch}${letters[i + 1] ?? ""}`}
+            key={`${i}-${index}-${letters[i - 1] ?? "z"}-${ch}-${letters[i + 1] ?? "z"}`}
             char={ch}
             index={i}
             sweep={sweep}
@@ -857,7 +866,9 @@ const CSS = `
   position: relative;
   bottom: unset;
   left: unset;
-  transform: none;
+  /* cancels the centring above, which lives on the translate property so the
+     layout animation is free to own transform */
+  translate: none;
 }
 .cv-mock[data-phase="results"] .cv-chip-thinking,
 .cv-mock[data-phase="loopReset"] .cv-chip-results {
@@ -1012,6 +1023,7 @@ const CSS = `
    colour loop, so the line needs nothing but its metrics and a rest colour. */
 .cv-readout-text {
   position: relative;
+  width: fit-content;
   margin: 0;
   line-height: 20px;
   color: rgb(115, 115, 115);
