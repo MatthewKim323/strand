@@ -1,7 +1,7 @@
 {
  "url": "http://localhost:3799/terms-of-service",
  "ref": "reference/site-terms-of-service",
- "at": "2026-09-12T13:38:27.694Z",
+ "at": "2026-09-12T14:22:16.716Z",
  "viewports": {
   "desktop": {
    "width": 1440,
@@ -144,6 +144,6 @@
    "pass": true
   }
  },
- "pass": false,
- "blackout": false
+ "pass": true,
+ "blackout": true
 }
