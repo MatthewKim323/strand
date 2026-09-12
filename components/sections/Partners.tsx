@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { ChromaticRule } from "@/components/sections/testimonials/ChromaticRule";
 
 /* Wordmark glyphs. Each is an alpha mask over a solid fill, exactly as the
    reference draws them: one <div> per mark, sized 137px wide with a fixed
@@ -45,14 +46,6 @@ function cloneGroups(visible: number): number {
   return Math.max(n - 1, 0);
 }
 
-const HALF: React.CSSProperties = {
-  height: 1,
-  overflow: "clip",
-  flex: "1 0 0",
-  width: 1,
-  position: "relative",
-  opacity: 1,
-};
 
 const BAR_R: React.CSSProperties = {
   zIndex: 1,
@@ -65,7 +58,6 @@ const BAR_R: React.CSSProperties = {
   overflow: "visible",
 };
 
-const BAR_L: React.CSSProperties = { ...BAR_R, right: "auto", left: 0 };
 
 const PT_CSS = `
 @media (max-width: 1199.98px) {
@@ -388,57 +380,7 @@ export function Partners() {
                 position: "relative",
               }}
             >
-              <div
-                className="pt-end"
-                style={{
-                  height: "min-content",
-                  overflow: "clip",
-                  display: "flex",
-                  flexFlow: "row",
-                  placeContent: "center",
-                  alignItems: "center",
-                  gap: 0,
-                  width: "100%",
-                  padding: 0,
-                  position: "relative",
-                  opacity: 1,
-                }}
-              >
-                <div className="pt-end-half" style={HALF}>
-                  <div style={{ ...BAR_R, backgroundColor: "rgb(0, 0, 36)" }} />
-                  <div
-                    style={{
-                      ...BAR_R,
-                      mixBlendMode: "screen",
-                      backgroundColor: "rgb(0, 37, 0)",
-                    }}
-                  />
-                  <div
-                    style={{
-                      ...BAR_R,
-                      mixBlendMode: "screen",
-                      backgroundColor: "rgb(41, 0, 0)",
-                    }}
-                  />
-                </div>
-                <div className="pt-end-half" style={HALF}>
-                  <div style={{ ...BAR_L, backgroundColor: "rgb(0, 0, 36)" }} />
-                  <div
-                    style={{
-                      ...BAR_L,
-                      mixBlendMode: "screen",
-                      backgroundColor: "rgb(0, 37, 0)",
-                    }}
-                  />
-                  <div
-                    style={{
-                      ...BAR_L,
-                      mixBlendMode: "screen",
-                      backgroundColor: "rgb(41, 0, 0)",
-                    }}
-                  />
-                </div>
-              </div>
+              <ChromaticRule className="pt-end" />
             </div>
           </div>
         </div>
