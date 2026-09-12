@@ -79,7 +79,12 @@ export const ARTICLE_CSS = `
   gap: 8px; width: min-content; height: min-content; padding: 0; overflow: clip;
 }
 .ar-crumb { position: relative; flex: none; width: auto; height: auto; white-space: pre; }
-.ar-crumb a { color: ${BRIGHT}; text-decoration: none; }
+/* The crumb link's own transition, read off its preset: colour over 150ms on
+   the page easing, and an underline on hover. */
+.ar-crumb a {
+  color: ${BRIGHT}; text-decoration: none;
+  transition: color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1);
+}
 .ar-crumb a:hover { text-decoration: underline; }
 
 /* the six-dot arrow between the crumbs, at rest */
