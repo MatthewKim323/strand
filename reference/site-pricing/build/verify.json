@@ -1,7 +1,7 @@
 {
  "url": "http://localhost:3799/pricing",
  "ref": "reference/site-pricing",
- "at": "2026-09-12T11:40:19.772Z",
+ "at": "2026-09-12T13:40:49.243Z",
  "viewports": {
   "desktop": {
    "width": 1440,
@@ -144,6 +144,6 @@
    "pass": true
   }
  },
- "pass": true,
- "blackout": true
+ "pass": false,
+ "blackout": false
 }

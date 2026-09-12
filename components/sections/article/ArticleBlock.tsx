@@ -136,9 +136,9 @@ function RichBlock({ block }: { block: Block }) {
  * the date and category, the headline, the byline, the hero graphic and the
  * body.
  *
- * Only one article was captured in full, so only that one has a body here. The
- * rest render the header, which is real data off the collection, and stop; no
- * copy is invented to fill the gap.
+ * Every article in the collection was captured, so every one has a real body.
+ * If a slug ever arrives without one the block renders the header and stops
+ * rather than inventing copy to fill the gap.
  */
 export function ArticleBlock({ article }: { article: Article }) {
   const body = BODIES[article.slug];
@@ -191,7 +191,10 @@ export function ArticleBlock({ article }: { article: Article }) {
               <div className="ar-row">
                 <div className="ar-avatar">
                   <span>
-                    <img src={article.avatar} alt={`Portrait of ${article.author}.`} />
+                    <img
+                      src={article.avatar}
+                      alt={body?.avatarAlt ?? `Portrait of ${article.author}.`}
+                    />
                   </span>
                 </div>
                 <div className="ar-cell">
@@ -205,15 +208,15 @@ export function ArticleBlock({ article }: { article: Article }) {
                 <div className="ar-graphic-frame">
                   <span className="ar-edge ar-edge-all" aria-hidden="true" />
                   <span>
-                    <img src={graphic} alt={article.title} />
+                    <img src={graphic} alt={body?.graphicAlt ?? article.title} />
                   </span>
                 </div>
               </div>
             ) : null}
 
             <div className="ar-body">
-              {/* No capture exists for eight of the nine articles, so their
-                  bodies are deliberately empty rather than fabricated. */}
+              {/* A slug with no captured body renders an empty container here
+                  rather than fabricated copy. */}
               <div className="ar-rt">
                 {body?.blocks.map((block, i) => <RichBlock key={i} block={block} />)}
               </div>

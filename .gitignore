@@ -49,3 +49,4 @@ reference/*/.origin.json
 # capture artifacts (large); keep the specs
 /reference/*/capture/frames/
 /reference/*/screenshots/
+/.next-prod/

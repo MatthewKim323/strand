@@ -184,6 +184,11 @@ export const ARTICLE_CSS = `
   font-size: 16px; line-height: 24px; letter-spacing: 0;
   text-align: start; color: ${MUTED};
 }
+/* TODO(spec): no captured article uses h2, h4, a list, a blockquote, inline
+   code or an inline link, so the nine rules below have no preset to copy. They
+   carry the closest documented preset (h2 the 32/34 heading, h4 the 18/24 one)
+   and Framer's default 20px paragraph spacing, and should be replaced the day a
+   capture shows the real values. Nothing rendered today reaches them. */
 .ar-rt h2 {
   --ar-ps: 40px;
   font-family: var(--font-body); font-weight: 600;
@@ -205,7 +210,6 @@ export const ARTICLE_CSS = `
 .ar-rt ul, .ar-rt ol { --ar-ps: 20px; padding-inline-start: 24px; }
 .ar-rt ul { list-style: disc outside; }
 .ar-rt ol { list-style: decimal outside; }
-.ar-rt li { --ar-ps: 0px; }
 .ar-rt blockquote {
   --ar-ps: 20px;
   font-family: var(--font-body); font-weight: 400;

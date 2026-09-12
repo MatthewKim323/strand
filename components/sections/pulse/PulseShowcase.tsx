@@ -24,6 +24,7 @@ import {
   type ChartBaselinePoint,
   type ChartPoint,
 } from "./parts";
+import { RoutingRule } from "./RoutingRule";
 
 const useIsoLayoutEffect = typeof window === "undefined" ? useEffect : useLayoutEffect;
 
@@ -208,10 +209,9 @@ function AlertList() {
 }
 
 /**
- * The showcase panel for the open section. The third panel is a routing rule
- * builder assembled from three further source components (Rule, Drop down,
- * Logic Operator) and is not visible in any captured rest state, so its
- * container is left correctly sized and empty rather than approximated.
+ * The showcase panel for the open section. The third panel is the routing rule
+ * builder, rebuilt in RoutingRule.tsx from the three source components it is
+ * assembled out of (Rule, Drop down, Logic Operator).
  */
 function Showcase({ index }: { index: number }) {
   return (
@@ -220,7 +220,7 @@ function Showcase({ index }: { index: number }) {
         <div className="pu-sc-fit">
           {index === 0 ? <BaselineGraph /> : null}
           {index === 1 ? <AlertList /> : null}
-          {/* TODO(spec): panel 3, the Routing Rule builder. */}
+          {index === 2 ? <RoutingRule /> : null}
         </div>
       </div>
     </div>
