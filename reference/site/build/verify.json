@@ -1,0 +1,405 @@
+{
+ "url": "http://localhost:3799/",
+ "ref": "reference/site",
+ "at": "2026-09-12T10:32:14.985Z",
+ "viewports": {
+  "desktop": {
+   "width": 1440,
+   "docHeight": {
+    "ref": 8470,
+    "build": 926,
+    "ok": false
+   },
+   "sections": [
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 642,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Steps",
+     "y": 710,
+     "ref": 148,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Partners",
+     "y": 858,
+     "ref": 220,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Conversation",
+     "y": 1078,
+     "ref": 749,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Features",
+     "y": 1827,
+     "ref": 2700,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Integrations",
+     "y": 4527,
+     "ref": 723,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Testimonials",
+     "y": 5250,
+     "ref": 601,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Statistics",
+     "y": 5851,
+     "ref": 489,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "FAQ",
+     "y": 6340,
+     "ref": 512,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Footer Container",
+     "y": 6852,
+     "ref": 1618,
+     "build": null,
+     "delta": null,
+     "ok": null
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": false
+  },
+  "tablet": {
+   "width": 1024,
+   "docHeight": {
+    "ref": 8279,
+    "build": 926,
+    "ok": false
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 642,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Steps",
+     "y": 710,
+     "ref": 148,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Partners",
+     "y": 858,
+     "ref": 220,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Conversation",
+     "y": 1078,
+     "ref": 667,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Features",
+     "y": 1745,
+     "ref": 2700,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Integrations",
+     "y": 4445,
+     "ref": 554,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Testimonials",
+     "y": 4999,
+     "ref": 501,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Statistics",
+     "y": 5500,
+     "ref": 565,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "FAQ",
+     "y": 6065,
+     "ref": 590,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Footer Container",
+     "y": 6655,
+     "ref": 1624,
+     "build": null,
+     "delta": null,
+     "ok": null
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": false
+  },
+  "tablet-810": {
+   "width": 810,
+   "docHeight": {
+    "ref": 8254,
+    "build": 926,
+    "ok": false
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -832,
+     "ref": 900,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 642,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Steps",
+     "y": 710,
+     "ref": 148,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Partners",
+     "y": 858,
+     "ref": 220,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Conversation",
+     "y": 1078,
+     "ref": 697,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Features",
+     "y": 1775,
+     "ref": 2700,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Integrations",
+     "y": 4475,
+     "ref": 554,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Testimonials",
+     "y": 5029,
+     "ref": 501,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Statistics",
+     "y": 5530,
+     "ref": 565,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "FAQ",
+     "y": 6095,
+     "ref": 590,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Footer Container",
+     "y": 6685,
+     "ref": 1569,
+     "build": null,
+     "delta": null,
+     "ok": null
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": false
+  },
+  "mobile": {
+   "width": 390,
+   "docHeight": {
+    "ref": 7390,
+    "build": 1296,
+    "ok": false
+   },
+   "sections": [
+    {
+     "name": "Tablet / Mobile Menu",
+     "y": -776,
+     "ref": 844,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Hero",
+     "y": 68,
+     "ref": 888,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Steps",
+     "y": 956,
+     "ref": 272,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Partners",
+     "y": 1228,
+     "ref": 180,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Conversation",
+     "y": 1408,
+     "ref": 727,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Features",
+     "y": 2135,
+     "ref": 918,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Integrations",
+     "y": 3053,
+     "ref": 678,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Testimonials",
+     "y": 3731,
+     "ref": 709,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Statistics",
+     "y": 4440,
+     "ref": 663,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "FAQ",
+     "y": 5103,
+     "ref": 572,
+     "build": null,
+     "delta": null,
+     "ok": null
+    },
+    {
+     "name": "Footer Container",
+     "y": 5675,
+     "ref": 1715,
+     "build": null,
+     "delta": null,
+     "ok": null
+    }
+   ],
+   "consoleErrors": [],
+   "diff": null,
+   "pass": false
+  }
+ },
+ "pass": false,
+ "blackout": true
+}

@@ -161,7 +161,6 @@ export function Hero() {
                   <p
                     className="t-body"
                     style={{
-                      textAlign: "start",
                       color: "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))",
                     }}
                   >
@@ -300,6 +299,7 @@ const CSS = `
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  /* TODO(spec): the hover offset (left: 0 -> 4px) is from the spec; its transition is not. */
   transition: left 0.2s cubic-bezier(0.12, 0.23, 0.5, 1);
 }
 .hero-announce-link:hover .hero-dots-holder { left: 4px; }
@@ -400,6 +400,7 @@ const CSS = `
   width: 100%;
   height: auto;
   position: relative;
+  text-align: start;
 }
 .hero-ctas {
   display: flex;
@@ -459,6 +460,7 @@ const CSS = `
   }
   .hero-title-line { display: block; border-bottom-width: 1px; }
   .hero-title-inner { gap: 12px; }
+  .hero-text-block { text-align: center; }
   .hero-ctas { justify-content: center; }
   .hero-graphic {
     align-self: unset;
