@@ -3,13 +3,14 @@
 import { motion } from "motion/react";
 import type { CSSProperties } from "react";
 import { Icon } from "@/components/ui/Sprite";
-import { SPRING } from "@/lib/motion";
+import { TWEEN_XFAST } from "@/lib/motion";
 import type { LinkItem, ProductItem, RowItem } from "./data";
 
 /**
- * The three row shapes the menus are built from. All three are the same link:
- * transparent at rest, `--c-line-2` on hover, `--c-bg-4` while pressed, 8px
- * radius, gesture transition = the house spring.
+ * The three row shapes the menus are built from. All three animate
+ * `backgroundColor` and nothing else: transparent at rest, rgb(41,37,36) on
+ * hover, rgb(28,25,23) while pressed, 8px radius, and a 0.1s tween on the house
+ * curve. No icon tint change, no text colour change, no offset, no scale.
  */
 
 const REST = "rgba(0, 0, 0, 0)";
@@ -49,7 +50,7 @@ export function ProductCard({ item, horizontal = false, onNavigate }: { item: Pr
       onClick={onNavigate}
       whileHover={HOVER}
       whileTap={PRESS}
-      transition={SPRING}
+      transition={TWEEN_XFAST}
       style={{
         ...linkBase,
         display: "flex",
@@ -102,7 +103,7 @@ export function MenuRow({ item, onNavigate }: { item: RowItem; onNavigate?: () =
       onClick={onNavigate}
       whileHover={{ backgroundColor: "var(--token-efb6b80c-ff66-4fd5-b06e-7af1e4433402, rgb(41, 37, 36))" }}
       whileTap={PRESS}
-      transition={SPRING}
+      transition={TWEEN_XFAST}
       style={{
         ...linkBase,
         display: "flex",
@@ -165,7 +166,7 @@ export function PlainLink({ item, onNavigate }: { item: LinkItem; onNavigate?: (
       onClick={onNavigate}
       whileHover={{ backgroundColor: "var(--token-bb9172d5-978a-4462-9d85-50327c10d262, rgb(41, 37, 36))" }}
       whileTap={PRESS}
-      transition={SPRING}
+      transition={TWEEN_XFAST}
       style={{
         ...linkBase,
         display: "flex",

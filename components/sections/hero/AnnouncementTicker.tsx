@@ -12,10 +12,14 @@ import { useEffect, useLayoutEffect, useRef, useState } from "react";
  * no mask at all (which is the desktop rest state).
  */
 
-/** px/s. The reference reads this off a component prop that the capture did not record. */
-// TODO(spec): ticker speed is not in the spec dump; 50px/s matches the page's other ticker velocity.
-const SPEED = 50;
-/** the gap after each copy, from `padding: 0px 40px 0px 0px` in the tree */
+/**
+ * px/s. This instance's `speed` prop is 30, and the runtime turns it into
+ * `duration = track.scrollWidth / speed`, so the track travels 30 px/s. That is
+ * this component's own number: the logo row elsewhere on the page is a
+ * different component running at 50 px/s.
+ */
+const SPEED = 30;
+/** the gap after each copy, from the instance's `gap: 40` prop */
 const GAP = 40;
 const MASK = "linear-gradient(90deg, #0000, #000 7%, #000 93%, #0000)";
 

@@ -212,6 +212,9 @@ function Arrow({
 }) {
   const iconId = dir === "prev" ? "3938257237" : "2903821725";
   const label = dir === "prev" ? "Previous testimonial" : "Next testimonial";
+  /* Captured once so the server paint is right without React rewriting the
+     inline value later, which would cut the spring short. */
+  const [mountTint] = useState(disabled ? BTN_OFF_ICON : BTN_LIGHT_ICON);
 
   return (
     <div className="tm-nav-slot">
@@ -222,12 +225,19 @@ function Arrow({
         disabled={disabled}
         onClick={onClick}
         initial={false}
-        animate={{ backgroundColor: disabled ? BTN_OFF : BTN_LIGHT }}
+        style={{ ["--tm-ic" as string]: mountTint }}
+        animate={{
+          backgroundColor: disabled ? BTN_OFF : BTN_LIGHT,
+          /* The icon node carries rest-state tints only, so the tint never moves
+             on hover or press; it moves only when the arrow crosses between the
+             Light and Disabled variants, and then on the same spring. */
+          ["--tm-ic" as string]: disabled ? BTN_OFF_ICON : BTN_LIGHT_ICON,
+        }}
         whileHover={disabled ? undefined : { backgroundColor: BTN_LIGHT_HOVER }}
         whileTap={disabled ? undefined : { backgroundColor: BTN_LIGHT_PRESSED }}
         transition={SLIDE}
       >
-        <Icon id={iconId} size={14} color={disabled ? BTN_OFF_ICON : BTN_LIGHT_ICON} strokeWidth={2} />
+        <Icon id={iconId} size={14} color="var(--tm-ic)" strokeWidth={2} />
       </motion.button>
     </div>
   );

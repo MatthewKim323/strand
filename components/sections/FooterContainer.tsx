@@ -67,13 +67,21 @@ const CSS = `
 
 /**
  * The page's closing block: a tall CTA panel with the filament burst behind
- * the headline, then the site footer. The burst is revealed by a scroll
- * switch rather than on mount, and it re-runs every time the panel leaves and
- * re-enters view, which is what the reference does.
+ * the headline, then the site footer.
+ *
+ * The burst is revealed by the page's one two-way variant-on-scroll: a plain
+ * in-view observer on the panel at threshold 0.5, animate-once off, so it flips
+ * back to hidden when the panel leaves and plays again on re-entry. The variant
+ * changes exactly one prop, `introProgress` 0 -> 1.1, and it changes it
+ * instantly: it is a plain React number, not a motion style. All of the easing
+ * lives inside the graphic, which runs the scalar through a 3000ms, bounce 0
+ * spring before it reaches the shader. So this drives it with a bare number and
+ * deliberately puts no transition of its own in the way; wrapping it in the
+ * component's declared 0.4s spring would be wrong by a factor of seven.
  */
 export function FooterContainer() {
   const frame = useRef<HTMLDivElement>(null);
-  const shown = useInView(frame, { amount: 0.5 });
+  const shown = useInView(frame, { amount: 0.5, once: false });
 
   return (
     <section id="footer-container" data-section="FooterContainer" className="fc-root">

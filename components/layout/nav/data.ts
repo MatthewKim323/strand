@@ -45,20 +45,21 @@ export const PRODUCTS: ProductItem[] = [
 ];
 
 /**
- * "Resources" panel, left column. Neither row is wired to a destination in the
- * source: the link slot is left empty, so they render as inert rows here too.
+ * "Resources" panel, left column. Neither row is wired to a destination: the
+ * row component declares a `Link` prop, and neither instance passes it, so both
+ * rows are inert in the source. They stay inert here.
  */
 export const SUPPORT: RowItem[] = [
   {
     label: "Developer docs",
     description: "API references, SDKs, and guides.",
-    // TODO(spec): no href in the source component.
+    // No href: the instance passes title, description and icon only. Inert by design.
     icon: "894405547",
   },
   {
     label: "Help Center",
     description: "Tutorials and answers for your team.",
-    // TODO(spec): no href in the source component.
+    // No href: the instance passes title, description and icon only. Inert by design.
     icon: "168667647",
   },
 ];

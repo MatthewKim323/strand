@@ -8,6 +8,17 @@ const C_NAME = "var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 
 const C_DESC = "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))";
 const C_BORDER = "var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, #222)";
 
+/*
+ * Three on-mount reveals and nothing else. Each step is
+ *   initial {opacity: 0.001, y: 10} -> animate {opacity: 1, y: 0}
+ *   transition {type: 'tween', duration: 0.4, ease: [0.12, 0.23, 0.5, 1]}
+ * with delays cascading 0.5 / 0.6 / 0.7s, which continues the hero's 0 / 0.1 /
+ * 0.2 / 0.3 run so the last step settles at t = 1.1s. Only a desktop entry
+ * exists in the appear payload, so the same numbers apply at every breakpoint.
+ *
+ * The row component itself declares a spring, but the page only ever renders
+ * its Visible variant: no hover, no press, no scroll link, no loop.
+ */
 type Step = { num: string; name: string; desc: string; delay: number };
 
 const STEPS: Step[] = [

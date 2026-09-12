@@ -30,8 +30,8 @@ import {
 
 import { createGuardedRenderer, useWebGLGuard } from "./guard"
 import {
-  PANEL_GRAPHIC_SHAPES,
   FEATURE_STAGE_SHAPES,
+  PANEL_GRAPHIC_SHAPES,
   type PointShape,
 } from "./point-shapes"
 

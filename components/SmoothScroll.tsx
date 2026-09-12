@@ -11,18 +11,25 @@ export default function SmoothScroll() {
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
-    const lenis = new Lenis({ duration: 1.2, smoothWheel: true });
-    let raf = 0;
-    const loop = (t: number) => {
-      lenis.raf(t);
-      raf = requestAnimationFrame(loop);
-    };
-    raf = requestAnimationFrame(loop);
+    // The reference mounts Lenis with { smooth: true, infinite: false,
+    // intensity: 12, orientation: 'vertical' }, which the wrapper expands into
+    // exactly this: duration is intensity / 10, syncTouch is !!infinite, and
+    // Lenis drives its own rAF.
+    const lenis = new Lenis({
+      smoothWheel: true,
+      duration: 1.2,
+      infinite: false,
+      orientation: "vertical",
+      gestureOrientation: "vertical",
+      autoRaf: true,
+      autoToggle: true,
+      anchors: true,
+      allowNestedScroll: true,
+      syncTouch: false,
+      stopInertiaOnNavigate: true,
+    });
 
-    return () => {
-      cancelAnimationFrame(raf);
-      lenis.destroy();
-    };
+    return () => lenis.destroy();
   }, []);
 
   return null;

@@ -1,12 +1,12 @@
 import { SocialLink } from "@/components/sections/footer/SocialLink";
 import { NewsletterForm } from "@/components/sections/footer/NewsletterForm";
+import { StatusPing } from "@/components/sections/footer/StatusPing";
 
 const BRIGHT = "var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 249))";
 const MUTED = "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))";
 const DIM = "var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(115, 115, 115))";
 const HAIRLINE = "var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38))";
 const SHELL = "var(--token-7f40e4a1-2b83-444e-8765-465c7d3596ab, rgb(10, 10, 10))";
-const LIVE = "var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144))";
 
 const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
   {
@@ -126,11 +126,11 @@ const CSS = `
   gap: 6px; width: min-content; height: min-content; padding: 0; overflow: visible;
   text-decoration: none;
 }
+/* The label colour is not a CSS transition here: the source swaps a variant on
+   mouse enter / leave, so it rides the house spring. See SocialLink. */
 .fc-social-label {
   position: relative; flex: none; width: auto; height: auto; white-space: pre; overflow: clip;
-  color: ${MUTED}; transition: color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1);
 }
-.fc-social:hover .fc-social-label { color: var(--c-text); }
 .fc-arrow { position: relative; flex: none; width: 16px; height: 16px; overflow: clip; }
 .fc-arrow-slot { position: absolute; top: 0; left: 0; display: block; width: 16px; height: 16px; }
 
@@ -153,21 +153,6 @@ const CSS = `
   gap: 12px; width: min-content; height: min-content; padding: 0; overflow: visible;
 }
 .fc-dot-wrap { position: relative; z-index: 1; flex: none; width: auto; height: auto; }
-.fc-dot {
-  position: relative; width: 6px; height: 6px; border-radius: 9999px; background-color: ${LIVE};
-}
-.fc-ping {
-  position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; border-radius: 9999px;
-  box-shadow: inset 0 0 0 2px ${LIVE}; opacity: 0; will-change: transform;
-  transform: translateX(-50%) translateY(-50%);
-  animation: fc-ping 1300ms cubic-bezier(0.44, 0, 0.56, 1) infinite;
-}
-@keyframes fc-ping {
-  0%      { opacity: 1; transform: translateX(-50%) translateY(-50%) scale(0.3333); }
-  23.077% { opacity: 0; transform: translateX(-50%) translateY(-50%) scale(1); }
-  100%    { opacity: 0; transform: translateX(-50%) translateY(-50%) scale(1); }
-}
-@media (prefers-reduced-motion: reduce) { .fc-ping { animation: none; } }
 .fc-status-text { position: relative; flex: none; width: auto; height: auto; white-space: pre; overflow: clip; }
 /* A 1px rule. The design file paints a placeholder fill behind a 1px overlay
    border, and at this width the border covers the fill outright, so the rule
@@ -203,9 +188,12 @@ const CSS = `
 .fc-input {
   flex: 1 0 0; width: 1px; padding: 0; margin: 0; border: 0; outline: none; background: none;
   font-family: var(--font-body); font-size: 12px; font-weight: 500; line-height: 16px;
-  letter-spacing: 0em; color: var(--c-muted);
+  letter-spacing: 0em;
+  color: var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161));
 }
-.fc-input::placeholder { color: var(--c-muted); opacity: 1; }
+.fc-input::placeholder {
+  color: var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(82, 82, 82)); opacity: 1;
+}
 .fc-submit { position: relative; flex: none; width: auto; height: auto; }
 
 /* --- wordmark + legal --- */
@@ -317,9 +305,7 @@ export function Footer() {
           <div className="fc-uptime">
             <div className="fc-status">
               <div className="fc-dot-wrap">
-                <div className="fc-dot">
-                  <div className="fc-ping" />
-                </div>
+                <StatusPing />
               </div>
               <div className="fc-status-text">
                 <p className="t-micro" style={{ color: BRIGHT }}>

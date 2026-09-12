@@ -1,7 +1,14 @@
 "use client";
 
-import { motion, type Transition } from "motion/react";
-import { useEffect, useState } from "react";
+import {
+  AnimatePresence,
+  animate,
+  motion,
+  useMotionValue,
+  useTransform,
+  type Transition,
+} from "motion/react";
+import { useEffect, useRef, useState, type RefObject } from "react";
 import { Icon } from "@/components/ui/Sprite";
 
 /* ------------------------------------------------------------------------- *
@@ -34,6 +41,9 @@ const T_TEXT: Transition = { type: "tween", duration: 0.2, ease: EASE, delay: 0.
 const T_CHIP_A: Transition = { type: "tween", duration: 0.4, ease: EASE, delay: 0.3 };
 const T_CHIP_B: Transition = { type: "tween", duration: 0.4, ease: EASE, delay: 0.2 };
 const T_CHIP_C: Transition = { type: "tween", duration: 0.4, ease: EASE, delay: 0 };
+/** The readout's per-letter flip. Its `delay` is the per-letter stagger. */
+const T_LETTER: Transition = { type: "tween", duration: 0.2, ease: EASE };
+const LETTER_STAGGER = 0.02;
 
 const HIDDEN = 0.001;
 
@@ -61,6 +71,24 @@ const RING = `inset 0 0 0 1px ${C_LINE}`;
 
 const MESSAGE = "Which accounts are at risk this quarter?";
 const STATUS_LINES = ["Scanning Salesforce", "Scoring by churn signal weight", "3 accounts flagged"];
+/** Seconds the readout holds each line before advancing. */
+const READOUT_INTERVAL = 2;
+/**
+ * The readout's per-letter colour loop: a value runs 0 -> 100 every second,
+ * linear, forever, and these six stops turn it into a chromatic sweep across
+ * the line. The input stops are `50 - range + k / 5 * range * 2` for a range
+ * of 25.
+ */
+const SWEEP_STOPS = [25, 35, 45, 55, 65, 75];
+const SWEEP_COLORS = [
+  "rgb(115, 115, 115)",
+  "rgb(0, 238, 255)",
+  "rgb(0, 14, 221)",
+  "rgb(245, 29, 0)",
+  "rgb(255, 187, 0)",
+  "rgb(115, 115, 115)",
+];
+const SWEEP_REST = SWEEP_COLORS[0];
 
 const ROWS = [
   { company: "Meridian Corp", risk: "High risk", reason: "No login in 30d", tint: C_RED, fill: C_RED_20 },
@@ -70,17 +98,47 @@ const ROWS = [
 
 /* The quick action chips, in order. The fourth is dropped below 810. */
 const QUICK_ACTIONS = [
-  { id: "89488612", label: "Analyze ", delay: 0.1 },
-  { id: "3092554709", label: "Compare", delay: 0.2 },
-  { id: "3261614140", label: "Monitor", delay: 0.3 },
-  { id: "2932616460", label: "Report", delay: 0.4 },
+  { id: "89488612", label: "Analyze " },
+  { id: "3092554709", label: "Compare" },
+  { id: "3261614140", label: "Monitor" },
+  { id: "2932616460", label: "Report" },
 ];
+
+/** The mask on the particle field behind the card. */
+const FIELD_MASK = "linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 22%)";
+
+/**
+ * The four uniforms the particle field swaps per phase. These are hard swaps,
+ * not tweens: the field gets choppier and about six times faster while the card
+ * is thinking and showing results, and moderately faster the moment the query
+ * lands. Everything else about the field is constant.
+ */
+const FIELD_BY_PHASE: Record<
+  Phase,
+  { noiseFrequency: number; noiseLayerSpread: number; timeScale: number; waveHeightScale: number }
+> = {
+  primary: { noiseFrequency: 2, noiseLayerSpread: 0.005, timeScale: 0.05, waveHeightScale: 0.1 },
+  chatStart: { noiseFrequency: 2, noiseLayerSpread: 0.005, timeScale: 0.25, waveHeightScale: 0.1 },
+  thinking: { noiseFrequency: 3, noiseLayerSpread: 0.01, timeScale: 0.31, waveHeightScale: 0.14 },
+  results: { noiseFrequency: 3, noiseLayerSpread: 0.01, timeScale: 0.31, waveHeightScale: 0.14 },
+  loopReset: { noiseFrequency: 2, noiseLayerSpread: 0.005, timeScale: 0.05, waveHeightScale: 0.1 },
+};
 
 /* --------------------------------------------------------------------- */
 
-function usePhase(): Phase {
+/**
+ * The card's twelve second loop. Two runtime details from the source that have
+ * to be reproduced or the rebuild drifts out of phase with the design:
+ * every pending timer is cleared on each phase change, so only one is ever
+ * live; and the phase change itself is deferred until the tab is visible AND
+ * the card is on screen, so the loop pauses when either goes away and resumes
+ * from where it stopped rather than catching up.
+ */
+function usePhase(hostRef: RefObject<HTMLDivElement | null>): Phase {
   const [step, setStep] = useState(0);
   const [pinned, setPinned] = useState<Phase | null>(null);
+  const [awake, setAwake] = useState(true);
+  const [due, setDue] = useState(false);
 
   // `?phase=results` pins one phase, which is how the loop gets measured.
   useEffect(() => {
@@ -89,10 +147,36 @@ function usePhase(): Phase {
   }, []);
 
   useEffect(() => {
-    if (pinned) return;
-    const t = window.setTimeout(() => setStep((s) => (s + 1) % SEQUENCE.length), SEQUENCE[step].ms);
+    const el = hostRef.current;
+    let onScreen = true;
+    const sync = () => setAwake(!document.hidden && onScreen);
+    const io =
+      el && typeof IntersectionObserver !== "undefined"
+        ? new IntersectionObserver((entries) => {
+            onScreen = entries.some((e) => e.isIntersecting);
+            sync();
+          })
+        : null;
+    io?.observe(el as Element);
+    document.addEventListener("visibilitychange", sync);
+    sync();
+    return () => {
+      io?.disconnect();
+      document.removeEventListener("visibilitychange", sync);
+    };
+  }, [hostRef]);
+
+  useEffect(() => {
+    if (pinned || due) return;
+    const t = window.setTimeout(() => setDue(true), SEQUENCE[step].ms);
     return () => window.clearTimeout(t);
-  }, [step, pinned]);
+  }, [step, pinned, due]);
+
+  useEffect(() => {
+    if (!due || !awake) return;
+    setDue(false);
+    setStep((s) => (s + 1) % SEQUENCE.length);
+  }, [due, awake]);
 
   return pinned ?? SEQUENCE[step].phase;
 }
@@ -158,6 +242,87 @@ function ActionChip({ id, label }: { id: string; label: string }) {
   );
 }
 
+/**
+ * One letter of the readout. It flips in on X, flips out the same way, and
+ * carries its own infinite colour sweep while the line it belongs to is still
+ * being read; the last line settles to flat grey instead.
+ */
+function ReadoutLetter({ char, index, sweep }: { char: string; index: number; sweep: boolean }) {
+  const v = useMotionValue(0);
+  const color = useTransform(v, SWEEP_STOPS, SWEEP_COLORS);
+
+  useEffect(() => {
+    if (!sweep) {
+      v.set(0);
+      return;
+    }
+    const controls = animate(v, 100, {
+      delay: index * LETTER_STAGGER,
+      duration: 1,
+      ease: "linear",
+      repeat: Infinity,
+    });
+    return () => controls.stop();
+  }, [sweep, index, v]);
+
+  return (
+    <motion.span
+      initial={{ rotateX: -90, opacity: 0 }}
+      animate={{ rotateX: 0, opacity: 1 }}
+      exit={{ rotateX: 90, opacity: 0 }}
+      transition={{ ...T_LETTER, delay: index * LETTER_STAGGER }}
+      style={{
+        display: "inline-block",
+        whiteSpace: "pre",
+        transformOrigin: "center center -5px",
+        color: sweep ? color : SWEEP_REST,
+      }}
+    >
+      {char}
+    </motion.span>
+  );
+}
+
+/**
+ * The status readout. It walks the three lines at a two second interval and
+ * stops on the last one, restarting from the first every time the card enters
+ * Thinking. Letters cross-animate one against the next, keyed on their
+ * neighbours so a letter that does not change never re-flips; spaces are
+ * letters here and animate with the rest.
+ */
+function Readout({ play }: { play: boolean }) {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    setIndex(0);
+    if (!play) return;
+    const id = window.setInterval(
+      () => setIndex((i) => (i >= STATUS_LINES.length - 1 ? i : i + 1)),
+      READOUT_INTERVAL * 1000,
+    );
+    return () => window.clearInterval(id);
+  }, [play]);
+
+  const text = STATUS_LINES[index];
+  const sweep = play && index < STATUS_LINES.length - 1;
+  const letters = Array.from(text);
+
+  return (
+    <p className="t-mono cv-readout-text">
+      <AnimatePresence mode="popLayout" initial={false}>
+        {letters.map((ch, i) => (
+          <ReadoutLetter
+            key={`${i}:${letters[i - 1] ?? ""}${ch}${letters[i + 1] ?? ""}`}
+            char={ch}
+            index={i}
+            sweep={sweep}
+          />
+        ))}
+      </AnimatePresence>
+    </p>
+  );
+}
+
 function ResultRow({
   company,
   risk,
@@ -196,24 +361,13 @@ function ResultRow({
 /* --------------------------------------------------------------------- */
 
 export function Conversation() {
-  const phase = usePhase();
+  const mockRef = useRef<HTMLDivElement>(null);
+  const phase = usePhase(mockRef);
 
   const asked = phase === "chatStart" || phase === "thinking" || phase === "results";
   const panelOpen = phase === "thinking" || phase === "results";
   const rowsOpen = phase === "results" || phase === "loopReset";
   const shareBarMounted = phase === "thinking" || phase === "results" || phase === "loopReset";
-
-  /* Which of the three status lines the panel is reading out. */
-  const [line, setLine] = useState(0);
-  useEffect(() => {
-    if (!panelOpen) {
-      setLine(0);
-      return;
-    }
-    if (line >= STATUS_LINES.length - 1) return;
-    const t = window.setTimeout(() => setLine((n) => n + 1), 2000);
-    return () => window.clearTimeout(t);
-  }, [panelOpen, line]);
 
   return (
     <section className="cv-section" data-section="Conversation">
@@ -228,7 +382,7 @@ export function Conversation() {
         </div>
 
         <div className="cv-example">
-          <div className="cv-mock" data-phase={phase}>
+          <div className="cv-mock" data-phase={phase} ref={mockRef}>
             <div className="cv-stack">
               {/* Query bar */}
               <motion.div
@@ -269,27 +423,34 @@ export function Conversation() {
                     </div>
 
                     <div className="cv-status">
+                      {/* Both pills sit on a 0.4s tween with their own delay,
+                          except while the card is in Results, where they fall
+                          back to the chat container's inherited 0.3s tween. */}
                       <motion.div
                         className="cv-chipwrap cv-chip-thinking"
                         animate={{ opacity: phase === "thinking" ? 1 : 0 }}
-                        transition={phase === "thinking" ? T_CHIP_B : phase === "results" ? SPRING : T_CHIP_A}
+                        transition={
+                          phase === "thinking" ? T_CHIP_B : phase === "results" ? T_CHAT : T_CHIP_A
+                        }
                       >
                         <StatusChip label="Thinking" />
                       </motion.div>
                       <motion.div
                         className="cv-chipwrap cv-chip-results"
                         animate={{ opacity: phase === "results" ? 1 : 0 }}
-                        transition={phase === "results" ? SPRING : T_CHIP_C}
+                        transition={phase === "results" ? T_CHAT : T_CHIP_C}
                       >
                         <StatusChip label="3 Results" />
                       </motion.div>
                     </div>
                   </div>
 
+                  {/* Everything inside the chat container inherits its own
+                      0.3s tween, not the root spring. */}
                   <motion.div
                     className="cv-buttons"
                     animate={{ opacity: panelOpen ? 0 : 1 }}
-                    transition={SPRING}
+                    transition={T_CHAT}
                   >
                     <div className="cv-btn">
                       <Icon id="3356954461" size={20} color={C_MUTED} strokeWidth={2} />
@@ -302,10 +463,10 @@ export function Conversation() {
                           phase === "thinking"
                             ? "rgb(38, 38, 38)"
                             : phase === "chatStart"
-                              ? "rgb(28, 25, 23)"
+                              ? C_LOGO_BG
                               : "rgba(38, 38, 38, 0)",
                       }}
-                      transition={SPRING}
+                      transition={T_CHAT}
                     >
                       {phase === "primary" || phase === "loopReset" ? (
                         <MicIcon />
@@ -325,16 +486,14 @@ export function Conversation() {
                 animate={{ opacity: panelOpen ? 0 : 1 }}
                 transition={phase === "loopReset" ? SPRING_D2 : SPRING}
               >
+                {/* The four actions have no entrance of their own on this
+                    instance: they only fade with the bar's own opacity. The
+                    staggered y:12 entrance in the appear payload belongs to
+                    the standalone copies of this component used elsewhere. */}
                 {QUICK_ACTIONS.map((a, i) => (
-                  <motion.div
-                    key={a.id}
-                    className={`cv-actionwrap${i === 3 ? " cv-action-4" : ""}`}
-                    initial={{ opacity: HIDDEN, y: 12 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ type: "tween", duration: 0.2, ease: EASE, delay: a.delay }}
-                  >
+                  <div key={a.id} className={`cv-actionwrap${i === 3 ? " cv-action-4" : ""}`}>
                     <ActionChip id={a.id} label={a.label} />
-                  </motion.div>
+                  </div>
                 ))}
               </motion.div>
 
@@ -377,9 +536,7 @@ export function Conversation() {
                   animate={{ opacity: panelOpen ? 1 : 0 }}
                   transition={SPRING}
                 >
-                  <p key={line} className="t-mono cv-readout-text">
-                    {STATUS_LINES[line]}
-                  </p>
+                  <Readout play={panelOpen} />
                 </motion.div>
 
                 {rowsOpen && (
@@ -426,9 +583,40 @@ export function Conversation() {
                 )}
               </motion.div>
             </div>
-            {/* TODO(spec): the masked particle-grid canvas that sits behind the card
-                (absolute inset 0, opacity .3, mask linear-gradient(0deg, transparent 0%,
-                black 22%)) is a WebGL component this section does not own. */}
+            {/*
+              The particle grid that sits behind the card. Container values are
+              exact: absolute inset 0, opacity 0.3, and the bottom-out mask.
+              In Results the canvas takes order 1, which is inert here because
+              an absolutely positioned child is not a flex item; it is kept so
+              the declaration matches the source.
+
+              TODO(webgl): the field itself is `WaveGridField`, a flat point
+              grid displaced by fractal noise, which another module owns and
+              which has not landed yet. When it does, render it inside the
+              inner box below at 100% x 100% and pass, on top of its own base
+              props, the four live values in FIELD_BY_PHASE[phase]: they are
+              per-phase hard swaps, not tweens. Nothing else about this slot
+              changes, and the field is absolutely positioned so it can never
+              move the stage height.
+            */}
+            <div
+              className="cv-field"
+              style={{
+                position: "absolute",
+                inset: 0,
+                zIndex: 1,
+                opacity: 0.3,
+                order: phase === "results" ? 1 : undefined,
+                WebkitMaskImage: FIELD_MASK,
+                maskImage: FIELD_MASK,
+              }}
+              data-field-noise-frequency={FIELD_BY_PHASE[phase].noiseFrequency}
+              data-field-noise-layer-spread={FIELD_BY_PHASE[phase].noiseLayerSpread}
+              data-field-time-scale={FIELD_BY_PHASE[phase].timeScale}
+              data-field-wave-height-scale={FIELD_BY_PHASE[phase].waveHeightScale}
+            >
+              <div style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden" }} />
+            </div>
           </div>
         </div>
       </div>
@@ -785,31 +973,12 @@ const CSS = `
 }
 .cv-mock[data-phase="loopReset"] .cv-results { bottom: -233px; }
 .cv-readout { position: relative; flex: none; width: 100%; height: auto; }
+/* The readout is per-letter: each letter flips in on X and runs its own
+   colour loop, so the line needs nothing but its metrics and a rest colour. */
 .cv-readout-text {
   margin: 0;
   line-height: 20px;
   color: rgb(115, 115, 115);
-  background-image: linear-gradient(
-    90deg,
-    rgb(115, 115, 115) 0%,
-    rgb(115, 115, 115) 42%,
-    rgb(0, 238, 255) 46%,
-    rgb(0, 14, 221) 49.5%,
-    rgb(245, 29, 0) 53%,
-    rgb(255, 187, 0) 56.5%,
-    rgb(115, 115, 115) 60%,
-    rgb(115, 115, 115) 100%
-  );
-  background-size: 300% 100%;
-  background-position: 100% 0;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: cv-sweep 1s linear both;
-}
-@keyframes cv-sweep {
-  from { background-position: 100% 0; }
-  to { background-position: -100% 0; }
 }
 .cv-rows {
   position: absolute;

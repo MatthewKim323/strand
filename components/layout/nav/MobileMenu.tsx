@@ -13,7 +13,11 @@ const HEAD_COLOR = "var(--token-9c2e8ee6-e444-42b8-997a-df33e3515cb5, rgb(245, 2
 
 type Panel = "features" | "resources" | null;
 
-/** A full-width heading row: label, optional chevron that flips when open. */
+/**
+ * A full-width heading row: label, optional chevron that flips when open. The
+ * row is press-only (no hover state), and the chevron rotates 0 -> -180 on the
+ * house spring. That rotation is the one rotate on the whole page.
+ */
 function HeadRow({
   label,
   href,
@@ -61,7 +65,7 @@ function HeadRow({
       {chevron && (
         <motion.span
           animate={{ rotate: open ? -180 : 0 }}
-          transition={TWEEN_FAST}
+          transition={SPRING}
           style={{ flex: "none", width: 16, height: 16, display: "block" }}
         >
           <Icon id={CHEVRON_ID} size={16} color={HEAD_COLOR} strokeWidth={2} />

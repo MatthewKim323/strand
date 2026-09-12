@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { motion } from "motion/react";
+import { motion, type Transition } from "motion/react";
 import type { CSSProperties } from "react";
 
 import { Button } from "@/components/ui/Button";
@@ -33,16 +33,45 @@ const overlay = (style: CSSProperties): CSSProperties => ({
   ...style,
 });
 
-/** The three marching dots, one set per phase. Coordinates straight out of the spec. */
-const DOTS: Array<{ top: number; left: number }> = [
-  { top: 4, left: 6 },
-  { top: 10, left: 6 },
-  { top: 7, left: 9 },
+/**
+ * The announcement strip's own transition, and the pill's. Hovering the strip
+ * changes exactly two things: the pill's background, on the pill's spring, and
+ * the dot row's offset, on the strip's 0.3s tween. Nothing else moves: the
+ * strip keeps its background, the dot arrow keeps its variant, no scale, no
+ * shadow.
+ */
+const STRIP_TWEEN: Transition = { type: "tween", duration: 0.3, ease: [0.12, 0.23, 0.5, 1], delay: 0 };
+const STRIP_SPRING: Transition = { type: "spring", bounce: 0.2, duration: 0.4, delay: 0 };
+
+const PILL = {
+  rest: { backgroundColor: "var(--token-93b991d8-cb67-4763-830d-23defa20a3ea, rgb(23, 23, 23))" },
+  hover: { backgroundColor: "var(--token-d84f0da5-69e7-4c51-a9dd-4ad7ce3301a8, rgb(41, 37, 36))" },
+};
+
+/** `left: 0 -> 4px` in the source; written here as the equivalent x offset. */
+const DOT_ROW = {
+  rest: { x: 0, y: "-50%" },
+  hover: { x: 4, y: "-50%" },
+};
+
+/**
+ * The dot arrow's six dots, at the component's resting variant. The other
+ * variant (the dots marching one box to the right) is authored in the source
+ * but never triggered on this page, so three dots sit visible on the right and
+ * three sit hidden on the left, and none of them ever move or loop.
+ */
+const DOTS: Array<{ top: number; left: number; opacity: 0 | 1 }> = [
+  { top: 4, left: -10, opacity: 0 },
+  { top: 10, left: -10, opacity: 0 },
+  { top: 7, left: -7, opacity: 0 },
+  { top: 4, left: 6, opacity: 1 },
+  { top: 10, left: 6, opacity: 1 },
+  { top: 7, left: 9, opacity: 1 },
 ];
 
-function DotSet({ phase }: { phase: 0 | 1 }) {
+function DotArrow() {
   return (
-    <div className="hero-dot-set" style={{ animationDelay: phase === 0 ? "0s" : "-2s" }}>
+    <div className="hero-dots">
       {DOTS.map((d, i) => (
         <div
           key={i}
@@ -52,6 +81,8 @@ function DotSet({ phase }: { phase: 0 | 1 }) {
             left: d.left,
             width: 2,
             height: 2,
+            borderRadius: 36,
+            opacity: d.opacity,
             overflow: "hidden",
             flex: "none",
             backgroundColor:
@@ -91,12 +122,15 @@ export function Hero() {
               borderColor: "var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(38, 38, 38))",
             })}
           />
-          <a
+          <motion.a
             className="hero-announce-link"
             href="/blog/introducing-ask-query-your-entire-stack-in-plain-language"
+            initial="rest"
+            animate="rest"
+            whileHover="hover"
           >
-            {/* the "New" pill */}
-            <div className="hero-pill">
+            {/* the "New" pill: swaps to its hover variant on the strip's spring */}
+            <motion.div className="hero-pill" variants={PILL} transition={STRIP_SPRING}>
               <span
                 style={overlay({
                   borderWidth: 1,
@@ -114,21 +148,18 @@ export function Hero() {
               >
                 New
               </p>
-            </div>
+            </motion.div>
 
             {/* Message */}
             <div className="hero-message">
-              <div className="hero-dots-holder">
-                <div className="hero-dots">
-                  <DotSet phase={0} />
-                  <DotSet phase={1} />
-                </div>
-              </div>
+              <motion.div className="hero-dots-holder" variants={DOT_ROW} transition={STRIP_TWEEN}>
+                <DotArrow />
+              </motion.div>
               <div className="hero-ticker-holder">
                 <AnnouncementTicker text="Introducing Ask: Query your entire stack in plain language" />
               </div>
             </div>
-          </a>
+          </motion.a>
         </motion.div>
 
         {/* Content */}
@@ -290,6 +321,7 @@ const CSS = `
   position: relative;
   overflow: visible;
 }
+/* The offset and the -50% centring are both motion values; see DOT_ROW. */
 .hero-dots-holder {
   z-index: 1;
   flex: none;
@@ -298,11 +330,7 @@ const CSS = `
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translateY(-50%);
-  /* TODO(spec): the hover offset (left: 0 -> 4px) is from the spec; its transition is not. */
-  transition: left 0.2s cubic-bezier(0.12, 0.23, 0.5, 1);
 }
-.hero-announce-link:hover .hero-dots-holder { left: 4px; }
 .hero-dots {
   width: 16px;
   height: 16px;
@@ -310,21 +338,6 @@ const CSS = `
   overflow: visible;
   -webkit-mask-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 10%, rgb(0,0,0) 90%, rgba(0,0,0,0) 100%);
   mask-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 10%, rgb(0,0,0) 90%, rgba(0,0,0,0) 100%);
-}
-/* TODO(spec): the dots' loop timing is not in the capture. Travel distance (16px)
-   and both rest positions ARE from the spec; only the 4s period is chosen. */
-.hero-dot-set {
-  position: absolute;
-  inset: 0;
-  animation: hero-dot-march 4s linear infinite;
-}
-@keyframes hero-dot-march {
-  0%      { transform: translateX(0);     opacity: 1; }
-  40%     { transform: translateX(0);     opacity: 1; }
-  50%     { transform: translateX(16px);  opacity: 0; }
-  50.001% { transform: translateX(-16px); opacity: 0; }
-  90%     { transform: translateX(-16px); opacity: 0; }
-  100%    { transform: translateX(0);     opacity: 1; }
 }
 .hero-ticker-holder {
   flex: 1 0 0;
@@ -442,8 +455,8 @@ const CSS = `
 
 @media (max-width: 809.98px) {
   .hero-announce { width: 100%; }
-  /* TODO(spec): the link's padding comes from a CSS var the capture did not resolve;
-     these two values are the measured boxes at 1440/1024/810 and at 390. */
+  /* The link's padding is a per-breakpoint component prop: it computes to
+     20px 0 20px 40px at 1440 / 1024 / 810 and to 20px at 390. */
   .hero-announce-link { padding: 20px; }
   .hero-content {
     display: flex;

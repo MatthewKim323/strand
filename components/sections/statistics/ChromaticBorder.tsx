@@ -8,10 +8,15 @@ import { motion, useInView, type Transition } from "motion/react";
  * per half grow out from the centre, decaying from pure primaries to the
  * near-black values that sum to the page's hairline colour.
  *
- * Values are the component's own: root transition 0.6s on
- * cubic-bezier(0.44, 0, 0.56, 1); each bar 0.4s on the house ease with a
- * 0 / 0.02 / 0.04s stagger, mirrored between the halves. It plays once, when
- * the element is fully in view.
+ * Values are the component's own: each bar 0.4s on the house ease with a
+ * 0 / 0.02 / 0.04s stagger, mirrored between the halves, so blue trails on the
+ * left and red trails on the right. The root declares a 0.6s transition on
+ * cubic-bezier(0.44, 0, 0.56, 1) but nothing on the root or the two halves
+ * animates, so it never applies.
+ *
+ * Trigger: a plain in-view observer on the rule itself, threshold 1 (the whole
+ * 1px-tall element inside the viewport) and animate-once, so it plays exactly
+ * once per page load. It is not scroll-progress linked and it never flips back.
  */
 const BAR: Transition = { type: "tween", duration: 0.4, ease: [0.12, 0.23, 0.5, 1] };
 const T_0: Transition = { ...BAR, delay: 0 };
@@ -42,7 +47,11 @@ function Half({ side, shown }: { side: "left" | "right"; shown: boolean }) {
             mixBlendMode: c.blend ? "screen" : "normal",
           }}
           initial={{ width: "0%", backgroundColor: c.from }}
-          animate={shown ? { width: "100%", backgroundColor: c.to } : undefined}
+          animate={
+            shown
+              ? { width: "100%", backgroundColor: c.to }
+              : { width: "0%", backgroundColor: c.from }
+          }
           transition={delays[i]}
         />
       ))}
@@ -52,7 +61,7 @@ function Half({ side, shown }: { side: "left" | "right"; shown: boolean }) {
 
 export function ChromaticBorder() {
   const ref = useRef<HTMLDivElement>(null);
-  const shown = useInView(ref, { once: true, amount: "all" });
+  const shown = useInView(ref, { once: true, amount: 1 });
 
   return (
     <div className="sx-cb" ref={ref}>

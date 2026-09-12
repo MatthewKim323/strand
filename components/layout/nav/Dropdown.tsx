@@ -8,7 +8,18 @@ import { SPRING } from "@/lib/motion";
 import { CHEVRON_ID, COMPANY, PRODUCTS, SUPPORT } from "./data";
 import { ColumnTitle, MenuRow, PlainLink, ProductCard } from "./items";
 
-/** Panel chrome shared by both menus. */
+/**
+ * Panel chrome shared by both menus. The 6px standoff below the trigger is
+ * padding on the animated wrapper rather than an offset, so the pointer can
+ * cross the gap without leaving the safe area.
+ */
+const PANEL_WRAP: React.CSSProperties = {
+  position: "absolute",
+  top: "100%",
+  paddingTop: 6,
+  zIndex: 11,
+};
+
 const PANEL: React.CSSProperties = {
   display: "grid",
   gridTemplateRows: "repeat(1, minmax(0, 1fr))",
@@ -17,9 +28,6 @@ const PANEL: React.CSSProperties = {
   gap: 0,
   height: "min-content",
   overflow: "hidden",
-  position: "absolute",
-  top: "calc(100% + 6px)",
-  zIndex: 11,
   borderRadius: 10,
   backgroundColor: "var(--token-ac705832-092f-475e-a252-93784ea8573d, rgb(20, 18, 16))",
   boxShadow:
@@ -27,10 +35,11 @@ const PANEL: React.CSSProperties = {
 };
 
 /**
- * One bar item that owns a panel. The reference opens the panel on tap (the
- * trigger calls `overlay.show()`), dismisses it on an outside press, and does
- * NOT bind escape. Re-pressing the trigger toggles here; in the reference the
- * dismiss and the show race, which lands on the same visible result.
+ * One bar item that owns a panel. The panel opens on **hover**: the trigger's
+ * hover prop is wired to the overlay's show(), and there is no unhover and no
+ * click binding, so closing is the popover's own dismiss, i.e. the pointer
+ * leaving the safe area (trigger + standoff + panel) or a route change. Escape
+ * is deliberately not bound (`dismissWithEsc: false`).
  */
 function MenuButton({
   label,
@@ -59,13 +68,17 @@ function MenuButton({
   }, [open]);
 
   return (
-    <div ref={wrap} style={{ flex: "none", width: "auto", height: "auto", position: "relative" }}>
+    <div
+      ref={wrap}
+      onPointerEnter={() => setOpen(true)}
+      onPointerLeave={() => setOpen(false)}
+      style={{ flex: "none", width: "auto", height: "auto", position: "relative" }}
+    >
       <Button
         variant="ghost"
         size="lg"
         height={36}
         className={`nv-trigger nv-trigger-${label.toLowerCase()}`}
-        onClick={() => setOpen((v) => !v)}
         icon={
           <Icon
             id={CHEVRON_ID}
@@ -84,9 +97,9 @@ function MenuButton({
             initial={{ opacity: 0, y: panelInitial.y ?? 0 }}
             animate={{ opacity: 1, y: 0, transition: SPRING }}
             exit={{ opacity: 0, y: panelInitial.y ?? 0, transition: SPRING }}
-            style={{ ...PANEL, ...panelStyle, left: offsetX }}
+            style={{ ...PANEL_WRAP, left: offsetX }}
           >
-            {children(() => setOpen(false))}
+            <div style={{ ...PANEL, ...panelStyle }}>{children(() => setOpen(false))}</div>
           </motion.div>
         )}
       </AnimatePresence>

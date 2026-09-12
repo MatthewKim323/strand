@@ -9,9 +9,26 @@ type AnimationItem = {
 };
 
 /**
- * One 64x64 vector loop. The reference drives these with the SVG renderer,
- * `xMidYMid slice`, medium quality, forwards, 1x speed, looping forever, and
- * fetches the animation document at runtime rather than inlining it.
+ * One 64x64 vector loop, and one of the four continuous loops in this section.
+ *
+ * Player settings, quoted from the four instances (identical except the source
+ * document): loop true, playing true, speed 1, forwards direction. Nothing
+ * gates them: they run continuously, they do not pause off-screen, and they do
+ * not react to hover. The SVG renderer writes `preserveAspectRatio="xMidYMid
+ * slice"`, which is what the captured markup carries. The document is fetched
+ * at runtime rather than inlined, as in the source.
+ *
+ * `pauseOnCanvas: true` is an editor-only flag and has no runtime effect.
+ *
+ * TODO(spec): renderer quality is not pinned anywhere in the spec or the
+ * capture. Using `medium`, which is the middle of the three the runtime
+ * exposes; `high` would only change curve segmentation on a 64px glyph.
+ *
+ * TODO(spec): the fourth instance is authored with `progress: 62` while the
+ * other three are `progress: 0`. `progress` is the scrub position and is read
+ * only while `playing` is false, so with `playing: true` it has no effect and
+ * every player starts at frame 0 here. The spec's own rebuild note asks for
+ * plain `loop: true, autoplay: true` with no seek, so nothing seeks.
  */
 export function StatLottie({ src, name }: { src: string; name: string }) {
   const host = useRef<HTMLDivElement>(null);

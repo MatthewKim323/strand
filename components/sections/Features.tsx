@@ -1,27 +1,43 @@
 "use client";
 
+import { motion } from "motion/react";
 import { useState } from "react";
 
 import { Icon } from "@/components/ui/Sprite";
+import {
+  FEATURE_STAGE_FIELD,
+  PANEL_GRAPHIC_FIELD,
+  PointMorphField,
+} from "@/components/webgl/PointMorphField";
+import { ScrollShapeStage } from "@/components/webgl/ScrollShapeStage";
+import { SPRING } from "@/lib/motion";
 import { ProgressRail } from "./features/ProgressRail";
-import { ShapeField, ParticleField } from "./features/ShapeField";
 import { AlertPanel, AskPanel, SourcesPanel } from "./features/panels";
 
-/* The pinned particle stage: the scroll maths, the slot swap and the shape
-   point data are all the reference's own. When the shared WebGL renderer
-   (components/webgl) lands, Stage and Field are the two swap points. */
-const Stage = ShapeField;
-const Field = ParticleField;
+/* The pinned particle stage. Both call sites are the shared GPGPU field:
+   FEATURE_STAGE_FIELD is the sticky stage (camera z 1.8, tipRadius 0.003, its
+   own middle shape) and PANEL_GRAPHIC_FIELD is the phone carousel's field
+   (camera z 2, tipRadius 0.0045, a wider middle shape). ScrollShapeStage
+   carries the scroll->index maths and the AnimatePresence slot swap. */
 
 /* Colours copied verbatim from the spec so they resolve with no translation. */
 const C_LINE = "var(--token-f3013730-45dd-4b90-8bef-48999f95aa1d, rgb(41, 37, 36))";
-const C_LINE_2 = "var(--token-a9ea621e-bd19-4f4b-962f-5a113b46a5eb, rgb(68, 64, 60))";
 const C_TEXT = "var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))";
 const C_TEXT_2 = "var(--token-68852133-66bc-42bc-90a0-dbfa7557286d, rgb(250, 250, 249))";
 const C_DESC = "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(161, 161, 161))";
-const C_MUTED = "var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(120, 113, 108))";
 const C_BTN = "var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(38, 38, 38))";
 const C_PAGE = "var(--token-7f40e4a1-2b83-444e-8765-465c7d3596ab, rgb(17, 15, 13))";
+
+/* The phone tab bar animates its background, its bottom hairline and its label
+   colour, so those four tokens are used as the literals the page resolves them
+   to: a var() cannot be interpolated between two keyframes. */
+const TAB_BG = "#110f0d"; /* token-7f40e4a1 */
+const TAB_BG_HOVER = "#141210"; /* token-ac705832 */
+const TAB_BG_PRESS = "#1c1917"; /* token-93b991d8 */
+const TAB_LINE = "#292524"; /* token-f3013730 */
+const TAB_LINE_ON = "#44403c"; /* token-a9ea621e */
+const TAB_TEXT = "#79716b"; /* token-2f1d35ad */
+const TAB_TEXT_ON = "#fafaf9"; /* token-17151d22 */
 
 const RAIL_FONT = {
   fontFamily: '"Geist Mono", "Geist Mono Placeholder", monospace',
@@ -169,9 +185,12 @@ export function Features() {
           <div className="ft-rcart">
             <div className="ft-visual">
               <div className="ft-field">
-                <Stage sectionName="products-swap-scroll">
+                <ScrollShapeStage
+                  {...FEATURE_STAGE_FIELD}
+                  sectionId="products-swap-scroll"
+                >
                   {graphics}
-                </Stage>
+                </ScrollShapeStage>
               </div>
             </div>
             <div className="ft-progress">
@@ -196,44 +215,77 @@ export function Features() {
         <div className="ft-mobile">
           <div className="ft-mswap">
             <div className="ft-tabs">
-              {BLOCKS.map((b, i) => (
-                <a
-                  key={b.id}
-                  className="ft-tab"
-                  role="button"
-                  tabIndex={0}
-                  onClick={() => setTab(i)}
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter" || e.key === " ") setTab(i);
-                  }}
-                  style={{
-                    boxShadow: `inset 0 -1px 0 0 ${i === tab ? C_LINE_2 : C_LINE}`,
-                  }}
-                >
-                  <div className="ft-tab-inner">
-                    <div className="ft-tab-txt">
-                      <p className="t-label" style={{ color: i === tab ? C_TEXT : C_MUTED }}>
-                        {b.name}
-                      </p>
+              {BLOCKS.map((b, i) => {
+                const selected = i === tab;
+                return (
+                  <motion.a
+                    key={b.id}
+                    className="ft-tab"
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => setTab(i)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ") setTab(i);
+                    }}
+                    initial={false}
+                    animate={{
+                      backgroundColor: TAB_BG,
+                      boxShadow: `inset 0 -1px 0 0 ${selected ? TAB_LINE_ON : TAB_LINE}`,
+                    }}
+                    whileHover={{ backgroundColor: TAB_BG_HOVER }}
+                    whileTap={{ backgroundColor: TAB_BG_PRESS }}
+                    transition={SPRING}
+                  >
+                    <div className="ft-tab-inner">
+                      <div className="ft-tab-txt">
+                        <motion.p
+                          className="t-label"
+                          initial={false}
+                          animate={{ color: selected ? TAB_TEXT_ON : TAB_TEXT }}
+                          transition={SPRING}
+                        >
+                          {b.name}
+                        </motion.p>
+                      </div>
                     </div>
-                  </div>
-                </a>
-              ))}
+                  </motion.a>
+                );
+              })}
             </div>
 
             <div className="ft-graphics">
               <div className="ft-mfield">
-                <Field currentShape={tab} />
+                <PointMorphField {...PANEL_GRAPHIC_FIELD} currentShape={tab} />
               </div>
-              <div className="ft-mgraphic" style={{ width: 270, opacity: tab === 0 ? 1 : 0 }}>
+              {/* The three cards cross-fade on the carousel's own spring; only
+                  opacity is driven, the boxes never move. */}
+              <motion.div
+                className="ft-mgraphic"
+                style={{ width: 270 }}
+                initial={false}
+                animate={{ opacity: tab === 0 ? 1 : 0 }}
+                transition={SPRING}
+              >
                 <SourcesPanel width={270} gap={4} />
-              </div>
-              <div className="ft-mgraphic" style={{ width: 315, opacity: tab === 1 ? 1 : 0 }}>
+              </motion.div>
+              <motion.div
+                className="ft-mgraphic"
+                style={{ width: 315 }}
+                initial={false}
+                animate={{ opacity: tab === 1 ? 1 : 0 }}
+                transition={SPRING}
+              >
                 <AskPanel width={315} />
-              </div>
-              <div className="ft-mgraphic" style={{ width: 293, opacity: tab === 2 ? 1 : 0 }}>
+              </motion.div>
+              <motion.div
+                className="ft-mgraphic"
+                style={{ width: 293 }}
+                initial={false}
+                animate={{ opacity: tab === 2 ? 1 : 0 }}
+                transition={SPRING}
+              >
                 <AlertPanel width={293} />
-              </div>
+              </motion.div>
             </div>
 
             <div className="ft-mblock">
@@ -629,7 +681,6 @@ export function Features() {
           pointer-events: none;
           -webkit-user-select: none;
           user-select: none;
-          transition: opacity 0.3s cubic-bezier(0.44, 0, 0.56, 1);
         }
         .ft-mblock { position: relative; flex: none; width: 100%; height: auto; }
 

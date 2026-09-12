@@ -1,10 +1,17 @@
 "use client";
 
-import { AnimatePresence, motion } from "motion/react";
-import { useEffect, useState, type CSSProperties } from "react";
+import { AnimatePresence, motion, useInView, useScroll, useTransform, type Transition } from "motion/react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { Icon } from "@/components/ui/Sprite";
-import { useScrollFx } from "@/lib/scroll-reveal";
+import { ChromaticRule } from "./testimonials/ChromaticRule";
 import { IG_MARKS } from "./integrations/marks";
+
+/* ----------------------------------------------------------------- motion */
+
+/** The house tween. Everything in this section that is not a spring uses it. */
+const TWEEN: Transition = { type: "tween", duration: 0.4, ease: [0.12, 0.23, 0.5, 1] };
+/** The house spring. */
+const SPRING: Transition = { type: "spring", bounce: 0.2, duration: 0.4 };
 
 /* ------------------------------------------------------------------ colour */
 
@@ -16,6 +23,16 @@ const DIM = "var(--token-836557f1-9a2a-42ae-bf18-328e4f3549e3, rgb(87, 83, 78))"
 const STAT = "var(--token-2f1d35ad-f881-4439-84f5-765e4d808479, rgb(121, 113, 107))";
 const ACCENT = "var(--token-1b607253-4aac-469b-9eb8-fd5858f5863c, rgb(16, 236, 144))";
 const CHIP_BG = "var(--token-78d1b0a0-3296-4d25-9069-55a6c86138e3, rgb(41, 37, 36))";
+/* Button colours, copied from the two button components' own variant maps. */
+const ICON = "var(--token-68852133-66bc-42bc-90a0-dbfa7557286d, rgb(250, 250, 249))";
+/** Circular Button, Light family: hover then press. */
+const BTN_LIGHT_HOVER = "var(--token-494a45c3-2553-4e41-8258-c9545bf7163f, rgb(64, 64, 64))";
+const BTN_LIGHT_PRESS = "var(--token-67732ab8-fe77-4ba4-8c23-2c487558049e, rgb(82, 82, 82))";
+/** Circular Button With Text: the same two tokens, inverted. */
+const LINK_CIRCLE_HOVER = BTN_LIGHT_PRESS;
+const LINK_CIRCLE_PRESS = BTN_LIGHT_HOVER;
+const LINK_LABEL = "var(--token-3354c3de-221c-4edd-ae1d-909c9020f86d, rgb(168, 162, 158))";
+const LINK_LABEL_HOVER = "var(--token-17151d22-e81f-43e5-8876-d5286d6cf070, rgb(250, 250, 250))";
 
 /* ------------------------------------------------------------------- data */
 
@@ -54,58 +71,20 @@ const GRID_MARKS: readonly string[] = [
   IG_MARKS.knot,
 ];
 
-/** Feed slots rendered at once, and the seconds between advances. */
+/**
+ * Feed slots rendered at once, and the seconds between advances. Both are the
+ * panel's own props: ten slots, and a three second interval that the phone
+ * layout overrides to four.
+ */
 const SLOTS = 10;
-const INTERVAL = 4;
+const INTERVAL = 3;
+const INTERVAL_PHONE = 4;
+const PHONE_QUERY = "(max-width: 809.98px)";
+
+/** Layout effect in the browser, plain effect on the server, so SSR stays quiet. */
+const useMeasureEffect = typeof window === "undefined" ? useEffect : useLayoutEffect;
 
 /* ------------------------------------------------------------------ pieces */
-
-const HALF: CSSProperties = {
-  height: 1,
-  overflow: "clip",
-  flex: "1 0 0",
-  width: 1,
-  position: "relative",
-};
-
-const BAR_R: CSSProperties = {
-  zIndex: 1,
-  flex: "none",
-  width: "100%",
-  position: "absolute",
-  top: 0,
-  bottom: 0,
-  right: 0,
-  overflow: "visible",
-};
-
-const BAR_L: CSSProperties = { ...BAR_R, right: "auto", left: 0 };
-
-/**
- * The hairline that caps the top of the container, split into two halves whose
- * three screen blended bars sum to the line colour.
- * TODO(spec): the source keeps a zero width state for these bars, so they very
- * likely sweep out from the centre, but nothing captured pins the timing; they
- * are drawn at rest width here.
- */
-function EdgeLine() {
-  return (
-    <div className="ig-end-c">
-      <div className="ig-end">
-        <div style={HALF}>
-          <div style={{ ...BAR_R, backgroundColor: "rgb(0, 0, 36)" }} />
-          <div style={{ ...BAR_R, mixBlendMode: "screen", backgroundColor: "rgb(0, 37, 0)" }} />
-          <div style={{ ...BAR_R, mixBlendMode: "screen", backgroundColor: "rgb(41, 0, 0)" }} />
-        </div>
-        <div style={HALF}>
-          <div style={{ ...BAR_L, backgroundColor: "rgb(0, 0, 36)" }} />
-          <div style={{ ...BAR_L, mixBlendMode: "screen", backgroundColor: "rgb(0, 37, 0)" }} />
-          <div style={{ ...BAR_L, mixBlendMode: "screen", backgroundColor: "rgb(41, 0, 0)" }} />
-        </div>
-      </div>
-    </div>
-  );
-}
 
 function SourceRow({ source }: { source: Source }) {
   return (
@@ -140,20 +119,30 @@ function SourceRow({ source }: { source: Source }) {
 
 /**
  * The feed. Ten slots are mounted at once, bottom anchored inside a clipped
- * box, and every INTERVAL seconds the window advances by one source: each row
- * keeps its identity and slides up a slot, a fresh one enters at the bottom
- * and the top one leaves under the fade. The four second interval and the ten
- * slots are the source's own numbers.
- * TODO(spec): the reference sets no transition on these, so the slide and the
- * layout shift both run on library defaults; no captured timing pins them.
+ * box, and every interval the window advances by one source: each row keeps its
+ * identity and slides up a slot, a fresh one enters at the bottom and the top
+ * one leaves under the fade.
+ *
+ * The rows carry no transition of their own, so both the enter and the layout
+ * shift run on the panel's own MotionConfig, which is the house tween: 0.4s on
+ * [0.12, 0.23, 0.5, 1]. There is no exit.
  */
 function Feed() {
   const [offset, setOffset] = useState(0);
+  const [interval, setIntervalSeconds] = useState(INTERVAL);
 
   useEffect(() => {
-    const id = setInterval(() => setOffset((v) => v + 1), INTERVAL * 1000);
-    return () => clearInterval(id);
+    const mq = window.matchMedia(PHONE_QUERY);
+    const sync = () => setIntervalSeconds(mq.matches ? INTERVAL_PHONE : INTERVAL);
+    sync();
+    mq.addEventListener("change", sync);
+    return () => mq.removeEventListener("change", sync);
   }, []);
+
+  useEffect(() => {
+    const id = window.setInterval(() => setOffset((v) => v + 1), interval * 1000);
+    return () => window.clearInterval(id);
+  }, [interval]);
 
   return (
     <div className="ig-feed">
@@ -167,6 +156,7 @@ function Feed() {
               layout
               initial={{ opacity: 0, x: "-100%" }}
               animate={{ opacity: 1, x: "0%" }}
+              transition={TWEEN}
               style={{ width: "100%" }}
             >
               <SourceRow source={source} />
@@ -198,17 +188,51 @@ function Stat({ value, label }: { value: string; label: string }) {
 /* ---------------------------------------------------------------- section */
 
 export function Integrations() {
-  /* The panel rides in from the right as the block comes up the viewport: the
-     captured rest state is x 0 and the captured mid state is x 120.
-     TODO(spec): the spring chasing that progress is the house default, the
-     capture does not pin its stiffness or damping. */
-  const fx = useScrollFx<HTMLDivElement>();
-  const panelX = fx.map(120, 0);
+  /* The page's one scroll-target effect, and it lives here. The marker is this
+     section itself; the effect maps window scrollY across
+     [sectionTop - 1 - viewportHeight, that + sectionHeight] onto x 120 -> 0,
+     clamped. There is no chase spring on it: the transform follows the scroll
+     one to one, so the panel is exactly where the scroll position says it is.
+     The range is measured rather than hardcoded, because it moves with the
+     viewport height and with every breakpoint. */
+  const sectionRef = useRef<HTMLElement>(null);
+  const { scrollY } = useScroll();
+  const [range, setRange] = useState<[number, number]>([0, 1]);
+
+  useMeasureEffect(() => {
+    const measure = () => {
+      const el = sectionRef.current;
+      if (!el) return;
+      let top = 0;
+      let n: HTMLElement | null = el;
+      while (n) {
+        top += n.offsetTop;
+        n = n.offsetParent as HTMLElement | null;
+      }
+      const start = Math.max(top - 1 - window.innerHeight, 0);
+      const end = Math.max(start + el.clientHeight, 0);
+      setRange([start, end === start ? start + 1 : end]);
+    };
+    measure();
+    window.addEventListener("resize", measure);
+    return () => window.removeEventListener("resize", measure);
+  }, []);
+
+  const panelX = useTransform(scrollY, range, [120, 0], { clamp: true });
+
+  /* The one in-view style appear on the page: the visual column resets to
+     opacity 0 and fades to 1 on the house spring the first time half of it is
+     inside the viewport. Nothing else in the object differs from rest, so
+     opacity is all that moves. */
+  const visualRef = useRef<HTMLDivElement>(null);
+  const visualShown = useInView(visualRef, { once: true, amount: 0.5 });
 
   return (
-    <section id="integrations" className="ig-section">
+    <section id="integrations" className="ig-section" ref={sectionRef}>
       <div className="ig-container">
-        <EdgeLine />
+        <div className="ig-end-c">
+          <ChromaticRule />
+        </div>
 
         <div className="ig-context">
           <div className="ig-copy">
@@ -230,13 +254,19 @@ export function Integrations() {
                 <p className="t-label">View integrations</p>
               </div>
               <button className="ig-circle" type="button" tabIndex={-1} aria-hidden="true">
-                <Icon id="2903821725" size={14} color="#f5f5f4" strokeWidth={2} />
+                <Icon id="2903821725" size={14} color={ICON} strokeWidth={2} />
               </button>
             </a>
           </div>
         </div>
 
-        <div className="ig-visual" ref={fx.ref}>
+        <motion.div
+          className="ig-visual"
+          ref={visualRef}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: visualShown ? 1 : 0 }}
+          transition={SPRING}
+        >
           <div className="ig-panel-w">
             <motion.div className="ig-panel-c" style={{ x: panelX }}>
               <div className="ig-panel">
@@ -278,22 +308,31 @@ export function Integrations() {
                   <div className="ig-spacer" />
                   <div className="ig-add">
                     <div className="ig-add-t">
-                      {/* TODO(spec): this label is the only text in the block
-                          that never overrides its preset colour, so it takes
-                          the preset default rather than a palette token. */}
+                      {/* This is the only text node in the block that sets no
+                          text colour of its own, so it takes its 12/16/500
+                          preset's default, which is literally #666. */}
                       <p className="t-micro" style={{ color: "#666" }}>
                         Add integration
                       </p>
                     </div>
-                    <a className="ig-add-btn" href="/integrations">
-                      <Icon id="3356954461" size={12} color="#f5f5f4" strokeWidth={2} />
-                    </a>
+                    {/* Light / XS circular button: background only, on the
+                        house spring, and the icon tint never moves. */}
+                    <motion.a
+                      className="ig-add-btn"
+                      href="/integrations"
+                      initial={false}
+                      whileHover={{ backgroundColor: BTN_LIGHT_HOVER }}
+                      whileTap={{ backgroundColor: BTN_LIGHT_PRESS }}
+                      transition={SPRING}
+                    >
+                      <Icon id="3356954461" size={12} color={ICON} strokeWidth={2} />
+                    </motion.a>
                   </div>
                 </div>
               </div>
             </motion.div>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       <style>{IG_CSS}</style>
@@ -334,7 +373,8 @@ const IG_CSS = `
   box-shadow: inset 1px 0 0 0 ${LINE}, inset -1px 0 0 0 ${LINE};
 }
 
-/* the hairline across the top edge */
+/* the chromatic hairline across the top edge; the rule itself carries its
+   own box styles, this is only the sizing wrapper */
 .ig-end-c {
   position: absolute;
   z-index: 1;
@@ -343,18 +383,6 @@ const IG_CSS = `
   top: 0;
   left: 0;
   right: 0;
-}
-.ig-end {
-  position: relative;
-  display: flex;
-  flex-flow: row;
-  place-content: center;
-  align-items: center;
-  gap: 0;
-  width: 100%;
-  height: min-content;
-  padding: 0;
-  overflow: clip;
 }
 
 /* left column */
@@ -425,13 +453,16 @@ const IG_CSS = `
   -webkit-user-select: none;
   user-select: none;
 }
-/* Hover: the label goes to the heading colour and the chip to the dim grey,
-   over the 0.1s the captured frames measure.
-   TODO(spec): the curve is the house easing; the capture pins the duration
-   and the two end colours, not the interpolation. */
+/* This is the one link whose label colour moves, and the one button on the
+   page that is not on the house spring: label and circle change together over
+   0.1s on the sine curve [0.44, 0, 0.56, 1]. The captured hover run measures
+   537 to 635ms in and 2055 to 2156ms out, i.e. 0.1s both ways.
+   Its hover and press circle colours are inverted relative to the standalone
+   Light button: hover is the lighter grey, press the darker one. Transcribed
+   as found, not normalised. */
 .ig-link-t p {
-  color: ${MUTED};
-  transition: color 0.1s cubic-bezier(0.12, 0.23, 0.5, 1);
+  color: ${LINK_LABEL};
+  transition: color 0.1s cubic-bezier(0.44, 0, 0.56, 1);
 }
 .ig-circle {
   position: relative;
@@ -450,10 +481,12 @@ const IG_CSS = `
   cursor: pointer;
   border-radius: 52px;
   background-color: ${CHIP_BG};
-  transition: background-color 0.1s cubic-bezier(0.12, 0.23, 0.5, 1);
+  transition: background-color 0.1s cubic-bezier(0.44, 0, 0.56, 1);
 }
-.ig-link:hover .ig-link-t p { color: ${HEAD}; }
-.ig-link:hover .ig-circle { background-color: ${DIM}; }
+.ig-link:hover .ig-link-t p { color: ${LINK_LABEL_HOVER}; }
+.ig-link:hover .ig-circle { background-color: ${LINK_CIRCLE_HOVER}; }
+.ig-link:active .ig-link-t p { color: ${LINK_LABEL}; }
+.ig-link:active .ig-circle { background-color: ${LINK_CIRCLE_PRESS}; }
 
 /* right column */
 .ig-visual {
