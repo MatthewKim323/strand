@@ -1,0 +1,3084 @@
+{
+ "capturedAt": "2026-09-12T11:51:03.804Z",
+ "stack": {
+  "framework": "framer",
+  "framer": true,
+  "framerMotion": true,
+  "webflow": true,
+  "lenis": true,
+  "gsap": false,
+  "three": true,
+  "spline": false,
+  "notes": [
+   "Built with Framer: appear ids, data-framer-name, framerusercontent modules. Use `1to1 prep` + `1to1 rip`.",
+   "Lenis smooth scroll present: window.scrollTo may be overridden, rigs fall back to wheel events.",
+   "5 canvas element(s): WebGL / 2D drawing to port (find the module that draws it)."
+  ]
+ },
+ "computed": [
+  {
+   "selector": "html.lenis.lenis-autoToggle",
+   "tag": "html",
+   "text": "Strand - AI Data Intelligence Platform\n    \n    \n    \n    \n ",
+   "transition": "overflow 0.001s ease 0s",
+   "framer": {}
+  },
+  {
+   "selector": "html.lenis.lenis-autoToggle > head > style",
+   "tag": "style",
+   "text": "html,body,#main{box-sizing:border-box;margin:0;padding:0}:ro",
+   "framer": {
+    "framerComponents": "framer-lib-cursors-host framer-2U5dV PropertyOverrides framer-Ixlxu framer-lib-combinedCSSRules framer-Hi6IO framer-YfD1"
+   }
+  },
+  {
+   "selector": "html.lenis.lenis-autoToggle > head > style",
+   "tag": "style",
+   "framer": {
+    "framerCss": "true"
+   }
+  },
+  {
+   "selector": "div",
+   "tag": "div",
+   "text": ":root body { background: var(--token-7f40e4a1-2b83-444e-8765",
+   "framer": {
+    "framerHydrateV2": "{\"routeId\":\"J3kIQxbDr\",\"localeId\":\"default\",\"breakpoints\":[{\"hash\":\"t9r974\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\":",
+    "framerSsrReleasedAt": "2026-08-24T09:50:12.472Z",
+    "framerPageOptimizedAt": "2026-08-25T15:19:48.195Z"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerAppearId": "w6pet3"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrandfrom$109",
+   "framer": {
+    "framerName": "Details"
+   }
+  },
+  {
+   "selector": "div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s",
+   "tag": "div",
+   "text": "StrandTemplatePurchaseStrand",
+   "framer": {
+    "framerName": "Purchase Template"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l",
+   "tag": "div",
+   "text": "StrandTemplate",
+   "framer": {
+    "framerName": "Template Name"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l > div.framer-1y4sdjl",
+   "tag": "div",
+   "text": "Strand",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cbou7l > div.framer-1dltf4q",
+   "tag": "div",
+   "text": "Template",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6",
+   "tag": "div",
+   "text": "PurchaseStrand",
+   "framer": {
+    "framerName": "Template Name"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6 > div.framer-1nwln5j",
+   "tag": "div",
+   "text": "Purchase",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-34ef9s > div.framer-1cuave6 > div.framer-xmkk33",
+   "tag": "div",
+   "text": "Strand",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w",
+   "tag": "div",
+   "text": "from$109",
+   "framer": {
+    "framerName": "Starting from"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w > div.framer-a14xbr",
+   "tag": "div",
+   "text": "from",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-1rktaa5 > div.framer-19kr23w > div.framer-5r25d2",
+   "tag": "div",
+   "text": "$109",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1e3jmh > div.framer-w6pet3-container > div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-dkby0a",
+   "tag": "div",
+   "framer": {
+    "framerName": "Image Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-Ixlxu.framer-1gkvrwn > div.framer-dkby0a > div.framer-15d7y5z > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-gu3ill",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Navigation"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-gu3ill > div.framer-2zulxl",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-gu3ill > div.framer-2zulxl > div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Desktop"
+   }
+  },
+  {
+   "selector": "div.framer-2zulxl > div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAboutGet started",
+   "framer": {
+    "framerName": "Nav Stack"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAbout",
+   "framer": {
+    "framerName": "Main Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > a.framer-tfxiwl.framer-1nrg7n2",
+   "tag": "a",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > a.framer-tfxiwl.framer-1nrg7n2 > div.framer-6rl07u",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG",
+    "framerName": "Union"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19",
+   "tag": "div",
+   "text": "FeaturesResourcesPricingAbout",
+   "framer": {
+    "framerName": "Navigation Menu"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerName": "Features"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Features",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-4q76zg > div.framer-llwb19 > div.framer-12dyuiv-container > a.framer-nnJOX.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Right Icon"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerName": "Resources"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Resources",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-4q76zg > div.framer-llwb19 > div.framer-9sm63-container > a.framer-nnJOX.framer-95lQp > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Right Icon"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1jhb7w3-container",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Pricing"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1jhb7w3-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Pricing",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-1jhb7w3-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1fx5otc-container",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerName": "About"
+   }
+  },
+  {
+   "selector": "div.framer-15x7pvg > div.framer-4q76zg > div.framer-llwb19 > div.framer-1fx5otc-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "About",
+   "framer": {
+    "framerName": "Ghost / LG"
+   }
+  },
+  {
+   "selector": "div.framer-llwb19 > div.framer-1fx5otc-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-1g056l3 > div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Buttons"
+   }
+  },
+  {
+   "selector": "div.framer-1j6v7h8-container > div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0 > div.framer-ttq5lt-container",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Sign up"
+   }
+  },
+  {
+   "selector": "div.framer-Hi6IO.framer-QXjqX > div.framer-15x7pvg > div.framer-rq3bc0 > div.framer-ttq5lt-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / LG"
+   }
+  },
+  {
+   "selector": "div.framer-rq3bc0 > div.framer-ttq5lt-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-d91d49",
+   "tag": "div",
+   "text": "FeaturesCortexCortexConnect every data source.Zero manual ma",
+   "framer": {
+    "framerName": "Hero"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-d91d49 > div.framer-1b6jp01",
+   "tag": "div",
+   "text": "FeaturesCortexCortexConnect every data source.Zero manual ma",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-d91d49 > div.framer-1b6jp01 > div.framer-6483p4",
+   "tag": "div",
+   "text": "FeaturesCortex",
+   "framer": {
+    "framerName": "Upper Stack"
+   }
+  },
+  {
+   "selector": "div.framer-lPqUD.framer-Hl0ue > div.framer-d91d49 > div.framer-1b6jp01 > div.framer-6483p4 > div.framer-1x0ik5x",
+   "tag": "div",
+   "text": "FeaturesCortex",
+   "framer": {
+    "framerName": "Left Column"
+   }
+  },
+  {
+   "selector": "div.framer-d91d49 > div.framer-1b6jp01 > div.framer-6483p4 > div.framer-1x0ik5x > div.framer-1b9cc6j",
+   "tag": "div",
+   "text": "FeaturesCortex",
+   "framer": {
+    "framerName": "Breadcrumbs"
+   }
+  },
+  {
+   "selector": "div.framer-1b6jp01 > div.framer-6483p4 > div.framer-1x0ik5x > div.framer-1b9cc6j > div.framer-1kvhboy",
+   "tag": "div",
+   "text": "FeaturesCortex",
+   "framer": {
+    "framerName": "Scroll Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1b9cc6j > div.framer-1kvhboy > div.framer-pd13iz-container > div.ssr-variant.hidden-m61pbl > div.framer-8lJc6.framer-hlXus",
+   "tag": "div",
+   "text": "FeaturesCortex",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1kvhboy > div.framer-pd13iz-container > div.ssr-variant.hidden-m61pbl > div.framer-8lJc6.framer-hlXus > div.framer-6thjid",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerName": "Link 1",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-8lJc6.framer-hlXus > div.framer-6thjid > p.framer-text.framer-styles-preset-c6fndl > a.framer-text.framer-styles-preset-bg0y7m",
+   "tag": "a",
+   "text": "Features",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-pd13iz-container > div.ssr-variant.hidden-m61pbl > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o",
+   "tag": "div",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o > div.framer-gogk9y",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -3"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o > div.framer-1xm8b4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 2 -2"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o > div.framer-14d3uid",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 3 -1"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o > div.framer-1s74r8s",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -3"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o > div.framer-mweelx",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -2"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-8lJc6.framer-hlXus > div.framer-1f95cqr-container > div.framer-AfnJr.framer-17evz1o > div.framer-1597kz4",
+   "tag": "div",
+   "framer": {
+    "framerName": "Set 1 -1"
+   }
+  },
+  {
+   "selector": "div.framer-1kvhboy > div.framer-pd13iz-container > div.ssr-variant.hidden-m61pbl > div.framer-8lJc6.framer-hlXus > div.framer-griopk",
+   "tag": "div",
+   "text": "Cortex",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-d91d49 > div.framer-1b6jp01 > div.framer-6483p4 > div.framer-1x0ik5x > div.framer-xk0m2d",
+   "tag": "div",
+   "framer": {
+    "framerName": "Main Graphic"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-d91d49 > div.framer-1b6jp01 > div.framer-16sc6bj",
+   "tag": "div",
+   "text": "CortexConnect every data source.Zero manual mapping.",
+   "framer": {
+    "framerName": "Title Container"
+   }
+  },
+  {
+   "selector": "div.framer-d91d49 > div.framer-1b6jp01 > div.framer-16sc6bj > div.framer-oipff-container > div.framer-mEJFY.framer-jhxgU",
+   "tag": "div",
+   "text": "Cortex",
+   "framer": {
+    "framerName": "Extra Padding"
+   }
+  },
+  {
+   "selector": "div.framer-1b6jp01 > div.framer-16sc6bj > div.framer-oipff-container > div.framer-mEJFY.framer-jhxgU > div.framer-6ojv5w",
+   "tag": "div",
+   "text": "Cortex",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-lPqUD.framer-Hl0ue > div.framer-d91d49 > div.framer-1b6jp01 > div.framer-16sc6bj > div.framer-64bvre",
+   "tag": "div",
+   "text": "Connect every data source.Zero manual mapping.",
+   "framer": {
+    "framerName": "Title Stack"
+   }
+  },
+  {
+   "selector": "div.framer-1b6jp01 > div.framer-16sc6bj > div.framer-64bvre > div.ssr-variant.hidden-m61pbl > div.framer-16ua2w",
+   "tag": "div",
+   "text": "Connect every data source.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1b6jp01 > div.framer-16sc6bj > div.framer-64bvre > div.ssr-variant.hidden-m61pbl > div.framer-1uy93zh",
+   "tag": "div",
+   "text": "Zero manual mapping.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-2qfhem",
+   "tag": "div",
+   "text": "The knowledge graph that connects everything. Relationships ",
+   "framer": {
+    "framerName": "CTA"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-2qfhem > div.framer-14ix8jx",
+   "tag": "div",
+   "text": "The knowledge graph that connects everything. Relationships ",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-lPqUD.framer-Hl0ue > div.framer-2qfhem > div.framer-14ix8jx > div.ssr-variant.hidden-m61pbl > div.framer-1f6vauh",
+   "tag": "div",
+   "text": "The knowledge graph that connects everything. Relationships ",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-2qfhem > div.framer-14ix8jx > div.framer-1hf70g8",
+   "tag": "div",
+   "text": "Get startedView prices",
+   "framer": {
+    "framerName": "CTA Buttons"
+   }
+  },
+  {
+   "selector": "div.framer-2qfhem > div.framer-14ix8jx > div.framer-1hf70g8 > div.ssr-variant > div.framer-u0wjsj-container",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Get Started"
+   }
+  },
+  {
+   "selector": "div.framer-14ix8jx > div.framer-1hf70g8 > div.ssr-variant > div.framer-u0wjsj-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / XL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-u0wjsj-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2qfhem > div.framer-14ix8jx > div.framer-1hf70g8 > div.ssr-variant > div.framer-16v0zu5-container",
+   "tag": "div",
+   "text": "View prices",
+   "framer": {
+    "framerName": "View Prices"
+   }
+  },
+  {
+   "selector": "div.framer-14ix8jx > div.framer-1hf70g8 > div.ssr-variant > div.framer-16v0zu5-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "View prices",
+   "framer": {
+    "framerName": "Secondary / XL"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-16v0zu5-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "View prices",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-18ddmlc",
+   "tag": "div",
+   "text": "J. Smithjohn.smith@company.comSynced from:SyncedVaultDBjsmit",
+   "framer": {
+    "framerName": "Bento"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-18ddmlc > div.framer-t0ve3r",
+   "tag": "div",
+   "text": "J. Smithjohn.smith@company.comSynced from:SyncedVaultDBjsmit",
+   "framer": {
+    "framerName": "Bento Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-18ddmlc > div.framer-t0ve3r > div.framer-ksp37d",
+   "tag": "div",
+   "text": "J. Smithjohn.smith@company.comSynced from:SyncedVaultDBjsmit",
+   "framer": {
+    "framerName": "First Row"
+   }
+  },
+  {
+   "selector": "div.framer-lPqUD.framer-Hl0ue > div.framer-18ddmlc > div.framer-t0ve3r > div.framer-ksp37d > div.framer-1qq662d",
+   "tag": "div",
+   "text": "J. Smithjohn.smith@company.comSynced from:SyncedVaultDBjsmit",
+   "framer": {
+    "framerName": "Entity"
+   }
+  },
+  {
+   "selector": "div.framer-18ddmlc > div.framer-t0ve3r > div.framer-ksp37d > div.framer-1qq662d > div.framer-hq868h",
+   "tag": "div",
+   "text": "J. Smithjohn.smith@company.comSynced from:SyncedVaultDBjsmit",
+   "framer": {
+    "framerName": "Visual Container"
+   }
+  },
+  {
+   "selector": "div.framer-ksp37d > div.framer-1qq662d > div.framer-hq868h > div.ssr-variant.hidden-m61pbl > div.framer-94nwte",
+   "tag": "div",
+   "text": "J. Smithjohn.smith@company.comSynced from:SyncedVaultDBjsmit",
+   "framer": {
+    "framerName": "Graph"
+   }
+  },
+  {
+   "selector": "div.framer-hq868h > div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-18wx6fs > div.framer-mqxwpx",
+   "tag": "div",
+   "text": "J. Smithjohn.smith@company.com",
+   "framer": {
+    "framerName": "Account Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-18wx6fs > div.framer-mqxwpx > div.framer-1xw1gm9",
+   "tag": "div",
+   "text": "J. Smith",
+   "framer": {
+    "framerName": "Account Holder",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-18wx6fs > div.framer-mqxwpx > div.framer-msmcza",
+   "tag": "div",
+   "text": "john.smith@company.com",
+   "framer": {
+    "framerName": "Account Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-hq868h > div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-18wx6fs > div.framer-xo6klp",
+   "tag": "div",
+   "text": "Synced from:",
+   "framer": {
+    "framerName": "Synced"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-18wx6fs > div.framer-xo6klp > div.framer-1x5ckm7",
+   "tag": "div",
+   "text": "Synced from:",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-18wx6fs > div.framer-xo6klp > div.framer-rg60k5",
+   "tag": "div",
+   "framer": {
+    "framerName": "Synced From"
+   }
+  },
+  {
+   "selector": "div.framer-94nwte > div.framer-18wx6fs > div.framer-xo6klp > div.framer-rg60k5 > div.framer-qfopnd",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.framer-94nwte > div.framer-18wx6fs > div.framer-xo6klp > div.framer-rg60k5 > div.framer-1fmevzs",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.framer-94nwte > div.framer-18wx6fs > div.framer-xo6klp > div.framer-rg60k5 > div.framer-uxi87b",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.ssr-variant > div.framer-1rkbr8y-container > div.framer-mEJFY.framer-jhxgU",
+   "tag": "div",
+   "text": "Synced",
+   "framer": {
+    "framerName": "Small"
+   }
+  },
+  {
+   "selector": "div.framer-94nwte > div.ssr-variant > div.framer-1rkbr8y-container > div.framer-mEJFY.framer-jhxgU > div.framer-6ojv5w",
+   "tag": "div",
+   "text": "Synced",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1qq662d > div.framer-hq868h > div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-gj3ddc",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div.framer-1qq662d > div.framer-hq868h > div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-fc4mh1",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div.framer-1qq662d > div.framer-hq868h > div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-91mggf",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-cl1iwk > div.framer-15h13ew > div.framer-pdvx8d",
+   "tag": "div",
+   "text": "VaultDB",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-hq868h > div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-cl1iwk > div.framer-seie3i",
+   "tag": "div",
+   "text": "jsmith@co.com",
+   "framer": {
+    "framerName": "Account",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-nkpr60 > div.framer-1wnv8xx > div.framer-1k8lej1",
+   "tag": "div",
+   "text": "Gridwork",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-hq868h > div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-nkpr60 > div.framer-ati351",
+   "tag": "div",
+   "text": "J. Smith",
+   "framer": {
+    "framerName": "Account",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-dlfnux > div.framer-wxduwt > div.framer-z0hh22",
+   "tag": "div",
+   "text": "Pipecloud",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-hq868h > div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.framer-dlfnux > div.framer-2kx12f",
+   "tag": "div",
+   "text": "John Smith",
+   "framer": {
+    "framerName": "Account",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-94nwte > div.ssr-variant > div.framer-1l1s17c-container > div.framer-mEJFY.framer-jhxgU",
+   "tag": "div",
+   "text": "Records found",
+   "framer": {
+    "framerName": "Small"
+   }
+  },
+  {
+   "selector": "div.framer-94nwte > div.ssr-variant > div.framer-1l1s17c-container > div.framer-mEJFY.framer-jhxgU > div.framer-6ojv5w",
+   "tag": "div",
+   "text": "Records found",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-18ddmlc > div.framer-t0ve3r > div.framer-ksp37d > div.framer-1qq662d > div.framer-1ygphh8",
+   "tag": "div",
+   "text": "Entity resolution, automatic.Same customer across your CRM, ",
+   "framer": {
+    "framerName": "Text"
+   }
+  },
+  {
+   "selector": "div.framer-t0ve3r > div.framer-ksp37d > div.framer-1qq662d > div.framer-1ygphh8 > div.framer-179wd2f",
+   "tag": "div",
+   "text": "Entity resolution, automatic.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-t0ve3r > div.framer-ksp37d > div.framer-1qq662d > div.framer-1ygphh8 > div.framer-d8iupy",
+   "tag": "div",
+   "text": "Same customer across your CRM, payments, and database - Cort",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-lPqUD.framer-Hl0ue > div.framer-18ddmlc > div.framer-t0ve3r > div.framer-ksp37d > div.framer-rue5ov",
+   "tag": "div",
+   "text": "Account updatedPipecloudjust nowNew payment linkedStride12s ",
+   "framer": {
+    "framerName": "Graph"
+   }
+  },
+  {
+   "selector": "div.framer-18ddmlc > div.framer-t0ve3r > div.framer-ksp37d > div.framer-rue5ov > div.framer-1jbutfi",
+   "tag": "div",
+   "text": "Account updatedPipecloudjust nowNew payment linkedStride12s ",
+   "framer": {
+    "framerName": "Visual Container"
+   }
+  },
+  {
+   "selector": "div.framer-ksp37d > div.framer-rue5ov > div.framer-1jbutfi > div.ssr-variant.hidden-m61pbl > div.framer-1sl0wq1",
+   "tag": "div",
+   "text": "Account updatedPipecloudjust nowNew payment linkedStride12s ",
+   "framer": {
+    "framerName": "Notifications"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-1sl0wq1 > div.ssr-variant > div.framer-1ysb7qc-container > div.framer-zvn7L.framer-KQOh7",
+   "tag": "div",
+   "text": "Account updatedPipecloudjust now",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1sl0wq1 > div.ssr-variant > div.framer-1ysb7qc-container > div.framer-zvn7L.framer-KQOh7 > div.framer-59psfr",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1ysb7qc-container > div.framer-zvn7L.framer-KQOh7 > div.framer-59psfr > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-1sl0wq1 > div.ssr-variant > div.framer-1ysb7qc-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se",
+   "tag": "div",
+   "text": "Account updatedPipecloudjust now",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1ysb7qc-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-5lpitq",
+   "tag": "div",
+   "text": "Account updated",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1ysb7qc-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b",
+   "tag": "div",
+   "text": "Pipecloudjust now",
+   "framer": {
+    "framerName": "Additional Info"
+   }
+  },
+  {
+   "selector": "div.framer-1ysb7qc-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b > div.framer-1ac45mm",
+   "tag": "div",
+   "text": "Pipecloud",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1ysb7qc-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b > div.framer-1pctx4h",
+   "tag": "div",
+   "text": "just now",
+   "framer": {
+    "framerName": "Time",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-1sl0wq1 > div.ssr-variant > div.framer-w9oi0i-container > div.framer-zvn7L.framer-KQOh7",
+   "tag": "div",
+   "text": "New payment linkedStride12s ago",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1sl0wq1 > div.ssr-variant > div.framer-w9oi0i-container > div.framer-zvn7L.framer-KQOh7 > div.framer-59psfr",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-w9oi0i-container > div.framer-zvn7L.framer-KQOh7 > div.framer-59psfr > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-1sl0wq1 > div.ssr-variant > div.framer-w9oi0i-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se",
+   "tag": "div",
+   "text": "New payment linkedStride12s ago",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-w9oi0i-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-5lpitq",
+   "tag": "div",
+   "text": "New payment linked",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-w9oi0i-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b",
+   "tag": "div",
+   "text": "Stride12s ago",
+   "framer": {
+    "framerName": "Additional Info"
+   }
+  },
+  {
+   "selector": "div.framer-w9oi0i-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b > div.framer-1ac45mm",
+   "tag": "div",
+   "text": "Stride",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-w9oi0i-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b > div.framer-1pctx4h",
+   "tag": "div",
+   "text": "12s ago",
+   "framer": {
+    "framerName": "Time",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-1sl0wq1 > div.ssr-variant > div.framer-1khrb14-container > div.framer-zvn7L.framer-KQOh7",
+   "tag": "div",
+   "text": "Record createdVaultDB28s ago",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1sl0wq1 > div.ssr-variant > div.framer-1khrb14-container > div.framer-zvn7L.framer-KQOh7 > div.framer-59psfr",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1khrb14-container > div.framer-zvn7L.framer-KQOh7 > div.framer-59psfr > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-1sl0wq1 > div.ssr-variant > div.framer-1khrb14-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se",
+   "tag": "div",
+   "text": "Record createdVaultDB28s ago",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1khrb14-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-5lpitq",
+   "tag": "div",
+   "text": "Record created",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1khrb14-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b",
+   "tag": "div",
+   "text": "VaultDB28s ago",
+   "framer": {
+    "framerName": "Additional Info"
+   }
+  },
+  {
+   "selector": "div.framer-1khrb14-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b > div.framer-1ac45mm",
+   "tag": "div",
+   "text": "VaultDB",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1khrb14-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b > div.framer-1pctx4h",
+   "tag": "div",
+   "text": "28s ago",
+   "framer": {
+    "framerName": "Time",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-1sl0wq1 > div.ssr-variant > div.framer-sjfgvz-container > div.framer-zvn7L.framer-KQOh7",
+   "tag": "div",
+   "text": "Entity resolvedPipecloud1m ago",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1sl0wq1 > div.ssr-variant > div.framer-sjfgvz-container > div.framer-zvn7L.framer-KQOh7 > div.framer-59psfr",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-sjfgvz-container > div.framer-zvn7L.framer-KQOh7 > div.framer-59psfr > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-1sl0wq1 > div.ssr-variant > div.framer-sjfgvz-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se",
+   "tag": "div",
+   "text": "Entity resolvedPipecloud1m ago",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-sjfgvz-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-5lpitq",
+   "tag": "div",
+   "text": "Entity resolved",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-sjfgvz-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b",
+   "tag": "div",
+   "text": "Pipecloud1m ago",
+   "framer": {
+    "framerName": "Additional Info"
+   }
+  },
+  {
+   "selector": "div.framer-sjfgvz-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b > div.framer-1ac45mm",
+   "tag": "div",
+   "text": "Pipecloud",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-sjfgvz-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b > div.framer-1pctx4h",
+   "tag": "div",
+   "text": "1m ago",
+   "framer": {
+    "framerName": "Time",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-1sl0wq1 > div.ssr-variant > div.framer-1lo6cen-container > div.framer-zvn7L.framer-KQOh7",
+   "tag": "div",
+   "text": "Subscription changedStride2m ago",
+   "framer": {
+    "framerName": "Variant 1"
+   }
+  },
+  {
+   "selector": "div.framer-1sl0wq1 > div.ssr-variant > div.framer-1lo6cen-container > div.framer-zvn7L.framer-KQOh7 > div.framer-59psfr",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1lo6cen-container > div.framer-zvn7L.framer-KQOh7 > div.framer-59psfr > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.framer-1sl0wq1 > div.ssr-variant > div.framer-1lo6cen-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se",
+   "tag": "div",
+   "text": "Subscription changedStride2m ago",
+   "framer": {
+    "framerName": "Info"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1lo6cen-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-5lpitq",
+   "tag": "div",
+   "text": "Subscription changed",
+   "framer": {
+    "framerName": "Title",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1lo6cen-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b",
+   "tag": "div",
+   "text": "Stride2m ago",
+   "framer": {
+    "framerName": "Additional Info"
+   }
+  },
+  {
+   "selector": "div.framer-1lo6cen-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b > div.framer-1ac45mm",
+   "tag": "div",
+   "text": "Stride",
+   "framer": {
+    "framerName": "Secondary Info",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1lo6cen-container > div.framer-zvn7L.framer-KQOh7 > div.framer-17pz0se > div.framer-1whe76b > div.framer-1pctx4h",
+   "tag": "div",
+   "text": "2m ago",
+   "framer": {
+    "framerName": "Time",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-18ddmlc > div.framer-t0ve3r > div.framer-ksp37d > div.framer-rue5ov > div.framer-12755db",
+   "tag": "div",
+   "text": "The graph updates itself.Every change in a connected tool re",
+   "framer": {
+    "framerName": "Text"
+   }
+  },
+  {
+   "selector": "div.framer-t0ve3r > div.framer-ksp37d > div.framer-rue5ov > div.framer-12755db > div.framer-n0kzyo",
+   "tag": "div",
+   "text": "The graph updates itself.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-t0ve3r > div.framer-ksp37d > div.framer-rue5ov > div.framer-12755db > div.framer-1u559kn",
+   "tag": "div",
+   "text": "Every change in a connected tool reflects within seconds. Al",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-18ddmlc > div.framer-t0ve3r > div.ssr-variant > div.framer-12l7jec-container > div.framer-kEcQz.framer-bd4w60",
+   "tag": "div",
+   "framer": {
+    "framerName": "End"
+   }
+  },
+  {
+   "selector": "div.framer-t0ve3r > div.ssr-variant > div.framer-12l7jec-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Left"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-12l7jec-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-u6zm30",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-12l7jec-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1s7vawm",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-12l7jec-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1ndw0of",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-t0ve3r > div.ssr-variant > div.framer-12l7jec-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-12l7jec-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-ddlp53",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-12l7jec-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1is7c6b",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-12l7jec-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1j63n4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-18ddmlc > div.framer-t0ve3r > div.framer-1xsxjoa",
+   "tag": "div",
+   "text": "Explore relationships without writing a query.Browse connect",
+   "framer": {
+    "framerName": "Second Row"
+   }
+  },
+  {
+   "selector": "div.framer-lPqUD.framer-Hl0ue > div.framer-18ddmlc > div.framer-t0ve3r > div.framer-1xsxjoa > div.framer-kuws7k.hidden-m61pbl",
+   "tag": "div",
+   "text": "Explore relationships without writing a query.Browse connect",
+   "framer": {
+    "framerName": "Text"
+   }
+  },
+  {
+   "selector": "div.framer-18ddmlc > div.framer-t0ve3r > div.framer-1xsxjoa > div.framer-kuws7k.hidden-m61pbl > div.framer-12r444j",
+   "tag": "div",
+   "text": "Explore relationships without writing a query.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-18ddmlc > div.framer-t0ve3r > div.framer-1xsxjoa > div.framer-kuws7k.hidden-m61pbl > div.framer-19pnt8l",
+   "tag": "div",
+   "text": "Browse connections between any two entities - customers, rev",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-lPqUD.framer-Hl0ue > div.framer-18ddmlc > div.framer-t0ve3r > div.framer-1xsxjoa > div.framer-n17h3d",
+   "tag": "div",
+   "text": "SubscriptionActivePlanEnterpriseRenewalDec 14, 2025MRR$1,240",
+   "framer": {
+    "framerName": "Visual Container"
+   }
+  },
+  {
+   "selector": "div.framer-n17h3d > div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-ysaefe > div.framer-1aytrmc",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div.framer-n17h3d > div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-ysaefe > div.framer-zc7o68",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-ysaefe > div.framer-p9glvx > div.framer-b9wpyg",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div.framer-17wzrez > div.framer-ysaefe > div.framer-p9glvx > div.framer-b9wpyg > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-ysaefe > div.framer-p9glvx > div.framer-160qg1z",
+   "tag": "div",
+   "text": "Subscription",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-n17h3d > div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-ysaefe > div.framer-glelzn",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div.framer-n17h3d > div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-ysaefe > div.framer-okn8zj",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div.framer-n17h3d > div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-gefpl7 > div.framer-1qigg2q",
+   "tag": "div",
+   "text": "Active",
+   "framer": {
+    "framerName": "Status"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-gefpl7 > div.framer-1qigg2q > img.framer-zS0tf.framer-ru0d",
+   "tag": "img",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-gefpl7 > div.framer-1qigg2q > div.framer-1758hmj",
+   "tag": "div",
+   "text": "Active",
+   "framer": {
+    "framerName": "Status"
+   }
+  },
+  {
+   "selector": "div.framer-17wzrez > div.framer-gefpl7 > div.framer-1qigg2q > div.framer-1758hmj > div.framer-1ye19t9",
+   "tag": "div",
+   "text": "Active",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-n17h3d > div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-gefpl7 > div.framer-1ne6vqi",
+   "tag": "div",
+   "text": "PlanEnterpriseRenewalDec 14, 2025MRR$1,240",
+   "framer": {
+    "framerName": "Info Container"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-gefpl7 > div.framer-1ne6vqi > div.framer-1pkrzq6",
+   "tag": "div",
+   "text": "PlanEnterprise",
+   "framer": {
+    "framerName": "Row"
+   }
+  },
+  {
+   "selector": "div.framer-17wzrez > div.framer-gefpl7 > div.framer-1ne6vqi > div.framer-1pkrzq6 > div.framer-15zw8ro",
+   "tag": "div",
+   "text": "Plan",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-17wzrez > div.framer-gefpl7 > div.framer-1ne6vqi > div.framer-1pkrzq6 > div.framer-3r3hm",
+   "tag": "div",
+   "text": "Enterprise",
+   "framer": {
+    "framerName": "Detail",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-gefpl7 > div.framer-1ne6vqi > div.framer-1kfwlm6",
+   "tag": "div",
+   "text": "RenewalDec 14, 2025",
+   "framer": {
+    "framerName": "Row"
+   }
+  },
+  {
+   "selector": "div.framer-17wzrez > div.framer-gefpl7 > div.framer-1ne6vqi > div.framer-1kfwlm6 > div.framer-1ukv1se",
+   "tag": "div",
+   "text": "Renewal",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-17wzrez > div.framer-gefpl7 > div.framer-1ne6vqi > div.framer-1kfwlm6 > div.framer-1kgataz",
+   "tag": "div",
+   "text": "Dec 14, 2025",
+   "framer": {
+    "framerName": "Detail",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant.hidden-m61pbl > div.framer-17wzrez > div.framer-gefpl7 > div.framer-1ne6vqi > div.framer-13lrefg",
+   "tag": "div",
+   "text": "MRR$1,240",
+   "framer": {
+    "framerName": "Row"
+   }
+  },
+  {
+   "selector": "div.framer-17wzrez > div.framer-gefpl7 > div.framer-1ne6vqi > div.framer-13lrefg > div.framer-1snq20n",
+   "tag": "div",
+   "text": "MRR",
+   "framer": {
+    "framerName": "Name",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-17wzrez > div.framer-gefpl7 > div.framer-1ne6vqi > div.framer-13lrefg > div.framer-ydz9su",
+   "tag": "div",
+   "text": "$1,240",
+   "framer": {
+    "framerName": "Detail",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-18ddmlc > div.framer-t0ve3r > div.ssr-variant > div.framer-1gp9lk2-container > div.framer-kEcQz.framer-bd4w60",
+   "tag": "div",
+   "framer": {
+    "framerName": "End"
+   }
+  },
+  {
+   "selector": "div.framer-t0ve3r > div.ssr-variant > div.framer-1gp9lk2-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn",
+   "tag": "div",
+   "framer": {
+    "framerName": "Left"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1gp9lk2-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-u6zm30",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1gp9lk2-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1s7vawm",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1gp9lk2-container > div.framer-kEcQz.framer-bd4w60 > div.framer-t5arn > div.framer-1ndw0of",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div.framer-t0ve3r > div.ssr-variant > div.framer-1gp9lk2-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig",
+   "tag": "div",
+   "framer": {
+    "framerName": "Right"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1gp9lk2-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-ddlp53",
+   "tag": "div",
+   "framer": {
+    "framerName": "b"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1gp9lk2-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1is7c6b",
+   "tag": "div",
+   "framer": {
+    "framerName": "g"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1gp9lk2-container > div.framer-kEcQz.framer-bd4w60 > div.framer-12bx2ig > div.framer-1j63n4i",
+   "tag": "div",
+   "framer": {
+    "framerName": "r"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-19z2kmk",
+   "tag": "div",
+   "text": "Every relationship in your stack, mapped and queryable.Custo",
+   "framer": {
+    "framerName": "Accordion"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-lPqUD.framer-Hl0ue > div.framer-19z2kmk > div.framer-zlr3dl",
+   "tag": "div",
+   "text": "Every relationship in your stack, mapped and queryable.Custo",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div > div > div > div > div.framer-1kum0lb",
+   "tag": "div",
+   "text": "CustomerSupport TicketRevenueSubscriptionRELATIONSHIP DISCOV",
+   "framer": {
+    "framerName": "Relationship"
+   }
+  },
+  {
+   "selector": "div > div > div > div.framer-1kum0lb > div.framer-19xmc9o",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-v8vep7 > div.framer-1y01wqc",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-1kum0lb > div.framer-v8vep7 > div.framer-1y01wqc > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-v8vep7 > div.framer-1ozl5z4",
+   "tag": "div",
+   "text": "Customer",
+   "framer": {
+    "framerName": "Account",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div > div.framer-1kum0lb > div.framer-48wtyb",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-nuv6aj > div.framer-uekvwq",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-1kum0lb > div.framer-nuv6aj > div.framer-uekvwq > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-nuv6aj > div.framer-1qh03nu",
+   "tag": "div",
+   "text": "Support Ticket",
+   "framer": {
+    "framerName": "Account",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div > div.framer-1kum0lb > div.framer-dplp3b",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-dgc4y6 > div.framer-3uq5qj",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-1kum0lb > div.framer-dgc4y6 > div.framer-3uq5qj > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-dgc4y6 > div.framer-1f08fs4",
+   "tag": "div",
+   "text": "Revenue",
+   "framer": {
+    "framerName": "Account",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-k1d14c > div.framer-wpdngb",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-1kum0lb > div.framer-k1d14c > div.framer-wpdngb > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-k1d14c > div.framer-1y2g9rl",
+   "tag": "div",
+   "text": "Subscription",
+   "framer": {
+    "framerName": "Account",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div > div.framer-1kum0lb > div.framer-16x74dk",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-1c7gk2q > div.framer-10klfh0",
+   "tag": "div",
+   "text": "RELATIONSHIP DISCOVERED",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-1c7gk2q > div.framer-1qbxuet",
+   "tag": "div",
+   "text": "Support volume correlates with revenue drop",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div > div > div.framer-1kum0lb",
+   "tag": "div",
+   "text": "CustomerSupport TicketRevenueSubscriptionRELATIONSHIP DISCOV",
+   "framer": {
+    "framerName": "Relationship"
+   }
+  },
+  {
+   "selector": "div > div > div > div.framer-1kum0lb > div.framer-19xmc9o",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-v8vep7 > div.framer-1y01wqc",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-1kum0lb > div.framer-v8vep7 > div.framer-1y01wqc > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-v8vep7 > div.framer-1ozl5z4",
+   "tag": "div",
+   "text": "Customer",
+   "framer": {
+    "framerName": "Account",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div > div.framer-1kum0lb > div.framer-48wtyb",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-nuv6aj > div.framer-uekvwq",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-1kum0lb > div.framer-nuv6aj > div.framer-uekvwq > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-nuv6aj > div.framer-1qh03nu",
+   "tag": "div",
+   "text": "Support Ticket",
+   "framer": {
+    "framerName": "Account",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div > div.framer-1kum0lb > div.framer-dplp3b",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-dgc4y6 > div.framer-3uq5qj",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-1kum0lb > div.framer-dgc4y6 > div.framer-3uq5qj > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-dgc4y6 > div.framer-1f08fs4",
+   "tag": "div",
+   "text": "Revenue",
+   "framer": {
+    "framerName": "Account",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-k1d14c > div.framer-wpdngb",
+   "tag": "div",
+   "framer": {
+    "framerName": "Icon Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-1kum0lb > div.framer-k1d14c > div.framer-wpdngb > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Icon"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-k1d14c > div.framer-1y2g9rl",
+   "tag": "div",
+   "text": "Subscription",
+   "framer": {
+    "framerName": "Account",
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div > div.framer-1kum0lb > div.framer-16x74dk",
+   "tag": "div",
+   "framer": {
+    "framerComponentType": "SVG"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-1c7gk2q > div.framer-10klfh0",
+   "tag": "div",
+   "text": "RELATIONSHIP DISCOVERED",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div > div.framer-1kum0lb > div.framer-1c7gk2q > div.framer-1qbxuet",
+   "tag": "div",
+   "text": "Support volume correlates with revenue drop",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89",
+   "tag": "div",
+   "text": "Your data, finally connectedGet startedFeaturesCortexAskPuls",
+   "framer": {
+    "framerName": "Footer Container"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1aeo38i",
+   "tag": "div",
+   "text": "Your data, finally connectedGet started",
+   "framer": {
+    "framerName": "CTA"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls",
+   "tag": "div",
+   "text": "Your data, finally connectedGet started",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls > div.framer-1w558nd-container > div.framer-zhkea.framer-sm5shs",
+   "tag": "div",
+   "framer": {
+    "framerName": "Hidden"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1aeo38i > div.framer-9aqjls > div.framer-qr3vrw > div.framer-o9bwxk",
+   "tag": "div",
+   "text": "Your data, finally connected",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1aeo38i > div.framer-9aqjls > div.framer-qr3vrw > div.framer-cq6zkv-container > a.framer-nnJOX.framer-95lQp",
+   "tag": "a",
+   "text": "Get started",
+   "framer": {
+    "framerName": "Primary / XL"
+   }
+  },
+  {
+   "selector": "div.framer-qr3vrw > div.framer-cq6zkv-container > a.framer-nnJOX.framer-95lQp > div.framer-1mqy83k > div.framer-1fuw16a",
+   "tag": "div",
+   "text": "Get started",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Footer"
+   }
+  },
+  {
+   "selector": "div > div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Container"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulseCompanyPricingAboutCareersBlogResource",
+   "framer": {
+    "framerName": "Links"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye",
+   "tag": "div",
+   "text": "FeaturesCortexAskPulse",
+   "framer": {
+    "framerName": "Features Column"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-10jdoq8",
+   "tag": "div",
+   "text": "Features",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p",
+   "tag": "div",
+   "text": "CortexAskPulse",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-1iyk8rt",
+   "tag": "div",
+   "text": "Cortex",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-1iyk8rt > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Cortex",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {
+    "framerPageLinkCurrent": "true"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-t46ej0",
+   "tag": "div",
+   "text": "Ask",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-t46ej0 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Ask",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-11jzkye > div.framer-htlo9p > div.framer-1exanjx",
+   "tag": "div",
+   "text": "Pulse",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-11jzkye > div.framer-htlo9p > div.framer-1exanjx > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Pulse",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2",
+   "tag": "div",
+   "text": "CompanyPricingAboutCareersBlog",
+   "framer": {
+    "framerName": "Company"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-ankizt",
+   "tag": "div",
+   "text": "Company",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he",
+   "tag": "div",
+   "text": "PricingAboutCareersBlog",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-ep2gyo",
+   "tag": "div",
+   "text": "Pricing",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-ep2gyo > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Pricing",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1pjilpz",
+   "tag": "div",
+   "text": "About",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1pjilpz > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "About",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-q2vdhe",
+   "tag": "div",
+   "text": "Careers",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-q2vdhe > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Careers",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1odzm45",
+   "tag": "div",
+   "text": "Blog",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-i8ygc2 > div.framer-v9s6he > div.framer-1odzm45 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Blog",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d",
+   "tag": "div",
+   "text": "ResourcesIntegrationsChangelogDeveloper docsHelp Center404",
+   "framer": {
+    "framerName": "Resources"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1mlm0tb",
+   "tag": "div",
+   "text": "Resources",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt",
+   "tag": "div",
+   "text": "IntegrationsChangelogDeveloper docsHelp Center404",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-iig8n7",
+   "tag": "div",
+   "text": "Integrations",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-iig8n7 > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Integrations",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-te0pfw",
+   "tag": "div",
+   "text": "Changelog",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-te0pfw > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Changelog",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-nc7hme",
+   "tag": "div",
+   "text": "Developer docs",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-nc7hme > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Developer docs",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-uv8dt",
+   "tag": "div",
+   "text": "Help Center",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-uv8dt > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "Help Center",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-wyzuea > div.framer-1q8s67d > div.framer-1giplbt > div.framer-66qyph",
+   "tag": "div",
+   "text": "404",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1q8s67d > div.framer-1giplbt > div.framer-66qyph > p.framer-text.framer-styles-preset-1tsnca > a.framer-text.framer-styles-preset-1ybqtif",
+   "tag": "a",
+   "text": "404",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1",
+   "tag": "div",
+   "text": "ConnectXLinkedInGitHub",
+   "framer": {
+    "framerName": "Connect"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1 > div.framer-qk2vom",
+   "tag": "div",
+   "text": "Connect",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-wyzuea > div.framer-17009n1 > div.framer-vz9imr",
+   "tag": "div",
+   "text": "XLinkedInGitHub",
+   "framer": {
+    "framerName": "Link Stack"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "X",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "X",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17izv7n-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "LinkedIn",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "LinkedIn",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-17atud0-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-17009n1 > div.framer-vz9imr > div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2",
+   "tag": "a",
+   "text": "GitHub",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "div.framer-vz9imr > div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-15bmuku",
+   "tag": "div",
+   "text": "GitHub",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow hovered"
+   }
+  },
+  {
+   "selector": "div.ssr-variant > div.framer-1qtby9m-container > a.framer-TbQBv.framer-NXcw2 > div.framer-l3hlb4 > svg",
+   "tag": "svg",
+   "framer": {
+    "framerName": "Arrow default"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve",
+   "tag": "div",
+   "text": "All systems operational99.98% UPTIMEUpdates on new features ",
+   "framer": {
+    "framerName": "Uptime Newsletter"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry",
+   "tag": "div",
+   "text": "All systems operational99.98% UPTIME",
+   "framer": {
+    "framerName": "Uptime"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry > div.framer-d8ia8i > div.framer-1qrftu8",
+   "tag": "div",
+   "text": "All systems operational",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-j8ngry > div.framer-5jvd8e",
+   "tag": "div",
+   "text": "99.98% UPTIME",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-fqk3g9",
+   "tag": "div",
+   "text": "Updates on new features and releases.Subscribe",
+   "framer": {
+    "framerName": "Newsletter"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-1p5h1ve > div.framer-fqk3g9 > div.framer-27d16y",
+   "tag": "div",
+   "text": "Updates on new features and releases.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1p5h1ve > div.framer-fqk3g9 > div.ssr-variant > div.framer-1exlpg3-container > form.framer-e9zZI.framer-19cj0jd",
+   "tag": "form",
+   "text": "Subscribe",
+   "framer": {
+    "framerName": "Primary"
+   }
+  },
+  {
+   "selector": "div.framer-1exlpg3-container > form.framer-e9zZI.framer-19cj0jd > label.framer-s4lpcw > div.framer-1jl1owp-container > button.framer-DAIlr.framer-95lQp",
+   "tag": "button",
+   "text": "Subscribe",
+   "framer": {
+    "framerName": "Default"
+   }
+  },
+  {
+   "selector": "form.framer-e9zZI.framer-19cj0jd > label.framer-s4lpcw > div.framer-1jl1owp-container > button.framer-DAIlr.framer-95lQp > div.framer-1efjez1",
+   "tag": "div",
+   "text": "Subscribe",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-138v7uv",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div.framer-66k0md > div.framer-138v7uv > div.ssr-variant > div.framer-1oxx1b4 > div",
+   "tag": "div",
+   "framer": {
+    "framerBackgroundImageWrapper": "true"
+   }
+  },
+  {
+   "selector": "div.framer-2U5dV.framer-q6DkR > div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2",
+   "tag": "div",
+   "text": "© 2026 Strand. All rights reserved.Terms and Conditions/Priv",
+   "framer": {
+    "framerName": "Copyright"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-868d6s",
+   "tag": "div",
+   "text": "© 2026 Strand. All rights reserved.",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-vjqi89 > div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2",
+   "tag": "div",
+   "text": "Terms and Conditions/Privacy Policy",
+   "framer": {
+    "framerName": "Terms / Privacy"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-psm4bz",
+   "tag": "div",
+   "text": "Terms and Conditions",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-psm4bz > p.framer-text.framer-styles-preset-1unq4w > a.framer-text.framer-styles-preset-656phd",
+   "tag": "a",
+   "text": "Terms and Conditions",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-16ek34v",
+   "tag": "div",
+   "text": "/",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-1xetojl > div.framer-66k0md > div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-123xktd",
+   "tag": "div",
+   "text": "Privacy Policy",
+   "framer": {
+    "framerComponentType": "RichTextContainer"
+   }
+  },
+  {
+   "selector": "div.framer-15v4uw2 > div.framer-hllgs2 > div.framer-123xktd > p.framer-text.framer-styles-preset-1unq4w > a.framer-text.framer-styles-preset-656phd",
+   "tag": "a",
+   "text": "Privacy Policy",
+   "transition": "color 0.15s cubic-bezier(0.12, 0.23, 0.5, 1) 0s",
+   "framer": {}
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk",
+   "tag": "a",
+   "text": "Create a free website with Framer, the website builder loved",
+   "framer": {
+    "framerAppearId": "n0ccwk",
+    "framerName": "Light"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-13yxzio",
+   "tag": "div",
+   "framer": {
+    "framerName": "Backdrop"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm",
+   "tag": "div",
+   "text": "Create a free website with Framer, the website builder loved",
+   "framer": {
+    "framerName": "Content"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm > div.framer-1kflzx5 > div.framer-hcsc7.framer-e50co",
+   "tag": "div",
+   "framer": {
+    "framerName": "Logo"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-19yaanm > div.framer-g7oZR.framer-1um7t9d",
+   "tag": "div",
+   "framer": {
+    "framerName": "Text"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-j4ugry",
+   "tag": "div",
+   "framer": {
+    "framerName": "Bottom"
+   }
+  },
+  {
+   "selector": "div > a.framer-6jWyo.framer-n0ccwk > div.framer-jnuwbw",
+   "tag": "div",
+   "framer": {
+    "framerName": "Border"
+   }
+  },
+  {
+   "selector": "script",
+   "tag": "script",
+   "text": "(()=>{function c(i,o,s){if(window.__framer_disable_appear_ef",
+   "framer": {
+    "framerAppearAnimation": "reduce"
+   }
+  },
+  {
+   "selector": "script",
+   "tag": "script",
+   "framer": {
+    "framerBundle": "main"
+   }
+  }
+ ],
+ "cdp": [
+  {
+   "id": "46",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "47",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "48",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "ease-in",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "49",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "ease-in",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "50",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "ease-in",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "51",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "ease-in",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "52",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "53",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "54",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "55",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "56",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "57",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "58",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "59",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "60",
+   "type": "WebAnimation",
+   "duration": 400,
+   "delay": 0,
+   "easing": "cubic-bezier(0.12, 0.23, 0.5, 1)",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "61",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "62",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "63",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "ease-in",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "64",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "ease-in",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "65",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "ease-in",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "66",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "ease-in",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "67",
+   "type": "WebAnimation",
+   "duration": 200,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "68",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "69",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "70",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "71",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "72",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "73",
+   "type": "WebAnimation",
+   "duration": 100,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  },
+  {
+   "id": "74",
+   "type": "WebAnimation",
+   "duration": 300,
+   "delay": 0,
+   "easing": "ease-out",
+   "iterations": 1,
+   "keyframes": [
+    {
+     "offset": "0%",
+     "easing": "linear"
+    },
+    {
+     "offset": "100%",
+     "easing": "linear"
+    }
+   ]
+  }
+ ]
+}

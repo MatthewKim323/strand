@@ -279,11 +279,13 @@ a.ab-role:hover { color: ${BRIGHT}; }
 
 /* --- tablet ----------------------------------------------------------- */
 @media (min-width: 810px) and (max-width: 1199.98px) {
+  /* The reference unsets the border custom properties here, and because they
+     inherit that resolves to the Container's 1px rather than to none: the
+     Content and Partners edges keep their hairlines at this width. */
   .ab-root { padding: 0; }
-  .ab-content { min-width: 800px; box-shadow: none; }
+  .ab-content { min-width: 800px; }
   .ab-origins-text { grid-template-columns: repeat(8, minmax(50px, 1fr)); }
   .ab-origins-copy { grid-column: span 6; }
-  .ab-partners { box-shadow: none; }
 }
 @media (max-width: 1199.98px) {
   .ab-h1 { font-size: 32px; line-height: 34px; }

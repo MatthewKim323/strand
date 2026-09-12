@@ -34,6 +34,11 @@ const ROW_CLOSED_HEIGHT = 88;
 const ROW_PADDING_Y = 32; // 16px top + 16px bottom
 const GAP_CLOSED = 22;
 const GAP_OPEN = 0;
+/* Written with units: `gap` is not one of the keys the animation runtime
+   auto-suffixes, so a bare number lands in the style attribute unitless and is
+   dropped, leaving the row stuck at whatever it last held. */
+const GAP_CLOSED_CSS = `${GAP_CLOSED}px`;
+const GAP_OPEN_CSS = `${GAP_OPEN}px`;
 
 /** "Vertical Dot Arrow": five 2x2 dots. Neutral = flat, Down = chevron. */
 const DOT_LEFT = [7, 11, 15, 19, 23];
@@ -116,8 +121,8 @@ function Row({
     >
       <motion.div
         className="fq-inner"
-        initial={{ gap: GAP_CLOSED }}
-        animate={{ gap: open ? GAP_OPEN : GAP_CLOSED }}
+        initial={{ gap: GAP_CLOSED_CSS }}
+        animate={{ gap: open ? GAP_OPEN_CSS : GAP_CLOSED_CSS }}
         transition={SPRING}
       >
         <motion.div
